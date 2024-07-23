@@ -25,7 +25,7 @@ ht-degree: 2%
 
 [!BADGE 瞭解更多]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition Beta發行版本"}
 
->電子郵件內容的[!TAB AI小幫手]
+>[!TAB 電子郵件內容的AI小幫手]
 
 使用由創作AI提供技術支援的Adobe Journey Optimizer B2B Edition AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、目標文字內容，甚至是專為引起觀眾共鳴而量身打造的影像，協助您最佳化傳送的影響。
 
