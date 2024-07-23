@@ -3,16 +3,16 @@ title: 歷程概觀儀表板
 description: 瞭解歷程概觀儀表板提供的資訊，以及它如何協助您監視和管理您的帳戶歷程策略。
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 3223a1379fad0da8b46af8c2f3929e79fafbd256
+source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # 歷程概觀儀表板
 
-此儀表板透過快照環圈圖和趨勢顯示折線圖，提供參與度的完整檢視，並展示帳戶和個別互動隨時間變化的即時量度。 它可協助您有效監控和策略化參與工作。
+此儀表板提供所選帳戶歷程的完整總覽，使用環形圖和折線圖詳細說明帳戶進度，該圖表會分類並量化完成、進行中的活動以及一段時間內的中止。 它可協助行銷人員透過關鍵傳送和參與量度，評估電子郵件和簡訊管道的成效。
 
 ## 歷程狀態
 
@@ -85,7 +85,3 @@ ht-degree: 0%
 * [!UICONTROL 輸入日期]
 * [!UICONTROL 結束日期]
 * [!UICONTROL 歷程天數]
-
-全域篩選器：
-
-日期篩選器

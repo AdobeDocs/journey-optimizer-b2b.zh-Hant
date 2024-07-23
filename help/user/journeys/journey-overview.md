@@ -3,9 +3,9 @@ title: 帳戶歷程
 description: 瞭解帳戶歷程，以及如何建立和管理它們。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 59407f21319ff1b84e4fd001c4e92cfff61c57c9
+source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 此表格包含依名稱和建立者搜尋的功能。 排序目前無法使用。
 
-您可以按一下右上角的欄圖示，並選取或清除核取方塊來自訂顯示的表格。
+您可以按一下右上角的&#x200B;_欄_&#x200B;圖示並選取或清除核取方塊，以自訂顯示的表格。
 
 ![選擇要顯示在帳戶歷程清單中的資料行](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ![帳戶歷程工作區](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-每個歷程的編輯器標題包括：
+每個帳戶歷程的編輯器標題包括：
 
 * 歷程名稱
 * 可編輯名稱（_編輯_&#x200B;圖示）

@@ -3,9 +3,9 @@ title: 購買群組角色範本
 description: 瞭解如何定義作為購買群組元件的角色範本。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,23 @@ ht-degree: 0%
 
 1. 為您要為範本定義的每個角色新增規則。
 
-   目前版本有六個角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。
+* 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
 
-   ![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+  目前版本有六個角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。
 
-   * 從清單中選擇角色。
+![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-   * 按一下&#x200B;**[!UICONTROL 新增條件]**。
+* 設定用於計算參與分數的角色的&#x200B;**[!UICONTROL 加權]**。
+
+  每個選項的值都會轉譯成分數計算的百分比： [!UICONTROL 一般] = 20，[!UICONTROL 次要] = 40，[!UICONTROL 一般] = 60，[!UICONTROL 重要] = 80，以及[!UICONTROL 重要] = 100。
+
+  例如，角色範本中的角色使用Vital、Important和Normal，則會轉換成100/240、80/240、60/240。
+
+* **[!UICONTROL 新增自動指派的條件]** — 選取此核取方塊可新增條件，以便將成員自動指派給符合條件的購買群組。 如果未選取核取方塊，則不需要新增條件。
+
+* **[!UICONTROL 完整性分數所需]** — 如果您希望計算完整性分數需要角色，請選取此核取方塊。—>
+
+* 按一下&#x200B;**[!UICONTROL 新增條件]**。
 
    * 在條件對話方塊中，展開&#x200B;**[!UICONTROL 人員屬性]**&#x200B;的清單，並找出要用來比對角色的屬性。 將其拖曳至右側，並放置在篩選空間中。
 
@@ -77,19 +87,15 @@ ht-degree: 0%
 
    * 按一下&#x200B;**[!UICONTROL 完成]**。
 
-   針對您想要加入範本的每個其他角色，按一下&#x200B;**[!UICONTROL 新增其他角色]**，並定義一或多個條件以符合該角色。
+針對您想要加入範本的每個其他角色，按一下&#x200B;**[!UICONTROL 新增其他角色]**，並定義一或多個條件以符合該角色。
 
-   已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. 如果範本已可供使用，請按一下右上方的&#x200B;**[!UICONTROL Publish]**。
 
    發佈範本會將它設定為&#x200B;_即時_&#x200B;狀態，並使其可與解決方案興趣建立關聯。 至少必須有一個已定義的角色才能發佈角色範本。
 
    您的變更會自動儲存為&#x200B;_草稿_&#x200B;狀態。 如果您尚未準備好發佈角色範本，請按一下頁面頂端的向左（後退）箭頭，並返回「角色範本」清單。
-<!-- 
-< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
-
-Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## 編輯草稿角色範本
 

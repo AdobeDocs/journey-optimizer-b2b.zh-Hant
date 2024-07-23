@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B版本檔案
 description: 瞭解如何使用Adobe Journey Optimizer B2B Edition功能。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 [!BADGE 瞭解更多]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition Beta發行版本"}
 
->[!TAB 電子郵件內容的AI小幫手]
+>電子郵件內容的[!TAB AI小幫手]
 
 使用由創作AI提供技術支援的Adobe Journey Optimizer B2B Edition AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、目標文字內容，甚至是專為引起觀眾共鳴而量身打造的影像，協助您最佳化傳送的影響。
 
@@ -88,24 +88,25 @@ ht-degree: 2%
       <strong>購買群組</strong><br/><a href="./buying-groups/buying-groups-overview.md">購買群組概述</a><br/><a href="./buying-groups/buying-groups-role-templates.md">角色範本</a><br/><a href="./buying-groups/solution-interests.md">方案興趣</a><br/><a href="./buying-groups/buying-groups-create.md">建立購買群組</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>歷程內容</strong><br/><a href="./content/email-authoring.md">電子郵件製作</a><br/><a href="./content/ai-assistant-emails.md">電子郵件的AI小幫手</a><br/><a href="./content/sms-authoring.md">簡訊製作</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
+      <strong>帳戶歷程</strong><br/><a href="./journeys/journey-overview.md">歷程總覽</a><br/><a href="./journeys/journey-nodes.md">歷程節點</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">建立帳戶歷程</a>
     </td>
   </tr>
   <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong>歷程內容</strong><br/><a href="./content/email-authoring.md">電子郵件製作</a><br/><a href="./content/ai-assistant-emails.md">電子郵件的AI小幫手</a><br/><a href="./content/sms-authoring.md">簡訊製作</a>
+    </td>
         <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
-      <strong>帳戶歷程</strong><br/><a href="./journeys/journey-overview.md">歷程總覽</a><br/><a href="./journeys/journey-nodes.md">歷程節點</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">建立帳戶歷程</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
+      <strong>Assets</strong><br/><a href="./content/assets-overview.md">總覽</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage設計工作室</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
       <strong>深入分析</strong><br/><a href="./dashboards/buying-groups-dashboard.md">購買群組儀表板</a><br/><a href="./dashboards/journeys-dashboard.md">歷程儀表板</a><br/><a href="./dashboards/engagement-dashboard.md">參與儀表板</a>
     </td>
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>整合</strong><br/><a href="./integrations/experience-manager-assets-integration.md">Adobe Experience Manager Assets</a>
-    </td>
-  </tr>
+
+</tr>
 </table>
 
 <!-- 

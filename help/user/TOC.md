@@ -1,12 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B版本檔案
-user-guide-description: 此說明將顯示在登入頁面上。
-badgeBeta: label="Beta版本" type="informative" tooltip="Beta發行檔案"
-badgeGA: label="GA限量發行" type="neutral" tooltip="有限版本GA檔案"
-source-git-commit: 765720da2fe4f8ccc668d8defc6a76cf942f7b5d
+user-guide-description: 瞭解Adobe Journey Optimizer B2B Edition，以及您如何使用它透過內建的創作AI和領先業界的自動化來協調帳戶和購買群組歷程。
+source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '130'
+ht-degree: 9%
 
 ---
 
@@ -14,7 +12,14 @@ ht-degree: 5%
 # Journey Optimizer B2B Edition使用手冊 {#user}
 
 + [Adobe Journey Optimizer B2B版本檔案](guide-overview.md)
-+ [登入與首頁](home-page.md)
++ 開始使用{#get-started}
+   + [Journey Optimizer B2B版本概觀](about-journey-optimizer-b2b-edition.md)
+   + [登入與首頁](home-page.md)
+   + [快速入門手冊](./start/get-started.md)
+   + [使用AI助理](./start/ai-assistant.md)
++ 帳戶對象{#account-audiences}
+   + [概觀](./audiences/account-audience-overview.md)
+   + [xdm欄位對應](./data/field-mapping.md)
 + 購買群組{#buying-groups}
    + [概觀](./buying-groups/buying-groups-overview.md)
    + [解決方案興趣](./buying-groups/solution-interests.md)
@@ -25,11 +30,21 @@ ht-degree: 5%
    + [帳戶歷程節點](./journeys/journey-nodes.md)
 + 歷程內容{#journey-content}
    + [電子郵件製作](./content/email-authoring.md)
+   + [銷售警示電子郵件](./content/sales-alert-email.md)
    + [用於電子郵件製作的AI助理](./content/ai-assistant-emails.md)
    + [簡訊製作](./content/sms-authoring.md)
++ 內容管理{#content-management}
+   + Assets {#assets}
+      + [概觀](./content/assets-overview.md)
+      + [使用Marketo Engage資產](./content/marketo-engage-design-studio.md)
+      + [使用AEM Assets影像](./content/aem-assets.md)
+   + [範本](./content/email-templates.md)
+   + [片段](./content/fragments.md)
 + 深入分析控制面板{#dashboards}
    + [購買群組](./dashboards/buying-groups-dashboard.md)
    + [參與概觀](./dashboards/engagement-dashboard.md)
    + [歷程概觀](./dashboards/journeys-dashboard.md)
-+ 整合{#integrations}
-   + [AdobeExperience Manager Assets](./integrations/experience-manager-assets-integration.md)
++ 管理{#admin}
+   + [使用者管理](./admin/user-management.md)
+   + [設定AEM Assets存放庫](./admin/configure-aem-repositories.md)
+   + [治理](./admin/governance.md)
