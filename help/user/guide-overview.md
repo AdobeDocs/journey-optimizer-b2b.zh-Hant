@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B版本檔案
-description: 瞭解如何使用Adobe Journey Optimizer B2B Edition功能。
+description: 瞭解如何使用Adobe Journey Optimizer B2B Edition功能，運用內建的產生式AI和領先業界的自動化功能，協調帳戶和購買群組歷程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
+source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 2%
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
@@ -19,21 +19,25 @@ ht-degree: 2%
 
 >[!BEGINTABS]
 
->[!TAB Beta版本已推出]
+>[!TAB AI 助理]
 
-加入Beta計畫，探索Adobe Journey Optimizer B2B Edition Beta發行版本中的許多功能。
+快速掌握帳戶型行銷概念，並瞭解Journey Optimizer B2B Edition功能，這些功能的設計目的為最大化您的團隊策略。
 
-[!BADGE 瞭解更多]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition Beta發行版本"}
+[!BADGE 瞭解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="瞭解AI助理"}
 
->[!TAB 電子郵件內容的AI小幫手]
-
-使用由創作AI提供技術支援的Adobe Journey Optimizer B2B Edition AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、目標文字內容，甚至是專為引起觀眾共鳴而量身打造的影像，協助您最佳化傳送的影響。
+使用由創作AI提供支援的Adobe Journey Optimizer B2B Edition電子郵件內容AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、目標文字內容，甚至是專為引起觀眾共鳴而量身打造的影像，協助您最佳化傳送的影響。
 
 [!BADGE 瞭解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="瞭解電子郵件的AI助理"}
 
+>[!TAB 視覺片段]
+
+建立可重複使用的元件作為自訂內容區塊，供行銷團隊成員用於組合電子郵件內容，以改善設計流程。
+
+[!BADGE 瞭解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="瞭解視覺片段"}
+
 >[!TAB 購買群組]
 
-從您整個企業的統一B2B資料建立購買群組、使其與貴公司的產品保持一致，並自動化您定義、識別及鎖定每個角色的適當成員的方式，以擴展客戶歷程的最精確鎖定目標。
+從您企業內的統一B2B資料建立購買群組。 讓他們配合貴公司的產品/服務，並自動化您定義、識別及鎖定每個角色的適當成員的方式，以針對您的客戶歷程擴充最精確的鎖定目標。
 
 [!BADGE 瞭解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="瞭解購買群組"}
 
@@ -70,13 +74,13 @@ ht-degree: 2%
     </tr>
 </table>
 
-## 探索檔案
+## 探索文件
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>登入和首頁</strong><br/><a href="home-page.md#marketer---new-user">行銷人員 — 新使用者</a><br/><a href="home-page.md#marketer---advanced-user">行銷人員 — 進階</a> <br/><a href="home-page.md#administrator---new-user">管理員 — 新使用者</a> <br/><a href="home-page.md#administrator---advanced-user">管理員 — 進階</a>
+      <strong>開始使用</strong><br/><a href="home-page.md">登入與首頁</a><br/><a href="./start/get-started.md">快速入門手冊</a> <br/><a href="./start/ai-assistant.md">AI小幫手</a>
     </td>
     <!--
     <td>
@@ -99,7 +103,7 @@ ht-degree: 2%
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
-      <strong>Assets</strong><br/><a href="./content/assets-overview.md">總覽</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage設計工作室</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
+      <strong>內容管理</strong><br/><a href="./content/assets-overview.md">Assets概觀</a><br/><a href="./content/email-templates.md">電子郵件範本</a><br/><a href="./content/fragments.md">視覺片段</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>

@@ -1,11 +1,12 @@
 ---
-title: 使用Experience Manager Assets
+title: 使用 Experience Manager Assets
 description: 瞭解如何在Adobe Journey Optimizer B2B Edition中編寫內容時，使用已連線AEM Assets存放庫中的影像資產。
 feature: Assets, Content
-source-git-commit: 0bdf0da4db0cbfc781d16f1c50716b1fc8ea4db9
+exl-id: c6864981-209c-4123-8d3f-24deb07026a0
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 * 建立新內容時，請在對話方塊中選擇`AEM Assets`做為&#x200B;**[!UICONTROL Image Source]**&#x200B;專案。
 
-  ![在建立對話方塊中選取AEM Assets作為影像來源](./assets/create-dialog-aem-assets.png){width="500"}
+  ![在建立對話方塊中選取AEM Assets作為影像來源](./assets/create-dialog-aem-assets.png){width="400"}
 
 * 開啟現有的內容資源時，請在右側的&#x200B;_[!UICONTROL 內文]_&#x200B;面板中選擇`AEM Assets`。
 

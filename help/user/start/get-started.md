@@ -1,10 +1,11 @@
 ---
 title: 開始使用Journey Optimizer B2B版本
 description: 身為Journey Optimizer B2B Edition的新使用者，瞭解快速入門的重要領域。
-source-git-commit: f38dc43681d7c12f6ae5e69978e5950fd9526f4c
+exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 3%
+source-wordcount: '623'
+ht-degree: 8%
 
 ---
 
@@ -20,11 +21,11 @@ ht-degree: 3%
 
 您的團隊開始使用Adobe Journey Optimizer B2B Edition功能之前，需要執行數個步驟來準備環境。 執行這些步驟，資料工程師和行銷人員就可以開始使用Adobe Journey Optimizer B2B Edition。
 
-作為系統管理員，您需要瞭解產品設定檔並指派許可權用於沙箱管理和通道設定。 您也需要設定沙箱，並針對可用的產品設定檔進行管理。 然後，您可以將團隊成員指派給產品設定檔。 這些功能可由具有Adobe Admin Console存取許可權的產品管理員管理。 [進一步瞭解Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
+作為系統管理員，您需要瞭解產品設定檔並指派許可權用於沙箱管理和通道設定。 您也需要設定沙箱，並針對可用的產品設定檔進行管理。 然後，您可以將團隊成員指派給產品設定檔。 這些功能可由具有Adobe Admin Console存取許可權的產品管理員管理。 [進一步瞭解 Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
 
-請前往下列頁面，瞭解存取管理：
+請前往下列頁面，了解存取管理：
 
-1. **建立沙箱**&#x200B;以將執行個體分割成個別的隔離虛擬環境。 [瞭解更多](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **建立沙箱**&#x200B;以將執行個體分區到獨立的虛擬環境中。 [瞭解更多](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
 
 1. **設定產品設定檔**。 產品設定檔是Adobe Experience Platform中一組統一許可權，可讓使用者存取介面中的特定功能或物件。 [瞭解更多](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -46,7 +47,7 @@ ht-degree: 3%
 
 1. **建立購買群組**。 定義符合您的業務目標與宗旨的關鍵元件，並建立可識別目標帳戶清單成員的購買群組。 [瞭解更多](../buying-groups/buying-groups-overview.md)
 
-1. **建立和管理資產**。 Adobe Experience Manager Assets提供單一、集中的資產存放庫，供您用來填入訊息。 [瞭解更多](../content/assets-overview.md)
+1. **建立及管理資產**。Adobe Experience Manager Assets提供單一、集中的資產存放庫，供您用來填入訊息。 [瞭解更多](../content/assets-overview.md)
 
 1. **新增個人化和動態電子郵件範本**。 運用Journey Optimizer B2B Edition個人化及動態內容功能，將您的訊息調整至適合您的對象。 [瞭解更多](../content/email-templates.md)
 

@@ -1,15 +1,15 @@
 ---
-title: 帳戶對象
+title: 帳戶客群
 description: 瞭解帳戶對象以及如何啟用帳戶型歷程。
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
-
-# 帳戶對象
+# 帳戶客群
 
 受眾是指一組具有類似行為和/或特徵的人。 Journey Optimizer B2B版本使用Adobe Real-time Customer Data Platform B2B和B2P版本中的帳戶細分功能。 透過帳戶劃分，使用者可以利用系統內任何B2B實體的資料來產生帳戶受眾。 這些帳戶對象可作為Journey Optimizer B2B Edition帳戶歷程的輸入專案，促進順暢的啟動和個人化功能。
 

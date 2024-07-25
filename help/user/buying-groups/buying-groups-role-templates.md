@@ -3,7 +3,7 @@ title: 購買群組角色範本
 description: 瞭解如何定義作為購買群組元件的角色範本。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
+source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -55,41 +55,41 @@ ht-degree: 0%
 
 1. 為您要為範本定義的每個角色新增規則。
 
-* 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
+   * 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
 
-  目前版本有六個角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。
+     目前版本有六個角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。
 
-![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+     ![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-* 設定用於計算參與分數的角色的&#x200B;**[!UICONTROL 加權]**。
+   * 設定用於計算參與分數的角色的&#x200B;**[!UICONTROL 加權]**。
 
-  每個選項的值都會轉譯成分數計算的百分比： [!UICONTROL 一般] = 20，[!UICONTROL 次要] = 40，[!UICONTROL 一般] = 60，[!UICONTROL 重要] = 80，以及[!UICONTROL 重要] = 100。
+     每個選項的值都會轉譯成分數計算的百分比： [!UICONTROL 一般] = 20，[!UICONTROL 次要] = 40，[!UICONTROL 一般] = 60，[!UICONTROL 重要] = 80，以及[!UICONTROL 重要] = 100。
 
-  例如，角色範本中的角色使用Vital、Important和Normal，則會轉換成100/240、80/240、60/240。
+     例如，角色範本中的角色使用Vital、Important和Normal，則會轉換成100/240、80/240、60/240。
 
-* **[!UICONTROL 新增自動指派的條件]** — 選取此核取方塊可新增條件，以便將成員自動指派給符合條件的購買群組。 如果未選取核取方塊，則不需要新增條件。
+   * **[!UICONTROL 新增自動指派的條件]** — 選取此核取方塊可新增條件，以便將成員自動指派給符合條件的購買群組。 如果未選取核取方塊，則不需要新增條件。
 
-* **[!UICONTROL 完整性分數所需]** — 如果您希望計算完整性分數需要角色，請選取此核取方塊。—>
+   * **[!UICONTROL 完整性分數所需]** — 如果您希望計算完整性分數需要角色，請選取此核取方塊。—>
 
-* 按一下&#x200B;**[!UICONTROL 新增條件]**。
+   * 按一下&#x200B;**[!UICONTROL 新增條件]**。
 
-   * 在條件對話方塊中，展開&#x200B;**[!UICONTROL 人員屬性]**&#x200B;的清單，並找出要用來比對角色的屬性。 將其拖曳至右側，並放置在篩選空間中。
+      * 在條件對話方塊中，展開&#x200B;**[!UICONTROL 人員屬性]**&#x200B;的清單，並找出要用來比對角色的屬性。 將其拖曳至右側，並放置在篩選空間中。
 
-     ![角色範本新增條件拖曳屬性](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+        ![角色範本新增條件拖曳屬性](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-   * 使用屬性，以使用一或多個值建立相符篩選器。
+      * 使用屬性，以使用一或多個值建立相符篩選器。
 
-     在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
+        在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
 
-     使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
+        使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
 
-   * 如有需要，請新增其他屬性和條件，進一步精簡符合角色的條件。
+      * 如有需要，請新增其他屬性和條件，進一步精簡符合角色的條件。
 
-   * 按一下&#x200B;**[!UICONTROL 完成]**。
+      * 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
-針對您想要加入範本的每個其他角色，按一下&#x200B;**[!UICONTROL 新增其他角色]**，並定義一或多個條件以符合該角色。
+   針對您想要加入範本的每個其他角色，按一下&#x200B;**[!UICONTROL 新增其他角色]**，並定義一或多個條件以符合該角色。
 
-已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. 如果範本已可供使用，請按一下右上方的&#x200B;**[!UICONTROL Publish]**。
 
