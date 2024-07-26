@@ -2,7 +2,8 @@
 title: 使用Marketo Engage資產
 description: 瞭解如何在Journey Optimizer B2B Edition中使用Marketo Engage Design Studio資產管理整合。
 feature: Assets, Content
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%
@@ -95,7 +96,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B Edition的預設資產來�
 
 在&#x200B;_[!UICONTROL 取代資產]_&#x200B;對話方塊中，將取代檔案從您的系統拖放至檔案方塊。 您也可以按一下&#x200B;_[!UICONTROL 從電腦選取檔案]_&#x200B;連結，以使用本機檔案系統來選取檔案。 （如果您在本機系統中選取多個檔案，則會使用選取的第一個檔案來取代。）
 
-![取代資產對話方塊](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+![取代資產對話方塊](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
 
 若要繼續，請按一下[取代]。**** 您可以按一下&#x200B;**[!UICONTROL 取消]**，中止程式。
 
@@ -201,7 +202,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B Edition的預設資產來�
 
    資料夾名稱必須是唯一的，最多可包含100個字元，而且不能包含特殊字元，例如`;`、`:`、`\`、`|`。
 
-1. 按一下&#x200B;**[!UICONTROL 保存]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 +++
 

@@ -3,9 +3,9 @@ title: 購買群組總覽儀表板
 description: 瞭解購買群組概述儀表板，以及它如何啟用行銷團隊的銷售移交。
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 若要與資料互動，請使用右上角的動作選單。
 
-![按一下圖示以存取動作功能表](./assets/buying-group-more-menu.png){width="400"}
+![按一下圖示以存取動作功能表](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL 鑽研]
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 ![圖形資料的鑽研](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-套用至控制面板的全域篩選器會移轉過來，且無法從此頁面變更。
+套用至控制面板的全域篩選器會移轉過來。
 
 按一下右上方的動作功能表圖示，然後選擇&#x200B;**[!UICONTROL 檢視更多]**&#x200B;以[檢視擴充的資料和深入分析](#view-more)。
 

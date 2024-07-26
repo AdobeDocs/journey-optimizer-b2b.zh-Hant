@@ -3,9 +3,9 @@ title: 電子郵件製作
 description: 瞭解如何建立用於帳戶歷程的個人化電子郵件內容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: cae7aa7faa67bd1888b85051ff247848b6c3c072
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 1. 針對人員&#x200B;]_的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
 1. 針對&#x200B;_[!UICONTROL 電子郵件來源]_，請選擇&#x200B;**[!UICONTROL 建立新電子郵件]**。
 
-   或者，您也可以選取`Select email from Adobe Marketo Engage`選項，在Marketo Engage中使用其中一個預先撰寫的電子郵件，並將其作為帳戶歷程的一部分傳送。
+   或者，您也可以選取「_[!UICONTROL 從Adobe Marketo Engage選取電子郵件]_」選項，在Marketo Engage中使用其中一個預先撰寫的電子郵件，並將其作為帳戶歷程的一部分傳送。
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->使用由generative AI支援的Adobe Journey Optimizer B2B Edition AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、鎖定目標文字內容，並針對與對象產生迴響的影像取得AI Assistant建議，協助您最佳化傳送的影響。 [瞭解更多](./ai-assistant-emails.md)
+>使用由generative AI支援的Adobe Journey Optimizer B2B Edition AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、鎖定目標文字內容，並針對與對象產生迴響的影像取得AI Assistant建議，協助您最佳化傳送的影響。 [了解更多](./ai-assistant-emails.md)
 
 ### 從草稿開始設計您的電子郵件
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 1. 從左窗格中選取&#x200B;**[!UICONTROL 連結]**&#x200B;索引標籤，以顯示您所追蹤內容的所有URL。
 
-   您可以修改「追蹤型別」或「標籤」，並視需要新增標籤。
+   您可以修改&#x200B;_追蹤型別_&#x200B;或&#x200B;_標籤_，並視需要新增標籤。
 
 如有需要，您可以按一下進階功能表中的&#x200B;**[!UICONTROL 切換到程式碼編輯器]**，以進一步個人化您的電子郵件。 程式碼編輯器可讓您編輯電子郵件原始程式碼，例如新增追蹤或自訂HTML標籤。
 

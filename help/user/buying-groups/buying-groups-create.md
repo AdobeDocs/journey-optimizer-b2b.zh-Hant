@@ -3,7 +3,7 @@ title: 建立購買群組
 description: 瞭解如何建立購買群組。
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 確認對話方塊提供購買群組流程的摘要，以及預估完成時間。 若要確認並啟動程式，請按一下[建立]。****
 
-![建立購買群組確認對話方塊](./assets/buying-groups-create-confirm.png){width="425" zoomable="no"}
+![建立購買群組確認對話方塊](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
 您可以導覽使用者至解決方案興趣標籤，並顯示針對解決方案興趣建立的工作計數。
 

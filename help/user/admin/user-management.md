@@ -3,10 +3,11 @@ title: 使用者管理
 description: 瞭解如何將團隊成員指派給Journey Optimizer B2B Edition產品設定檔。
 feature: Setup
 roles: Admin
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
+source-git-commit: f8ae6e51e76ded14316273c8e746ed814e7eb68b
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 1%
+source-wordcount: '1055'
+ht-degree: 3%
 
 ---
 
@@ -35,13 +36,15 @@ ht-degree: 1%
 
 1. 使用您的Adobe ID登入。
 
-   登入成功後會看到Adobe Admin Console的「概觀」頁面。
+   登入成功後，您會看到Adobe Admin Console的&#x200B;_概觀_&#x200B;頁面。
 
 1. 如果您可以存取多個組織，請確保您已登入正確的組織。
 
    若要變更您的組織，請按一下右上角的組織名稱，然後選擇您需要存取的組織。
 
-1. 從「使用者」卡中選取「管理員」，確認您是系統管理員。
+1. 從&#x200B;_[!UICONTROL 使用者]_&#x200B;卡中選擇&#x200B;**[!UICONTROL 管理員]**&#x200B;以驗證您是系統管理員。
+
+   ![Admin Console概觀 — 按一下[管理員]](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
 
 1. 透過輸入您的Adobe ID電子郵件、使用者名稱、名字或姓氏進行搜尋。
 
@@ -53,49 +56,66 @@ ht-degree: 1%
 
 授與使用者Adobe解決方案的存取權時，您不一定要授與他們完整的存取權。 產品設定檔使每個解決方案都可以擁有自己的一組使用者許可權。 使用Admin Console指派產品設定檔。
 
+如需使用產品設定檔取得使用者許可權的詳細資訊，請參閱Admin Console檔案中的[管理企業使用者的產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)。
+
 >[!NOTE]
 >
->這些步驟只能由Admin Console系統管理員或Marketo Engage產品管理員執行。
+>Admin Console系統管理員或Marketo Engage產品管理員可以執行這些步驟。
 
 1. 登入[https://adminconsole.adobe.com](https://adminconsole.adobe.com)。
 
-1. 選擇「產品>Marketo Engage」。
+1. 選取「**[!UICONTROL 產品]**」標籤。
 
-1. 按一下[新增設定檔]，然後輸入產品設定檔名稱，例如&#x200B;_標準使用者_。
+1. 開啟您要新增設定檔的Market Engage執行個體，然後按一下「新增設定檔」。
 
-1. 按一下下一步>儲存
+   ![Admin Console-Marketo Engage執行個體 — 新設定檔](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
+
+1. 輸入產品設定檔名稱，例如&#x200B;_標準使用者_。
+
+1. 按一下[下一步]****，然後按一下[儲存]****。
 
 ## 建立使用者群組 {#create-user-group}
 
 使用者群組是使用者被授予一組共用許可權的集合。 您可以在使用者群組中新增或移除使用者。 當群組內的使用者變更時，群組許可權會維持不變。
 
+如需有關如何使用使用者群組來管理許可權的詳細資訊，請參閱Admin Console檔案中的[管理使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)。
+
 >[!NOTE]
 >
->這些步驟只能由Admin Console系統管理員執行。
+>Admin Console系統管理員可以執行這些步驟。
 
 1. 登入[https://adminconsole.adobe.com](https://adminconsole.adobe.com)。
 
-1. 選擇&#x200B;**[!UICONTROL 使用者]** > **[!UICONTROL 使用者群組]** > **[!UICONTROL 新增使用者群組]**。
+1. 選取&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤。
+
+1. 在左側導覽中選擇&#x200B;**[!UICONTROL 使用者群組]**。
+
+1. 按一下右上角的&#x200B;**[!UICONTROL 新增使用者群組]**。
 
 1. 輸入使用者群組的名稱，例如&#x200B;_標準使用者_，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
 1. 按一下您剛建立的使用者群組。
 
-1. 按一下&#x200B;**[!UICONTROL 已指派的產品設定檔]** > **[!UICONTROL 指派設定檔]**。
+1. 選取&#x200B;**[!UICONTROL 指派的產品設定檔]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 指派設定檔]**。
 
-1. 選取下列產品：
-   * [!UICONTROL Marketo Engage — 標準使用者]
+1. 按一下&#x200B;**+**&#x200B;並新增下列產品的每個執行個體：
+
+   * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
-   * [!UICONTROL Adobe Experience Platform資料彙集 — 預設]
+   * [!UICONTROL Adobe Experience Platform資料彙集]
    * [!UICONTROL 資料收集所有存取權]
 
-1. 按一下&#x200B;**[!UICONTROL 保存]**。
+   ![Admin Console — 使用者群組 — 新增產品](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 在AEP許可權中建立角色 {#create-role}
 
 許可權是統一許可權，可讓您定義指派給產品設定檔的授權。 每個許可權都是透過功能收集而得，例如歷程或購買群組，這些功能代表Journey Optimizer B2B版本中的不同功能或物件。
 
-_許可權_&#x200B;是Adobe Experience Platform的區域，管理員可在此定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 許可權也可讓您管理與特定角色相關聯的標籤、沙箱和使用者。
+Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 權限也可讓您管理與特定角色相關聯的標籤、沙箱和使用者。
+
+如需詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)的許可權。
 
 >[!NOTE]
 >
@@ -103,19 +123,23 @@ _許可權_&#x200B;是Adobe Experience Platform的區域，管理員可在此定
 
 1. 移至[experience.adobe.com](https://experience.adobe.com/)。
 
-1. 選取&#x200B;**[!UICONTROL 許可權]**。
+1. 在&#x200B;_[!UICONTROL 快速存取]_&#x200B;面板中，選取&#x200B;**[!UICONTROL 許可權]**。
 
    >[!NOTE]
    >
-   >如果您沒有看到許可權，您可能需要按一下「全部檢視」 ，然後從可用的應用程式中選取許可權。
+   >如果您沒有看到&#x200B;_[!UICONTROL 許可權]_，您可能需要按一下「檢視全部&#x200B;**[!UICONTROL 」]**，然後從可用的應用程式中選取它。
+
+   ![Experience Platform — 存取許可權](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 角色]**，然後選取&#x200B;**[!UICONTROL 建立角色]**。
 
-1. 在&#x200B;_[!UICONTROL 建立新角色]_&#x200B;對話方塊中，輸入角色的名稱，例如&#x200B;_標準使用者_，以及說明（選擇性）。
+1. 在&#x200B;_[!UICONTROL 建立新角色]_&#x200B;對話方塊中，輸入角色的名稱，例如&#x200B;_AJO B2B_，以及說明（選擇性）。
 
 1. 按一下&#x200B;**[!UICONTROL 確認]**。
 
 1. 選取您的沙箱。
+
+   ![Experience Platform — 新增新角色的沙箱](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
 
 1. 新增設定檔許可權：
 
@@ -129,30 +153,42 @@ _許可權_&#x200B;是Adobe Experience Platform的區域，管理員可在此定
       * [!UICONTROL 檢視B2B設定檔]
       * [!UICONTROL 管理B2B設定檔]
 
+   ![Experience Platform — 新增新角色的設定檔](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
+
 1. 按一下右上角的&#x200B;**[!UICONTROL 儲存]**。
 
-1. 選擇&#x200B;**[!UICONTROL 使用者群組]** > **[!UICONTROL 新增群組]**。
+1. 前往角色詳細資料，並選取&#x200B;**[!UICONTROL 使用者群組]**&#x200B;標籤。
+
+1. 按一下&#x200B;**[!UICONTROL 新增群組]**。
+
+   ![Experience Platform — 新增新角色的設定檔](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
 1. 選取您先前在Admin Console中建立的使用者群組旁的核取方塊。
 
-1. 按一下&#x200B;**[!UICONTROL 保存]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-## 在Admin Console中新增使用者
+## 在Admin Console中將使用者新增至群組
 
 >[!NOTE]
 >
->這些步驟只能由Admin Console系統管理員或產品管理員執行。
+>Admin Console系統管理員或產品管理員可以執行這些步驟。
+
+如需有關使用者管理的資訊，請參閱Admin Console檔案中的[Admin Console使用者](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)。
 
 1. 移至[https://adminconsole.adobe.com](https://adminconsole.adobe.com)。
 
-1. 按一下&#x200B;**[!UICONTROL 新增使用者]**。
+1. 在&#x200B;_[!UICONTROL 快速連結]_&#x200B;下，按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
 1. 新增每個使用者：
 
    * 輸入使用者的電子郵件地址、名字和姓氏。
-   * 按一下[!UICONTROL 使用者群組]。
+
+     ![Experience Platform — 新增新角色的設定檔](./assets/admin-console-add-users.png){width="600" zoomable="yes"}
+
+   * 若為&#x200B;**[!UICONTROL 使用者群組]**，請按一下&#x200B;**+**。
+
    * 選取您先前建立的使用者群組。
 
-1. 按一下&#x200B;**[!UICONTROL 套用]**。
+   * 按一下&#x200B;**[!UICONTROL 套用]**。
 
-1. 按一下&#x200B;**[!UICONTROL 保存]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
