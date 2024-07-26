@@ -1,7 +1,8 @@
 ---
 title: Adobe Journey Optimizer B2B版本概觀
 description: 探索Adobe Journey Optimizer B2B版本的關鍵功能、使用案例和架構。
-source-git-commit: b9fc31ed31cf05370f1370510d966b8151e14695
+exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer B2B Edition使用Adobe Experience Platform中的&#x200B;_帳戶對象_&#x200B;和帳戶的&#x200B;_人員對象_&#x200B;來推動在Marketo Engage內執行的帳戶歷程。 Experience Platform一律是這些資料的真實來源，但帳戶歷程的所有執行和處理都發生在Marketo EngageB2B行銷基礎結構內。 協調流程透過現有的Marketo Engage- Adobe Real-Time CDP B2B Edition來源聯結器，近乎即時地將資料帶回Experience Platform，這會串流不同Marketo Engage的資料變更Experience Platform。
 
-![高階資料架構](./assets/high-level-data-architecture.png){width="600" zoomable="yes"}
+![高階資料架構](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 ### 訂閱模式
 
@@ -41,4 +42,3 @@ Journey Optimizer B2B Edition訂閱是由具有Marketo Engage _munchkin_&#x200B;
 Journey Optimizer B2B Edition使用Real-Time CDP帳戶區段來定義和執行帳戶區段，以及歷程所需的相關帳戶個人區段。 隨著已發佈的歷程執行，有關人員和帳戶的資料可能會變更，並且會收集與歷程互動之人員的資料。 Journey Optimizer B2B Edition仰賴Real-Time CDP B2B Edition的Marketo Engage來源聯結器將資料變更流回Experience Platform沙箱，這是事實來源。  此資料會以幾近即時的方式傳送至AEP。
 
 只有Marketo Engage來源聯結器支援的現有資料型別（帳戶、人員和機會）會回到Real-Time CDP。 這表示購買群組資料不會流入AEP，而是位於Journey Optimizer B2B Edition訂閱所使用的Marketo Engage例項中。
-

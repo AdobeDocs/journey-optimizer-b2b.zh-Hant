@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B版本檔案
 description: 瞭解如何使用Adobe Journey Optimizer B2B Edition功能，運用內建的產生式AI和領先業界的自動化功能，協調帳戶和購買群組歷程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
+source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 5%
+source-wordcount: '422'
+ht-degree: 4%
 
 ---
 
@@ -23,29 +23,29 @@ ht-degree: 5%
 
 快速掌握帳戶型行銷概念，並瞭解Journey Optimizer B2B Edition功能，這些功能的設計目的為最大化您的團隊策略。
 
-[!BADGE 瞭解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="瞭解AI助理"}
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="瞭解AI助理"}
 
 使用由創作AI提供支援的Adobe Journey Optimizer B2B Edition電子郵件內容AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、目標文字內容，甚至是專為引起觀眾共鳴而量身打造的影像，協助您最佳化傳送的影響。
 
-[!BADGE 瞭解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="瞭解電子郵件的AI助理"}
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="瞭解電子郵件的AI助理"}
 
 >[!TAB 視覺片段]
 
 建立可重複使用的元件作為自訂內容區塊，供行銷團隊成員用於組合電子郵件內容，以改善設計流程。
 
-[!BADGE 瞭解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="瞭解視覺片段"}
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="瞭解視覺片段"}
 
 >[!TAB 購買群組]
 
 從您企業內的統一B2B資料建立購買群組。 讓他們配合貴公司的產品/服務，並自動化您定義、識別及鎖定每個角色的適當成員的方式，以針對您的客戶歷程擴充最精確的鎖定目標。
 
-[!BADGE 瞭解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="瞭解購買群組"}
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="瞭解購買群組"}
 
 >[!TAB 帳戶歷程]
 
 建立量身打造的歷程，在目標帳戶中購買群組，將超個人化的銷售和行銷參與自動化，以簡化需求產生、資格鑑定以及順暢、協調的購買群組體驗。
 
-[!BADGE 瞭解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview" tooltip="瞭解帳戶歷程"}
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview" tooltip="瞭解帳戶歷程"}
 
 >[!ENDTABS]
 
@@ -73,6 +73,12 @@ ht-degree: 5%
     <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg"></a></td>
     </tr>
 </table>
+
+## 概觀示範
+
+探索購買群組的元件，並瞭解建立帳戶歷程的基本知識。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
 ## 探索文件
 
