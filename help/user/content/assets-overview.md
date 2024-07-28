@@ -3,9 +3,9 @@ title: 資產
 description: 瞭解Journey Optimizer B2B版本中的資產管理。
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Adobe Experience Manager Assets可連線至Adobe Experience Manager Assets as a 
 
 ### 選擇資產來源
 
-如果您有Experience Manager Assets as a Cloud Service以及預設Adobe Marketo Engage Design Studio的訂閱，您可以從任一來源選擇影像資產。 若要這麼做，您必須在建立新電子郵件、電子郵件範本或視覺化片段時選取影像來源。 或者，您可以在編輯內容時選取影像來源。 選取範圍僅適用於編輯體驗，您可以視需要變更影像來源，以從其他資料庫存取資產。
+如果您有Experience Manager Assetsas a Cloud Service以及預設Adobe Marketo Engage Design Studio的訂閱，您可以從任一來源選擇影像資產。 若要這麼做，您必須在建立新電子郵件、電子郵件範本或視覺化片段時選取影像來源。 或者，您可以在編輯內容時選取影像來源。 選取範圍僅適用於編輯體驗，您可以視需要變更影像來源，以從其他資料庫存取資產。
 
-建立電子郵件
+_**建立內容資源**_ — 若要在建立電子郵件、電子郵件範本或片段時選擇影像來源，請在建立對話方塊中設定&#x200B;**[!UICONTROL 影像來源]**。
 
-編輯電子郵件 — 若要在視覺編輯器中選擇影像資產來源，請使用畫布頂端的&#x200B;**[!UICONTROL 選取影像來源]**&#x200B;選取器。
+_**編輯內容資源**_ — 若要在視覺化編輯器中選擇影像資產來源，請使用畫布頂端的&#x200B;**[!UICONTROL 選取影像來源]**&#x200B;選取器。
 
 ### 將資產新增至您的內容
 
