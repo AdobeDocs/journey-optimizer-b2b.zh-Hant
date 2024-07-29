@@ -4,7 +4,7 @@ user-guide-description: 瞭解Adobe Journey Optimizer B2B Edition，以及您如
 source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -12,7 +12,7 @@ ht-degree: 9%
 # Journey Optimizer B2B Edition使用手冊 {#user}
 
 + [Adobe Journey Optimizer B2B版本檔案](guide-overview.md)
-+ 開始使用{#get-started}
++ 開始使用 {#get-started}
    + [Journey Optimizer B2B版本概觀](about-journey-optimizer-b2b-edition.md)
    + [登入與首頁](home-page.md)
    + [快速入門手冊](./start/get-started.md)
@@ -33,8 +33,8 @@ ht-degree: 9%
    + [銷售警示電子郵件](./content/sales-alert-email.md)
    + [用於電子郵件製作的AI助理](./content/ai-assistant-emails.md)
    + [簡訊製作](./content/sms-authoring.md)
-+ 內容管理{#content-management}
-   + Assets {#assets}
++ 內容管理 {#content-management}
+   + 資產 {#assets}
       + [概觀](./content/assets-overview.md)
       + [使用Marketo Engage資產](./content/marketo-engage-design-studio.md)
       + [使用AEM Assets影像](./content/aem-assets.md)
@@ -44,7 +44,7 @@ ht-degree: 9%
    + [購買群組](./dashboards/buying-groups-dashboard.md)
    + [參與概觀](./dashboards/engagement-dashboard.md)
    + [歷程概觀](./dashboards/journeys-dashboard.md)
-+ 管理{#admin}
++ 管理 {#admin}
    + [使用者管理](./admin/user-management.md)
    + [設定AEM Assets存放庫](./admin/configure-aem-repositories.md)
    + [治理](./admin/governance.md)
