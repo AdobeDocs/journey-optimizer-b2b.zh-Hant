@@ -3,9 +3,9 @@ title: 電子郵件製作
 description: 瞭解如何建立用於帳戶歷程的個人化電子郵件內容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: ce38e378ad316fb379cb649a4592ed831250296d
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1294'
 ht-degree: 1%
 
 ---
@@ -88,8 +88,8 @@ ht-degree: 1%
 
 1. 插入個人化欄位，從設定檔屬性、對象成員資格、內容屬性等自訂內容。
 
-1. 按一下&#x200B;**[!UICONTROL 啟用條件內容]**&#x200B;以新增動態內容，並根據條件規則將內容調整至目標設定檔。
-
+<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
+-->
 1. 從左窗格中選取&#x200B;**[!UICONTROL 連結]**&#x200B;索引標籤，以顯示您所追蹤內容的所有URL。
 
    您可以修改&#x200B;_追蹤型別_&#x200B;或&#x200B;_標籤_，並視需要新增標籤。
