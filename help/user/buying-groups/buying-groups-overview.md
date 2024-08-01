@@ -3,10 +3,10 @@ title: 購買群組
 description: 瞭解購買群組及其元件。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e107c4c7c4e86c57b70d90e0f42d71454bc832a9
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -58,9 +58,9 @@ ht-degree: 5%
 
 「_[!UICONTROL 購買群組]_」頁面會整理為索引標籤：
 
-| 標籤 | 說明 |
+| 標記 | 說明 |
 | --- | ----------- |
-| [!UICONTROL 概覽] | 此標籤是預設標籤，會顯示[購買群組儀表板](../dashboards/buying-groups-dashboard.md)。 |
+| [!UICONTROL 概觀] | 此標籤是預設標籤，會顯示[購買群組儀表板](../dashboards/buying-groups-dashboard.md)。 |
 | [!UICONTROL 瀏覽] | 此索引標籤支援下列活動： <ul><li>檢視現有購買群組的清單。 </li><li>依購買群組名稱搜尋。 </li><li>依解決方案興趣篩選。 </li><li>深入到購買群組詳細資訊。 </li><li>建立購買群組。 刪除購買群組。</li></ul> |
 | [!UICONTROL 方案興趣] | 此索引標籤支援下列活動： <ul><li>檢視現有購買群組的清單。 </li><li>依購買群組名稱搜尋。 </li><li>存取及編輯解決方案興趣屬性。 </li><li>建立解決方案的興趣。 </li><li>刪除解決方案興趣。 </li><li>檢視並刪除購買群組工作。 </li></ul> |
 | [!UICONTROL 角色範本] | 此索引標籤支援下列活動： <ul><li>檢視現有角色範本的清單。 </li><li>依角色範本名稱搜尋。 </li><li>存取及編輯角色範本屬性和條件。 </li><li>建立角色範本。 </li><li>刪除角色範本。 </li></ul> |
@@ -100,7 +100,7 @@ ht-degree: 5%
 | Adam | 決策者 | 80% | 造訪的網站 | 1000 | 2 | 1 | 22 |
 | | | | 已點按的電子郵件 | 1 | 0 | 1 | 1 |
 | | | | 下載的公共 | 1 | 3 | 1 | 4 |
-| Bob | 影響者 | 15% | 造訪的網站 | 1 | 2 | 1 | 3 |
+| 鮑伯 | 影響者 | 15% | 造訪的網站 | 1 | 2 | 1 | 3 |
 | Calvin | 從業人員 | 5% | 造訪的網站 | 1 | 1 | 1 | 2 |
 
 **購買群組2** — 參與分數= 8.55

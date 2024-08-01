@@ -2,10 +2,11 @@
 title: 銷售警示電子郵件
 description: 瞭解如何在您的帳戶歷程中加入自動銷售警報電子郵件。
 feature: Email Authoring, Content
-source-git-commit: 5361bad204136e4b7e4267c43b2c1a605c14cdd9
+exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '529'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +27,7 @@ _銷售警示電子郵件_&#x200B;代表採購群組已移交給銷售人員。 
 
 +++
 
-| 章節 | 名稱 | 說明 |
+| 區域 | 名稱 | 說明 |
 | - | ---- | ----------- |
 | 購買群組資訊 | 購買群組名稱 | 購買群組的顯示名稱。 |
 |   | 帳戶名稱 | 帳戶名稱。 |

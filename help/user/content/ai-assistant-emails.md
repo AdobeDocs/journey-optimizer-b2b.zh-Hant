@@ -3,7 +3,7 @@ title: 用於電子郵件製作的AI助理
 description: 瞭解如何使用AI Assistant來最佳化帳戶歷程中使用的電子郵件內容。
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: f4f52919b9455277325a511a67c99daef42699f0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%

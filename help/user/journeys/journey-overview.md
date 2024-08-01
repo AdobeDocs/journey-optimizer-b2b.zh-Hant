@@ -3,7 +3,7 @@ title: 帳戶歷程
 description: 瞭解帳戶歷程，以及如何建立和管理它們。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
    * [!UICONTROL 名稱] （按一下名稱以開啟帳戶歷程以進行編輯）
    * [!UICONTROL 狀態]
-   * [!UICONTROL 描述]
+   * [!UICONTROL 說明]
    * [!UICONTROL 建立者：]
    * [!UICONTROL 上次更新時間：]
    * [!UICONTROL 上次更新者]
@@ -178,6 +178,6 @@ _歷程畫布_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
    * 指定歷程的&#x200B;**[!UICONTROL 結束日期]**。 從開始日期起最多可以有三年（此欄位為必填）。
 
-1. 按一下&#x200B;**[!UICONTROL 保存]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    當您準備好發佈您的歷程時，您可以在按一下&#x200B;_[!UICONTROL Publish]_&#x200B;時檢閱這些設定。

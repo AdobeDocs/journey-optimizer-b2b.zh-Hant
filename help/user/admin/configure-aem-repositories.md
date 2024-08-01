@@ -2,7 +2,8 @@
 title: 設定Experience Manager資產存放庫
 description: 瞭解如何設定與Experience Manager Assets存放庫的連線，以用於Journey Optimizer B2B Edition內容製作。
 feature: Assets, Integrations
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -65,7 +66,7 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B Edition支援在製作內容時一次存取一個數位資產管理來源。 
+>Adobe Journey Optimizer B2B Edition支援在製作內容時一次存取一個數位資產管理來源。  
 
 ## 取代憑證
 

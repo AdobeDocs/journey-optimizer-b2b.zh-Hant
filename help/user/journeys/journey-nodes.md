@@ -3,7 +3,7 @@ title: 帳戶歷程節點
 description: 瞭解可用來建構帳戶歷程的節點型別。
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 90946e472ba4757a2594e4303495a20ceb4fc890
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -200,7 +200,7 @@ _依人員節點分割路徑如何運作？_
 
      ![分割路徑節點 — 條件篩選邏輯](./assets/node-split-conditions.png){width="700" zoomable="yes"}
 
-   * 按一下&#x200B;**[!UICONTROL 完成]**。
+   * 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
 1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複先前步驟以新增適用於此路徑的條件。
 
@@ -228,7 +228,7 @@ _依人員節點分割路徑如何運作？_
 
    * 在上方套用&#x200B;**[!UICONTROL 篩選邏輯]**，微調條件。 您可以選擇符合所有屬性條件或任何條件。
 
-   * 按一下&#x200B;**[!UICONTROL 完成]**。
+   * 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
 1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複先前步驟以新增適用於此路徑的條件。
 

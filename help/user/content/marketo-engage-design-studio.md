@@ -1,9 +1,9 @@
 ---
-title: 使用Marketo Engage資產
+title: 使用Marketo EngageAssets
 description: 瞭解如何在Journey Optimizer B2B Edition中使用Marketo Engage Design Studio資產管理整合。
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%

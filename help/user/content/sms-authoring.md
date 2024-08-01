@@ -3,7 +3,7 @@ title: 簡訊製作
 description: 瞭解如何在其行動裝置上傳送簡訊(SMS)給您的客戶，以及從SMS編輯器使用文字格式個人化和預覽訊息。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1879'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 簡訊製作
 
-使用Adobe Journey Optimizer B2B Edition傳送簡訊(SMS)給行動裝置上的客戶。 您可以從SMS編輯器以文字格式建立、個人化和預覽訊息。
+使用Adobe Journey Optimizer B2B Edition傳送簡訊(SMS)給行動裝置上的客戶。 您可以從簡訊編輯器建立、個人化及預覽文字格式的訊息。
 
 ## 簡訊設定
 

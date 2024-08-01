@@ -3,7 +3,7 @@ title: 電子郵件製作
 description: 瞭解如何建立用於帳戶歷程的個人化電子郵件內容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: ce38e378ad316fb379cb649a4592ed831250296d
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 1%
