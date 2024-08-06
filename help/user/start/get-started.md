@@ -1,11 +1,11 @@
 ---
 title: 開始使用Journey Optimizer B2B版本
-description: 身為Journey Optimizer B2B Edition的新使用者，瞭解快速入門的重要領域。
+description: 作為 Journey Optimizer B2B 版的新使用者，了解重要的入門內容。
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
