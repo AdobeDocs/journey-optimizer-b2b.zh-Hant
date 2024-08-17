@@ -3,10 +3,10 @@ title: 電子郵件製作
 description: 瞭解如何建立用於帳戶歷程的個人化電子郵件內容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 1%
+source-wordcount: '1323'
+ht-degree: 2%
 
 ---
 
@@ -179,7 +179,12 @@ _若要使用範例或儲存的範本之一開始建立您的內容：_
 
    * `The email version of the message is empty`：尚未設定電子郵件內容時，會顯示此錯誤。
 
-## 檢查及測試電子郵件
+## 檢查及測試電子郵件 {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_preview_simulate"
+>title="檢查您的內容的呈現方式"
+>abstract="定義內容後，您可以預覽內容，並檢查您所使用的色版的演算是否正確。"
 
 定義訊息內容後，您可以使用測試設定檔來預覽、傳送校樣，以及在熱門的案頭、行動及網頁型使用者端中控制其呈現。 如果您已插入個人化內容，您可以使用測試設定檔資料預覽此內容在訊息中的顯示方式。
 
