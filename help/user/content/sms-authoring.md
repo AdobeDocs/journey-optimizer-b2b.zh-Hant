@@ -3,10 +3,10 @@ title: 簡訊製作
 description: 瞭解如何在其行動裝置上傳送簡訊(SMS)給您的客戶，以及從SMS編輯器使用文字格式個人化和預覽訊息。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 0%
+source-wordcount: '1908'
+ht-degree: 1%
 
 ---
 
@@ -200,7 +200,12 @@ _若要使用Adobe Journey Optimizer B2B Edition將Infobip設定為您的SMS提�
 
    收件者號碼一律對應至Marketo Engage中的`Lead.mobilePhone`欄位。
 
-## 模擬文字訊息內容
+## 模擬文字訊息內容 {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_sms_preview_simulate"
+>title="檢查您的內容的呈現方式"
+>abstract="定義內容後，您可以預覽內容，並檢查您所使用的色版的演算是否正確。"
 
 定義訊息內容時，您可以使用測試設定檔來模擬（預覽）其內容。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 

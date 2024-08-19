@@ -3,10 +3,10 @@ title: 電子郵件製作
 description: 瞭解如何建立用於帳戶歷程的個人化電子郵件內容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
+source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 2%
+source-wordcount: '1468'
+ht-degree: 11%
 
 ---
 
@@ -62,7 +62,37 @@ ht-degree: 2%
 >
 >使用由generative AI支援的Adobe Journey Optimizer B2B Edition AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、鎖定目標文字內容，並針對與對象產生迴響的影像取得AI Assistant建議，協助您最佳化傳送的影響。 [了解更多](./ai-assistant-emails.md)
 
-### 從草稿開始設計您的電子郵件
+### 從草稿開始設計您的電子郵件 {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="新增結構元件"
+>abstract="結構元件會定義電子郵件的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的電子郵件內容。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_landing_page"
+>title="新增結構元件"
+>abstract="結構元件會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的登入頁面內容。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="新增結構元件"
+>abstract="結構元件會定義區段的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="關於內容元件"
+>abstract="內容元件指可用於建立電子郵件版面的空白內容預留位置。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_landing_page"
+>title="關於內容元件"
+>abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="關於內容元件"
+>abstract="內容元件指可用於建立片段版面的空白內容預留位置。"
 
 1. 從Designer首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
 
@@ -182,7 +212,7 @@ _若要使用範例或儲存的範本之一開始建立您的內容：_
 ## 檢查及測試電子郵件 {#preview-test}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_preview_simulate"
+>id="ajo-b2b_email_preview_simulate"
 >title="檢查您的內容的呈現方式"
 >abstract="定義內容後，您可以預覽內容，並檢查您所使用的色版的演算是否正確。"
 

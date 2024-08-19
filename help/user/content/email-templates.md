@@ -3,10 +3,10 @@ title: 電子郵件範本
 description: 瞭解如何輕鬆並有效率地建立和編輯可用於撰寫帳戶歷程電子郵件的電子郵件範本。
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
 workflow-type: tm+mt
-source-wordcount: '2622'
-ht-degree: 0%
+source-wordcount: '2670'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,17 @@ _[!UICONTROL 設計您的範本]_&#x200B;頁面會開啟，並提供多個建立
 
 ![選擇您要如何開始您的電子郵件範本設計](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### 從頭開始設計
+### 從頭開始設計 {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="新增結構元件"
+>abstract="結構元件會定義範本的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的範本內容。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="關於內容元件"
+>abstract="內容元件指可用於建立範本版面的空白內容預留位置。"
 
 使用電子郵件設計工具來定義電子郵件內容的結構。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計可重複使用電子郵件內容的形狀。
 
