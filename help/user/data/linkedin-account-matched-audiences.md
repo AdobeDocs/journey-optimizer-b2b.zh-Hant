@@ -1,11 +1,9 @@
 ---
 title: linkedIn帳戶比對的對象
 description: 瞭解如何連結LinkedIn帳戶並啟用購買群組的資料流。
-hidefromtoc: true
-hide: true
-source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -25,15 +23,29 @@ Journey Optimizer B2B Edition可讓您透過帳戶相符的受眾來產生Linked
 
 1. 在Experience Platform中，前往左側導覽中的&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 目的地]**，然後選取&#x200B;**[!UICONTROL 目錄]**&#x200B;索引標籤。
 
-1. 在目錄中，找到&#x200B;**[!UICONTROL （公司） LinkedIn相符的受眾]**&#x200B;聯結器，然後按一下&#x200B;**[!UICONTROL 設定]**。
+1. 在目錄中，找出&#x200B;**[!UICONTROL （公司） LinkedIn相符的受眾]**&#x200B;聯結器。
+
+   >[!TIP]
+   >
+   >您可以在搜尋方塊中輸入`LinkedIn`以快速找到聯結器。
+
+1. 在聯結器卡中，按一下&#x200B;_更多_ (**...**)圖示並選擇&#x200B;**[!UICONTROL 設定新目的地]**。
 
    ![存取（公司） LinkedIn相符的受眾聯結器](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. 選取&#x200B;**[!UICONTROL 新帳戶]** > **[!UICONTROL 連線至LinkedIn]**。
+1. 選取&#x200B;**[!UICONTROL 新帳戶]**&#x200B;並按一下&#x200B;**[!UICONTROL 連線到目的地]**。
+
+   ![連線新的LinkedIn帳戶](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. 提供您的LinkedIn憑證並登入。
 
-   linkedIn帳戶已連線為目的地。
+   驗證後，LinkedIn帳戶會連線為Experience Platform中的目的地。
+
+   ![顯示帳戶連線確認](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+
+   >[!IMPORTANT]
+   >
+   >此時，**不要**&#x200B;輸入&#x200B;_[!UICONTROL 目的地詳細資料]_。 只需要連線。
 
 ## 更新帳戶詳細資料
 

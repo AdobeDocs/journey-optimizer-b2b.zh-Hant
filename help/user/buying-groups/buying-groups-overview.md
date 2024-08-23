@@ -3,10 +3,10 @@ title: 購買群組
 description: 瞭解購買群組及其元件。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
+source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 4%
 
 具有三個加權為&#x200B;_[!UICONTROL Vital]_、_[!UICONTROL Important]_&#x200B;和&#x200B;_[!UICONTROL Normal]_&#x200B;之角色的角色範本轉換為下列加權百分比：
 
-| 角色 | 加權 | 後端值 | 值計算 | 百分比 |
+| 角色 | 加權 | 系統值 | 值計算 | 百分比 |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 | 決策者 | 重要 | 100 | 100/240 | 41.67% |
