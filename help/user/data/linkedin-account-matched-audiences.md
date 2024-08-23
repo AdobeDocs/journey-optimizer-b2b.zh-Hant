@@ -1,7 +1,9 @@
 ---
 title: linkedIn帳戶比對的對象
 description: 瞭解如何連結LinkedIn帳戶並啟用購買群組的資料流。
-source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
+hidefromtoc: true
+hide: true
+source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
