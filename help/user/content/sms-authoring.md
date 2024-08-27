@@ -6,7 +6,7 @@ exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
 source-wordcount: '1908'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -204,8 +204,8 @@ _若要使用Adobe Journey Optimizer B2B Edition將Infobip設定為您的SMS提�
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
->title="檢查您的內容的呈現方式"
->abstract="定義內容後，您可以預覽內容，並檢查您所使用的色版的演算是否正確。"
+>title="檢查您內容的呈現方式"
+>abstract="定義內容後，您可以進行預覽，並檢查所使用的頻道是否正確呈現。"
 
 定義訊息內容時，您可以使用測試設定檔來模擬（預覽）其內容。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 

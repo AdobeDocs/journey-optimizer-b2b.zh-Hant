@@ -6,7 +6,7 @@ hide: true
 source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -16,12 +16,12 @@ Journey Optimizer B2B Edition可讓您透過帳戶相符的受眾來產生Linked
 
 在從Journey Optimizer B2B版本啟動資料流之前，您必須至少有一個[（公司） LinkedIn相符對象目的地聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect)的執行個體，其設定在Experience Platform應用程式中的LinkedIn Campaign Manager帳戶。
 
-## 設定新的LinkedIn帳戶連線 {#linkedin-destination-setup}
+## 設定新的 LinkedIn 帳戶連結 {#linkedin-destination-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
->title="需要LinkedIn目的地設定"
->abstract="將依購買群組篩選的帳戶傳送至Linkedin目的地，以便與潛在的購買群組成員互動。 您可以為10個不同的篩選帳戶群組建立最多10個資料流程。 若要開始使用此功能，請先新增Linkedin目的地。"
+>title="需要進行 LinkedIn 目的地設定"
+>abstract="傳送依照購買群組篩選的帳戶至 Linkedin 目的地，與潛在的購買群組成員互動。您可以為 10 個不同的已篩選帳戶群組建立最多 10 個資料流。若要開始使用此功能，請先新增 Linkedin 目的地。"
 
 1. 在Experience Platform中，前往左側導覽中的&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 目的地]**，然後選取&#x200B;**[!UICONTROL 目錄]**&#x200B;索引標籤。
 

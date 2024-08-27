@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 11%
 >
 >使用由generative AI支援的Adobe Journey Optimizer B2B Edition AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、鎖定目標文字內容，並針對與對象產生迴響的影像取得AI Assistant建議，協助您最佳化傳送的影響。 [了解更多](./ai-assistant-emails.md)
 
-### 從草稿開始設計您的電子郵件 {#design-from-scratch}
+### 從頭開始設計您的電子郵件 {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
@@ -209,12 +209,12 @@ _若要使用範例或儲存的範本之一開始建立您的內容：_
 
    * `The email version of the message is empty`：尚未設定電子郵件內容時，會顯示此錯誤。
 
-## 檢查及測試電子郵件 {#preview-test}
+## 檢查和測試電子郵件 {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
->title="檢查您的內容的呈現方式"
->abstract="定義內容後，您可以預覽內容，並檢查您所使用的色版的演算是否正確。"
+>title="檢查您內容的呈現方式"
+>abstract="定義內容後，您可以進行預覽，並檢查所使用的頻道是否正確呈現。"
 
 定義訊息內容後，您可以使用測試設定檔來預覽、傳送校樣，以及在熱門的案頭、行動及網頁型使用者端中控制其呈現。 如果您已插入個人化內容，您可以使用測試設定檔資料預覽此內容在訊息中的顯示方式。
 
