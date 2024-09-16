@@ -3,9 +3,9 @@ title: 電子郵件範本
 description: 瞭解如何輕鬆並有效率地建立和編輯可用於撰寫帳戶歷程電子郵件的電子郵件範本。
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '1817'
 ht-degree: 2%
 
 ---
@@ -48,46 +48,25 @@ _[!UICONTROL 設計您的範本]_&#x200B;頁面會開啟，並提供多個建立
 
 ![選擇您要如何開始您的電子郵件範本設計](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### 從頭開始設計 {#design-from-scratch}
+### 從頭開始設計
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="新增結構元件"
->abstract="結構元件會定義範本的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的範本內容。"
+使用視覺內容編輯器來定義電子郵件內容的結構。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計可重複使用電子郵件內容的形狀。
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="關於內容元件"
->abstract="內容元件指可用於建立範本版面的空白內容預留位置。"
-
-使用電子郵件設計工具來定義電子郵件內容的結構。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計可重複使用電子郵件內容的形狀。
+>[!NOTE]
+>
+>可用的設計工具等同於用於[電子郵件編寫](./email-authoring.md)的工具。 其差異在於此內容會儲存為範本，可在帳戶歷程中的多個傳送電子郵件節點重複使用。
 
 1. 從&#x200B;_[!UICONTROL 設計您的範本]_&#x200B;首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
 
-1. 將元件拖放至畫布以定義電子郵件的結構版面，開始設計內容。
-
-   可用的設計工具等同於用於[電子郵件編寫](./email-authoring.md)的工具。 其差異在於此內容會儲存為範本，可在帳戶歷程中的多個傳送電子郵件節點重複使用。
+1. [將結構和內容](#add-structure-and-content)新增到範本。
 
 ### 匯入HTML
 
-Adobe Journey Optimizer B2B Edition可讓您匯入現有的HTML內容，以設計您的電子郵件範本。 此內容可以是：
+Adobe Journey Optimizer B2B Edition可讓您匯入現有的HTML內容，以設計您的電子郵件範本。
 
-* 包含合併樣式表的HTML檔案。
-* 包含HTML檔案、樣式表(.css)和影像的.zip檔案
+{{$include /help/_includes/content-design-import.md}}
 
-  >[!NOTE]
-  >
-  >.zip檔案結構沒有限制。 不過，參照必須是相對參照，而且符合.zip資料夾的樹狀結構。
-
-_若要匯入包含HTML內容的檔案：_
-
-1. 從&#x200B;_[!UICONTROL 設計您的範本]_&#x200B;首頁，選取&#x200B;**[!UICONTROL 匯入HTML]**&#x200B;選項。
-
-1. 拖放包含HTML內容的HTML或.zip檔案，然後按一下&#x200B;**[!UICONTROL 匯入]**。
-
-   上傳HTML內容後，您的內容處於&#x200B;_相容性模式_。 在此模式中，您只能個人化您的文字、新增連結或包含資產至您的內容。
-
-1. 若要使用電子郵件設計工具內容元件，請按一下&#x200B;**[!UICONTROL HTML轉換器]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 轉換]**。
+![將html內容匯入zip檔](./assets/templates-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
@@ -97,91 +76,21 @@ _若要匯入包含HTML內容的檔案：_
 
 ### 選取設計範本
 
-從&#x200B;_[!UICONTROL 設計您的範本]_&#x200B;首頁，使用[選取設計範本]區段來開始從範本建立您的內容。 您可以使用範例範本或從Journey Optimizer B2B Edition執行個體儲存的電子郵件範本。
+{{$include /help/_includes/content-design-select-template.md}}
 
->[!BEGINTABS]
+## 新增結構和內容 {#structure-content}
 
->[!TAB 儲存的範本]
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="新增結構元件"
+>abstract="結構元件會定義範本的版面。將&#x200B;**Structure**&#x200B;元件拖放至畫布中，以開始設計範本的內容。"
 
-在&#x200B;_設計您的範本_&#x200B;首頁上，預設會選取&#x200B;_範例範本_&#x200B;索引標籤。 若要使用自訂範本，請選取&#x200B;**[!UICONTROL 儲存的範本]**&#x200B;索引標籤。
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="關於內容元件"
+>abstract="內容元件指可用於建立範本版面的空白內容預留位置。"
 
-隨即顯示在目前沙箱中建立的所有電子郵件範本清單。 您可以依&#x200B;_[!UICONTROL 名稱]_、_[!UICONTROL 上次修改時間]_&#x200B;和&#x200B;_[!UICONTROL 上次建立時間]_&#x200B;來排序它們。
-
-![選擇儲存的範本](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
-
-從清單中選取您想要的範本。
-
-選取後，這會顯示範本的預覽。 在預覽模式中，您可以使用向右和向左箭頭，在單一類別的所有範本（範例或已儲存，視您的選擇而定）之間導覽。
-
-![預覽儲存的範本](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
-
-當顯示符合您要使用的內容時，請按一下預覽視窗右上角的&#x200B;**[!UICONTROL 使用此範本]**。
-
-此動作會將內容複製到視覺化內容設計工具中，以便您視需要編輯內容。
-
->[!TAB 範例範本]
-
-Adobe Journey Optimizer B2B Edition提供&#x200B;_現成可用的電子郵件範本_&#x200B;選項，可用來建立電子郵件和電子郵件範本。
-
-![選擇Adobe提供的範本](./assets/templates-design-samples.png){width="800" zoomable="yes"}
-
->[!ENDTABS]
-
-## 新增結構和內容
-
-從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表將結構拖放至畫布以定義電子郵件的配置，開始設計您的內容。
-
-視需要新增結構，並在右側的元素屬性中編輯其設定。
-
-選取&#x200B;_[!UICONTROL n：n欄]_&#x200B;元件以定義您選擇的欄數（介於3到10之間）。 移動底部的箭頭來定義每欄的寬度。
-
->[!NOTE]
->
->每個欄大小不能低於結構元件總寬度的10%。 您只能移除空白欄。
-
-展開&#x200B;**[!UICONTROL 內容]**&#x200B;區段，並新增您所需數量的元素至一或多個結構元件。
-
-
-
-每個元件都可以使用右側面板中的&#x200B;_[!UICONTROL Settings]_&#x200B;或&#x200B;_[!UICONTROL Style]_&#x200B;標籤進一步自訂。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。
-
-### 瀏覽圖層、設定和樣式
-
-下列範例概述在包含三欄的結構元件內調整邊框間距和垂直對齊的步驟。
-
-1. 直接在電子郵件中選取結構元件，或使用左側功能表中可用的導覽樹狀結構。
-
-1. 在工具列中按一下&#x200B;**[!UICONTROL 選取資料行]**，然後選擇您要編輯的資料行。
-
-   畫布中顯示的![n：n欄元件](./assets/visual-designer-n-n-column.png){width="800" zoomable="yes"}
-
-   您也可以從結構樹中選取它。 該欄的可編輯引數會顯示在&#x200B;_[!UICONTROL 樣式]_&#x200B;索引標籤中。
-
-1. 在&#x200B;**[!UICONTROL 對齊方式]**&#x200B;下，選取&#x200B;_上_、_中_&#x200B;或&#x200B;_下_&#x200B;圖示。
-
-1. 在&#x200B;**[!UICONTROL 內距]**&#x200B;下，定義所有邊的內距。
-
-   若要微調內距，請選取&#x200B;**[!UICONTROL 每一邊不同的內距]**。 按一下鎖定圖示以中斷同步。
-
-1. 如有需要，請調整其他欄的對齊與邊框間距。
-
-1. 儲存您的變更。
-
-### 個人化內容
-
-以下範例概述使用銷售機會/帳戶屬性和系統權杖個人化範本內容的步驟。
-
-1. 選取文字元件，然後按一下工具列中的&#x200B;_新增個人化_&#x200B;圖示。
-
-   ![按一下「個人化」圖示](./assets/visual-designer-personalize-icon.png){width="500"}
-
-   此動作會開啟&#x200B;_編輯Personalization_&#x200B;對話方塊。
-
-1. 按一下&#x200B;**+**&#x200B;或&#x200B;**...**，將權杖新增至空白空間。
-
-   ![使用權杖建構個人化文字](./assets/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
-
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+{{$include /help/_includes/content-design-components.md}}
 
 ### 新增片段
 
@@ -198,43 +107,33 @@ Adobe Journey Optimizer B2B Edition提供&#x200B;_現成可用的電子郵件範
 
    ![從清單中選取片段](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. 將任何片段拖放至結構元件預留位置。
+1. 將任何片段拖放至結構元件的預留位置。
 
    編輯器會在電子郵件結構的區段/元素中轉譯片段。
 
-片段的內容會在結構內動態更新，以呈現內容在電子郵件中如何顯示的視覺效果。
+片段的內容會在結構內動態更新，以顯示內容在電子郵件中的顯示方式。
 
-如果要新增片段以佔據電子郵件內的整個水準版面，請新增1:1欄結構，然後將片段拖放至其中。
+>[!TIP]
+>
+>如果要新增片段以佔據電子郵件內的整個水準版面，請新增1:1欄結構，然後將片段拖放至其中。
 
 儲存電子郵件後，當您在摘要中選取&#x200B;_[!UICONTROL 使用者]_&#x200B;索引標籤時，它就會顯示在片段詳細資訊頁面中。 新增到電子郵件範本的片段在範本中無法編輯 — 內容由來源片段定義。
 
 ### 新增資產
 
-在視覺內容編輯器中，選取左側顯示的&#x200B;_Assets_&#x200B;圖示。
+{{$include /help/_includes/content-design-assets.md}}
 
->[!NOTE]
->
->如果您有Experience Manager Assetsas a Cloud Service以及預設Adobe Marketo Engage Design Studio的訂閱，您可以從範本詳細資訊頁面中選取的來源選擇影像資產。
+### 導覽圖層、設定和樣式
 
-下列範例概述將資產新增至範本內容的步驟：
+{{$include /help/_includes/content-design-navigation.md}}
 
-1. 若要開啟資產庫，請按一下&#x200B;_Assets_&#x200B;圖示。
+### 個人化內容
 
-   從資產選取器中，您可以直接選取儲存在來源資料庫中的資產。
+{{$include /help/_includes/content-design-personalization.md}}
 
-1. 將影像資產拖放至結構元件中，以新增資產。
+### 編輯連結的URL追蹤
 
-1. 在畫布上選取影像資產，然後按一下影像來源工具中的&#x200B;**[!UICONTROL 選取資產]**，即可取代影像資產。
-
-   ![從來源資料庫中選取資產](./assets/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
-
-### 預覽和編輯URL
-
-1. 按一下左側的&#x200B;_[!UICONTROL 連結]_&#x200B;圖示，以顯示您要追蹤之內容的所有URL。
-
-1. 如有需要，請按一下&#x200B;_編輯_ （鉛筆）圖示並修改&#x200B;_追蹤型別_&#x200B;或&#x200B;_標籤_，然後為連結新增&#x200B;_標籤_。
-
-![按一下[更多]以存取範本動作](./assets/visual-designer-links.png){width="500"}
+{{$include /help/_includes/content-design-links.md}}
 
 ### 檢視選項
 

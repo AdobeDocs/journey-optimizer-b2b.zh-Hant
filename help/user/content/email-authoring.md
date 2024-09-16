@@ -3,10 +3,10 @@ title: 電子郵件製作
 description: 瞭解如何建立用於帳戶歷程的個人化電子郵件內容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 14%
+source-wordcount: '1221'
+ht-degree: 13%
 
 ---
 
@@ -65,121 +65,116 @@ ht-degree: 14%
 ### 從頭開始設計您的電子郵件 {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="新增結構元件"
->abstract="結構元件會定義電子郵件的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的電子郵件內容。"
-
->[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="新增結構元件"
 >abstract="結構元件會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的登入頁面內容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="新增結構元件"
->abstract="結構元件會定義區段的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="關於內容元件"
->abstract="內容元件指可用於建立電子郵件版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="關於內容元件"
 >abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。"
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="關於內容元件"
->abstract="內容元件指可用於建立片段版面的空白內容預留位置。"
+使用視覺內容編輯器來定義電子郵件內容的結構。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計可重複使用電子郵件內容的形狀。
 
-1. 從Designer首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
+1. 從&#x200B;_[!UICONTROL 設計您的範本]_&#x200B;首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
 
-1. 若要開始您的內容設計，請從&#x200B;**[!UICONTROL 結構]**&#x200B;拖曳一個專案，然後將其放到畫布上。
+1. [新增結構和內容](#add-structure-and-content)至電子郵件訊息。
+1. [新增影像資產](#add-assets)至電子郵件訊息。
+1. [個人化電子郵件內容](#personalize-content)。
+1. [檢閱和更新連結](#preview-and-edit-linked-urls)。
 
-   對每個結構元件重複此步驟，以建構電子郵件的版面。
-
-1. 視需要從&#x200B;_結構_&#x200B;新增任意數目的專案，並編輯右側窗格中每個專案的設定。
-
-   選取n：n欄元件以定義您選擇的欄數（介於3到10之間）。 您也可以移動欄下方的箭頭來定義每欄的寬度。
-
-   每個欄大小不能小於結構元件總寬度的10%。 只能移除空白欄。
-
-1. 展開&#x200B;**[!UICONTROL 內容]**&#x200B;區段，並新增您所需數量的元素至一或多個結構元件。
-
-1. 如有需要，您可以在&#x200B;_[!UICONTROL 設定]_&#x200B;或&#x200B;_[!UICONTROL 樣式]_&#x200B;標籤中為每個元件進行其他自訂。
-
-   例如，您可以變更文字樣式、每個元件的邊框間距或邊界。
-
-1. 從資產選擇器中，您可以直接選取儲存在Assets資料庫中的資產。
-
-   連按兩下包含資產的資料夾。 將專案拖放至結構元件中。
-
-1. 插入個人化欄位，從設定檔屬性、對象成員資格、內容屬性等自訂內容。
-
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
-1. 從左窗格中選取&#x200B;**[!UICONTROL 連結]**&#x200B;索引標籤，以顯示您所追蹤內容的所有URL。
-
-   您可以修改&#x200B;_追蹤型別_&#x200B;或&#x200B;_標籤_，並視需要新增標籤。
-
-如有需要，您可以按一下進階功能表中的&#x200B;**[!UICONTROL 切換到程式碼編輯器]**，以進一步個人化您的電子郵件。 程式碼編輯器可讓您編輯電子郵件原始程式碼，例如新增追蹤或自訂HTML標籤。
+<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->切換到程式碼編輯器後，您無法返回此電子郵件的視覺化設計工具。
+>You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
 內容完成時，請按一下頂端的&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以檢查轉譯。 您可以選擇案頭或行動檢視。
 
-準備就緒後，按一下「儲存」。
+當您滿意內容時，請按一下[儲存]。****
 
 ### 匯入現有的HTML內容
 
-匯入的內容可以是：
+{{$include /help/_includes/content-design-import.md}}
 
-* 包含內建樣式表的HTML檔案
-* 包含HTML檔案、樣式表(.css)和影像檔案的.zip資料夾
+![將html內容匯入zip檔](./assets/email-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
->.zip檔案結構沒有限制。 不過，參照必須是相對參照，而且符合.zip資料夾的樹狀結構。
+>使用`<table>`標籤做為HTML檔案中的第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
 
-_若要匯入包含HTML內容的檔案：_
-
-1. 從電子郵件Designer首頁，選取&#x200B;**[!UICONTROL 匯入HTML]**。
-
-1. 拖放包含HTML內容的HTML或.zip檔案，然後按一下[!UICONTROL 匯入]。
-
-   當HTML內容上載完成時，您的內容處於&#x200B;_相容性模式_。 在此模式中，您只能個人化您的文字、新增連結或包含資產至您的內容。
+您可以視需要使用視覺化電子郵件編輯器工具個人化匯入的內容。
 
 ### 選取範本
 
-您可以選擇以下選項：
+{{$include /help/_includes/content-design-select-template.md}}
 
-* 範例範本。 Journey Optimizer介面提供20個立即可用的電子郵件範本，供您選擇。
+## 新增結構和內容 {#structure-content}
 
-* 已儲存的範本。
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="新增結構元件"
+>abstract="結構元件會定義電子郵件的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的電子郵件內容。"
 
-* 您使用&#x200B;_範本_&#x200B;功能表從頭建立自訂範本，或使用&#x200B;_[!UICONTROL 另存為內容範本]_&#x200B;選項從歷程中的電子郵件儲存自訂範本。
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="關於內容元件"
+>abstract="內容元件指可用於建立電子郵件版面的空白內容預留位置。"
 
-_若要使用範例或儲存的範本之一開始建立您的內容：_
+{{$include /help/_includes/content-design-components.md}}
 
-1. 從電子郵件內容編輯工作區存取&#x200B;_電子郵件Designer_。
+### 新增片段
 
-   在&#x200B;_[!UICONTROL 建立您的電子郵件]_&#x200B;頁面上，預設會選取&#x200B;**[!UICONTROL 範本範例]**&#x200B;索引標籤。
+在視覺內容編輯器中，_片段_&#x200B;圖示會顯示在左側。 以下範例概述將片段新增至範本內容的步驟。
 
-1. 若要使用自訂範本，請選取&#x200B;**[!UICONTROL 儲存的範本]**&#x200B;索引標籤。
+1. 若要開啟片段清單，請按一下&#x200B;_片段_&#x200B;圖示。
 
-   隨即顯示在目前沙箱中建立的所有內容範本清單。 您可以依名稱、上次修改時間或上次建立時間來排序。
+   您可以：
 
-1. 從清單中選取您選擇的範本。
+   * 排序清單。
+   * 瀏覽、搜尋或篩選清單。
+   * 在縮圖和清單檢視之間切換。
+   * 重新整理清單以反映任何最近建立的片段。
 
-1. 選取類別後，您可以使用向右和向左箭頭在該類別的所有範本之間導覽（範例或視您的選擇而儲存）。
+   ![從清單中選取片段](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. 按一下頁面右上角的&#x200B;**[!UICONTROL 使用此範本]**。
+1. 將任何片段拖放至結構元件的預留位置。
 
-1. 視需要在&#x200B;_電子郵件Designer_&#x200B;中編輯內容。
+   編輯器會在電子郵件結構的區段/元素中轉譯片段。
+
+片段的內容會在結構內動態更新，以顯示內容在電子郵件中的顯示方式。
+
+>[!TIP]
+>
+>如果要新增片段以佔據電子郵件內的整個水準版面，請新增1:1欄結構，然後將片段拖放至其中。
+
+儲存電子郵件後，當您在摘要中選取&#x200B;_[!UICONTROL 使用者]_&#x200B;索引標籤時，它就會顯示在片段詳細資訊頁面中。 新增到電子郵件範本的片段在範本中無法編輯 — 內容由來源片段定義。
+
+### 新增資產
+
+{{$include /help/_includes/content-design-assets.md}}
+
+### 導覽圖層、設定和樣式
+
+{{$include /help/_includes/content-design-navigation.md}}
+
+### 個人化內容
+
+{{$include /help/_includes/content-design-personalization.md}}
+
+### 編輯連結的URL追蹤
+
+{{$include /help/_includes/content-design-links.md}}
+
+### 檢視選項
+
+善用視覺化電子郵件編輯器中可用的檢視和內容驗證選項。
+
+* 透過預設縮放選項放大/縮小內容。
+
+* 切換在案頭、行動裝置或純文字/純文字間檢視內容。
+   * 按一下&#x200B;_眼睛_&#x200B;圖示，即可跨裝置預覽內容。
+   * 選取其中一個現成可用的裝置，或輸入自訂維度以預覽內容。
 
 ## 檢查警報
 
