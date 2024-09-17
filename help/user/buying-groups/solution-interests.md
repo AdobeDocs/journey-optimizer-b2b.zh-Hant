@@ -3,9 +3,9 @@ title: 解決方案興趣
 description: 瞭解解決方案興趣，以及如何定義這些興趣以用於您的購買群組。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # 解決方案興趣
 
 在您建立「購買群組」之前，您應該知道您正在銷售什麼產品，以及您想要鎖定哪些客戶。 您的行銷和銷售策略應該保持一致，這樣您就可以為購買群組新增解決方案興趣。
+
+![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
 ## 存取和瀏覽解決方案興趣
 
@@ -71,7 +73,7 @@ ht-degree: 0%
 
    啟用此選項後，與解決方案相關的所有現有購買群組都會透過24小時同步週期更新。
 
-1. 按一下&#x200B;**[!UICONTROL 保存]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 刪除解決方案興趣
 
@@ -84,3 +86,7 @@ ht-degree: 0%
    如果帳戶歷程或購買群組工作目前正在使用解決方案興趣，動作會開啟資訊對話方塊，提醒您無法刪除該解決方案。 按一下[!UICONTROL 確定]，這會中止刪除。
 
 1. 按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認刪除，或者您可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;以中止程式。
+
+## 概述影片
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

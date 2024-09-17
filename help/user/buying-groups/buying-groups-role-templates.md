@@ -3,9 +3,9 @@ title: 購買群組角色範本
 description: 瞭解如何定義作為購買群組元件的角色範本。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # 購買群組角色範本
 
 在B2B市場中，購買決策通常由多人做出。 這些個人會根據其在組織內的角色參與決策過程。 根據每個產品供應專案型別或帳戶使用案例，建立包含這些角色定義的購買群組角色範本。
+
+![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
 ## 存取和瀏覽角色範本
 
@@ -130,3 +132,7 @@ ht-degree: 0%
    ![變更角色優先順序](./assets/roles-template-delete.png){width="700"}
 
 1. 在對話方塊中，按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以進行確認。
+
+## 概述影片
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

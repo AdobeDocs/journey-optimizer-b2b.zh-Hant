@@ -3,9 +3,9 @@ title: 購買群組
 description: 瞭解購買群組及其元件。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1193'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 ![帳戶角色圖表](assets/account-roles-diagram.png){width="800"}
 
 在帳戶內，可能有一部分人組成&#x200B;_購買群組_。 這些是最終做出購買決策的人，因此需要行銷人員特別關注，並且可能需要傳送給他們的不同資訊，不同於與帳戶相關聯的其他人。 購買群組可能包含不同產品線或方案的不同群組。 例如，網路安全產品通常需要首席資訊官或首席安全官，以及法務部門的代表來核准購買，但錯誤追蹤產品通常會有工程部的VP和IT Director作為購買群組的成員。
+
+![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看影片概述](#overview-video)
 
 ## 主要元件
 
@@ -152,3 +154,7 @@ ht-degree: 5%
 | 影響者 | 28 | 33.33% | 9.33 |
 | 從業者 | 17 | 25% | 4.25 |
 | **最終參與分數** |                |             | **35.25** |
+
+## 概述影片
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
