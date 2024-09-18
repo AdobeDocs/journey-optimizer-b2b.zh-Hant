@@ -1,11 +1,11 @@
 ---
 title: 發行說明
-description: Adobe Journey Optimizer B2B版本最新發行說明
+description: Adobe Journey Optimizer B2B 版的最新發行說明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: b034c96da0b00f4976a832a6b01858180e189c8d
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
