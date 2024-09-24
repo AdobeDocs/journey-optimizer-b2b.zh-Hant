@@ -6,7 +6,7 @@ exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
 source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer B2B Edition可讓您匯入現有的HTML內容，以設�
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="新增結構元件"
->abstract="結構元件會定義範本的版面。將&#x200B;**Structure**&#x200B;元件拖放至畫布中，以開始設計範本的內容。"
+>abstract="結構元件會定義範本的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中，開始設計您的範本內容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
