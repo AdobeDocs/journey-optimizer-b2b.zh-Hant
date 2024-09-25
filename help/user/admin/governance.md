@@ -2,9 +2,9 @@
 title: 治理功能
 description: 瞭解目前可在Journey Optimizer B2B Edition中使用的治理功能。
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8c191cd86a9aa9e7094b7d3464b3179cfdb4789e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Journey Optimizer B2B版本使用Privacy Service及Marketo隱私權代理人服�
 
 ## 尚未提供
 
-下列治理功能尚未提供，但已納入產品藍圖中：
+下列治理功能尚無法使用：
 
 * 資料使用標籤實作(DULE) /使用原則
 * 資料衛生
