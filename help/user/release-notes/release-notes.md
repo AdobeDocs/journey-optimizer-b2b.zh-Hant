@@ -2,7 +2,7 @@
 title: 發行說明
 description: Adobe Journey Optimizer B2B 版的最新發行說明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
+source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Journey Optimizer B2B Edition是原生建置在[!DNL Adobe Experience Platform]�
 <tbody>
 <tr>
 <td>
-<p>視覺片段是使用狀態生命週期來管理，其中片段狀態會決定其是否可用於電子郵件或電子郵件範本中，以及您能否對其做出變更。 這可讓您根據促銷和通訊行事曆輕鬆管理重複使用的內容。 <a href="../content/fragments#fragment-status-and-lifecycle">了解更多</a>
+<p>視覺片段是使用狀態生命週期來管理，其中片段狀態會決定其是否可用於電子郵件或電子郵件範本中，以及您能否對其做出變更。 這可讓您根據促銷和通訊行事曆輕鬆管理重複使用的內容。 <a href="../content/fragments.md#fragment-status-and-lifecycle">了解更多</a>
 </td>
 </tr>
 </tbody>
