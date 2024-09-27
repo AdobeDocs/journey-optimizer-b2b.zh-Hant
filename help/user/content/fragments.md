@@ -3,9 +3,9 @@ title: 片段
 description: 瞭解如何在Adobe Journey Optimizer B2B Edition中建立和使用視覺內容片段，作為電子郵件和電子郵件範本的可重複使用元件。
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '2687'
 ht-degree: 3%
 
 ---
@@ -31,11 +31,35 @@ ht-degree: 3%
 
 此表格是依&#x200B;_[!UICONTROL 已修改]_&#x200B;欄排序，最近更新的片段預設會排在頂端。 按一下欄標題，在升序和降序之間變更。
 
-若要依名稱搜尋片段，請在搜尋列中輸入文字字串以尋找相符專案。 按一下&#x200B;_篩選器_&#x200B;圖示，根據您指定的條件篩選顯示的專案。
+### 片段狀態和生命週期
+
+片段狀態會決定其是否可用於電子郵件或電子郵件範本，以及您可以對其進行的變更。
+
+| 狀態 | 說明 |
+| -------------------- | ----------- |
+| 草稿 | 當您建立片段時，它處於草稿狀態。 在您定義或編輯視覺內容時，它保持此狀態，直到您發佈它以用於電子郵件或電子郵件範本為止。 可用的動作： <br/><ul><li>編輯所有詳細資料<li>在視覺化設計工具中編輯<li>發佈<li>複製<li>刪除 |
+| 發佈日期 | 當您發佈片段時，該片段將可用於電子郵件或電子郵件範本。 在視覺化設計工具中無法修改已發佈的片段內容。 可用的動作： <br/><ul><li>編輯說明<li>新增至電子郵件或範本<li>建立草稿版本<li>複製<li>刪除（若未使用） |
+| 已與草稿一起發佈 | 當您從已發佈的片段建立草稿時，已發佈的版本仍可在電子郵件或電子郵件範本中使用，且草稿內容可在視覺化設計工具中修改。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且使用中的電子郵件和電子郵件範本中的內容會更新。 可用的動作： <br/><ul><li>編輯說明<li>新增至電子郵件或範本<li>在視覺化設計工具中編輯草稿版本<li>Publish草稿版本<li>複製<li>刪除（若未使用） |
+
+![片段狀態生命週期](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>片段狀態已在Journey Optimizer B2B版本8月發行版本中引入。 在此版本之前建立的所有片段都會具有&#x200B;_草稿_&#x200B;狀態，即使這些片段用於電子郵件或範本中亦然。 如果您對這些片段進行變更，則必須發佈片段以傳播變更。
+
+### 篩選片段清單
+
+若要依名稱搜尋片段，請在搜尋列中輸入文字字串以尋找相符專案。 按一下&#x200B;_篩選器_&#x200B;圖示（![顯示或隱藏篩選器圖示](../assets/do-not-localize/icon-filter.svg)）以顯示可用的篩選器選項，並變更設定以根據您指定的條件篩選顯示的專案。
 
 ![篩選顯示的片段](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
-按一下右上角的&#x200B;_自訂表格_&#x200B;圖示，自訂您要顯示在表格中的欄。 選取要顯示的資料行，然後按一下&#x200B;**[!UICONTROL 套用]**。
+### 自訂欄顯示
+
+按一下右上角的&#x200B;_自訂表格_&#x200B;圖示（![自訂表格圖示](../assets/do-not-localize/icon-column-settings.svg)），自訂您要顯示在表格中的欄。
+
+在對話方塊中，選取要顯示的資料行，然後按一下&#x200B;**[!UICONTROL 套用]**。
+
+![選取您要顯示的資料行](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## 建立內容片段
 
@@ -57,16 +81,19 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-   隨即開啟視覺內容編輯器，其中顯示空白畫布。
+   視覺化設計工具會以空白畫布開啟。
 
-<!-- To be linked to the corresponding sections on this page: Adobe Journey Optimizer B2B Edition - Email Templates
+1. 使用內容設計工具建立視覺片段內容：
 
-Adding structure and content
-Adding assets
-Navigating the layers
-Previewing & editing URLs
-View options
-More options -->
+   * [新增結構和內容](#add-structure-and-content)
+   * [新增Assets](#add-assets)
+   * [導覽圖層、設定和樣式](#navigate-the-layers-settings-and-styles)
+   * [個人化內容](#personalize-content)
+   * [編輯連結的URL追蹤](#edit-linked-url-tracking)
+
+1. 隨時按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存草稿片段。
+
+1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下&#x200B;**[!UICONTROL Publish]**。
 
 ### 新增結構和內容 {#design-fragment}
 
@@ -145,18 +172,103 @@ More options -->
 
 ## 編輯片段
 
-您可以使用下列其中一種方法來編輯片段：
+對片段的編輯取決於其目前狀態：
 
-* 從右側的片段詳細資料中，按一下&#x200B;**[!UICONTROL 編輯]**。
-* 從&#x200B;_[!UICONTROL 片段]_&#x200B;清單頁面，按一下片段旁的省略符號，然後選擇&#x200B;**[!UICONTROL 編輯]**。
+* 當片段處於&#x200B;_草稿_&#x200B;狀態時，您可以編輯其任何詳細資訊和視覺內容。
+* 當片段處於&#x200B;_已發佈_&#x200B;狀態時，您可以編輯片段說明，但不能編輯名稱。 您無法編輯視覺內容。
+* 當片段處於&#x200B;_以草稿_&#x200B;狀態發佈時，編輯詳細資料僅限於說明。 您也可以編輯草稿版本的視覺內容。
 
-此動作會在視覺內容編輯器中開啟片段，您可以在其中使用[建立片段](#create-fragments)的任何功能來編輯片段。
+>[!BEGINTABS]
+
+>[!TAB 草稿]
+
+1. 從&#x200B;_[!UICONTROL 片段]_&#x200B;清單頁面，按一下片段名稱以開啟。
+
+   接著會顯示視覺內容的預覽，片段詳細資訊位於右側。
+
+1. 修改任何詳細資訊，例如名稱和說明。
+
+   ![具有草稿狀態的片段詳細資料](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+
+1. 若要變更視覺化設計工具中的內容，請按一下[編輯片段]。****
+
+   視需要使用視覺化設計工具工具：
+
+   * [新增結構和內容](#add-structure-and-content)
+   * [新增Assets](#add-assets)
+   * [導覽圖層、設定和樣式](#navigate-the-layers-settings-and-styles)
+   * [個人化內容](#personalize-content)
+   * [編輯連結的URL追蹤](#edit-linked-url-tracking)
+
+   按一下「**[!UICONTROL 儲存]**」或「**[!UICONTROL 儲存並關閉]**」以返回片段詳細資料。
+
+1. 當片段符合您的條件且您想要將其用於電子郵件或電子郵件範本時，請按一下&#x200B;**[!UICONTROL Publish]**。
+
+>[!TAB 已發佈]
+
+1. 從&#x200B;_[!UICONTROL 片段]_&#x200B;清單頁面，按一下片段名稱以開啟。
+
+   接著會顯示視覺內容的預覽，片段詳細資訊位於右側。
+
+1. 視需要修改說明。
+
+   針對已發佈的片段，無法變更所有其他詳細資料。
+
+1. 若要更新內容，請按一下右上方的&#x200B;**[!UICONTROL 建立草稿版本]**。
+
+   在對話方塊中按一下「**[!UICONTROL 確定]**」，在視覺化設計工具中開啟草稿版本。 您可以視需要變更[影像來源](./assets-overview.md#choose-an-asset-source)。
+
+   ![建立草稿版本對話方塊](./assets/fragments-create-draft-version.png){width="300"}
+
+   視需要使用視覺化設計工具工具：
+
+   * [新增結構和內容](#add-structure-and-content)
+   * [新增Assets](#add-assets)
+   * [導覽圖層、設定和樣式](#navigate-the-layers-settings-and-styles)
+   * [個人化內容](#personalize-content)
+   * [編輯連結的URL追蹤](#edit-linked-url-tracking)
+
+   按一下「**[!UICONTROL 儲存]**」或「**[!UICONTROL 儲存並關閉]**」以返回片段詳細資料。
+
+1. 當草稿片段符合您的條件，而您想要讓變更可用於電子郵件或電子郵件範本時，請按一下&#x200B;**[!UICONTROL Publish]**。
+
+   當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而內容會更新到已使用草稿的電子郵件和電子郵件範本中。
+
+>[!TAB 已發佈草稿]
+
+有兩種方式可開啟草稿版本，以從&#x200B;_[!UICONTROL 片段]_&#x200B;清單頁面進行編輯：
+
+* 按一下片段名稱旁的&#x200B;_更多_&#x200B;圖示(**...**)，然後選擇&#x200B;**[!UICONTROL 開啟草稿版本]**。
+
+  ![開啟草稿版本](./assets/fragments-create-draft-version.png){width="300"}
+
+* 按一下片段名稱以開啟。 然後，按一下右上方的&#x200B;**[!UICONTROL 開啟草稿版本]**。
+
+  將顯示草稿版本的視覺內容預覽，片段詳細資訊在右側。
+
+若要更新內容：
+
+1. 按一下右上方的&#x200B;**[!UICONTROL 編輯片段]**。 視需要使用視覺化設計工具工具：
+
+   * [新增結構和內容](#add-structure-and-content)
+   * [新增Assets](#add-assets)
+   * [導覽圖層、設定和樣式](#navigate-the-layers-settings-and-styles)
+   * [個人化內容](#personalize-content)
+   * [編輯連結的URL追蹤](#edit-linked-url-tracking)
+
+   按一下「**[!UICONTROL 儲存]**」或「**[!UICONTROL 儲存並關閉]**」以返回片段詳細資料。
+
+1. 當草稿片段符合您的條件，而您想要讓變更可用於電子郵件或電子郵件範本時，請按一下&#x200B;**[!UICONTROL Publish]**。
+
+   當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而內容會更新到已使用草稿的電子郵件和電子郵件範本中。
+
+>[!ENDTABS]
 
 ## 重複片段
 
 您可以使用以下任一方法復製片段：
 
-* 從&#x200B;_[!UICONTROL 片段]_&#x200B;清單頁面，按一下片段名稱旁的&#x200B;_更多_ (**...**)圖示，然後選擇&#x200B;**[!UICONTROL 複製]**。
+* 從&#x200B;_[!UICONTROL 片段]_&#x200B;清單頁面，按一下片段名稱旁的&#x200B;_更多_&#x200B;圖示(**...**)，然後選擇&#x200B;**[!UICONTROL 複製]**。
 * 在片段詳細資料頁面的右上方，按一下&#x200B;**[!UICONTROL ...更多]**&#x200B;並選擇&#x200B;**[!UICONTROL 複製]**。
 
 ![復製片段](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
@@ -167,7 +279,7 @@ More options -->
 
 然後，重複的（新）片段會出現在&#x200B;_片段_&#x200B;清單中。
 
-## 從電子郵件或範本內容儲存片段
+## 從電子郵件或範本內容儲存新片段
 
 在視覺內容編輯器中建立/編輯電子郵件或電子郵件範本時，您可以選擇將內容的所有或部分儲存為片段，以便重複使用。
 
