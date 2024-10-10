@@ -3,7 +3,7 @@ title: 銷售警示電子郵件
 description: 瞭解如何在您的帳戶歷程中加入自動銷售警報電子郵件。
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 33bd8f68ae581d974fc52f94df6f2249d9493325
+source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 3%
@@ -60,4 +60,4 @@ _銷售警示電子郵件_&#x200B;代表採購群組已移交給銷售人員。 
 
    ![建立新的電子郵件對話方塊](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   帳戶歷程發佈後，系統會根據這些引數傳送銷售警報。
+   帳戶歷程發佈後，系統會根據這些引數傳遞銷售警報。

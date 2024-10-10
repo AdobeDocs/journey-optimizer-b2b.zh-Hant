@@ -3,26 +3,26 @@ title: 簡訊製作
 description: 瞭解如何在其行動裝置上傳送簡訊(SMS)給您的客戶，以及從SMS編輯器使用文字格式個人化和預覽訊息。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
+source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
 workflow-type: tm+mt
-source-wordcount: '1908'
-ht-degree: 2%
+source-wordcount: '2041'
+ht-degree: 1%
 
 ---
 
 # 簡訊製作
 
-使用Adobe Journey Optimizer B2B Edition傳送簡訊(SMS)給行動裝置上的客戶。 您可以從簡訊編輯器建立、個人化及預覽文字格式的訊息。
+使用Adobe Journey Optimizer B2B edition傳送簡訊(SMS)給行動裝置上的客戶。 您可以從簡訊編輯器建立、個人化及預覽文字格式的訊息。
 
 ## 簡訊設定
 
-Adobe Journey Optimizer B2B Edition會透過SMS服務提供者（或SMS閘道提供者）傳送文字訊息。 建立SMS訊息之前，請先從&#x200B;_管理員_&#x200B;設定設定您的服務提供者。
+Adobe Journey Optimizer B2B edition會透過SMS服務提供者（或SMS閘道提供者）傳送文字訊息。 建立SMS訊息之前，請先從&#x200B;_管理員_&#x200B;設定設定您的服務提供者。
 
 ### SMS閘道服務提供者
 
 Adobe Journey Optimizer B2B Edition目前與獨立提供文字訊息服務的協力廠商提供者整合。 支援的簡訊提供者為Sinch、Twilio和Infobip。
 
-在Adobe Journey Optimizer B2B Edition中設定SMS通道前，您必須透過其中一個提供者建立帳戶，以取得API權杖和服務ID。 設定Adobe Journey Optimizer B2B Edition與適用提供者之間的連線時，需要這些認證。
+在Adobe Journey Optimizer B2B Edition中設定SMS通道前，您必須透過其中一個提供者建立帳戶，以取得API權杖和服務ID。 設定Adobe Journey Optimizer B2B edition與適用提供者之間的連線時，需要這些憑證。
 
 >[!IMPORTANT]
 >
@@ -34,13 +34,17 @@ Adobe Journey Optimizer B2B Edition目前與獨立提供文字訊息服務的協
 >
 >上述設定僅供具有SMS管理員許可權的使用者存取。
 
-在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 設定]**。
+1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 管道]**。
 
-![存取AMA API認證的設定](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![存取SMS API認證的設定](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
-頁面列出執行個體可用的應用程式開發介面設定。 您可以依SMS服務提供者或建立者篩選顯示的API認證。
+1. 在導覽面板中，選取&#x200B;**[!UICONTROL API認證]**。
 
-![按一下篩選器圖示以篩選API認證清單](./assets/config-sms-api-filter.png){width="500"}
+   頁面列出執行個體可用的應用程式開發介面設定。
+
+1. 如有需要，請按一下&#x200B;_篩選器_&#x200B;圖示（![顯示或隱藏篩選器圖示](../assets/do-not-localize/icon-filter.svg) ）並選取選項，以顯示SMS服務提供者或建立者設定的API認證清單。
+
+   ![按一下「篩選」圖示以調整API認證清單](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ### 為SMS服務提供者建立新的API認證
 
@@ -48,7 +52,7 @@ Adobe Journey Optimizer B2B Edition目前與獨立提供文字訊息服務的協
 
 >[!TAB Sinch]
 
-_若要使用Adobe Journey Optimizer B2B版本將Sinch設定為您的SMS提供者：_
+_若要使用Adobe Journey Optimizer B2B edition將Sinch設定為您的簡訊提供者：_
 
 1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 設定]**。
 
@@ -70,7 +74,7 @@ _若要使用Adobe Journey Optimizer B2B版本將Sinch設定為您的SMS提供�
 
 >[!TAB Twilio]
 
-_若要使用Adobe Journey Optimizer B2B Edition將Twilio設定為您的SMS提供者：_
+_若要使用Adobe Journey Optimizer B2B edition將Twilio設定為您的SMS提供者：_
 
 1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 設定]**。
 
@@ -92,7 +96,7 @@ _若要使用Adobe Journey Optimizer B2B Edition將Twilio設定為您的SMS提�
 
 >[!TAB Infobip]
 
-_若要使用Adobe Journey Optimizer B2B Edition將Infobip設定為您的SMS提供者：_
+_若要使用Adobe Journey Optimizer B2B edition將Infobip設定為您的SMS提供者：_
 
 1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 設定]**。
 
@@ -128,58 +132,76 @@ _若要使用Adobe Journey Optimizer B2B Edition將Infobip設定為您的SMS提�
 
 1. 在&#x200B;_[!UICONTROL 執行動作]_&#x200B;面板底部，按一下&#x200B;**[!UICONTROL 建立簡訊]**。
 
-1. 在對話方塊中，輸入電子郵件的唯一&#x200B;**[!UICONTROL 名稱]**，以及&#x200B;**[!UICONTROL 主旨列]**。
+1. 在對話方塊中，輸入簡訊的唯一名稱&#x200B;**[!UICONTROL 名稱]**。
 
-   ![建立新的簡訊對話方塊](assets/create-new-sms.png){width="500"}
+   ![建立新的簡訊對話方塊](assets/create-new-sms.png){width="400"}
 
-## 建立簡訊訊息
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
+
+   _歷程內容設計工具_&#x200B;開啟，您可以建立訊息並設定用於傳送訊息的SMS屬性。
+
+### 建立簡訊訊息
 
 >[!IMPORTANT]
 >
 >**簡訊同意管理**<br/>
-><br/>
+>
 >根據業界標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 支援並遵循所有標準的選擇加入和選擇退出關鍵字。 此外，也會支援並接受為您的SMS服務提供者帳戶設定的任何自訂關鍵字。
 
-1. 在&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位中輸入您要傳送的文字。
+在&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位中輸入您要傳送的文字。
 
-   您可以建立最多1600個字元的訊息，將每160個字元視為單一SMS訊息。
+您可以建立最多1600個字元的訊息，將每160個字元視為單一SMS訊息。
 
-1. **個人化簡訊**。
+![按一下[個人化]圖示以新增代號至郵件](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-   編寫文字訊息時，隨時按一下文字訊息方塊右側的&#x200B;_個人化_&#x200B;圖示。
+#### 個人化簡訊
 
-   ![按一下[個人化]圖示以新增代號至郵件](./assets/sms-message-personalize-icon.png){width="800" zoomable="yes"}
+1. 編寫文字訊息時，隨時按一下文字訊息方塊右側的&#x200B;_個人化_&#x200B;圖示（ ![個人化圖示](../assets/do-not-localize/icon-personalize.svg)）。
 
-   顯示的頁面可讓您存取Adobe Marketo Engage銷售機會和系統Token。 包含標準和自訂Token。 您可以使用搜尋列來尋找所需的代號，或瀏覽資料夾樹狀結構以尋找及選取任何銷售機會/系統代號。
+   顯示的頁面可讓您存取Adobe Marketo Engage銷售機會和系統Token。 包含標準和自訂Token。 您可以使用&#x200B;_搜尋_&#x200B;列來尋找您需要的權杖，或瀏覽資料夾樹狀結構來尋找及選取任何銷售機會/系統權杖。
 
-   將游標放在訊息中要新增權杖的位置。 按一下標籤旁的加號( **+** )以新增標籤。 如果您想要新增具有遞補字元的權杖（預設會顯示在該欄位不適用於潛在客戶的情況下出現），請按一下省略符號( **...** )，然後選擇&#x200B;**[!UICONTROL 插入具有遞補文字]**。
+1. 將游標放在訊息中要新增權杖的位置。
+
+1. 按一下標籤旁的加號( **+** )以新增標籤。
+
+   如果您想要新增具有遞補字元的權杖（預設會顯示在該欄位不適用於潛在客戶的情況下出現），請按一下&#x200B;_更多_&#x200B;圖示( **...** )，然後選擇&#x200B;**[!UICONTROL 插入具有遞補文字]**。
 
    ![按一下省略符號即可使用權杖的遞補](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
-   在&#x200B;_[!UICONTROL 輸入遞補值]_&#x200B;對話方塊中，輸入顯示為遞補的文字，然後按一下&#x200B;**[!UICONTROL 新增]**。
+1. 在&#x200B;_[!UICONTROL 輸入遞補值]_&#x200B;對話方塊中，輸入顯示為遞補的文字，然後按一下&#x200B;**[!UICONTROL 新增]**。
 
    ![輸入權杖的遞補文字](./assets/sms-message-personalize-fallback-text.png){width="400"}
 
-   置入個人化權杖後，按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更並返回主要SMS編寫工作區。 您可以視需要繼續編輯含有代號的訊息。
+1. 置入個人化權杖後，按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更並返回主要SMS編寫工作區。
 
-1. **新增URL至文字訊息**。
+   您可以視需要繼續編輯含有代號的訊息。
 
-   定義內容後，您可以按一下&#x200B;_連結_&#x200B;圖示，新增URL至訊息。
+#### 新增連結(URL)至文字訊息
 
-   此動作會開啟一個對話方塊，您可在其中選擇要連結的兩種型別URL之一：
+1. 輸入訊息文字後，請按一下文字訊息方塊右側的&#x200B;_連結_&#x200B;圖示（ ![連結圖示](../assets/do-not-localize/icon-link.svg)）。
+
+1. 在對話方塊中，選擇要連結的URL型別：
+
+   * **[!UICONTROL 登陸頁面]** — 選擇此選項可從您的Marketo Engage執行個體中選取任何已核准的Adobe Marketo Engage Design Studio登陸頁面。 選取工作區，然後選取登入頁面。
 
    * **[!UICONTROL 外部URL]** — 此型別是您在文字方塊中輸入的任何外部URL。
-   * **[!UICONTROL 登陸頁面]** — 選擇此選項可從您的Marketo Engage執行個體中選取任何已核准的Adobe Marketo Engage Design Studio登陸頁面。
 
-   此對話方塊也包含URL連結的選項：
+1. 如果您選擇使用登入頁面，請設定追蹤選項。
 
-   * **[!UICONTROL 縮短URL]** — 選取此核取方塊以&#x200B;_縮短_ URL，這是追蹤的必要條件。 對於登入頁面，這會使用縮短URL的Marketo Engage子網域。 畫面會顯示縮短的URL格式範例。 實際URL會在SMS傳送給收件者時建立。
+   * **[!UICONTROL 啟用追蹤]** — 選取此核取方塊以啟用追蹤，這需要&#x200B;_縮短_ URL。 對於登入頁面，這會使用縮短URL的Marketo Engage子網域。 畫面會顯示縮短的URL格式範例。 實際URL會在SMS傳送給收件者時建立。
 
    * **[!UICONTROL 包含mkt_tok]** — 選取此核取方塊可追蹤使用者的活動。
 
-   連結選項完成時，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以儲存變更，並將URL連結新增至SMS訊息。
+     >[!NOTE]
+     >
+     >當您允許追蹤但停用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;時，目的地URL在重新導向後不會包含`mkt_tok`查詢字串引數。 Marketo Engage登入頁面和Munchkin會使用此引數，以確保追蹤人員活動（例如當人員取消訂閱電子郵件時）。 除非引數造成您網站上的問題，否則請勿停用此選項。<br/>
+     >如需有關在網站上使用Munchkin追蹤代碼的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
-## 設定簡訊屬性
+   ![新增SMS訊息的連結對話方塊](./assets/sms-add-link-dialog.png){width="470"}
+
+1. 連結選項完成時，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以儲存變更，並將URL連結新增至SMS訊息。
+
+### 設定簡訊屬性
 
 1. 在&#x200B;_[!UICONTROL SMS屬性]_&#x200B;區段中，為您的訊息輸入&#x200B;**[!UICONTROL 名稱]** （必要，最多100個字元）和&#x200B;**[!UICONTROL 描述]** （選用，最多300個字元）。
 
@@ -200,12 +222,12 @@ _若要使用Adobe Journey Optimizer B2B Edition將Infobip設定為您的SMS提�
 
    收件者號碼一律對應至Marketo Engage中的`Lead.mobilePhone`欄位。
 
-## 模擬文字訊息內容 {#preview-test}
+### 模擬文字訊息內容 {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="檢查您內容的呈現方式"
->abstract="定義內容後，您可以進行預覽，並檢查所使用的頻道是否正確呈現。"
+>abstract="定義內容後，您可以預覽內容，並檢查您使用之頻道的演算。"
 
 定義訊息內容時，您可以使用測試設定檔來模擬（預覽）其內容。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
@@ -231,7 +253,7 @@ _若要使用Adobe Journey Optimizer B2B Edition將Infobip設定為您的SMS提�
 
 1. 模擬所選潛在客戶的內容。
 
-   選取左側列出的任何銷售機會，並在頁面上的簡訊預覽會更新對應銷售機會。
+   選取左側列出的任何銷售機會。 頁面上的SMS預覽會更新所選銷售機會。
 
    您也可以從預覽空間上方的選取器中選取銷售機會，以更新相應銷售機會在頁面上的SMS預覽。
 
@@ -243,7 +265,7 @@ _若要使用Adobe Journey Optimizer B2B Edition將Infobip設定為您的SMS提�
 
 提供此選項時，簡訊收件者可使用選擇加入和選擇退出關鍵字進行回覆。 支援並接受所有標準的選擇加入和選擇退出關鍵字，以及在SMS服務提供者設定的任何自訂關鍵字。 取消訂閱後，設定檔會自動從未來行銷訊息的對象中移除。
 
-Journey Optimizer B2B Edition提供使用下列邏輯管理SMS訊息中選擇退出的功能：
+Journey Optimizer B2B edition可讓您使用下列邏輯，管理簡訊訊息中的選擇退出：
 
 * 根據預設，如果潛在客戶選擇不接收來自您的通訊，則對應的設定檔會從後續SMS傳送中排除
 
