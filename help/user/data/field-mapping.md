@@ -1,19 +1,23 @@
 ---
 title: XDM欄位
-description: 檢閱在Adobe Experience Platform和Journey Optimizer B2B版本之間同步的預設屬性欄位。
+description: 檢閱在Adobe Experience Platform和Journey Optimizer B2B edition之間同步的預設屬性欄位。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: b38878ca063967e6c1ae56617674af52c10913df
+source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 14%
+source-wordcount: '965'
+ht-degree: 13%
 
 ---
 
 # XDM欄位
 
-帳戶對象資料同時儲存為XDM商業帳戶和XDM商業人士類別中的屬性。 資料會在Adobe Experience Platform和Journey Optimizer B2B版本之間定期同步。 以下各節列出預設屬性集。
+帳戶對象資料同時儲存為XDM商業帳戶和XDM商業人士類別中的屬性。 資料會定期在Adobe Experience Platform和Journey Optimizer B2B edition之間同步。 以下各節列出預設屬性集。
 
 ## XDM商業人士屬性
+
+>[!IMPORTANT]
+>
+>`workEmail.Address`屬性為必要項。 如果帳戶對象成員的資料留空，則不會擷取該人員，且會將其從參考該對象的帳戶歷程和購買群組中忽略。
 
 | [屬性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 顯示名稱 | Journey Optimizer B2B顯示名稱 | 資料類型 | 說明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -37,11 +41,15 @@ ht-degree: 14%
 | `workAddress.postalCode` | 郵遞區號 | 郵遞區號 | 字串 | 地點的郵遞區號。 郵遞區號並非適用於所有國家/地區。 在某些國家/地區，它僅包含郵遞區號的一部分。 |
 | `workAddress.state` | 狀態 | 狀態 | 字串 | 地址的州名。 它是一個自由格式的欄位。 |
 | `workAddress.street1` | 街道1 | 地址 | 字串 | 主要街道層級資訊、公寓號碼、街道號碼和街道名稱。 |
-| `workEmail.address` | 地址 | 電子郵件地址 | 字串 | 技術地址，例如，RFC2822和後續標準中通常定義的`<name@domain.com>`。 |
+| `workEmail.address` | 地址 | 電子郵件地址 | 字串 | **必要欄位** <br/>技術位址，例如，RFC2822和後續標準中通常定義的`<name@domain.com>`。 |
 | `workEmail.status` | 狀態 | 電子郵件已暫停 | 字串 | 使用電子郵件地址能力的指示。 |
 | `workPhone.number` | 數字 | 電話號碼 | 字串 | 公司電話號碼。 |
 
 ## XDM商業帳戶屬性
+
+>[!IMPORTANT]
+>
+>`accountName`屬性為必要項。 如果帳戶對象中的帳戶為空，則不會擷取該帳戶，並會從參考該對象的帳戶歷程和購買群組中忽略。
 
 | [屬性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | 顯示名稱 | Journey Optimizer B2B顯示名稱 | 資料類型 | 說明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -51,7 +59,7 @@ ht-degree: 14%
 | `accountBillingAddress.region` | 區域 | 地址區域 | 字串 | 帳單地址的地區、國家或地區部分。 |
 | `accountBillingAddress.state` | 狀態 | 狀態 | 字串 | 帳單地址的州名。 它是一個自由格式的欄位。 |
 | `accountBillingAddress.street1` | 街道1 | 街道1 | 字串 | 帳單地址的主要街道層級資訊，通常包含公寓號碼、街道號碼和街道名稱。 |
-| `accountName` | 名稱 | 名稱 | 字串 | 公司名稱。 此欄位允許最多255個字元。 |
+| `accountName` | 名稱 | 名稱 | **必要欄位** <br/>字串 | 公司名稱。 此欄位允許最多255個字元。 |
 | `accountOrganization.annualRevenue.amount` | 年收入 | 年收入 | 數字 | 預估的組織年收入金額。 |
 | `accountOrganization.industry` | 產業 | 產業 | 字串 | 歸因於組織的產業。 這是自由格式的欄位，建議使用結構化的值來進行查詢或使用`xdm:classifier`屬性。 |
 | `accountOrganization.logoUrl` | 標誌Url | 標誌Url | 字串 | 路徑將與Salesforce執行個體的URL （例如`https://yourInstance.salesforce.com/`）結合，以產生URL來請求與帳戶相關聯的社交網路設定檔影像。 產生的URL會傳回HTTP重新導向（代碼302）至帳戶的社交網路設定檔影像。 |
