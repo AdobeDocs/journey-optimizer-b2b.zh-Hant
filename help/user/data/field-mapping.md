@@ -2,7 +2,7 @@
 title: XDM欄位
 description: 檢閱在Adobe Experience Platform和Journey Optimizer B2B edition之間同步的預設屬性欄位。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
+source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 13%
@@ -59,7 +59,7 @@ ht-degree: 13%
 | `accountBillingAddress.region` | 區域 | 地址區域 | 字串 | 帳單地址的地區、國家或地區部分。 |
 | `accountBillingAddress.state` | 狀態 | 狀態 | 字串 | 帳單地址的州名。 它是一個自由格式的欄位。 |
 | `accountBillingAddress.street1` | 街道1 | 街道1 | 字串 | 帳單地址的主要街道層級資訊，通常包含公寓號碼、街道號碼和街道名稱。 |
-| `accountName` | 名稱 | 名稱 | **必要欄位** <br/>字串 | 公司名稱。 此欄位允許最多255個字元。 |
+| `accountName` | 名稱 | 名稱 | 字串 | **必要的欄位** <br/>公司名稱。 此欄位允許最多255個字元。 |
 | `accountOrganization.annualRevenue.amount` | 年收入 | 年收入 | 數字 | 預估的組織年收入金額。 |
 | `accountOrganization.industry` | 產業 | 產業 | 字串 | 歸因於組織的產業。 這是自由格式的欄位，建議使用結構化的值來進行查詢或使用`xdm:classifier`屬性。 |
 | `accountOrganization.logoUrl` | 標誌Url | 標誌Url | 字串 | 路徑將與Salesforce執行個體的URL （例如`https://yourInstance.salesforce.com/`）結合，以產生URL來請求與帳戶相關聯的社交網路設定檔影像。 產生的URL會傳回HTTP重新導向（代碼302）至帳戶的社交網路設定檔影像。 |
