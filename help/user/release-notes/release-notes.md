@@ -2,9 +2,9 @@
 title: 發行說明
 description: Adobe Journey Optimizer B2B 版的最新發行說明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
+source-git-commit: 235f54e4db84554f83076070b0d549e29141ba6e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '420'
 ht-degree: 9%
 
 ---
@@ -32,7 +32,8 @@ Journey Optimizer B2B Edition是原生建置在[!DNL Adobe Experience Platform]�
 <tbody>
 <tr>
 <td>
-<p>增強型_central assets library_可讓您在Design Studio工作區中，使用Marketo Engage例項中的所有影像資產。 有內建的護欄可防止從Journey Optimizer B2B edition編輯Marketo Engage資產，以及執行刪除和移動作業。 這些保護功能可確保維護來源資產(Marketo Engage Design Studio)，同時允許在Journey Optimizer B2B edition中順暢地讀取和重複使用。 <a href="../content/marketo-engage-design-studio.md">了解更多</a>
+<p>增強型<i>中央資產庫</i>可讓您在Design Studio工作區中，使用Marketo Engage執行個體中的所有影像資產。 有內建的護欄可防止從Journey Optimizer B2B edition編輯Marketo Engage資產，以及執行刪除和移動作業。 這些保護功能可確保維護來源資產(Marketo Engage Design Studio)，同時允許在Journey Optimizer B2B edition中順暢地讀取和重複使用。 </p>
+<p>針對專供Journey Optimizer B2B edition使用的資產，特定工作區提供完整的資產管理功能。 <a href="../content/marketo-engage-design-studio.md">了解更多</a></p>
 </td>
 </tr>
 </tbody>
@@ -47,7 +48,7 @@ Journey Optimizer B2B Edition是原生建置在[!DNL Adobe Experience Platform]�
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer B2B edition應用程式中的首頁現在包含_[！UICONTROL最近存取的]_區段，此區段為行銷人員或管理員提供最近存取的資產清單。 您可以使用此清單直接前往您最近處理的資產，而不需導覽一連串資產頁面並搜尋。 它會提供有關修改的其他資訊，以便您決定哪些資產需要從上次作業階段進一步修改。 對於電子郵件資產，這會顯示使用電子郵件資產的帳戶歷程。 <a href="../home-page.md">了解更多</a>
+<p>Journey Optimizer B2B edition應用程式中的首頁現在包含<i>[！UICONTROL最近存取的]</i>區段，此區段提供行銷人員或管理員最近存取的資產清單。 您可以使用此清單直接前往您最近處理的資產，而不需導覽一連串資產頁面並搜尋。 它會提供有關修改的其他資訊，以便您決定哪些資產需要從上次作業階段進一步修改。 對於電子郵件資產，這會顯示使用電子郵件資產的帳戶歷程。 <a href="../home-page.md">了解更多</a>
 </td>
 </tr>
 </tbody>
