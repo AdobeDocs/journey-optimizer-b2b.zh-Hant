@@ -1,0 +1,154 @@
+---
+title: 條件式內容
+description: 瞭解如何在編寫帳戶歷程的電子郵件內容時建立內容變體並套用條件規則。
+feature: Email Authoring, Content
+source-git-commit: 15a5144554f25634efa29efc42d41350b19c2bfb
+workflow-type: tm+mt
+source-wordcount: '1071'
+ht-degree: 3%
+
+---
+
+# 條件式內容
+
+條件式內容可讓您根據條件式規則調整電子郵件內容。 這些規則是使用設定檔屬性或內容事件定義的。 您可以在規則產生器中建立條件式規則，並儲存這些規則以便在帳戶歷程中重複使用。
+
+若要新增條件式內容至您的電子郵件訊息，Adobe Journey Optimizer可讓您套用儲存在&#x200B;_條件_&#x200B;資料庫中的條件式規則。 當您[在帳戶歷程](./email-authoring.md)中編寫電子郵件時，在電子郵件設計工具中套用條件規則。
+
+## 新增條件式內容至電子郵件 {#email-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_conditional_content"
+>title="條件式內容"
+>abstract="使用條件式規則建立內容元件的多個變體。如果傳送訊息時不符合任何條件，則會顯示預設變體的內容。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_conditional_rule_select"
+>title="條件式內容"
+>abstract="使用儲存在資料庫中的條件式規則或建立新規則。"
+
+當您在電子郵件設計工具中針對您的帳戶歷程製作電子郵件時，請使用條件規則來定義內容元件的多個變體。
+
+1. 選取內容元件，然後按一下元件工具列中的&#x200B;**[!UICONTROL 啟用條件式內容]**&#x200B;圖示。
+
+   元件外框顯示為橙色，表示元件已啟用為條件元件。 **[!UICONTROL 條件式內容]**&#x200B;窗格會顯示在左側，其中有&#x200B;_預設變體_&#x200B;和_Variant - 1。
+
+   ![啟用文字元件的條件式內容](./assets/conditions-enable.png){width="700" zoomable="yes"}
+
+   您選取並啟動的原始內容為預設內容，且會在任何條件規則都不符合您定義的任何變體時套用。
+
+   在此窗格中，您可以使用條件規則為所選內容元件定義多個變體。
+
+1. 將游標停留在第一個變體（_變體 — 1_）上，然後按一下&#x200B;_選取條件_&#x200B;圖示（![條件圖示](../assets/do-not-localize/icon-select-condition.svg)）。
+
+   ![選取變體](./assets/conditions-variant-select.png){width="700" zoomable="yes"}的條件
+
+   _[!UICONTROL 選取條件]_&#x200B;對話方塊會開啟並顯示條件程式庫。
+
+   如果您想要檢視條件的詳細資訊，以確保它是您想要的，請按一下&#x200B;_更多功能表_&#x200B;圖示(**...**)，然後選擇&#x200B;**[!UICONTROL 檢視資訊]**。
+
+   ![條件資料庫存取條件詳細資料](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
+
+   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則](#create-a-conditional-rule)。[
+
+1. 選取條件式規則，然後按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以將其與變體關聯。
+
+   您可以按一下變體的&#x200B;_更多功能表_&#x200B;圖示(**...**)並選擇&#x200B;**[!UICONTROL 檢視條件]**&#x200B;來檢視關聯的條件。
+
+   ![檢視與變體](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}關聯的條件
+
+   按一下右上方的X關閉快顯視窗。
+
+   ![檢視相關條件的詳細資料](./assets/conditions-info-popup.png){width="500"}
+
+1. 若要提高可讀性，請按一下變體的&#x200B;_更多功能表_&#x200B;圖示(**...**)，然後選擇&#x200B;**[!UICONTROL 重新命名]**，以重新命名變體。
+
+   為變體輸入有意義的名稱，以協助您識別變體及其意圖。
+
+   ![重新命名變體](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
+
+1. 在左側窗格中選取變體後，變更元件，以在條件為真時變更其在電子郵件訊息中的顯示方式。
+
+   在此範例中，文字元件的變體會根據收件者的地區使用不同的說明。
+
+   ![變更變體的元件](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
+
+1. 如有需要，請按一下&#x200B;**[!UICONTROL 新增變體]**&#x200B;以定義另一個變體。
+
+   重複步驟2至5以選取條件、重新命名變體並變更變體的元件。
+
+   您可以視需要為內容元件新增任意數量的變體。 隨時變更左窗格中選取的變體，以檢查內容元件在條件中的顯示方式。
+
+   >[!IMPORTANT]
+   >
+   >條件式內容會依照變體列出的順序，根據相關規則進行評估。 元件會使用第一個具有評估為true之條件的變體。
+   >
+   >如果傳送電子郵件時，沒有已定義的變體條件評估為true，則內容元件會根據&#x200B;**[!UICONTROL 預設變體]**&#x200B;顯示。
+
+1. 若要刪除變體，請按一下變體的&#x200B;_更多功能表_&#x200B;圖示(**...**)，然後選擇&#x200B;**[!UICONTROL 刪除]**。
+
+   在確認對話方塊中按一下&#x200B;**[!UICONTROL 刪除]**。
+
+## 條件式規則
+
+條件規則是一組條件運算式，可評估為true或false。 您可以使用這些規則，根據各種條件（例如設定檔屬性或內容事件）來決定要在電子郵件訊息中顯示的內容變體。
+
+條件式規則儲存在條件資料庫中，可供組織重複使用跨歷程內容。
+<!-- 
+
+>[!NOTE]
+>
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization. -->
+
+### 建立條件式規則 {#create-condition}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_conditions_rule_editor"
+>title="建立條件"
+>abstract="結合屬性和內容事件以建立規則，決定要在電子郵件訊息中顯示的內容變體。"
+
+選取元件變體的條件時，您可以從電子郵件設計工具存取條件規則產生器。
+
+1. 在&#x200B;_[!UICONTROL 選取條件]_&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL 新建]**&#x200B;並選擇條件型別：
+
+   * **[!UICONTROL 個人條件]** — 選擇此型別以使用個人屬性和內容事件建置條件規則。
+   * **[!UICONTROL 帳戶條件]** — 選擇此型別以使用帳戶屬性建置條件規則。
+
+   ![選擇要建立的條件型別](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
+
+1. 根據您的需求建置條件式規則。
+
+   針對您想要納入規則的每個屬性或事件，將專案拖放至規則畫布上。 展開篩選器並完成運算式。
+
+   ![完成運算式以評估](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
+
+   如果您包含多個篩選器，請設定&#x200B;**[!UICONTROL 篩選器邏輯]**：
+
+   * **[!UICONTROL 套用所有篩選器]** — 如果&#x200B;**所有**&#x200B;篩選器為True，則規則會評估為True。
+   * **[!UICONTROL 套用任何篩選器]** — 如果&#x200B;**任何**&#x200B;個篩選器為true，則規則會評估為true。
+
+1. 在右側，輸入規則的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]** （選擇性）。
+
+   使用有意義的名稱和有用的說明來協助組織中的其他人，讓他們可以重複使用它，而不是建立另一個重複條件。
+
+   ![新增條件規則的名稱和描述](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}
+
+1. 完成條件式規則後，按一下&#x200B;**[!UICONTROL 儲存]**。
+
+   條件規則會儲存至程式庫，您可以為目前變體選取它。 它也包含在程式庫中，以由帳戶歷程中的任何其他動態內容變體使用。
+
+### 複製規則
+
+無法修改儲存至程式庫的條件式規則。 不過，您可以複製現有規則並加以變更，以建立新規則。
+
+1. 按一下變體的&#x200B;_更多功能表_&#x200B;圖示(**...**)，然後選擇&#x200B;**[!UICONTROL 複製]**。
+
+   規則的副本會在規則產生器中開啟。 使用重複專案作為您要建立之規則的起點。
+
+   ![使用重複的規則來建立您需要的規則](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}
+
+1. 在規則產生器中，視需要變更、新增或刪除條件。
+
+1. 變更名稱和說明，以符合規則中的用途或專案。
+
+1. 完成條件式規則後，按一下&#x200B;**[!UICONTROL 儲存]**。
