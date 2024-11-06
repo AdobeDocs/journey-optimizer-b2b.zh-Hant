@@ -3,10 +3,10 @@ title: 簡訊製作
 description: 瞭解如何在其行動裝置上傳送簡訊(SMS)給您的客戶，以及從SMS編輯器使用文字格式個人化和預覽訊息。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
+source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
 workflow-type: tm+mt
-source-wordcount: '2041'
-ht-degree: 2%
+source-wordcount: '1370'
+ht-degree: 3%
 
 ---
 
@@ -14,111 +14,7 @@ ht-degree: 2%
 
 使用Adobe Journey Optimizer B2B edition傳送簡訊(SMS)給行動裝置上的客戶。 您可以從簡訊編輯器建立、個人化及預覽文字格式的訊息。
 
-## 簡訊設定
-
-Adobe Journey Optimizer B2B edition會透過SMS服務提供者（或SMS閘道提供者）傳送文字訊息。 建立SMS訊息之前，請先從&#x200B;_管理員_&#x200B;設定設定您的服務提供者。
-
-### SMS閘道服務提供者
-
-Adobe Journey Optimizer B2B Edition目前與獨立提供文字訊息服務的協力廠商提供者整合。 支援的簡訊提供者為Sinch、Twilio和Infobip。
-
-在Adobe Journey Optimizer B2B Edition中設定SMS通道前，您必須透過其中一個提供者建立帳戶，以取得API權杖和服務ID。 設定Adobe Journey Optimizer B2B edition與適用提供者之間的連線時，需要這些憑證。
-
->[!IMPORTANT]
->
->您對簡訊服務的使用受限於適用提供者的其他條款與條件。 作為協力廠商解決方案，Adobe Journey Optimizer B2B Edition使用者可透過整合使用Sinch、Twilio和Infobip。 Adobe不會控制，且對協力廠商產品不負任何責任。 若有任何與簡訊服務(SMS)相關的問題或尋求協助的請求，請聯絡您的提供者。
-
-### 驗證現有的SMS API設定
-
->[!NOTE]
->
->上述設定僅供具有SMS管理員許可權的使用者存取。
-
-1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 管道]**。
-
-   ![存取SMS API認證的設定](./assets/config-sms-api.png){width="800" zoomable="yes"}
-
-1. 在導覽面板中，選取&#x200B;**[!UICONTROL API認證]**。
-
-   頁面列出執行個體可用的應用程式開發介面設定。
-
-1. 如有需要，請按一下&#x200B;_篩選器_&#x200B;圖示（![顯示或隱藏篩選器圖示](../assets/do-not-localize/icon-filter.svg) ）並選取選項，以顯示SMS服務提供者或建立者設定的API認證清單。
-
-   ![按一下「篩選」圖示以調整API認證清單](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
-
-### 為SMS服務提供者建立新的API認證
-
->[!BEGINTABS]
-
->[!TAB Sinch]
-
-_若要使用Adobe Journey Optimizer B2B edition將Sinch設定為您的簡訊提供者：_
-
-1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 設定]**。
-
-1. 按一下&#x200B;_[!UICONTROL API認證]_&#x200B;清單右上角的&#x200B;**[!UICONTROL 建立新API認證]**。
-
-1. 設定您的SMS API認證：
-
-   ![設定Sinch SMS API認證](./assets/config-sms-api-sinch.png){width="500"}
-
-   * **[!UICONTROL 簡訊供應商]** — 選擇`Sinch`做為簡訊提供者。
-
-   * **[!UICONTROL 名稱]** — 輸入您API認證的名稱。
-
-   * **[!UICONTROL 服務ID]**&#x200B;和&#x200B;**[!UICONTROL API Token]** — 從您的Sinch帳戶存取API頁面（您可以在SMS標籤下找到您的認證）。
-
-   如需尋找您Sinch帳戶之相關資訊的詳細資訊，請參閱[Sinch開發人員檔案](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
-
-1. 當API認證的組態詳細資料完成時，按一下&#x200B;**[!UICONTROL 提交]**。
-
->[!TAB Twilio]
-
-_若要使用Adobe Journey Optimizer B2B edition將Twilio設定為您的SMS提供者：_
-
-1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 設定]**。
-
-1. 按一下&#x200B;_[!UICONTROL API認證]_&#x200B;清單右上角的&#x200B;**[!UICONTROL 建立新API認證]**。
-
-1. 設定您的SMS API認證：
-
-   ![設定Twilio SMS API認證](./assets/config-sms-api-twilio.png){width="500"}
-
-   * **[!UICONTROL 簡訊供應商]** — 選擇`Twilio`做為簡訊提供者。
-
-   * **[!UICONTROL 名稱]** — 輸入API認證定義的名稱。
-
-   * **[!UICONTROL 帳戶SID]**&#x200B;和&#x200B;**[!UICONTROL 驗證權杖]** — 存取您Twilio主控台儀表板頁面的&#x200B;_帳戶資訊_&#x200B;窗格，以尋找您的認證。
-
-   如需尋找您Twilio帳戶之相關資訊，請參閱[Twilio說明中心](https://help.twilio.com/articles/14726256820123-What-is-a-Twilio-Account-SID-and-where-can-I-find-it-)。
-
-1. 完成API認證的組態詳細資料時，請按一下頁面右上方的&#x200B;**[!UICONTROL 提交]**。
-
->[!TAB Infobip]
-
-_若要使用Adobe Journey Optimizer B2B edition將Infobip設定為您的SMS提供者：_
-
-1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 設定]**。
-
-1. 按一下&#x200B;_[!UICONTROL API認證]_&#x200B;清單右上角的&#x200B;**[!UICONTROL 建立新API認證]**。
-
-1. 設定您的SMS API認證：
-
-   ![設定Infobip SMS API認證](./assets/config-sms-api-infobip.png){width="500"}
-
-   * **[!UICONTROL 簡訊供應商]** — 選擇`Infobip`做為簡訊提供者。
-
-   * **[!UICONTROL 名稱]** — 輸入API認證定義的名稱。
-
-   * **[!UICONTROL API基底URL]**&#x200B;和&#x200B;**[!UICONTROL API金鑰]** — 存取您的網頁介面首頁或Infobip帳戶的API金鑰管理頁面，以尋找您的認證。
-
-   如需有關為您的Infobip帳戶尋找此資訊的詳細資訊，請參閱[Infobip檔案](https://www.infobip.com/docs/api/_blank)。
-
-1. 完成API認證的組態詳細資料時，請按一下頁面右上方的&#x200B;**[!UICONTROL 提交]**。
-
->[!ENDTABS]
-
-按一下&#x200B;_[!UICONTROL 提交]_&#x200B;後，認證會立即驗證並儲存，將您重新導向至&#x200B;_[!UICONTROL API認證]_&#x200B;清單頁面。 如果提交的認證無效，系統會在清單頁面上顯示錯誤訊息。 在這種情況下，您可以選擇取消設定，或更新設定並重新提交。
+在建立帳戶歷程的SMS訊息之前，請確定[SMS服務提供者是從&#x200B;_[!UICONTROL 系統管理員]_&#x200B;設定設定](../admin/configure-channels-sms.md)。
 
 ## 在帳戶歷程中新增簡訊動作
 
@@ -269,4 +165,4 @@ Journey Optimizer B2B edition可讓您使用下列邏輯，管理簡訊訊息中
 
 * 根據預設，如果潛在客戶選擇不接收來自您的通訊，則對應的設定檔會從後續SMS傳送中排除
 
-* 來自不同來源（例如AEP或SMS服務提供者）的潛在客戶同意會同步至Journey Optimizer B2B Edition。 目前，其在執行個體層級僅支援每個潛在客戶的單一同意狀態（潛在客戶「John Doe」已訂閱或取消訂閱執行個體中的所有促銷SMS）。 目前不支援品牌層級/個別訂閱清單層級同意的雙重選擇加入。
+* 來自不同來源（例如AEP或SMS服務提供者）的潛在客戶同意會同步至Journey Optimizer B2B edition。 目前，其在執行個體層級僅支援每個潛在客戶的單一同意狀態（潛在客戶「John Doe」已訂閱或取消訂閱執行個體中的所有促銷SMS）。 目前不支援品牌層級/個別訂閱清單層級同意的雙重選擇加入。

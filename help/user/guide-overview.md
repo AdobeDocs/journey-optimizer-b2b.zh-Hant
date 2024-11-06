@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B 版文件
 description: 瞭解如何使用Adobe Journey Optimizer B2B edition功能，利用內建的創作AI和領先業界的自動化來協調帳戶和購買群組歷程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: a1cbb0270f5174b8a16b783aaef7a890abb81a32
+source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 7%
 
 ---
 
@@ -17,9 +17,21 @@ ht-degree: 9%
 
 >[!BEGINTABS]
 
+>[!TAB 條件式內容]
+
+使用條件式內容，以根據條件式規則調整電子郵件內容。 使用設定檔屬性或內容事件來定義規則。 您可以在規則產生器中建立條件式規則，並儲存這些規則以便在帳戶歷程中重複使用。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/content/conditional-content.md" tooltip="瞭解條件式內容"}
+
+>[!TAB 人員動作 — 新增至清單/從清單移除]
+
+在帳戶歷程中，使用&#x200B;_新增至清單_&#x200B;動作節點將人員新增至Marketo Engage靜態清單。 這些清單可讓您靈活調整特定對象的用途並鎖定其目標。 您可以建立清單，然後在其周圍建立行銷活動，或直接將人員新增到現有的行銷活動。 此外，使用&#x200B;_從清單移除_&#x200B;人員動作，根據帳戶歷程進度調整並變更Marketo Engage中的目標定位。
+
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="瞭解新增至清單和從清單移除"}
+
 >[!TAB 中央資產庫]
 
-在Design Studio工作區中使用Marketo Engage例項中的所有影像資產。 內建的護欄可防止從Journey Optimizer B2B edition編輯Marketo Engage資產。 這些保護措施可確保Marketo Engage來源資產受到維護，同時允許在Journey Optimizer B2B edition中無縫讀取和重複使用。 針對專供Journey Optimizer B2B edition使用的資產，特定工作區提供完整的資產管理功能。
+在Design Studio工作區的Marketo Engage例項中使用影像資產。 內建的護欄可防止從Journey Optimizer B2B edition編輯Marketo Engage資產。 這些保護措施可確保Marketo Engage來源資產受到維護，同時允許在Journey Optimizer B2B edition中無縫讀取和重複使用。 針對專供Journey Optimizer B2B edition使用的資產，特定工作區提供完整的資產管理功能。
 
 [!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="瞭解中央資產管理"}
 
@@ -38,12 +50,6 @@ ht-degree: 9%
 使用由創作AI提供技術支援的Adobe Journey Optimizer B2B edition中電子郵件內容的AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、目標文字內容，甚至是專為引起觀眾共鳴而量身打造的影像，協助您最佳化傳送的影響。
 
 [!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="瞭解電子郵件的AI助理"}
-
->[!TAB 視覺片段]
-
-建立可重複使用的元件作為自訂內容區塊，供行銷團隊成員用於組合電子郵件內容，以改善設計流程。
-
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="瞭解視覺片段"}
 
 >[!ENDTABS]
 
@@ -104,12 +110,12 @@ ht-degree: 9%
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="內容製作"><br/>
-      <strong>歷程內容</strong><br/><a href="./content/email-authoring.md">電子郵件製作</a><br/><a href="./content/ai-assistant-emails.md">電子郵件的AI小幫手</a><br/><a href="./content/sms-authoring.md">簡訊製作</a>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="歷程內容"><br/>
+      <strong>歷程內容</strong><br/><a href="./content/email-authoring.md">電子郵件製作</a><br/><a href="./content/ai-assistant-emails.md">電子郵件的AI小幫手</a><br/><a href="./content/sales-alert-email.md">銷售警示電子郵件</a><br/><a href="./content/sms-authoring.md">簡訊製作</a>
     </td>
         <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="內容資產"><br/>
-      <strong>內容管理</strong><br/><a href="./content/assets-overview.md">Assets概觀</a><br/><a href="./content/email-templates.md">電子郵件範本</a><br/><a href="./content/fragments.md">視覺片段</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="內容管理"><br/>
+      <strong>內容管理</strong><br/><a href="./content/assets-overview.md">Assets概觀</a><br/><a href="./content/email-templates.md">電子郵件範本</a><br/><a href="./content/fragments.md">視覺片段</a><br/><a href="./content/conditional-content.md">條件式內容</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="見解和儀表板"><br/>
@@ -126,7 +132,7 @@ ht-degree: 9%
 <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant" target="_blank">檔案</a> - <a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">檔案</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
 </td></tr>
 <tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home" target="_blank">檔案</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">開發人員教學課程</a>

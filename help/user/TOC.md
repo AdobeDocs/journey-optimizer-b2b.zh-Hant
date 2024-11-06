@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B 版文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B 版，以及如何使用它透過內建生成式 AI 和業界領先的自動化來編排帳戶和購買群組旅程。
-source-git-commit: 93b21240182843543dc439ba2844ab8c3c3b6013
+source-git-commit: 2fad420eb5d0511acff5509a424b9ed100cdb151
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 44%
+source-wordcount: '154'
+ht-degree: 41%
 
 ---
 
@@ -31,17 +31,23 @@ ht-degree: 44%
    + [概觀](./journeys/journey-overview.md)
    + [帳戶歷程節點](./journeys/journey-nodes.md)
 + 歷程內容{#journey-content}
-   + [電子郵件製作](./content/email-authoring.md)
-   + [用於電子郵件製作的AI助理](./content/ai-assistant-emails.md)
-   + [銷售警示電子郵件](./content/sales-alert-email.md)
+   + 電子郵件頻道 {#email-channel}
+      + [電子郵件製作](./content/email-authoring.md)
+      + [用於電子郵件製作的AI助理](./content/ai-assistant-emails.md)
+      + [受管理的範本](./content/email-authoring-governance.md)
+      + [銷售警示電子郵件](./content/sales-alert-email.md)
    + [簡訊製作](./content/sms-authoring.md)
 + 內容管理 {#content-management}
    + 資產 {#assets}
       + [概觀](./content/assets-overview.md)
       + [使用Marketo Engage資產](./content/marketo-engage-design-studio.md)
       + [使用AEM Assets影像](./content/aem-assets.md)
-   + [範本](./content/email-templates.md)
+   + 範本{#templates}
+      + [管理電子郵件範本](./content/email-templates.md)
+      + [電子郵件範本製作](./content/email-template-authoring.md)
+      + [內容控管](./content/template-content-governance.md)
    + [片段](./content/fragments.md)
+   + [條件式內容](./content/conditional-content.md)
 + 深入分析控制面板{#dashboards}
    + [智慧型儀表板](./dashboards/intelligent-dashboard.md)
    + [購買群組](./dashboards/buying-groups-dashboard.md)
@@ -49,5 +55,8 @@ ht-degree: 44%
    + [歷程概觀](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [使用者管理](./admin/user-management.md)
+   + 管道 {#channels}
+      + [電子郵件設定](./admin/configure-channels-emails.md)
+      + [簡訊設定](./admin/configure-channels-sms.md)
    + [設定AEM Assets存放庫](./admin/configure-aem-repositories.md)
    + [治理](./admin/governance.md)

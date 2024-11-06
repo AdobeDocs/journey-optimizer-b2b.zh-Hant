@@ -1,22 +1,22 @@
 ---
 title: 電子郵件範本
-description: 瞭解如何輕鬆並有效率地建立和編輯可用於撰寫帳戶歷程電子郵件的電子郵件範本。
+description: 瞭解如何管理及建立電子郵件範本，以便輕鬆有效率地撰寫帳戶歷程電子郵件。
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 3%
+source-wordcount: '1396'
+ht-degree: 0%
 
 ---
 
 # 電子郵件範本
 
-為了加快並改善設計流程，您可以建立獨立的電子郵件範本，以在整個Adobe Journey Optimizer B2B Edition帳戶歷程中重複使用自訂內容。 透過範本，您的內容導向團隊成員可以在歷程之外處理電子郵件內容。 行銷策略師隨後可在其帳戶歷程中重複使用這些獨立範本，並加以調整。 例如，一個團隊成員只負責內容，無權存取帳戶歷程。 但是，他們可以建立電子郵件範本，行銷人員可以選取作為電子郵件通訊的起點，並根據歷程的需求進行自訂。
+為了加快並改善設計流程，您可以建立獨立的電子郵件範本，以在整個Adobe Journey Optimizer B2B edition帳戶歷程中重複使用自訂內容。 透過範本，您的內容導向團隊成員可以在歷程之外處理電子郵件內容。 行銷策略師隨後可在其帳戶歷程中重複使用這些獨立範本，並加以調整。 例如，一個團隊成員只負責內容，無權存取帳戶歷程。 但是，他們可以建立電子郵件範本，行銷人員可以選取作為電子郵件通訊的起點，並根據歷程的需求進行自訂。
 
 ## 存取和管理電子郵件範本
 
-若要存取Adobe Journey Optimizer B2B版本中的電子郵件範本，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 範本]**。 此動作會開啟一個清單頁面，其中包含在表格中列出的執行處理中建立的所有電子郵件範本。
+若要存取Adobe Journey Optimizer B2B edition中的電子郵件範本，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 範本]**。 此動作會開啟一個清單頁面，其中包含在表格中列出的執行處理中建立的所有電子郵件範本。
 
 表格是依&#x200B;_[!UICONTROL 已修改]_&#x200B;欄排序，最近更新的範本預設會位於清單頂端。 按一下欄標題，在升序和降序之間變更。
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## 建立電子郵件範本
 
-您可以按一下右上角的&#x200B;**[!UICONTROL 建立範本]**，從電子郵件範本清單頁面建立新的電子郵件範本。
+您可以按一下右上角的&#x200B;**[!UICONTROL 建立範本]**，從電子郵件範本清單頁面建立電子郵件範本。
 
 1. 在對話方塊中，輸入有用的&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]** （選擇性）。
 
@@ -48,21 +48,23 @@ _[!UICONTROL 設計您的範本]_&#x200B;頁面會開啟，並提供多個建立
 
 ![選擇您要如何開始您的電子郵件範本設計](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
+選取您要用來開始電子郵件範本設計的方法之後，請使用視覺化設計工具[編寫您的電子郵件範本內容](./email-template-authoring.md)。
+
 ### 從頭開始設計
 
 使用視覺內容編輯器來定義電子郵件內容的結構。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計可重複使用電子郵件內容的形狀。
 
 >[!NOTE]
 >
->可用的設計工具等同於用於[電子郵件編寫](./email-authoring.md)的工具。 其差異在於此內容會儲存為範本，可在帳戶歷程中的多個傳送電子郵件節點重複使用。
+>可用的設計工具等同於用於[電子郵件編寫](./email-authoring.md)的工具。 不同之處在於，此內容隨後會儲存為範本，可在帳戶歷程中的多個&#x200B;_傳送電子郵件_&#x200B;節點間重複使用。
 
 1. 從&#x200B;_[!UICONTROL 設計您的範本]_&#x200B;首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
 
-1. [將結構和內容](#add-structure-and-content)新增到範本。
+1. [將結構和內容](./email-authoring.md#add-structure-and-content)新增到範本。
 
 ### 匯入HTML
 
-Adobe Journey Optimizer B2B Edition可讓您匯入現有的HTML內容，以設計您的電子郵件範本。
+Adobe Journey Optimizer B2B edition可讓您匯入現有的HTML內容，以設計您的電子郵件範本。
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -72,89 +74,11 @@ Adobe Journey Optimizer B2B Edition可讓您匯入現有的HTML內容，以設�
 >
 >使用`<table>`標籤做為HTML檔案中的第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
 
-您可以視需要使用視覺化電子郵件編輯器工具個人化匯入的內容。
+您可以使用視覺化設計工具視需要個人化匯入的內容。
 
 ### 選取設計範本
 
 {{$include /help/_includes/content-design-select-template.md}}
-
-## 新增結構和內容 {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="新增結構元件"
->abstract="結構元件會定義範本的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中，開始設計您的範本內容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="關於內容元件"
->abstract="內容元件指可用於建立範本版面的空白內容預留位置。"
-
-{{$include /help/_includes/content-design-components.md}}
-
-### 新增片段
-
-在視覺內容編輯器中，_片段_&#x200B;圖示會顯示在左側。 以下範例概述將片段新增至範本內容的步驟。
-
-1. 若要開啟片段清單，請按一下&#x200B;_片段_&#x200B;圖示。
-
-   您可以：
-
-   * 排序清單。
-   * 瀏覽、搜尋或篩選清單。
-   * 在縮圖和清單檢視之間切換。
-   * 重新整理清單以反映任何最近建立的片段。
-
-   ![從清單中選取片段](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. 將任何片段拖放至結構元件的預留位置。
-
-   編輯器會在電子郵件結構的區段/元素中轉譯片段。
-
-片段的內容會在結構內動態更新，以顯示內容在電子郵件中的顯示方式。
-
->[!TIP]
->
->如果要新增片段以佔據電子郵件內的整個水準版面，請新增1:1欄結構，然後將片段拖放至其中。
-
-儲存電子郵件後，當您在摘要中選取&#x200B;_[!UICONTROL 使用者]_&#x200B;索引標籤時，它就會顯示在片段詳細資訊頁面中。 新增到電子郵件範本的片段在範本中無法編輯 — 內容由來源片段定義。
-
-### 新增資產
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### 導覽圖層、設定和樣式
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### 個人化內容
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### 編輯連結的URL追蹤
-
-{{$include /help/_includes/content-design-links.md}}
-
-### 檢視選項
-
-善用視覺化電子郵件編輯器中可用的檢視和內容驗證選項。
-
-* 透過預設縮放選項放大/縮小內容。
-
-* 切換在案頭、行動裝置或純文字/純文字間檢視內容。
-   * 按一下&#x200B;_眼睛_&#x200B;圖示，即可跨裝置預覽內容。
-   * 選取其中一個現成可用的裝置，或輸入自訂維度以預覽內容。
-
-### 更多選項
-
-在視覺內容編輯器的&#x200B;_更多選項_&#x200B;選取器中，您可以執行下列動作：
-
-![按一下[更多]以存取範本動作](./assets/visual-designer-more-menu.png){width="500"}
-
-* **重設範本** — 按一下此選項，將視覺化電子郵件設計工具畫布清除為空白並重新啟動建立內容。
-* **另存為片段** — 將其全部或部份另存為片段，以便在多個電子郵件或電子郵件範本中重複使用。 您可以提供片段的名稱和說明，並將其加入可用片段清單。
-* **變更您的設計** — 返回&#x200B;_設計您的範本_&#x200B;頁面。 從這裡，您可以採取在「建立電子郵件範本」一節中概述的任何行動。
-* **匯出HTML** — 將視覺畫布中的內容以HTML格式下載到您的本機系統，並封裝成zip檔。
 
 ## 檢視電子郵件範本詳細資訊
 
@@ -178,7 +102,7 @@ Adobe Journey Optimizer B2B Edition可讓您匯入現有的HTML內容，以設�
 
 ![按一下[使用者]索引標籤以檢查範本使用情形](./assets/template-details-used-by.png){width="400"}
 
-Journey Optimizer B2B Edition中的電子郵件會嵌入並在歷程中撰寫，因此使用範本之電子郵件的父歷程會顯示在參考中。
+Journey Optimizer B2B edition中的電子郵件會在歷程中內嵌及編寫，因此使用範本之電子郵件的父歷程會顯示在參考中。
 
 * 按一下連結會前往使用電子郵件範本的對應歷程電子郵件。
 

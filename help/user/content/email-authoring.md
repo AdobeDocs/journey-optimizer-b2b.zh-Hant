@@ -3,16 +3,16 @@ title: 電子郵件製作
 description: 瞭解如何建立用於帳戶歷程的個人化電子郵件內容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 13%
+source-wordcount: '1428'
+ht-degree: 10%
 
 ---
 
 # 電子郵件製作
 
-使用Adobe Journey Optimizer B2B Edition傳送電子郵件訊息給您的客戶。 您可以在電子郵件設計工具建立、個人化以及預覽訊息。
+使用Adobe Journey Optimizer B2B edition傳送電子郵件訊息給您的客戶。 您可以在視覺化設計工具中建立、個人化和預覽訊息。
 
 ## 在帳戶歷程中新增電子郵件動作
 
@@ -60,7 +60,7 @@ ht-degree: 13%
 
 >[!TIP]
 >
->使用由generative AI支援的Adobe Journey Optimizer B2B Edition AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、鎖定目標文字內容，並針對與對象產生迴響的影像取得AI Assistant建議，協助您最佳化傳送的影響。 [了解更多](./ai-assistant-emails.md)
+>使用由generative AI支援的Adobe Journey Optimizer B2B edition中的AI助理，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、鎖定目標文字內容，並針對與對象產生迴響的影像取得AI Assistant建議，協助您最佳化傳送的影響。 [了解更多](./ai-assistant-emails.md)
 
 ### 從頭開始設計您的電子郵件 {#design-from-scratch}
 
@@ -109,6 +109,10 @@ ht-degree: 13%
 
 {{$include /help/_includes/content-design-select-template.md}}
 
+>[!NOTE]
+>
+> 儲存的範本可能會套用至一或多個元件的治理（內容鎖定）設定。 當您[從受控制的範本](./email-authoring-governance.md)撰寫電子郵件時，視覺化設計工具會提供鎖定元件的相關准則。
+
 ## 新增結構和內容 {#structure-content}
 
 >[!CONTEXTUALHELP]
@@ -146,9 +150,9 @@ ht-degree: 13%
 
 >[!TIP]
 >
->如果要新增片段以佔據電子郵件內的整個水準版面，請新增1:1欄結構，然後將片段拖放至其中。
+>若要新增片段，使其佔據電子郵件內的整個水準版面，請新增1:1欄結構，然後將片段拖放至其中。
 
-儲存電子郵件後，當您在摘要中選取&#x200B;_[!UICONTROL 使用者]_&#x200B;索引標籤時，它就會顯示在片段詳細資訊頁面中。 新增到電子郵件範本的片段在範本中無法編輯 — 內容由來源片段定義。
+儲存電子郵件後，當您在摘要中選取&#x200B;_[!UICONTROL 使用者]_&#x200B;索引標籤時，它就會顯示在片段詳細資訊頁面中。 新增到電子郵件範本的片段在範本中無法編輯 — 來源片段會定義內容。
 
 ### 新增資產
 
@@ -173,8 +177,20 @@ ht-degree: 13%
 * 透過預設縮放選項放大/縮小內容。
 
 * 切換在案頭、行動裝置或純文字/純文字間檢視內容。
-   * 按一下&#x200B;_眼睛_&#x200B;圖示，即可跨裝置預覽內容。
+   * 按一下&#x200B;_檢視_&#x200B;圖示，即可跨裝置預覽內容。
    * 選取其中一個現成可用的裝置，或輸入自訂維度以預覽內容。
+
+### 更多選項
+
+從電子郵件設計工具頂端的&#x200B;_[!UICONTROL 更多……]_&#x200B;功能表，您可以執行下列動作：
+
+![按一下[更多]以存取範本動作](./assets/email-designer-more-menu.png){width="500"}
+
+* **[!UICONTROL 重設電子郵件]** — 按一下此選項，將視覺化電子郵件設計工具畫布清除為空白並重新啟動內容建置。
+* **[!UICONTROL 另存為片段]** — 將電子郵件的全部或部份另存為片段，以便在多個電子郵件或電子郵件範本中重複使用。 您提供片段的名稱和說明，並將其儲存到可用片段清單中。
+* **[!UICONTROL 變更您的設計]** — 返回&#x200B;_設計您的電子郵件_&#x200B;頁面。 從那裡，您可以選擇另一個範本以重新啟動設計程式，或選擇在黑色畫布中從頭開始設計內容。\
+* **[!UICONTROL 另存為內容範本]** — 將電子郵件內文另存為電子郵件範本，以便在多個電子郵件或電子郵件範本中重複使用。 您可以提供範本的名稱和說明，並將其儲存至已儲存電子郵件範本的清單。
+* **[!UICONTROL 匯出HTML]** — 將視覺畫布中的內容以HTML格式下載到您的本機系統，並封裝成zip檔。
 
 ## 檢查警報
 
