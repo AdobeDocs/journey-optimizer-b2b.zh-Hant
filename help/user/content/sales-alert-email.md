@@ -3,9 +3,9 @@ title: 銷售警示電子郵件
 description: 瞭解如何在您的帳戶歷程中加入自動銷售警報電子郵件。
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 3%
 _銷售警示電子郵件_&#x200B;代表採購群組已移交給銷售人員。 此電子郵件包含購買群組的摘要，以及有關購買群組成員及其活動的資訊。
 
 身為行銷人員，您可以在帳戶歷程中設定銷售警報電子郵件節點，以提醒銷售團隊特定購買群組的歷程已完成。 在節點中，您可以指定銷售團隊的電子郵件地址，或到達一組帳戶的分發別名。
+
+>[!IMPORTANT]
+>
+>請確定貴組織的允許清單已更新，以便可以傳送銷售警示電子郵件。 如需詳細資訊，請參閱[追蹤和電子郵件傳遞的通訊協定](../start/email-protocols.md)。
 
 ## 電子郵件內容
 

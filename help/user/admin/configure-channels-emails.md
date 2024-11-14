@@ -2,16 +2,17 @@
 title: 電子郵件設定
 description: 瞭解如何存取及檢閱Marketo Engage中設定的電子郵件設定。
 feature: Setup
-source-git-commit: f097f535237fe6b27322e2c325e59daa8a54ee2f
+exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+source-git-commit: 796cb86f81aa18d8e616af527c22b3160df4f1b5
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
 
 # 電子郵件設定
 
-Adobe Journey Optimizer B2B edition運用Market Engage中的管道功能和事件追蹤。 管理員應確保有傳送和追蹤設定，以啟用行銷人員的管道傳送。
+Adobe Journey Optimizer B2B edition運用Market Engage中的管道功能和事件追蹤。 管理員應確保有傳送和追蹤設定，以啟用行銷人員的管道傳送。 如需有關電子郵件傳遞及透過Marketo Engage追蹤所需通訊協定的資訊，請參閱[追蹤和電子郵件傳遞通訊協定](../start/email-protocols.md)。
 
 ## 傳遞設定
 
@@ -54,7 +55,6 @@ Adobe Journey Optimizer B2B edition運用Market Engage中的管道功能和事�
 >[!NOTE]
 >
 >如果您在Journey Optimizer B2B edition和連線的Marketo Engage例項之外行銷多個品牌，而且希望每個品牌都有自己的品牌追蹤連結，您可以新增額外的品牌網域。 如需詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
-
 
 ### [!UICONTROL 自訂標頭選項] {#custom-header-options}
 
@@ -146,4 +146,3 @@ Marketo Engage使用兩種方法來確認機器人活動：
 >若要在Adobe Marketo Engage中存取及編輯這些設定，您必須擁有產品管理員許可權。
 
 如需有關設定機器人活動選項的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
-
