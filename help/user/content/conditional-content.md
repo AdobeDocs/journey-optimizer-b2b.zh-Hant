@@ -2,10 +2,11 @@
 title: 條件式內容
 description: 瞭解如何在編寫帳戶歷程的電子郵件內容時建立內容變體並套用條件規則。
 feature: Email Authoring, Content
-source-git-commit: 15a5144554f25634efa29efc42d41350b19c2bfb
+exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -15,12 +16,12 @@ ht-degree: 3%
 
 若要新增條件式內容至您的電子郵件訊息，Adobe Journey Optimizer可讓您套用儲存在&#x200B;_條件_&#x200B;資料庫中的條件式規則。 當您[在帳戶歷程](./email-authoring.md)中編寫電子郵件時，在電子郵件設計工具中套用條件規則。
 
-## 新增條件式內容至電子郵件 {#email-content}
+## 在電子郵件中新增條件內容 {#email-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
 >title="條件式內容"
->abstract="使用條件式規則建立內容元件的多個變體。如果傳送訊息時不符合任何條件，則會顯示預設變體的內容。"
+>abstract="使用條件式規則建立內容元件的多個變體。如果傳送訊息時未符合任何條件，會顯示預設變體的內容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_rule_select"
@@ -105,7 +106,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditions_rule_editor"
 >title="建立條件"
->abstract="結合屬性和內容事件以建立規則，決定要在電子郵件訊息中顯示的內容變體。"
+>abstract="結合屬性和內容事件來建置規則，決定在電子郵件訊息中顯示哪些內容變體。"
 
 選取元件變體的條件時，您可以從電子郵件設計工具存取條件規則產生器。
 
