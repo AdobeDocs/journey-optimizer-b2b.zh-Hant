@@ -3,9 +3,9 @@ title: 購買群組角色範本
 description: 瞭解如何定義作為購買群組元件的角色範本。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 存取和瀏覽角色範本
 
-1. 在Adobe Experience Platform首頁中，按一下Adobe Journey Optimizer B2B Edition。
+1. 在Adobe Experience Platform首頁中，按一下Adobe Journey Optimizer B2B edition。
 
 1. 在左側導覽列中，按一下&#x200B;**[!UICONTROL 購買群組]**。
 
@@ -55,7 +55,13 @@ ht-degree: 0%
 
    ![建立角色範本對話方塊](assets/roles-template-create-dialog.png){width="400"}
 
-1. 為您要為範本定義的每個角色新增規則。
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
+
+### 新增範本角色
+
+建立範本後，它會在工作區中開啟，並提示您定義角色。 預設會顯示第一個角色卡。
+
+1. 對於第一個角色卡，定義角色屬性。
 
    * 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
 
@@ -73,31 +79,37 @@ ht-degree: 0%
 
    * **[!UICONTROL 完整性分數所需]** — 如果您希望計算完整性分數需要角色，請選取此核取方塊。
 
-   * 按一下&#x200B;**[!UICONTROL 新增條件]**。
+1. 按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;並定義角色的條件規則。
 
-      * 在條件對話方塊中，展開&#x200B;**[!UICONTROL 人員屬性]**&#x200B;的清單，並找出要用來比對角色的屬性。 將其拖曳至右側，並放置在篩選空間中。
+   * 在&#x200B;_[!UICONTROL 條件]_&#x200B;對話方塊中，展開&#x200B;**[!UICONTROL 人員屬性]**&#x200B;的清單，並找出要用來比對角色的屬性。 將其拖曳至右側，並放置在篩選空間中。
 
-        ![角色範本新增條件拖曳屬性](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+     ![角色範本新增條件拖曳屬性](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-      * 使用屬性，以使用一或多個值建立相符篩選器。
+     >[!NOTE]
+     >
+     >如果您在Experience Platform的帳戶對象結構中定義了自訂人員欄位，這些欄位也可在條件中作為人員屬性使用。
 
-        在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
+   * 使用屬性，以使用一或多個值建立相符篩選器。
 
-        使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
+     在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
 
-      * 如有需要，請新增其他屬性和條件，進一步精簡符合角色的條件。
+     使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
 
-      * 按一下&#x200B;**[!UICONTROL 「完成」]**。
+   * 如有需要，請新增其他屬性和條件，進一步精簡符合角色的條件。
 
-   針對您想要加入範本的每個其他角色，按一下&#x200B;**[!UICONTROL 新增其他角色]**，並定義一或多個條件以符合該角色。
+   * 按一下&#x200B;**[!UICONTROL 「完成」]**。
+
+1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] ]**，並重複步驟1和2來定義角色。**[!UICONTROL 
 
    已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
-1. 如果範本已可供使用，請按一下右上方的&#x200B;**[!UICONTROL Publish]**。
+您的變更會自動儲存為&#x200B;_草稿_&#x200B;狀態。 如果您尚未準備好發佈角色範本，請按一下頁面頂端的向左（後退）箭頭，並返回&#x200B;_[!UICONTROL 角色範本]_&#x200B;清單。
 
-   發佈範本會將它設定為&#x200B;_即時_&#x200B;狀態，並使其可與解決方案興趣建立關聯。 至少必須有一個已定義的角色才能發佈角色範本。
+### Publish角色範本
 
-   您的變更會自動儲存為&#x200B;_草稿_&#x200B;狀態。 如果您尚未準備好發佈角色範本，請按一下頁面頂端的向左（後退）箭頭，並返回「角色範本」清單。
+如果範本已可供使用，請按一下右上方的&#x200B;**[!UICONTROL Publish]**。
+
+發佈範本會將狀態設定為&#x200B;_即時_&#x200B;狀態，並使其可與解決方案興趣產生關聯。 至少必須有一個已定義的角色才能發佈角色範本。
 
 ## 編輯草稿角色範本
 
@@ -107,13 +119,13 @@ ht-degree: 0%
 
 ![變更購買群組角色屬性](./assets/roles-template-role-properties.png){width="600"}
 
-### 修改角色的篩選器
+### 修改角色的條件
 
-若要變更任何角色的篩選邏輯，請按一下角色卡片右上角的&#x200B;_編輯_ （鉛筆）圖示。 此動作會開啟&#x200B;_[!UICONTROL 條件]_&#x200B;工作區，您可以在其中修改現有的篩選器、新增另一個篩選器、移除篩選器或變更篩選器邏輯。
+若要變更任何角色的條件/篩選邏輯，請按一下角色卡片右上角的&#x200B;_編輯_ （ ![編輯圖示](../assets/do-not-localize/icon-edit.svg) ）圖示。 此動作會開啟&#x200B;_[!UICONTROL 條件]_&#x200B;工作區，您可以在其中修改現有篩選器、新增或移除篩選器，或變更篩選器邏輯。
 
 ### 刪除角色卡
 
-如果您想要從範本移除角色，請按一下角色卡片中的&#x200B;_刪除_ （垃圾桶）圖示。
+如果您想要從範本移除角色，請按一下角色卡片中的&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete.svg) ）圖示。
 
 ### 設定角色的優先順序
 

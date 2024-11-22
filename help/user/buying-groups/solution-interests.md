@@ -3,9 +3,9 @@ title: 解決方案興趣
 description: 瞭解解決方案興趣，以及如何定義這些興趣以用於您的購買群組。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 存取和瀏覽解決方案興趣
 
-1. 在Adobe Experience Platform首頁中，按一下Adobe Journey Optimizer B2B Edition。
+1. 在Adobe Experience Platform首頁中，按一下Adobe Journey Optimizer B2B edition。
 
 1. 在左側導覽列中，按一下&#x200B;**[!UICONTROL 購買群組]**。
 
@@ -48,13 +48,21 @@ ht-degree: 0%
 
 1. 選擇&#x200B;**[!UICONTROL 角色範本]** （必要）。
 
-   按一下選取器，然後從顯示的清單中選擇即時角色範本。 您只能將一個即時角色範本與解決方案興趣建立關聯。
+   按一下&#x200B;**[!UICONTROL 選取角色範本]**，然後從對話方塊的清單中選擇即時角色範本。 您只能將一個即時角色範本與解決方案興趣建立關聯。 按一下[儲存]**[!UICONTROL 返回[建立方案興趣]]_頁面，其中顯示選取的角色範本。]**_[!UICONTROL 
 
-   ![方案興趣標籤](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![新增角色範本至方案興趣](assets/solution-interest-create.png){width="700" zoomable="yes"}
+
+1. 選取&#x200B;**[!UICONTROL 購買群組階段模型]**&#x200B;以使用購買群組階段進度（選擇性）。
+
+   如需使用購買群組階段來追蹤帳戶進展的詳細資訊，請參閱[購買群組階段](./buying-group-stages.md)。
+
+1. 啟用&#x200B;**[!UICONTROL 更新現有的購買群組]**&#x200B;設定（選擇性）。
+
+   啟用此選項後，與解決方案相關的所有現有購買群組都會透過24小時同步週期更新。
 
 1. 按一下右上角的「**[!UICONTROL 建立]**」。
 
-   您的新解決方案興趣會顯示在解決方案興趣中
+   新的方案興趣會顯示在&#x200B;_[!UICONTROL 方案興趣]_&#x200B;清單中。
 
 ## 編輯解決方案興趣
 
@@ -68,6 +76,10 @@ ht-degree: 0%
    ![方案興趣更多選單](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. 如有需要，請更新名稱（必要且唯一）和說明（選用）。
+
+1. 如有需要，請選取&#x200B;**[!UICONTROL 購買群組階段模型]**，以追蹤購買群組階段進度。
+
+   如需使用購買群組階段來追蹤歷程進度與銷售的相關資訊，請參閱[購買群組階段](./buying-group-stages.md)。
 
 1. 如有需要，請變更&#x200B;**[!UICONTROL 更新現有的購買群組]**&#x200B;設定。
 
