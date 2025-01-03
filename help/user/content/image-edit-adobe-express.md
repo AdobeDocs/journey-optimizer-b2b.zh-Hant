@@ -4,7 +4,7 @@ description: 瞭解如何使用Adobe Express在Journey Optimizer B2B edition工�
 feature: Assets, Content
 hide: true
 hidefromtoc: true
-source-git-commit: 34b18ccffce2cad8f11246bfc59a5ba59a954e7d
+source-git-commit: 941400fc55e418496318fe8182cd918d0643388e
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -21,5 +21,4 @@ ht-degree: 0%
 Adobe Journey Optimizer B2B edition與Adobe Express原生整合，可讓您存取一組Adobe Express影像編輯工具。 您可以使用這些工具，為連線的Marketo Engage資產存放庫修改儲存在Journey Optimizer B2B edition工作區中的影像。 整合提供下列主要優點：
 
 * 透過在Journey Optimizer B2B edition中編輯和儲存新影像資產，增加內容重複使用率。
-
 * 減少更新影像資產或建立現有影像資產新版本的時間和精力。
