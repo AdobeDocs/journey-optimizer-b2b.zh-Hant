@@ -4,10 +4,11 @@ description: 瞭解如何存取及設定登入頁面設定，以便您的行銷�
 feature: Setup, Content
 hide: true
 hidefromtoc: true
-source-git-commit: f599ae239b6979f766f97330b825503e70a13e50
+exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
+source-git-commit: a04e069d12f1599eb3d53840704d01ced05ba4fb
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 1%
+ht-degree: 49%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_account_string"
 >title="登陸頁面帳戶字串"
->abstract="帳戶字串可識別託管登入頁面的Adobe Journey Optimizer B2B edition例項。"
+>abstract="帳戶字串會識別託管登陸頁面的 Adobe Journey Optimizer B2B Edition 執行個體。"
 
 帳戶字串可識別託管登入頁面的Adobe Journey Optimizer B2B edition例項。 請確定您的系統團隊新增並設定DNS專案。
 
@@ -46,14 +47,14 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_add_subdomain"
 >title="新增登陸頁面子網域"
->abstract="您最多可以新增50個子網域。 針對您要在Adobe Journey Optimizer B2B edition上託管的每個唯一品牌URL，設定新的子網域。"
+>abstract="您最多可以新增 50 個子網域。針對您想要在 Adobe Journey Optimizer B2B Edition 託管的每個唯一品牌 URL 設定新的子網域。"
 
 ### 子網域詳細資訊 {#configure-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_configure_subdomain"
 >title="設定登陸頁面子網域"
->abstract="發佈登陸頁面需要已設定的子網域。 您可以使用已委派給Adobe的子網域，或建立新的子網域。"
+>abstract="需要已設定的子網域才能發佈登陸頁面。您可以使用已委派給 Adobe 的子網域，或建立新的子網域。"
 
 預留位置文字。
 
