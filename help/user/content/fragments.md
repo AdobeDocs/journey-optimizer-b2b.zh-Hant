@@ -1,18 +1,18 @@
 ---
 title: 片段
-description: 瞭解如何在Adobe Journey Optimizer B2B Edition中建立和使用視覺內容片段，作為電子郵件和電子郵件範本的可重複使用元件。
+description: 瞭解如何在Adobe Journey Optimizer B2B edition中建立和使用視覺內容片段，作為電子郵件和電子郵件範本的可重複使用元件。
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
+source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2679'
 ht-degree: 3%
 
 ---
 
 # 片段
 
-片段是可重複使用的元件，可在各個Adobe Journey Optimizer B2B Edition的一或多個電子郵件和電子郵件範本中參考。 這通常是可以預先建立並快速插入電子郵件或電子郵件範本中的內容區塊（文字、影像或兩者）。 透過此功能，您可以預先建置多個自訂內容區塊，以供行銷團隊成員用於組合電子郵件內容，以改進設計流程。 常見的使用案例包括電子郵件的頁首/頁尾內容區塊、事件邀請橫幅和季節性問候。
+片段是可重複使用的元件，可在各個Adobe Journey Optimizer B2B edition的一或多封電子郵件和電子郵件範本中參照。 這通常是可以預先建立並快速插入電子郵件或電子郵件範本中的內容區塊（文字、影像或兩者）。 透過此功能，您可以預先建置多個自訂內容區塊，以供行銷團隊成員用於組合電子郵件內容，以改進設計流程。 常見的使用案例包括電子郵件的頁首/頁尾內容區塊、事件邀請橫幅和季節性問候。
 
 若要在工作流程中善用片段：
 
@@ -21,11 +21,11 @@ ht-degree: 3%
 
 ## 視覺片段
 
-視覺片段是預先定義的視覺化區塊，使用視覺化內容編輯器建置，可在多個電子郵件或電子郵件範本中重複使用。 Journey Optimizer B2B版本的目前範圍及本檔案僅為視覺片段。 Journey Optimizer B2B Edition尚不支援運算式型片段。
+視覺片段是預先定義的視覺化區塊，使用視覺化內容編輯器建置，可在多個電子郵件或電子郵件範本中重複使用。 Journey Optimizer B2B edition及本檔案的目前範圍僅為視覺片段。 Journey Optimizer B2B edition尚不支援運算式型片段。
 
 ## 存取及管理片段
 
-若要存取Adobe Journey Optimizer B2B版本中的視覺片段，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**。 此動作會開啟一個清單頁面，其中包含在表格中列出的執行個體中建立的所有片段。
+若要存取Adobe Journey Optimizer B2B edition中的視覺片段，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**。 此動作會開啟一個清單頁面，其中包含在表格中列出的執行個體中建立的所有片段。
 
 ![存取片段庫](./assets/fragments-list.png){width="700" zoomable="yes"}
 
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->片段狀態已在Journey Optimizer B2B版本8月發行版本中引入。 在此版本之前建立的所有片段都會具有&#x200B;_草稿_&#x200B;狀態，即使這些片段用於電子郵件或範本中亦然。 如果您對這些片段進行變更，則必須發佈片段以傳播變更。
+>Journey Optimizer B2B edition 8月發行版本已引入片段狀態。 在此版本之前建立的所有片段都會具有&#x200B;_草稿_&#x200B;狀態，即使這些片段用於電子郵件或範本中亦然。 如果您對這些片段進行變更，則必須發佈片段以傳播變更。
 
 ### 篩選片段清單
 
@@ -63,7 +63,7 @@ ht-degree: 3%
 
 ## 建立內容片段
 
-您可以按一下右上角的「**[!UICONTROL 建立片段]**」，在Journey Optimizer B2B Edition中建立新的視覺片段。
+您可以按一下右上角的「**[!UICONTROL 建立片段]**」，在Journey Optimizer B2B edition中建立新的視覺片段。
 
 1. 在&#x200B;_[!UICONTROL 建立片段]_&#x200B;對話方塊中，輸入有用的&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]** （選擇性）。
 
@@ -141,13 +141,13 @@ ht-degree: 3%
 
 ## 檢視片段使用者參考
 
-在片段詳細資訊頁面中，按一下&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤，以檢視Journey Optimizer B2B Edition、電子郵件、電子郵件範本和片段中目前使用片段的詳細資訊。
+在片段詳細資訊頁面中，按一下&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤，以檢視Journey Optimizer B2B edition、電子郵件、電子郵件範本和片段中目前使用片段的詳細資訊。
 
 >[!IMPORTANT]
 >
 >無法刪除任何電子郵件或電子郵件範本目前正在使用的任何片段。
 
-根據類別顯示參考： _電子郵件_&#x200B;或&#x200B;_電子郵件範本_。 Journey Optimizer B2B Edition中的電子郵件會內嵌於帳戶歷程中並加以撰寫，因此使用片段的電子郵件上層歷程會顯示在參考中。
+根據類別顯示參考： _電子郵件_&#x200B;或&#x200B;_電子郵件範本_。 Journey Optimizer B2B edition中的電子郵件內嵌於帳戶歷程中並加以撰寫，因此使用片段的電子郵件上層歷程會顯示在參考中。
 
 ![由片段](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}的參考使用
 
@@ -216,7 +216,7 @@ ht-degree: 3%
 
 1. 若要更新內容，請按一下右上方的&#x200B;**[!UICONTROL 建立草稿版本]**。
 
-   在對話方塊中按一下「**[!UICONTROL 確定]**」，在視覺化設計工具中開啟草稿版本。 您可以視需要變更[影像來源](./assets-overview.md#choose-an-asset-source)。
+   在對話方塊中按一下「**[!UICONTROL 確定]**」，在視覺化設計工具中開啟草稿版本。
 
    ![建立草稿版本對話方塊](./assets/fragments-create-draft-version.png){width="300"}
 

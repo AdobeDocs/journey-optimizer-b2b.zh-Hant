@@ -3,10 +3,10 @@ title: 購買群組角色範本
 description: 瞭解如何定義作為購買群組元件的角色範本。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
+source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 0%
+source-wordcount: '1125'
+ht-degree: 1%
 
 ---
 
@@ -61,6 +61,14 @@ ht-degree: 0%
 
 建立範本後，它會在工作區中開啟，並提示您定義角色。 預設會顯示第一個角色卡。
 
+您為範本定義的每個角色都使用一組篩選器（或&#x200B;_條件_）來決定指派給角色的成員。 使用下列篩選型別來定義角色的條件：
+
+| 類型 | 條件 |
+| ---- | --------- |
+| 個人屬性 | <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件已暫停 <li>傳真號碼 <li>名字 <li>推斷的狀態區域 <li>職稱 <li>姓氏 <li>中間名 <li>行動電話號碼 <li>電話號碼 <li>郵遞區號 <li>狀態 <li>退訂 <li>取消訂閱的原因 |
+| 特殊篩選 | <li>清單成員 |
+| 意圖資料 | 類別方法 <li>產品目的 <li>關鍵字意圖<br/>[瞭解意圖資料](../admin/intent-data.md)。 |
+
 1. 對於第一個角色卡，定義角色屬性。
 
    * 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
@@ -102,6 +110,16 @@ ht-degree: 0%
 1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] ]**，並重複步驟1和2來定義角色。**[!UICONTROL 
 
    已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX 「Marketo Engage清單成員資格」]
+
+在Marketo Engage中，_智慧行銷活動_&#x200B;會檢查方案成員資格，以確保潛在客戶不會收到重複的電子郵件，而且不會同時成為多個電子郵件串流的成員。 在Journey Optimizer B2B中，您可以檢查Marketo Engage清單成員資格，作為角色範本的條件，以協助消除購買群組成員資格和歷程活動中的重複專案。
+
+若要使用清單成員資格做為角色條件，請展開&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 清單成員]**&#x200B;條件拖曳到篩選器空間。 然後完成篩選器定義以評估一或多個Marketo Engage清單中的成員資格。
+
+Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+
+>[!ENDSHADEBOX]
 
 您的變更會自動儲存為&#x200B;_草稿_&#x200B;狀態。 如果您尚未準備好發佈角色範本，請按一下頁面頂端的向左（後退）箭頭，並返回&#x200B;_[!UICONTROL 角色範本]_&#x200B;清單。
 

@@ -3,9 +3,9 @@ title: 帳戶歷程
 description: 瞭解帳戶歷程，以及如何建立和管理它們。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,13 @@ ht-degree: 1%
 
 # 帳戶歷程
 
+使用電子郵件、簡訊、活動等自動參與功能，建置並執行為每個購買群組和購買群組成員量身打造的歷程。 WIth客戶歷程，您可以簡化需求產生和購買群組資格，並針對您的收購、追加銷售/交叉銷售和保留計畫推動更多合格需求。
+
 定義包括電子郵件、簡訊等內部帳戶歷程的銷售導向參與，以協調每個購買群組成員的傳入行銷與傳出銷售活動。
 
 ## 存取和瀏覽帳戶歷程
 
-1. 在Adobe Experience Platform首頁中，按一下Adobe Journey Optimizer B2B Edition。
+1. 在Adobe Experience Platform首頁中，按一下Adobe Journey Optimizer B2B edition。
 
 1. 在左側導覽中，按一下&#x200B;**[!UICONTROL 帳戶歷程]**。
 
@@ -86,35 +88,19 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-### 為您的歷程新增帳戶對象
-
-帳戶歷程一律以帳戶對象開始，您可在此將輸入新增至歷程。
-
-1. 按一下&#x200B;**[!UICONTROL 帳戶對象]**&#x200B;節點，在右側顯示節點屬性。
-
-   ![帳戶對象節點](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
-
-1. 按一下&#x200B;**[!UICONTROL 新增帳戶對象]**。
-
-   您可以按一下&#x200B;_[!UICONTROL 新增對象]_，以選取先前選取的對象區段。
-
-1. 若要建立新的對象區段，請在左側導覽中選取「**[!UICONTROL 帳戶對象]**」。
-
-1. 按一下「**[!UICONTROL 建立對象]**」，並遵循[分段服務指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}中所述的步驟。
-
 ### 歷程的組成要素
 
-_歷程畫布_&#x200B;是歷程設計器中的中央區域。 您可以在此區域中新增及設定歷程節點。 按一下節點，即可開啟畫布右側的屬性窗格，並根據您的設計加以設定。
+_歷程地圖_&#x200B;是歷程設計器中的中央區域。 您可以在此區域中新增及設定歷程節點。 按一下節點，即可開啟畫布右側的屬性窗格，並根據您的設計加以設定。 帳戶歷程一律以[帳戶對象節點](./account-audience-nodes.md)開始，您可以在其中新增輸入到歷程。
 
-您可以使用以下任一節點型別來建置您的歷程：
+建立帳戶歷程並新增對象後，請使用節點建立歷程。 歷程地圖提供畫布，您可以在其中使用下列節點型別建置您的多步驟B2B行銷使用案例，以建構帳戶歷程：
 
-* [接聽事件](journey-nodes.md#listen-for-an-event)
-* [採取動作](journey-nodes.md#take-an-action)
-* [分割路徑](journey-nodes.md#split-paths)
-* [等待](journey-nodes.md#wait)
-* [合併路徑](journey-nodes.md#merge-paths)
+* [採取動作](./action-nodes.md)
+* [接聽事件](./listen-for-event-nodes.md)
+* [分割路徑](./split-merge-paths-nodes.md)
+* [等待](./wait-nodes.md)
+* [合併路徑](./split-merge-paths-nodes.md)
 
-### 護軌
+### 護欄
 
 為協助您建立歷程而不會發生錯誤，已設定下列護欄：
 
@@ -134,7 +120,7 @@ _歷程畫布_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
 1. 導覽至歷程編輯器。
 
-1. 在右側的節點屬性中，按一下&#x200B;_刪除_ （垃圾桶）圖示。
+1. 在右側的節點屬性中，按一下&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete.svg) ）圖示。
 
 1. 在設定對話方塊中，按一下&#x200B;**[!UICONTROL 刪除]**。
 
@@ -142,7 +128,7 @@ _歷程畫布_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
 1. 導覽至歷程編輯器。
 
-1. 按一下路徑上的加號( **+** )圖示，然後新增分割路徑節點。
+1. 按一下路徑上的加號( **+** )圖示，然後新增[分割路徑節點](./split-merge-paths-nodes.md#split-paths)。
 
 1. 在右側的節點屬性中，選取&#x200B;**[!UICONTROL 帳戶]**。
 
@@ -150,11 +136,11 @@ _歷程畫布_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
    當在歷程中建立每個路徑時，屬性中都會顯示新路徑卡。
 
-1. 導覽至歷程中的其中一個路徑，並使用加號圖示將動作或事件節點新增至此路徑。
+1. 導覽至歷程中的其中一個路徑，並使用加號圖示將[動作](./action-nodes.md)或[事件](./listen-for-event-nodes.md)節點新增至此路徑。
 
-1. 選取分割路徑節點以開啟右側的屬性。
+1. 選取[分割路徑](./split-merge-paths-nodes.md)節點以開啟右側的屬性。
 
-   請注意，無法刪除上面有節點的路徑。
+   無法刪除上面有節點的路徑。
 
 1. 若要刪除這些路徑，必須先刪除該路徑上的所有節點。
 
@@ -181,3 +167,7 @@ _歷程畫布_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    當您準備好發佈您的歷程時，您可以在按一下&#x200B;_[!UICONTROL Publish]_&#x200B;時檢閱這些設定。
+
+### Publish帳戶歷程
+
+

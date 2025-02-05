@@ -2,9 +2,9 @@
 title: 開始使用Journey Optimizer B2B edition
 description: 作為 Journey Optimizer B2B 版的新使用者，了解重要的入門內容。
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '664'
 ht-degree: 10%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 10%
 
 1. **針對使用Adobe Experience Manager Assetsas a Cloud Service進行集中式數位資產管理的團隊，設定並啟用使用Assets**。 [了解更多](../admin/configure-aem-repositories.md)
 
+1. **為負責建立監聽AEP體驗事件的帳戶歷程的團隊設定Adobe Experience Platform (AEP)體驗事件定義**。 [了解更多](../admin/configure-aep-events.md)
+
 >[!TAB 行銷人員快速入門]
 
 作為行銷人員或&#x200B;_帳戶歷程操作者_，您負責設計歷程及製作內容。 系統管理員和資料工程師準備好您的環境並授予您存取許可權後，您就可以開始使用Adobe Journey Optimizer B2B edition。
@@ -49,7 +51,7 @@ ht-degree: 10%
 
 1. **新增帳戶對象**。 Journey Optimizer B2B edition可讓您直接從應用程式透過區段定義建立帳戶對象，並將其運用於您的帳戶歷程。 [了解更多](../audiences/account-audience-overview.md)
 
-1. **建立購買群組**。 定義符合您的業務目標與宗旨的關鍵元件，並建立可識別目標帳戶清單成員的購買群組。 [了解更多](../buying-groups/buying-groups-overview.md)
+1. **建立購買群組**。 定義符合業務目標與宗旨的關鍵元件，並建立可識別目標帳戶清單成員的購買群組。 [了解更多](../buying-groups/buying-groups-overview.md)
 
 1. **建立及管理資產**。Adobe Experience Manager Assets提供單一、集中的資產存放庫，供您用來填入訊息。 [了解更多](../content/assets-overview.md)
 

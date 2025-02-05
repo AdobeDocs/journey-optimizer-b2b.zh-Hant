@@ -2,7 +2,7 @@
 title: Adobe Journey Optimizer B2B 版文件
 description: 瞭解如何使用Adobe Journey Optimizer B2B edition功能，利用內建的創作AI和領先業界的自動化來協調帳戶和購買群組歷程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 7%
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 在帳戶歷程中，使用&#x200B;_新增至清單_&#x200B;動作節點將人員新增至Marketo Engage靜態清單。 這些清單可讓您靈活調整特定對象的用途並鎖定其目標。 您可以建立清單，然後在其周圍建立行銷活動，或直接將人員新增到現有的行銷活動。 此外，使用&#x200B;_從清單移除_&#x200B;人員動作，根據帳戶歷程進度調整並變更Marketo Engage中的目標定位。
 
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="瞭解新增至清單和從清單移除"}
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="瞭解新增至清單和從清單移除"}
 
 >[!TAB 中央資產庫]
 

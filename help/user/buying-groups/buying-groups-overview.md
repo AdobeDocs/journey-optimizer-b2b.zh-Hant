@@ -3,9 +3,9 @@ title: 購買群組
 description: 瞭解在Journey Optimizer B2B edition中購買群組如何透過識別及鎖定帳戶清單中的成員來提高行銷效率。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1259'
 ht-degree: 5%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 5%
 
 ## 購買群組詳細資料
 
-若要存取購買群組的詳細資料，請從&#x200B;_[!UICONTROL 瀏覽]_&#x200B;標籤按一下購買群組名稱。
+若要存取購買群組的詳細資料，請從&#x200B;_[!UICONTROL 瀏覽]_&#x200B;標籤按一下購買群組名稱。 [了解更多](./buying-group-details.md)
 
 ![購買群組詳細資料](assets/buying-group-details.png){width="600" zoomable="yes"}
 

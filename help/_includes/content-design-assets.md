@@ -1,33 +1,27 @@
 ---
 title: 內容製作 — 資產
 description: 重複使用有關使用資產進行內容製作的區段
-source-git-commit: 23fb478712f3c6df59e94432bdf16883e6acf70b
+source-git-commit: 361568a2d0f87f93e52a95c5afb7b7b8be0c264e
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 # 內容製作 — 資產
 
-在視覺內容編輯器中，選取左側顯示的&#x200B;_Assets_&#x200B;圖示( ![顯示Assets](../user/assets/do-not-localize/icon-assets-design.svg) )。
+在視覺內容編輯器中，選取左側導覽列中的&#x200B;_Marketo EngageAssets_ (![Marketo EngageAssets圖示](../../help/assets/do-not-localize/icon-assets-me.svg) )圖示或&#x200B;_Experience Manager Assets_ (![Marketo EngageAssets圖示](../../help/assets/do-not-localize/icon-assets-aem.svg) )圖示。 從資產選取器中，您可以直接選取儲存在來源資料庫中的資產。
 
 >[!NOTE]
 >
->如果您有Experience Manager Assetsas a Cloud Service以及預設Adobe Marketo Engage Design Studio的訂閱，請在建立電子郵件、電子郵件範本或視覺片段時選擇[影像來源](../user/content/assets-overview.md#choose-an-asset-source)。 您也可以在開啟視覺化設計工具進行編輯之前選取影像來源。
+>如果您已布建Adobe Experience Manager作為Cloud Service，則當您的使用者帳戶具有所需許可權時，您即可存取Marketo Engage Design Studio和Adobe Experience Manager Assetsas a Cloud Service的存放庫。 這些存放庫是分開且不同步。 您可以使用任一來源的影像資產。
 
-下列範例概述將資產新增至範本內容的步驟：
+* 將影像資產拖放至結構元件中，以新增資產。
 
-1. 若要開啟資產庫，請按一下&#x200B;_Assets_&#x200B;圖示。
+  ![將Marketo Engage資產拖曳至畫布並調整設定](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
-   從資產選取器中，您可以直接選取儲存在來源資料庫中的資產。
+* 在畫布上選取現有的影像資產，然後在影像來源工具中按一下&#x200B;**[!UICONTROL 選取資產]**，以取代現有的影像資產。
 
-1. 將影像資產拖放至結構元件中，以新增資產。
+  ![從來源資料庫中選取資產](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-   ![將Marketo Engage資產拖曳至畫布並調整設定](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
-
-   如需有關使用來源型別中的資產的詳細資訊，請參閱[將資產新增至您的內容](../user/content/assets-overview.md#add-assets-to-your-content)。
-
-1. 在畫布上選取現有的影像資產，然後在影像來源工具中按一下&#x200B;**[!UICONTROL 選取資產]**，以取代現有的影像資產。
-
-   ![從來源資料庫中選取資產](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
+如需有關使用來源型別中的資產的詳細資訊，請參閱[使用資產進行內容製作](../user/content/assets-overview.md#use-assets-for-content-authoring)。

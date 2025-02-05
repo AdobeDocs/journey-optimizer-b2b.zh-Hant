@@ -1,9 +1,9 @@
 ---
 title: 程式碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: 4facd14886cb21371ebbc3e0032cbf14cc322586
+source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -11,6 +11,19 @@ ht-degree: 0%
 # 程式碼片段
 
 <!-- Content authoring steps for reuse -->
+
+## 意圖資料設定 {#intent-data-note}
+
+>[!NOTE]
+>為您的Journey Optimizer B2B edition執行個體設定意圖資料時，該資料也可包含在頁面中。 如需有關意圖偵測模型以及如何提交關鍵字的詳細資訊，請參閱[意圖資料](../user/admin/intent-data.md)。
+>
+
+## AEM assets授權注意事項 {#aem-assets-licensing-note}
+
+>[!NOTE]
+>
+>AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。 您應該確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。<br/>
+>根據您的合約和設定，在設計視覺內容時，可以直接從Adobe Journey Optimizer B2B edition存取Adobe Experience Manager Assets as a Cloud Service 。
 
 ## 內容製作 — 元件 — 結構步驟 {#structures-step}
 
@@ -46,11 +59,7 @@ ht-degree: 0%
 
    連按兩下包含資產的資料夾。 將專案拖放至結構元件中。
 
-   >[!NOTE]
-   >
-   >如果您有Experience Manager Assetsas a Cloud Service以及預設Adobe Marketo Engage Design Studio的訂閱，您必須在建立電子郵件、電子郵件範本或視覺片段時選擇[影像來源](../user/content/assets-overview.md#choose-an-asset-source)。 不過，您也可以在開啟內容設計工具進行編輯之前選取影像來源。
-
-   如需有關使用來源型別中的資產的詳細資訊，請參閱[將資產新增至您的內容](../user/content/assets-overview.md#add-assets-to-your-content)。
+   如需有關使用來源型別中的資產的詳細資訊，請參閱[將資產新增至您的內容](../user/content/assets-overview.md#use-assets-for-content-authoring)。
 
    ![將Marketo Engage資產拖曳至畫布並調整設定](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 

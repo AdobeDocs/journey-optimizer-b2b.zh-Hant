@@ -2,9 +2,9 @@
 title: XDM欄位
 description: 檢閱在Adobe Experience Platform和Journey Optimizer B2B edition之間同步的預設屬性欄位。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
+source-git-commit: 332c25305377398c2338d4b1d4a61b7fcf814232
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1033'
 ht-degree: 13%
 
 ---
@@ -12,6 +12,16 @@ ht-degree: 13%
 # XDM欄位
 
 帳戶對象資料同時儲存為XDM商業帳戶和XDM商業人士類別中的屬性。 資料會定期在Adobe Experience Platform和Journey Optimizer B2B edition之間同步。 以下各節列出預設屬性集。
+
+>[!TIP]
+>
+>您可以使用XDM商業帳戶個人關係類別(如[Experience PlatformXDM檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)所述)，以多對多關係來建立XDM商業帳戶和XDM商業帳戶類別的模型。
+
+## XDM商業帳戶個人關係屬性
+
+| [屬性](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 顯示名稱 | Journey Optimizer B2B顯示名稱 | 資料類型 | 說明 |
+|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
+| `personRoles` | 個人角色 | 角色 | 字串陣列 | 與帳戶中的個人相關聯的角色陣列，例如`owner, accountant, designer`。 |
 
 ## XDM商業人士屬性
 
@@ -61,10 +71,34 @@ ht-degree: 13%
 | `accountBillingAddress.street1` | 街道1 | 街道1 | 字串 | 帳單地址的主要街道層級資訊，通常包含公寓號碼、街道號碼和街道名稱。 |
 | `accountName` | 名稱 | 名稱 | 字串 | **必要的欄位** <br/>公司名稱。 此欄位允許最多255個字元。 |
 | `accountOrganization.annualRevenue.amount` | 年收入 | 年收入 | 數字 | 預估的組織年收入金額。 |
-| `accountOrganization.industry` | 產業 | 產業 | 字串 | 歸因於組織的產業。 這是自由格式的欄位，建議使用結構化的值來進行查詢或使用`xdm:classifier`屬性。 |
+| `accountOrganization.industry` | 行業 | 行業 | 字串 | 歸因於組織的產業。 這是自由格式的欄位，建議使用結構化的值來進行查詢或使用`xdm:classifier`屬性。 |
 | `accountOrganization.logoUrl` | 標誌Url | 標誌Url | 字串 | 路徑將與Salesforce執行個體的URL （例如`https://yourInstance.salesforce.com/`）結合，以產生URL來請求與帳戶相關聯的社交網路設定檔影像。 產生的URL會傳回HTTP重新導向（代碼302）至帳戶的社交網路設定檔影像。 |
 | `accountOrganization.numberOfEmployees` | 員工人數 | 員工人數 | 整數 | 組織的員工人數。 |
-| `accountOrganization.SICCode` | SIC 代碼 | SIC 代碼 | 字串 | 標準產業分類(SIC)代碼，這是四位數的代碼，會根據公司的商業活動將其所屬的產業分類。 |
+| `accountOrganization.SICCode` | SIC 代碼 | SIC 代碼 | 字串 | 標準產業分類(SIC)代碼是四位數的代碼，會根據公司的業務活動將其所屬的產業分類。 |
 | `accountOrganization.website` | 網站URL | 網域名稱 | 字串 | 組織網站的URL。 |
 | `accountPhone.number` | 不適用 | 帳戶電話號碼 | 字串 | 與帳戶相關聯的電話號碼。 |
 | `accountSourceType` | 不適用 | 來源類型 | 字串 | 帳戶的Source型別。 |
+
+<!-- ## XDM Opportunity attributes
+
+|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
+|`opportunityName` | Opportunity Name   | ? |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
+|`opportunityDescription` | Opportunity Description   | ?    |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
+|`opportunityType` | Opportunity Type   | ?   | String | ?   |
+|`opportunityStage` | Opportunity Stage   | ?   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
+|`fiscalQuarter` | Fiscal Quarter   | ?   | String | The fiscal quarter that the opportunity is targeted.   |
+|`fiscalYear` | Fiscal Year   | ?   | String | The fiscal year that the opportunity is targeted.   |
+|`fiscalCategory` | Fiscal Category   | ?   | String | ?   |
+|`fiscalCategoryName` | Fiscal Category Name  | ?   | String | Forecast category name that is displayed in reports for a particular forecast category.   |
+|`isClosed` | Closed Flag  | ?   | String | Flag that indicates if the opportunity is closed.   |
+|`isWon` | Won Flag  | ?   | String | Flag that indicates if the opportunity is won.  |
+|`probabilityPercentage` | Probability Percentage  | ?   | String | Likelihood of closing the opportunity, stated as a percentage.  |
+|`opportunityAmount.amount` | Opportunity Amount  | ?   | String | Estimated total sale amount for the opportunity.   |
+|`expectedRevenue.amount` | Expected Revenue  | ?   | String | Calculated revenue based on the Amount and Probability.   |
+|`opportunityQuantity` | Opportunity Quantity  | ?   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
+|`expectedCloseDate` | Expected Close Date  | ?   | String | Expected date of closure for the opportunity.   |
+|`lastActivityDate` | Last Activity Date  | ?   | String | Last activity date for the opportunity.  |
+|`leadSource` | Lead Source  | ?   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
+|`nextStep` | Next Step  | ?   | String | Description of the next task for closing the opportunity.   |
+-->

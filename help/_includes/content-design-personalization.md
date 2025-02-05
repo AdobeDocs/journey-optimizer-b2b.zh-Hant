@@ -1,16 +1,16 @@
 ---
 title: 內容製作 — 個人化
 description: 重複使用關於使用個人化進行內容製作的區段
-source-git-commit: 0a9c05ac2ddd95e1fa5321f44f5cbe8cfa595007
+source-git-commit: 3791beb98068a56882bb0a96fbc6b192e85130bb
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
 
 # 內容製作 — 個人化
 
-Journey Optimizer B2B Edition使用內嵌簡單語法，可讓您建立包含雙大括弧`{}`之個人化內容的運算式。 您可以在相同的內容或欄位中新增多個運算式，不受限制。
+Journey Optimizer B2B edition使用內嵌簡單語法，可讓您建立包含雙大括弧`{}`括住個人化內容的運算式。 您可以在相同的內容或欄位中新增多個運算式，不受限制。
 
 範例：
 
@@ -18,7 +18,7 @@ Journey Optimizer B2B Edition使用內嵌簡單語法，可讓您建立包含雙
 
 * `Hello {{profile.person.name.fullName}}`
 
-處理訊息（電子郵件和簡訊）時，Journey Optimizer B2B Edition會以Experience Platform資料庫中包含的資料取代運算式。 第一個範例會變成&#x200B;_Hello John Doe_。
+處理內容時，Journey Optimizer B2B edition會以Experience Platform資料庫中包含的資料取代運算式。 第一個範例會變成&#x200B;_Hello John Doe_。
 
 以下範例概述使用銷售機會/帳戶屬性和系統權杖進行內容個人化的步驟。
 
