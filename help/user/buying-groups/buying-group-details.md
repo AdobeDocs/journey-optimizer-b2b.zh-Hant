@@ -2,7 +2,8 @@
 title: 購買群組詳細資訊
 description: 瞭解如何在Journey Optimizer B2B edition中存取購買群組的詳細資訊和產生式AI摘要。
 feature: Buying Groups
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: f14301dc-d605-4ed2-8867-6a49675019de
+source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 5%
@@ -11,7 +12,7 @@ ht-degree: 5%
 
 # 購買群組詳細資料
 
-當您在Journey Optimizer B2B edition的任何位置按一下購買群組名稱時，都會顯示購買群組的詳細資訊。 此資訊提供關於購買群組的實用資訊，包括創作AI摘要。
+當您在Journey Optimizer B2B edition的任何位置按一下購買群組名稱時，都會顯示購買群組的詳細資訊。 此概觀提供有關購買群組的實用資訊，包括創作AI摘要。
 
 ![存取購買群組詳細資料](./assets/buying-group-details.png){width="800" zoomable="yes"}
 

@@ -1,75 +1,57 @@
 ---
-title: 歷程概觀儀表板
+title: 帳戶歷程總覽儀表板
 description: 瞭解歷程概觀儀表板提供的資訊，以及它如何協助您監視和管理您的帳戶歷程策略。
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8df1e44d5d978249ffc6e95b3a383644358d1d66
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 1%
+source-wordcount: '372'
+ht-degree: 2%
 
 ---
 
-# 歷程概觀儀表板
+# 帳戶歷程總覽儀表板
 
-此儀表板提供所選帳戶歷程的完整總覽，使用環形圖和折線圖詳細說明帳戶進度，該圖表會分類並量化完成、進行中的活動以及一段時間內的中止。 它可協助行銷人員透過關鍵傳送和參與量度，評估電子郵件和簡訊管道的成效。
+此儀表板提供作用中帳戶歷程的完整概觀，使用圓形與長條圖來詳細描述帳戶進度，該圖表可分類和量化完成以及參與活動。 它可協助行銷人員透過關鍵傳送和參與量度來評估電子郵件和簡訊管道的有效性。
 
 此概覽適用於已發佈的帳戶歷程，資料大約需要四個小時才能開始填入圖表和表格。
 
 ![歷程總覽](./assets/journey-overview.png){width="700" zoomable="yes"}
 
-## 歷程狀態
+## 歷程完成率分佈
 
-此環圈圖提供歷程狀態的劃分，將帳戶分為`Completed`、`In Progress`和`Aborted`。 圖表的外緣會清楚標示每個區段對應的百分比與科目編號。
+此圖表會根據完成率說明歷程的分佈，並歸類為四個不同的分數區段。 中央數字代表歷程總數，並提供整體進度的快速快照。 分段的顏色表示每個分數範圍內的歷程比例，可讓您一眼就評估完成趨勢。
 
-## 一段時間內的歷程完成
+若要檢視詳細資訊，請按一下右上角的&#x200B;**...**&#x200B;功能表圖示。
 
-此折線圖會追蹤一段時間內完成歷程的帳戶數量。 水平軸對應時間軸，而垂直軸則量化帳戶，提供直接的完成趨勢檢視。
+![歷程完成率分佈](./assets/journey-completion-rate-distribution.png){width="500"}
 
-## 歷程績效Widget
+## 依參與類型劃分的歷程
 
-本節提供兩個重要的量度：
+此長條圖根據參與型別顯示歷程的分佈，並幫助您識別哪些參與最常用於各個歷程。 每個長條代表特定的參與型別，其長度表示包含該型別活動的歷程次數。 此視覺效果可讓您清楚且立即瞭解帳戶歷程中的參與趨勢。
 
-* **[!UICONTROL 歷程完成率]** — 已成功完成其歷程的帳戶百分比。
-* **[!UICONTROL 歷程持續時間]** — 帳戶完成歷程所花費的平均時間長度。
+若要檢視詳細資訊，請按一下右上角的&#x200B;**...**&#x200B;功能表圖示。
 
-## 電子郵件和簡訊效能表
+![歷程完成率分佈](./assets/journeys-by-engagement-type.png){width="500"}
 
-效能表可讓您詳細瞭解電子郵件和簡訊通道的成效。 每個表格都會展示量度（例如傳送率和點進率），以評估每個通訊接觸點的影響。
+## 與資料互動
 
-**[!UICONTROL 電子郵件效能]**&#x200B;資料表資料行：
+若要與資料互動，請使用每個圖表右上角的&#x200B;**...**&#x200B;功能表。
 
-* _[!UICONTROL 資產名稱]_ — 資產名稱
-* _[!UICONTROL 已傳送]_ — 已傳送的電子郵件數目
-* _[!UICONTROL 傳遞率]_ — 傳遞的電子郵件數目除以傳送的數目
-* _[!UICONTROL 開啟率]_ — 開啟的電子郵件數目除以傳遞的數目
-* _[!UICONTROL 點進率]_ — 點按電子郵件數除以傳遞數目
+### [!UICONTROL 鑽研]
 
-**[!UICONTROL SMS效能]**&#x200B;資料表資料行：
+對於圓形圖，請選擇&#x200B;**[!UICONTROL 鑽研]**&#x200B;以深入分析資料。
 
-* _[!UICONTROL 資產名稱]_ — 資產名稱
-* _[!UICONTROL 已傳送]_ — 已傳送的簡訊數目
-* _[!UICONTROL 傳遞率]_ — 傳遞的SMS訊息數除以傳送的訊息數
-* _[!UICONTROL 點進率]_ — 點按SMS訊息數除以傳送的訊息數
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+![鑽研以存取圖表資料](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-## 增強互動
+您可以按一下右上方的&#x200B;_更多_ (**...**)功能表，然後選擇&#x200B;**[!UICONTROL 檢視更多]**&#x200B;以[檢視擴充資料](#view-more)。
 
-使用每個圖表或表格右上角的動作圖示(**...**)，進一步與資料互動。
+### [!UICONTROL 檢視更多]
 
-### 鑽研
+選擇&#x200B;**[!UICONTROL 檢視更多]**&#x200B;以檢視擴充的資料和深入分析。
 
-對於&#x200B;_[!UICONTROL 歷程狀態]_&#x200B;圖表，請選擇&#x200B;**[!UICONTROL 鑽研]**&#x200B;以深入分析個別帳戶狀態。
+![檢視延伸資料](./assets/journeys-by-engagement-view-more.png){width="700" zoomable="yes"}
 
-![圖形資料的鑽研](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
-<!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+顯示的快顯視窗包括圖表和表格，顯示歷程資料的劃分。
 
-### 檢視更多資訊
-
-選擇&#x200B;**[!UICONTROL 檢視更多]**&#x200B;以存取擴充的資料和深入分析。 顯示的快顯視窗提供資料的劃分。
-
-若要下載資料，請按一下右上角的&#x200B;**[!UICONTROL 下載CSV]**。
-
-![檢視延伸資料](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}
+若要下載資料，請按一下資料表格右上角的&#x200B;**[!UICONTROL 下載CSV]**。 若要返回&#x200B;_總覽_&#x200B;儀表板，請按一下&#x200B;**[!UICONTROL 關閉]**。
