@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B 版文件
 description: 瞭解如何使用Adobe Journey Optimizer B2B edition功能，利用內建的創作AI和領先業界的自動化來協調帳戶和購買群組歷程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '616'
 ht-degree: 7%
 
 ---
@@ -17,39 +17,37 @@ ht-degree: 7%
 
 >[!BEGINTABS]
 
+>[!TAB 智慧型深入分析儀表板]
+
+使用新的Intelligent儀表板，您可以瞭解各階段購買群組資格的進度。 瞭解哪些購買群組正快速移動以及哪些採購群組處於停滯狀態，以便您能夠組織歷程，以視需要培植他們。 您也有購買群組和帳戶層級的詳細資料，可提供更多客戶參與的內容和歷史資料。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="瞭解智慧型儀表板"}
+
+>[!TAB Adobe Express影像編輯]
+
+使用Adobe Express快速動作，透過裁切、調整大小、移除背景和轉換格式來修飾您的內容。 內建直覺式Adobe Express UI，讓您可快速微調影像資產。
+
+透過Adobe Express企業授權，您可以善用全套Adobe Express功能。 使用這些功能來美化及增強影像，同時遵守品牌方針，並移除內容供應鏈中的障礙。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="瞭解如何使用Adobe Express編輯影像"}
+
+>[!TAB AEP事件轉送]
+
+管理員現在可以設定Adobe Experience Platform (AEP)型事件定義。 這些設定可讓行銷人員建立對AEP體驗事件做出反應的帳戶歷程。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="瞭解用於Journey Orchestration的AEP事件定義"}
+
+>[!TAB 購買智慧清單的群組篩選器]
+
+您現在可以在Marketo Engage中檢視並建立包含購買群組篩選器的智慧清單。 這些篩選器可讓您隱藏並納入Journey Optimizer B2B edition帳戶歷程中，跨Marketo Engage行銷活動和方案購買群組成員。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="瞭解在Marketo Engage智慧清單中使用的購買群組篩選器"}
+
 >[!TAB 條件式內容]
 
 使用條件式內容，以根據條件式規則調整電子郵件內容。 使用設定檔屬性或內容事件來定義規則。 您可以在規則產生器中建立條件式規則，並儲存這些規則以便在帳戶歷程中重複使用。
 
 [!BADGE 了解更多]{type=Informative url="/help/user/content/conditional-content.md" tooltip="瞭解條件式內容"}
-
->[!TAB 人員動作 — 新增至清單/從清單移除]
-
-在帳戶歷程中，使用&#x200B;_新增至清單_&#x200B;動作節點將人員新增至Marketo Engage靜態清單。 這些清單可讓您靈活調整特定對象的用途並鎖定其目標。 您可以建立清單，然後在其周圍建立行銷活動，或直接將人員新增到現有的行銷活動。 此外，使用&#x200B;_從清單移除_&#x200B;人員動作，根據帳戶歷程進度調整並變更Marketo Engage中的目標定位。
-
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="瞭解新增至清單和從清單移除"}
-
->[!TAB 中央資產庫]
-
-在Design Studio工作區的Marketo Engage例項中使用影像資產。 內建的護欄可防止從Journey Optimizer B2B edition編輯Marketo Engage資產。 這些保護措施可確保Marketo Engage來源資產受到維護，同時允許在Journey Optimizer B2B edition中無縫讀取和重複使用。 針對專供Journey Optimizer B2B edition使用的資產，特定工作區提供完整的資產管理功能。
-
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="瞭解中央資產管理"}
-
->[!TAB LinkedIn帳戶符合對象]
-
-透過帳戶相符對象產生LinkedIn廣告對象，協助您在購買群組中填入空角色。 透過定義一組購買群組篩選器，您可以維護「LinkedIn相符對象」，以鎖定符合您購買群組引數的潛在客戶。 此功能可運用Experience Platform目的地來管理整合的某些層面。
-
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="瞭解LinkedIn帳戶比對的對象"}
-
->[!TAB AI 助理]
-
-快速掌握帳戶型行銷概念，並瞭解Journey Optimizer B2B edition旨在將團隊策略發揮到極致的功能。
-
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="瞭解AI助理"}
-
-使用由創作AI提供技術支援的Adobe Journey Optimizer B2B edition中電子郵件內容的AI Assistant，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、目標文字內容，甚至是專為引起觀眾共鳴而量身打造的影像，協助您最佳化傳送的影響。
-
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="瞭解電子郵件的AI助理"}
 
 >[!ENDTABS]
 
@@ -119,7 +117,7 @@ ht-degree: 7%
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="見解和儀表板"><br/>
-      <strong>深入分析</strong><br/><a href="./dashboards/buying-groups-dashboard.md">購買群組儀表板</a><br/><a href="./dashboards/journeys-dashboard.md">歷程儀表板</a><br/><a href="./dashboards/engagement-dashboard.md">參與儀表板</a>
+      <strong>深入分析</strong><br/><a href="./dashboards/intelligent-dashboard.md">智慧型儀表板</a><br/><a href="./dashboards/engagement-dashboard.md">參與儀表板</a><br/><a href="./dashboards/buying-groups-dashboard.md">購買群組儀表板</a><br/><a href="./dashboards/journeys-dashboard.md">歷程儀表板</a>
     </td>
 
 </tr>
@@ -134,7 +132,7 @@ ht-degree: 7%
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">檔案</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
 </td></tr>
-<tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
+<tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home" target="_blank">檔案</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">開發人員教學課程</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/marketo/using/home" target="_blank">使用者檔案</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">開發人員檔案</a>
