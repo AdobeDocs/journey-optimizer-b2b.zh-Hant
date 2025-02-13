@@ -2,9 +2,10 @@
 title: 接聽事件
 description: 瞭解在Journey Optimizer B2B edition中可用於協調帳戶歷程的事件節點型別。
 feature: Account Journeys
-source-git-commit: a1247b0cdab586f2bca1c0e495d5db2069d2645b
+exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1368'
 ht-degree: 3%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 3%
 # 接聽事件
 
 新增&#x200B;_接聽事件_&#x200B;節點，在事件發生時，將您的對象移至帳戶歷程中的下一個步驟。
+
+![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
 >[!NOTE]
 >
@@ -62,8 +65,8 @@ ht-degree: 3%
 | | 已從購買群組移除 | 方案興趣<br/>活動日期（選擇性）<br/>逾時（選擇性） |
 | | 分數已變更 | 分數名稱<br/><br/>其他限制（選擇性）：<li>變更</li><li>新分數</li><li>急迫性</li><li>優先順序</li><li>相對分數</li><li>相對急迫性</li><li>活動日期</li><li>最低 次數</li><br/>逾時（選擇性） |
 | | 簡訊退信 | SMS訊息<br/><br/>其他限制（選擇性）： <li>活動日期</li><li>最小次數</li><br/>逾時（選擇性） |
-| Marketo Engage | 造訪網頁 | 網頁<br/>選取一或多個相符的Marketo Engage頁面。 <br/><br/>其他限制（選擇性）： <li>Querystring</li><li>使用者端IP位址</li><li>反向連結</li><li>使用者代理</li><li>搜尋引擎</li><li>搜尋查詢</li><li>Token</li><li>瀏覽器</li><li>平台</li><li>裝置</li><li>活動日期</li> |
-| | 填寫表單 | 表單<br/>選取一或多個相符的Marketo Engage表單。  <br/><br/>其他限制（選擇性）： <li>活動日期</li><li>Querystring</li><li>使用者端IP位址</li><li>反向連結</li><li>使用者代理</li><li>平台</li><li>裝置</li><br/>逾時（選擇性） |
+| Marketo Engage | 造訪網頁 | 網頁<br/>選取一或多個要比對的Marketo Engage頁面。 <br/><br/>其他限制（選擇性）： <li>Querystring</li><li>使用者端IP位址</li><li>反向連結</li><li>使用者代理</li><li>搜尋引擎</li><li>搜尋查詢</li><li>Token</li><li>瀏覽器</li><li>平台</li><li>裝置</li><li>活動日期</li> |
+| | 填寫表單 | 表單<br/>選取一或多個要比對的Marketo Engage表單。  <br/><br/>其他限制（選擇性）： <li>活動日期</li><li>Querystring</li><li>使用者端IP位址</li><li>反向連結</li><li>使用者代理</li><li>平台</li><li>裝置</li><br/>逾時（選擇性） |
 | Adobe Experience Platform | 事件定義 | 事件型別<br/><br/>其他限制（選擇性）： <li>欄位</li> <br/>其他限制（不支援）： <li>活動日期</li><li>最低 次數</li><br/>逾時（選擇性） |
 
 ### 新增人員事件
@@ -80,15 +83,15 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**[!UICONTROL 編輯事件]**&#x200B;並定義事件的詳細資料。
 
-### 接聽Marketo Engage事件
+### 接聽Marketo Engage活動
 
-如果您在連線的Marketo Engage執行個體中建立了網頁，則可以根據造訪/未造訪Marketo Engage網頁以及未填入Marketo Engage表單來觸發事件。
+如果您在連線的Marketo Engage執行個體中建立了網頁，則可以根據造訪/未造訪Marketo Engage網頁以及未填滿Marketo Engage表單來觸發事件。
 
 1. 在歷程編輯器中選取&#x200B;**[!UICONTROL 接聽事件]**&#x200B;節點。
 
 1. 在右側的節點屬性中，選擇事件型別的&#x200B;**[!UICONTROL 人員]**。
 
-1. 按一下&#x200B;**[!UICONTROL 選取人員事件]**&#x200B;選擇器的箭頭，然後捲動功能表至&#x200B;**[!UICONTROL Marketo Engage]**&#x200B;區段。
+1. 按一下&#x200B;**[!UICONTROL 選取人員事件]**&#x200B;選取器的箭頭，然後捲動功能表至&#x200B;**[!UICONTROL Marketo Engage]**&#x200B;區段。
 
 1. 選取Market Engage活動型別：
 
@@ -175,5 +178,6 @@ _若要在歷程中加入體驗事件：_
 
    ![歷程事件節點 — 設定逾時路徑](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
+## 概述影片
 
-
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

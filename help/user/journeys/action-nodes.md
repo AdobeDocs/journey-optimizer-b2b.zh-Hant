@@ -2,9 +2,10 @@
 title: 採取動作
 description: 瞭解在Journey Optimizer B2B edition中可用來協調帳戶歷程的採取動作節點型別。
 feature: Account Journeys
-source-git-commit: ac7d498de05a492751bc40682467c3a76d74d912
+exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 0%
 # 採取動作
 
 在您的帳戶歷程中，您可以新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點來執行動作，例如傳送電子郵件、變更分數、指派給購買群組等。 動作通常是您因某種觸發器（例如事件或之前的動作）而想要發生的動作。
+
+![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
 ## 帳戶動作
 
@@ -59,11 +62,11 @@ ht-degree: 0%
 | | [!UICONTROL 變更分數] | 分數名稱<br/>分數變更 |
 | | [!UICONTROL 個人有趣的時刻] | 型別<br/>描述 |
 | | [!UICONTROL 從購買群組中移除] | 選取解決方案興趣 |
-| | [!UICONTROL 傳送電子郵件] | 建立新電子郵件<br/>從Marketo Engage中選取電子郵件 |
+| | [!UICONTROL 傳送電子郵件] | 建立新電子郵件<br/>從Marketo Engage選取電子郵件 |
 | | [!UICONTROL 傳送簡訊] | 建立簡訊 |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL 新增至清單] | 選取Marketo Engage工作區<br/>清單名稱 |
-| | [!UICONTROL 新增至Marketo Engage請求行銷活動] | 選取Marketo Engage工作區<br/>選取要求行銷活動 |
-| | [!UICONTROL 變更Marketo Engage中的人員分割] | 新磁碟分割 |
+| | [!UICONTROL 新增至Marketo Engage要求行銷活動] | 選取Marketo Engage工作區<br/>選取要求行銷活動 |
+| | [!UICONTROL 在Marketo Engage中變更人員分割] | 新磁碟分割 |
 | | [!UICONTROL 從清單移除] | 選取Marketo Engage工作區<br/>清單名稱 |
 
 ### 新增以人物為基礎的動作
@@ -138,7 +141,7 @@ _若要使用現有的對象：_
 
 +++[!UICONTROL 變更分數]
 
-使用此動作來變更Marketo Engage中的個人分數。 [了解更多](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+使用此動作來變更Marketo Engage中的人員分數。 [了解更多](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![採取動作 — 變更分數](./assets/node-action-change-score.png){width="300"}
 
@@ -178,13 +181,13 @@ _若要使用現有的對象：_
 
 ### Marketo Engage動作
 
-以人物為基礎的Marketo Engage旨在協調Journey Optimizer B2B edition中以帳戶為基礎的行銷策劃，以及Marketo Engage中以銷售機會為基礎的行銷工作。 使用這些動作來協調清單成員資格、人員分割和請求行銷活動。
+Marketo Engage以人物為基礎的架構，可協調您在Journey Optimizer B2B edition中以帳戶為基礎的行銷協調，以及您在Marketo Engage中以銷售機會為基礎的行銷工作。 使用這些動作來協調清單成員資格、人員分割和請求行銷活動。
 
 +++[!UICONTROL 新增至清單]
 
-使用此動作從Marketo Engage中的[智慧清單](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}移除人員。
+使用此動作從Marketo Engage的[智慧清單](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}移除人員。
 
-首先，在連線的Marketo Engage例項中選取工作區。 接著，選取清單名稱。
+首先，請在連線的Marketo Engage執行個體中選取工作區。 接著，選取清單名稱。
 
 ![採取動作 — 新增至清單](./assets/node-action-add-to-list-options.png){width="300"}
 
@@ -194,13 +197,13 @@ _若要使用現有的對象：_
 
 使用此動作將人員設定檔新增至Marketo Engage中的[請求行銷活動](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}。
 
-首先，在連線的Marketo Engage例項中選取工作區。 接著，選取要求促銷活動名稱。
+首先，請在連線的Marketo Engage執行個體中選取工作區。 接著，選取要求促銷活動名稱。
 
 ![採取動作 — 新增至Marketo請求行銷活動](./assets/node-action-add-to-request-campaign-options.png){width="300"}
 
 +++
 
-+++[!UICONTROL 變更Marketo Engage中的人員分割]
++++[!UICONTROL 在Marketo Engage中變更人員分割]
 
 使用此動作來變更Marketo Engage中的[人員資料分割](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"}。
 
@@ -210,10 +213,14 @@ _若要使用現有的對象：_
 
 +++[!UICONTROL 從清單移除]
 
-使用此動作從Marketo Engage中的[智慧清單](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}移除人員。 首先，在連線的Marketo Engage例項中選取工作區。 接著，選取清單名稱。
+使用此動作從Marketo Engage的[智慧清單](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}移除人員。 首先，請在連線的Marketo Engage執行個體中選取工作區。 接著，選取清單名稱。
 
 ![採取動作 — 從清單移除](./assets/node-action-remove-from-list-options.png){width="300"}
 
 如果人員設定檔不是智慧清單的成員，則會忽略動作。
 
 +++
+
+## 概述影片
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
