@@ -22,11 +22,11 @@ ht-degree: 10%
 1. 針對人員&#x200B;]_的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
 1. 針對&#x200B;_[!UICONTROL 電子郵件來源]_，請選擇&#x200B;**[!UICONTROL 建立新電子郵件]**。
 
-   或者，您也可以選取「_[!UICONTROL 從Adobe Marketo Engage選取電子郵件]_」選項，在Marketo Engage中使用其中一個預先撰寫的電子郵件，並將其作為帳戶歷程的一部分傳送。
+   或者，您也可以選取「_[!UICONTROL 從Adobe Marketo Engage選取電子郵件]_」選項，以使用Marketo Engage中預先編寫的電子郵件之一，並將其作為帳戶歷程的一部分傳送。
 
    >[!NOTE]
    >
-   >如果您是第一次建立電子郵件，請務必從Adobe Marketo Engage中設定電子郵件頻道。 若要深入瞭解，請參閱Marketo Engage檔案中的[確定電子郵件傳遞能力](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)。
+   >如果您是第一次建立電子郵件，請務必從Adobe Marketo Engage中設定電子郵件頻道。 若要深入瞭解，請參閱Marketo Engage檔案中的[確認電子郵件傳遞能力](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)。
 
    ![採取動作 — 傳送電子郵件](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -72,7 +72,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="關於內容元件"
->abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。"
+>abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。"
 
 使用視覺內容編輯器來定義電子郵件內容的結構。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計可重複使用電子郵件內容的形狀。
 
@@ -101,7 +101,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->使用`<table>`標籤做為HTML檔案中的第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
+>在HTML檔案中使用`<table>`標籤做為第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
 
 您可以視需要使用視覺化電子郵件編輯器工具個人化匯入的內容。
 
@@ -208,7 +208,7 @@ ht-degree: 10%
      >
      >行銷樣式的電子郵件訊息必須包含選擇退出連結，異動訊息不需要此連結。
 
-   * `Text version of HTML is empty`：別忘了定義電子郵件內文的文字版本，此文字版本會在HTML內容無法顯示時使用。
+   * `Text version of HTML is empty`：別忘了定義您的電子郵件內文的文字版本，此文字版本會在HTML內容無法顯示時使用。
 
    * `Empty link is present in email body`：檢查您電子郵件中的所有連結是否正確。
 

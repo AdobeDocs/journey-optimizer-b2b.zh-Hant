@@ -5,10 +5,11 @@ feature: Content
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
+source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 9%
+ht-degree: 18%
 
 ---
 
@@ -20,13 +21,13 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_structure"
->title="將結構元件新增至登入頁面"
->abstract="結構元件會定義登陸頁面的版面。將&#x200B;**Structure**&#x200B;元件拖放至畫布中，以開始設計頁面的內容。"
+>title="新增結構元件至登陸頁面"
+>abstract="結構元件會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放至版面，以開始設計您的頁面內容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_content_components"
->title="關於登入頁面的內容元件"
->abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。"
+>title="關於登陸頁面的內容元件"
+>abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。"
 
 {{$include /help/_includes/content-design-components.md}}
 

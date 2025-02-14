@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="購買群組階段"
->abstract="此圖表會根據設定的轉換規則，提供不同階段中的購買群組進度概觀。 第一列顯示相較於選定時間段最後一天的購買群組數量，在選定時間段的第一天處於特定階段的購買群組數量。"
+>abstract="此圖表會根據設定的轉換規則，提供購買群組在各個不同階段的進度概觀。第一列顯示在選定時間段的第一天處於特定階段的購買群組數量，並與選定時間段最後一天的購買群組數量進行比較。"
 
 _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群組進度概觀（[根據管理員設定的轉換規則](../buying-groups/buying-group-stages.md)）。
 
@@ -64,7 +64,7 @@ _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-## 購買群組焦點 {#buying-group-highlights}
+## 購買群組重點 {#buying-group-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
@@ -238,7 +238,7 @@ _[!UICONTROL 連絡人涵蓋範圍]_&#x200B;區段會顯示與解決方案相關
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="聯絡人重疊"
->abstract="因為與多個解決方案興趣相關聯而隸屬於多個購買群組的聯絡人清單。"
+>abstract="因與多個解決方案興趣相關，而隸屬於多個購買群組的聯絡人清單。"
 
 _[!UICONTROL 連絡人重疊]_&#x200B;區段會顯示連絡人清單，這些連絡人屬於多個購買群組，因為與多個解決方案興趣有關聯。
 
