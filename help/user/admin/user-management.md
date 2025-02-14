@@ -4,9 +4,9 @@ description: 瞭解如何將團隊成員指派給Journey Optimizer B2B edition�
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+source-git-commit: d5197e740a17de507bf72b4d7b64deb5af672346
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1351'
 ht-degree: 1%
 
 ---
@@ -16,23 +16,23 @@ ht-degree: 1%
 布建完成並繫結沙箱後，請完成下列步驟，為團隊和使用者提供Adobe Journey Optimizer B2B edition存取權。
 
 1. [在Admin Console中建立Marketo Engage產品設定檔](#marketo-engage-profile) (僅限新的Marketo Engage執行個體)。
-1. [在Admin Console中建立使用者群組](#create-user-group)。
+1. 在Admin Console中[建立使用者群組](#create-user-group)。
 1. [編輯內建角色](#edit-roles)或[建立具有Journey Optimizer B2B edition許可權的自訂角色](#create-a-custom-role)。
 1. [新增使用者](#add-users)或[群組](#add-user-groups-to-a-role)至角色。
 
-作為管理員，您可以在Adobe Admin Console中完成這些工作，這是管理您的Adobe產品授權和使用者的中心位置。 在Admin Console中，您可以在單一位置而非在各種個別解決方案中建立和管理使用者。 請參閱[Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)頁面，瞭解更多有關其功能和功能的資訊。
+作為管理員，您可以在Adobe Admin Console中完成這些工作，這是管理您的Adobe產品授權和使用者的中心位置。 在Admin Console中，您可以在單一位置而非在各種個別解決方案中建立和管理使用者。 請參閱[Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)頁面，進一步瞭解其功能和特性。
 
 ## 存取Admin Console
 
-在使用Admin Console來管理團隊中的使用者之前，您需要確保您可以存取Admin Console並擁有適當的許可權。
+在使用Admin Console管理團隊中的使用者之前，您需要確保您可以存取Admin Console並擁有適當的許可權。
 
 1. 作為系統管理員，您應該會在上線流程中收到來自Adobe的多封電子郵件。
 
    尋找歡迎電子郵件，提供您被授予存取權的組織名稱相關資訊。
 
-1. 按一下歡迎電子郵件中的&#x200B;**[!UICONTROL 開始使用]**&#x200B;連結，即可瀏覽至該Admin Console。
+1. 按一下歡迎電子郵件中的&#x200B;**[!UICONTROL 開始使用]**&#x200B;連結，以瀏覽至Admin Console。
 
-   如果找不到電子郵件，請直接開啟瀏覽器至[https://adminconsole.adobe.com](https://adminconsole.adobe.com)的Admin Console。
+   如果找不到電子郵件，請直接在[https://adminconsole.adobe.com](https://adminconsole.adobe.com)開啟瀏覽器並存取Admin Console。
 
 1. 使用您的Adobe ID登入。
 
@@ -54,9 +54,9 @@ ht-degree: 1%
 
 ## 建立Marketo Engage產品設定檔 {#marketo-engage-profile}
 
-授與使用者Adobe解決方案的存取權時，您不一定要授與他們完整的存取權。 產品設定檔使每個解決方案都可以擁有自己的一組使用者許可權。 使用Admin Console指派產品設定檔。
+在授與使用者Adobe解決方案的存取權時，您不一定要授與他們完整的存取權。 產品設定檔使每個解決方案都可以擁有自己的一組使用者許可權。 使用Admin Console指派產品設定檔。
 
-如需使用產品設定檔取得使用者許可權的詳細資訊，請參閱Admin Console檔案中的[管理企業使用者的產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html){target="_blank"}。
+如需有關使用產品設定檔取得使用者許可權的詳細資訊，請參閱Admin Console檔案中的[管理企業使用者的產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html){target="_blank"}。
 <!--
 >[!BEGINSHADEBOX]
 
@@ -66,17 +66,15 @@ For more information about managing these permissions within Marketo Engage, see
 
 >[!ENDSHADEBOX]-->
 
->[!NOTE]
->
->Admin Console系統管理員或Marketo Engage產品管理員可以執行這些步驟。
+![管理員角色需求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系統管理員或Marketo Engage產品管理員可以執行下列步驟。
 
 1. 登入[https://adminconsole.adobe.com](https://adminconsole.adobe.com)。
 
 1. 選取「**[!UICONTROL 產品]**」標籤。
 
-1. 開啟您要新增設定檔的Marketo Engage執行個體，然後按一下&#x200B;**[!UICONTROL 新增設定檔]**。
+1. 開啟您想要新增設定檔的Marketo Engage執行個體，然後按一下&#x200B;**[!UICONTROL 新增設定檔]**。
 
-   ![Admin Console-Marketo Engage執行個體 — 新設定檔](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
+   ![Admin Console - Marketo Engage執行個體 — 新設定檔](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
 
 1. 輸入產品設定檔名稱，例如&#x200B;_標準使用者_。
 
@@ -88,9 +86,7 @@ For more information about managing these permissions within Marketo Engage, see
 
 如需有關如何使用使用者群組來管理許可權的詳細資訊，請參閱Admin Console檔案中的[管理使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html){target="_blank"}。
 
->[!NOTE]
->
->Admin Console系統管理員可以執行這些步驟。
+![系統管理員角色需求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系統管理員可以執行下列步驟。
 
 1. 登入[https://adminconsole.adobe.com](https://adminconsole.adobe.com)。
 
@@ -119,11 +115,9 @@ For more information about managing these permissions within Marketo Engage, see
 
 ## 新增使用者至群組
 
->[!NOTE]
->
->Admin Console系統管理員可以執行這些步驟。
+如需使用者管理的相關資訊，請參閱Admin Console檔案中的[Admin Console使用者](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)。
 
-如需有關使用者管理的資訊，請參閱Admin Console檔案中的[Admin Console使用者](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)。
+![管理員角色需求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系統管理員或產品管理員可以執行下列步驟。 產品管理員只能新增其組織中已存在的使用者。
 
 1. 移至[https://adminconsole.adobe.com](https://adminconsole.adobe.com)。
 
@@ -149,7 +143,7 @@ For more information about managing these permissions within Marketo Engage, see
 
 Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 許可權也可讓您管理與特定角色相關聯的沙箱和使用者。
 
-如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色的許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 <!-- 
 ### B2B product permissions
 
@@ -224,9 +218,7 @@ _To change the permissions for a role:_
 
 ### 將使用者新增至角色
 
->[!NOTE]
->
->Admin Console系統管理員可以執行這些步驟。
+![管理員角色需求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系統管理員或AEP產品管理員可以執行下列步驟。
 
 1. 開啟角色詳細資料，並選取&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤。
 
@@ -248,11 +240,9 @@ _To change the permissions for a role:_
 
 ### 將使用者群組新增至角色
 
->[!NOTE]
->
->Admin Console系統管理員可以執行這些步驟。
+如需使用者管理的相關資訊，請參閱Admin Console檔案中的[Admin Console使用者](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)。
 
-如需有關使用者管理的資訊，請參閱Admin Console檔案中的[Admin Console使用者](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)。
+![管理員角色需求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系統管理員或AEP產品管理員可以執行下列步驟。
 
 1. 開啟角色詳細資料，並選取&#x200B;**[!UICONTROL 使用者群組]**&#x200B;索引標籤。
 
@@ -274,9 +264,7 @@ _To change the permissions for a role:_
 
 ## 建立自訂角色
 
->[!NOTE]
->
->Admin Console系統管理員可以執行這些步驟。
+![管理員角色需求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系統管理員或AEP產品管理員可以執行下列步驟。
 
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 角色]**，然後選取&#x200B;**[!UICONTROL 建立角色]**。
 
@@ -286,7 +274,7 @@ _To change the permissions for a role:_
 
 1. 選取您的沙箱。
 
-   ![Experience Platform — 新增新角色的沙箱](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+   ![Experience Platform — 為新的角色新增沙箱](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
 
 1. 新增設定檔許可權：
 
