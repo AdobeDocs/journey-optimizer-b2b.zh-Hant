@@ -1,9 +1,9 @@
 ---
 title: 程式碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 ## 意圖資料設定 {#intent-data-note}
 
 >[!NOTE]
->為您的Journey Optimizer B2B edition執行個體設定意圖資料時，該資料也可包含在頁面中。 如需有關意圖偵測模型以及如何提交關鍵字的詳細資訊，請參閱[意圖資料](../user/admin/intent-data.md)。
 >
+>為您的Journey Optimizer B2B edition執行個體設定意圖資料時，該資料會包含在頁面中。 如需有關意圖偵測模型以及如何提交關鍵字、產品和類別的詳細資訊，請參閱[意圖資料](../user/admin/intent-data.md)。
 
-## AEM assets授權注意事項 {#aem-assets-licensing-note}
+## AEM資產授權注意事項 {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
 >AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。 您應該確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。<br/>
->根據您的合約和設定，在設計視覺內容時，可以直接從Adobe Journey Optimizer B2B edition存取Adobe Experience Manager Assets as a Cloud Service 。
+>根據您的合約和設定，在設計視覺內容時，可以直接從Adobe Experience Manager Assets B2B edition存取Adobe Journey Optimizer as a Cloud Service 。
 
 ## 內容製作 — 元件 — 結構步驟 {#structures-step}
 
