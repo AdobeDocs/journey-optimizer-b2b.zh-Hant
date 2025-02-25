@@ -3,16 +3,16 @@ title: 解決方案興趣
 description: 瞭解解決方案興趣，以及如何定義這些興趣以用於您的購買群組。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
+source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # 解決方案興趣
 
-在您建立「購買群組」之前，您應該知道您正在銷售什麼產品，以及您想要鎖定哪些客戶。 您的行銷和銷售策略應該保持一致，這樣您就可以為購買群組新增解決方案興趣。
+建立購買群組之前，您應該先瞭解銷售對象以及要鎖定對象。 您的行銷和銷售策略應該保持一致，以便您可以為購買群組新增解決方案興趣。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 1. 在左側導覽列中，按一下&#x200B;**[!UICONTROL 購買群組]**。
 
-1. 在「購買群組」頁面中，選取「**[!UICONTROL 方案興趣]**」標籤。
+1. 在&#x200B;_[!UICONTROL 購買群組]_&#x200B;頁面中，選取&#x200B;**[!UICONTROL 方案興趣]**&#x200B;標籤。
 
    ![方案興趣標籤](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   索引標籤提供所有現有解決方案興趣的詳細目錄清單。 它提供資訊為&#x200B;_[!UICONTROL 名稱]_、_[!UICONTROL 角色範本]_、_[!UICONTROL 購買群組建立工作]_、_[!UICONTROL 上次更新日期]_、_[!UICONTROL 更新者]_、_[!UICONTROL 建立日期]_&#x200B;以及&#x200B;_[!UICONTROL 建立者]_，資料行格式。
+   索引標籤提供所有現有解決方案興趣的詳細目錄清單。 它以欄格式提供下列資訊： _[!UICONTROL 名稱]_、_[!UICONTROL 角色範本]_、_[!UICONTROL 購買群組建立工作]_、_[!UICONTROL 上次更新日期]_、_[!UICONTROL 更新者]_、_[!UICONTROL 建立日期]_，以及&#x200B;_[!UICONTROL 建立者]_
 
    清單依預設會依&#x200B;_[!UICONTROL 上次更新日期]_&#x200B;欄排序。 按一下標題中的欄標題，在遞減和遞增之間切換排序。
 
 ## 檢視及刪除購買群組工作
 
-從&#x200B;_[!UICONTROL 方案興趣]_&#x200B;索引標籤中，**[!UICONTROL 購買群組建立工作]**&#x200B;欄會顯示針對每個方案興趣建立的工作計數。 編號是一個連結，按一下連結會開啟一個對話方塊，其中顯示針對解決方案興趣建立的工作清單。
+在&#x200B;_[!UICONTROL 方案興趣]_&#x200B;索引標籤上，**[!UICONTROL 購買群組建立工作]**&#x200B;欄會顯示針對每個方案興趣建立的工作計數。 按一下數字以開啟對話方塊，其中顯示針對解決方案興趣建立的作業清單。
 
 ![為方案興趣購買群組工作](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
@@ -75,15 +75,17 @@ ht-degree: 0%
 
    ![方案興趣更多選單](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
-1. 如有需要，請更新名稱（必要且唯一）和說明（選用）。
+1. 對解決方案興趣設定進行任何必要的更新：
 
-1. 如有需要，請選取&#x200B;**[!UICONTROL 購買群組階段模型]**，以追蹤購買群組階段進度。
+   * 更新&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-   如需使用購買群組階段來追蹤歷程進度與銷售的相關資訊，請參閱[購買群組階段](./buying-group-stages.md)。
+   * 選取用於追蹤購買群組階段進度的&#x200B;**[!UICONTROL 購買群組階段模型]**。
 
-1. 如有需要，請變更&#x200B;**[!UICONTROL 更新現有的購買群組]**&#x200B;設定。
+     如需使用購買群組階段來追蹤歷程進度與銷售的相關資訊，請參閱[購買群組階段](./buying-group-stages.md)。
 
-   啟用此選項後，與解決方案相關的所有現有購買群組都會透過7天的同步週期更新。
+   * 變更&#x200B;**[!UICONTROL 更新現有的購買群組]**&#x200B;設定。
+
+     啟用此選項後，與解決方案相關的所有現有購買群組都會透過7天的同步週期更新。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -95,7 +97,7 @@ ht-degree: 0%
 
    此動作會開啟確認對話方塊。
 
-   如果帳戶歷程或購買群組工作目前正在使用解決方案興趣，動作會開啟資訊對話方塊，提醒您無法刪除該解決方案。 按一下[!UICONTROL 確定]，這會中止刪除。
+   如果帳戶歷程或購買群組工作目前正在使用解決方案興趣，動作會產生警報，指出無法刪除該解決方案。 按一下&#x200B;**[!UICONTROL 確定]**，這會中止刪除。
 
 1. 按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認刪除，或者您可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;以中止程式。
 
