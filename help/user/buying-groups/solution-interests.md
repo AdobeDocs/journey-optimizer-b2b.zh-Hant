@@ -3,7 +3,7 @@ title: 解決方案興趣
 description: 瞭解解決方案興趣，以及如何定義這些興趣以用於您的購買群組。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 1. 如有需要，請變更&#x200B;**[!UICONTROL 更新現有的購買群組]**&#x200B;設定。
 
-   啟用此選項後，與解決方案相關的所有現有購買群組都會透過24小時同步週期更新。
+   啟用此選項後，與解決方案相關的所有現有購買群組都會透過7天的同步週期更新。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
