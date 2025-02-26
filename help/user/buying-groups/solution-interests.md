@@ -3,7 +3,7 @@ title: 解決方案興趣
 description: 瞭解解決方案興趣，以及如何定義這些興趣以用於您的購買群組。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
+source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    ![方案興趣標籤](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   索引標籤提供所有現有解決方案興趣的詳細目錄清單。 它以欄格式提供下列資訊： _[!UICONTROL 名稱]_、_[!UICONTROL 角色範本]_、_[!UICONTROL 購買群組建立工作]_、_[!UICONTROL 上次更新日期]_、_[!UICONTROL 更新者]_、_[!UICONTROL 建立日期]_，以及&#x200B;_[!UICONTROL 建立者]_
+   索引標籤提供所有現有解決方案興趣的詳細目錄清單。 它以欄格式顯示下列資訊： _[!UICONTROL 名稱]_、_[!UICONTROL 角色範本]_、_[!UICONTROL 購買群組建立工作]_、_[!UICONTROL 上次更新日期]_、_[!UICONTROL 更新者]_、_[!UICONTROL 建立日期]_，以及&#x200B;_[!UICONTROL 建立者]_
 
    清單依預設會依&#x200B;_[!UICONTROL 上次更新日期]_&#x200B;欄排序。 按一下標題中的欄標題，在遞減和遞增之間切換排序。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 啟用&#x200B;**[!UICONTROL 更新現有的購買群組]**&#x200B;設定（選擇性）。
 
-   啟用此選項後，與解決方案相關的所有現有購買群組都會透過24小時同步週期更新。
+   啟用此選項後，與解決方案相關的所有現有購買群組都會透過7天的同步週期更新。
 
 1. 按一下右上角的「**[!UICONTROL 建立]**」。
 
