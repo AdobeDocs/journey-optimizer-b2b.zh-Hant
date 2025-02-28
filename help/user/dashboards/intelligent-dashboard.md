@@ -3,10 +3,10 @@ title: 智慧型儀表板
 description: 瞭解Intelligent Dashboard，其提供購買群組和帳戶量度的全面檢視
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 14%
+source-wordcount: '1688'
+ht-degree: 15%
 
 ---
 
@@ -25,12 +25,25 @@ ht-degree: 14%
 
 {{intent-data-note}}
 
+若要利用Intelligent Dashboard提供的資訊和深入分析，您的Journey Optimizer B2B edition執行個體必須具備必要的專案：
+
+| 類型 | 需求 |
+| ---- | ----------- |
+| [購買群組階段](#buying-group-stages) | 設定購買群組階段&#x200B;**和**&#x200B;新增至已建立的購買群組。 |
+| [購買群組焦點](#buying-group-highlights) | 設定購買群組階段&#x200B;**和**&#x200B;新增至已建立的購買群組。 |
+| [帳戶突波](#surging-accounts) | 一或多個已發佈的歷程&#x200B;**或**&#x200B;已建立購買群組。 |
+| [帳戶重點](#account-highlights) | 一或多個已發佈的歷程&#x200B;**或**&#x200B;已建立購買群組。 |
+| [連絡人涵蓋範圍](#contact-coverage) | 一或多個已建立的購買群組（不需要階段）。 |
+| [連絡人重疊](#contact-overlap) | 一或多個已建立的購買群組（不需要階段）。 |
+| [帳戶詳細資料頁面](../accounts/account-details.md) | 一或多個已發佈的歷程。 |
+| [購買群組詳細資料頁面](../buying-groups/buying-group-details.md) | 一或多個已建立的購買群組（不需要階段）。 |
+
 ## 購買群組階段 {#buying-group-stages}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="購買群組階段"
->abstract="此圖表會根據設定的轉換規則，提供購買群組在各個不同階段的進度概觀。第一個長條會指出特定階段中，選定時間範圍第一個日期與選定時間範圍最後一個日期相比的購買群組數量。"
+>abstract="此圖表會根據設定的轉換規則，提供購買群組在各個不同階段的進度概觀。第一列顯示在所選時間段的第一天處於特定階段的購買群組數量，並與所選時間段最後一天的購買群組數量進行比較。"
 
 _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群組進度概觀（[根據管理員設定的轉換規則](../buying-groups/buying-group-stages.md)）。
 
@@ -179,7 +192,7 @@ _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群
 >title="有風險的帳戶"
 >abstract="在選定時間段內，參與度動量顯著減少的帳戶。"
 
-「_[!UICONTROL 購買群組焦點]_」區段會分成兩列，以顯示貴組織感興趣之帳戶的資訊。
+_[!UICONTROL 帳戶醒目提示]_&#x200B;區段已組織為兩列，以顯示貴組織感興趣之帳戶的資訊。
 
 >[!NOTE]
 >

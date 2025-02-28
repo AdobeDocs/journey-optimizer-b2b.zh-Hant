@@ -1,9 +1,9 @@
 ---
 title: 程式碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->為您的Journey Optimizer B2B edition執行個體設定意圖資料時，該資料會包含在頁面中。 如需有關意圖偵測模型以及如何提交關鍵字、產品和類別的詳細資訊，請參閱[意圖資料](../user/admin/intent-data.md)。
+>為您的Journey Optimizer B2B edition執行個體設定意圖資料時，即會包含該資料。 它還需要一個或多個已發佈的歷程&#x200B;**或**&#x200B;建立的購買群組。 如需有關意圖偵測模型以及如何提交關鍵字、產品和類別的詳細資訊，請參閱[意圖資料](../user/admin/intent-data.md)。
 
 ## AEM資產授權注意事項 {#aem-assets-licensing-note}
 
