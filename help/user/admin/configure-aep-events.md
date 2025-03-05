@@ -2,9 +2,10 @@
 title: 設定Experience Platform事件
 description: 瞭解可用於在Journey Optimizer B2B edition中協調帳戶歷程的等待節點型別。
 feature: Setup
-source-git-commit: e6f9be8ad43dfe4f314cb0462bc548a0957f5f0f
+exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
@@ -39,11 +40,13 @@ ht-degree: 0%
 
 * Journey Optimizer B2B edition支援最多50個事件定義。
 
+* 帳戶歷程可傾聽使用AEP串流功能(例如Web SDK或HTTP API)擷取的AEP Experience事件。
+
 * 只有一個AEP事件定義可以使用合併的結構描述和事件型別集。 當您使用結構描述（例如`My Schema`）和事件型別（例如`Web Webpagedetails Page Views`）建立事件定義時，任何其他事件定義都不能使用`My Schema`和`Web Webpagedetails Page Views`的組合。
 
 * 事件定義可用於多個帳戶歷程。
 
-* AEP Experience事件可用於帳戶歷程中的決策目的，但不會保留。 因此，在Journey Optimizer B2B edition中無法運用AEP Experience事件的歷史記錄。
+* AEP Experience事件可用於帳戶歷程中的決策目的，但不會保留。 因此，在AEP B2B edition中無法運用Journey Optimizer體驗事件的歷史記錄。
 
 * 不支援&#x200B;_活動日期_&#x200B;和&#x200B;_最小次數_&#x200B;的限制。
 
@@ -73,7 +76,7 @@ ht-degree: 0%
 | -------------------- | ----------- |
 | 草稿 | 當您建立事件定義時，它會處於草稿狀態。 在您發佈以用於帳戶歷程之前，它會一直保持此狀態。 可用的動作： <br/><ul><li>編輯所有詳細資料<li>發佈<li>刪除 |
 | 發佈日期 | 當您發佈事件定義時，它便可用於帳戶歷程。 無法修改詳細資料。 可用的動作： <br/><ul><li>可用於&#x200B;_接聽事件_&#x200B;歷程節點<li>建立草稿版本<li>刪除（若未使用） |
-| 已發佈（含草稿） | 當您從已發佈的事件定義建立草稿時，已發佈的版本仍可用於帳戶歷程，且可修改草稿版本。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且事件定義會針對尚未執行的帳戶歷程而更新。 可用的動作： <br/><ul><li>編輯所有詳細資料<li>Publish草稿版本<li>捨棄草稿版本<li>刪除（若未使用） |
+| 已發佈（含草稿） | 當您從已發佈的事件定義建立草稿時，已發佈的版本仍可用於帳戶歷程，且可修改草稿版本。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且事件定義會針對尚未執行的帳戶歷程而更新。 可用的動作： <br/><ul><li>編輯所有詳細資料<li>發佈草稿版本<li>捨棄草稿版本<li>刪除（若未使用） |
 
 ![片段狀態生命週期](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -135,7 +138,7 @@ ht-degree: 0%
 
    ![新的草稿事件定義列在頁面](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}上
 
-## Publish事件定義
+## 發佈事件定義
 
 當您滿意草稿事件定義是完整且正確符合您的需求時，可以將其發佈以供帳戶歷程使用。 在事件定義發佈後，如果您需要對其進行變更，可以建立草稿版本。 不過，您無法變更結構，而且只能新增事件型別和欄位（無法刪除它們）。
 
@@ -149,11 +152,11 @@ ht-degree: 0%
 
    如有需要，請先檢閱設定再發佈。 如果草稿](#edit-an-event-definition)不符合您的要求，您可以[編輯草稿。
 
-1. 按一下右上方的&#x200B;**[!UICONTROL Publish]**。
+1. 按一下右上方的&#x200B;**[!UICONTROL 發佈]**。
 
-1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL Publish]**。
+1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL 發佈]**。
 
-   ![Publish事件對話方塊](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![發佈事件對話方塊](./assets/configuration-events-publish-dialog.png){width="300"}
 
    事件定義的狀態變更為&#x200B;_已發佈_，現在[可在帳戶歷程](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)中使用。
 
@@ -189,9 +192,9 @@ ht-degree: 0%
 
    變更會自動儲存在草稿中。
 
-1. 當事件定義符合您的條件且您想要讓它可用於帳戶歷程時，請按一下&#x200B;**[!UICONTROL Publish]**。
+1. 當事件定義符合您的條件且您想要讓它可用於帳戶歷程時，請按一下&#x200B;**[!UICONTROL 發佈]**。
 
-1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL Publish]**。
+1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL 發佈]**。
 
    事件定義的狀態變更為&#x200B;_已發佈_，現在可用於帳戶歷程。
 
@@ -221,11 +224,11 @@ ht-degree: 0%
 
    變更會自動儲存在草稿中。
 
-1. 當草稿事件定義符合您的條件，而您想要取代目前發佈的版本以用於帳戶歷程時，請按一下&#x200B;**[!UICONTROL Publish草稿]**。
+1. 當草稿事件定義符合您的條件，而您想要取代目前發佈的版本以用於帳戶歷程時，請按一下&#x200B;**[!UICONTROL 發佈草稿]**。
 
-1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL Publish]**。
+1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL 發佈]**。
 
-   ![Publish草稿對話方塊](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![發佈草稿對話方塊](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而事件定義會針對使用中但尚未執行的帳戶歷程而更新。
 
@@ -243,11 +246,11 @@ ht-degree: 0%
 
    變更會自動儲存在草稿中。
 
-1. 當草稿事件定義符合您的條件，而您想要取代目前發佈的版本以用於帳戶歷程時，請按一下&#x200B;**[!UICONTROL Publish草稿]**。
+1. 當草稿事件定義符合您的條件，而您想要取代目前發佈的版本以用於帳戶歷程時，請按一下&#x200B;**[!UICONTROL 發佈草稿]**。
 
-1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL Publish]**。
+1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL 發佈]**。
 
-   ![Publish草稿對話方塊](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![發佈草稿對話方塊](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而事件定義會針對使用中但尚未執行的帳戶歷程而更新。
 
