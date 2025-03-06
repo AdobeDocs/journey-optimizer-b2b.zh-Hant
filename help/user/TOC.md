@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B 版文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B 版，以及如何使用它透過內建生成式 AI 和業界領先的自動化來編排帳戶和購買群組旅程。
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '229'
 ht-degree: 34%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 34%
       + [銷售警示電子郵件](./content/sales-alert-email.md)
    + [簡訊製作](./content/sms-authoring.md)
 + 帳戶{#accounts}
-   + [客群](./audiences/account-audience-overview.md)
+   + [對象](./audiences/account-audience-overview.md)
    + 購買群組{#buying-groups}
       + [概觀](./buying-groups/buying-groups-overview.md)
       + [解決方案興趣](./buying-groups/solution-interests.md)
@@ -65,7 +65,9 @@ ht-degree: 34%
          + [概觀](./content/email-templates.md)
          + [電子郵件範本製作](./content/email-template-authoring.md)
       + [登入頁面範本](./content/landing-page-templates.md)
-   + [片段](./content/fragments.md)
+   + 片段{#visual-fragments}
+      + [概觀](./content/fragments.md)
+      + [片段製作](./content/fragment-authoring.md)
    + [Forms](./content/forms.md)
    + 登陸頁面 {#landing-pages}
       + [概觀](./content/landing-pages.md)

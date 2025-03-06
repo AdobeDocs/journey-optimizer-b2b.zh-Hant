@@ -2,10 +2,11 @@
 title: 電子郵件範本製作
 description: 瞭解如何撰寫可用於帳戶歷程電子郵件的內容電子郵件範本，以輕鬆且有效率地重複使用您的設計。
 feature: Email Authoring, Content
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 10%
+source-wordcount: '334'
+ht-degree: 15%
 
 ---
 
@@ -29,30 +30,9 @@ ht-degree: 10%
 
 ### 新增片段
 
-在視覺內容編輯器中，_片段_&#x200B;圖示會顯示在左側。 以下範例概述將片段新增至範本內容的步驟。
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. 若要開啟片段清單，請選取&#x200B;_片段_&#x200B;圖示（ ![片段圖示](../assets/do-not-localize/icon-fragments.svg) ）。
-
-   您可以：
-
-   * 排序清單。
-   * 瀏覽、搜尋或篩選清單。
-   * 在縮圖和清單檢視之間切換。
-   * 重新整理清單以反映任何最近建立的片段。
-
-   ![從清單中選取片段](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. 將任何片段拖放至結構元件的預留位置。
-
-   編輯器會在電子郵件結構的區段/元素中轉譯片段。
-
-片段的內容會在結構內動態更新，以顯示內容在電子郵件中的顯示方式。
-
->[!TIP]
->
->如果您希望片段佔據電子郵件內的整個水準版面，請新增1:1欄結構，然後將片段拖放至其中。
-
-儲存電子郵件後，當您在摘要中選取&#x200B;_[!UICONTROL 使用者]_&#x200B;索引標籤時，它就會顯示在片段詳細資訊頁面中。 新增到電子郵件範本的片段在範本中無法編輯 — 來源片段會定義內容。
+儲存範本後，當您在摘要中選取&#x200B;_[!UICONTROL 使用者]_&#x200B;索引標籤時，範本會顯示在片段詳細資訊頁面中。
 
 ### 新增資產
 

@@ -3,10 +3,10 @@ title: 片段
 description: 瞭解如何在Adobe Journey Optimizer B2B edition中建立和使用視覺內容片段，作為電子郵件和電子郵件範本的可重複使用元件。
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
+source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
 workflow-type: tm+mt
-source-wordcount: '2679'
-ht-degree: 3%
+source-wordcount: '2624'
+ht-degree: 1%
 
 ---
 
@@ -14,14 +14,18 @@ ht-degree: 3%
 
 片段是可重複使用的元件，可在各個Adobe Journey Optimizer B2B edition的一或多封電子郵件和電子郵件範本中參照。 這通常是可以預先建立並快速插入電子郵件或電子郵件範本中的內容區塊（文字、影像或兩者）。 透過此功能，您可以預先建置多個自訂內容區塊，以供行銷團隊成員用於組合電子郵件內容，以改進設計流程。 常見的使用案例包括電子郵件的頁首/頁尾內容區塊、事件邀請橫幅和季節性問候。
 
+>[!BEGINSHADEBOX]
+
+**視覺片段**
+
+視覺片段是預先定義的視覺化區塊，使用視覺化內容設計工具建置，可在多個電子郵件或電子郵件範本中重複使用。 Journey Optimizer B2B edition及本檔案的目前範圍僅為視覺片段。 Journey Optimizer B2B edition尚不支援運算式型片段。
+
+>[!ENDSHADEBOX]
+
 若要在工作流程中善用片段：
 
 * _建立您自己的片段_ — 從草稿開始建立視覺化片段，或是從視覺化內容編輯器將內容儲存為片段。
 * _重複使用片段_ — 視需要在您的內容中多次使用這些片段。
-
-## 視覺片段
-
-視覺片段是預先定義的視覺化區塊，使用視覺化內容編輯器建置，可在多個電子郵件或電子郵件範本中重複使用。 Journey Optimizer B2B edition及本檔案的目前範圍僅為視覺片段。 Journey Optimizer B2B edition尚不支援運算式型片段。
 
 ## 存取及管理片段
 
@@ -39,9 +43,9 @@ ht-degree: 3%
 | -------------------- | ----------- |
 | 草稿 | 當您建立片段時，它處於草稿狀態。 在您定義或編輯視覺內容時，它保持此狀態，直到您發佈它以用於電子郵件或電子郵件範本為止。 可用的動作： <br/><ul><li>編輯所有詳細資料<li>在視覺化設計工具中編輯<li>發佈<li>複製<li>刪除 |
 | 發佈日期 | 當您發佈片段時，該片段將可用於電子郵件或電子郵件範本。 在視覺化設計工具中無法修改已發佈的片段內容。 可用的動作： <br/><ul><li>編輯說明<li>新增至電子郵件或範本<li>建立草稿版本<li>複製<li>刪除（若未使用） |
-| 已與草稿一起發佈 | 當您從已發佈的片段建立草稿時，已發佈的版本仍可在電子郵件或電子郵件範本中使用，且草稿內容可在視覺化設計工具中修改。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且使用中的電子郵件和電子郵件範本中的內容會更新。 可用的動作： <br/><ul><li>編輯說明<li>新增至電子郵件或範本<li>在視覺化設計工具中編輯草稿版本<li>Publish草稿版本<li>複製<li>刪除（若未使用） |
+| 已與草稿一起發佈 | 當您從已發佈的片段建立草稿時，已發佈的版本仍可在電子郵件或電子郵件範本中使用，且草稿內容可在視覺化設計工具中修改。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且使用中的電子郵件和電子郵件範本中的內容會更新。 可用的動作： <br/><ul><li>編輯說明<li>新增至電子郵件或範本<li>在視覺化設計工具中編輯草稿版本<li>發佈草稿版本<li>複製<li>刪除（若未使用） |
 
-![片段狀態生命週期](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+![片段狀態生命週期](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -85,45 +89,16 @@ ht-degree: 3%
 
 1. 使用內容設計工具建立視覺片段內容：
 
-   * [新增結構和內容](#add-structure-and-content)
-   * [新增Assets](#add-assets)
-   * [導覽圖層、設定和樣式](#navigate-the-layers-settings-and-styles)
-   * [個人化內容](#personalize-content)
-   * [編輯連結的URL追蹤](#edit-linked-url-tracking)
+   * [新增結構和內容](./fragment-authoring.md#add-structure-and-content)
+   * [新增Assets](./fragment-authoring.md#add-assets)
+   * [導覽圖層、設定和樣式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [個人化內容](./fragment-authoring.md#personalize-content)
+   * [啟用自訂欄位](./fragment-authoring.md#enable-custom-fields)
+   * [編輯連結的URL追蹤](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. 隨時按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存草稿片段。
 
-1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下&#x200B;**[!UICONTROL Publish]**。
-
-### 新增結構和內容 {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="新增結構元件"
->abstract="結構元件會定義區段的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="關於內容元件"
->abstract="內容元件指可用於建立片段版面的空白內容預留位置。"
-
-{{$include /help/_includes/content-design-components.md}}
-
-### 新增資產
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### 導覽圖層、設定和樣式
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### 個人化內容
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### 編輯連結的URL追蹤
-
-{{$include /help/_includes/content-design-links.md}}
+1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下[發佈]。****
 
 ## 檢視片段詳細資訊
 
@@ -194,15 +169,16 @@ ht-degree: 3%
 
    視需要使用視覺化設計工具工具：
 
-   * [新增結構和內容](#add-structure-and-content)
-   * [新增Assets](#add-assets)
-   * [導覽圖層、設定和樣式](#navigate-the-layers-settings-and-styles)
-   * [個人化內容](#personalize-content)
-   * [編輯連結的URL追蹤](#edit-linked-url-tracking)
+   * [新增結構和內容](./fragment-authoring.md#add-structure-and-content)
+   * [新增Assets](./fragment-authoring.md#add-assets)
+   * [導覽圖層、設定和樣式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [個人化內容](./fragment-authoring.md#personalize-content)
+   * [啟用自訂欄位](./fragment-authoring.md#enable-custom-fields)
+   * [編輯連結的URL追蹤](./fragment-authoring.md#edit-linked-url-tracking)
 
    按一下「**[!UICONTROL 儲存]**」或「**[!UICONTROL 儲存並關閉]**」以返回片段詳細資料。
 
-1. 當片段符合您的條件且您想要將其用於電子郵件或電子郵件範本時，請按一下&#x200B;**[!UICONTROL Publish]**。
+1. 當片段符合您的條件且您想要在電子郵件或電子郵件範本中使用時，請按一下&#x200B;**[!UICONTROL 發佈]**。
 
 >[!TAB 已發佈]
 
@@ -222,15 +198,16 @@ ht-degree: 3%
 
    視需要使用視覺化設計工具工具：
 
-   * [新增結構和內容](#add-structure-and-content)
-   * [新增Assets](#add-assets)
-   * [導覽圖層、設定和樣式](#navigate-the-layers-settings-and-styles)
-   * [個人化內容](#personalize-content)
-   * [編輯連結的URL追蹤](#edit-linked-url-tracking)
+   * [新增結構和內容](./fragment-authoring.md#add-structure-and-content)
+   * [新增Assets](./fragment-authoring.md#add-assets)
+   * [導覽圖層、設定和樣式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [個人化內容](./fragment-authoring.md#personalize-content)
+   * [啟用自訂欄位](./fragment-authoring.md#enable-custom-fields)
+   * [編輯連結的URL追蹤](./fragment-authoring.md#edit-linked-url-tracking)
 
    按一下「**[!UICONTROL 儲存]**」或「**[!UICONTROL 儲存並關閉]**」以返回片段詳細資料。
 
-1. 當草稿片段符合您的條件，而您想要讓變更可用於電子郵件或電子郵件範本時，請按一下&#x200B;**[!UICONTROL Publish]**。
+1. 當草稿片段符合您的條件且您想要讓變更可用於電子郵件或電子郵件範本時，請按一下&#x200B;**[!UICONTROL 發佈]**。
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而內容會更新到已使用草稿的電子郵件和電子郵件範本中。
 
@@ -250,15 +227,16 @@ ht-degree: 3%
 
 1. 按一下右上方的&#x200B;**[!UICONTROL 編輯片段]**。 視需要使用視覺化設計工具工具：
 
-   * [新增結構和內容](#add-structure-and-content)
-   * [新增Assets](#add-assets)
-   * [導覽圖層、設定和樣式](#navigate-the-layers-settings-and-styles)
-   * [個人化內容](#personalize-content)
-   * [編輯連結的URL追蹤](#edit-linked-url-tracking)
+   * [新增結構和內容](./fragment-authoring.md#add-structure-and-content)
+   * [新增Assets](./fragment-authoring.md#add-assets)
+   * [導覽圖層、設定和樣式](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [個人化內容](./fragment-authoring.md#personalize-content)
+   * [啟用自訂欄位](./fragment-authoring.md#enable-custom-fields)
+   * [編輯連結的URL追蹤](./fragment-authoring.md#edit-linked-url-tracking)
 
    按一下「**[!UICONTROL 儲存]**」或「**[!UICONTROL 儲存並關閉]**」以返回片段詳細資料。
 
-1. 當草稿片段符合您的條件，而您想要讓變更可用於電子郵件或電子郵件範本時，請按一下&#x200B;**[!UICONTROL Publish]**。
+1. 當草稿片段符合您的條件且您想要讓變更可用於電子郵件或電子郵件範本時，請按一下&#x200B;**[!UICONTROL 發佈]**。
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而內容會更新到已使用草稿的電子郵件和電子郵件範本中。
 
