@@ -3,9 +3,9 @@ title: 接聽事件
 description: 瞭解在Journey Optimizer B2B edition中可用於協調帳戶歷程的事件節點型別。
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1373'
 ht-degree: 3%
 
 ---
@@ -123,6 +123,8 @@ ht-degree: 3%
 1. [建立並發佈AEP事件定義](../admin/configure-aep-events.md)。
 
 2. 在帳戶歷程中，新增&#x200B;_接聽事件_&#x200B;節點，並為以人物為基礎的事件選取Experience Platform事件定義。
+
+![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看影片概述](../admin/configure-aep-events.md#overview-video)
 
 _若要在歷程中加入體驗事件：_
 

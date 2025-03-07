@@ -3,9 +3,9 @@ title: 採取動作
 description: 瞭解在Journey Optimizer B2B edition中可用來協調帳戶歷程的採取動作節點型別。
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 ![採取動作 — 新增至外部客戶對象](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
 選取此以人物為基礎的動作時，您可以建立新的外部對象，或從現有的外部對象中選取。 針對現有對象，您可以選擇僅在Journey Optimizer B2B edition中建立的外部客戶對象。 當您建立對象並將其用於此歷程動作時，請務必連線到目的地。 如需詳細資訊，請參閱Experience Platform檔案中的[建立新的目的地連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}和[啟用總覽](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}。
+
+![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看付費媒體協調流程的影片概觀](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
 _若要建立外部對象：_
 

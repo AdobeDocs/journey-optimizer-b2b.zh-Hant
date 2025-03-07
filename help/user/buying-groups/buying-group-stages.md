@@ -3,9 +3,9 @@ title: 購買群組階段
 description: 瞭解購買群組階段，以及如何定義這些階段，以對照銷售目標追蹤歷程進展。
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 定義單一暫存模型內的階段，定義多個階段以及它們之間的轉換流程。 一個或多個階段被指定進入生命週期。 模型也允許非線性漸層，您可以在此指定從一個階段到另一個階段的轉變，例如從階段A到階段B、C或D。必須指定一個階段作為成功階段，例如購買或簽署的合約。 您可以選擇將另一個階段指定為失敗階段，例如拒絕的合約或向其他廠商購買競爭解決方案。 這是透過[智慧型儀表板](../dashboards/intelligent-dashboard.md)達成的，顯示購買群組在完成銷售機會或將機會轉換為客戶方面的進度。
 
 ![購買群組階段範例](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看影片概述](#overview-video)
 
 ## 定義您的購買群組階段模型
 
@@ -159,7 +161,7 @@ ht-degree: 0%
 
    您也可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;關閉對話方塊，並返回模型詳細資訊頁面，而不做任何變更。
 
-## Publish購買群組階段模型
+## 發佈購買群組階段模型
 
 如果沒有驗證錯誤，則可發佈模型。 發佈後，其會變更為&#x200B;_即時_&#x200B;狀態，並可用於在帳戶歷程中繼續購買群組階段。
 
@@ -171,9 +173,9 @@ ht-degree: 0%
 
    如果需要修訂，請編輯模型階段。
 
-1. 按一下&#x200B;**[!UICONTROL Publish]**。
+1. 按一下&#x200B;**[!UICONTROL 發佈]**。
 
-1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL Publish]**。
+1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL 發佈]**。
 
    返回模型詳細資訊頁面後，模型被指定為&#x200B;_[!UICONTROL 即時]_。 按一下左上方的&#x200B;_上一步_&#x200B;箭頭，返回&#x200B;_[!UICONTROL 階段]_&#x200B;分頁頁面。
 
@@ -345,3 +347,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
    ![歷程節點 — 接聽帳戶](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}上的事件
 
 1. 繼續其他變更並儲存歷程。
+
+## 概述影片
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

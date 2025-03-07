@@ -1,19 +1,19 @@
 ---
-title: linkedIn帳戶比對的對象
+title: LinkedIn帳戶比對的對象
 description: 瞭解如何連結LinkedIn帳戶並啟用購買群組的資料流。
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 00315c9d245d8d19954643e4dd51920ae2baafbe
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 8%
+source-wordcount: '742'
+ht-degree: 7%
 
 ---
 
-# linkedIn帳戶比對的對象
+# LinkedIn帳戶比對的對象
 
-Journey Optimizer B2B Edition可讓您透過帳戶相符的受眾來產生LinkedIn廣告受眾，設計旨在協助您在購買群組中填入空角色。 透過定義一組購買群組篩選器，您可以維護「LinkedIn相符對象」，以鎖定符合您購買群組引數的潛在客戶。 此功能可運用Experience Platform目的地來管理整合的某些層面。 資料流上限為10個。
+Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生LinkedIn廣告受眾，其目的是協助您在購買群組中填入空角色。 透過定義一組購買群組篩選器，您可以維護「LinkedIn相符對象」，以鎖定符合您購買群組引數的潛在客戶。 此功能可運用Experience Platform目的地來管理整合的某些層面。 資料流上限為10個。
 
-在從Journey Optimizer B2B版本啟動資料流之前，您必須至少有一個[（公司） LinkedIn相符對象目的地聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect)的執行個體，其設定在Experience Platform應用程式中的LinkedIn Campaign Manager帳戶。
+在從Journey Optimizer B2B edition起始資料流之前，您必須至少有一個[（公司） LinkedIn相符對象目的地聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect)的執行個體，而且已在Experience Platform應用程式中設定LinkedIn促銷活動管理員帳戶。
 
 ## 設定新的 LinkedIn 帳戶連結 {#linkedin-destination-setup}
 
@@ -24,7 +24,7 @@ Journey Optimizer B2B Edition可讓您透過帳戶相符的受眾來產生Linked
 
 1. 在Experience Platform中，前往左側導覽中的&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 目的地]**，然後選取&#x200B;**[!UICONTROL 目錄]**&#x200B;索引標籤。
 
-1. 在目錄中，找出&#x200B;**[!UICONTROL （公司） LinkedIn相符的受眾]**&#x200B;聯結器。
+1. 在目錄中，找到&#x200B;**[!UICONTROL （公司） LinkedIn相符的受眾]**&#x200B;聯結器。
 
    >[!TIP]
    >
@@ -32,7 +32,7 @@ Journey Optimizer B2B Edition可讓您透過帳戶相符的受眾來產生Linked
 
 1. 在聯結器卡中，按一下&#x200B;_更多_ (**...**)圖示並選擇&#x200B;**[!UICONTROL 設定新目的地]**。
 
-   ![存取（公司） LinkedIn相符的受眾聯結器](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![存取（公司） LinkedIn相符對象聯結器](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
 1. 選取&#x200B;**[!UICONTROL 新帳戶]**&#x200B;並按一下&#x200B;**[!UICONTROL 連線到目的地]**。
 
@@ -50,7 +50,7 @@ Journey Optimizer B2B Edition可讓您透過帳戶相符的受眾來產生Linked
 
 ## 更新帳戶詳細資料
 
-在Journey Optimizer B2B版本中，購買群組可以看到LinkedIn帳戶的名稱和說明。 最佳實務是更新這些資訊，以便與購買群組合作的行銷人員可輕鬆識別這些資訊。 您可以在Experience Platform或Journey Optimizer B2B Edition UI中變更帳戶詳細資料。
+在Journey Optimizer B2B edition中，購買群組可以看到LinkedIn帳戶的名稱和說明。 最佳實務是更新這些資訊，以便與購買群組合作的行銷人員可輕鬆識別這些資訊。 您可以在Experience Platform或Journey Optimizer B2B edition UI中變更帳戶詳細資料。
 
 1. 前往左側導覽中的&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 目的地]**，然後選取&#x200B;**[!UICONTROL 帳戶]**&#x200B;標籤。
 
@@ -68,21 +68,21 @@ Journey Optimizer B2B Edition可讓您透過帳戶相符的受眾來產生Linked
 
 >[!NOTE]
 >
->如果您已有10個資料流，則無法建立另一個資料流。 如果您已達到最大數量，請先刪除Experience Platform中的一個專案，然後再在Journey Optimizer B2B Edition中建立新專案。
+>如果您已有10個資料流，則無法建立另一個資料流。 如果您已達到最大數量，請先刪除Experience Platform中的一個專案，然後再在Journey Optimizer B2B edition中建立新專案。
 
-1. 在Journey Optimizer B2B版本中，在左側導覽中前往&#x200B;**[!UICONTROL 帳戶]** > **[!UICONTROL 購買群組]**。
+1. 在Journey Optimizer B2B edition中，在左側導覽中前往&#x200B;**[!UICONTROL 帳戶]** > **[!UICONTROL 購買群組]**。
 
 1. 選取&#x200B;**[!UICONTROL 瀏覽]**&#x200B;標籤。
 
-1. 按一下右上角的「**[!UICONTROL 啟用至LinkedIn目的地]**」。
+1. 按一下右上角的&#x200B;**[!UICONTROL 啟用至LinkedIn目的地]**。
 
    ![編輯帳戶詳細資料](./assets/activate-linkedin-destination.png){width="800" zoomable="yes"}
 
 1. 為資料流提供描述性名稱和說明（選用）。
 
-   儲存之後，您為資料流指定的名稱會加上&#x200B;_AJOB2B_，以協助識別Experience Platform的資料流。
+   儲存之後，您為資料流指定的名稱會加上&#x200B;_AJOB2B_，以協助識別Experience Platform中的資料流。
 
-1. 輸入LinkedIn Campaign Manager帳戶](https://www.linkedin.com/help/lms/answer/a424270)的[帳戶ID。
+1. 輸入LinkedIn行銷活動管理員帳戶](https://www.linkedin.com/help/lms/answer/a424270)的[帳戶ID。
 
    您可以在Campaign Manager UI中依帳戶名稱尋找您的帳戶ID。
 
@@ -110,4 +110,10 @@ Journey Optimizer B2B Edition可讓您透過帳戶相符的受眾來產生Linked
 
    在確認對話方塊中再按一下&#x200B;**[!UICONTROL 啟動]**。
 
-   橫幅會以Experience Platform顯示，內含資料流功能表的連結，讓您能夠檢查資料流記錄。
+   橫幅會顯示連結，連至Experience Platform中的資料流功能表，讓您檢視資料流記錄。
+
+## 協調付費媒體參與
+
+您可以透過付費媒體管道（例如LinkedIn廣告對象）與帳戶成員互動，以取得、培養客戶並符合銷售資格。 使用帳戶歷程中的&#x200B;_執行動作_&#x200B;節點，透過最適合不同帳戶成員的外部管道，自動與帳戶的主要成員進行互動。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
