@@ -3,10 +3,10 @@ title: 採取動作
 description: 瞭解在Journey Optimizer B2B edition中可用來協調帳戶歷程的採取動作節點型別。
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!UICONTROL 帳戶變更資料值] | 選取屬性<br/>新值 |
 | [!UICONTROL 帳戶有趣的時刻] | 型別（電子郵件、里程碑或網頁）<br/>說明（選擇性） |
 | [!UICONTROL 新增帳戶至（其他）歷程] | 選取即時帳戶歷程 |
-| [!UICONTROL 新增至帳戶清單] | 選取即時靜態帳戶清單 |
+| [!UICONTROL 新增至帳戶清單] | 選取上線的靜態帳戶清單 |
 | [!UICONTROL 從歷程移除帳戶] | 選取即時帳戶歷程 |
 | [!UICONTROL 從帳戶清單移除] | 選取即時靜態帳戶清單 |
 | [!UICONTROL 傳送銷售警示] | 選取感興趣的解決方案<br/>傳送電子郵件至 |
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 | 內容 | 動作 | 限制 |
 | ------- | ------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 新增至外部客戶對象] | 選取外部客戶對象 |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 新增至外部客戶對象] | 選取外部客戶客群 |
 | | [!UICONTROL 指派給購買群組] | 選取方案興趣<br/>選取角色 |
 | | [!UICONTROL 變更資料值] | 選取人員屬性<br/>設定新值 |
 | | [!UICONTROL 變更分數] | 分數名稱<br/>分數變更 |
@@ -183,7 +183,7 @@ _若要使用現有的對象：_
 
 ### Marketo Engage動作
 
-Marketo Engage以人物為基礎的架構，可協調您在Journey Optimizer B2B edition中以帳戶為基礎的行銷協調，以及您在Marketo Engage中以銷售機會為基礎的行銷工作。 使用這些動作來協調清單成員資格、人員分割和請求行銷活動。
+Marketo Engage以人物為基礎的動作，旨在協調Journey Optimizer B2B edition中以帳戶為基礎的行銷策劃，與Marketo Engage中以銷售機會為基礎的行銷工作。 使用這些動作來協調清單成員資格、人員分割和請求行銷活動。
 
 +++[!UICONTROL 新增至清單]
 

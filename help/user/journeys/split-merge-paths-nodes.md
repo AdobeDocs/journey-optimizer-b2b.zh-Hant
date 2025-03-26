@@ -3,9 +3,9 @@ title: 分割與合併路徑
 description: 瞭解您可以在Journey Optimizer B2B edition中用於協調帳戶歷程的分割路徑和合併路徑節點型別。
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: e0fc061b55af4fd79248c2255db94280ee41e2c8
+source-git-commit: bc264c94ff870733ee433a317bbbd885a30fc259
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1587'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ _依人員節點分割路徑如何運作？_
 | 節點內容 | 路徑條件 | 說明 |
 | ------------ | --------------- | ----------- |
 | [帳戶](#add-a-split-path-by-account-node) | 帳戶屬性 | 帳戶設定檔中的屬性，包括： <li>年收入</li><li>城市</li><li>國家/地區</li><li>員工人數</li><li>行業</li><li>名稱</li><li>SIC代碼</li><li>狀態</li> |
-| | [!UICONTROL 特殊篩選器] > [!UICONTROL 有購買群組] | 此帳戶是否具有根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li> |
+| | [!UICONTROL 特殊篩選器] > [!UICONTROL 有購買群組] | 帳戶是否擁有購買群組的成員。 也可以根據下列一或多個條件進行評估： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li> |
 | [人員](#add-a-split-path-by-people-node) >僅[!UICONTROL 人員屬性] | [!UICONTROL 個人屬性] | 個人設定檔中的屬性，包括： <li>城市</li><li>國家/地區</li><li>出生日期</li><li>電子郵件地址</li><li>電子郵件無效</li><li>電子郵件已暫停</li><li>名字</li><li>推斷的狀態區域</li><li>職稱</li><li>姓氏</li><li>行動電話號碼</li><li>電話號碼</li><li>郵遞區號</li><li>狀態</li><li>退訂</li><li>取消訂閱的原因</li> |
 | | [!UICONTROL 活動歷史記錄] > [!UICONTROL 電子郵件] | 與歷程相關聯的電子郵件活動： <li>[!UICONTROL 已點按電子郵件中的連結]</li><li>已開啟的電子郵件</li><li>已傳遞電子郵件</li><li>已傳送電子郵件</li> 會使用歷程中先前選取的電子郵件訊息評估這些條件。 |
 | | [!UICONTROL 活動歷史記錄] > [!UICONTROL 資料值已變更] | 針對選取的人員屬性，發生值變更。 這些變更型別包括： <li>新值</li><li>上一個值</li><li>原因</li><li>來源</li><li>活動日期</li><li>最低 次數</li> |
@@ -61,6 +61,20 @@ _依人員節點分割路徑如何運作？_
 | | [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>角色</li> |
 | | [!UICONTROL 特殊篩選器] > [!UICONTROL 清單成員] | 此人是否為一或多個Marketo Engage清單的成員。 |
 | [People](#add-a-split-path-by-people-node) >僅[!UICONTROL Account-person屬性] | 帳戶屬性中的角色 | 此人是否在帳戶中被指派角色。 選擇性限制： <li>輸入角色名稱</li> |
+
+<!-- 
+
+Add back for next release:
+
+Accounts:
+
+| | [!UICONTROL Special filters] > [!UICONTROL Has opportunity] | The account is or is not related to an opportunity. Can also be evaluated against one or more of the following opportunity attributes: <li>Amount<li>Close date<li>Description<li>Expected revenue<li>Fiscal quarter<li>Fiscal year<li>Forecast category<li>Forecast category name<li>Is closed<li>Is won</li><li>Last activity date</li><li>Person source<li>Name</li><li>Next step</li><li>Probability<li>Quantity<li>Stage</li><li>Type |
+
+People:
+
+| | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities associated with the journey: <li>[!UICONTROL Clicked link in SMS]</li><li>[!UICONTROL SMS Bounced]</li>These conditions are evaluated using a selected SMS message from earlier in the journey.  |
+
+-->
 
 ### 依帳戶節點新增分割路徑
 

@@ -1,12 +1,13 @@
 ---
 title: 帳戶清單
 description: 瞭解帳戶清單，以及行銷人員如何透過帳戶歷程使用它們來鎖定帳戶。
-exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-hidefromtoc: true
 hide: true
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+hidefromtoc: true
+badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -140,7 +141,7 @@ ht-degree: 0%
 
 >[!ENDTABS]
 
-## Publish帳戶清單
+## 發佈帳戶清單
 
 篩選器集完成後，您就可以繼續發佈帳戶清單。
 
@@ -148,11 +149,11 @@ ht-degree: 0%
 
 >[!TAB 靜態帳戶清單]
 
-1. 按一下右上方的&#x200B;**[!UICONTROL Publish]**。
+1. 按一下右上方的&#x200B;**[!UICONTROL 發佈]**。
 
-   ![按一下右上方的Publish](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![按一下右上角的[發佈]](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Publish靜態帳戶清單]_&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL Publish]**&#x200B;以進行確認。
+1. 在&#x200B;_[!UICONTROL 發佈靜態帳戶清單]_&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;以進行確認。
 
    ![確認發佈靜態帳戶清單](./assets/account-lists-static-publish-confirm.png){width="400"}
 
@@ -162,11 +163,11 @@ ht-degree: 0%
 
 篩選器集完成後，您就可以繼續發佈動態帳戶清單。 帳戶清單處於即時狀態後，就可在帳戶對象歷程節點中選取。
 
-1. 按一下右上方的&#x200B;**[!UICONTROL Publish]**。
+1. 按一下右上方的&#x200B;**[!UICONTROL 發佈]**。
 
-   ![按一下右上方的Publish](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![按一下右上角的[發佈]](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Publish動態帳戶清單]_&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL Publish]**&#x200B;以進行確認。
+1. 在&#x200B;_[!UICONTROL 發佈動態帳戶清單]_&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;以進行確認。
 
    ![確認發佈動態帳戶清單](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 

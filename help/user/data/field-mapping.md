@@ -2,10 +2,10 @@
 title: XDM欄位
 description: 檢閱在Adobe Experience Platform和Journey Optimizer B2B edition之間同步的預設屬性欄位。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 332c25305377398c2338d4b1d4a61b7fcf814232
+source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 13%
+source-wordcount: '1372'
+ht-degree: 12%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 >[!TIP]
 >
->您可以使用XDM商業帳戶個人關係類別(如[Experience PlatformXDM檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)所述)，以多對多關係來建立XDM商業帳戶和XDM商業帳戶類別的模型。
+>您可以使用XDM商業帳戶個人關係類別(如[Experience Platform XDM檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)所述)，以多對多關係來建立XDM商業帳戶和XDM商業帳戶類別的模型。
 
 ## XDM商業帳戶個人關係屬性
 
@@ -79,26 +79,27 @@ ht-degree: 13%
 | `accountPhone.number` | 不適用 | 帳戶電話號碼 | 字串 | 與帳戶相關聯的電話號碼。 |
 | `accountSourceType` | 不適用 | 來源類型 | 字串 | 帳戶的Source型別。 |
 
-<!-- ## XDM Opportunity attributes
+## XDM商業機會屬性
 
-|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+此外，機會資料會儲存為XDM商業機會類別中的屬性，可透過多對一關係與XDM商業帳戶類別建立關聯，如[這裡](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field)所述。
+
+| [屬性](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | 顯示名稱 | Journey Optimizer B2B顯示名稱 | 資料類型 | 說明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-|`opportunityName` | Opportunity Name   | ? |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
-|`opportunityDescription` | Opportunity Description   | ?    |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
-|`opportunityType` | Opportunity Type   | ?   | String | ?   |
-|`opportunityStage` | Opportunity Stage   | ?   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
-|`fiscalQuarter` | Fiscal Quarter   | ?   | String | The fiscal quarter that the opportunity is targeted.   |
-|`fiscalYear` | Fiscal Year   | ?   | String | The fiscal year that the opportunity is targeted.   |
-|`fiscalCategory` | Fiscal Category   | ?   | String | ?   |
-|`fiscalCategoryName` | Fiscal Category Name  | ?   | String | Forecast category name that is displayed in reports for a particular forecast category.   |
-|`isClosed` | Closed Flag  | ?   | String | Flag that indicates if the opportunity is closed.   |
-|`isWon` | Won Flag  | ?   | String | Flag that indicates if the opportunity is won.  |
-|`probabilityPercentage` | Probability Percentage  | ?   | String | Likelihood of closing the opportunity, stated as a percentage.  |
-|`opportunityAmount.amount` | Opportunity Amount  | ?   | String | Estimated total sale amount for the opportunity.   |
-|`expectedRevenue.amount` | Expected Revenue  | ?   | String | Calculated revenue based on the Amount and Probability.   |
-|`opportunityQuantity` | Opportunity Quantity  | ?   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
-|`expectedCloseDate` | Expected Close Date  | ?   | String | Expected date of closure for the opportunity.   |
-|`lastActivityDate` | Last Activity Date  | ?   | String | Last activity date for the opportunity.  |
-|`leadSource` | Lead Source  | ?   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
-|`nextStep` | Next Step  | ?   | String | Description of the next task for closing the opportunity.   |
--->
+| `expectedCloseDate` | 預期關閉日期 | 預期機會關閉日期 | 字串 | 商機的預期關閉日期。 |
+| `expectedRevenue.amount` | 預期收入 | 商機預期收入總計 | 字串 | 根據金額和機率計算的收入。 |
+| `fiscalQuarter` | 會計季度 | 機會會計季度 | 字串 | 機會的目標會計季度。 |
+| `fiscalYear` | 會計年度 | 機會會計年度 | 字串 | 機會的目標會計年度。 |
+| `forecastCategory` | 預測類別 | 機會預測類別 | 字串 | 預測類別是由商機「階段」值所決定。 |
+| `forecastCategoryName` | 預測類別名稱 | 機會預測類別名稱 | 字串 | 特定預測類別在報表中顯示的預測類別名稱。 |
+| `isClosed` | 已關閉的旗標 | 商機已關閉 | 字串 | 表示商機是否關閉的旗標。 |
+| `isWon` | 已勝利的旗標 | 已贏得機會 | 字串 | 表示商機是否成功的旗標。 |
+| `lastActivityDate` | 上次活動日期 | 上次活動日期 | 字串 | 機會的上次活動日期。 |
+| `leadSource` | 銷售機會來源 | 潛在客戶來源 | 字串 | 商機的Source，例如，廣告、合作夥伴或網路。 |
+| `nextStep` | 下一步 | 機會下一步 | 字串 | 關閉商機的下一個任務的說明。 |
+| `opportunityAmount.amount` | 機會金額 | 機會數量總計 | 字串 | 機會的預估總銷售金額。 |
+| `opportunityDescription` | 機會說明 | 機會說明 | 字串 | 描述商機的其他資訊，例如可能銷售的產品或過去向客戶購買的商品。 |
+| `opportunityName` | 機會名稱 | 機會名稱 | 字串 | 商機的主旨或描述性名稱，例如預期的訂單或公司名稱。 |
+| `opportunityQuantity` | 機會數量 | 機會數量 | 字串 | 商機之相關產品清單中所有產品的所有數量欄位值的總數。 |
+| `opportunityStage` | 機會階段 | 機會階段 | 字串 | 機會的銷售階段，協助銷售團隊努力贏得機會。 |
+| `opportunityType` | 機會型別 | 機會類型 | 字串 | 指派給商機的型別，例如_Existing Business _或&#x200B;_New Business_ |
+| `probabilityPercentage` | 機率百分比 | 機會機率百分比 | 字串 | 關閉商機的可能性，以百分比表示。 |
