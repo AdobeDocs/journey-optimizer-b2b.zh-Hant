@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B 版文件
 description: 瞭解如何使用Adobe Journey Optimizer B2B edition功能，利用內建的創作AI和領先業界的自動化來協調帳戶和購買群組歷程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '680'
 ht-degree: 7%
 
 ---
@@ -30,6 +30,12 @@ ht-degree: 7%
 透過Adobe Express企業授權，您可以善用全套Adobe Express功能。 使用這些功能來美化及增強影像，同時遵守品牌方針，並移除內容供應鏈中的障礙。
 
 [!BADGE 了解更多]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="瞭解如何使用Adobe Express編輯影像"}
+
+>[!TAB 片段可自訂欄位]
+
+作為內容設計者，您可以將片段中元件的引數指定為可編輯。 這可讓電子郵件或範本作者指定其需求專屬的自訂欄位值。 此自訂旗標僅限於影像、文字和按鈕視覺元件。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="瞭解內容片段的自訂欄位"}
 
 >[!TAB AEP事件轉送]
 

@@ -2,10 +2,10 @@
 title: 發行說明
 description: Adobe Journey Optimizer B2B 版的最新發行說明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 10%
+source-wordcount: '1601'
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,21 @@ Journey Optimizer B2B edition是原生建置在[!DNL Adobe Experience Platform]�
 
 檢閱[產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，以取得權益、效能護欄和限制的相關資訊。
 
-## 2025 年 1 月發行說明 {#Jan-2025}
+## 2025.2版本注意事項
+
+**發行日期**： 2025年3月11日
+
+此版本包含下列新功能和增強功能：
+
+| 類型 | 項目 | 說明 |
+| ---- | ---- | ----------- |
+| 新功能 | 可自訂欄位 — 內容片段 | 作為內容片段設計工具，您可以將片段中元件的引數指定為可編輯。 這可讓電子郵件或範本作者指定其需求專屬的自訂欄位值。 此自訂旗標僅限於影像、文字和按鈕視覺元件。 <a href="../content/fragment-authoring.md#enable-custom-fields">了解更多</a> |
+| 新功能 | B2B內建角色和產品許可權 | Experience Platform現在包含一組內建（預設）角色，您可以使用這些角色來管理對B2B產品功能的存取。 <a href="../admin/user-management.md#b2b-built-in-roles">了解更多</a> <br/>管理員現在可以在Adobe Experience Platform中定義自訂角色，以包含Journey Optimizer B2B edition產品許可權。  <a href="../admin/user-management.md#b2b-product-permissions">了解更多</a> |
+| 增強功能 | 其他四個範例電子郵件範本 | 範例電子郵件範本資料庫現在包含四個SecureFinacial範本，作為重新參與、通知、培養和回饋內容範例的範例 |
+
+
+
+## 2025.1版本注意事項 {#Jan-2025}
 
 **發行日期**：2025年2月6日
 
@@ -25,7 +39,7 @@ Journey Optimizer B2B edition是原生建置在[!DNL Adobe Experience Platform]�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 新功能 | 體驗事件轉送 | 管理員可以設定Adobe Experience Platform (AEP)型事件定義。 這些設定可讓行銷人員建立對AEP體驗事件做出反應的帳戶歷程。  <a href="../admin/configure-aep-events.md">了解更多</a> |
+| 新功能 | 體驗事件轉送 | 管理員可以設定以Adobe Experience Platform (AEP)為基礎的事件定義。 這些設定可讓行銷人員建立對AEP體驗事件做出反應的帳戶歷程。  <a href="../admin/configure-aep-events.md">了解更多</a> |
 | 新功能 | 付費媒體目的地 | 將帳戶歷程中的付費媒體行銷活動限定給已知人員，以便您可以在LinkedIn等廣告平台上進一步與他們互動。 在帳戶歷程中使用分割路徑節點，根據特定行為來細分帳戶對象，並識別需要額外參與的帳戶。 然後，透過Real-time CDP將人員從這些帳戶新增到外部客戶受眾到支援的付費媒體目的地。 <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解更多</a> |
 | 新功能 | 智慧型儀表板 | 透過帳戶歷程檢視購買群組的進度，包括AI產生的深入分析，以獲得更聰明的分析和準確的帳戶優先順序。 <a href="../dashboards/intelligent-dashboard.md">了解更多</a> |
 | 新功能 | 購買群組和帳戶詳細資料 | 檢視購買群組和帳戶層級的深入分析，以便在您開始與客戶互動時擁有更多情境和歷史資料。<p>購買群組詳細資訊包括偵測到的任何第一方意圖。 <a href="../buying-groups/buying-group-details.md">了解更多</a><p>帳戶詳細資料帳戶會強調偵測到參與激增的意圖，因此您可以提醒銷售人員注意已準備好進行客製化以銷售為中心的參與的帳戶。  <a href="../accounts/account-details.md">了解更多</a> |
@@ -46,7 +60,7 @@ Journey Optimizer B2B edition是原生建置在[!DNL Adobe Experience Platform]�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 新功能 | 電子郵件範本中的條件式內容 | 根據帳戶和潛在客戶層級的收件者行為和設定檔特性，個人化您的電子郵件內容。 <p>當您在電子郵件設計工具中針對您的帳戶歷程製作電子郵件時，請使用條件規則來定義任何內容元件的多個變體。 <a href="../content/conditional-content.md">了解更多</a> |
+| 新功能 | 電子郵件範本中的條件式內容 | 根據帳戶和潛在客戶層級的收件者行為和設定檔特性，個人化您的電子郵件內容。 <p>當您在電子郵件視覺化設計空間為您的帳戶歷程撰寫電子郵件時，請使用條件規則來定義任何內容元件的多個變體。 <a href="../content/conditional-content.md">了解更多</a> |
 | 新功能 | _新增至清單_&#x200B;和&#x200B;_從清單移除_&#x200B;歷程中的人員動作 | 根據帳戶和潛在客戶層級的收件者行為和設定檔特性，個人化您的電子郵件內容。 <a href="../journeys/action-nodes.md">了解更多</a> |
 | 新功能 | 內容控管和元件鎖定 | 為確保遵循核准的內容設計，請使用內容控管功能來鎖定電子郵件範本內容元件。 在電子郵件範本中啟用內容控管後，行銷人員可以僅變更允許的元素，以使其與內容策略一致。 <a href="../content/template-content-governance.md">了解更多</a> |
 | 新功能 | 購買群組階段 | 當您定義並發佈自訂購買群組測試模型時，可以透過購買群組生命週期階段追蹤購買群組進度。 使用這些階段來識別購買群組成員的下一個最佳動作。 您可以設定轉變規則和歷程節點，以決定階段進度並根據變更觸發動作。 <a href="../buying-groups/buying-group-stages.md">了解更多</a> |
