@@ -1,14 +1,11 @@
 ---
 title: 帳戶清單
 description: 瞭解帳戶清單，以及行銷人員如何透過帳戶歷程使用它們來鎖定帳戶。
-hide: true
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 0%
+source-wordcount: '1632'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +20,7 @@ ht-degree: 0%
 
 ## 存取和瀏覽帳戶清單
 
-1. 在Adobe Experience Platform首頁中，按一下Adobe Journey Optimizer B2B edition。
+1. 在 Adobe Experience Platform 首頁，按一下「Adobe Journey Optimizer B2B Edition」。
 
 1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 帳戶]**&#x200B;並按一下&#x200B;**[!UICONTROL 帳戶清單]**。
 
@@ -37,13 +34,13 @@ ht-degree: 0%
    * [!UICONTROL 上次更新時間：]
    * [!UICONTROL 上次更新者]
    * [!UICONTROL 建立日期]
-   * [!UICONTROL 建立者：]
+   * [!UICONTROL 建立者]
 
 此表格包含依名稱搜尋的功能。 排序功能目前無法使用。
 
 您可以按一下右上角的&#x200B;_欄設定_ （ ![欄設定](../assets/do-not-localize/icon-column-settings.svg) ）圖示，並選取或清除核取方塊來自訂顯示的表格。
 
-![選擇要顯示在帳戶歷程清單中的資料行](./assets/account-lists-list-columns.png){width="300"}
+![選擇要在帳戶歷程清單中顯示的欄](./assets/account-lists-list-columns.png){width="300"}
 
 若要檢視帳戶清單的說明，請按一下名稱旁的&#x200B;_資訊_&#x200B;圖示。
 

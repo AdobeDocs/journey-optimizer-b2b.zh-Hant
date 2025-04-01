@@ -2,10 +2,11 @@
 title: 建立及發佈帳戶歷程
 description: 瞭解如何建立和發佈帳戶歷程。
 feature: Account Journeys
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 0%
+source-wordcount: '773'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 ## 建立帳戶歷程
 
-1. 在左側導覽中，按一下&#x200B;**[!UICONTROL 帳戶歷程]**。
+1. 在左側導覽中，按一下「**[!UICONTROL 帳戶歷程]**」。
 
 1. 按一下頁面右上角的&#x200B;**[!UICONTROL 建立帳戶歷程]**。
 
@@ -34,7 +35,7 @@ _歷程地圖_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 建立帳戶歷程並新增對象後，請使用節點建立歷程。 歷程地圖提供畫布，您可以在其中使用下列節點型別建置您的多步驟B2B行銷使用案例，以建構帳戶歷程：
 
 * [採取動作](./action-nodes.md)
-* [接聽事件](./listen-for-event-nodes.md)
+* [監聽事件](./listen-for-event-nodes.md)
 * [分割路徑](./split-merge-paths-nodes.md)
 * [等待](./wait-nodes.md)
 * [合併路徑](./split-merge-paths-nodes.md)
@@ -109,7 +110,7 @@ _歷程地圖_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
 ## 發佈帳戶歷程
 
-如果帳戶歷程沒有錯誤，您可以發佈它。
+如果沒有封鎖程式錯誤，您可以發佈歷程。 發佈後，歷程狀態會變更為「_即時_」。如果歷程發生錯誤，_[!UICONTROL 發佈]_&#x200B;按鈕會變暗並顯示內容資訊： `Resolve errors before publishing`。
 
 1. 在歷程地圖的右上方，按一下&#x200B;**[!UICONTROL 發佈]**。
 
@@ -133,6 +134,6 @@ _歷程地圖_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
 1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL 發佈]**。
 
-## 概述影片
+## 概觀影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
