@@ -1,19 +1,19 @@
 ---
-title: 使用AI助理
-description: 瞭解AI Assistant如何協助您善用Journey Optimizer B2B版本功能。
+title: 使用 AI 助理
+description: 瞭解AI助理如何協助您充分運用Journey Optimizer B2B edition功能。
 feature: AI Assistant
 level: Beginner
-badgeBeta: label="Beta" type="informative" tooltip="Beta功能"
-source-git-commit: 3d20c8e8b9e5b8bc37274fc170edec80e142ad8e
+exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+source-git-commit: e3ae3508db551cbd495be3108d555b936e2982a3
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 2%
 
 ---
 
-# 使用AI助理
+# 使用 AI 助理
 
-在Journey Optimizer B2B Edition中，AI Assistant是使用者介面功能，可用來瞭解帳戶型行銷概念，並快速導覽和瞭解Journey Optimizer B2B Edition功能<!-- get operational insights for your specific environment -->。 Adobe Experience Cloud的多個產品中也提供此功能。
+在Journey Optimizer B2B edition中，AI助理是使用者介面功能，可用於瞭解帳戶型行銷概念，並快速導覽和瞭解Journey Optimizer B2B edition功能<!-- get operational insights for your specific environment -->。 Adobe Experience Cloud的多個產品中也提供此功能。
 
 若要存取AI助理，請按一下標題中的圖示。 AI助理會在右側的面板中開啟。
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->您必須先取得Adobe Experience Cloud Generative AI使用者指南的合約，才能使用AI助理。 如需有關本合約及使用方法的詳細資訊，請參閱[Adobe Experience Cloud Generative AI使用准則](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
+>您必須先取得Adobe Experience Cloud Generative AI使用者指南的合約，才能使用AI助理。 如需有關本合約及使用方法的詳細資訊，請參閱[Adobe Experience Cloud Generative AI使用准則](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
 
-在Adobe Journey Optimizer B2B Edition中，AI Assistant支援下列使用案例：
+在Adobe Journey Optimizer B2B edition中，AI Assistant支援下列使用案例：
 
 * **產品知識** (Beta)
 
-  產品知識問題是關於Journey Optimizer B2B Edition概念(與Adobe Journey Optimizer各方面相關)。 產品知識問題的一些範例包括：
+  產品知識問題與Journey Optimizer B2B edition概念有關，與Adobe Journey Optimizer的各個方面相關。 產品知識問題的一些範例包括：
 
    * 如何設定SMS提供者帳戶？
    * 如何在帳戶歷程中傳送電子郵件？
