@@ -3,10 +3,10 @@ title: 購買群組角色範本
 description: 瞭解如何定義作為購買群組元件的角色範本。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
+source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 1%
+source-wordcount: '1128'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## 存取和瀏覽角色範本
 
-1. 在Adobe Experience Platform首頁中，按一下Adobe Journey Optimizer B2B edition。
+1. 在 Adobe Experience Platform 首頁，按一下「Adobe Journey Optimizer B2B Edition」。
 
 1. 在左側導覽列中，按一下&#x200B;**[!UICONTROL 購買群組]**。
 
@@ -31,10 +31,10 @@ ht-degree: 1%
    * [!UICONTROL 名稱]
    * [!UICONTROL 狀態]
    * [!UICONTROL 建立日期]
-   * [!UICONTROL 建立者：]
+   * [!UICONTROL 建立者]
    * [!UICONTROL 上次更新]
    * [!UICONTROL 上次更新者]
-   * [!UICONTROL 發佈於]
+   * [!UICONTROL 發佈日期]
    * [!UICONTROL 發佈者]
 
    清單預設會依&#x200B;_[!UICONTROL 上次更新]_&#x200B;欄排序。
@@ -66,7 +66,7 @@ ht-degree: 1%
 | 類型 | 條件 |
 | ---- | --------- |
 | 個人屬性 | <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件已暫停 <li>傳真號碼 <li>名字 <li>推斷的狀態區域 <li>職稱 <li>姓氏 <li>中間名 <li>行動電話號碼 <li>電話號碼 <li>郵遞區號 <li>狀態 <li>退訂 <li>取消訂閱的原因 |
-| 特殊篩選 | <li>清單成員 |
+| 特殊篩選 | <li>清單成員 <li>計畫成員 |
 | 意圖資料 | 類別方法 <li>產品目的 <li>關鍵字意圖<br/>[瞭解意圖資料](../admin/intent-data.md)。 |
 
 1. 對於第一個角色卡，定義角色屬性。
@@ -95,7 +95,7 @@ ht-degree: 1%
 
      >[!NOTE]
      >
-     >如果您在Experience Platform的帳戶對象結構中定義了自訂人員欄位，這些欄位也可在條件中作為人員屬性使用。
+     >如果您在Experience Platform的帳戶對象結構描述中定義了自訂人員欄位，這些欄位也可在條件中作為人員屬性使用。
 
    * 使用屬性，以使用一或多個值建立相符篩選器。
 
@@ -113,9 +113,9 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX 「Marketo Engage清單成員資格」]
 
-在Marketo Engage中，_智慧行銷活動_&#x200B;會檢查方案成員資格，以確保潛在客戶不會收到重複的電子郵件，而且不會同時成為多個電子郵件串流的成員。 在Journey Optimizer B2B中，您可以檢查Marketo Engage清單成員資格，作為角色範本的條件，以協助消除購買群組成員資格和歷程活動中的重複專案。
+在Marketo Engage中，_智慧行銷活動_&#x200B;會檢查方案成員資格，以確保潛在客戶不會收到重複的電子郵件，而且不會同時成為多個電子郵件串流的成員。 在Journey Optimizer B2B中，您可以檢查Marketo Engage清單成員資格，作為您角色範本的條件，以協助消除購買群組成員資格和歷程活動中的重複專案。
 
-若要使用清單成員資格做為角色條件，請展開&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 清單成員]**&#x200B;條件拖曳到篩選器空間。 然後完成篩選器定義以評估一或多個Marketo Engage清單中的成員資格。
+若要使用清單成員資格做為角色條件，請展開&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 清單成員]**&#x200B;條件拖曳到篩選器空間。 然後完成篩選器定義，以評估一或多個Marketo Engage清單中的成員資格。
 
 Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 
@@ -123,9 +123,9 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 您的變更會自動儲存為&#x200B;_草稿_&#x200B;狀態。 如果您尚未準備好發佈角色範本，請按一下頁面頂端的向左（後退）箭頭，並返回&#x200B;_[!UICONTROL 角色範本]_&#x200B;清單。
 
-### Publish角色範本
+### 發佈角色範本
 
-如果範本已可供使用，請按一下右上方的&#x200B;**[!UICONTROL Publish]**。
+如果範本已可供使用，請按一下右上方的&#x200B;**[!UICONTROL 發佈]**。
 
 發佈範本會將狀態設定為&#x200B;_即時_&#x200B;狀態，並使其可與解決方案興趣產生關聯。 至少必須有一個已定義的角色才能發佈角色範本。
 
@@ -163,6 +163,6 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 1. 在對話方塊中，按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以進行確認。
 
-## 概述影片
+## 概觀影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
