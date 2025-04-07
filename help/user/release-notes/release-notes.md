@@ -2,9 +2,9 @@
 title: 發行說明
 description: Adobe Journey Optimizer B2B Edition 最新發行說明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dd93531d76ecb025451f0015eedd9ccce0986cb8
+source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1818'
 ht-degree: 89%
 
 ---
@@ -26,7 +26,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 新功能 | 帳戶清單 | 您現在可以建立靜態或動態帳戶清單，依您定義的條件（例如產業、地點或公司規模）來鎖定具名帳戶。 <a href="../accounts/account-lists.md">了解更多</a> |
-| 新功能 | 帳戶歷程的我的Token | 您現在可以使用帳戶歷程專屬的值來定義一組自訂權杖。 這組自訂權杖稱為&#x200B;_我的權杖_，這些自訂權杖中的任何一個都可在編寫歷程電子郵件時用於個人化。 |
+| 新功能 | 帳戶歷程的我的Token | 您現在可以使用帳戶歷程專屬的值來定義一組自訂權杖。 這組自訂權杖稱為&#x200B;_我的權杖_，這些自訂權杖中的任何一個都可在編寫歷程電子郵件時用於個人化。 <a href="../content/personalization-my-tokens.md">了解更多</a> |
 | 新功能 | 刪除購買群組階段 | 當購買群組階段模型處於草稿或已發佈狀態時，您可以將其刪除。 如果檔案已發佈（即時），您只能在檔案與解決方案興趣無關時將其刪除。 <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">了解更多</a> |
 | 增強功能 | 歷程節點計數 | 改善節點層級歷程成員資格計數的可見度。 使用此資訊來驗證歷程中的帳戶進展。 |
 
