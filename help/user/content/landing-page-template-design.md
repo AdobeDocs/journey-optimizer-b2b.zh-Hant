@@ -1,31 +1,30 @@
 ---
-title: 登陸頁面設計
-description: 瞭解如何為支援帳戶歷程和行銷活動的登入頁面設計和編寫內容。
+title: 登入頁面範本設計
+description: 瞭解如何設計和編寫行銷人員可重複使用的登陸頁面範本內容，以建立登陸頁面。
 feature: Content
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
-exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: f0658fad82d6656bc052c1810530963404e29396
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 18%
+source-wordcount: '319'
+ht-degree: 8%
 
 ---
 
-# 登陸頁面設計
+# 登入頁面範本設計
 
-在您[建立登入頁面](./landing-pages.md#create-a-landing-page)之後，請使用視覺設計空間來編寫頁面中的結構和內容元件。
+在您[建立登入頁面範本](./landing-page-templates.md#create-a-landing-page-template)之後，請使用視覺設計空間來編寫頁面範本中的結構和內容元件。
 
 ## 新增結構和內容 {#structure-content-landing-page}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
+>id="ajo-b2b_landing_page_template_structure"
 >title="新增結構元件至登陸頁面"
->abstract="結構元件會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放至版面，以開始設計您的頁面內容。"
+>abstract="結構元件會定義登陸頁面的版面。將&#x200B;**Structure**&#x200B;元件拖放至畫布中，以開始設計頁面範本的內容。"
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
+>id="ajo-b2b_landing_page_template_content_components"
 >title="關於登陸頁面的內容元件"
->abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。"
+>abstract="內容元件是空的內容預留位置，可用來建立登入頁面範本的版面。"
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -51,9 +50,9 @@ ht-degree: 18%
 
 ### 儲存您的工作
 
-隨時按一下「儲存」****&#x200B;以儲存草稿登陸頁面。
-
-您可以繼續編輯草稿頁面。 當您準備好顯示頁面，並可在電子郵件或簡訊訊息中供連結使用時，即可發佈頁面。
+隨時按一下「儲存」**[!UICONTROL 以儲存登入頁面範本。]**
+<!--
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
 
 ### 檢視選項
 

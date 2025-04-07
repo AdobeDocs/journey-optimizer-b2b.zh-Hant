@@ -1,16 +1,16 @@
 ---
 title: 內容製作 — 連結追蹤
 description: 重複使用關於編輯內容編寫的連結追蹤的區段
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: e201d0b54309411d024a1b04c3bf7e67d4700aa9
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
 
 # 內容製作 — 連結追蹤
 
-1. 按一下左側的&#x200B;_[!UICONTROL 連結]_&#x200B;圖示，以顯示您要追蹤之內容的所有URL。
+1. 按一下左側的&#x200B;_[!UICONTROL 連結]_&#x200B;圖示（![顯示連結圖示](../assets/do-not-localize/icon-links.svg)）以顯示您要追蹤內容中的所有連結URL。
 
 1. 如有需要，請按一下&#x200B;_編輯_ （![編輯圖示](../user/assets/do-not-localize/icon-edit.svg) ）圖示，並修改&#x200B;**[!UICONTROL 追蹤型別]**&#x200B;或&#x200B;**[!UICONTROL 標籤]**。
 

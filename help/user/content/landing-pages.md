@@ -2,31 +2,30 @@
 title: 登陸頁面
 description: 瞭解登入頁面，以及如何建立和管理這些頁面，以支援帳戶歷程和行銷活動。
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '2188'
 ht-degree: 2%
 
 ---
 
 # 登陸頁面
 
-登入頁面是獨立的網頁，您可以在聯絡人和客戶點按電子郵件、簡訊或任何數位位置中的連結專案後，指引他們。 您可以將這些頁面合併到您的帳戶歷程中，讓您的潛在客戶和客戶在網頁上檢視您的訊息，並在您的帳戶歷程中前進。 您可以在登陸頁面Designer中建立、個人化和預覽登陸頁面。
+登入頁面是獨立的網頁，您可以在聯絡人和客戶點按電子郵件、簡訊或任何數位位置中的連結專案後，指引他們。 您可以將這些頁面合併到您的帳戶歷程中，讓您的潛在客戶和客戶在網頁上檢視您的訊息，並在您的帳戶歷程中前進。 您可以在登入頁面視覺設計空間中建立、個人化和預覽登入頁面。
 
 若要在客戶點選特定連結時，將他們導向至已定義的網頁，請在Journey Optimizer B2B edition中建立登陸頁面。
 
 * 建立頁面
 * 設計登入頁面及編寫內容
 * 測試頁面
-* Publish頁面
+* 發佈頁面
 * 從您的歷程內容連結至頁面
 
 例如，您可以建立並設計登入頁面，將使用者導向至線上資訊。 頁面可能包含他們可以選擇加入或選擇退出接收您通訊的表單。 或者，也可以是訂閱電子報等週期性通訊的良機。
 
-您可以在視覺化設計工具中建立、個人化和預覽登入頁面。
+您可以在視覺設計空間中建立、個人化和預覽登入頁面。
 <!-- 
 For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
 
@@ -58,9 +57,9 @@ For the Beta phase, you can only design landing pages from scratch and publish y
 
 | 狀態 | 說明 |
 | -------------------- | ----------- |
-| 草稿 | 建立登入頁面時，其狀態為草稿。 當您定義或編輯視覺內容時，它會保持此狀態，直到您將其發佈為託管頁面為止。 可用的動作： <br/><ul><li>編輯名稱或說明<li>編輯連結網址<li>在視覺化設計工具中編輯<li>發佈<li>複製<li>刪除 |
-| 發佈日期 | 當您發佈登入頁面時，此頁面託管於Journey Optimizer B2B edition例項，且可在電子郵件或簡訊內容中用於連結。 可用的動作： <br/><ul><li>編輯名稱或說明<li>編輯連結網址<li>在電子郵件或簡訊內容中新增連結<li>建立草稿版本<li>複製<li>刪除 |
-| 已與草稿一起發佈 | 當您從已發佈的登陸頁面建立草稿時，會保留已發佈的版本，而草稿內容可在視覺化設計工具中修改。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且託管頁面中的內容會更新。 可用的動作： <br/><ul><li>編輯名稱或說明<li>編輯連結網址<li>在電子郵件或簡訊內容中新增連結<li>在視覺化設計工具中編輯草稿版本<li>Publish草稿版本<li>複製<li>刪除（刪除兩個版本）<li>捨棄草稿（返回已發佈） |
+| 草稿 | 建立登入頁面時，其狀態為草稿。 當您定義或編輯視覺內容時，它會保持此狀態，直到您將其發佈為託管頁面為止。 可用的動作： <br/><ul><li>編輯名稱或說明<li>編輯連結網址<li>在視覺設計空間編輯<li>發佈<li>重複<li>刪除 |
+| 發佈日期 | 當您發佈登入頁面時，此頁面託管於Journey Optimizer B2B edition例項，且可在電子郵件或簡訊內容中用於連結。 可用的動作： <br/><ul><li>編輯名稱或說明<li>編輯連結網址<li>在電子郵件或簡訊內容中新增連結<li>建立草稿版本<li>重複<li>刪除 |
+| 已與草稿一起發佈 | 當您從已發佈的登陸頁面建立草稿時，已發佈的版本會保留，而且草稿內容可以在視覺設計空間中進行修改。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且託管頁面中的內容會更新。 可用的動作： <br/><ul><li>編輯名稱或說明<li>編輯連結網址<li>在電子郵件或簡訊內容中新增連結<li>在視覺化設計空間中編輯草稿版本<li>發佈草稿版本<li>重複<li>刪除（刪除兩個版本）<li>捨棄草稿（返回已發佈狀態） |
 
 ![登陸頁面狀態生命週期](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -90,7 +89,7 @@ For the Beta phase, you can only design landing pages from scratch and publish y
 
    ![選擇您要如何開始您的登入頁面設計](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-   選取您要用來開始登入頁面設計的方法之後，請使用視覺化設計工具[設計頁面](./landing-page-design.md)。
+   選取您要用來開始登陸頁面設計的方法之後，請使用視覺設計空間[設計頁面](./landing-page-design.md)。
 
 ### 從頭開始設計
 
@@ -110,9 +109,9 @@ Adobe Journey Optimizer B2B edition可讓您匯入現有的HTML內容，以設�
 
 >[!NOTE]
 >
->使用`<table>`標籤做為HTML檔案中的第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
+>在HTML檔案中使用`<table>`標籤做為第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
 
-您可以使用視覺化設計工具視需要個人化匯入的內容。
+您可以視需要利用視覺化設計空間個人化匯入的內容。
 
 ### 選取已儲存的範本
 
@@ -142,7 +141,7 @@ Adobe Journey Optimizer B2B edition可讓您匯入現有的HTML內容，以設�
 
 當顯示符合您要使用的內容時，請按一下預覽視窗右上角的&#x200B;**[!UICONTROL 使用此範本]**。
 
-此動作會將內容複製到視覺化內容設計工具中，以便您視需要編輯內容。
+此動作會將內容複製到視覺化設計空間，以便您視需要編輯內容。
 
 >[!TAB 範例範本]
 
@@ -177,9 +176,9 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
    ![具有草稿狀態的登陸頁面詳細資料](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
-1. 若要變更視覺化設計工具中的內容，請按一下&#x200B;**[!UICONTROL 編輯登陸頁面]**。
+1. 若要變更視覺化設計空間中的內容，請按一下&#x200B;**[!UICONTROL 編輯登陸頁面]**。
 
-   視需要使用視覺化設計工具工具：
+   視需要使用視覺化設計工具：
 
    * [新增結構和內容](./landing-page-design.md#add-structure-and-content)
    * [新增Assets](./landing-page-design.md#add-assets)
@@ -189,7 +188,7 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
-1. 當頁面符合您的條件且您想要可供顯示時，請按一下&#x200B;**[!UICONTROL Publish]**。
+1. 當頁面符合您的條件且您想要可供顯示時，請按一下&#x200B;**[!UICONTROL 發佈]**。
 
 >[!TAB 已發佈]
 
@@ -203,11 +202,11 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
 1. 若要更新內容，請按一下右側的&#x200B;**[!UICONTROL 編輯登陸頁面]**。
 
-   在對話方塊中按一下&#x200B;**[!UICONTROL 建立草稿版本]**，在視覺化設計工具中開啟草稿版本。
+   在對話方塊中按一下&#x200B;**[!UICONTROL 建立草稿版本]**，在視覺化設計空間開啟草稿版本。
 
    ![建立草稿版本對話方塊](./assets/landing-page-create-draft-version.png){width="300"}
 
-   視需要使用視覺化設計工具工具：
+   視需要使用視覺化設計工具：
 
    * [新增結構和內容](./landing-page-design.md#add-structure-and-content)
    * [新增Assets](./landing-page-design.md#add-assets)
@@ -217,7 +216,7 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
-1. 當草稿登入頁面符合您的條件，而您想要讓變更顯示在已發佈的頁面時，請按一下&#x200B;**[!UICONTROL Publish]**。
+1. 當草稿登入頁面符合您的條件，而您想要讓變更可在已發佈的頁面上使用時，請按一下&#x200B;**[!UICONTROL 發佈]**。
 
    當您發佈草稿版本時，它會取代目前發佈的版本，並更新頁面URL的內容。
 
@@ -229,7 +228,7 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
 若要更新內容：
 
-1. 按一下右上方的&#x200B;**[!UICONTROL 編輯登陸頁面]**。 視需要使用視覺化設計工具工具：
+1. 按一下右上方的&#x200B;**[!UICONTROL 編輯登陸頁面]**。 視需要使用視覺化設計工具：
 
    * [新增結構和內容](./landing-page-design.md#add-structure-and-content)
    * [新增Assets](./landing-page-design.md#add-assets)
@@ -239,7 +238,7 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
-1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下&#x200B;**[!UICONTROL Publish]**。
+1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。****
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而託管頁面中的內容會更新。
 
@@ -292,3 +291,33 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 此動作會開啟確認對話方塊。 您可以按一下&#x200B;**[!UICONTROL 取消]**，或按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;確認刪除，以中止程式。
 
 ![刪除登陸頁面對話方塊](./assets/landing-page-delete-dialog.png){width="400"}
+
+## 連結至登入頁面
+
+作為建立電子郵件、片段和頁面內容的行銷人員或Designer，您可以內嵌連結至在Journey Optimizer B2B edition例項中建立的已發佈（即時）登陸頁面。
+
+1. 當您在片段、電子郵件、登入頁面或範本的視覺設計空間工作時，請為連結選取文字片段、按鈕元件或影像元件。
+
+   **[!UICONTROL 連結]**&#x200B;選項會顯示在右側面板中。
+
+1. 針對&#x200B;**[!UICONTROL Type]**&#x200B;選項，請選擇&#x200B;**[!UICONTROL 登陸頁面]**。
+
+   登陸頁面的![連結選項](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+
+1. 針對&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;選項，按一下&#x200B;_選取頁面_&#x200B;圖示（![顯示連結圖示](/help/assets/do-not-localize/icon-landing-page-select.svg) ）。
+
+1. 在「選取登陸頁面」對話方塊中，將&#x200B;**[!UICONTROL 登陸頁面來源]**&#x200B;設定為&#x200B;**[!UICONTROL Journey Optimizer B2B edition]**，從已發佈頁面的清單中選取登陸頁面的核取方塊，然後按一下「選取&#x200B;**[!UICONTROL 」]**。
+
+   登陸頁面的![連結選項](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+
+1. 針對&#x200B;**[!UICONTROL Target]**&#x200B;選項，選擇連結目標行為：
+
+   * **[!UICONTROL 無]** — 使用瀏覽器預設行為開啟連結。
+   * **[!UICONTROL 空白]** — 在新視窗或索引標籤中開啟連結。
+   * **[!UICONTROL Self]** — 在相同框架中開啟連結。
+   * **[!UICONTROL 父系]** — 在父框架中開啟連結。
+   * **[!UICONTROL 前]** — 在視窗的整個內文中開啟連結。
+
+1. （僅限文字連結）如果要將連結的文字加底線，請選取&#x200B;**[!UICONTROL 加底線連結]**&#x200B;核取方塊。
+
+   您可以選取右側面板中的&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤，為連結文字設定其他樣式，包括連結顏色。

@@ -3,10 +3,10 @@ title: 購買群組階段
 description: 瞭解購買群組階段，以及如何定義這些階段，以對照銷售目標追蹤歷程進展。
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
 workflow-type: tm+mt
-source-wordcount: '2257'
-ht-degree: 0%
+source-wordcount: '2344'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![購買群組階段範例](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
-![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看影片概述](#overview-video)
+![影片](../../assets/do-not-localize/icon-video.svg){width="30"}[觀看概觀影片](#overview-video)
 
 ## 定義您的購買群組階段模型
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 只要購買群組階段模型仍處於&#x200B;_草稿_&#x200B;狀態，您就可以編輯階段和轉換規則。
 
-若要檢視草繪模型，請執行下列動作：
+_若要檢視草稿模型：_
 
 1. 在左側導覽列上，前往&#x200B;**[!UICONTROL 帳戶]** > **[!UICONTROL 購買群組]**。
 
@@ -186,6 +186,20 @@ Columns - Name, Status, Created by, Created date, Last updated by, Last update, 
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+
+## 刪除購買群組階段模型
+
+當購買群組階段模型處於草稿或已發佈狀態時，您可以將其刪除。 如果檔案已發佈（即時），您只能在檔案與解決方案興趣無關時將其刪除。
+
+1. 在左側導覽列上，前往&#x200B;**[!UICONTROL 帳戶]** > **[!UICONTROL 購買群組]**。
+
+1. 在&#x200B;_購買群組_&#x200B;頁面中，選取&#x200B;**[!UICONTROL 階段]**&#x200B;標籤。
+
+1. 按一下階段模型名稱旁的&#x200B;_更多_&#x200B;功能表圖示(**...**)，然後選擇&#x200B;**[!UICONTROL 刪除]**。
+
+   ![購買群組階段模型更多功能表](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. 在對話方塊中，按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以進行確認。
 
 ## 在帳戶歷程中使用模型
 
@@ -348,6 +362,6 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 繼續其他變更並儲存歷程。
 
-## 概述影片
+## 概觀影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

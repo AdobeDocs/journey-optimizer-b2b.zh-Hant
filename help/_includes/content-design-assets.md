@@ -1,20 +1,20 @@
 ---
 title: 內容製作 — 資產
 description: 重複使用有關使用資產進行內容製作的區段
-source-git-commit: 361568a2d0f87f93e52a95c5afb7b7b8be0c264e
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 26%
 
 ---
 
 # 內容製作 — 資產
 
-在視覺內容編輯器中，選取左側導覽列中的&#x200B;_Marketo EngageAssets_ (![Marketo EngageAssets圖示](../../help/assets/do-not-localize/icon-assets-me.svg) )圖示或&#x200B;_Experience Manager Assets_ (![Marketo EngageAssets圖示](../../help/assets/do-not-localize/icon-assets-aem.svg) )圖示。 從資產選取器中，您可以直接選取儲存在來源資料庫中的資產。
+在視覺內容編輯器中，選取左側導覽列中的&#x200B;_Marketo Engage Assets_ (![Marketo Engage Assets圖示](../../help/assets/do-not-localize/icon-assets-me.svg) )圖示或&#x200B;_Experience Manager Assets_ (![AEM Assets圖示](../../help/assets/do-not-localize/icon-assets-aem.svg) )圖示。 從資產選取器中，您可以直接選取儲存在來源資料庫中的資產。
 
 >[!NOTE]
 >
->如果您已布建Adobe Experience Manager作為Cloud Service，則當您的使用者帳戶具有所需許可權時，您即可存取Marketo Engage Design Studio和Adobe Experience Manager Assetsas a Cloud Service的存放庫。 這些存放庫是分開且不同步。 您可以使用任一來源的影像資產。
+>如果您已佈建 Adobe Experience Manager as a Cloud Service，當您的使用者帳戶具有所需的權限時，您即可同時存取 Marketo Engage Design Studio 和 Adobe Experience Manager Assets as a Cloud Service 的存放庫。這些存放庫是獨立的而且不會同步。您可以使用任一來源的影像資產。
 
 * 將影像資產拖放至結構元件中，以新增資產。
 

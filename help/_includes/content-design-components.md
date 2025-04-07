@@ -1,7 +1,7 @@
 ---
 title: 內容製作 — 元件
 description: 關於使用元件和內容元素進行內容製作的重複使用區段
-source-git-commit: b41a32710f872e4935077a01b91b691f5dbeaeeb
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

@@ -3,14 +3,14 @@ title: 電子郵件製作
 description: 瞭解如何建立用於帳戶歷程的個人化電子郵件內容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 12%
+source-wordcount: '1297'
+ht-degree: 11%
 
 ---
 
-# 電子郵件製作
+# 電子郵件編寫
 
 使用Adobe Journey Optimizer B2B edition傳送電子郵件訊息給您的客戶。 您可以在視覺化設計工具中建立、個人化和預覽訊息。
 
@@ -144,6 +144,10 @@ ht-degree: 12%
 ### 個人化內容
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+>[!NOTE]
+>
+>如果針對帳戶歷程定義了&#x200B;_[!UICONTROL 我的Token]_，您也可以將這些歷程專屬的Token用於電子郵件內容。 如需詳細資訊，請參閱電子郵件個人化的[自訂權杖](./personalization-my-tokens.md)。
 
 ### 編輯連結的URL追蹤
 

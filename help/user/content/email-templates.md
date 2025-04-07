@@ -3,9 +3,9 @@ title: 電子郵件範本
 description: 瞭解如何輕鬆有效管理及建立用於撰寫帳戶歷程電子郵件的電子郵件範本。
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![存取電子郵件範本庫，並依名稱和日期篩選](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-按一下右上角的&#x200B;_自訂表格_&#x200B;圖示，自訂您要顯示在表格中的欄。 選取要顯示的資料行，然後按一下&#x200B;**[!UICONTROL 套用]**。
+按一下右上角的&#x200B;_自訂表格_&#x200B;圖示（![自訂表格圖示](../assets/do-not-localize/icon-column-settings.svg)），自訂您要顯示在表格中的欄。 選取要顯示的資料行，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
 從顯示的範本清單中，您可以執行下列各節所述的動作。
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer B2B edition可讓您匯入現有的HTML內容，以設�
 
 >[!NOTE]
 >
->使用`<table>`標籤做為HTML檔案中的第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
+>在HTML檔案中使用`<table>`標籤做為第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
 
 您可以使用視覺化設計工具視需要個人化匯入的內容。
 
