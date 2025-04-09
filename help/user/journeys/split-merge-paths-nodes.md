@@ -3,9 +3,9 @@ title: 分割與合併路徑
 description: 瞭解您可以在Journey Optimizer B2B edition中用於協調帳戶歷程的分割路徑和合併路徑節點型別。
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 0902e5569847be148bb5037c99cadf0b00c67b8c
+source-git-commit: 60abaff4e40fcab7fff0bcfd761ff90ec74c68a0
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1695'
 ht-degree: 4%
 
 ---
@@ -57,22 +57,13 @@ _依人員節點分割路徑如何運作？_
 | | [!UICONTROL 特殊篩選器] > [!UICONTROL 有商機] | 帳戶是否與商機相關。 也可以針對下列一或多個機會屬性進行評估： <li>數量<li>結束日期<li>說明<li>預期收入<li>會計季度<li>會計年度<li>預測類別<li>預測類別名稱<li>已結束<li>獲勝</li><li>上次活動日期</li><li>個人來源<li>名稱</li><li>下一步</li><li>機率<li>數量<li>階段</li><li>類型 |
 | [人員](#add-a-split-path-by-people-node) >僅[!UICONTROL 人員屬性] | [!UICONTROL 個人屬性] | 個人設定檔中的屬性，包括： <li>城市</li><li>國家/地區</li><li>出生日期</li><li>電子郵件地址</li><li>電子郵件無效</li><li>電子郵件已暫停</li><li>名字</li><li>推斷的狀態區域</li><li>職稱</li><li>姓氏</li><li>行動電話號碼</li><li>電話號碼</li><li>郵遞區號</li><li>狀態</li><li>退訂</li><li>取消訂閱的原因</li> |
 | | [!UICONTROL 活動歷史記錄] > [!UICONTROL 電子郵件] | 與歷程相關聯的電子郵件活動： <li>[!UICONTROL 已點按電子郵件中的連結]</li><li>已開啟的電子郵件</li><li>已傳遞電子郵件</li><li>已傳送電子郵件</li> 會使用歷程中先前選取的電子郵件訊息評估這些條件。 |
+| | [!UICONTROL 活動歷史記錄] > [!UICONTROL 簡訊訊息] | 與歷程相關聯的SMS活動： <li>[!UICONTROL 已點按簡訊中的連結]</li><li>[!UICONTROL 簡訊已退回]</li>會使用歷程中先前選取的SMS訊息評估這些條件。 |
 | | [!UICONTROL 活動歷史記錄] > [!UICONTROL 資料值已變更] | 針對選取的人員屬性，發生值變更。 這些變更型別包括： <li>新值</li><li>上一個值</li><li>原因</li><li>來源</li><li>活動日期</li><li>最低 次數</li> |
 | | [!UICONTROL 活動歷史記錄] > [!UICONTROL 有趣的時刻] | 在關聯的Marketo Engage例項中定義的有趣時刻活動。 限制包括： <li>里程碑</li><li>電子郵件</li><li>網頁</li> |
 | | [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>角色</li> |
 | | [!UICONTROL 特殊篩選器] > [!UICONTROL 清單成員] | 此人是否為一或多個Marketo Engage清單的成員。 |
 | | [!UICONTROL 特殊篩選器] > [!UICONTROL 計畫成員] | 此人是否為一或多個Marketo Engage方案的成員。 |
 | [People](#add-a-split-path-by-people-node) >僅[!UICONTROL Account-person屬性] | 帳戶屬性中的角色 | 此人是否在帳戶中被指派角色。 選擇性限制： <li>輸入角色名稱</li> |
-
-<!-- 
-
-Add back for next release:
-
-People:
-
-| | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities associated with the journey: <li>[!UICONTROL Clicked link in SMS]</li><li>[!UICONTROL SMS Bounced]</li>These conditions are evaluated using a selected SMS message from earlier in the journey.  |
-
--->
 
 ### 依帳戶節點新增分割路徑
 
