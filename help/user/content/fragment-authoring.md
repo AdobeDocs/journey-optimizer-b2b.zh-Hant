@@ -2,14 +2,15 @@
 title: 片段製作
 description: 瞭解如何編寫可重複用於您的電子郵件和範本設計的內容片段，以提高效率並維護設計和品牌標準。
 feature: Content
-source-git-commit: 1f551b636ef347fd65aa39a809dedba8372c3ac4
+exl-id: d29754cf-6721-489c-bff8-cde034456db2
+source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 14%
+source-wordcount: '401'
+ht-degree: 17%
 
 ---
 
-# 片段製作
+# 片段編寫
 
 在您[建立片段](./fragments.md#create-fragments)之後，請使用視覺化編輯器來編寫片段中的結構和內容元件。
 
@@ -39,11 +40,11 @@ ht-degree: 14%
 
 {{$include /help/_includes/content-design-personalization.md}}
 
-## 啟用自訂欄位
+## 啟用片段自訂
 
-當電子郵件或電子郵件範本作者新增片段時，片段內容依預設為鎖定。 對已發佈片段所做的任何變更都會自動傳播至使用該片段的所有內容資產。 當您將片段中元件的引數指定為可編輯時，電子郵件或範本作者可以指定特定於其需求的自訂欄位值。 此自訂旗標僅限於影像、文字和按鈕視覺元件。
+當作者將片段新增至[電子郵件](./email-authoring.md#content-authoring---use-visual-fragments)或[電子郵件範本](./email-template-authoring.md#content-authoring---use-visual-fragments)時，依預設會鎖定片段內容。 對已發佈片段所做的任何變更都會自動傳播至使用該片段的所有內容資產。 當您將片段中元件的引數指定為可編輯時，電子郵件或範本作者可以指定特定於其需求的自訂欄位值。 此自訂標幟僅限影像、文字和按鈕視覺元件使用。
 
-例如，如果您設計包含可點按按鈕的可重複使用橫幅，您可以將按鈕的URL引數指定為可編輯。 之後，電子郵件作者便可使用與其電子郵件促銷活動更為專屬的URL。 透過這些可自訂欄位，行銷人員可以管理和個人化內容，而無需建立全新的內容區塊或中斷來自原始片段的繼承更新。
+例如，如果您設計包含可點按按鈕的可重複使用橫幅，您可以將按鈕的URL引數指定為可編輯。 之後，電子郵件作者便可使用與其電子郵件促銷活動更為專屬的URL。 透過這些可自訂欄位，行銷人員可以管理和個人化可重複使用的內容，而無需建立全新的內容區塊或中斷來自原始片段的繼承更新。
 
 1. 在視覺內容編輯器中，選取您要啟用自訂的影像、文字或按鈕元素。
 
@@ -51,15 +52,15 @@ ht-degree: 14%
 
 1. 按一下&#x200B;**[!UICONTROL 啟用版本]**&#x200B;選項切換並設定可編輯的欄位。
 
-   ![啟用片段影像元件的可編輯欄位](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
+   ![為片段影像元件啟用可編輯的欄位](./assets/fragment-editable-fields-image.png){width=&quot;700&quot; zoomable=&quot;yes&quot;}
 
-   您可以根據元件型別和片段中定義的引數，啟用顯示欄位的自訂功能。
+   您可以為顯示的欄位啟用自訂，具體取決於片段中定義的元件類型和參數。
 
    針對您想要允許自訂的每個欄位，將切換變更為啟用狀態。
 
 1. 按一下&#x200B;**[!UICONTROL 總覽]**&#x200B;以檢閱所有可編輯的欄位及其預設值。
 
-   ![檢閱可編輯的欄位及其預設值](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
+   ![檢閱可編輯的欄位及其預設值](./assets/fragment-editable-fields-image-overview.png){width=&quot;700&quot; zoomable=&quot;yes&quot;}
 
 1. 儲存您的變更。
 
