@@ -2,10 +2,10 @@
 title: 發行說明
 description: Adobe Journey Optimizer B2B Edition 最新發行說明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
+source-git-commit: 775cecb2aa4e305ba9a80ba0655e5e854ddf69e2
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 89%
+source-wordcount: '1863'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 新功能 | 帳戶清單 | 您現在可以建立靜態或動態帳戶清單，依您定義的條件（例如產業、地點或公司規模）來鎖定具名帳戶。 <a href="../accounts/account-lists.md">了解更多</a> |
 | 新功能 | 帳戶歷程的我的Token | 您現在可以使用帳戶歷程專屬的值來定義一組自訂權杖。 這組自訂權杖稱為&#x200B;_我的權杖_，這些自訂權杖中的任何一個都可在編寫歷程電子郵件時用於個人化。 <a href="../content/personalization-my-tokens.md">了解更多</a> |
 | 新功能 | 刪除購買群組階段 | 當購買群組階段模型處於草稿或已發佈狀態時，您可以將其刪除。 如果檔案已發佈（即時），您只能在檔案與解決方案興趣無關時將其刪除。 <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">了解更多</a> |
-| 增強功能 | 歷程節點計數 | 改善節點層級歷程成員資格計數的可見度。 使用此資訊來驗證歷程中的帳戶進展。 |
+| 增強功能 | 歷程節點計數 | 改善節點層級已發佈歷程成員資格計數的可見度。 在&#x200B;_歷程圖_&#x200B;中，節點顯示&#x200B;_[!UICONTROL 輸入的帳戶總數]_。 當您選取和動作節點時，右側的詳細資料也包含&#x200B;_[!UICONTROL 尚未在]_&#x200B;上動作的帳戶。 _接聽事件_&#x200B;節點的詳細資料，包括此步驟&#x200B;]_中的_[!UICONTROL &#x200B;帳戶。 使用此資訊來驗證您即時、已完成和已中止歷程中的帳戶進度。 |
 
 ## 2025.2 發行說明
 
@@ -38,7 +38,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 新功能 | 可自訂欄位 - 內容片段 | 作為內容片段設計者，您可以將片段中某個元件的參數指定為可編輯。這樣一來，電子郵件或範本作者便可以根據本身需求指定自訂欄位值。此自訂標幟僅限影像、文字和按鈕視覺元件使用。<a href="../content/fragment-authoring.md#enable-custom-fields">了解更多</a> |
+| 新功能 | 可自訂欄位 - 內容片段 | 作為內容片段設計者，您可以將片段中某個元件的參數指定為可編輯。這樣一來，電子郵件或範本作者便可以根據本身需求指定自訂欄位值。此自訂標幟僅限影像、文字和按鈕視覺元件使用。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解更多</a> |
 | 新功能 | B2B 內建角色和產品權限 | Experience Platform 現在包含一組內建 (預設) 角色，可用於管理對 B2B 產品功能的存取權。<a href="../admin/user-management.md#b2b-built-in-roles">了解更多</a> <br/>現在，管理員可以在 Adobe Experience Platform 中定義自訂角色，以便包含 Journey Optimizer B2B Edition 產品權限。<a href="../admin/user-management.md#b2b-product-permissions">了解更多</a> |
 | 新功能 | 歷程重複型別 | 複製帳戶歷程時，您可以包含節點詳細資訊，排除在Journey Optimizer B2B edition中建立的電子郵件和SMS訊息。 作為替代方法，您可以建立結構和路徑流程的骨架副本，而不需要節點詳細資訊和設定。 <a href="../journeys/journey-overview.md#duplicate-journey">了解更多</a> |
 | 增強功能 | 其他四個電子郵件範本範例 | 電子郵件範本範例資料庫現在包括四個 SecurFinacial 範本，做為重新參與、通知、培養及意見回饋內容範例 |
