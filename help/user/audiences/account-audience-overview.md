@@ -1,65 +1,65 @@
 ---
-title: 帳戶對象
-description: 瞭解帳戶對象以及如何啟用帳戶型歷程。
+title: 帳戶客群
+description: 了解帳戶客群，以及他們如何實現基於帳戶的歷程。
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
 source-git-commit: b6b26d9cb79926577ed7fc4ed50c094986796505
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 帳戶客群
 
-受眾是指一組具有類似行為和/或特徵的人。 Journey Optimizer B2B edition使用Adobe Real-Time Customer Data Platform B2B和B2P版本中的帳戶細分功能。 透過帳戶劃分，使用者可以利用系統內任何B2B實體的資料來產生帳戶受眾。 這些帳戶對象可作為Journey Optimizer B2B edition帳戶歷程的輸入專案，促進順暢的啟動和個人化功能。
+客群是具有相似行為和/或特徵的一組人員。Journey Optimizer B2B Edition 使用 Adobe Real-Time Customer Data Platform B2B 和 B2P 版本中的帳戶細分功能。使用帳戶細分，使用者可以透過系統內任何 B2B 實體的資料來產生帳戶客群。這些帳戶客群將會成為 Journey Optimizer B2B Edition 帳戶歷程的輸入資料，以利順利啟用和提供個人化功能。
 
-在[Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)中進一步瞭解帳戶對象以及如何定義它們。
+請參閱 [Adobe Experience Platform 細分服務文件](https://experienceleague.adobe.com/zh-hant/docs/ experience-platform/segmentation/types/account-audiences)，以了解帳戶客群及其定義方式。
 
-## 帳戶對象工作流程
+## 帳戶客群工作流程
 
-您可以將Journey Optimizer B2B edition視為未出現在目的地目錄中的Experience Platform (AEP)目的地。 使用下列步驟在Journey Optimizer B2B edition中啟用帳戶對象：
+您可以將 Journey Optimizer B2B Edition 視為未出現在目標目錄中的 Experience Platform (AEP) 目標。使用以下步驟，在 Journey Optimizer B2B Edition 中啟用帳戶客群：
 
-1. 在AEP中為您的資料建立結構描述。
-1. 將您的資料內嵌至AEP。
-1. 建立帳戶區段以評估您的資料。
-1. 將評估過的資料啟用至Journey Optimizer B2B edition。
+1. 在 AEP 中為您的資料建立結構描述。
+1. 將您的資料收錄至 AEP。
+1. 建立帳戶區段來評估您的資料。
+1. 在 Journey Optimizer B2B Edition 中啟用您的評估資料。
 
-在Journey Optimizer B2B edition中，帳戶受眾會用作帳戶型歷程的輸入，可讓您鎖定這些帳戶內的使用者。 例如，您可以使用帳戶受眾來擷取所有帳戶的記錄，這些帳戶沒有任何職銜為首席營運官(COO)或首席行銷官(CMO)之人員的聯絡資訊。
+在 Journey Optimizer B2B Edition 中，帳戶客群是基於帳戶的歷程之輸入資料，可讓您在這些帳戶中選擇目標人員。例如，您可以使用帳戶客群來獲取並不包含任何具有營運長 (COO) 或行銷長 (CMO) 職稱之人員聯絡資訊的帳戶記錄。
 
-Journey Optimizer B2B edition可讓您直接從左側導覽建立Adobe Experience Platform (AEP)帳戶對象，並將其合併到您的帳戶歷程中。
+您可以使用 Journey Optimizer B2B Edition，直接從左側導覽建置 Adobe Experience Platform (AEP) 帳戶客群，並將其納入您的帳戶歷程中。
 
-![存取帳戶對象](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
+![存取帳戶客群](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
 
-## 建立帳戶對象
+## 建立帳戶客群
 
-透過建立帳戶細分來定義帳戶對象。 您可以選擇直接在Journey Optimizer B2B edition應用程式中建立帳戶細分，也可以使用[區段產生器UI](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)。 以下是您可以在Journey Optimizer B2B edition中建立帳戶細分的步驟。
+透過建立帳戶細分來定義帳戶客群。您可以選擇直接在 Journey Optimizer B2B Edition 應用程式中建立帳戶細分，或者可以使用 [客戶細分工具使用者介面](https://experienceleague.adobe.com/zh-hant/docs/ experience-platform/segmentation/ui/segment-builder)。您可以使用以下步驟，在 Journey Optimizer B2B Edition 中建立帳戶細分。
 
-1. 在左側導覽列中，選擇&#x200B;**[!UICONTROL 帳戶]** > **[!UICONTROL 對象]**。
+1. 在左側導覽中，選擇「**[!UICONTROL 帳戶]** > **[!UICONTROL 客群]**」。
 
-1. 按一下右上方的&#x200B;**[!UICONTROL 建立對象]**。
+1. 按一下右上角的「**[!UICONTROL 建立客群]**」。
 
-1. 建立區段定義。
+1. 建置細分定義。
 
-   帳戶屬性和對象會顯示在左側導覽列上。 在&#x200B;_[!UICONTROL 屬性]_&#x200B;標籤下，您可以同時新增Platform建立和自訂屬性。 拖曳每個屬性以建立區段的邏輯。
+   左側導覽列顯示帳戶屬性和客群。在「_[!UICONTROL 屬性]_」索引標籤下，您可以新增 Platform 建立和自訂的屬性。拖曳每個屬性來建置此細分的邏輯。
 
    >[!TIP]
    >
-   >建立帳戶對象時，請注意事件列在&#x200B;_[!UICONTROL 人員]_&#x200B;下，因為這些屬性與人員相關聯。<br/>
+   >建立帳戶客群時，請注意列在「_[!UICONTROL 人員]_」下的事件，因為這些屬性與人員相關。<br/>
    >
-   >在&#x200B;_[!UICONTROL 對象]_&#x200B;標籤下方，您可以新增先前建立的以人物為基礎的對象，以便在建立您自己的帳戶對象時建置。
+   >在「_[!UICONTROL 客群]_」索引標籤下，您可以新增先前建立的基於人員的客群，並以此為基礎建立自己的帳戶客群。
 
-   下列範例定義使用`Country Code`、`Revenue Amount`和`Market segment`建立的對象。 英文的查詢是：「我想要美國收入超過$100萬美元且處於「財務區段」的所有帳戶。」
+   以下範例定義使用 `Country Code`、`Revenue Amount`，以及 `Market segment` 所建立的客群。其查詢內容將會是：「我想要美國境內屬於金融產業且收入超過 100 萬美元的所有帳戶」。
 
-   ![帳戶對象區段產生器範例](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   ![帳戶客群細分工具範例](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
 
    >[!IMPORTANT]
    >
-   >帳戶記錄的`Account Name`屬性必須包含要包含在帳戶歷程中的值。 如果此屬性是空的(null)，則會排除帳戶記錄。<br/>
-   >若要確保只包含具有非空白帳號名稱的帳號，請新增&#x200B;**[!UICONTROL 帳號名稱]**&#x200B;屬性，並選取&#x200B;_[!UICONTROL 存在]_&#x200B;做為符合條件。<br/>
-   >![帳戶名稱屬性存在](./assets/audience-segment-builder-account-name-exists.png){width="600"}
-   ><br/>如果您使用自訂屬性作為帳戶名稱，請使用自訂屬性名稱取代&#x200B;_[!UICONTROL 帳戶名稱]_。
+   >帳戶記錄的 `Account Name` 屬性必須包含要納入帳戶歷程中的值。如果此屬性為空 (null)，則排除此帳戶記錄。<br/>
+   >若要確保僅包含帳戶名稱非空白的帳戶，請新增「**[!UICONTROL 帳戶名稱]**」屬性，並選取「_[!UICONTROL 存在]_」做為相符的條件。<br/>
+   >![存在帳戶名稱屬性](./assets/audience-segment-builder-account-name-exists.png){width="600"}
+   ><br/>如果您的帳戶名稱使用自訂屬性，請使用自訂屬性名稱取代「_[!UICONTROL 帳戶名稱]_」。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 儲存並關閉]**。
+1. 按一下右上角的「**[!UICONTROL 儲存並關閉]**」。
 
-若要啟用Journey Optimizer B2B edition的帳戶對象，您必須[將其新增至帳戶歷程](../journeys/journey-overview.md#add-the-account-audience-for-your-journey)並[發佈歷程](../journeys/journey-overview.md)。
+若要啟用 Journey Optimizer B2B Edition 的帳戶客群，您必須[將其新增至帳戶歷程](../journeys/journey-overview.md#add-the-account-audience-for-your-journey)，並[發佈此歷程](../journeys/journey-overview.md)。

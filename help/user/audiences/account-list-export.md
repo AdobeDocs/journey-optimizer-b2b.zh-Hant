@@ -1,41 +1,42 @@
 ---
 title: 匯出帳戶清單
-description: 瞭解如何根據購買群組篩選器匯出帳戶清單。
-source-git-commit: c51ee8c8b58e8154c81f6a2ffada3f58a08eb6b4
-workflow-type: tm+mt
+description: 了解如何根據購買群組篩選條件匯出帳戶清單。
+exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
+source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 匯出帳戶清單
 
-使用&#x200B;_匯出帳戶清單_&#x200B;功能，根據您定義的篩選條件匯出所有帳戶或一組帳戶。 匯出程式會產生CSV檔案，並在脈衝通知中傳送已儲存檔案的URL。 如有需要，您可以使用此功能將帳戶移至協力廠商平台。
+使用&#x200B;_匯出帳戶清單_&#x200B;功能，根據您定義的篩選條件來匯出所有帳戶或一組帳戶。匯出流程會產生一個 CSV 檔案，並透過即時簡短通知傳送所儲存檔案的 URL。在需要時，您可以使用此功能將帳戶移動至第三方平台。
 
-1. 在Journey Optimizer B2B edition中，在左側導覽中前往&#x200B;**[!UICONTROL 帳戶]** > **[!UICONTROL 購買群組]**。
+1. 在 Journey Optimizer B2B Edition，前往左側導覽中的「**[!UICONTROL 帳戶]** > **[!UICONTROL 購買群組]**」。
 
-1. 選取&#x200B;**[!UICONTROL 瀏覽]**&#x200B;標籤。
+1. 選取「**[!UICONTROL 瀏覽]**」索引標籤。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 匯出帳戶]**。
+1. 按一下右上角的「**[!UICONTROL 匯出帳戶]**」。
 
-   ![編輯帳戶詳細資料](./assets/export-accounts.png){width="800" zoomable="yes"}
+   ![編輯帳戶詳細資訊](./assets/export-accounts.png){width="800" zoomable="yes"}
 
-1. 在對話方塊中，定義要匯出的帳戶對象引數。
+1. 在對話框中，定義要匯出的帳戶客群參數。
 
-   ![指定帳戶對象篩選](./assets/export-accounts-dialog.png){width="400"}
+   ![指定帳戶客群篩選條件](./assets/export-accounts-dialog.png){width="400"}
 
-   對於&#x200B;**[!UICONTROL 參與分數]**，運運算元`Between`為包含型別，百分比範圍亦同。 例如，5.1和5都是介於&#x200B;_5和6之間的_。
+   在「**[!UICONTROL 參與度分數]**」中，`Between` 運算子是包含性的，百分比範圍亦同。例如，5.1 和 5 均是在 5 和 6 _之間_。
 
-   空白的篩選引數會被視為類似`Is Any`。
+   空白篩選參數被視為 `Is Any`。
 
-1. 按一下&#x200B;**[!UICONTROL 匯出帳戶]**&#x200B;以使用指定的篩選器產生CSV檔案。
+1. 按一下「**[!UICONTROL 匯出帳戶]**」，使用特定篩選器來產生 CSV 檔案。
 
-1. 當您收到匯出完成的通知時，請按一下通知連結以存取CSV檔案。
+1. 當您收到匯出完成的通知時，按一下通知連結即可存取該 CSV 檔案。
 
-   ![按一下通知即可下載匯出的帳戶清單CSV檔案](./assets/export-accounts-notification.png){width="425"}
+   ![按一下通知以下載所匯出的帳戶清單 CSV 檔案](./assets/export-accounts-notification.png){width="425"}
 
    >[!NOTE]
    >
-   >如果您的Adobe使用者帳戶偏好設定中已設定電子郵件通知的通知訂閱，則可能是電子郵件通知。
+   >如果您已在 Adobe 使用者帳戶偏好設定中設定了電子郵件訂閱通知，便可能會收到電子郵件通知。
 
-   應用程式頁面會重新導向至&#x200B;_購買群組_&#x200B;瀏覽標籤，而系統儲存檔案對話方塊會提示您儲存檔案至系統。 如果您需要共用資料，可以使用您團隊的檔案共用系統。
+   應用程式頁面將重新導向至「_購買群組_」瀏覽索引標籤，且系統會顯示儲存檔案對話框來提示您將檔案儲存至系統。如需共用資料，可以使用團隊的檔案分享系統。
