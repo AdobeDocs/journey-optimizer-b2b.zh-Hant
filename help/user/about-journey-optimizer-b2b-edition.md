@@ -4,8 +4,8 @@ description: 探索 Adobe Journey Optimizer B2B Edition 主要功能、使用案
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 97%
+source-wordcount: '811'
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 97%
 
 Adobe Journey Optimizer B2B Edition 會使用來自 Adobe Experience Platform 的&#x200B;_帳戶客群_&#x200B;和&#x200B;_人員客群_，推動在 Marketo Engage 內部執行的帳戶歷程。Experience Platform 始終是此資料的真實來源，但帳戶歷程的所有執行和處理均發生在 Marketo Engage B2B 行銷基礎結構內部。此協調流程透過現有的 Marketo Engage - Adobe Real-Time CDP B2B Edition 來源連接器，將資料近乎即時地帶回 Experience Platform，將資料變更從 Marketo Engage 串流傳送至 Experience Platform。
 
-![高階資料架構](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}{width=&quot;500&quot; zoomable=&quot;yes&quot;}
+![高階資料架構](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
->關於效能護欄和靜態限制，請檢視您的授權權益和對應[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}{target=&quot;_blank&quot;}。
+>有關效能護欄和靜態限制，請參關您的授權權益以及相對應的[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}。
 
 ### 訂閱模型
 

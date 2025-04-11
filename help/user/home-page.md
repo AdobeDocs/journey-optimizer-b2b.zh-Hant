@@ -4,8 +4,8 @@ description: 了解如何存取 Journey Optimizer B2B Edition 應用程式及使
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 96%
+source-wordcount: '444'
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 96%
 -->
 若要存取 [!DNL Adobe Journey Optimizer B2B Edition]，請使用 Adobe ID 連線至 Adobe Experience Cloud，然後選取 [!DNL Journey Optimizer B2B Edition]。
 
-![Adobe Experience Platform應用程式](./assets/experience-cloud-apps.png){width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Adobe Experience Platform 應用程式](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
 當您登入 Adobe Experience Platform 並選取 Adobe Journey Optimizer B2B Edition 應用程式時，便會看到首頁。此頁面將概略介紹 Journey Optimizer B2B 行動方案的現況，並提供<!-- refined insights and-->快速存取相關模組<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->的功能。
 
-![Journey Optimizer B2B edition首頁](./assets/home-page.png){width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Journey Optimizer B2B Edition 首頁](./assets/home-page.png){width="800" zoomable="yes"}
 
 Journey Optimizer B2B Edition 具有兩種主要使用者角色：_**行銷人員**_&#x200B;和&#x200B;_**管理員**_。每個角色針對不同的成熟度階段 (新手或進階) 均有特定的首頁。此頁面是根據每個角色所需的資訊及後續要採取的行動來提供相關內容。
 

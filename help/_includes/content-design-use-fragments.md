@@ -1,6 +1,6 @@
 ---
-title: 內容製作 — 使用片段
-description: 重複使用關於使用片段進行內容製作的區段
+title: 內容創作 - 使用片段
+description: 重用關於對內容製作使用片段的部分
 source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '297'
@@ -8,45 +8,45 @@ ht-degree: 0%
 
 ---
 
-# 內容製作 — 使用視覺片段
+# 內容創作 - 使用視覺片段
 
-視覺片段是可重複使用的設計元件，可被Adobe Journey Optimizer B2B edition中的多個內容資產參考。 通常是預先建立並快速插入的內容區塊，讓製作更快且更一致。
+視覺片段是一個可重複使用的設計元件，可由 Journey Optimizer B2B 版Adobe Systems多個內容資產引用。 它通常是可以預先創建並快速插入的內容塊，以使創作更快、更一致。
 
-以下範例概述在製作內容時新增片段的步驟。
+以下示例概述了在創作內容時添加片段的步驟。
 
-1. 若要開啟片段清單，請選取&#x200B;_片段_&#x200B;圖示（ ![片段圖示](../user/assets/do-not-localize/icon-fragments.svg) ）。
+1. 要打開片段清單，請選擇 _片段_ 圖示 ![（片段圖示](../user/assets/do-not-localize/icon-fragments.svg) ）。
 
    您可以：
 
-   * 排序清單。
-   * 瀏覽、搜尋或篩選清單。
-   * 在縮圖和清單檢視之間切換。
+   * 對清單進行排序。
+   * 瀏覽、搜尋或篩選列表。
+   * 在縮圖檢視和清單視圖之間切換。
    * 重新整理清單以反映任何最近建立的片段。
 
-   ![從清單中選取片段](../user/content/assets/visual-designer-fragments.png)
+   ![從清單中選擇一個片段](../user/content/assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. 將任何片段拖放至結構元件中。
+1. 將任何片段拖放到結構元件中。
 
-   編輯器會在電子郵件結構的區段/元素中轉譯片段。
+   編輯者 在電子郵件結構的節/元素內轉譯片段。
 
    >[!TIP]
    >
-   >若要新增片段，使其佔據電子郵件內的整個水準版面，請新增1:1欄結構，然後將片段拖放至其中。
+   >若要添加片段，使其佔據電子郵件中的整個水平佈局，請添加 1：1 列結構，然後將片段拖放到其中。
 
-   片段的內容會在結構內動態更新，以顯示內容在您的內容中如何顯示。
+   片段內容在結構中動態更新，以显示內容在內容中的显示方式。
 
 >[!BEGINSHADEBOX]
 
-可自訂片段中的&#x200B;**可編輯欄位**
+**可自定義片段中的可編輯欄位**
 
-視覺片段可以包含可自訂的可編輯欄位。 自訂欄位可讓您在將片段整合到內容時修改引數，並建立量身打造的體驗，而不會影響原始片段。 片段作者可以[設計文字、影像和按鈕元件的自訂片段](../user/content/fragment-authoring.md#enable-fragment-customization)。 如果包含的片段包含具有可編輯欄位的元件，您可以變更預設值，以針對您的內容自訂它。
+視覺片段可以包含可自定義的可編輯欄位。 自定義欄位允許您在將片段合併到內容時修改参数，並在不影響原始片段的情況下創建自定義體驗。 片段作者可以 [設計用於自定義](../user/content/fragment-authoring.md#enable-fragment-customization) 文本、圖像和按鈕元件的片段。 如果包含的片段包含具有可编辑字段的元件，您可以更改預設值以針對您的內容對其進行自定義。
 
-1. 選取片段元件。
+1. 選擇片段元件。
 
-   右側顯示的「設定」包含和可編輯的欄位，並具有預設值。
+   右側顯示的設定包含欄位和可編輯欄位以及預設值。
 
-   ![變更片段元件引數](../user/content/assets/fragment-editable-fields-displayed-design.png)
+   ![變更片段元件參數](../user/content/assets/fragment-editable-fields-displayed-design.png){width="700" zoomable="yes"}
 
-1. 視需要變更任何可編輯的欄位。
+1. 請視需要變更任何可編輯欄位。
 
 >[!ENDSHADEBOX]

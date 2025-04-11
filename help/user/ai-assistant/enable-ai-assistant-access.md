@@ -3,9 +3,10 @@ title: 啟用AI助理存取
 description: 預留位置
 feature: AI Assistant
 level: Beginner
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
+exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
+source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -28,13 +29,13 @@ ht-degree: 1%
 
 * 將&#x200B;**檢視作業分析**&#x200B;許可權新增至指定的角色，並將使用者新增至該角色。 此許可權可讓使用者使用AI助理操作深入分析功能。
 
-![指派AI助理許可權](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![指派AI助理員許可權](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
 使用許可權UI來授與在Journey Optimizer B2B edition中使用AI助理的許可權。 如需有關存取Experience Platform和其他Experience Cloud應用程式中的AI助理的資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)。
 
 當使用者擁有必要的許可權時，他們可以存取AI助理，方法是選取您正在使用的應用程式頂端標題上的&#x200B;_AI助理_&#x200B;圖示。
 
-應用程式標題中的![AI助理圖示](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
+應用程式標頭](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}中的![AI助理圖示
 
 ## AI助理存取總覽影片
 
