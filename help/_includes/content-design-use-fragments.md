@@ -1,9 +1,9 @@
 ---
 title: 內容製作 — 使用片段
 description: 重複使用關於使用片段進行內容製作的區段
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
    * 在縮圖和清單檢視之間切換。
    * 重新整理清單以反映任何最近建立的片段。
 
-   ![從清單中選取片段](../user/content/assets/visual-designer-fragments.png){width="700" zoomable="yes"}
+   ![從清單中選取片段](../user/content/assets/visual-designer-fragments.png)
 
 1. 將任何片段拖放至結構元件中。
 
@@ -37,15 +37,15 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**可編輯的欄位**
+可自訂片段中的&#x200B;**可編輯欄位**
 
-視覺片段可以包含可自訂的可編輯欄位。 自訂欄位可讓您在將片段整合到內容時修改引數，並建立量身打造的體驗，而不會影響原始片段。 如果包含的片段包含具有可編輯欄位的元件，您可以變更預設值。
+視覺片段可以包含可自訂的可編輯欄位。 自訂欄位可讓您在將片段整合到內容時修改引數，並建立量身打造的體驗，而不會影響原始片段。 片段作者可以[設計文字、影像和按鈕元件的自訂片段](../user/content/fragment-authoring.md#enable-fragment-customization)。 如果包含的片段包含具有可編輯欄位的元件，您可以變更預設值，以針對您的內容自訂它。
 
 1. 選取片段元件。
 
    右側顯示的「設定」包含和可編輯的欄位，並具有預設值。
 
-   ![變更片段元件引數](../user/content/assets/fragment-editable-fields-displayed-design.png){width="700" zoomable="yes"}
+   ![變更片段元件引數](../user/content/assets/fragment-editable-fields-displayed-design.png)
 
 1. 視需要變更任何可編輯的欄位。
 
