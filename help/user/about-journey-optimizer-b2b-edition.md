@@ -1,48 +1,48 @@
 ---
-title: Adobe Journey Optimizer B2B edition概觀
-description: 探索 Adobe Journey Optimizer B2B 版主要功能、使用案例和架構。
+title: Adobe Journey Optimizer B2B Edition 概觀
+description: 探索 Adobe Journey Optimizer B2B Edition 主要功能、使用案例及架構。
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: d1696eb54c9ff25963b51a0e3934a02e103923e4
+source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 5%
+source-wordcount: '817'
+ht-degree: 97%
 
 ---
 
-# Adobe Journey Optimizer B2B edition概觀
+# Adobe Journey Optimizer B2B Edition 概觀
 
-透過 Adobe Journey Optimizer B2B 版，您可以使用內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程，以利用符合行銷資格的購買群組來最大限度地提高對特定產品的需求。
+您可以使用 Adobe Journey Optimizer B2B Edition 內建的生成式 AI 和領先業界的自動化功能，協調帳戶和購買群組歷程，以便利用符合行銷資格的購買群組，將特定產品的需求最大化。
 
-## 購買群組的帳戶歷程
+## 使用購買群組的帳戶歷程
 
-將Adobe Journey Optimizer B2B edition與Marketo Engage和Adobe Journey Optimizer標準進行比較時，關鍵的區別在於帳戶歷程會透過歷程移動帳戶，而非人員。 與帳戶相關聯的人通常具有非線性進展，該進展取決於帳戶通過歷程的進度，而不是其個人操作。 例如，當帳戶處於購買歷程的早期階段時，傳送的資訊可能會有關一般解決方案功能或特性。 在購買過程中，內容可能會變得更加針對特定優惠或其他旨在結束銷售的專案。 購買解決方案後，資訊可能會再次變更，以提供操作指南、最佳實務、或有關即將舉辦之活動的資訊，或有關其他追加銷售的內容。 即使個人尚未與早期階段內容互動，您仍希望根據他們自己的動作，而不是根據其帳戶或購買群組中的其他人的動作，將其推進到目前階段。
+相較於 Marketo Engage 和 Adobe Journey Optimizer 標準，Adobe Journey Optimizer B2B Edition 的關鍵區別在於它是由帳戶歷程推動帳戶完成整個歷程，而非由人員推動。與某個帳戶關聯的人員，其歷程通常不會線性發展，而是取決於該帳戶在整個歷程中的進度，而非人員的個別動作。例如，當帳戶處於購買歷程的早期階段時，所傳送的資訊可能與一般解決方案功能或特色有關。在購買過程的後續進展中，所傳送的內容可能會更加針對特定的優惠，或是以成功銷售為目標的其他項目。購買解決方案後，所傳送的資訊可能會再次變更，改為提供操作指南、最佳實務或即將舉辦的活動相關資訊，或是有關其他向上銷售的內容。即使某人並未與早期階段的內容互動，您仍會希望根據其帳戶或購買群組內其他人員的行動 (而非他們自身的行動)，將其推進至目前階段。
 
 ## 高階架構
 
-Adobe Journey Optimizer B2B edition使用Adobe Experience Platform的&#x200B;_帳戶對象_&#x200B;和&#x200B;_人員對象_&#x200B;來推動在Marketo Engage內執行的帳戶歷程。 Experience Platform一律是這些資料的真實來源，但帳戶歷程的所有執行和處理都發生在Marketo EngageB2B行銷基礎結構內。 協調流程透過現有的Marketo Engage(Adobe Real-Time CDP B2B edition來源聯結器)將資料近乎即時地帶回Experience Platform，可串流不同Marketo Engage的資料變更Experience Platform。
+Adobe Journey Optimizer B2B Edition 會使用來自 Adobe Experience Platform 的&#x200B;_帳戶客群_&#x200B;和&#x200B;_人員客群_，推動在 Marketo Engage 內部執行的帳戶歷程。Experience Platform 始終是此資料的真實來源，但帳戶歷程的所有執行和處理均發生在 Marketo Engage B2B 行銷基礎結構內部。此協調流程透過現有的 Marketo Engage - Adobe Real-Time CDP B2B Edition 來源連接器，將資料近乎即時地帶回 Experience Platform，將資料變更從 Marketo Engage 串流傳送至 Experience Platform。
 
-![高階資料架構](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
+![高階資料架構](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}{width=&quot;500&quot; zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
->關於效能護欄和靜態限制，請檢視您的授權權益和對應的[產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}。
+>關於效能護欄和靜態限制，請檢視您的授權權益和對應[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}{target=&quot;_blank&quot;}。
 
-### 訂閱模式
+### 訂閱模型
 
-Journey Optimizer B2B edition訂閱是由具有Marketo Engage _Munchkin_&#x200B;訂閱的一對Experience Platform(AEP)沙箱所定義。 單一Marketo Engage訂閱無法與多個AEP沙箱配對。 如果您不選擇將現有的Marketo Engage訂閱與Journey Optimizer B2B edition配對，則會為您布建新的空白Marketo Engage訂閱，以便與Journey Optimizer B2B edition搭配使用。
+Journey Optimizer B2B Edition 訂閱由一對 Experience Platform (AEP) 沙箱與 Marketo Engage _Munchkin_ 訂閱所定義。單一 Marketo Engage 訂閱不能與多個 AEP 沙箱進行配對。如果您未選擇將現有的 Marketo Engage 訂閱與 Journey Optimizer B2B Edition 進行配對，您將獲得一個全新、空白的 Marketo Engage 訂閱，以便與 Journey Optimizer B2B Edition 搭配使用。
 
-在此設定中Experience Platform的目的是提供來自Marketo Engage執行個體（以及任何附加的CRM系統）的資料的統一檢視，然後能夠使用帳戶歷程對統一資料採取行動。
+在此設定中，Experience Platform 的用途是讓使用者統一檢視來自 Marketo Engage 執行個體 (以及任何附加的 CRM 系統) 的資料，然後可以使用帳戶歷程對統一資料採取動作。
 
 ### 帳戶歷程作業
 
-帳戶歷程會在Journey Optimizer B2B edition中編寫，並儲存在與訂閱相關聯的Marketo Engage例項中。 雖然它儲存在Marketo Engage資料存放區中，但無法從Marketo EngageUI中看見，而且只能從Journey Optimizer B2B edition中使用。
+帳戶歷程是在 Journey Optimizer B2B Edition 中編寫，並儲存在與訂閱相關的 Marketo Engage 執行個體中。雖然帳戶歷程儲存在 Marketo Engage 資料儲存區中，但不會顯示在 Marketo Engage 使用者介面中，而且僅可在 Journey Optimizer B2B Edition 中使用。
 
-帳戶歷程一律以選取要作為歷程帳戶對象的帳戶區段開始。 選取對象時會使用標準Experience Platform對象選擇器元件。 行銷人員隨後可透過根據自己的條件分割歷程路徑來實施帳戶歷程，該條件可包括帳戶條件、人員條件或購買群組條件。 在每個分支上，可以採取動作來實施歷程，例如傳送電子郵件或等待事件發生。
+帳戶歷程開始時，一律會先選取一個帳戶細分做為歷程的帳戶客群。若要選取客群，請使用標準的 Experience Platform 客群選擇器元件。然後，行銷人員可以根據自己的條件 (包括帳戶條件、人員條件或購買群組條件)，透過分割歷程路徑來實施帳戶歷程。您可以在每個分支上採取行動來實施歷程，例如傳送電子郵件或等待事件發生。
 
-建立帳戶歷程後，必須發佈歷程。 在發佈時，帳戶歷程經過驗證，並轉換為實施歷程體驗的一系列Marketo Engage行銷活動。 系統會聯絡Data Integration Services以啟動資料流程，進而啟動帳戶歷程作業。 第一步是為帳戶的使用者建立區段。
+建立帳戶歷程後，必須進行發佈。在發佈時，此帳戶歷程經驗證並轉換為一系列實施歷程體驗的 Marketo Engage 行銷活動。聯絡資料整合服務來開始資料流，進而開始帳戶歷程作業。第一步是為帳戶人員建立細分。
 
-### 資料流程
+### 資料流
 
-Journey Optimizer B2B edition使用Real-Time CDP帳戶區段來定義和執行帳戶區段，以及歷程所需的相關帳戶個人區段。 隨著已發佈的歷程執行，有關人員和帳戶的資料可能會變更，並且會收集與歷程互動之人員的資料。 Journey Optimizer B2B edition仰賴Real-Time CDP B2B edition的Marketo Engage來源聯結器，將資料變更流回Experience Platform沙箱，這是事實來源。  此資料會以幾近即時的方式傳送至AEP。
+Journey Optimizer B2B Edition 使用 Real-Time CDP 帳戶細分來定義和執行帳戶細分，以及歷程所需的相關帳戶人員細分。當已發佈的歷程開始執行，有關人員和帳戶的資料可能會變更，並且會收集與歷程互動的人員資料。Journey Optimizer B2B Edition 依賴 Real-Time CDP B2B Edition 的 Marketo Engage 來源連接器，將資料變更傳回至 Experience Platform 沙箱，即真實來源。這些資料以近乎即時的方式傳送至 AEP。
 
-只有Marketo Engage來源聯結器支援的現有資料型別（帳戶、人員和機會）會回到Real-Time CDP。 這表示購買群組資料不會流入AEP，而是位於Journey Optimizer B2B edition訂閱所使用的Marketo Engage例項。
+只有 Marketo Engage 來源連接器支援的現有資料類型 (帳戶、人員和機會) 才會傳回至 Real-Time CDP。這表示購買群組資料不會傳回 AEP，而是儲存在 Journey Optimizer B2B Edition 訂閱使用的 Marketo Engage 執行個體中。
