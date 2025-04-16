@@ -3,10 +3,10 @@ title: 購買群組角色範本
 description: 瞭解如何定義作為購買群組元件的角色範本。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 4%
+source-wordcount: '1115'
+ht-degree: 3%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 4%
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
 ## 存取和瀏覽角色範本
-
-1. 在 Adobe Experience Platform 首頁，按一下「Adobe Journey Optimizer B2B Edition」。
 
 1. 在左側導覽列中，按一下&#x200B;**[!UICONTROL 購買群組]**。
 

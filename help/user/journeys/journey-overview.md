@@ -3,10 +3,10 @@ title: 帳戶歷程
 description: 了解帳戶歷程，以及如何建立和管理帳戶歷程。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 30%
+source-wordcount: '1009'
+ht-degree: 29%
 
 ---
 
@@ -29,22 +29,20 @@ ht-degree: 30%
 
 ## 存取並瀏覽帳戶歷程
 
-1. 在 Adobe Experience Platform 首頁，按一下「Adobe Journey Optimizer B2B Edition」。
+在左側導覽中，按一下「**[!UICONTROL 帳戶歷程]**」。
 
-1. 在左側導覽中，按一下「**[!UICONTROL 帳戶歷程]**」。
+![存取帳戶歷程](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   ![存取帳戶歷程](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+顯示的歷程頁面包括下列欄：
 
-   顯示的歷程頁面包括下列欄：
-
-   * [!UICONTROL 名稱] （按一下名稱以開啟歷程進行編輯）
-   * [!UICONTROL 狀態]
-   * [!UICONTROL 說明]
-   * [!UICONTROL 建立者]
-   * [!UICONTROL 上次更新日期]
-   * [!UICONTROL 上次更新者]
-   * [!UICONTROL 發佈日期]
-   * [!UICONTROL 發佈者]
+* [!UICONTROL 名稱] （按一下名稱以開啟歷程進行編輯）
+* [!UICONTROL 狀態]
+* [!UICONTROL 說明]
+* [!UICONTROL 建立者]
+* [!UICONTROL 上次更新日期]
+* [!UICONTROL 上次更新者]
+* [!UICONTROL 發佈日期]
+* [!UICONTROL 發佈者]
 
 使用頂端的&#x200B;_搜尋_&#x200B;工具，依名稱尋找歷程。 您可以按一下欄標題，依&#x200B;_[!UICONTROL 狀態]_&#x200B;來排序清單。
 

@@ -3,10 +3,10 @@ title: 建立購買群組
 description: 瞭解如何使用所需元件來建立購買群組。
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 1%
+source-wordcount: '231'
+ht-degree: 2%
 
 ---
 
@@ -14,8 +14,6 @@ ht-degree: 1%
 # 建立購買群組
 
 建立購買群組後，便可在透過[解決方案興趣](./solution-interests.md)的帳戶歷程中使用。
-
-1. 在Adobe Experience Platform首頁中，按一下Adobe Journey Optimizer B2B Edition。
 
 1. 在左側導覽列中，按一下&#x200B;**[!UICONTROL 購買群組]**。
 
@@ -61,6 +59,6 @@ Member of buying group.
 Assign a member of the buying group.
 Remove a member of the buying group. -->
 
-## 操作說明影片
+## 作法影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

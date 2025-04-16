@@ -1,19 +1,19 @@
 ---
 title: 使用 AI 助理
-description: 瞭解 AI Assistant 如何説明您充分利用 Journey Optimizer B2B Edition 功能。
+description: 瞭解AI助理如何協助您充分運用Journey Optimizer B2B edition功能。
 feature: AI Assistant
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: d19ed2bbe850a14cb0563f6e3563cd8f1c8d3226
+source-git-commit: 62dc7d43f77b2c84b9e0aa27146a7924ee8d7b35
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
 
-# 在 Journey Optimizer B2B Edition 中使用 AI 助手
+# 在Journey Optimizer B2B edition中使用AI助理
 
-在 Journey Optimizer B2B Edition 中，AI Assistant 是一項用戶介面功能，可用於了解產品概念、快速導航和了解 Journey Optimizer B2B Edition 功能，以及獲取特定環境的運營見解。 Adobe Experience Cloud的多個產品中也提供此功能。
+在Journey Optimizer B2B edition中，AI Assistant是使用者介面功能，可用於瞭解產品概念、快速導覽並瞭解產品功能，以及取得您環境的營運見解。 Adobe Experience Cloud的多個產品中也提供此功能。
 
 >[!IMPORTANT]
 >
@@ -21,41 +21,37 @@ ht-degree: 0%
 
 若要存取AI助理，請按一下標題中的圖示。 AI助理會在右側的面板中開啟。
 
-![按一下圖示以存取AI助理](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}
+![按一下圖示以存取AI助理](./assets/ai-assistant-icon-displayed.png){width="420"}
 
 AI Assistant介面隨即顯示，立即為您提供開始使用的資訊。 您可以使用&#x200B;_Ideas下提供的選項開始使用_，以回答問題和命令，例如：
 
-* 我帳戶的哪些歷程已發佈？
-* 產生了哪些解決方案興趣？
-* 告訴我 Journey Optimizer B2B 版的主要優點。
+* 已發佈哪些歷程？
+* 已建立哪些解決方案興趣？
+* 告訴我Journey Optimizer B2B edition的主要優點。
 
-在 Adobe Systems Journey Optimizer B2B 版中，AI Assistant 支援以下用例：
+在Adobe Journey Optimizer B2B edition中，AI Assistant支援下列使用案例：
 
-## 產品知識
+## 提出產品知識問題
 
-產品知識問題與Journey Optimizer B2B edition概念有關，與Adobe Journey Optimizer的各個方面相關。 產品知識問題的一些範例包括：
+產品知識問題與Journey Optimizer B2B edition概念和操作說明資訊有關。 產品知識問題的一些範例包括：
 
 * 如何設定SMS提供者帳戶？
-* 如何在帳戶歷程中傳送電子郵件？
+* 如何在歷程中傳送電子郵件？
 * 如何個人化我的電子郵件內容？
 
-若要詢問產品問題，請在面板底部的欄位中輸入，然後按Enter鍵。
+若要詢問產品問題，請在面板底部的欄位中輸入，然後按Enter鍵。 例如，當您需要瞭解如何在歷程中使用購買群組時。 在此情況下，請輸入&#x200B;_如何在歷程中使用購買群組？_&#x200B;在您提交問題之後，AI Assistant會查詢其知識庫，並在幾秒鐘內編譯答案。
 
-![在文字方塊中輸入問題](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}
+![在文字方塊中輸入問題](./assets/ai-assistant-ask-question.png){width="420"}
 
-您可以檢閱每個產品知識答案中可用的引文，以驗證AI助理傳回的回應。
++++檢視範例答案
 
-要視圖引文並驗證 AI 助手的回應，請選擇 **[!UICONTROL 顯示來源]**。
+![在文字方塊中輸入問題](./assets/ai-assistant-product-answer.png){width="420"}
 
-![來自 AI 助手查詢的結果](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}
++++
 
-AI 助手更新介面，併為你提供指向證實初始回應的文檔的連結。 此外，啟用引文後，AI Assistant 會更新回應以包含腳註，以指示引用所提供文檔的答案的特定部分。
+## 提出營運見解問題
 
-使用向上或向下縮圖來評定答案的品質。
-
-## 營運分析
-
-操作insight問題與您的組織沙箱中的歷程物件有關。 insight操作問題或提示的一些範例包括：
+營運見解問題與組織沙箱中的歷程物件有關。 您可以詢問有關操作成品的問題，例如帳戶對象、帳戶歷程、解決方案興趣和購買群組範本。 營運見解問題或提示的一些範例包括：
 
 * Adobe Journey Optimizer B2B edition中有多少個即時歷程？
 * 提供所有已排程歷程的清單
@@ -65,40 +61,64 @@ AI 助手更新介面，併為你提供指向證實初始回應的文檔的連�
 
 >[!NOTE]
 >
->AI 助手運營見解問題支援的唯一 Adobe Systems Journey Optimizer B2B Edition 物件列在 [運營見解域表中](./ai-assistant-overview.md#operational-insights)。 它只能訪問您當前所在的沙箱的數據。
+>唯一受AI助理作業深入分析問題支援的Adobe Journey Optimizer B2B edition物件列在[作業深入分析網域表格](./ai-assistant-overview.md#operational-insights)中。 它只能存取您目前所在沙箱的資料。
 
-<!-- Select to view an example of an operational insights question.
+若要提出營運見解問題，請在面板底部的欄位中輸入，然後按Enter鍵。 例如，當您想知道沙箱的對象時。 在此情況下，請輸入&#x200B;_有多少對象？_。  AI Assistant會提供沙箱中的對象計數，以及它如何計算答案的說明。 在下列範例回應中，AI助理提供存取UI中對象的連結，並概述識別對象數量所採取的步驟。
 
-In the following example, AI Assistant receives the following query: _Show me dataflows that were created using the Amazon S3 source._
+![有多少對象的AI助理回應](./assets/ai-assistant-insights-answer.png){width="420"}
 
-screen
+您可以透過要求成品清單來追蹤初始查詢，例如&#x200B;_依大小列出前5名_。 AI Assistant會傳回一個表格，其中包含查詢中的前五個專案及其對應的ID。 按一下「_下載_」（「![下載」圖示](../assets/do-not-localize/icon-download.svg)）圖示，將表格下載為CSV檔案。
 
-AI Assistant responds with a table list of your dataflows and their corresponding IDs. Click the _Download_ icon ( Download icon ) to download the table as a CSV file. To view the entire table, click the _Expand_ icon ( Expand icon ).
+即時歷程清單的![AI助理回應](./assets/ai-assistant-artifacts-query.png){width="420"}
 
-screen
+若要在AI助理中檢視整個表格，請按一下&#x200B;_最大化_ （ ![最大化圖示](../assets/do-not-localize/icon-maximize.svg) ）圖示。 在展開的表格檢視中，按一下&#x200B;**[!UICONTROL 下載CSV]**&#x200B;以將資訊儲存為CSV檔案。
 
-An expanded view of the table appears, providing you with a more comprehensive list of dataflows based on the parameters of your query.
+即時歷程清單的![AI助理回應](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
 
-screen
+## 驗證回應
 
-When prompted with an operational insights question, AI Assistant provides an explanation of how it computed the answer. In the following example, AI Assistant outlines the steps it took in order to identify the dataflows that were created using the Amazon S3 source.
+AI Assistant包含可用來驗證回應的工具。
 
-screen
+### 產品知識來源
 
-You can also provide filters and modifications to your questions, and you can instruct AI Assistant to render its findings based on the filters that you include. For example, you can ask AI Assistant to show you a trend of the count of segment definitions in the order of their created date, remove segment definitions with zero total profiles, and use month names instead of integers when displaying the data.
+收到產品問題的回應後，請選取&#x200B;**[!UICONTROL 顯示來源]**&#x200B;以檢視用來產生AI助理回應之產品知識來源引文。
 
-### Verify operational insights responses
+AI Assistant提供可證實初始回應的檔案連結。 它也會在回應中新增註腳，以指出參照連結檔案來源的回應的特定部分。
 
-You can verify each response related to operational insights questions using an SQL query that AI Assistant provides.
+![來自AI Assistant查詢的結果](./assets/ai-assistant-product-answer-sources.png){width="420"}
 
-Select to view example of verifying operational insights responses
+### 營運見解來源
 
-After receiving an answer for an operational insights question, click **[!UICONTROL Show sources]** and then select **[!UICONTROL View source query]**.
+收到作業性深入分析問題的回應之後，請按一下[顯示來源] ]**，然後選取[檢視來源查詢]****。**[!UICONTROL 
 
-screen
+您可以使用AI助理提供的SQL查詢來驗證與操作深入分析問題相關的每個回應。 在查詢操作深入分析問題時，「AI助理」會提供SQL查詢，供您用來驗證計算答案所花費的程式。 此來源查詢僅供驗證之用，查詢服務不支援。
 
-When queried with an operational insights question, AI Assistant provides an SQL query that you can use to verify the process that it took to compute its answer. This source query is for verification purposes only and is not supported on Query Service.
+![來自AI Assistant查詢的結果](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
 
-screen  
+## 提供意見反應
 
- -->
+使用&#x200B;_Thumb up_ (![Thumb up](../assets/do-not-localize/icon-thumb-up.svg))或&#x200B;_Thumb down_ (![Thumb down](../assets/do-not-localize/icon-thumb-down.svg))圖示來評價回應的實用性和品質。 根據您的經驗填寫簡短的問卷表單，然後按一下&#x200B;**[!UICONTROL 提交]**。 您提供的資訊會用於改善AI助理。
+
+如果您發現回應中有問題，請按一下&#x200B;_標幟_ （ ![標幟圖示](../assets/do-not-localize/icon-flag.svg) ）圖示。 使用表單描述問題，然後按一下&#x200B;**[!UICONTROL 提交]**&#x200B;報告問題。
+
+![AI助理回應 — 意見圖示](./assets/ai-assistant-response-feedback-icons.png){width="420"}
+
++++檢視表單
+
+>[!BEGINTABS]
+
+>[!TAB 向上縮圖]
+
+![AI助理回應 — 縮圖正面意見表單](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
+
+>[!TAB 按住縮圖]
+
+![AI助理回應 — 縮圖顯示負面的意見回饋表單](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
+
+>[!TAB 旗標]
+
+![AI助理回應 — 標幟問題意見表單](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
+
++++

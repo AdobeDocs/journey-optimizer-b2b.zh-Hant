@@ -3,10 +3,10 @@ title: 購買群組
 description: 了解 Journey Optimizer B2B Edition 中的購買群組如何透過確認和選擇目標的帳戶清單成員來提高行銷效益。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 99%
+source-wordcount: '1782'
+ht-degree: 97%
 
 ---
 
@@ -36,10 +36,8 @@ ht-degree: 99%
 
 1. 建立購買群組。
 
-   選項：
-   * 使用[解決方案興趣](./solution-interests.md)和[角色範本](./buying-groups-role-templates.md)
-   * 使用第三方匯入
-   * 從 AI/ML 產生
+   * 定義[方案興趣](./solution-interests.md)和[角色範本](./buying-groups-role-templates.md)
+   * [建立購買群組](./buying-groups-create.md#create-buying-groups)並指派[購買群組階段](./buying-group-stages.md)。
 
 1. 確認缺少的人員。
 
@@ -53,7 +51,7 @@ ht-degree: 99%
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. 透過相關解決方案興趣在帳戶歷程中使用。
+1. 使用您的帳戶歷程中的購買群組。
 
 ## 檢視購買群組和元件
 
@@ -140,7 +138,7 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 >[!NOTE]
 >
->參與度分數活動記錄在 Marketo Engage 的[人員活動記錄](https://experienceleague.adobe.com/zh-hant/docs/ marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}。
+>參與分數活動會記錄在人員](https://experienceleague.adobe.com/zh-hant/docs/ marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}的Marketo Engage [活動記錄中。
 
 +++
 

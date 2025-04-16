@@ -2,10 +2,10 @@
 title: 帳戶清單
 description: 瞭解帳戶清單，以及行銷人員如何透過帳戶歷程使用它們來鎖定帳戶。
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 2%
+source-wordcount: '1621'
+ht-degree: 1%
 
 ---
 
@@ -20,21 +20,19 @@ ht-degree: 2%
 
 ## 存取和瀏覽帳戶清單
 
-1. 在 Adobe Experience Platform 首頁，按一下「Adobe Journey Optimizer B2B Edition」。
+在左側導覽列中，展開&#x200B;**[!UICONTROL 帳戶]**&#x200B;並按一下&#x200B;**[!UICONTROL 帳戶清單]**。
 
-1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 帳戶]**&#x200B;並按一下&#x200B;**[!UICONTROL 帳戶清單]**。
+![存取帳戶歷程](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![存取帳戶歷程](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+顯示的&#x200B;_[!UICONTROL 帳戶清單]_&#x200B;頁面包含下列資料行：
 
-   顯示的&#x200B;_[!UICONTROL 帳戶清單]_&#x200B;頁面包含下列資料行：
-
-   * [!UICONTROL 名稱] （按一下帳戶清單名稱以檢視詳細資料）
-   * [!UICONTROL 狀態]
-   * [!UICONTROL 類型]
-   * [!UICONTROL 上次更新時間：]
-   * [!UICONTROL 上次更新者]
-   * [!UICONTROL 建立日期]
-   * [!UICONTROL 建立者]
+* [!UICONTROL 名稱] （按一下帳戶清單名稱以檢視詳細資料）
+* [!UICONTROL 狀態]
+* [!UICONTROL 類型]
+* [!UICONTROL 上次更新時間：]
+* [!UICONTROL 上次更新者]
+* [!UICONTROL 建立日期]
+* [!UICONTROL 建立者]
 
 此表格包含依名稱搜尋的功能。 排序功能目前無法使用。
 
@@ -42,7 +40,7 @@ ht-degree: 2%
 
 ![選擇要在帳戶歷程清單中顯示的欄](./assets/account-lists-list-columns.png){width="300"}
 
-若要檢視帳戶清單的說明，請按一下名稱旁的&#x200B;_資訊_&#x200B;圖示。
+若要檢視帳戶清單的說明，請按一下名稱旁的&#x200B;_資訊_ （ ![資訊圖示](../assets/do-not-localize/icon-info.svg) ）圖示。
 
 ## 建立帳戶清單
 

@@ -3,10 +3,10 @@ title: 解決方案興趣
 description: 瞭解解決方案興趣，以及如何定義這些興趣以用於您的購買群組。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 1%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 0%
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
 ## 存取和瀏覽解決方案興趣
-
-1. 在Adobe Experience Platform首頁中，按一下Adobe Journey Optimizer B2B edition。
 
 1. 在左側導覽列中，按一下&#x200B;**[!UICONTROL 購買群組]**。
 
@@ -101,6 +99,6 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認刪除，或者您可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;以中止程式。
 
-## 概述影片
+## 概觀影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
