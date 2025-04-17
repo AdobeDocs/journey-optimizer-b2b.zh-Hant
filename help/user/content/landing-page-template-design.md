@@ -3,10 +3,11 @@ title: 登入頁面範本設計
 description: 瞭解如何設計和編寫行銷人員可重複使用的登陸頁面範本內容，以建立登陸頁面。
 feature: Content
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
-source-git-commit: f0658fad82d6656bc052c1810530963404e29396
+exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
+source-git-commit: 4e203a5d1fb0c9d9dc2a6bd14705b17335c98ee3
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 8%
+ht-degree: 20%
 
 ---
 
@@ -19,12 +20,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_template_structure"
 >title="新增結構元件至登陸頁面"
->abstract="結構元件會定義登陸頁面的版面。將&#x200B;**Structure**&#x200B;元件拖放至畫布中，以開始設計頁面範本的內容。"
+>abstract="結構元件會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放至版面，開始設計頁面範本的內容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_template_content_components"
 >title="關於登陸頁面的內容元件"
->abstract="內容元件是空的內容預留位置，可用來建立登入頁面範本的版面。"
+>abstract="內容元件是可以用來建立登陸頁面範本之版面的空白內容預留位置。"
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -40,7 +41,7 @@ ht-degree: 8%
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### 個人化內容
+### 將內容個人化
 
 {{$include /help/_includes/content-design-personalization.md}}
 
