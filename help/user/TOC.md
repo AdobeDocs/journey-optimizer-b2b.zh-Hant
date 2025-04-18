@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
 source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 91%
    + [登入和首頁](home-page.md)
    + [快速入門指南](./start/get-started.md)
    + [追蹤和電子郵件協定](./start/email-protocols.md)
-+ AI小幫手{#ai-assistant}
++ AI 助理{#ai-assistant}
    + [概觀](./ai-assistant/ai-assistant-overview.md)
-   + [啟用AI助理存取](./ai-assistant/enable-ai-assistant-access.md)
+   + [啟用 AI 助理存取權](./ai-assistant/enable-ai-assistant-access.md)
    + [問題指引](./ai-assistant/question-guidance.md)
    + [使用 AI 助理](./ai-assistant/use-ai-assistant.md)
 + 帳戶歷程{#account-journeys}
@@ -69,13 +69,13 @@ ht-degree: 91%
       + 電子郵件範本{#email-templates}
          + [概觀](./content/email-templates.md)
          + [電子郵件範本編寫](./content/email-template-authoring.md)
-      + 登入頁面範本{#landing-page-templates}
+      + 登陸頁面範本{#landing-page-templates}
          + [概觀](./content/landing-page-templates.md)
-         + [登入頁面範本設計](./content/landing-page-template-design.md)
+         + [設計登陸頁面範本](./content/landing-page-template-design.md)
    + 片段{#visual-fragments}
       + [概觀](./content/fragments.md)
       + [片段編寫](./content/fragment-authoring.md)
-   + Forms {#forms}
+   + 表單{#forms}
       + [概觀](./content/forms.md)
       + [表單設計](./content/form-design.md)
    + 登陸頁面{#landing-pages}
