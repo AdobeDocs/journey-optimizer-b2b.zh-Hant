@@ -138,7 +138,7 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 >[!NOTE]
 >
->參與分數活動會記錄在人員](https://experienceleague.adobe.com/zh-hant/docs/ marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}的Marketo Engage [活動記錄中。
+>參與分數活動會記錄在人員](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}的Marketo Engage [活動記錄中。
 
 +++
 
