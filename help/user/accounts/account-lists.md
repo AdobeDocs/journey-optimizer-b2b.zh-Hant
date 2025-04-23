@@ -1,10 +1,11 @@
 ---
 title: 帳戶清單
 description: 瞭解帳戶清單，以及行銷人員如何透過帳戶歷程使用它們來鎖定帳戶。
+badgeBeta: label="可用性限制" type="informative" tooltip="此功能目前只能透過請求使用"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1631'
 ht-degree: 1%
 
 ---
