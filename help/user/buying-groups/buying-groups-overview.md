@@ -4,9 +4,9 @@ description: 了解 Journey Optimizer B2B Edition 中的購買群組如何透過
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1782'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 
 1. 建立購買群組。
 
-   * 定義[方案興趣](./solution-interests.md)和[角色範本](./buying-groups-role-templates.md)
+   * 定義[解決方案興趣](./solution-interests.md)和[角色範本](./buying-groups-role-templates.md)
    * [建立購買群組](./buying-groups-create.md#create-buying-groups)並指派[購買群組階段](./buying-group-stages.md)。
 
 1. 確認缺少的人員。
@@ -51,7 +51,7 @@ ht-degree: 97%
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. 使用您的帳戶歷程中的購買群組。
+1. 使用您帳戶歷程中的購買群組。
 
 ## 檢視購買群組和元件
 
@@ -138,7 +138,7 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 >[!NOTE]
 >
->參與分數活動會記錄在人員](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}的Marketo Engage [活動記錄中。
+>參與度分數活動記錄在 Marketo Engage 的[人員活動記錄](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}中。
 
 +++
 
