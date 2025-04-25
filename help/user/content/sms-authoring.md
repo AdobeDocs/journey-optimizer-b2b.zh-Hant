@@ -3,9 +3,9 @@ title: 簡訊製作
 description: 瞭解如何在其行動裝置上傳送簡訊(SMS)給您的客戶，以及從SMS編輯器使用文字格式個人化和預覽訊息。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 使用Adobe Journey Optimizer B2B edition傳送簡訊(SMS)給行動裝置上的客戶。 您可以從簡訊編輯器建立、個人化及預覽文字格式的訊息。
 
-在建立帳戶歷程的SMS訊息之前，請確定[SMS服務提供者是從&#x200B;_[!UICONTROL 系統管理員]_&#x200B;設定設定](../admin/configure-channels-sms.md)。
+在建立帳戶歷程的SMS訊息之前，請確定[SMS服務提供者已由&#x200B;_[!UICONTROL 系統管理員]_&#x200B;設定設定](../admin/configure-channels-sms.md)。
 
 ## 在帳戶歷程中新增簡訊動作
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-   _歷程內容設計工具_&#x200B;開啟，您可以建立訊息並設定用於傳送訊息的SMS屬性。
+   _歷程圖_&#x200B;開啟，您可以建立訊息並設定用於傳送訊息的SMS屬性。
 
 ### 建立簡訊訊息
 
