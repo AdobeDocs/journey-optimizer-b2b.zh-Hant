@@ -3,16 +3,16 @@ title: 帳戶受眾節點
 description: 瞭解可用於在Journey Optimizer B2B edition中定義帳戶歷程輸入的帳戶對象節點型別。
 feature: Account Journeys
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 5%
 
 ---
 
 # 帳戶對象歷程節點
 
-帳戶對象節點會定義歷程的輸入帳戶對象(在Adobe Experience Platform中建立和管理)。 當您[建立帳戶歷程](./journey-overview.md#create-an-account-journey)時，它一律以定義歷程輸入的&#x200B;_帳戶對象_&#x200B;節點開始。
+帳戶對象節點會定義歷程的輸入帳戶。 當您[建立帳戶歷程](./journey-overview.md#create-an-account-journey)時，它一律以定義歷程輸入的&#x200B;_帳戶對象_&#x200B;節點開始。
 
 您可以針對此節點使用兩種型別的輸入：
 
@@ -47,9 +47,9 @@ _若要設定節點的對象：_
 
 _若要建立對象區段：_
 
-1. 在左側導覽列中，選擇&#x200B;**[!UICONTROL 帳戶]** > **[!UICONTROL 對象]**。
+1. 在左側導覽中，選擇「**[!UICONTROL 帳戶]** > **[!UICONTROL 客群]**」。
 
-1. 按一下右上方的&#x200B;**[!UICONTROL 建立對象]**。
+1. 按一下右上角的「**[!UICONTROL 建立客群]**」。
 
    ![建立對象區段](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 

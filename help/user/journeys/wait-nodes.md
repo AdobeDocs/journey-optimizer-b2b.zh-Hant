@@ -2,7 +2,8 @@
 title: 等待節點
 description: 瞭解可用於在Journey Optimizer B2B edition中協調帳戶歷程的等待節點型別。
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 _若要定義帳戶歷程的等待節點：_
 
-1. 導覽至歷程編輯器。
+1. 導覽至歷程圖。
 
 1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 等待]**。
 

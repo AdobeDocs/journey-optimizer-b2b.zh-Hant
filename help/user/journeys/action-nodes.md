@@ -3,9 +3,9 @@ title: 採取動作
 description: 瞭解在Journey Optimizer B2B edition中可用來協調帳戶歷程的採取動作節點型別。
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
+source-git-commit: db30486c23f6560beb72cd9d9b3a82b70a2e2ddd
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1240'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 ### 新增以帳戶為基礎的動作
 
-1. 導覽至歷程編輯器。
+1. 導覽至歷程圖。
 
 1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 執行動作]**。
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 ### 新增以人物為基礎的動作
 
-1. 導覽至歷程編輯器。
+1. 導覽至歷程圖。
 
 1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 執行動作]**。
 
@@ -112,6 +112,10 @@ _若要建立外部對象：_
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
    系統會建立新對象並顯示確認訊息。 然後，您可以繼續將它用作節點動作的現有對象。
+
+   >[!NOTE]
+   >
+   >從Journey Optimizer B2B edition建立新的外部客戶對象時，會內建一個虛擬記錄(`test@email.com`)。 將第一個實際設定檔新增至歷程的外部對象時，就會覆寫此記錄。
 
 _若要使用現有的對象：_
 
@@ -223,6 +227,6 @@ Marketo Engage以人物為基礎的動作，旨在協調Journey Optimizer B2B ed
 
 +++
 
-## 概述影片
+## 概觀影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

@@ -3,7 +3,7 @@ title: 建立及發佈帳戶歷程
 description: 瞭解如何建立和發佈帳戶歷程。
 feature: Account Journeys
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # 建立及發佈帳戶歷程
 
-若要開始使用帳戶歷程，請建立歷程，然後在歷程編輯器中建構節點和歷程流程。
+若要開始使用帳戶歷程，請建立歷程，然後在歷程地圖中建構節點和歷程流程。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
@@ -50,7 +50,7 @@ _歷程地圖_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
 ## 新增節點
 
-1. 導覽至歷程編輯器。
+1. 導覽至歷程圖。
 
 1. 按一下路徑上的加號( **+** )圖示，然後選取節點型別。
 
@@ -58,7 +58,7 @@ _歷程地圖_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
 ## 刪除節點
 
-1. 導覽至歷程編輯器。
+1. 導覽至歷程圖。
 
 1. 在右側的節點屬性中，按一下&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete.svg) ）圖示。
 
@@ -66,7 +66,7 @@ _歷程地圖_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
 ## 新增和刪除路徑
 
-1. 導覽至歷程編輯器。
+1. 導覽至歷程圖。
 
 1. 按一下路徑上的加號( **+** )圖示，然後新增[分割路徑節點](./split-merge-paths-nodes.md#split-paths)。
 
@@ -110,7 +110,7 @@ _歷程地圖_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
 ## 發佈帳戶歷程
 
-如果沒有封鎖程式錯誤，您可以發佈歷程。 發佈後，歷程狀態會變更為「_即時_」。如果歷程發生錯誤，_[!UICONTROL 發佈]_&#x200B;按鈕會變暗並顯示內容資訊： `Resolve errors before publishing`。
+如果沒有封鎖程式錯誤，您可以發佈歷程。 發佈後，歷程狀態會變更為「_已上線_」。如果歷程發生錯誤，_[!UICONTROL 發佈]_&#x200B;按鈕會變暗並顯示內容資訊： `Resolve errors before publishing`。
 
 1. 在歷程地圖的右上方，按一下&#x200B;**[!UICONTROL 發佈]**。
 

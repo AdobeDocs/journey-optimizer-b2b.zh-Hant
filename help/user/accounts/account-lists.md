@@ -1,23 +1,26 @@
 ---
 title: 帳戶清單
 description: 瞭解帳戶清單，以及行銷人員如何透過帳戶歷程使用它們來鎖定帳戶。
-badgeBeta: label="可用性限制" type="informative" tooltip="此功能目前只能透過請求使用"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
+source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1339'
 ht-degree: 1%
 
 ---
 
 # 帳戶清單
 
-帳戶清單是行銷人員可用於目標歷程協調的具名帳戶集合。 帳戶清單可依據您定義的條件（例如產業、地點或公司規模）來鎖定已命名的帳戶。 帳戶清單有兩種型別：
+在Journey Optimizer B2B edition中，帳戶清單是行銷人員可用於目標歷程協調的具名帳戶集合。 帳戶清單可依據您定義的條件（例如產業、地點或公司規模）來鎖定已命名的帳戶。 帳戶清單有兩種型別：
 
 * **靜態** — 使用靜態帳戶清單時，清單只有在您新增帳戶時才會變更。 您可以套用篩選器集來根據目前的帳戶資料填入清單，以手動新增帳戶，或是透過帳戶歷程新增和移除帳戶。
 * **動態** — 使用動態帳戶清單，您可以定義自動組織清單的篩選器集。 系統會使用此篩選器集，根據帳戶資訊中的變更來新增和移除帳戶。 此清單管理類似於Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b)中的[對象細分。
 
-當帳戶清單處於&#x200B;_即時_ （已發佈）狀態時，它可用於帳戶歷程。
+當帳戶清單處於&#x200B;_即時_ （已發佈）狀態時，它可用於[帳戶歷程和Marketo Engage程式](./account-lists-journeys.md)。
+
+>[!NOTE]
+>
+>帳戶清單會利用Marketo Engage中的帳戶資料來建立帳戶區段和清單。 這表示，如果Adobe Experience Platform的科目節段未主動同步至Marketo Engage，Journey Optimizer B2B edition科目清單中可能無法使用該Experience Platform節段中的科目。 接著，Experience Platform區段中，未同步至Marketo Engage之帳戶的任何人員，都不會納入人員會籍計數或觸發事件中。
 
 ## 存取和瀏覽帳戶清單
 
@@ -170,65 +173,3 @@ ht-degree: 1%
 動態帳戶清單的狀態變更為&#x200B;_[!UICONTROL 即時]_，且可用於[帳戶歷程](#account-list-usage-in-account-journeys)中使用。
 
 >[!ENDTABS]
-
-## 帳戶歷程中的帳戶清單使用情況
-
-您有三種方式可以在帳戶歷程中合併即時（已發佈）帳戶清單：
-
-### 帳戶對象節點
-
-1. 為起始&#x200B;_帳戶對象_&#x200B;節點選取&#x200B;**[!UICONTROL 帳戶清單]**。
-
-   ![選取帳戶對象節點的帳戶清單選項](../journeys/assets/node-audience-account-list.png){width="500"}
-
-1. 按一下&#x200B;**[!UICONTROL 新增帳戶清單]**。
-
-1. 選取帳戶清單的核取方塊，然後按一下[儲存]。****
-
-   ![選取帳戶對象節點的帳戶清單選項](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
-
-清單中的帳戶在歷程上線（發佈）時進行移動。
-
-### 採取動作節點 — 新增至帳戶
-
-**_僅限靜態帳戶清單_**
-
-使用[a _執行動作_&#x200B;節點](../journeys/action-nodes.md)將帳戶新增至靜態帳戶清單。
-
-例如，您可能有傳送電子郵件的歷程路徑，且某些帳戶會將各種動作視為回應動作。 您將此活動視為歷程中的資格點，並想要將其新增至帳戶清單，該清單用來作為另一個歷程的對象，該歷程具有不同的合格帳戶流程。
-
->[!NOTE]
->
->如果節點執行時帳戶已在清單中，則會忽略動作。
-
-1. 選取&#x200B;]_**[!UICONTROL 帳戶]**上的_[!UICONTROL &#x200B;動作選項。
-
-1. 若為帳戶&#x200B;]_上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至帳戶清單]**。
-
-   ![選取[新增至帳戶清單]](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
-
-1. 若為&#x200B;**[!UICONTROL 選取即時靜態帳戶清單]**，請選擇您要新增帳戶的帳戶清單。
-
-   ![選取[新增至帳戶清單]](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
-
-### 採取動作節點 — 從帳戶移除
-
-**_僅限靜態帳戶清單_**
-
-使用[a _執行動作_&#x200B;節點](../journeys/action-nodes.md)，從靜態帳戶清單中移除帳戶。
-
-例如，您可能有傳送電子郵件的歷程路徑，且某些帳戶會將各種動作視為回應動作。 您將此活動視為歷程中的資格點，並想要將其從帳戶清單中移除，該帳戶清單用於作為另一個傳送其他電子郵件的歷程的受眾，以便您不會複製您的資格通訊。
-
->[!NOTE]
->
->如果帳戶不在排定移除的清單中，則會忽略動作。
-
-1. 選取&#x200B;]_**[!UICONTROL 帳戶]**上的_[!UICONTROL &#x200B;動作選項。
-
-1. 若為帳戶&#x200B;]_上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 從帳戶清單移除]**。
-
-   ![選取[新增至帳戶清單]](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
-
-1. 若為&#x200B;**[!UICONTROL 選取即時靜態帳戶清單]**，請選擇您要移除帳戶的帳戶清單。
-
-   ![選取[新增至帳戶清單]](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
