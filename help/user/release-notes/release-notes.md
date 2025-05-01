@@ -2,9 +2,9 @@
 title: 發行說明
 description: Adobe Journey Optimizer B2B Edition 最新發行說明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f4c0870e3cf8a8c1db3ed2f11f7ecfdf244f69fe
+source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2004'
 ht-degree: 92%
 
 ---
@@ -27,7 +27,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | ---- | ---- | ----------- |
 | 功能 | 帳戶清單 | 現在您可以建立靜態或動態帳戶清單，根據您定義的標準 (例如產業、地點或公司規模) 選定已命名帳戶。<a href="../accounts/account-lists.md">了解更多</a> |
 | 功能 | 帳戶清單歷程協調 | 使用歷程動作節點為靜態帳戶清單新增和移除帳戶。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解更多</a> |
-| 增強功能 | Marketo Engage中的篩選歷程會籍 | 對歷程對象使用Adobe Journey Optimizer B2B edition帳戶清單，然後在Marketo Engage智慧清單中使用&#x200B;_帳戶清單成員_&#x200B;篩選器。 &lt;a href=&quot;../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list>深入瞭解</a> |
+| 增強功能 | Marketo Engage中的篩選歷程會籍 | 對歷程對象使用Adobe Journey Optimizer B2B edition帳戶清單，然後在Marketo Engage智慧清單中使用&#x200B;_帳戶清單成員_&#x200B;篩選器。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解更多</a> |
 | 功能 | 非使用狀態篩選器 | 根據Marketo Engage行銷活動和方案中的不活動來協調歷程，包括電子郵件不活動、有趣的時刻、資料值變更和造訪的網頁。 <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">了解更多</a> |
 | 增強功能 | 已造訪的網頁篩選器 | 根據與Marketo Engage行銷活動和方案相關聯的已造訪網頁的活動，編排歷程。 <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解更多</a> |
 
