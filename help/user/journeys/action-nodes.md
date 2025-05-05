@@ -171,7 +171,7 @@ _若要使用現有的對象：_
 
 +++[!UICONTROL 傳送電子郵件]
 
-使用此動作傳送電子郵件。 您可以在視覺化設計工具中建立、個人化及預覽電子郵件訊息（請參閱[電子郵件製作](../content/email-authoring.md)）。 您也可以從Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}傳送[電子郵件。 選取Marketo Engage工作區，然後選取要傳送的電子郵件。
+使用此動作傳送電子郵件。 您可以在視覺化設計工具中建立、個人化及預覽電子郵件訊息（請參閱[電子郵件製作](../content/email-authoring.md)）。 您也可以從Marketo Engage[&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}傳送電子郵件。 選取Marketo Engage工作區，然後選取要傳送的電子郵件。
 
 ![採取動作 — 傳送電子郵件](./assets/node-action-send-email-from-marketo.png){width="300"}
 

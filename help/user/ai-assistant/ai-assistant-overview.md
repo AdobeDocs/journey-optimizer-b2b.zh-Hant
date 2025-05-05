@@ -13,11 +13,11 @@ ht-degree: 4%
 
 # Journey Optimizer B2B edition中的AI助理
 
-Journey Optimizer B2B edition中的AI助理是從Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)中[AI助理的相同技術基礎建立的。 這是一種對話式體驗，可用來加速Adobe Journey Optimizer B2B edition的工作流程。 您可以使用 AI 助手更深入地了解產品功能、排查問題或搜尋資訊，並查找旅程優化版的運營見解B2B。
+Journey Optimizer B2B edition中的AI助理是從Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)中AI助理的相同技術基礎建立的。 這是一種對話式體驗，可用來加速Adobe Journey Optimizer B2B edition的工作流程。 您可以使用 AI 助手更深入地了解產品功能、排查問題或搜尋資訊，並查找旅程優化版的運營見解B2B。
 
 >[!IMPORTANT]
 >
->您需要同意用戶指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，[才能在 Journey Optimizer B2B 版中使用 AI 助手。此協定還包含公開測試版協定，以便你可以在其他 AI 助手功能以測試版功能推出時使用這些功能。
+>您需要同意用戶指南[&#128279;](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在 Journey Optimizer B2B 版中使用 AI 助手。此協定還包含公開測試版協定，以便你可以在其他 AI 助手功能以測試版功能推出時使用這些功能。
 
 +++檢視用戶協議介面
 
@@ -29,7 +29,7 @@ Journey Optimizer B2B edition中的AI助理是從Adobe Experience Platform](http
 
 ## Journey Optimizer B2B Edition 的 AI Assistant 功能
 
-為了對您提交的問題做出回應，AI 助手會查詢資料庫並將資料庫中的數據轉換為人類可讀的答案。 此回應是基礎數據的內部表示，也稱為&#x200B;_**_知識圖譜_**_ - 給定答案的概念，數據和中繼資料的綜合網路。 知識圖譜由子圖組成，每當提交查詢時都會引用這些子圖：
+為了對您提交的問題做出回應，AI 助手會查詢資料庫並將資料庫中的數據轉換為人類可讀的答案。 此回應是基礎數據的內部表示，也稱為&#x200B;_&#x200B;**_知識圖譜_**&#x200B;_ - 給定答案的概念，數據和中繼資料的綜合網路。 知識圖譜由子圖組成，每當提交查詢時都會引用這些子圖：
 
 * Experience League 檔。
 * 作工件，例如架構、欄位、受眾和旅程。
@@ -59,7 +59,7 @@ _營運深入分析_&#x200B;參考由AI助理產生的中繼資料物件（屬�
 | 網域 | 支援的中繼資料 | 不支持的中繼資料 |
 | --- | --- | --- |
 | 屬性/欄位 | <li>属性名稱搜尋 <li>屬性 - 綱要關係 <li>屬性 - 資料集關係 <li>屬性 — 對象關係 <li>屬性 — 目的地關係 | <li>屬性類別 <li>稽核 <li>淘汰狀態 <li>標記 <li>儲存在屬性中的值 |
-| 帳戶對象&#x200B;<br><br>**_注意：_**AJO B2B AI助理只能回答帳戶對象的對象問題，而Experience Platform AI助理只能回答個人對象的問題 | <li>客群計數 <li>對象型別（串流或批次） <li>建立/修改日期 <li>啟用狀態 <li>會員計數 <li>重複的物件 <li>名稱和 ID 搜尋 | <li>客群重疊 <li>客群啟用 <li>稽核 <li>建立/修改 <li>標記 <li>成員資格趨勢 |
+| 帳戶對象&#x200B;<br><br>**_注意：_**&#x200B;AJO B2B AI助理只能回答帳戶對象的對象問題，而Experience Platform AI助理只能回答個人對象的問題 | <li>客群計數 <li>對象型別（串流或批次） <li>建立/修改日期 <li>啟用狀態 <li>會員計數 <li>重複的物件 <li>名稱和 ID 搜尋 | <li>客群重疊 <li>客群啟用 <li>稽核 <li>建立/修改 <li>標記 <li>成員資格趨勢 |
 | 資料流 | <li>數據流計數 <li>資料流程狀態 <li>數據流 - 資料集關係 <li>數據流 - 源關係 | <li>建立/修改 <li>數據流-批處理關係 <li>引入設定檔計数 |
 | 資料集 | <li>數據集計數 <li>配置檔啟用狀態 <li>創建/修改日期 <li>資料集 — 結構描述關係 <li>資料集 — 對象關係 <li>資料集 — 屬性關係 <li>資料集 — 資料流關係 <li>名稱搜尋 <li>名稱和ID搜尋 | <li>稽核 <li>建立者 <li>資料集 — 批次關係 <li>資料集建立/修改 <li>資料集大小 <li>設定檔數 <li>列數 <li>值搜尋 |
 | 目的地 | <li>設定的目的地計數 <li>目的地 — 對象關係 <li>目的地屬性關係 | <li>帳戶設定 <li>帳戶認證資訊 <li>啟用的不重複設定檔 |

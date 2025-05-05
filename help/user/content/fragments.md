@@ -61,13 +61,13 @@ ht-degree: 2%
 
 按一下右上角的&#x200B;_自訂表格_&#x200B;圖示（![自訂表格圖示](../assets/do-not-localize/icon-column-settings.svg)），自訂您要顯示在表格中的欄。
 
-在對話框中，選擇要顯示的列，然後按兩下套用&#x200B;****。
+在對話框中，選擇要顯示的列，然後按兩下套用&#x200B;**&#x200B;**。
 
 ![選擇要顯示的欄](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## 建立內容片段
 
-您可以在 Journey Optimizer B2B Edition 中按兩下右上角的片段&#x200B;]**建立創建新的**[!UICONTROL &#x200B;視覺片段。
+您可以在 Journey Optimizer B2B Edition 中按兩下右上角的片段&#x200B;**建立創建新的**&#x200B;視覺片段。
 
 1. 在「 _[!UICONTROL 建立片段]_ 」對話框中，輸入實用 **[!UICONTROL 的名稱]** 和 **[!UICONTROL 說明]** （可選）。
 
@@ -98,7 +98,7 @@ ht-degree: 2%
 
 1. 隨時按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存草稿片段。
 
-1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下[發佈]。****
+1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下[發佈]。**&#x200B;**
 
 ## 檢視片段詳細數據
 
@@ -176,7 +176,7 @@ ht-degree: 2%
    * [啟用自訂欄位](./fragment-authoring.md#enable-fragment-customization)
    * [編輯鏈接URL追踪](./fragment-authoring.md#edit-linked-url-tracking)
 
-   按兩下&#x200B;**[!UICONTROL 儲存，或**[!UICONTROL &#x200B;儲存並關閉&#x200B;]**以返回片]**&#x200B;段詳細資訊。
+   按兩下&#x200B;**[!UICONTROL 儲存，或**&#x200B;[!UICONTROL &#x200B;儲存並關閉&#x200B;]&#x200B;**以返回片]**&#x200B;段詳細資訊。
 
 1. 當片段符合您的條件且您想要在電子郵件或電子郵件範本中使用時，請按一下&#x200B;**[!UICONTROL 發佈]**。
 
@@ -205,7 +205,7 @@ ht-degree: 2%
    * [啟用自訂欄位](./fragment-authoring.md#enable-fragment-customization)
    * [編輯連結的URL追蹤](./fragment-authoring.md#edit-linked-url-tracking)
 
-   按兩下&#x200B;**[!UICONTROL 儲存，或**[!UICONTROL &#x200B;儲存並關閉&#x200B;]**以返回片]**&#x200B;段詳細資訊。
+   按兩下&#x200B;**[!UICONTROL 儲存，或**&#x200B;[!UICONTROL &#x200B;儲存並關閉&#x200B;]&#x200B;**以返回片]**&#x200B;段詳細資訊。
 
 1. 當草稿片段符合您的條件，並且您希望使更改可用於電子郵件或電子郵件範本時，按兩下 **[!UICONTROL Publish]**。
 
@@ -213,7 +213,7 @@ ht-degree: 2%
 
 >[!TAB 與草稿一起發佈]
 
-有兩種方法可以從片段&#x200B;]_列表頁面打開_[!UICONTROL &#x200B;草稿版本進行編輯：
+有兩種方法可以從片段&#x200B;_列表頁面打開_&#x200B;草稿版本進行編輯：
 
 * _按兩下片段名稱旁邊的更多_&#x200B;圖示 （**...**），然後選擇&#x200B;**[!UICONTROL 打開草稿版本]**。
 
@@ -261,7 +261,7 @@ ht-degree: 2%
 
 在視覺內容編輯器中建立/編輯電子郵件或電子郵件範本時，您可以選擇將內容的所有或部分儲存為片段，以便重複使用。
 
-1. 當您將某些內容儲存為片段時，請按一下[其他] ****，然後選擇[另存為片段] ]**。**[!UICONTROL 
+1. 當您將某些內容儲存為片段時，請按一下[其他] **&#x200B;**，然後選擇[另存為片段] **。**
 
 1. 選取要包含在片段中的不同元素。
 
@@ -285,9 +285,9 @@ ht-degree: 2%
 
 1. 導航到 **[!UICONTROL 帳戶歷程]** 並打開現有歷程或創建新歷程。
 
-1. 建立[_[!UICONTROL 傳送電子郵件&#x200B;]_節點](./email-authoring.md#add-an-email-action-in-an-account-journey)。
+1. 建立[_[!UICONTROL 傳送電子郵件&#x200B;]_&#x200B;節點](./email-authoring.md#add-an-email-action-in-an-account-journey)。
 
-1. 建立或編輯節點](./email-authoring.md#create-the-email-content)的[電子郵件內容。
+1. 建立或編輯節點[&#128279;](./email-authoring.md#create-the-email-content)的電子郵件內容。
 
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表拖放專案，以提供片段的&#x200B;_結構_。
 

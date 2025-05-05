@@ -43,7 +43,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 * 若要自訂表格中顯示的欄，請按一下右上方的&#x200B;_自訂表格_&#x200B;圖示（ ![自訂表格](../assets/do-not-localize/icon-column-settings.svg)）。
 
-  選取您要顯示在清單中的資料行，然後按一下[套用]。****
+  選取您要顯示在清單中的資料行，然後按一下[套用]。**&#x200B;**
 
 ## 檢視資產詳細資訊
 
@@ -97,7 +97,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 使用下列其中一種方法來刪除位於&#x200B;_[!UICONTROL Journey Optimizer B2B edition]_&#x200B;工作區的資產：
 
-* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，並從選項中選擇[刪除]。****
+* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，並從選項中選擇[刪除]。**&#x200B;**
 
   ![存取資產的動作](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
@@ -117,7 +117,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 使用下列其中一種方法來取代位於&#x200B;_[!UICONTROL Journey Optimizer B2B edition]_&#x200B;工作區中的資產：
 
-* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，然後從選項中選擇[取代]。****
+* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，然後從選項中選擇[取代]。**&#x200B;**
 
 * 在&#x200B;_[!UICONTROL Assets]_&#x200B;清單頁面上，按一下資產專案旁的&#x200B;_更多_&#x200B;圖示(**[!UICONTROL ...]**)，然後從選項中選擇&#x200B;**[!UICONTROL 取代]**。
 
@@ -125,7 +125,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 ![取代資產對話方塊](./assets/assets-replace-dialog.png){width="500"}
 
-若要繼續，請按一下[取代]。**** 您可以按一下&#x200B;**[!UICONTROL 取消]**，中止程式。
+若要繼續，請按一下[取代]。**&#x200B;** 您可以按一下&#x200B;**[!UICONTROL 取消]**，中止程式。
 
 如果要取代的檔案正在使用中，資訊對話方塊會警告您新的影像檔案會在所有使用位置（電子郵件、電子郵件範本和片段）取代影像。
 

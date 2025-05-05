@@ -55,7 +55,7 @@ _若要修改影像：_
 
    ![在Adobe Express編輯器中開啟影像](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
-   如果影像正在使用中，則會出現警示對話方塊，通知您所做的任何變更都將影響該內容。 按一下[繼續]****&#x200B;以繼續進行Adobe Express編輯器。
+   如果影像正在使用中，則會出現警示對話方塊，通知您所做的任何變更都將影響該內容。 按一下[繼續]&#x200B;**&#x200B;**&#x200B;以繼續進行Adobe Express編輯器。
 
    ![警示提供有關影像使用方式的資訊](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
@@ -85,7 +85,7 @@ _若要修改影像：_
 
    ![選取編輯型別以修改影像](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. 當您返回主要Adobe Express快速動作編輯器時，按一下「儲存」****，使用相同的檔案名稱將修改後的影像檔案儲存在Journey Optimizer B2B edition資產工作區中。
+1. 當您返回主要Adobe Express快速動作編輯器時，按一下「儲存」**&#x200B;**，使用相同的檔案名稱將修改後的影像檔案儲存在Journey Optimizer B2B edition資產工作區中。
 
 ## 調整影像大小
 
@@ -95,17 +95,17 @@ _若要修改影像：_
 
    * 顯示的&#x200B;_[!UICONTROL 原始大小]_&#x200B;和&#x200B;_[!UICONTROL 壓縮大小]_&#x200B;顯示您套用變更時所導致的大小變更。 **[!UICONTROL 縮放與裁切]**&#x200B;工具可讓您更密切地檢查顯示的影像部分。
 
-   * 如果要將影像回覆成原始狀態，請按一下[重設]。****
+   * 如果要將影像回覆成原始狀態，請按一下[重設]。**&#x200B;**
 
    ![使用Adobe Express編輯 — 調整影像大小](./assets/assets-edit-adobe-express-resize-image.png){width="600" zoomable="yes"}
 
-1. 當您對結果滿意時，請按一下[套用]。****
+1. 當您對結果滿意時，請按一下[套用]。**&#x200B;**
 
 ## 移除背景
 
 ![使用Adobe Express編輯 — 移除背景](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
-Adobe Express會執行自動移除背景，以隔離影像中的主要物件。 如果您對結果滿意，請按一下[套用]。****
+Adobe Express會執行自動移除背景，以隔離影像中的主要物件。 如果您對結果滿意，請按一下[套用]。**&#x200B;**
 
 ## 裁切影像
 
@@ -113,7 +113,7 @@ Adobe Express會執行自動移除背景，以隔離影像中的主要物件。 
 
    ![使用Adobe Express編輯 — 裁切影像](./assets/assets-edit-adobe-express-crop-image.png){width="600" zoomable="yes"}
 
-1. 當您對結果滿意時，請按一下[套用]。****
+1. 當您對結果滿意時，請按一下[套用]。**&#x200B;**
 
 ## 轉換檔案格式
 
