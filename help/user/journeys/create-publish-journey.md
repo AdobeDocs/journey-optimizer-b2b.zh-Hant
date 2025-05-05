@@ -136,4 +136,4 @@ _歷程地圖_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443230/?learn=on&captions=chi_hant)
