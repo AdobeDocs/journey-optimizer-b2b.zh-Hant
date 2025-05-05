@@ -77,9 +77,9 @@ _營運深入分析_&#x200B;參考由AI助理產生的中繼資料物件（屬�
 
 目前，AI 助手範圍如下：
 
-* [產品知識](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#product-knowledge)：AI助手可以回答即時客戶數據Platform和Adobe Systems旅程優化B2B版的產品知識問題。
+* [產品知識](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home#product-knowledge)：AI助手可以回答即時客戶數據Platform和Adobe Systems旅程優化B2B版的產品知識問題。
 
-* [運營見解](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights)：可以向 AI Assistant 提問，以獲取以下數據物件的作見解：屬性、帳戶受眾、數據流、數據集、目標、帳戶旅程、架構、源、購買群組範本和解決方案興趣。
+* [運營見解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home#operational-insights)：可以向 AI Assistant 提問，以獲取以下數據物件的作見解：屬性、帳戶受眾、數據流、數據集、目標、帳戶旅程、架構、源、購買群組範本和解決方案興趣。
 
 ### 隱私、安全和治理
 
@@ -91,7 +91,7 @@ Journey Optimizer B2B Edition 中的 AI Assistant 在構建時將隱私、安全
 
 * 您必須有明確的許可權才能與AI助理互動。
 
-   * 管理員可以使用[許可權UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)和[Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse)來設定許可權。
+   * 管理員可以使用[許可權UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions)和[Admin Console](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/browse)來設定許可權。
 
    * 許可權很細微，您的沙箱管理員可以設定哪些使用者可以提出不同的問題類別（使用AI Assistant的產品知識型問題或操作深入分析的問題）。
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。 您應該確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。<br/>
+>AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。 您應該確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。<br/>
 >根據您的合約和設定，在設計視覺內容時，可以直接從Adobe Experience Manager Assets B2B edition存取Adobe Journey Optimizer as a Cloud Service 。
 
 ## 內容製作 — 元件 — 結構步驟 {#structures-step}

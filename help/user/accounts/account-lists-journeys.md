@@ -74,7 +74,7 @@ ht-degree: 0%
 
 行銷人員可能會想要在Marketo Engage中隱藏Journey Optimizer B2B edition中帳戶清單組成人員的計畫。
 
-在連線至Journey Optimizer B2B edition的Marketo Engage執行個體中，您可以在智慧清單中使用&#x200B;_[!UICONTROL 帳戶清單成員]_&#x200B;篩選器，根據您的行銷活動策略來識別這些銷售機會。 如需智慧列示的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}。
+在連線至Journey Optimizer B2B edition的Marketo Engage執行個體中，您可以在智慧清單中使用&#x200B;_[!UICONTROL 帳戶清單成員]_&#x200B;篩選器，根據您的行銷活動策略來識別這些銷售機會。 如需智慧列示的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}。
 
 ### 將篩選器新增至智慧清單
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. 在行銷活動流程中，新增&#x200B;**[!UICONTROL 新增至清單]**&#x200B;步驟，並從Journey Optimizer B2B edition帳戶清單中選擇要填入人員的清單。
 
-   請參閱Marketo Engage檔案中的&#x200B;_[將流程步驟新增至智慧行銷活動](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_，以取得有關將步驟新增至流程的詳細資訊。
+   請參閱Marketo Engage檔案中的&#x200B;_[將流程步驟新增至智慧行銷活動](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_，以取得有關將步驟新增至流程的詳細資訊。
 
 ### 檢閱成員
 

@@ -69,7 +69,7 @@ _若要修改影像：_
 
 ![在Adobe ExpressEnterprise編輯器中開啟影像](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-[Adobe Express使用手冊](https://helpx.adobe.com/express/user-guide.html){target="_blank"}提供可用編輯功能的詳細資訊。
+[Adobe Express使用手冊](https://helpx.adobe.com/tw/express/user-guide.html){target="_blank"}提供可用編輯功能的詳細資訊。
 
 ## Adobe Express中的快速動作
 
