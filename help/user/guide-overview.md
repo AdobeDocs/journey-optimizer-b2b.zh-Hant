@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition 文件
 description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，透過內建的生成式 AI 和領先業界的自動化功能，協調帳戶和購買群組歷程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -13,33 +13,33 @@ ht-degree: 65%
 
 ## 新增功能
 
-以下是Journey Optimizer B2B edition應用程式和檔案的最新新增和增強功能範例。
+以下是 Journey Optimizer B2B Edition 應用程式和文件中最新新增與增強之內容範例。
 
 >[!BEGINTABS]
 
 >[!TAB 帳戶清單]
 
-建立帳戶清單，這是行銷人員可用於目標歷程協調的具名帳戶集合。 帳戶清單可依據您定義的條件（例如產業、地點或公司規模）來鎖定已命名的帳戶。
+建立一個帳戶清單，清單內含一組可供行銷人員用於目標歷程協調的已命名帳戶。帳戶清單可根據您定義的標準 (例如產業、地點或公司規模) 選定已命名帳戶。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="瞭解帳戶清單"}
+[!BADGE 了解更多]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="了解帳戶清單"}
 
->[!TAB 智慧清單的帳戶清單篩選器]
+>[!TAB 製作智慧清單的帳戶清單篩選器]
 
-您現在可以使用帳戶清單篩選器來篩選Marketo Engage智慧清單。 這些篩選器可讓您從Journey Optimizer B2B edition內的帳戶歷程中，隱藏和包含Marketo Engage行銷活動和方案中的帳戶清單成員。
+現在您可以使用帳戶清單篩選器來篩選 Marketo Engage 智慧清單。您可以透過 Journey Optimizer B2B Edition 內的帳戶歷程，利用這些篩選器來排除和納入在 Marketo Engage 行銷活動和方案中的帳戶清單成員。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="瞭解Marketo Engage智慧清單中使用的帳戶清單篩選器"}
+[!BADGE 了解更多]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="了解有關 Marketo Engage 智慧清單所使用的帳戶清單篩選器"}
 
->[!TAB 非使用狀態歷程記錄篩選器]
+>[!TAB 閒置狀態歷史記錄篩選器]
 
-進度歷程是根據Marketo Engage行銷活動和方案中的不活動，包括電子郵件、有趣的時刻、資料值變更和造訪的網頁。
+根據 Marketo Engage 行銷活動和方案 (包括電子郵件、有趣時刻、資料值變更以及造訪過的網頁) 中的閒置狀態來推動歷程。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="瞭解非使用狀態歷史記錄篩選器"}
+[!BADGE 了解更多]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="了解閒置狀態歷史記錄篩選器"}
 
 >[!TAB 歷程重複]
 
-複製您的帳戶歷程結構以儘量減少手動錯誤，並確保一致的設定、流程和路徑。 在重複的歷程中，您可以調整內容或動作，更輕鬆地管理更大和更複雜的行銷活動&#x200B;。
+複製帳戶歷程結構，以盡量減少手動錯誤，並確保設定、流程和路徑的一致性。在重複的歷程中，您可以調整內容或動作，從而更輕鬆地管理更大型且更複雜的行銷活動。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="瞭解歷程重複"}
+[!BADGE 了解更多]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="了解歷程複製"}
 
 >[!TAB 智慧深入分析儀表板]
 
@@ -51,13 +51,13 @@ ht-degree: 65%
 
 使用 Adobe Express 快速動作，透過裁切、調整大小、移除背景和轉換格式來修飾您的內容。內建直覺易用的 Adobe Express 使用者介面，可讓您快速微調影像資產。
 
-透過 Adobe Express Enterprise 授權，您可以利用全套 Adobe Express 功能。使用這些功能來改善和增強影像，同時遵守品牌方針，並移除內容供應鏈中的障礙。
+透過 Adobe Express Enterprise 授權，您可以利用全套 Adobe Express 功能。您可以使用這些功能，在遵守品牌準則的情況下修飾和增強影像，並移除內容供應鏈中的障礙。
 
 [!BADGE 了解更多]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="了解如何使用 Adobe Express 編輯影像"}
 
 >[!TAB 片段的可自訂欄位]
 
-作為內容設計者，您可以將片段中某個元件的參數指定為可編輯。此設定可讓電子郵件或範本作者指定自訂欄位值，以符合其需求。 此自訂標幟僅限影像、文字和按鈕視覺元件使用。
+作為內容設計者，您可以將片段中某個元件的參數指定為可編輯。電子郵件或範本作者可以使用這項設定，依照本身需求指定自訂欄位值。此自訂標幟僅限影像、文字和按鈕視覺元件使用。
 
 [!BADGE 了解更多]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="了解內容片段的自訂欄位"}
 
@@ -139,7 +139,7 @@ ht-degree: 65%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">文件</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
