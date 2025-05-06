@@ -5,7 +5,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
 source-wordcount: '2004'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,21 +15,21 @@ Adobe Journey Optimizer B2B Edition 持續提供新功能、增強現有功能�
 
 Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方式建置，並繼承其最新的創新功能和改進項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/latest){target="_blank"}。
 
-檢閱[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，以取得權益、效能護欄和限制的相關資訊。
+請檢視此[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，以了解有關權益、效能護欄及限制的資訊。
 
 ## 2025.4 發行說明
 
-**發行日期**： 2025年4月29日
+**發行日期**：2025 年 4 月 29 日
 
 此版本包括下列新功能和增強功能：
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 帳戶清單 | 現在您可以建立靜態或動態帳戶清單，根據您定義的標準 (例如產業、地點或公司規模) 選定已命名帳戶。<a href="../accounts/account-lists.md">了解更多</a> |
-| 功能 | 帳戶清單歷程協調 | 使用歷程動作節點為靜態帳戶清單新增和移除帳戶。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解更多</a> |
-| 增強功能 | Marketo Engage中的篩選歷程會籍 | 對歷程對象使用Adobe Journey Optimizer B2B edition帳戶清單，然後在Marketo Engage智慧清單中使用&#x200B;_帳戶清單成員_&#x200B;篩選器。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解更多</a> |
-| 功能 | 非使用狀態篩選器 | 根據Marketo Engage行銷活動和方案中的不活動來協調歷程，包括電子郵件不活動、有趣的時刻、資料值變更和造訪的網頁。 <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">了解更多</a> |
-| 增強功能 | 已造訪的網頁篩選器 | 根據與Marketo Engage行銷活動和方案相關聯的已造訪網頁的活動，編排歷程。 <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解更多</a> |
+| 功能 | 帳戶清單歷程協調 | 使用歷程動作節點來新增和移除靜態帳戶清單的帳戶。<a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解更多</a> |
+| 增強功能 | 在 Marketo Engage 中篩選歷程會籍 | 使用 Adobe Journey Optimizer B2B Edition 帳戶清單作為歷程客群，然後使用 Marketo Engage 智慧清單中的「_帳戶清單成員_」篩選器。<a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解更多</a> |
+| 功能 | 閒置狀態篩選器 | 根據 Marketo Engage 行銷活動和方案 (包括電子郵件閒置狀態、有趣時刻、資料值變更以及造訪過的網頁) 中的閒置狀態來協調歷程。<a href="../journeys/split-merge-paths-nodes.md#activity-filtering">了解更多</a> |
+| 增強功能 | 造訪過的網頁篩選器 | 根據所造訪過與 Marketo Engage 行銷活動和方案相關之網頁的活動來協調歷程。<a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解更多</a> |
 
 ## 2025.3 發行說明
 
@@ -39,7 +39,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 重複的帳戶歷程 | 帳戶歷程現在提供重複動作。 您可以複製帳戶歷程的詳細資訊，或只是流程及路徑結構的簡單骨架。 <a href="../journeys/journey-overview.md#duplicate-journey">了解更多</a> |
+| 功能 | 重複帳戶歷程 | 現在可以對帳戶歷程執行重複動作。您可以重複帳戶歷程的詳細資訊，或僅重複流程和路徑架構的基本框架。<a href="../journeys/journey-overview.md#duplicate-journey">了解更多</a> |
 | 功能 | 帳戶歷程適用的「我的權杖」 | 現在您可以使用帳戶歷程特定的數值定義一組自訂權杖。這組自訂權杖稱為「_我的權杖_」，而且在製作歷程電子郵件時，任何這些自訂權杖均供個人化使用。<a href="../content/personalization-my-tokens.md">了解更多</a> |
 | 功能 | 刪除購買群組階段 | 您可以刪除處於草稿或已發佈狀態的購買群組階段模型。若購買群組階段模型是已發佈 (上線) 狀態，則唯有在其與解決方案無利害關係時，才能刪除。<a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">了解更多</a> |
 | 增強功能 | 歷程節點數 | 提高在節點層級的已發佈歷程會員數量的可見度。在「_歷程圖_」中，節點顯示「_[!UICONTROL 輸入的帳戶總數]_」。當您選擇並操作節點時，右側的詳細資訊還包括「_[!UICONTROL 尚未採取動作的帳戶]_」。_監聽事件_&#x200B;節點的詳細資訊包括「_[!UICONTROL 此步驟中的帳戶]_」。使用此資訊來驗證已上線、已完成和已中止歷程中的帳戶進度。 |
