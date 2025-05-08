@@ -21,7 +21,7 @@ ht-degree: 3%
 
 * **存取應用程式：**&#x200B;您可以在Adobe Journey Optimizer B2B edition中存取AI小幫手。
 
-* **許可權：**&#x200B;使用[許可權UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}授與或撤銷您組織中AI助理的存取權。 若要使用AI小幫手，指定的使用者必須屬於設定了&#x200B;**啟用AI小幫手**&#x200B;和&#x200B;**檢視作業分析**&#x200B;許可權的角色。
+* **許可權：**&#x200B;使用[許可權UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}授與或撤銷您組織中AI助理的存取權。 若要使用AI小幫手，指定的使用者必須屬於設定了&#x200B;**啟用AI小幫手**&#x200B;和&#x200B;**檢視作業分析**&#x200B;許可權的角色。
 
 身為管理員，您可以：
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 ![指派AI助理員許可權](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-使用許可權UI來授與在Journey Optimizer B2B edition中使用AI助理的許可權。 如需有關存取Experience Platform和其他Experience Cloud應用程式中的AI助理的資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}。
+使用許可權UI來授與在Journey Optimizer B2B edition中使用AI助理的許可權。 如需有關存取Experience Platform和其他Experience Cloud應用程式中的AI助理的資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access){target="_blank"}。
 
 當使用者擁有必要的許可權時，他們可以存取AI助理，方法是選取您正在使用的應用程式頂端標題上的&#x200B;_AI助理_&#x200B;圖示。
 
