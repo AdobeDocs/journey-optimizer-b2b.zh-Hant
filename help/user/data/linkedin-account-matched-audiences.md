@@ -1,19 +1,19 @@
 ---
-title: LinkedIn帳戶比對的對象
+title: LinkedIn Account Matched Audiences
 description: 瞭解如何連結LinkedIn帳戶並啟用購買群組的資料流。
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
-# LinkedIn帳戶比對的對象
+# LinkedIn Account Matched Audiences
 
-Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生LinkedIn廣告受眾，其目的是協助您在購買群組中填入空角色。 透過定義一組購買群組篩選器，您可以維護「LinkedIn相符對象」，以鎖定符合您購買群組引數的潛在客戶。 此功能可運用Experience Platform目的地來管理整合的某些層面。 資料流上限為10個。
+Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生LinkedIn廣告受眾，其目的是協助您在購買群組中填入空角色。 透過定義一組購買群組篩選器，您可以維護「LinkedIn相符對象」，以鎖定符合您購買群組引數的潛在客戶。 此功能善用 Experience Platform 目標來管理整合的某些部分。資料流上限為10個。
 
-在從Journey Optimizer B2B edition起始資料流之前，您必須至少有一個[（公司） LinkedIn相符對象目的地聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/social/linkedin#connect)的執行個體，而且已在Experience Platform應用程式中設定LinkedIn促銷活動管理員帳戶。
+在從Journey Optimizer B2B edition起始資料流之前，您必須至少有一個[（公司） LinkedIn相符對象目的地聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的執行個體，而且已在Experience Platform應用程式中設定LinkedIn促銷活動管理員帳戶。
 
 ## 設定新的 LinkedIn 帳戶連結 {#linkedin-destination-setup}
 
@@ -56,7 +56,7 @@ Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生Linked
 
 1. 針對您建立的新帳戶，按一下&#x200B;_更多_ (**...**)功能表，然後選擇&#x200B;**[!UICONTROL 編輯詳細資料]**。
 
-   ![編輯帳戶詳細資料](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
+   ![編輯帳戶詳細資訊](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
 
 1. 在對話方塊中，更新名稱和說明。
 
@@ -70,19 +70,19 @@ Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生Linked
 >
 >如果您已有10個資料流，則無法建立另一個資料流。 如果您已達到最大數量，請先刪除Experience Platform中的一個專案，然後再在Journey Optimizer B2B edition中建立新專案。
 
-1. 在Journey Optimizer B2B edition中，在左側導覽中前往&#x200B;**[!UICONTROL 帳戶]** > **[!UICONTROL 購買群組]**。
+1. 在 Journey Optimizer B2B Edition，前往左側導覽中的「**[!UICONTROL 帳戶]** > **[!UICONTROL 購買群組]**」。
 
-1. 選取&#x200B;**[!UICONTROL 瀏覽]**&#x200B;標籤。
+1. 選取「**[!UICONTROL 瀏覽]**」索引標籤。
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 啟用至LinkedIn目的地]**。
 
-   ![編輯帳戶詳細資料](./assets/activate-linkedin-destination.png){width="800" zoomable="yes"}
+   ![編輯帳戶詳細資訊](./assets/activate-linkedin-destination.png){width="800" zoomable="yes"}
 
 1. 為資料流提供描述性名稱和說明（選用）。
 
    儲存之後，您為資料流指定的名稱會加上&#x200B;_AJOB2B_，以協助識別Experience Platform中的資料流。
 
-1. 輸入LinkedIn行銷活動管理員帳戶[&#128279;](https://www.linkedin.com/help/lms/answer/a424270)的帳戶ID。
+1. 輸入LinkedIn行銷活動管理員帳戶](https://www.linkedin.com/help/lms/answer/a424270)的[帳戶ID。
 
    您可以在Campaign Manager UI中依帳戶名稱尋找您的帳戶ID。
 
@@ -96,7 +96,7 @@ Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生Linked
 
    ![根據購買群組指定帳戶對象篩選](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
 
-   對於&#x200B;**[!UICONTROL 參與分數]**，運運算元`Between`為包含型別，百分比範圍亦同。 例如，5.1和5都是介於&#x200B;_5和6之間的_。
+   在「**[!UICONTROL 參與度分數]**」中，`Between` 運算子是包含性的，百分比範圍亦同。例如，5.1 和 5 均是在 5 和 6 _之間_。
 
    空白條件的處理方式如同`Is Any`。
 
@@ -116,4 +116,4 @@ Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生Linked
 
 您可以透過付費媒體管道（例如LinkedIn廣告對象）與帳戶成員互動，以取得、培養客戶並符合銷售資格。 使用帳戶歷程中的&#x200B;_執行動作_&#x200B;節點，透過最適合不同帳戶成員的外部管道，自動與帳戶的主要成員進行互動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448683/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

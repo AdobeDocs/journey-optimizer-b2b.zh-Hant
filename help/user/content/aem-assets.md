@@ -3,26 +3,26 @@ title: 使用 Experience Manager Assets
 description: 瞭解如何在Adobe Journey Optimizer B2B edition中編寫內容時使用已連線AEM Assets存放庫中的影像資產。
 feature: Assets, Content
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 使用Experience Manager資產
 
-當Adobe Experience Manager Assets as a Cloud Service與Adobe Journey Optimizer B2B edition整合時，您可以輕鬆探索和存取數位資產，以用於行銷內容。 當您編寫內容時，可以從左側導覽的&#x200B;_Experience Manager Assets_&#x200B;專案存取資產，以及在編寫帳戶歷程的電子郵件內容時也可存取資產。
+Adobe Experience Manager Assets as a Cloud Service與Adobe Journey Optimizer B2B edition整合時，您可以輕鬆探索和存取數位資產，以用於行銷內容。 當您編寫內容時，可以從左側導覽的&#x200B;_Experience Manager Assets_&#x200B;專案存取資產，以及在編寫帳戶歷程的電子郵件內容時也可存取資產。
 
 {{aem-assets-licensing-note}}
 
-當您使用這些數位資產時，Assets as a Cloud Service中的最新變更會透過連結的參考自動傳播到即時電子郵件行銷活動。 如果在Adobe Experience Manager Assetsas a Cloud Service中刪除影像，這些影像在電子郵件中顯示時會有中斷的參照。 當帳戶歷程中目前使用的資產被修改或刪除時，歷程作者會收到有關影像變更和使用影像的歷程清單的通知。 對資產的所有變更必須在Adobe Experience Manager Assets中央存放庫中完成。
+當您使用這些數位資產時，Assets as a Cloud Service中的最新變更會透過連結的參考自動傳播到即時電子郵件行銷活動。 如果在Adobe Experience Manager Assets as a Cloud Service中刪除影像，這些影像在電子郵件中顯示時會有損壞的參照。 當帳戶歷程中目前使用的資產被修改或刪除時，歷程作者會收到有關影像變更和使用影像的歷程清單的通知。 對資產的所有變更必須在Adobe Experience Manager Assets中央存放庫中完成。
 
 當您的環境有一或多個[Assets存放庫連線](../admin/configure-aem-repositories.md)時，內容作者可在建立電子郵件、電子郵件範本或視覺片段時，使用AEM Assets作為資產的來源。
 
 >[!IMPORTANT]
 >
->管理員需要將存取Assets的使用者新增至Assets消費者使用者或/和Assets使用者產品設定檔。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>管理員需要將存取Assets的使用者新增至Assets消費者使用者或/和Assets使用者產品設定檔。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## 存取AEM Assets影像
 
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->目前，Adobe Journey Optimizer B2B edition僅支援Adobe Experience Manager Assets的影像資產。 必須從Adobe Experience Manager Assets中央存放庫變更資產。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>目前，Adobe Journey Optimizer B2B edition僅支援Adobe Experience Manager Assets的影像資產。 必須從Adobe Experience Manager Assets中央存放庫變更資產。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 變更顯示的存放庫
 
-如果您有多個連線的AEM存放庫，請按一下&#x200B;**[!UICONTROL 存放庫]**&#x200B;的功能表箭頭，以選擇要顯示在左側面板中的存放庫。
+如果您有多個已連線的AEM存放庫，請按一下&#x200B;**[!UICONTROL 存放庫]**&#x200B;的功能表箭頭，以選擇要顯示在左側面板中的存放庫。
 
 ![選擇AEM Assets存放庫以存取影像資產](./assets/content-assets-selector-aem-repo.png){width="700" zoomable="yes"}
 

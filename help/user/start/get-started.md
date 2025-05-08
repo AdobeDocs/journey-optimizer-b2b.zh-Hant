@@ -2,10 +2,10 @@
 title: 開始使用 Journey Optimizer B2B Edition
 description: 作為 Journey Optimizer B2B Edition 的新使用者，了解重要的入門內容。
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->有關效能護欄和靜態限制，請同時參閱您的授權權益以及相對應的[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}。
+>同時檢查您的授權權益及對應的[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，瞭解效能護欄及靜態限制。
 
 >[!BEGINTABS]
 
@@ -29,13 +29,13 @@ ht-degree: 100%
 
 請前往下列頁面，了解存取管理：
 
-1. **建立沙箱**&#x200B;以將執行個體分區到獨立的虛擬環境中。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **建立沙箱**&#x200B;以將執行個體分區到獨立的虛擬環境中。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
 1. **設定產品輪廓**。產品輪廓是 Adobe Experience Platform 中的一組單一權利，允許使用者存取介面中的某些功能或物件。[了解更多](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. 針對產品輪廓 (包括沙箱) **設定使用者權限**，並將團隊成員指派至不同的產品輪廓，藉此授予存取權。此任務會在 Admin Console 執行。[了解更多](../admin/user-management.md#create-a-user-group)
 
-1. 在 Marketo Engage 中&#x200B;**設定電子郵件傳送** ，使您的團隊能夠從帳戶旅程中發送電子郵件內容。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
+1. 在 Marketo Engage 中&#x200B;**設定電子郵件傳送** ，使您的團隊能夠從帳戶旅程中發送電子郵件內容。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
 
 1. **設定 SMS 服務**。設定其中一個受支援的第三方 SMS 供應商，該供應商獨立提供簡訊服務，並在 Adobe Journey Optimizer B2B Edition 中設定帳戶認證。[了解更多](../admin/configure-channels-sms.md)
 

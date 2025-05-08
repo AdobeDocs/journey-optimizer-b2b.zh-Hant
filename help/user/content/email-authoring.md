@@ -3,10 +3,10 @@ title: 電子郵件製作
 description: 瞭解如何建立用於帳戶歷程的個人化電子郵件內容。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 11%
 
 當您新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點並執行下列動作時，可以在帳戶歷程中設定電子郵件傳遞：
 
-1. 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
-1. 針對人員&#x200B;_的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
+1. 針對&#x200B;]_目標上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
+1. 針對人員&#x200B;]_的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
 1. 針對&#x200B;_[!UICONTROL 電子郵件來源]_，請選擇&#x200B;**[!UICONTROL 建立新電子郵件]**。
 
    或者，您也可以選取「_[!UICONTROL 從Adobe Marketo Engage選取電子郵件]_」選項，以使用Marketo Engage中預先編寫的電子郵件之一，並將其作為帳戶歷程的一部分傳送。
 
    >[!NOTE]
    >
-   >如果您是第一次建立電子郵件，請務必從Adobe Marketo Engage中設定電子郵件頻道。 若要深入瞭解，請參閱Marketo Engage檔案中的[確認電子郵件傳遞能力](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)。
+   >如果您是第一次建立電子郵件，請務必從Adobe Marketo Engage中設定電子郵件頻道。 若要深入瞭解，請參閱Marketo Engage檔案中的[確認電子郵件傳遞能力](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}。
 
    ![採取動作 — 傳送電子郵件](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -91,7 +91,7 @@ ht-degree: 11%
 
 內容完成時，請按一下頂端的&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以檢查轉譯。 您可以選擇案頭或行動檢視。
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ### 匯入現有的HTML內容
 
@@ -141,7 +141,7 @@ ht-degree: 11%
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### 個人化內容
+### 將內容個人化
 
 {{$include /help/_includes/content-design-personalization.md}}
 
@@ -212,6 +212,6 @@ ht-degree: 11%
 
 定義訊息內容後，您可以使用測試設定檔來預覽、傳送校樣，以及在熱門的案頭、行動及網頁型使用者端中控制其呈現。 如果您已插入個人化內容，您可以使用測試設定檔資料預覽此內容在訊息中的顯示方式。
 
-若要預覽電子郵件內容，請按一下[模擬內容] **&#x200B;**，然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
+若要預覽電子郵件內容，請按一下[模擬內容] ****，然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
 
 ![類比電子郵件內容以檢查您的設計](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
