@@ -3,7 +3,7 @@ title: 帳戶客群
 description: 了解帳戶客群，以及他們如何實現基於帳戶的歷程。
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
 source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
 ht-degree: 100%
 

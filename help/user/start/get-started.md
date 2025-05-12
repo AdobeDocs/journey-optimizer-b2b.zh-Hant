@@ -3,9 +3,9 @@ title: 開始使用 Journey Optimizer B2B Edition
 description: 作為 Journey Optimizer B2B Edition 的新使用者，了解重要的入門內容。
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 >[!TIP]
 >
->同時檢查您的授權權益及對應的[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，瞭解效能護欄及靜態限制。
+>如需有關效能護欄和靜態限制的資訊，請同時參閱您的授權權益以及相對應的[產品描述](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}。
 
 >[!BEGINTABS]
 
