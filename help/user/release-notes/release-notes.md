@@ -2,10 +2,10 @@
 title: 發行說明
 description: Adobe Journey Optimizer B2B Edition 最新發行說明
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
-workflow-type: ht
-source-wordcount: '2004'
-ht-degree: 100%
+source-git-commit: c3f2d57da830c46bd1e91d172db14f5400aabfca
+workflow-type: tm+mt
+source-wordcount: '2030'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,8 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 帳戶清單歷程協調 | 使用歷程動作節點來新增和移除靜態帳戶清單的帳戶。<a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解更多</a> |
 | 增強功能 | 在 Marketo Engage 中篩選歷程會籍 | 使用 Adobe Journey Optimizer B2B Edition 帳戶清單作為歷程客群，然後使用 Marketo Engage 智慧清單中的「_帳戶清單成員_」篩選器。<a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解更多</a> |
 | 功能 | 閒置狀態篩選器 | 根據 Marketo Engage 行銷活動和方案 (包括電子郵件閒置狀態、有趣時刻、資料值變更以及造訪過的網頁) 中的閒置狀態來協調歷程。<a href="../journeys/split-merge-paths-nodes.md#activity-filtering">了解更多</a> |
-| 增強功能 | 造訪過的網頁篩選器 | 根據所造訪過與 Marketo Engage 行銷活動和方案相關之網頁的活動來協調歷程。<a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解更多</a> |
+| 增強功能 | 造訪的網頁篩選器 | 根據與Marketo Engage行銷活動和方案相關聯的已造訪網頁的活動來協調歷程。 <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解更多</a> |
+| 增強功能 | 電子郵件清單 | 檢視使用中電子郵件和草稿電子郵件的全域清單，以搜尋、稽核和更新關聯帳戶歷程中的電子郵件。 <a href="../content/emails-list.md">了解更多</a> |
 
 ## 2025.3 發行說明
 
@@ -52,7 +53,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 可自訂欄位 - 內容片段 | 作為內容片段設計者，您可以將片段中某個元件的參數指定為可編輯。這樣一來，電子郵件或範本作者便可以根據本身需求指定自訂欄位值。此自訂標幟僅限影像、文字和按鈕視覺元件使用。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解更多</a> |
+| 功能 | 可自訂欄位 - 內容片段 | 作為內容片段設計者，您可以將片段中某個元件的參數指定為可編輯。此功能可讓電子郵件或範本作者指定自訂欄位值，以符合自己的需求。 此自訂標幟僅限影像、文字和按鈕視覺元件使用。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解更多</a> |
 | 功能 | B2B 內建角色和產品權限 | Experience Platform 現在包含一組內建 (預設) 角色，可用於管理對 B2B 產品功能的存取權。<a href="../admin/user-management.md#b2b-built-in-roles">了解更多</a> <br/>現在，管理員可以在 Adobe Experience Platform 中定義自訂角色，以便包含 Journey Optimizer B2B Edition 產品權限。<a href="../admin/user-management.md#b2b-product-permissions">了解更多</a> |
 | 功能 | 歷程重複類型 | 當您重複帳戶歷程時，您可以包含節點詳細資訊，但不包括 Journey Optimizer B2B Edition 中建立的電子郵件和 SMS 訊息。或者，您可以建立結構和路徑流程基本框架的副本，不需要節點詳細資訊和設定。<a href="../journeys/journey-overview.md#duplicate-journey">了解更多</a> |
 | 增強功能 | 其他四個電子郵件範本範例 | 電子郵件範本範例資料庫現在包括四個 SecurFinacial 範本，做為重新參與、通知、培養及意見回饋內容範例 |

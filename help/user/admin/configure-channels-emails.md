@@ -1,16 +1,16 @@
 ---
-title: 電子郵件設定
+title: 電子郵件通道設定
 description: 瞭解如何存取及檢閱Marketo Engage中設定的電子郵件設定。
 feature: Setup
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 3b4e4742a1913bed2b284f36be92f77b18383e0e
+source-git-commit: 35a384a848678921f10f3ad1358adec2aa017bf8
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
 
-# 電子郵件設定
+# 電子郵件通道設定
 
 Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和事件追蹤功能。 管理員應確保有傳送和追蹤設定，以啟用行銷人員的管道傳送。 如需有關透過Marketo Engage傳送電子郵件及追蹤所需通訊協定的資訊，請參閱[追蹤及電子郵件傳送通訊協定](../start/email-protocols.md)。
 
@@ -50,11 +50,11 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 
 ![存取品牌化網域設定](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-此設定會定義一或多個Marketo Engage工作區的主要網域。 新電子郵件會使用此網域作為預設值，但行銷人員可以根據每個電子郵件覆寫它。 如需詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
+此設定會定義一或多個Marketo Engage工作區的主要網域。 新電子郵件會使用此網域作為預設值，但行銷人員可以根據每個電子郵件覆寫它。 如需詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
 
 >[!NOTE]
 >
->如果您從Journey Optimizer B2B edition及連線的Marketo Engage例項中行銷多個品牌，而且希望每個品牌都有自己的品牌追蹤連結，您可以新增一個額外的品牌網域。 如需詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
+>如果您從Journey Optimizer B2B edition及連線的Marketo Engage例項中行銷多個品牌，而且希望每個品牌都有自己的品牌追蹤連結，您可以新增一個額外的品牌網域。 如需詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
 
 ### [!UICONTROL 自訂標頭選項] {#custom-header-options}
 
@@ -78,7 +78,7 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 >
 >若要在Adobe Marketo Engage中存取及編輯這些設定，您必須擁有產品管理員許可權。
 
-如需設定通訊限制的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}。
+如需設定通訊限制的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}。
 
 ## SPF/DKIM
 
@@ -145,4 +145,4 @@ Marketo Engage使用兩種方法來確認機器人活動：
 >
 >若要在Adobe Marketo Engage中存取及編輯這些設定，您必須擁有產品管理員許可權。
 
-如需設定機器人活動選項的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
+如需設定機器人活動選項的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。

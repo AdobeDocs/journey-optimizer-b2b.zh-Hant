@@ -1,52 +1,24 @@
 ---
-title: 電子郵件製作
-description: 瞭解如何建立用於帳戶歷程的個人化電子郵件內容。
+title: 電子郵件訊息製作
+description: 瞭解如何在Adobe Journey Optimizer B2B中建立電子郵件內容。 使用範本、HTML匯入和AI支援的工具，個人化和最佳化您的電子郵件通訊。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 12%
+source-wordcount: '949'
+ht-degree: 15%
 
 ---
 
-# 電子郵件編寫
+# 電子郵件訊息製作
 
-使用Adobe Journey Optimizer B2B edition傳送電子郵件訊息給您的客戶。 您可以在視覺化設計工具中建立、個人化和預覽訊息。
-
-## 在帳戶歷程中新增電子郵件動作
-
-當您新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點並執行下列動作時，可以在帳戶歷程中設定電子郵件傳遞：
-
-1. 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
-1. 針對人員&#x200B;_的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
-1. 針對&#x200B;_[!UICONTROL 電子郵件來源]_，請選擇&#x200B;**[!UICONTROL 建立新電子郵件]**。
-
-   或者，您也可以選取「_[!UICONTROL 從Adobe Marketo Engage選取電子郵件]_」選項，以使用Marketo Engage中預先編寫的電子郵件之一，並將其作為帳戶歷程的一部分傳送。
-
-   >[!NOTE]
-   >
-   >如果您是第一次建立電子郵件，請務必從Adobe Marketo Engage中設定電子郵件頻道。 若要深入瞭解，請參閱Marketo Engage檔案中的[確認電子郵件傳遞能力](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}。
-
-   ![採取動作 — 傳送電子郵件](assets/journey-node-send-email.png){width="700" zoomable="yes"}
-
-1. 在&#x200B;_[!UICONTROL 執行動作]_&#x200B;面板底部，按一下&#x200B;**[!UICONTROL 建立電子郵件]**。
-
-1. 在對話方塊中，輸入電子郵件的唯一&#x200B;**[!UICONTROL 名稱]**，以及&#x200B;**[!UICONTROL 主旨列]**。
-
-   ![建立新的電子郵件對話方塊](assets/create-new-email.png){width="400"}
-
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
-
-   在電子郵件內容頁面的&#x200B;_[!UICONTROL 電子郵件屬性]_&#x200B;區段中，_[!UICONTROL 寄件者電子郵件]_&#x200B;與&#x200B;_[!UICONTROL 回覆地址]_&#x200B;欄位已設定。 您可以輸入&#x200B;_[!UICONTROL From name]_&#x200B;和&#x200B;_[!UICONTROL Description]_ （選擇性）欄位的值。
-
-## 建立該電子郵件內容
+在您[新增新的<!-- or duplicated -->電子郵件資產至歷程動作節點](./add-email.md)後，您可以定義電子郵件訊息的內容。
 
 按一下&#x200B;_[!UICONTROL 電子郵件]_&#x200B;預覽面板頂端的&#x200B;**[!UICONTROL 新增電子郵件內容]**。
 
 ![按一下[新增電子郵件內容] ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
-此動作會啟動電子郵件Designer，您可在其中從下列選項選擇設計電子郵件的方式：
+此動作會啟動電子郵件設計工具，您可在其中從下列選項中選擇要如何設計電子郵件：
 
 * [使用電子郵件Designer介面，從草稿開始設計電子郵件](#design-your-email-from-scratch)。
 
@@ -62,7 +34,7 @@ ht-degree: 12%
 >
 >使用由generative AI支援的Adobe Journey Optimizer B2B edition中的AI助理，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、鎖定目標文字內容，並針對與對象產生迴響的影像取得AI Assistant建議，協助您最佳化傳送的影響。 [了解更多](./ai-assistant-emails.md)
 
-### 從頭開始設計您的電子郵件 {#design-from-scratch}
+## 從頭開始設計您的電子郵件 {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
@@ -91,9 +63,9 @@ ht-degree: 12%
 
 內容完成時，請按一下頂端的&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以檢查轉譯。 您可以選擇案頭或行動檢視。
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
-### 匯入現有的HTML內容
+## 匯入現有的HTML內容
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -105,7 +77,7 @@ ht-degree: 12%
 
 您可以視需要使用視覺化電子郵件編輯器工具個人化匯入的內容。
 
-### 選取範本
+## 選取範本
 
 {{$include /help/_includes/content-design-select-template.md}}
 
@@ -165,7 +137,7 @@ ht-degree: 12%
 
 ### 更多選項
 
-從電子郵件設計工具頂端的&#x200B;_[!UICONTROL 更多……]_&#x200B;功能表，您可以執行下列動作：
+從電子郵件設計空間頂端的&#x200B;_[!UICONTROL 更多……]_&#x200B;功能表，您可以執行下列動作：
 
 ![按一下[更多]以存取範本動作](./assets/email-designer-more-menu.png){width="500"}
 
@@ -174,34 +146,6 @@ ht-degree: 12%
 * **[!UICONTROL 變更您的設計]** — 返回&#x200B;_設計您的電子郵件_&#x200B;頁面。 從那裡，您可以選擇另一個範本以重新啟動設計程式，或選擇在黑色畫布中從頭開始設計內容。\
 * **[!UICONTROL 另存為內容範本]** — 將電子郵件內文另存為電子郵件範本，以便在多個電子郵件或電子郵件範本中重複使用。 您可以提供範本的名稱和說明，並將其儲存至已儲存電子郵件範本的清單。
 * **[!UICONTROL 匯出HTML]** — 將視覺畫布中的內容以HTML格式下載到您的本機系統，並封裝成zip檔。
-
-## 檢查警報
-
-當您設計電子郵件訊息內容時，當關鍵設定遺失時，警示會顯示在介面（頁面右上方）中。
-
-如果沒有看見此按鈕，表示沒有偵測到的問題。
-
-可偵測到兩種型別的警報：
-
-* **_警告_**&#x200B;參考建議與最佳實務的警告，例如：
-
-   * `The opt-out link is not present in the email body`：將取消訂閱連結新增至您的電子郵件內文為最佳做法。
-
-     >[!NOTE]
-     >
-     >行銷樣式的電子郵件訊息必須包含選擇退出連結，異動訊息不需要此連結。
-
-   * `Text version of HTML is empty`：別忘了定義您的電子郵件內文的文字版本，此文字版本會在HTML內容無法顯示時使用。
-
-   * `Empty link is present in email body`：檢查您電子郵件中的所有連結是否正確。
-
-   * `Email size has exceeded the limit of 100KB`：若要取得最佳傳遞，請確定您的電子郵件大小不超過100KB。
-
-* **_錯誤_**&#x200B;會阻止您測試或啟用歷程/行銷活動，只要這些錯誤尚未解決，例如：
-
-   * `The subject line is missing`：電子郵件主旨列是必填欄位。
-
-   * `The email version of the message is empty`：尚未設定電子郵件內容時，會顯示此錯誤。
 
 ## 檢查和測試電子郵件 {#preview-test}
 
@@ -212,6 +156,6 @@ ht-degree: 12%
 
 定義訊息內容後，您可以使用測試設定檔來預覽、傳送校樣，以及在熱門的案頭、行動及網頁型使用者端中控制其呈現。 如果您已插入個人化內容，您可以使用測試設定檔資料預覽此內容在訊息中的顯示方式。
 
-若要預覽電子郵件內容，請按一下[模擬內容] **&#x200B;**，然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
+若要預覽電子郵件內容，請按一下[模擬內容] ****，然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
 
 ![類比電子郵件內容以檢查您的設計](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
