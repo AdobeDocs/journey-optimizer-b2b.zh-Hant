@@ -102,4 +102,4 @@ ht-degree: 1%
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450124/?learn=on&captions=chi_hant)
