@@ -2,8 +2,9 @@
 title: 建立及發佈帳戶歷程
 description: 瞭解如何建立和發佈帳戶歷程。
 feature: Account Journeys
+role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 5%
@@ -72,7 +73,7 @@ _歷程地圖_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
 1. 在右側的節點屬性中，選取&#x200B;**[!UICONTROL 帳戶]**。
 
-1. 若要新增更多路徑，請按一下[新增路徑]。**&#x200B;**
+1. 若要新增更多路徑，請按一下[新增路徑]。****
 
    當在歷程中建立每個路徑時，屬性中都會顯示新路徑卡。
 
@@ -136,4 +137,4 @@ _歷程地圖_&#x200B;是歷程設計器中的中央區域。 您可以在此區
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443230/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

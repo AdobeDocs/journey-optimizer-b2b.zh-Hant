@@ -1,16 +1,17 @@
 ---
 title: 購買群組詳細資訊
 description: 瞭解如何在Journey Optimizer B2B edition中存取購買群組的詳細資訊和產生式AI摘要。
-feature: Buying Groups
+feature: Buying Groups, Intelligent Insights
+role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
-# 購買群組詳細資料
+# 購買群組詳細資訊
 
 當您在Journey Optimizer B2B edition的任何位置按一下購買群組名稱時，都會顯示購買群組的詳細資訊。 此概觀提供有關購買群組的實用資訊，包括創作AI摘要。
 
@@ -68,7 +69,7 @@ _[!UICONTROL 購買群組成員]_&#x200B;區段會顯示兩個列來強調購買
 按一下&#x200B;**[!UICONTROL 檢視詳細資料]**&#x200B;以存取下列成員資訊：
 
 * Generative AI摘要
-* 上一個有趣的時刻
+* 上一個關鍵時刻
 * 最近活動（兩個）
 * 潛在客戶為成員的其他購買群組（根據最近新增的專案，僅限於三個購買群組）。
 * 電子郵件地址

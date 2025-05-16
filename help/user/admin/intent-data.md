@@ -1,9 +1,10 @@
 ---
 title: 意圖資料
 description: 瞭解如何組合併提交關鍵字以產生Journey Optimizer B2B edition的意圖資料。
-feature: Setup, Account Insights
+feature: Setup, Intent, Account Insights
 roles: Admin
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 ![意圖資料視覺效果](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
-若要啟用此功能，您可以在試算表中提交關鍵字清單給您的Adobe客戶經理。 這些關鍵字用於內容標籤。
+若要啟用此功能，您可以在試算表中提交關鍵字清單給Adobe客戶經理。 這些關鍵字用於內容標籤。
 
 關鍵字集（最多20個）可與產品相關聯。 一組產品（最多20個）可以與類別相關聯。 您最多可以有20個類別。 這個整個模型是透過簡單的試算表來達成，該試算表會被擷取。 試算表可以包含與產品名稱相關的單一標籤，也可以包含與關鍵字清單相關的一欄。
 

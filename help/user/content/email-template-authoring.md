@@ -1,16 +1,17 @@
 ---
 title: 電子郵件範本製作
 description: 瞭解如何撰寫可用於帳戶歷程電子郵件的內容電子郵件範本，以輕鬆且有效率地重複使用您的設計。
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
-# 電子郵件範本製作
+# 電子郵件範本編寫
 
 在您[建立電子郵件範本](./email-templates.md#create-an-email-template)之後，請使用視覺化設計工具來編寫電子郵件範本中的結構和內容元件。
 
@@ -42,7 +43,7 @@ ht-degree: 15%
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### 個人化內容
+### 將內容個人化
 
 {{$include /help/_includes/content-design-personalization.md}}
 

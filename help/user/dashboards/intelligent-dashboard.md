@@ -1,16 +1,17 @@
 ---
-title: 智慧型儀表板
+title: 智慧儀表板
 description: 瞭解Intelligent Dashboard，其提供購買群組和帳戶量度的全面檢視
-feature: Dashboards, Buying Groups
+feature: Dashboards, Intelligent Insights, Buying Groups
+role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1688'
 ht-degree: 15%
 
 ---
 
-# 智慧型儀表板
+# 智慧儀表板
 
 智慧型儀表板提供購買群組和帳戶量度的全方位檢視，協助您更有效地監控和制定行銷策略。
 
@@ -286,7 +287,7 @@ _[!UICONTROL 連絡人重疊]_&#x200B;區段會顯示連絡人清單，這些連
 * 購買群組名稱（按一下名稱以開啟購買群組詳細資訊頁面）
 * 角色
 * 解決方案興趣
-* 產品目的
+* 產品意圖
 * 產品
 
 ![連絡人重疊詳細資料](./assets/intelligent-dashboard-contact-overlap-detail-info.png){width="600" zoomable="yes"}

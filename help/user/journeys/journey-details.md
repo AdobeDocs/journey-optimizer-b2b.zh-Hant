@@ -2,15 +2,16 @@
 title: 歷程詳細資料
 description: 瞭解歷程詳細資訊頁面提供的資訊，以及它如何協助您監視和管理已發佈的帳戶歷程。
 feature: Dashboards, Account Journeys
+role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
 
 ---
 
-# 歷程詳細資料
+# 歷程詳細資訊
 
 當您按一下使用中帳戶歷程的名稱時，會顯示歷程詳細資料。 _[!UICONTROL 總覽]_&#x200B;索引標籤提供有關歷程的有用資訊，包括產生式AI摘要。
 

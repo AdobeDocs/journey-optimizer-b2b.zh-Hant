@@ -1,13 +1,14 @@
 ---
 title: 登陸頁面設計
 description: 瞭解如何為支援帳戶歷程和行銷活動的登入頁面設計和編寫內容。
-feature: Content
+feature: Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -41,7 +42,7 @@ ht-degree: 18%
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### 個人化內容
+### 將內容個人化
 
 {{$include /help/_includes/content-design-personalization.md}}
 
@@ -51,7 +52,7 @@ ht-degree: 18%
 
 ### 儲存您的工作
 
-隨時按一下「儲存」**&#x200B;**&#x200B;以儲存草稿登陸頁面。
+隨時按一下「儲存」****&#x200B;以儲存草稿登陸頁面。
 
 您可以繼續編輯草稿頁面。 當您準備好顯示頁面，並可在電子郵件或簡訊訊息中供連結使用時，即可發佈頁面。
 

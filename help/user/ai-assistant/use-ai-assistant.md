@@ -2,9 +2,10 @@
 title: 使用 AI 助理
 description: 瞭解AI助理如何協助您充分運用Journey Optimizer B2B edition功能。
 feature: AI Assistant
+role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 62dc7d43f77b2c84b9e0aa27146a7924ee8d7b35
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 0%
@@ -89,7 +90,7 @@ AI Assistant提供可證實初始回應的檔案連結。 它也會在回應中�
 
 ### 營運見解來源
 
-收到作業性深入分析問題的回應之後，請按一下[顯示來源] **，然後選取[檢視來源查詢]**&#x200B;**。**
+收到作業性深入分析問題的回應之後，請按一下[顯示來源] ]**，然後選取[檢視來源查詢]****。**[!UICONTROL 
 
 您可以使用AI助理提供的SQL查詢來驗證與操作深入分析問題相關的每個回應。 在查詢操作深入分析問題時，「AI助理」會提供SQL查詢，供您用來驗證計算答案所花費的程式。 此來源查詢僅供驗證之用，查詢服務不支援。
 

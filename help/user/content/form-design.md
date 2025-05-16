@@ -1,13 +1,14 @@
 ---
 title: 表單設計
 description: 瞭解如何設計用於收集商業潛在客戶資訊的可重複使用表單。
-feature: Content
+feature: Forms, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2054'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -128,7 +129,7 @@ ht-degree: 0%
 
 ### 刪除或複製欄位 {#field-delete-duplicate}
 
-按一下工具列或右側面板中的&#x200B;_刪除_&#x200B;圖示（![刪除圖示](../assets/do-not-localize/icon-delete.svg)）以刪除選取的欄位。 在確認對話方塊中，按一下&#x200B;**[!UICONTROL 刪除]**。
+按一下工具列或右側面板中的&#x200B;_刪除_&#x200B;圖示（![刪除圖示](../assets/do-not-localize/icon-delete.svg)）以刪除選取的欄位。 在確認對話框中，按一下「**[!UICONTROL 刪除]**」。
 
 按一下工具列或右側面板中的&#x200B;_複製_&#x200B;圖示（![復製圖示](../assets/do-not-localize/icon-duplicate.svg)）以複製選取的欄位。 新欄位會顯示在原始欄位的正下方。 按一下&#x200B;**[!UICONTROL 選取欄位屬性]**&#x200B;以設定欄位屬性。 視需要設定欄位型別、詳細資訊和樣式。
 

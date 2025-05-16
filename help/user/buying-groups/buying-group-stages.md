@@ -2,8 +2,9 @@
 title: 購買群組階段
 description: 瞭解購買群組階段，以及如何定義這些階段，以對照銷售目標追蹤歷程進展。
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 1%
@@ -70,9 +71,9 @@ ht-degree: 1%
 
    重複此步驟，直到您具備模型所需的階段為止。
 
-   為模型![&#128279;](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定義的階段
+   為模型](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定義的![階段
 
-1. 在您滿意已定義的階段後，請按一下[儲存]。**&#x200B;**
+1. 在您滿意已定義的階段後，請按一下[儲存]。****
 
    >[!IMPORTANT]
    >
@@ -90,7 +91,7 @@ ht-degree: 1%
 
    此動作會開啟&#x200B;_[!UICONTROL 編輯階段規則]_&#x200B;對話方塊，您可以在其中定義流程的邏輯。
 
-   當您設定選項時，有一些內建的護欄和傳訊功能，可協助您避免流程中出現邏輯錯誤。 您可以按一下[取消]__&#x200B;關閉對話方塊並返回[階段]_索引標籤頁，而不進行任何變更。_
+   當您設定選項時，有一些內建的護欄和傳訊功能，可協助您避免流程中出現邏輯錯誤。 您可以按一下[取消]__&#x200B;關閉對話方塊並返回[階段]]_索引標籤頁，而不進行任何變更。_[!UICONTROL 
 
 1. 在&#x200B;_[!UICONTROL 選取階段]_&#x200B;區段中，指定流程的開始和結束階段：
 
@@ -145,7 +146,7 @@ _若要檢視草稿模型：_
 
    * 捲動至底部，然後按一下&#x200B;**[!UICONTROL 新增階段]**，視需要為模型定義新的階段。
 
-1. 在您滿意已定義的階段後，請按一下[儲存]。**&#x200B;**
+1. 在您滿意已定義的階段後，請按一下[儲存]。****
 
    您也可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;關閉對話方塊，並返回模型詳細資訊頁面，而不做任何變更。
 
@@ -157,7 +158,7 @@ _若要檢視草稿模型：_
 
    請參閱[設定工作流程和轉換規則](#configure-the-workflow-and-transition-rules)，以取得有關這些選項以及它們如何影響模型流程的詳細資訊。
 
-1. 當您對已定義的轉換規則感到滿意時，請按一下[儲存]。**&#x200B;**
+1. 當您對已定義的轉換規則感到滿意時，請按一下[儲存]。****
 
    您也可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;關閉對話方塊，並返回模型詳細資訊頁面，而不做任何變更。
 
@@ -189,7 +190,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 刪除購買群組階段模型
 
-當購買群組階段模型處於草稿或已發佈狀態時，您可以將其刪除。 如果檔案已發佈（即時），您只能在檔案與解決方案興趣無關時將其刪除。
+您可以刪除處於草稿或已發佈狀態的購買群組階段模型。如果檔案已發佈（即時），您只能在檔案與解決方案興趣無關時將其刪除。
 
 1. 在左側導覽列上，前往&#x200B;**[!UICONTROL 帳戶]** > **[!UICONTROL 購買群組]**。
 
@@ -276,7 +277,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 在右側的節點屬性中，選擇&#x200B;**[!UICONTROL 人員]**&#x200B;進行分割。
 
-   保留用於條件&#x200B;_的_&#x200B;屬性的預設值&#x200B;**[!UICONTROL 僅保留為]**&#x200B;人員屬性。
+   保留用於條件&#x200B;]_的_[!UICONTROL &#x200B;屬性的預設值&#x200B;**[!UICONTROL 僅保留為]**&#x200B;人員屬性。
 
 1. 若要定義適用於&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下&#x200B;**[!UICONTROL 套用條件]**。
 
@@ -320,7 +321,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 定義動作以更新購買群組階段。
 
-   * 若要在帳戶&#x200B;**上執行**&#x200B;動作，請選取&#x200B;**[!UICONTROL 更新購買群組階段]**。
+   * 若要在帳戶&#x200B;]**上執行**[!UICONTROL &#x200B;動作，請選取&#x200B;**[!UICONTROL 更新購買群組階段]**。
 
    * 針對&#x200B;**[!UICONTROL 選取方案興趣]**，選取與購買群組階段模型相關聯的方案。
 
@@ -364,4 +365,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3448705/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

@@ -1,8 +1,10 @@
 ---
 title: 治理功能
 description: 瞭解目前可在Journey Optimizer B2B edition中使用的治理功能。
+feature: Setup
+role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 3198ba223125c95263d8dcf5ee8cb285a888a26a
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -15,7 +17,7 @@ Journey Optimizer B2B edition是一款整合的Adobe Experience Platform應用�
 
 ## 隱私權 — GDPR
 
-Journey Optimizer B2B edition採用Privacy Service及Marketo隱私權代理人服務所提供的現有Marketo EngageGDPR控管功能。
+Journey Optimizer B2B edition使用Privacy Service和Marketo Engage隱私權代理人服務所提供的現有Marketo GDPR控管功能。
 
 ## 角色型存取控制(RBAC)
 

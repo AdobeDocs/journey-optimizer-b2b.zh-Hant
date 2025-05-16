@@ -1,11 +1,13 @@
 ---
 title: 電子郵件Personalization的自訂代號
 description: 瞭解如何使用為帳戶歷程定義的一組代號，來管理電子郵件內容中的個人化。
-feature: Content, Email Authoring
-source-git-commit: 01c217c928ccb344eaebe471c7b7a8b930c68010
+feature: Personalization, Content, Email Authoring
+role: User
+exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +29,7 @@ _若要存取帳戶歷程的自訂權杖：_
 
 1. 按一下右上方的&#x200B;**[!UICONTROL 更多……]**&#x200B;功能表，然後選擇&#x200B;**[!UICONTROL 我的Token]**。
 
-   ![按一下右上角的[更多]](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
+   ![按一下右上角的「更多」](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
 
    _我的權杖_&#x200B;頁面會列出為歷程定義的所有自訂權杖。
 
@@ -73,7 +75,7 @@ _若要存取帳戶歷程的自訂權杖：_
 
 1. 在&#x200B;_[!UICONTROL 我的Token]_&#x200B;頁面中，按一下Token名稱旁的&#x200B;_更多動作_&#x200B;圖示(**...**)，然後選擇&#x200B;**[!UICONTROL 刪除]**。
 
-1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL 刪除]**。
+1. 在確認對話框中，按一下「**[!UICONTROL 刪除]**」。
 
 ## 在內容中使用自訂代號
 

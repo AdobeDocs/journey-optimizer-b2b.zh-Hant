@@ -1,9 +1,10 @@
 ---
 title: 片段
 description: 瞭解如何在Adobe Journey Optimizer B2B edition中建立和使用視覺內容片段，作為電子郵件和電子郵件範本的可重複使用元件。
-feature: Content, Email Authoring
+feature: Fragments, Content
+role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 2%
@@ -98,7 +99,7 @@ ht-degree: 2%
 
 1. 隨時按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存草稿片段。
 
-1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下[發佈]。**&#x200B;**
+1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下[發佈]。****
 
 ## 檢視片段詳細資訊
 
@@ -165,7 +166,7 @@ ht-degree: 2%
 
    ![具有草稿狀態的片段詳細資料](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. 若要變更視覺化設計工具中的內容，請按一下[編輯片段]。**&#x200B;**
+1. 若要變更視覺化設計工具中的內容，請按一下[編輯片段]。****
 
    視需要使用視覺化設計工具工具：
 
@@ -261,7 +262,7 @@ ht-degree: 2%
 
 在視覺內容編輯器中建立/編輯電子郵件或電子郵件範本時，您可以選擇將內容的所有或部分儲存為片段，以便重複使用。
 
-1. 當您將某些內容儲存為片段時，請按一下[其他] **&#x200B;**，然後選擇[另存為片段] **。**
+1. 當您將某些內容儲存為片段時，請按一下[其他] ****，然後選擇[另存為片段] ]**。**[!UICONTROL 
 
 1. 選取要包含在片段中的不同元素。
 
@@ -285,9 +286,9 @@ ht-degree: 2%
 
 1. 導覽至&#x200B;**[!UICONTROL 帳戶歷程]**&#x200B;並開啟現有歷程或建立新歷程。
 
-1. 建立[_[!UICONTROL 傳送電子郵件&#x200B;]_&#x200B;節點](./add-email.md#add-an-email-action-node-in-a-journey)。
+1. 建立[_[!UICONTROL 傳送電子郵件&#x200B;]_節點](./add-email.md#add-an-email-action-node-in-a-journey)。
 
-1. 建立或編輯節點[&#128279;](./email-authoring.md)的電子郵件內容。
+1. 建立或編輯節點](./email-authoring.md)的[電子郵件內容。
 
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表拖放專案，以提供片段的&#x200B;_結構_。
 
@@ -317,7 +318,7 @@ ht-degree: 2%
 
 1. 從左側導覽列按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 範本]**。
 
-1. 建立新範本，或開啟現有的電子郵件範本，然後按一下[編輯電子郵件範本]。**&#x200B;**
+1. 建立新範本，或開啟現有的電子郵件範本，然後按一下[編輯電子郵件範本]。****
 
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表拖放專案，以提供片段的&#x200B;_結構_。
 

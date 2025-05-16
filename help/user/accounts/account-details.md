@@ -2,14 +2,16 @@
 title: 帳戶詳細資料
 description: 瞭解如何在Journey Optimizer B2B edition中存取帳戶的詳細資訊和產生式AI摘要。
 feature: Account Insights
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+role: User
+exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 9%
 
 ---
 
-# 帳戶詳細資料
+# 帳戶詳細資訊
 
 當您在Journey Optimizer B2B edition中的任何位置按一下帳戶名稱時，都會顯示帳戶詳細資料。 此資訊提供關於帳戶的實用資訊，包括創作AI摘要。
 

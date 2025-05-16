@@ -2,9 +2,10 @@
 title: 帳戶歷程
 description: 了解帳戶歷程，以及如何建立和管理帳戶歷程。
 feature: Account Journeys
+role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: ht
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 100%
 
@@ -154,4 +155,4 @@ _帳戶歷程_&#x200B;清單包含您的 Journey Optimizer B2B Edition 執行個
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443218/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

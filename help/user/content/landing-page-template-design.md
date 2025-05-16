@@ -1,17 +1,18 @@
 ---
 title: 登入頁面範本設計
 description: 瞭解如何設計和編寫行銷人員可重複使用的登陸頁面範本內容，以建立登陸頁面。
-feature: Content
+feature: Templates, Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 4e203a5d1fb0c9d9dc2a6bd14705b17335c98ee3
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
-# 登入頁面範本設計
+# 設計登陸頁面範本
 
 在您[建立登入頁面範本](./landing-page-templates.md#create-a-landing-page-template)之後，請使用視覺設計空間來編寫頁面範本中的結構和內容元件。
 

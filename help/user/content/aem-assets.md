@@ -1,9 +1,10 @@
 ---
 title: 使用 Experience Manager Assets
 description: 瞭解如何在Adobe Journey Optimizer B2B edition中編寫內容時使用已連線AEM Assets存放庫中的影像資產。
-feature: Assets, Content
+feature: Assets, Content, Integrations
+role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 2%
@@ -22,7 +23,7 @@ Adobe Experience Manager Assets as a Cloud Service與Adobe Journey Optimizer B2B
 
 >[!IMPORTANT]
 >
->管理員需要將存取Assets的使用者新增至Assets消費者使用者或/和Assets使用者產品設定檔。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>管理員需要將存取Assets的使用者新增至Assets消費者使用者或/和Assets使用者產品設定檔。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## 存取AEM Assets影像
 
@@ -32,7 +33,7 @@ Adobe Experience Manager Assets as a Cloud Service與Adobe Journey Optimizer B2B
 
 >[!NOTE]
 >
->目前，Adobe Journey Optimizer B2B edition僅支援Adobe Experience Manager Assets的影像資產。 必須從Adobe Experience Manager Assets中央存放庫變更資產。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>目前，Adobe Journey Optimizer B2B edition僅支援Adobe Experience Manager Assets的影像資產。 必須從Adobe Experience Manager Assets中央存放庫變更資產。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 變更顯示的存放庫
 

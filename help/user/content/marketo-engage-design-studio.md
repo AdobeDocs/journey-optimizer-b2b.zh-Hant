@@ -1,16 +1,17 @@
 ---
-title: 使用Marketo EngageAssets
+title: 使用Marketo Engage Assets
 description: 瞭解如何在Journey Optimizer B2B edition中使用Marketo Engage Design Studio資產管理整合。
 feature: Assets, Content
+role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2017'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 使用Marketo Engage資產
+# 使用 Marketo Engage 資產
 
 Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來源，您可以輕鬆管理和使用可用資產，以設計支援帳戶歷程的內容。
 
@@ -18,14 +19,14 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 ## 中央資產管理
 
-預設有&#x200B;**_[!UICONTROL Journey Optimizer B2B edition]_**&#x200B;工作區可供您專門用於帳戶歷程內容。 您新增至此工作區的資產不可見或無法用於Marketo Engage。 對於居住在此工作區的資產，您可以在Journey Optimizer B2B edition中擁有完整的資產管理功能。 這些函式包括：
+預設有&#x200B;**_[!UICONTROL Journey Optimizer B2B edition]_**&#x200B;工作區可供您專門用於帳戶歷程內容。 您新增至此工作區的資產不可見，或在Marketo Engage中無法使用。 對於居住在此工作區的資產，您可以在Journey Optimizer B2B edition中擁有完整的資產管理功能。 這些函式包括：
 
 * [取代](#replace-assets)
 * [刪除](#delete-assets)
 * [移動](#create-a-folder)
 * [使用Adobe Express編輯](./image-edit-adobe-express.md)
 
-位於Marketo Engage工作區的Assets受限於在電子郵件、電子郵件範本和片段中使用的唯讀存取權。 您可以將新資產新增至這些工作區並下載資產副本。
+位於Marketo Engage工作區的Assets僅限於在電子郵件、電子郵件範本和片段中使用的唯讀存取權。 您可以將新資產新增至這些工作區並下載資產副本。
 
 ## 瀏覽及存取資產
 
@@ -43,7 +44,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 * 若要自訂表格中顯示的欄，請按一下右上方的&#x200B;_自訂表格_&#x200B;圖示（ ![自訂表格](../assets/do-not-localize/icon-column-settings.svg)）。
 
-  選取您要顯示在清單中的資料行，然後按一下[套用]。**&#x200B;**
+  選取您要顯示在清單中的資料行，然後按一下[套用]。****
 
 ## 檢視資產詳細資訊
 
@@ -97,7 +98,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 使用下列其中一種方法來刪除位於&#x200B;_[!UICONTROL Journey Optimizer B2B edition]_&#x200B;工作區的資產：
 
-* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，並從選項中選擇[刪除]。**&#x200B;**
+* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，並從選項中選擇[刪除]。****
 
   ![存取資產的動作](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
@@ -117,7 +118,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 使用下列其中一種方法來取代位於&#x200B;_[!UICONTROL Journey Optimizer B2B edition]_&#x200B;工作區中的資產：
 
-* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，然後從選項中選擇[取代]。**&#x200B;**
+* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，然後從選項中選擇[取代]。****
 
 * 在&#x200B;_[!UICONTROL Assets]_&#x200B;清單頁面上，按一下資產專案旁的&#x200B;_更多_&#x200B;圖示(**[!UICONTROL ...]**)，然後從選項中選擇&#x200B;**[!UICONTROL 取代]**。
 
@@ -125,7 +126,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 ![取代資產對話方塊](./assets/assets-replace-dialog.png){width="500"}
 
-若要繼續，請按一下[取代]。**&#x200B;** 您可以按一下&#x200B;**[!UICONTROL 取消]**，中止程式。
+若要繼續，請按一下[取代]。**** 您可以按一下&#x200B;**[!UICONTROL 取消]**，中止程式。
 
 如果要取代的檔案正在使用中，資訊對話方塊會警告您新的影像檔案會在所有使用位置（電子郵件、電子郵件範本和片段）取代影像。
 
@@ -169,7 +170,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 1. 在選取範圍橫幅上，按一下&#x200B;**[!UICONTROL 刪除]**。
 
-1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL 刪除]**。
+1. 在確認對話框中，按一下「**[!UICONTROL 刪除]**」。
 
    如果有任何選取的資產目前正在使用中，則會中止移除該資產，並顯示警示訊息。
 
@@ -249,7 +250,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 1. 選擇&#x200B;**[!UICONTROL 刪除]**。
 
-1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL 刪除]**。
+1. 在確認對話框中，按一下「**[!UICONTROL 刪除]**」。
 
 如果資料夾中的任何資產目前正在使用中，動作會開啟警報對話方塊，通知您無法刪除該資產。 按一下&#x200B;**[!UICONTROL 確定]**，這會中止移除。
 
@@ -269,7 +270,7 @@ Marketo Engage Design Studio是Journey Optimizer B2B edition的預設資產來�
 
 Assets可用於您團隊的電子郵件、電子郵件範本，或來自視覺內容編輯器的視覺片段製作。
 
-從視覺化設計工具UI中，選取左側邊欄上的&#x200B;_Marketo EngageAssets_&#x200B;圖示( ![Marketo EngageAssets圖示](../../assets/do-not-localize/icon-assets-me.svg) )。
+從視覺化設計工具UI中，選取左側邊欄上的&#x200B;_Marketo Engage Assets_&#x200B;圖示( ![Marketo Engage Assets圖示](../../assets/do-not-localize/icon-assets-me.svg) )。
 
 此動作會變更工具面板，以顯示所選工作區中可用資產的結構化清單。 選取您要顯示的工作區以選擇資產。
 

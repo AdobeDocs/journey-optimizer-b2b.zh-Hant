@@ -1,12 +1,13 @@
 ---
 title: 片段製作
 description: 瞭解如何編寫可重複用於您的電子郵件和範本設計的內容片段，以提高效率並維護設計和品牌標準。
-feature: Content
+feature: Fragments, Content Design Tools
+role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 17%
+source-wordcount: '373'
+ht-degree: 19%
 
 ---
 
@@ -36,7 +37,7 @@ ht-degree: 17%
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-## 個人化內容
+## 將內容個人化
 
 {{$include /help/_includes/content-design-personalization.md}}
 
@@ -52,15 +53,15 @@ ht-degree: 17%
 
 1. 按一下&#x200B;**[!UICONTROL 啟用版本]**&#x200B;選項切換並設定可編輯的欄位。
 
-   ![為片段影像元件啟用可編輯的欄位](./assets/fragment-editable-fields-image.png){width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![啟用片段影像元件的可編輯欄位](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 
-   您可以為顯示的欄位啟用自訂，具體取決於片段中定義的元件類型和參數。
+   您可以根據元件型別和片段中定義的引數，啟用顯示欄位的自訂功能。
 
    針對您想要允許自訂的每個欄位，將切換變更為啟用狀態。
 
 1. 按一下&#x200B;**[!UICONTROL 總覽]**&#x200B;以檢閱所有可編輯的欄位及其預設值。
 
-   ![檢閱可編輯的欄位及其預設值](./assets/fragment-editable-fields-image-overview.png){width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![檢閱可編輯的欄位及其預設值](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
 
 1. 儲存您的變更。
 

@@ -1,8 +1,10 @@
 ---
 title: 範本內容控管
 description: 瞭解如何鎖定電子郵件範本中的內容元素，以便您可以控管如何變更內容元素以用於帳戶歷程。
-feature: Email Authoring, Content
-source-git-commit: 44413c763ca57d04b83ba78df0ae846142180ec3
+feature: Templates, Email Authoring, Content
+role: User
+exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
+source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 0%
@@ -92,4 +94,3 @@ ht-degree: 0%
      針對鎖定的元件，您可以開啟&#x200B;**[!UICONTROL 允許刪除]**&#x200B;選項，以在電子郵件製作期間允許移除元件。
 
    ![套用內容鎖定至子元件](./assets/governance-template-component-locking.png){width="800" zoomable="yes"}
-

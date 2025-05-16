@@ -2,8 +2,9 @@
 title: 解決方案興趣
 description: 瞭解解決方案興趣，以及如何定義這些興趣以用於您的購買群組。
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 1%
@@ -46,7 +47,7 @@ ht-degree: 1%
 
 1. 選擇&#x200B;**[!UICONTROL 角色範本]** （必要）。
 
-   按一下&#x200B;**[!UICONTROL 選取角色範本]**，然後從對話方塊的清單中選擇即時角色範本。 您只能將一個即時角色範本與解決方案興趣建立關聯。 按一下[儲存]&#x200B;**[!UICONTROL 返回[建立方案興趣]]_頁面，其中顯示選取的角色範本。**&#x200B;_
+   按一下&#x200B;**[!UICONTROL 選取角色範本]**，然後從對話方塊的清單中選擇即時角色範本。 您只能將一個即時角色範本與解決方案興趣建立關聯。 按一下[儲存]**[!UICONTROL 返回[建立方案興趣]]_頁面，其中顯示選取的角色範本。]**_[!UICONTROL 
 
    ![新增角色範本至方案興趣](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
@@ -101,4 +102,4 @@ ht-degree: 1%
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3450124/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

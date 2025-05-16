@@ -2,8 +2,9 @@
 title: 條件式內容
 description: 瞭解如何在編寫帳戶歷程的電子郵件內容時建立內容變體並套用條件規則。
 feature: Email Authoring, Content
+role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 11%
@@ -50,7 +51,7 @@ ht-degree: 11%
 
    ![條件資料庫存取條件詳細資料](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則[&#128279;](#create-condition)。
+   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則](#create-condition)。[
 
 1. 選取條件式規則，然後按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以將其與變體關聯。
 
