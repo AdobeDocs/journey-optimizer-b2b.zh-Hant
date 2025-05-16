@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 新增帳戶清單]**。
 
-1. 選取帳戶清單的核取方塊，然後按一下[儲存]。****
+1. 選取帳戶清單的核取方塊，然後按一下[儲存]。**&#x200B;**
 
    ![選取帳戶對象節點的帳戶清單選項](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 >
 >如果節點執行時帳戶已在清單中，則會忽略動作。
 
-1. 選取&#x200B;]_**[!UICONTROL 帳戶]**上的_[!UICONTROL &#x200B;動作選項。
+1. 選取&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;上的_&#x200B;動作選項。
 
-1. 若為帳戶&#x200B;]_上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至帳戶清單]**。
+1. 若為帳戶&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至帳戶清單]**。
 
    ![選取[新增至帳戶清單]](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
@@ -63,9 +63,9 @@ ht-degree: 0%
 >
 >如果帳戶不在排定移除的清單中，則會忽略動作。
 
-1. 選取&#x200B;]_**[!UICONTROL 帳戶]**上的_[!UICONTROL &#x200B;動作選項。
+1. 選取&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;上的_&#x200B;動作選項。
 
-1. 若為帳戶&#x200B;]_上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 從帳戶清單移除]**。
+1. 若為帳戶&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 從帳戶清單移除]**。
 
    ![選取[新增至帳戶清單]](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 將濾鏡拖曳至「智慧列示」畫布。
 
-1. 在智慧列示畫布上，設定帳戶&#x200B;]**清單值的**[!UICONTROL &#x200B;成員。
+1. 在智慧列示畫布上，設定帳戶&#x200B;**清單值的**&#x200B;成員。
 
    按一下向下箭頭以顯示所有帳戶清單，或輸入部分帳戶清單名稱以協助找出您需要的帳戶清單。
 

@@ -36,7 +36,7 @@ ht-degree: 3%
 
 當使用者擁有必要的許可權時，他們可以存取AI助理，方法是選取您正在使用的應用程式頂端標題上的&#x200B;_AI助理_&#x200B;圖示。
 
-應用程式標頭](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}中的![AI助理圖示
+應用程式標頭![&#128279;](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}中的AI助理圖示
 
 ## AI助理存取總覽影片
 
