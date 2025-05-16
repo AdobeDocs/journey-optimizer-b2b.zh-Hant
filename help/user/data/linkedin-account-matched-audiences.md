@@ -84,7 +84,7 @@ Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生Linked
 
    儲存之後，您為資料流指定的名稱會加上&#x200B;_AJOB2B_，以協助識別Experience Platform中的資料流。
 
-1. 輸入LinkedIn行銷活動管理員帳戶](https://www.linkedin.com/help/lms/answer/a424270)的[帳戶ID。
+1. 輸入LinkedIn行銷活動管理員帳戶[&#128279;](https://www.linkedin.com/help/lms/answer/a424270)的帳戶ID。
 
    您可以在Campaign Manager UI中依帳戶名稱尋找您的帳戶ID。
 
