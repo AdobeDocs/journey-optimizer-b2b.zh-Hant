@@ -100,13 +100,13 @@ ht-degree: 3%
 
      在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
 
-     使用職稱![&#128279;](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的角色範本條件範例
+     使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
 
    * 如有需要，請新增其他屬性和條件，進一步精簡符合角色的條件。
 
    * 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
-1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] **，並重複步驟1和2來定義角色。**
+1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] ]**，並重複步驟1和2來定義角色。**[!UICONTROL 
 
    已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -164,4 +164,4 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

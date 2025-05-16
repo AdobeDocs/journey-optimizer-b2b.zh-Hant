@@ -119,7 +119,7 @@ ht-degree: 8%
 
 ### 聆聽體驗事件
 
-管理員可以設定Adobe Experience Platform (AEP)型事件定義，讓行銷人員建立會對[AEP體驗事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反應的帳戶歷程。 在帳戶歷程中使用AEP體驗事件有兩個步驟：
+管理員可以設定Adobe Experience Platform (AEP)型事件定義，讓行銷人員建立會對[AEP體驗事件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反應的帳戶歷程。 在帳戶歷程中使用AEP體驗事件有兩個步驟：
 
 1. [建立並發佈AEP事件定義](../admin/configure-aep-events.md)。
 
@@ -183,4 +183,4 @@ _若要在歷程中加入體驗事件：_
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

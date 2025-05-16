@@ -17,7 +17,7 @@ ht-degree: 12%
 
 >[!TIP]
 >
->您可以使用XDM商業帳戶個人關係類別(如[Experience Platform XDM檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}所述)，以多對多關係來建立XDM商業帳戶和XDM商業帳戶類別的模型。
+>您可以使用XDM商業帳戶個人關係類別(如[Experience Platform XDM檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}所述)，以多對多關係來建立XDM商業帳戶和XDM商業帳戶類別的模型。
 
 ## XDM商業帳戶個人關係屬性
 
@@ -81,7 +81,7 @@ ht-degree: 12%
 
 ## XDM商業機會屬性
 
-此外，機會資料會儲存為XDM商業機會類別中的屬性，可透過多對一關係與XDM商業帳戶類別建立關聯，如[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}所述。
+此外，機會資料會儲存為XDM商業機會類別中的屬性，可透過多對一關係與XDM商業帳戶類別建立關聯，如[Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}所述。
 
 | [屬性](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | 顯示名稱 | Journey Optimizer B2B顯示名稱 | 資料類型 | 說明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

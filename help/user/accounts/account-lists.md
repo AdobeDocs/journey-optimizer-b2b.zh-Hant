@@ -16,7 +16,7 @@ ht-degree: 1%
 在Journey Optimizer B2B edition中，帳戶清單是行銷人員可用於目標歷程協調的具名帳戶集合。 帳戶清單可依據您定義的條件（例如產業、地點或公司規模）來鎖定已命名的帳戶。 帳戶清單有兩種型別：
 
 * **靜態** — 使用靜態帳戶清單時，清單只有在您新增帳戶時才會變更。 您可以套用篩選器集來根據目前的帳戶資料填入清單，以手動新增帳戶，或是透過帳戶歷程新增和移除帳戶。
-* **動態** — 使用動態帳戶清單，您可以定義自動組織清單的篩選器集。 系統會使用此篩選器集，根據帳戶資訊中的變更來新增和移除帳戶。 此清單管理類似於Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}中的對象細分。
+* **動態** — 使用動態帳戶清單，您可以定義自動組織清單的篩選器集。 系統會使用此篩選器集，根據帳戶資訊中的變更來新增和移除帳戶。 此清單管理類似於Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}中的[對象細分。
 
 當帳戶清單處於&#x200B;_即時_ （已發佈）狀態時，它可用於[帳戶歷程和Marketo Engage程式](./account-lists-journeys.md)。
 

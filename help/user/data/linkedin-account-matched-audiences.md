@@ -15,7 +15,7 @@ ht-degree: 16%
 
 Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生LinkedIn廣告受眾，其目的是協助您在購買群組中填入空角色。 透過定義一組購買群組篩選器，您可以維護「LinkedIn相符對象」，以鎖定符合您購買群組引數的潛在客戶。 此功能善用 Experience Platform 目標來管理整合的某些部分。資料流上限為10個。
 
-在從Journey Optimizer B2B edition起始資料流之前，您必須至少有一個[（公司） LinkedIn相符對象目的地聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的執行個體，而且已在Experience Platform應用程式中設定LinkedIn促銷活動管理員帳戶。
+在從Journey Optimizer B2B edition起始資料流之前，您必須至少有一個[（公司） LinkedIn相符對象目的地聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的執行個體，而且已在Experience Platform應用程式中設定LinkedIn促銷活動管理員帳戶。
 
 ## 設定新的 LinkedIn 帳戶連結 {#linkedin-destination-setup}
 
@@ -84,7 +84,7 @@ Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生Linked
 
    儲存之後，您為資料流指定的名稱會加上&#x200B;_AJOB2B_，以協助識別Experience Platform中的資料流。
 
-1. 輸入LinkedIn行銷活動管理員帳戶[&#128279;](https://www.linkedin.com/help/lms/answer/a424270)的帳戶ID。
+1. 輸入LinkedIn行銷活動管理員帳戶](https://www.linkedin.com/help/lms/answer/a424270)的[帳戶ID。
 
    您可以在Campaign Manager UI中依帳戶名稱尋找您的帳戶ID。
 
@@ -118,4 +118,4 @@ Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生Linked
 
 您可以透過付費媒體管道（例如LinkedIn廣告對象）與帳戶成員互動，以取得、培養客戶並符合銷售資格。 使用帳戶歷程中的&#x200B;_執行動作_&#x200B;節點，透過最適合不同帳戶成員的外部管道，自動與帳戶的主要成員進行互動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448683/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

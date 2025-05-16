@@ -47,7 +47,7 @@ ht-degree: 1%
 
 1. 選擇&#x200B;**[!UICONTROL 角色範本]** （必要）。
 
-   按一下&#x200B;**[!UICONTROL 選取角色範本]**，然後從對話方塊的清單中選擇即時角色範本。 您只能將一個即時角色範本與解決方案興趣建立關聯。 按一下[儲存]&#x200B;**[!UICONTROL 返回[建立方案興趣]]_頁面，其中顯示選取的角色範本。**&#x200B;_
+   按一下&#x200B;**[!UICONTROL 選取角色範本]**，然後從對話方塊的清單中選擇即時角色範本。 您只能將一個即時角色範本與解決方案興趣建立關聯。 按一下[儲存]**[!UICONTROL 返回[建立方案興趣]]_頁面，其中顯示選取的角色範本。]**_[!UICONTROL 
 
    ![新增角色範本至方案興趣](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
@@ -102,4 +102,4 @@ ht-degree: 1%
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3450124/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

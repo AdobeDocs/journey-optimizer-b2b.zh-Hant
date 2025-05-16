@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Journey Optimizer B2B edition中的AI助理
 
-Journey Optimizer B2B edition中的AI助理是從Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中AI助理的相同技術基礎建立的。 這是一種對話式體驗，可用來加速Adobe Journey Optimizer B2B edition的工作流程。 您可以使用AI Assistant進一步瞭解產品功能、疑難排解問題，或透過資訊進行搜尋，並找到Journey Optimizer B2B edition的營運深入分析。
+Journey Optimizer B2B edition中的AI助理是從Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中[AI助理的相同技術基礎建立的。 這是一種對話式體驗，可用來加速Adobe Journey Optimizer B2B edition的工作流程。 您可以使用AI Assistant進一步瞭解產品功能、疑難排解問題，或透過資訊進行搜尋，並找到Journey Optimizer B2B edition的營運深入分析。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Journey Optimizer B2B edition中的AI助理是從Adobe Experience Platform[&#128
 
 ## Journey Optimizer B2B edition中的AI助理功能
 
-為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料的內部表示法，也稱為&#x200B;_&#x200B;**_知識圖表_**&#x200B;_，這是概念、資料及指定答案的中繼資料的完整網路。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
+為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料的內部表示法，也稱為&#x200B;_**_知識圖表_**_，這是概念、資料及指定答案的中繼資料的完整網路。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
 
 * Experience League檔案。
 * 運算成品，例如結構描述、欄位、對象和歷程。
@@ -60,7 +60,7 @@ _營運深入分析_&#x200B;參考由AI助理產生的中繼資料物件（屬�
 | 網域 | 支援的中繼資料 | 不支援的中繼資料 |
 | --- | --- | --- |
 | 屬性/欄位 | <li>屬性名稱搜尋 <li>屬性 — 結構描述關係 <li>屬性 — 資料集關係 <li>屬性 — 對象關係 <li>屬性 — 目的地關係 | <li>屬性類別 <li>稽核 <li>淘汰狀態 <li>標記 <li>儲存在屬性中的值 |
-| 帳戶對象&#x200B;<br><br>**_注意：_**&#x200B;AJO B2B AI助理只能回答帳戶對象的對象問題，而Experience Platform AI助理只能回答個人對象的問題 | <li>客群計數 <li>對象型別（串流或批次） <li>建立/修改日期 <li>啟用狀態 <li>成員計數 <li>複製對象 <li>名稱和ID搜尋 | <li>客群重疊 <li>客群啟用 <li>稽核 <li>建立/修改 <li>標記 <li>成員資格趨勢 |
+| 帳戶對象&#x200B;<br><br>**_注意：_**AJO B2B AI助理只能回答帳戶對象的對象問題，而Experience Platform AI助理只能回答個人對象的問題 | <li>客群計數 <li>對象型別（串流或批次） <li>建立/修改日期 <li>啟用狀態 <li>成員計數 <li>複製對象 <li>名稱和ID搜尋 | <li>客群重疊 <li>客群啟用 <li>稽核 <li>建立/修改 <li>標記 <li>成員資格趨勢 |
 | 資料流 | <li>資料流計數 <li>資料流程狀態 <li>資料流 — 資料集關係 <li>資料流 — 來源關係 | <li>建立/修改 <li>資料流 — 批次關係 <li>擷取設定檔計數 |
 | 資料集 | <li>資料集計數 <li>設定檔啟用狀態 <li>建立/修改日期 <li>資料集 — 結構描述關係 <li>資料集 — 對象關係 <li>資料集 — 屬性關係 <li>資料集 — 資料流關係 <li>名稱搜尋 <li>名稱和ID搜尋 | <li>稽核 <li>建立者 <li>資料集 — 批次關係 <li>資料集建立/修改 <li>資料集大小 <li>設定檔數 <li>列數 <li>值搜尋 |
 | 目的地 | <li>設定的目的地計數 <li>目的地 — 對象關係 <li>目的地屬性關係 | <li>帳戶設定 <li>帳戶認證資訊 <li>啟用的不重複設定檔 |
@@ -92,7 +92,7 @@ Journey Optimizer B2B edition中的AI助理是透過隱私、安全性及控管�
 
 * 您必須有明確的許可權才能與AI助理互動。
 
-   * 管理員可以使用[許可權UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/browse){target="_blank"}來設定許可權。
+   * 管理員可以使用[許可權UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}來設定許可權。
 
    * 許可權很細微，您的沙箱管理員可以設定哪些使用者可以提出不同的問題類別（使用AI Assistant的產品知識型問題或操作深入分析的問題）。
 

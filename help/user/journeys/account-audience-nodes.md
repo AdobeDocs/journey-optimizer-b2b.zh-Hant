@@ -54,4 +54,4 @@ _若要建立對象區段：_
 
    ![建立對象區段](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. 請依照[Segmentation Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}中所述的步驟操作。
+1. 請依照[Segmentation Service指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}中所述的步驟操作。

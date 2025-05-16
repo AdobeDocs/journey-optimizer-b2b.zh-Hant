@@ -21,9 +21,9 @@ ht-degree: 3%
 
 當您新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點並執行下列動作時，可以在帳戶歷程中設定文字訊息傳遞：
 
-1. 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
+1. 針對&#x200B;]_目標上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
 
-1. 針對人員&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送簡訊]**。
+1. 針對人員&#x200B;]_上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送簡訊]**。
 
    ![採取動作 — 傳送簡訊](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
@@ -92,7 +92,7 @@ ht-degree: 3%
      >[!NOTE]
      >
      >當您允許追蹤但停用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;時，目的地URL在重新導向後不會包含`mkt_tok`查詢字串引數。 Marketo Engage登陸頁面和Munchkin會使用此引數，以確保追蹤人員活動（例如當人員取消訂閱電子郵件時）。 除非引數造成您網站上的問題，否則請勿停用此選項。<br/>
-     >如需有關在網站上使用Munchkin追蹤代碼的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
+     >如需有關在網站上使用Munchkin追蹤代碼的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
    ![新增SMS訊息的連結對話方塊](./assets/sms-add-link-dialog.png){width="470"}
 
