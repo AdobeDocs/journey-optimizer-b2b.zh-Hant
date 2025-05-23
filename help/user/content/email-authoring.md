@@ -4,20 +4,20 @@ description: 瞭解如何在Adobe Journey Optimizer B2B中建立電子郵件內�
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '928'
 ht-degree: 15%
 
 ---
 
 # 電子郵件訊息製作
 
-在您&lbrack;新增新的<!-- or duplicated -->電子郵件資產至歷程動作節點&rbrack;(./add-email.md)後，您可以定義電子郵件訊息的內容。
+在您[新增新的<!-- or duplicated -->電子郵件資產至歷程動作節點](./add-email.md)後，您可以定義電子郵件訊息的內容。
 
-按一下&#x200B;_[!UICONTROL 電子郵件]_&#x200B;預覽面板頂端的&#x200B;**[!UICONTROL 新增電子郵件內容]**。
+按一下右側面板上&#x200B;_[!UICONTROL 詳細資料]_&#x200B;索引標籤中的&#x200B;**[!UICONTROL 編輯電子郵件內容]**。
 
-![按一下[新增電子郵件內容] ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![按一下[編輯電子郵件內容] ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 此動作會啟動電子郵件設計工具，您可在其中從下列選項中選擇要如何設計電子郵件：
 
@@ -26,8 +26,6 @@ ht-degree: 15%
 * [從檔案或.zip資料夾匯入現有的HTML內容](#import-existing-html-content)。
 
 * [從內建或自訂電子郵件範本清單中選取現有的範本](#select-a-template)。
-
-若要使用運算式編輯器設定並個人化主旨列，請按一下&#x200B;_Personalization_&#x200B;圖示並新增任何Marketo Engage權杖。
 
 建立並個人化電子郵件內容後，您可以匯出內容以供驗證或稍後使用。 按一下&#x200B;**[!UICONTROL 匯出HTML]**，將內容儲存為.zip檔案，其中包含您的HTML和資產。
 
@@ -47,10 +45,9 @@ ht-degree: 15%
 >title="關於內容元件"
 >abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。"
 
-使用視覺內容編輯器來定義電子郵件內容的結構。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計可重複使用電子郵件內容的形狀。
+使用視覺內容設計空間來定義電子郵件的結構和內容。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計可重複使用電子郵件內容的形狀。
 
 1. 從&#x200B;_[!UICONTROL 設計您的範本]_&#x200B;首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
-
 1. [新增結構和內容](#add-structure-and-content)至電子郵件訊息。
 1. [新增影像資產](#add-assets)至電子郵件訊息。
 1. [個人化電子郵件內容](#personalize-content)。
@@ -64,7 +61,7 @@ ht-degree: 15%
 
 內容完成時，請按一下頂端的&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以檢查轉譯。 您可以選擇案頭或行動檢視。
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容
 
@@ -157,6 +154,6 @@ ht-degree: 15%
 
 定義訊息內容後，您可以使用測試設定檔來預覽、傳送校樣，以及在熱門的案頭、行動及網頁型使用者端中控制其呈現。 如果您已插入個人化內容，您可以使用測試設定檔資料預覽此內容在訊息中的顯示方式。
 
-若要預覽電子郵件內容，請按一下[模擬內容] **&#x200B;**，然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
+若要預覽電子郵件內容，請按一下[模擬內容] ****，然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
 
 ![類比電子郵件內容以檢查您的設計](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
