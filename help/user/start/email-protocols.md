@@ -5,9 +5,9 @@ feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
 source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1798'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Add the landing page CNAME to your DNS record, so that `[YourLandingPageCNAME]` 
 
 ### 佈建 SSL 憑證
 
-請連絡[Adobe支援](https://experienceleague.adobe.com/home?lang=zh-Hant&amp;support-tab=home#support){target="_blank"}以開始布建SSL憑證的程式。
+聯絡 [Adobe 支援](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"}，開始 SSL 憑證的佈建流程。
 
 此流程可能需要最多三個工作天才能完成。
 
@@ -96,7 +96,7 @@ Add the landing page CNAME to your DNS record, so that `[YourLandingPageCNAME]` 
 
    `[DKIMDomain2]`：主機記錄為 `[HostRecord2]`，TXT 值為 `[TXTValue2]`。
 
-   遵循Marketo Engage檔案中的[指示](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}後，複製每個DKIM網域的`HostRecord`和`TXTValue`。 您可以在 Journey Optimizer B2B Edition 中驗證網域 (請參閱 [SPF/DKIM](../admin/configure-channels-emails.md#spfdkim))。
+   依照 Marketo Engage 文件中的[說明](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}操作後，複製每個 DKIM 網域的 `HostRecord` 和 `TXTValue`。您可以在 Journey Optimizer B2B Edition 中驗證網域 (請參閱 [SPF/DKIM](../admin/configure-channels-emails.md#spfdkim))。
 
 ## 設定 DMARC
 
@@ -169,7 +169,7 @@ DMARC 記錄有多個組成部分，稱為 _DMARC 標記_。每個標記都有�
 | `adkim` | 選用 | 指定嚴格 (`s`) 或寬鬆的 (`r`) 比對。寬鬆比對代表該網域用於 DKIM 簽章，並且可以是 `From:` 位址的子網域。嚴格比對代表 DKIM 簽章中使用的網域必須與 `From:` 位址使用的位址完全相符。 | `adkim=r` | `r` |
 | `aspf` | 選用 | 可以是嚴格 (`s`) 或寬鬆 (`r`)。寬鬆模式表示 Return-Path 網域可以是 `From:` 位址的子網域。嚴格模式表示 Return-Path 網域必須與 `From:` 位址完全相符。 | `aspf=r` | `r` |
 
-如需DMARC及其所有選項的詳細資訊，請參閱[https://dmarc.org/](https://dmarc.org/){target="_blank"}。
+如需關於 DMARC 及其所有選項的詳細資訊，請參閱 [https://dmarc.org/](https://dmarc.org/){target="_blank"}。
 
 ### Marketo Engage 的 DMARC 實作
 
@@ -179,7 +179,7 @@ DMARC 有兩種比對類型：
 
   DKIM 比對驗證寄件者是否獲得授權從該網域發送郵件，並確認電子郵件傳輸過程中內容沒有發生變更。實施與 DKIM 比對的 DMARC：
 
-   * 為您的郵件的 MAIL FROM 網域設定 DKIM。使用Marketo Engage檔案中的[指示](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}。
+   * 為您的郵件的 MAIL FROM 網域設定 DKIM。使用 Marketo Engage 文件中的[說明](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}。
 
    * 為 DKIM MAIL FROM 網域設定 DMARC。
 
@@ -202,11 +202,11 @@ DMARC 有兩種比對類型：
 
 ### 專用 IP 和共用集區
 
-如果您透過專用IP透過Marketo Engage傳送郵件，但尚未實作品牌傳迴路徑（或不確定您是否有），請開啟具有[Adobe支援](https://experienceleague.adobe.com/home?lang=zh-Hant&amp;support-tab=home#support){target="_blank"}的票證。
+如果您使用專用 IP 透過 Marketo Engage 傳送郵件，但尚未實施具品牌識別的 return-path (或不確定是否已實施)，請透過 [Adobe 支援](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"}開啟服務單。
 
 受信任的 IP 是指一個共用 IP 集區，其中 IP 保留給每月發送量少於 75k 而且不符合條件使用專用 IP 的低流量使用者使用。這些使用者亦必須滿足最佳實務要求。
 
-* 如果您使用共用IP集區透過Marketo Engage傳送郵件，您可以透過[套用信任的IP傳送範圍程式](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}，檢查您是否符合信任的IP資格。 從 Marketo Engage 受信任 IP 發送時包含具品牌識別的 return-path。如果此方案獲得批准，請聯絡 Adobe 支援部門來設定具品牌識別的 return-path。
+* 如果您使用共用的 IP 集區透過 Marketo Engage 傳送郵件，只要[申請受信任的 IP 發送範圍方案](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}，即可確認自己是否有資格使用受信任的 IP。從 Marketo Engage 受信任 IP 發送時包含具品牌識別的 return-path。如果此方案獲得批准，請聯絡 Adobe 支援部門來設定具品牌識別的 return-path。
 
 * 如果您每月發送超過 100,000 則訊息，並希望使用共用 IP 透過 Marketo Engage 發送電子郵件，請聯絡 Adobe 帳戶團隊 (您的帳戶經理) 購買專用 IP。
 
@@ -220,11 +220,11 @@ DMARC 有兩種比對類型：
 
 <!-- ### Webhooks
 
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
 
 ## 對外連線 IP 地址區塊
 
