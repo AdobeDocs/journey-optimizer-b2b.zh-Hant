@@ -72,7 +72,7 @@ ht-degree: 4%
 
 使用HTML檔案在GenStudio for Performance Marketing中建立範本。
 
-如需有關在Adobe GenStudio for Performance Marketing中將HTML範本上傳到GenStudio的詳細資訊，請參閱GenStudio for Performance Marketing檔案中的[新增範本](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)。
+如需有關在Adobe GenStudio for Performance Marketing中將HTML範本上傳到GenStudio的詳細資訊，請參閱GenStudio for Performance Marketing檔案中的[新增範本](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)。
 
 當您上傳匯出的HTML作為範本時，GenStudio for Performance Marketing會掃描HTML檔案以尋找可識別的欄位。 使用預覽可檢閱您的範本元素，並確認您以識別的欄位名稱正確識別了這些元素。
 
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 在GenStudio for Performance Marketing中，使用範本建立多個電子郵件體驗變數並儲存。
 
-如需有關產生品牌化電子郵件體驗的詳細資訊，請參閱GenStudio for Performance Marketing檔案中的[建立電子郵件體驗](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
+如需有關產生品牌化電子郵件體驗的詳細資訊，請參閱GenStudio for Performance Marketing檔案中的[建立電子郵件體驗](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
 
 ## 將產生的電子郵件體驗新增至Journey Optimizer B2B edition
 
