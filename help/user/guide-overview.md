@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 文件
 description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，透過內建的生成式 AI 和領先業界的自動化功能，協調帳戶和購買群組歷程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 5d16e14a87aabb87fab9f06ea597ca671c66b7e3
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 100%
 以下是 Journey Optimizer B2B Edition 應用程式和文件中最新新增與增強之內容範例。
 
 >[!BEGINTABS]
+
+>[!TAB GenStudio電子郵件體驗]
+
+將GenStudio for Performance Marketing電子郵件體驗與Journey Optimizer B2B edition整合，以提高行銷效率並維持品牌一致性。 透過這項整合，您可以將GenStudio AI支援的內容建立功能與Journey Optimizer B2B edition中的進階協調功能結合使用。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="瞭解GenStudio電子郵件體驗"}
 
 >[!TAB 帳戶清單]
 
@@ -54,12 +60,6 @@ ht-degree: 100%
 透過 Adobe Express Enterprise 授權，您可以利用全套 Adobe Express 功能。您可以使用這些功能，在遵守品牌準則的情況下修飾和增強影像，並移除內容供應鏈中的障礙。
 
 [!BADGE 了解更多]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="了解如何使用 Adobe Express 編輯影像"}
-
->[!TAB 片段的可自訂欄位]
-
-作為內容設計者，您可以將片段中某個元件的參數指定為可編輯。電子郵件或範本作者可以使用這項設定，依照本身需求指定自訂欄位值。此自訂標幟僅限影像、文字和按鈕視覺元件使用。
-
-[!BADGE 了解更多]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="了解內容片段的自訂欄位"}
 
 >[!ENDTABS]
 
@@ -121,7 +121,7 @@ ht-degree: 100%
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="歷程內容"><br/>
-      <strong>歷程內容</strong><br/><a href="./content/add-email.md">電子郵件頻道</a><br/><a href="./content/ai-assistant-emails.md">電子郵件 AI 助理</a><br/><a href="./content/sales-alert-email.md">銷售警報電子郵件</a><br/><a href="./content/sms-authoring.md">簡訊頻道</a>
+      <strong>歷程內容</strong><br/><a href="./content/add-email.md">電子郵件頻道</a><br/><a href="./content/ai-assistant-emails.md">電子郵件的AI小幫手</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio電子郵件體驗</a><br/><a href="./content/sales-alert-email.md">銷售警示電子郵件</a><br/><a href="./content/sms-authoring.md">簡訊頻道</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="內容管理"><br/>
@@ -139,7 +139,7 @@ ht-degree: 100%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">文件</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>

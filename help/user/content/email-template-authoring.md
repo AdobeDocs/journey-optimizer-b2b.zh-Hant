@@ -4,16 +4,16 @@ description: 瞭解如何撰寫可用於帳戶歷程電子郵件的內容電子�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 17%
+source-wordcount: '336'
+ht-degree: 16%
 
 ---
 
 # 電子郵件範本編寫
 
-在您[建立電子郵件範本](./email-templates.md#create-an-email-template)之後，請使用視覺化設計工具來編寫電子郵件範本中的結構和內容元件。
+在您[建立電子郵件範本](./email-templates.md#create-an-email-template)之後，請使用視覺化設計空間來編寫電子郵件範本中的結構和內容元件。
 
 ## 新增結構和內容 {#structure-content}
 
@@ -45,7 +45,7 @@ ht-degree: 17%
 
 ### 將內容個人化
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### 編輯連結的URL追蹤
 
@@ -53,7 +53,7 @@ ht-degree: 17%
 
 ## 檢視選項
 
-運用視覺化設計工具中可用的檢視和內容驗證選項。
+善用視覺化設計空間中可用的檢視和內容驗證選項。
 
 * 透過預設縮放選項放大/縮小內容。
 
@@ -63,11 +63,11 @@ ht-degree: 17%
 
 ### 更多選項
 
-從電子郵件設計工具頂端的&#x200B;_[!UICONTROL 更多……]_&#x200B;功能表，您可以執行下列動作：
+從電子郵件設計空間頂端的&#x200B;_[!UICONTROL 更多……]_&#x200B;功能表，您可以執行下列動作：
 
 ![按一下[更多]以存取範本動作](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL 重設範本]** — 按一下此選項，將視覺化設計工具畫布清除為空白並重新啟動建立內容。
+* **[!UICONTROL 重設範本]** — 按一下此選項，將設計畫布清除為空白並重新啟動建立內容。
 * **[!UICONTROL 另存為片段]** — 將範本的所有或部份另存為片段，以便在多個電子郵件或電子郵件範本中重複使用。 您提供片段的名稱和說明，並將其儲存到可用片段清單中。
 * **[!UICONTROL 變更您的設計]** — 返回&#x200B;_設計您的範本_&#x200B;頁面。 從那裡，您可以選擇從頭開始設計範本，或使用現有的範本來重新啟動設計流程。
 * **[!UICONTROL 匯出HTML]** — 將視覺畫布中的內容以HTML格式下載到您的本機系統，並封裝成zip檔。
