@@ -4,10 +4,10 @@ description: 瞭解如何在編寫帳戶歷程的電子郵件內容時建立內�
 feature: Email Authoring, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 11%
+source-wordcount: '1247'
+ht-degree: 10%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 11%
 
    ![條件資料庫存取條件詳細資料](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則[&#128279;](#create-condition)。
+   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則](#create-condition)。[
 
 1. 選取條件式規則，然後按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以將其與變體關聯。
 
@@ -108,20 +108,9 @@ ht-degree: 11%
 | -------------- | ------- | ----------- |
 | **帳戶** | 帳戶屬性 | 帳戶設定檔中的屬性，包括： <li>年收入</li><li>城市</li><li>國家/地區</li><li>員工人數</li><li>行業</li><li>名稱</li><li>SIC代碼</li><li>狀態</li> |
 | | [!UICONTROL 特殊篩選器] > [!UICONTROL 有購買群組] | 帳戶是否擁有購買群組的成員。 也可以根據下列一或多個條件進行評估： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li> |
-| | [!UICONTROL 特殊篩選器] > [!UICONTROL 有商機] | 帳戶是否與商機相關。 也可以針對下列一或多個機會屬性進行評估： <li>數量<li>結束日期<li>說明<li>預期收入<li>會計季度<li>會計年度<li>預測類別<li>預測類別名稱<li>已結束<li>獲勝</li><li>上次活動日期</li><li>個人來源<li>名稱</li><li>下一步</li><li>機率<li>數量<li>階段</li><li>類型 |
 | **人員** | [!UICONTROL 活動歷史記錄] > [!UICONTROL 電子郵件] | 與歷程相關聯的電子郵件活動： <li>[!UICONTROL 已點按電子郵件中的連結]</li><li>已開啟的電子郵件</li><li>已傳遞電子郵件</li><li>已傳送電子郵件</li> 會使用歷程中先前選取的電子郵件訊息評估這些條件。 |
 |  | [!UICONTROL 個人屬性] | 個人設定檔中的屬性，包括： <li>城市</li><li>國家/地區</li><li>出生日期</li><li>電子郵件地址</li><li>電子郵件無效</li><li>電子郵件已暫停</li><li>名字</li><li>推斷的狀態區域</li><li>職稱</li><li>姓氏</li><li>行動電話號碼</li><li>電話號碼</li><li>郵遞區號</li><li>狀態</li><li>退訂</li><li>取消訂閱的原因</li> |
 | | [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>角色</li> |
-
-<!-- 
-
-| | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li> |
-| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone</li><li>Email</li><li>Web</li>|
-
-| | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
-| | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | The person is or is not a member of one or more Marketo Engage programs. |
-|  [People](#add-a-split-path-by-people-node) > [!UICONTROL Account-person attributes only] | Role in account attributes | The person is or is not assigned a role in the account. Optional constraints: <li>Enter a role name</li> | 
--->
 
 ### 建立條件式規則 {#create-condition}
 
