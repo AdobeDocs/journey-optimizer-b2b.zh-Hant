@@ -233,4 +233,4 @@ _依人員節點分割路徑如何運作？_
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443267/?learn=on&captions=chi_hant)
