@@ -1,13 +1,13 @@
 ---
 title: 帳戶歷程
-description: 開始使用帳戶歷程，並瞭解如何使用帳戶歷程清單來管理它們。
+description: 開始使用帳戶歷程，並了解如何使用「帳戶歷程」清單來管理歷程。
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 86%
 
 ## 存取並瀏覽帳戶歷程
 
-在左側導覽列中，展開&#x200B;**[!UICONTROL 帳戶管理]**，然後按一下&#x200B;**[!UICONTROL 帳戶歷程]**。
+在左側導覽中，展開「**[!UICONTROL 帳戶管理]**」並按一下「**[!UICONTROL 帳戶歷程]**」。
 
-在清單頂端的&#x200B;_搜尋_&#x200B;工具中輸入文字，依名稱篩選顯示的清單。
+在清單頂端的「_搜尋_」工具中輸入文字，以便依據名稱來篩選顯示的清單。
 
 ![篩選帳戶歷程清單](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
-_[!UICONTROL 帳戶歷程]_&#x200B;清單頁面包含下列資料行：
+「_[!UICONTROL 帳戶歷程]_」清單頁面包含下列各欄：
 
 * [!UICONTROL 名稱] (按一下此名稱來開啟歷程以進行編輯)
 * [!UICONTROL 狀態]
@@ -62,18 +62,18 @@ _[!UICONTROL 帳戶歷程]_&#x200B;清單頁面包含下列資料行：
 每個帳戶歷程圖的標頭包括：
 
 * 歷程名稱
-* 歷程名稱的編輯工具（![編輯圖示](../assets/do-not-localize/icon-edit.svg) _編輯_&#x200B;圖示）
+* 歷程名稱的編輯工具 (![編輯圖示](../assets/do-not-localize/icon-edit.svg) _編輯_&#x200B;圖示)
 * 歷程狀態
 
 根據您套用的動作，歷程狀態可能會變更。根據歷程狀態，您可以或無法從標頭右側執行某些動作。
 
 | 狀態 | 說明 | 可用的動作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 未發佈且可以編輯的歷程。 | <li>[發佈](./create-publish-journey.md#publish-an-account-journey)<li>[重複](#duplicate-journey) <li>[刪除](#delete-journey) |
-| _&#x200B;**已上線**&#x200B;_ | 歷程發佈後，歷程狀態會從「草稿」變更為「已上線」。在此狀態下，您將無法編輯歷程。 | <li>[重複](#duplicate-journey)<li>[關閉新專案](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**對新進客戶關閉**&#x200B;_ | 當您在頂端導覽區域按一下「_對新進客戶關閉_」，此歷程狀態會從「_已上線_」變更為「[!UICONTROL 對新進客戶關閉]」。 | <li>[重複](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。中止的歷程無法重新啟動。 | <li>[重複](#duplicate-journey) <li>[刪除](#delete-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 當歷程中的所有帳戶完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉新專案_&#x200B;變更為&#x200B;_已完成_。 | <li>[重複](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**草稿**_ | 未發佈且可以編輯的歷程。 | <li>[發佈](./create-publish-journey.md#publish-an-account-journey)<li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**已上線**_ | 歷程發佈後，歷程狀態會從「草稿」變更為「已上線」。在此狀態下，您將無法編輯歷程。 | <li>[複製](#duplicate-journey)<li>[對新進客戶關閉](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**對新進客戶關閉**_ | 當您在頂端導覽區域按一下「_對新進客戶關閉_」，此歷程狀態會從「_已上線_」變更為「[!UICONTROL 對新進客戶關閉]」。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。中止的歷程無法重新啟動。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**已完成**_ | 當歷程中的所有帳戶均完成該歷程時，其狀態會從「_已上線_」或「_對新進客戶關閉_」變更為「_已完成_」。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
 
 ## 管理歷程
 
@@ -85,7 +85,7 @@ _帳戶歷程_&#x200B;清單包含您的 Journey Optimizer B2B Edition 執行個
 
 >[!IMPORTANT]
 >
->當帳戶歷程用於來自&#x200B;_採取動作_&#x200B;節點且&#x200B;_將帳戶新增至_&#x200B;動作的另一個歷程時，中止該歷程中封鎖該動作的歷程。
+>當在另一個歷程的「_採取動作_」節點中透過「_將帳戶新增至 (其他) 歷程_」動作來使用此帳戶歷程時，中止歷程會阻止該歷程中的該動作。
 
 1. 按一下歷程名稱來開啟。
 
@@ -127,7 +127,7 @@ _帳戶歷程_&#x200B;清單包含您的 Journey Optimizer B2B Edition 執行個
 
 1. 在「_重複歷程_」對話框中，設定新歷程的「**[!UICONTROL 名稱]**」和「**[!UICONTROL 描述]**」。
 
-   預設情況下，對話框使用重複歷程的名稱並加上 __copy_。依需要為歷程輸入另一個唯一名稱。
+   預設情況下，對話框會使用重複歷程的名稱，並加上 __copy_。依需要為歷程輸入另一個唯一名稱。
 
    ![重複歷程對話框](./assets/account-journey-duplicate-dialog.png){width="400"}
 
@@ -157,4 +157,4 @@ _帳戶歷程_&#x200B;清單包含您的 Journey Optimizer B2B Edition 執行個
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443218/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

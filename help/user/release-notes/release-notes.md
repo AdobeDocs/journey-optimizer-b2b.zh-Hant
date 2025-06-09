@@ -1,12 +1,12 @@
 ---
-title: Journey Optimizer B2B edition發行說明
-description: 瞭解Adobe Journey Optimizer B2B edition中的最新功能和增強功能。
+title: Journey Optimizer B2B Edition 發行說明
+description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增強功能。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2190'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,20 +20,20 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 ## 2025.5 發行說明
 
-**部署日期**：2025年6月3日
+**部署日期**：2025 年 6 月 3 日
 
 此版本包括下列新功能和增強功能：
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 與GenStudio for Performance Marketing整合 | （可用性限制）您現在可以將GenStudio for Performance Marketing電子郵件體驗與Journey Optimizer B2B edition整合，以提高行銷效率並維護品牌一致性。 透過這項整合，您可以將GenStudio AI支援的內容建立功能與Journey Optimizer B2B edition中的進階協調功能結合使用。 [了解更多](../content/genstudio-email-workflow.md) |
-| 增強功能 | 電子郵件的把手代號格式 | 電子郵件內容的Personalization Token現在使用與Handlebar指令碼完全相容的更新格式。 此格式使用&#x200B;_駝峰式大小寫_&#x200B;或底線，消除空格。 [了解更多](../content/email-authoring.md#content-authoring---personalization) |
-| 增強功能 | 清單顯示的總數 | _[!UICONTROL 方案興趣]_&#x200B;和&#x200B;_[!UICONTROL 帳戶歷程]_&#x200B;清單頁面已增強，並在搜尋列旁邊顯示總計數。 |
+| 功能 | 與 GenStudio for Performance Marketing 的整合 | (限量開放) 您現在可以將 GenStudio for Performance Marketing 電子郵件體驗與 Journey Optimizer B2B Edition 整合，以提高行銷效率並保持品牌一致性。透過此整合，您就可以將 GenStudio AI 驅動的內容創作與 Journey Optimizer B2B Edition 中的進階協調功能相結合。[了解更多](../content/genstudio-email-workflow.md) |
+| 增強功能 | 電子郵件的 Handlebar 語彙基元格式 | 電子郵件內容的個人化語彙基元現在使用了與 Handlebar 指令碼完全相容的更新格式。此格式採用&#x200B;_駝峰式大小寫_&#x200B;或底線，排除了空格。[了解更多](../content/email-authoring.md#content-authoring---personalization) |
+| 增強功能 | 清單的顯示總數 | 「_[!UICONTROL 解決方案興趣]_」和「_[!UICONTROL 帳戶歷程]_」清單頁面現在會在搜尋列旁邊顯示總數，讓功能更加完善。 |
 
 
 ## 2025.4 發行說明
 
-**部署日期**：2025年4月29日
+**部署日期**：2025 年 4 月 29 日
 
 此版本包括下列新功能和增強功能：
 
@@ -48,7 +48,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 ## 2025.3 發行說明
 
-**部署日期**：2025年4月1日
+**部署日期**：2025 年 4 月 1 日
 
 此版本包括下列新功能和增強功能：
 
@@ -61,27 +61,27 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 ## 2025.2 發行說明
 
-**部署日期**：2025年3月11日
+**部署日期**：2025 年 3 月 11 日
 
 此版本包括下列新功能和增強功能：
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 可自訂欄位 - 內容片段 | 在視覺片段設計期間，您可以將片段中元件的引數指定為可編輯。 透過這項功能，電子郵件或範本作者可以根據本身需求指定自訂欄位值。此自訂標幟僅限影像、文字和按鈕視覺元件使用。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解更多</a> |
+| 功能 | 可自訂欄位 - 內容片段 | 在視覺化片段設計期間，您可以將片段中某個元件的參數指定為可編輯。透過這項功能，電子郵件或範本作者可以根據本身需求指定自訂欄位值。此自訂標幟僅限影像、文字和按鈕視覺元件使用。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解更多</a> |
 | 功能 | B2B 內建角色和產品權限 | Experience Platform 現在包含一組內建 (預設) 角色，可用於管理對 B2B 產品功能的存取權。<a href="../admin/user-management.md#b2b-built-in-roles">了解更多</a> <br/>現在，管理員可以在 Adobe Experience Platform 中定義自訂角色，以便包含 Journey Optimizer B2B Edition 產品權限。<a href="../admin/user-management.md#b2b-product-permissions">了解更多</a> |
 | 功能 | 歷程重複類型 | 當您重複帳戶歷程時，您可以包含節點詳細資訊，但不包括 Journey Optimizer B2B Edition 中建立的電子郵件和 SMS 訊息。或者，您可以建立結構和路徑流程基本框架的副本，不需要節點詳細資訊和設定。<a href="../journeys/journey-overview.md#duplicate-journey">了解更多</a> |
 | 增強功能 | 其他四個電子郵件範本範例 | 電子郵件範本範例資料庫現在包括四個 SecurFinacial 範本，做為重新參與、通知、培養及意見回饋內容範例 |
 
 ## 2025.1 發行說明 {#Jan-2025}
 
-**部署日期**：2025年2月6日
+**部署日期**：2025 年 2 月 6 日
 
 此版本包括下列新功能和增強功能：
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 體驗事件轉送 | 管理員可以設定基於 Adobe Experience Platform (AEP) 的事件定義。行銷人員可以利用這些設定，建立能回應 AEP 體驗事件的帳戶歷程。<a href="../admin/configure-aep-events.md">了解更多</a> |
-| 功能 | 付費媒體目標 | 透迥帳戶歷程判斷已知人員是否符合付費媒體行銷活動的資格，以便在 LinkedIn 等廣告平台上進一步與他們互動。在帳戶歷程中使用分割路徑節點，根據特定行為來細分帳戶對象，並識別需要額外參與的帳戶。 然後，透過 Real-time CDP 將這些帳戶中的人員新增至外部客戶客群中，並新增至支援的付費媒體目標。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解更多</a> |
+| 功能 | 付費媒體目標 | 透過帳戶歷程判斷已知人員是否符合付費媒體行銷活動的資格，以便在 LinkedIn 等廣告平台上進一步與他們互動。在帳戶歷程中使用分割路徑節點，以根據特定行為細分帳戶客群，並找出需要提高參與度的帳戶。然後，透過 Real-time CDP 將這些帳戶中的人員新增至外部客戶客群中，並新增至支援的付費媒體目標。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解更多</a> |
 | 功能 | 智慧儀表板 | 透過購買群組的帳戶歷程檢視其進度，包括由 AI 產生的深入分析，以便進行智慧化分析和準確的帳戶優先排序。<a href="../dashboards/intelligent-dashboard.md">了解更多</a> |
 | 功能 | 購買群組和帳戶詳細資訊 | 檢視購買群組和帳戶層級的深入分析，以便了解更多背景和歷史資料，然後再開始與客戶互動。<p>購買群組詳細資訊包括已偵測到的任何第一方意圖。<a href="../buying-groups/buying-group-details.md">了解更多</a><p>帳戶詳細資訊會加強顯示偵測到參與度的意圖激增情形，以便您可以通知銷售人員注意那些已經準備好接受客製化銷售導向互動的帳戶。<a href="../accounts/account-details.md">了解更多</a> |
 | 功能 | 歷程概觀 | 存取帳戶歷程時，「概觀」索引標籤會提供使用中帳戶歷程的綜合概況，並利用圓形圖和長條圖分類及量化完成情況和參與活動，以詳細說明帳戶進度。<a href="../dashboards/journeys-dashboard.md">了解更多</a> |
@@ -92,13 +92,13 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 增強功能 | 歷程和角色的 Marketo Engage 清單成員資格篩選器 | 在 Journey Optimizer B2B 中，選擇 Marketo Engage 清單成員資格做為&#x200B;_根據人員分割路徑_&#x200B;節點的條件，以協助消除歷程活動中的重複項目。<a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">了解更多</a> <p> 針對購買群組角色範本，使用清單成員資格做為角色條件。<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解更多</a> |
 | 增強功能 | 參與度概觀儀表板 | 此儀表板已更新，可提供參與度的完整檢視。它會透過快照圓形圖表和隨時間變化的趨勢揭露折線圖，展示帳戶和個人互動的即時量度。<a href="../dashboards/engagement-dashboard.md">了解更多</a> |
 
-## 2024版本
+## 2024 版本
 
-展開下列清單，以瞭解2024年發行的Journey Optimizer B2B edition功能和增強功能。
+展開以下清單，了解 2024 年發佈的 Journey Optimizer B2B Edition 的功能和增強功能。
 
-+++2024年10月發行說明
++++2024 年 10 月發行說明
 
-**部署日期**：2024年10月29日
+**部署日期**：2024 年 10 月 29 日
 
 此版本包括下列新功能和增強功能：
 
@@ -114,9 +114,9 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 +++
 
-+++2024年9月發行說明
++++2024 年 9 月發行說明
 
-**部署日期**：2024年10月7日
+**部署日期**：2024 年 10 月 7 日
 
 此版本包括下列新功能和增強功能：
 
@@ -129,9 +129,9 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 +++
 
-+++2024年8月發行說明
++++2024 年 8 月發行說明
 
-**部署日期**：2024年8月29日
+**部署日期**：2024 年 8 月 29 日
 
 此版本包括下列新功能和增強功能：
 
