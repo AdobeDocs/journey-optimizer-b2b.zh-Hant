@@ -93,9 +93,9 @@ ht-degree: 8%
 
 1. 在Journey Optimizer B2B edition中，[使用&#x200B;_[!UICONTROL 執行動作]_&#x200B;節點，將電子郵件](./add-email.md)新增至帳戶歷程。
 
-   * 針對&#x200B;]_目標上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
+   * 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
 
-   * 針對人員&#x200B;]_的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
+   * 針對人員&#x200B;_的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
 
      ![採取動作 — 傳送電子郵件](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
