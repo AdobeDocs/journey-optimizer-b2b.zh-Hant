@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增強功能。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
-source-wordcount: '2190'
+source-git-commit: ae2acbde4fbabb5d49a532e8060005acf04f8b26
+workflow-type: ht
+source-wordcount: '2139'
 ht-degree: 100%
 
 ---
@@ -68,9 +68,10 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 可自訂欄位 - 內容片段 | 在視覺化片段設計期間，您可以將片段中某個元件的參數指定為可編輯。透過這項功能，電子郵件或範本作者可以根據本身需求指定自訂欄位值。此自訂標幟僅限影像、文字和按鈕視覺元件使用。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解更多</a> |
-| 功能 | B2B 內建角色和產品權限 | Experience Platform 現在包含一組內建 (預設) 角色，可用於管理對 B2B 產品功能的存取權。<a href="../admin/user-management.md#b2b-built-in-roles">了解更多</a> <br/>現在，管理員可以在 Adobe Experience Platform 中定義自訂角色，以便包含 Journey Optimizer B2B Edition 產品權限。<a href="../admin/user-management.md#b2b-product-permissions">了解更多</a> |
 | 功能 | 歷程重複類型 | 當您重複帳戶歷程時，您可以包含節點詳細資訊，但不包括 Journey Optimizer B2B Edition 中建立的電子郵件和 SMS 訊息。或者，您可以建立結構和路徑流程基本框架的副本，不需要節點詳細資訊和設定。<a href="../journeys/journey-overview.md#duplicate-journey">了解更多</a> |
 | 增強功能 | 其他四個電子郵件範本範例 | 電子郵件範本範例資料庫現在包括四個 SecurFinacial 範本，做為重新參與、通知、培養及意見回饋內容範例 |
+
+<!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->
 
 ## 2025.1 發行說明 {#Jan-2025}
 
