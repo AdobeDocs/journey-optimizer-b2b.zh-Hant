@@ -4,16 +4,16 @@ description: 使用電子郵件清單，在Adobe Journey Optimizer B2B edition�
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # 電子郵件
 
-當您[建立電子郵件](./add-email.md)時，您將其新增到歷程節點的內容中。 如果您想要在歷程地圖之外使用電子郵件，請使用&#x200B;_[!UICONTROL 電子郵件]_&#x200B;清單來尋找及更新電子郵件。 您可以檢閱電子郵件或更新設定和內容。
+當您[建立電子郵件](./add-email.md)時，您將其新增到歷程節點的內容中。 當您想要使用歷程地圖以外的電子郵件內容時，請使用&#x200B;_[!UICONTROL 電子郵件]_&#x200B;清單來尋找及更新電子郵件。 您可以檢閱電子郵件或更新設定和內容。
 
 ## 存取和管理電子郵件
 
