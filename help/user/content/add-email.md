@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe Journey Optimizer B2B中新增、定義及最�
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 當您[新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點](../journeys/action-nodes.md)並執行下列動作時，您可以在歷程中設定電子郵件傳遞：
 
-1. 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
+1. 針對&#x200B;]_目標上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
 
-1. 針對人員&#x200B;_的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
+1. 針對人員&#x200B;]_的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
 
 1. 針對&#x200B;_[!UICONTROL 電子郵件來源]_，選擇您要如何取得要傳送的電子郵件。
 
@@ -33,59 +33,55 @@ ht-degree: 0%
 
    * 選擇&#x200B;**[!UICONTROL 建立新電子郵件]**，在Journey Optimizer B2B edition中以原生方式編寫電子郵件。
 
-     此選項可讓您在Journey Optimizer B2B edition中以原生方式管理電子郵件內容。 按一下[建立電子郵件]&#x200B;**[!UICONTROL 以開啟[建立新電子郵件]_對話方塊_。]**&#x200B;您可以建立新的電子郵件內容資產<!-- or duplicate an existing email content asset-->。
+     此選項可讓您在Journey Optimizer B2B edition中以原生方式管理電子郵件內容。 按一下[建立電子郵件]**[!UICONTROL 以開啟[建立新電子郵件]_對話方塊_。]**&#x200B;您可以建立新的電子郵件內容資產或複製現有的電子郵件內容資產。
 
-     在對話方塊中，輸入電子郵件的唯一&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 主旨列]**，然後按一下&#x200B;**[!UICONTROL 建立]**。
+     +++新電子郵件
 
-     ![建立新電子郵件對話方塊 — 新電子郵件](assets/create-new-email-no-duplicate.png){width="400"}
+     若要使用空白畫布或電子郵件範本建立電子郵件，請使用&#x200B;_[!UICONTROL 新增電子郵件]_&#x200B;選項。
 
-     在電子郵件內容頁面的&#x200B;_[!UICONTROL 電子郵件屬性]_&#x200B;區段中，_[!UICONTROL 寄件者電子郵件]_&#x200B;與&#x200B;_[!UICONTROL 回覆地址]_&#x200B;欄位已設定。 您可以輸入&#x200B;_[!UICONTROL From name]_&#x200B;和&#x200B;_[!UICONTROL Description]_ （選擇性）欄位的值。
+      1. 在對話方塊中，選擇&#x200B;**[!UICONTROL 新增電子郵件]**。
 
-     定義電子郵件[設定](#define-the-email-settings)並按一下&#x200B;**[!UICONTROL 編輯電子郵件內容]**&#x200B;以[設計內容](./email-authoring.md)。
+      1. 輸入電子郵件唯一&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 主旨列]**。
 
-     <!-- +++New email {#new-email}
-     When you want to create an email using an empty canvas or an email template, use the _[!UICONTROL New email]_ option. 
+         ![建立新電子郵件對話方塊 — 新電子郵件](assets/create-new-email.png){width="400"}
 
-     1. In the dialog, choose **[!UICONTROL New email]**.
+      1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+         在電子郵件內容頁面的&#x200B;_[!UICONTROL 電子郵件屬性]_&#x200B;區段中，_[!UICONTROL 寄件者電子郵件]_&#x200B;與&#x200B;_[!UICONTROL 回覆地址]_&#x200B;欄位已設定。 您可以輸入&#x200B;_[!UICONTROL From name]_&#x200B;和&#x200B;_[!UICONTROL Description]_ （選擇性）欄位的值。
 
-        ![Create new email dialog - new email](assets/create-new-email.png){width="400"}
+      1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件]**&#x200B;以定義電子郵件[設定](#define-the-email-settings)並設計[內容](./email-authoring.md)。
 
-     1. Click **[!UICONTROL Create]**.
++++
 
-       In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
+     +++複製現有電子郵件
 
-     1. Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
+     當您想要使用目前歷程或其他歷程中的現有電子郵件建立電子郵件時，請使用&#x200B;_[!UICONTROL 複製現有電子郵件]_&#x200B;選項。 您可以根據歷程節點的目標來變更重複的電子郵件。
 
-     +++
+      1. 在&#x200B;_[!UICONTROL 建立新電子郵件]_&#x200B;對話方塊中，選擇&#x200B;**[!UICONTROL 複製現有電子郵件]**。
 
-     +++Duplicate existing email {#duplicate-email}
-     When you want to create an email using an existing email from the current journey or from another journey, use the Duplicate existing journey option. You can make changes to the duplicated email according to your objective for the journey node.
+      1. 若要複製&#x200B;**[!UICONTROL 現有電子郵件]**，請按一下&#x200B;_選取範圍_&#x200B;圖示（![選取範圍圖示](../assets/do-not-localize/icon-email-select.svg)）並選取您要複製並用於歷程節點的電子郵件。
 
-     1. In the dialog, choose **[!UICONTROL Duplicate existing email]**.
+         您可以在搜尋欄位中輸入文字字串以符合電子郵件名稱，藉此篩選電子郵件清單。
 
-     1. For **[!UICONTROL Existing email to duplicate]**, click the _Select email_ icon and select the email you want to duplicate and use for the journey node.
+         ![選取電子郵件](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-      You can filter the list of emails by entering a text string in the search field to match the email name.
+         選取您要複製之電子郵件的核取方塊，然後按一下&#x200B;**[!UICONTROL 選取]**。
 
-      ![Select email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+      1. 輸入電子郵件唯一&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 主旨列]**。
 
-      Select the checkbox for the email that you want to duplicate and click **[!UICONTROL Select]**. 
+         ![建立新電子郵件對話方塊 — 複製現有電子郵件](assets/create-new-email-duplicate.png){width="400"}
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+      1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-        ![Create new email dialog - duplciate existing email](assets/create-new-email.png){width="400"}
+         在電子郵件內容頁面的&#x200B;_[!UICONTROL 電子郵件屬性]_&#x200B;區段中，_[!UICONTROL 寄件者電子郵件]_&#x200B;與&#x200B;_[!UICONTROL 回覆地址]_&#x200B;欄位已設定。 您可以輸入&#x200B;_[!UICONTROL From name]_&#x200B;和&#x200B;_[!UICONTROL Description]_ （選擇性）欄位的值。
 
-     1. Click **[!UICONTROL Create]**.
+      1. 如有需要，請按一下[編輯電子郵件] ****&#x200B;來修改電子郵件[設定](#define-the-email-settings)和[內容](./email-authoring.md)。
 
-        In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
++++
 
-     1. If needed, click **[!UICONTROL Edit email]** to modify the email [settings](#define-the-email-settings) and [content](./email-authoring.md).
-
-     +++
-   —>
    * 選擇&#x200B;**[!UICONTROL 從Adobe Marketo Engage選取電子郵件]**&#x200B;以使用Marketo Engage中預先編寫的電子郵件之一，並將其作為歷程的一部分傳送。
+
+     如果您在連線的Market Engage執行個體中有多個工作區可用，請選取工作區。 然後，選取您要為歷程節點傳送的已核准電子郵件。
 
      ![選取Marketo Engage電子郵件](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
