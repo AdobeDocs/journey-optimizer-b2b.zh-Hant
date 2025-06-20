@@ -23,9 +23,9 @@ ht-degree: 0%
 
 當您[新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點](../journeys/action-nodes.md)並執行下列動作時，您可以在歷程中設定電子郵件傳遞：
 
-1. 針對&#x200B;]_目標上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
+1. 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
 
-1. 針對人員&#x200B;]_的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
+1. 針對人員&#x200B;_的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
 
 1. 針對&#x200B;_[!UICONTROL 電子郵件來源]_，選擇您要如何取得要傳送的電子郵件。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    * 選擇&#x200B;**[!UICONTROL 建立新電子郵件]**，在Journey Optimizer B2B edition中以原生方式編寫電子郵件。
 
-     此選項可讓您在Journey Optimizer B2B edition中以原生方式管理電子郵件內容。 按一下[建立電子郵件]**[!UICONTROL 以開啟[建立新電子郵件]_對話方塊_。]**&#x200B;您可以建立新的電子郵件內容資產或複製現有的電子郵件內容資產。
+     此選項可讓您在Journey Optimizer B2B edition中以原生方式管理電子郵件內容。 按一下[建立電子郵件]&#x200B;**[!UICONTROL 以開啟[建立新電子郵件]_對話方塊_。]**&#x200B;您可以建立新的電子郵件內容資產或複製現有的電子郵件內容資產。
 
      +++新電子郵件
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
       1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件]**&#x200B;以定義電子郵件[設定](#define-the-email-settings)並設計[內容](./email-authoring.md)。
 
-+++
+     +++
 
      +++複製現有電子郵件
 
@@ -75,9 +75,9 @@ ht-degree: 0%
 
          在電子郵件內容頁面的&#x200B;_[!UICONTROL 電子郵件屬性]_&#x200B;區段中，_[!UICONTROL 寄件者電子郵件]_&#x200B;與&#x200B;_[!UICONTROL 回覆地址]_&#x200B;欄位已設定。 您可以輸入&#x200B;_[!UICONTROL From name]_&#x200B;和&#x200B;_[!UICONTROL Description]_ （選擇性）欄位的值。
 
-      1. 如有需要，請按一下[編輯電子郵件] ****&#x200B;來修改電子郵件[設定](#define-the-email-settings)和[內容](./email-authoring.md)。
+      1. 如有需要，請按一下[編輯電子郵件] **&#x200B;**&#x200B;來修改電子郵件[設定](#define-the-email-settings)和[內容](./email-authoring.md)。
 
-+++
+     +++
 
    * 選擇&#x200B;**[!UICONTROL 從Adobe Marketo Engage選取電子郵件]**&#x200B;以使用Marketo Engage中預先編寫的電子郵件之一，並將其作為歷程的一部分傳送。
 
