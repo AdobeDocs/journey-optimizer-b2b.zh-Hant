@@ -31,7 +31,7 @@ ht-degree: 84%
 
 1. **建立沙箱**&#x200B;以將執行個體分區到獨立的虛擬環境中。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **與您的資料工程師合作**，規劃及實作B2B對象和設定檔啟用。 請檢閱已發佈的藍圖，並根據您的要求遵循准則。 [了解更多](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **與您的資料工程師合作**，規劃及實作B2B對象和設定檔啟用。 請檢閱已發佈的藍圖，並根據您的要求遵循准則。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **設定產品輪廓**。產品輪廓是 Adobe Experience Platform 中的一組單一權利，允許使用者存取介面中的某些功能或物件。[了解更多](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
