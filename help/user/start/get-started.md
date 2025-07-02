@@ -1,19 +1,19 @@
 ---
-title: 管理員和行銷人員入門指南
-description: 身為Journey Optimizer B2B edition的新管理員或使用者，瞭解入門流程中的關鍵領域。
+title: 管理員和行銷人員的上線指引
+description: 作為 Journey Optimizer B2B Edition 的新管理員或使用者，了解上線流程中的關鍵內容。
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# 入門指南
+# 上線指引
 
-您想要在Adobe Journey Optimizer B2B edition中處理的功能和工具取決於您在團隊中的角色。 管理員可以根據您的組織定義數種使用者類型，並依其權限授予他們特定功能的存取權。
+您在 Adobe Journey Optimizer B2B Edition 中要使用的功能和工具會依據您在團隊中的角色而定。管理員可以根據您的組織定義數種使用者類型，並依這些使用者的權限授予特定功能的存取權。
 
 >[!TIP]
 >
@@ -25,13 +25,13 @@ ht-degree: 84%
 
 在您的團隊開始使用 Adobe Journey Optimizer B2B Edition 的功能之前，您必須執行幾個步驟做好環境準備。請執行這些步驟，以便資料工程師和行銷人員可以開始使用 Adobe Journey Optimizer B2B Edition。
 
-作為系統管理員，您必須了解產品輪廓並指派沙箱管理和管道設定的權限。您也必須設定沙箱，並針對可用的產品輪廓進行管理。然後，您可以將團隊成員指派給產品輪廓。有權存取Adobe Admin Console的產品管理員可以管理這些功能。 [了解更多關於 Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
+作為系統管理員，您必須了解產品輪廓並指派沙箱管理和管道設定的權限。您也必須設定沙箱，並針對可用的產品輪廓進行管理。然後，您可以將團隊成員指派給產品輪廓。具有 Adobe Admin Console 存取權的產品管理員可以管理這些功能。[了解更多關於 Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
 
 請前往下列頁面，了解存取管理：
 
 1. **建立沙箱**&#x200B;以將執行個體分區到獨立的虛擬環境中。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **與您的資料工程師合作**，規劃及實作B2B對象和設定檔啟用。 請檢閱已發佈的藍圖，並根據您的要求遵循准則。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **與您的資料工程師合作**，規劃與實施您的 B2B 客群和輪廓啟動。檢閱已發布的藍圖並根據您的要求遵循指南。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **設定產品輪廓**。產品輪廓是 Adobe Experience Platform 中的一組單一權利，允許使用者存取介面中的某些功能或物件。[了解更多](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -67,7 +67,7 @@ ht-degree: 84%
 
    * 使用內建管道動作 (電子郵件和 SMS) 傳送在 Journey Optimizer B2B Edition 中設計的訊息。
 
-   * 在歷程圖中，建立您的多步驟使用案例、新增條件並傳送個人化訊息。
+   * 在歷程圖中，建立多步驟使用案例、新增條件以及傳送個人化訊息。
 
 [了解更多](../journeys/journey-overview.md)
 
