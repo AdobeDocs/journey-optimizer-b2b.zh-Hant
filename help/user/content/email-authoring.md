@@ -13,7 +13,7 @@ ht-degree: 15%
 
 # 電子郵件訊息製作
 
-在您[新增新的<!-- or duplicated -->電子郵件資產至歷程動作節點](./add-email.md)後，您可以定義電子郵件訊息的內容。
+在您&lbrack;新增新的<!-- or duplicated -->電子郵件資產至歷程動作節點&rbrack;(./add-email.md)後，您可以定義電子郵件訊息的內容。
 
 按一下右側面板上&#x200B;**[!UICONTROL 詳細資料]**&#x200B;索引標籤中的&#x200B;_[!UICONTROL 編輯電子郵件內容]_。
 
@@ -60,7 +60,7 @@ ht-degree: 15%
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
-當您滿意內容時，請按一下[儲存]。****
+當您滿意內容時，請按一下[儲存]。**&#x200B;**
 
 ## 匯入現有的HTML內容
 
