@@ -4,18 +4,18 @@ description: 瞭解如何在Adobe Journey Optimizer B2B中建立電子郵件內�
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
+source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '927'
 ht-degree: 15%
 
 ---
 
 # 電子郵件訊息製作
 
-在您&lbrack;新增新的<!-- or duplicated -->電子郵件資產至歷程動作節點&rbrack;(./add-email.md)後，您可以定義電子郵件訊息的內容。
+在您[新增新的<!-- or duplicated -->電子郵件資產至歷程動作節點](./add-email.md)後，您可以定義電子郵件訊息的內容。
 
-按一下右側面板上&#x200B;_[!UICONTROL 詳細資料]_&#x200B;索引標籤中的&#x200B;**[!UICONTROL 編輯電子郵件內容]**。
+按一下右側面板上&#x200B;**[!UICONTROL 詳細資料]**&#x200B;索引標籤中的&#x200B;_[!UICONTROL 編輯電子郵件內容]_。
 
 ![按一下[編輯電子郵件內容] ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
@@ -52,6 +52,7 @@ ht-degree: 15%
 1. [新增影像資產](#add-assets)至電子郵件訊息。
 1. [個人化電子郵件內容](#personalize-content)。
 1. [檢閱和更新連結](#preview-and-edit-linked-urls)。
+1. [測試電子郵件](#check-and-test-the-email)。
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
@@ -59,9 +60,7 @@ ht-degree: 15%
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
-內容完成時，請按一下頂端的&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以檢查轉譯。 您可以選擇案頭或行動檢視。
-
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容
 
@@ -133,7 +132,7 @@ ht-degree: 15%
    * 按一下&#x200B;_檢視_&#x200B;圖示，即可跨裝置預覽內容。
    * 選取其中一個現成可用的裝置，或輸入自訂維度以預覽內容。
 
-### 更多選項
+## 更多選項
 
 從電子郵件設計空間頂端的&#x200B;_[!UICONTROL 更多……]_&#x200B;功能表，您可以執行下列動作：
 
@@ -145,15 +144,21 @@ ht-degree: 15%
 * **[!UICONTROL 另存為內容範本]** — 將電子郵件內文另存為電子郵件範本，以便在多個電子郵件或電子郵件範本中重複使用。 您可以提供範本的名稱和說明，並將其儲存至已儲存電子郵件範本的清單。
 * **[!UICONTROL 匯出HTML]** — 將視覺畫布中的內容以HTML格式下載到您的本機系統，並封裝成zip檔。
 
-## 檢查和測試電子郵件 {#preview-test}
+## 檢查和測試電子郵件 {#email-testing}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="檢查您內容的呈現方式"
 >abstract="定義內容後，您可以進行預覽，並檢查所使用的頻道是否正確呈現。"
 
-定義訊息內容後，您可以使用測試設定檔來預覽、傳送校樣，以及在熱門的案頭、行動及網頁型使用者端中控制其呈現。 如果您已插入個人化內容，您可以使用測試設定檔資料預覽此內容在訊息中的顯示方式。
+定義訊息內容時，您可以使用測試設定檔來預覽內容、傳送校樣，以及檢閱其在桌上型電腦和行動外觀比例中的呈現。 如果您已插入個人化內容，您可以使用測試設定檔資料預覽此內容在訊息中的顯示方式。
 
-若要預覽電子郵件內容，請按一下[模擬內容] **&#x200B;**，然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
+若要[預覽電子郵件內容](./email-simulate-content.md)，請按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;並選取測試設定檔，以使用人員設定檔資料檢查您的訊息。
 
 ![類比電子郵件內容以檢查您的設計](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+
+您可以存取其他工具來驗證和檢閱電子郵件內容：
+
+* [傳送證明](./email-simulate-content.md#send-proofs)
+* [測試電子郵件使用者端中的轉譯](./email-test-rendering.md)
+<!-- * Generate a spam report -->
