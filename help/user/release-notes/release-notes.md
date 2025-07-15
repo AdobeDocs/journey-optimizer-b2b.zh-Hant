@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增強功能。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 91386eb001a8fdd31c2b35879cb47eefd99e97f5
+source-git-commit: 7e9396a7ac029c173fe3d9b0b1bab6b7c4521ee0
 workflow-type: ht
-source-wordcount: '2220'
+source-wordcount: '2165'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,6 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 與 GenStudio for Performance Marketing 的整合 | (限量開放) 您現在可以將 GenStudio for Performance Marketing 電子郵件體驗與 Journey Optimizer B2B Edition 整合，以提高行銷效率並保持品牌一致性。透過此整合，您就可以將 GenStudio AI 驅動的內容創作與 Journey Optimizer B2B Edition 中的進階協調功能相結合。[了解更多](../content/genstudio-email-workflow.md) |
 | 功能 | 使用 Litmus 進行電子郵件測試 | 有了 [Litmus 帳戶](https://www.litmus.com/email-testing){target="_blank"}，您現在可以從 Journey Optimizer B2B Edition 預覽在熱門電子郵件用戶端的電子郵件呈現效果。此整合功能可協助您確保電子郵件內容外觀精美，而且在每個電子郵件收件匣中都依照設計運作。[了解更多](../content/email-test-rendering.md) |
 | 增強功能 | 複製電子郵件 | 當為歷程節點新增電子郵件時，您現在可以複製現有的電子郵件。修改所複製電子郵件的設定或內容，或者保持不變。[了解更多](../content/add-email.md#add-an-email-to-your-journey) |
 | 增強功能 | 電子郵件的 Handlebar 語彙基元格式 | 電子郵件內容的個人化語彙基元現在使用了與 Handlebar 指令碼完全相容的更新格式。此格式採用&#x200B;_駝峰式大小寫_&#x200B;或底線，排除了空格。[了解更多](../content/email-authoring.md#content-authoring---personalization) |
