@@ -5,9 +5,9 @@ feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
+source-git-commit: dbb678f40b8d637f4eb534acb31328ebea0c182a
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 若要測試您的電子郵件，您可以利用Journey Optimizer B2B edition的[Litmus](https://www.litmus.com/email-testing){target="_blank"}企業帳戶。 透過這項整合，您可以在常用的電子郵件使用者端中預覽電子郵件呈現。 此工具可協助您確保電子郵件內容看起來不錯，並在每個收件匣中依設計運作。
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->此整合僅適用於Litmus Enterprise帳戶。 如需詳細資訊，請參閱Litmus網站[上的](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}解決方案頁面。
+>這項整合僅適用於擁有Litmus Enterprise帳戶的Journey Optimizer B2B edition使用者。 如需詳細資訊，請參閱Litmus網站[上的](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}解決方案頁面。
 
 1. 當您的電子郵件設計完成並準備好進行測試時，請在電子郵件設計空間按一下&#x200B;**[!UICONTROL 模擬內容]**。
 
