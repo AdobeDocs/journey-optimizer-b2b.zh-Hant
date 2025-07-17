@@ -4,9 +4,10 @@ description: 瞭解如何預覽和測試您的電子郵件內容，以確保其�
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: c93a294d2e70f9a6c17be9ba9cc6994fb7944ebc
+exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
+source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,11 @@ ht-degree: 0%
 
 ## 顯示電子郵件預覽
 
-1. 從電子郵件設計空間<!-- or the email properties -->，按一下&#x200B;**[!UICONTROL 模擬內容]**。
+您可以從[電子郵件設計空間](./email-authoring.md)，或是&#x200B;_[!UICONTROL 摘要]_&#x200B;存取演算預覽，當您[從電子郵件清單](./emails-list.md#edit-emails)開啟電子郵件時。
 
-   ![按一下模擬內容](assets/email-simulate-content-.png){width="800" zoomable="yes"}
+1. 按一下頂端的&#x200B;**[!UICONTROL 模擬內容]**。
+
+   ![按一下模擬內容](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -61,7 +64,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_傳送校樣_&#x200B;頁面中，輸入第一個收件者的電子郵件地址。
 
-1. 對於您想要加入檢閱的每個其他收件者，請按一下[新增收件者]，然後在[傳送至] **[!UICONTROL 欄位中輸入其電子郵件地址。]**&#x200B;**&#x200B;**
+1. 對於您想要加入檢閱的每個其他收件者，請按一下[新增收件者]，然後在[傳送至] **[!UICONTROL 欄位中輸入其電子郵件地址。]******
 
    您最多可以為校樣傳遞新增10個收件者。
 

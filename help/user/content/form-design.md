@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 表單設計
 
-在您[建立表單](./landing-pages.md#create-a-landing-page)之後，視覺化設計空間會開啟具有預設基本表單定義的草稿。 在右側的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，按一下&#x200B;**[!UICONTROL 編輯表單]**，並使用視覺化設計空間來定義表單樣式和欄位元件。
+在您[建立表單](./forms.md#create-forms)之後，視覺化設計空間會開啟具有預設基本表單定義的草稿。 在右側的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，按一下&#x200B;**[!UICONTROL 編輯表單]**，並使用視覺化設計空間來定義表單樣式和欄位元件。
 
 ![存取表單庫](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
@@ -179,7 +179,7 @@ ht-degree: 1%
 
 新表單使用預設的CSS來設定樣式。 如果您想要透過修改CSS來變更樣式，可以複製樣式，然後使用樣式來定義表單的自訂CSS。
 
-_若要定義表單的自訂CSS：_
+定義表單&#x200B;:_的自訂CSS(_T)
 
 1. 按一下右側面板中的&#x200B;**[!UICONTROL 檢視CSS]**&#x200B;以檢視CSS程式碼。
 

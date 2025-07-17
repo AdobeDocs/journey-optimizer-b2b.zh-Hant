@@ -4,10 +4,10 @@ description: 瞭解如何撰寫可用於帳戶歷程電子郵件的內容電子�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 16%
+source-wordcount: '421'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,16 @@ ht-degree: 16%
 >abstract="內容元件指可用於建立範本版面的空白內容預留位置。"
 
 {{$include /help/_includes/content-design-components.md}}
+
+### 新增自訂 CSS
+
+您可以直接在電子郵件範本設計空間新增自己的自訂CSS。 使用自訂CSS套用進階和特定的樣式，以擁有更大的彈性並控制內容的外觀。 最佳實務是在加入影像、按鈕和文字等元件前，先新增此最高層級的樣式。
+
+如果畫布中至少有一個內容元件，請在左側導覽樹狀結構中選取&#x200B;**[!UICONTROL Body]**&#x200B;元件，以存取自訂CSS編輯器。
+
+![存取內文樣式](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### 新增片段
 

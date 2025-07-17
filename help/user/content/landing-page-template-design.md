@@ -5,10 +5,10 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 21%
+source-wordcount: '404'
+ht-degree: 18%
 
 ---
 
@@ -29,6 +29,16 @@ ht-degree: 21%
 >abstract="內容元件是可以用來建立登陸頁面範本之版面的空白內容預留位置。"
 
 {{$include /help/_includes/content-design-components.md}}
+
+### 新增自訂 CSS
+
+您可以直接在登入頁面設計空間內新增自己的自訂CSS。 使用自訂CSS套用進階和特定的樣式，以擁有更大的彈性並控制內容的外觀。 最佳實務是在加入影像、按鈕和文字等元件前，先新增此最高層級的樣式。
+
+如果畫布中至少有一個內容元件，請在左側導覽樹狀結構中選取&#x200B;**[!UICONTROL Body]**&#x200B;元件，以存取自訂CSS編輯器。
+
+![存取內文樣式](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### 新增資產
 

@@ -4,9 +4,9 @@ description: 瞭解如何定義作為購買群組元件的角色範本。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1103'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 
    ![角色範本索引標籤](assets/roles-templates-tab.png){width="700" zoomable="yes"}
 
-   索引標籤提供所有現有角色範本的詳細目錄清單，其欄位如下：
+   索引標籤提供所有現有角色範本的詳細目錄清單，並以欄格式顯示下列資訊：
 
    * [!UICONTROL 名稱]
    * [!UICONTROL 狀態]
@@ -36,9 +36,7 @@ ht-degree: 3%
    * [!UICONTROL 發佈日期]
    * [!UICONTROL 發佈者]
 
-   清單預設會依&#x200B;_[!UICONTROL 上次更新]_&#x200B;欄排序。
-
-   _即時_ （已發佈）角色範本的數目會顯示在頁面的右上方。 所有角色範本的狀態都是`Draft`或`Live`。
+   清單依預設會依&#x200B;_[!UICONTROL 上次更新]_&#x200B;排序。 所有角色範本的狀態都是`Draft`或`Live`。
 
 1. 若要依名稱篩選清單，請使用清單頂端的搜尋欄位。
 
@@ -100,13 +98,13 @@ ht-degree: 3%
 
      在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
 
-     使用職稱![&#128279;](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的角色範本條件範例
+     使用職稱![的](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}角色範本條件範例
 
    * 如有需要，請新增其他屬性和條件，進一步精簡符合角色的條件。
 
    * 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
-1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] **，並重複步驟1和2來定義角色。**
+1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] **[!UICONTROL ，並重複步驟1和2來定義角色。]**
 
    已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -164,4 +162,4 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
