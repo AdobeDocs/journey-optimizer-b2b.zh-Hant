@@ -198,7 +198,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
    ![新增表單屬性](./assets/crm-linking-dynamics-url-form-properties.png){width="500" zoomable="yes"}
 
-1. 找到資源，選取該資源，然後按一下[新增]。****
+1. 找到資源，選取該資源，然後按一下[新增]。**&#x200B;**
 
    ![新增Web資源](./assets/crm-linking-dynamics-url-form-field-libraries.png){width="500" zoomable="yes"}
 
@@ -293,7 +293,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
 1. 按一下&#x200B;**[!UICONTROL 新增]**。
 
-1. 找到您建立的JScript Web資源(`new_getFormContext`)，選取它，然後按一下[新增]。****
+1. 找到您建立的JScript Web資源(`new_getFormContext`)，選取它，然後按一下[新增]。**&#x200B;**
 
    ![新增Web資源](./assets/crm-linking-dynamics-web-resources-add-form-property.png){width="500" zoomable="yes"}
 

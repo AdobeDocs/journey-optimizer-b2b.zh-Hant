@@ -22,7 +22,7 @@ ht-degree: 0%
 
    請確定自訂CSS有效並遵循正確語法。 如果輸入的CSS無效，會顯示錯誤訊息且無法儲存CSS。 若要深入瞭解，請參閱[CSS有效性](../user/content/design-custom-css.md#css-validity)。
 
-1. 按一下[儲存]儲存自訂CSS。****
+1. 按一下[儲存]儲存自訂CSS。**&#x200B;**
 
    自訂樣式表會套用至現有內容。 您可以檢查自訂CSS是否已根據您的需求套用。 如需如何進行變更及調整樣式表應用程式的詳細資訊，請參閱[疑難排解](../user/content/design-custom-css.md#troubleshooting)。
 
