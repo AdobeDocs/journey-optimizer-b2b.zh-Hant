@@ -4,7 +4,7 @@ description: 了解 Journey Optimizer B2B Edition 中的購買群組如何透過
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
+source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 57%
@@ -114,8 +114,6 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 +++ 用於評分的活動
 
->[!BEGINSHADEBOX]
-
 | 活動名稱 | 說明 | 參與類型 | 每日最大頻率計數 | 活動權重 |
 | --- | --- | --- | --- | --- |
 | [!UICONTROL 造訪網頁] | 成員造訪網頁 | 網頁 | 20 | 40 |
@@ -153,9 +151,6 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 | [!UICONTROL 在交談流程中與代理程式互動] | 成員在Dynamic Chat對話流程中與代理程式互動 | 聊天 | 20 | 90 |
 | 在交談流程中[!UICONTROL 點按連結] | 成員按一下Dynamic Chat對話流程中的連結 | 聊天 | 20 | 90 |
 | [!UICONTROL 按一下SMS V2中的連結] | 成員按一下SMS訊息中的連結 | 簡訊 | 20 | 90 |
-
-
->[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -225,4 +220,4 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3452952/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
