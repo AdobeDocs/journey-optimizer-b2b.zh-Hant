@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition 文件
 description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，透過內建的生成式 AI 和領先業界的自動化功能，協調帳戶和購買群組歷程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -25,39 +25,39 @@ ht-degree: 60%
 
 >[!TAB 垃圾郵件偵測報告]
 
-有了新的垃圾郵件報告，您可以避免垃圾郵件過濾器，並確保將郵件傳遞到受眾收件匣。 直接在電子郵件設計空間產生&#x200B;_垃圾郵件報告_。
+透過新的垃圾郵件報告，您的訊息可以避免被垃圾郵件篩選器篩除並確保傳送到客群的收件匣。直接在電子郵件設計空間中產生&#x200B;_垃圾郵件報告_。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="瞭解垃圾郵件偵測報告"}
+[!BADGE 了解更多]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="了解垃圾郵件偵測報告"}
 
->[!TAB 帳戶與購買團體動作]
+>[!TAB 帳戶和購買群組動作]
 
-直接從帳戶詳細資料和購買群組詳細資料頁面採取行動，以便及時和有意識地參與。
+直接從帳戶詳細資料和購買群組詳細資料頁面採取行動，以利及時進行刻意的參與。
 
-使用&#x200B;_傳送電子郵件_&#x200B;動作，將核准的Marketo Engage電子郵件傳送給選取的帳戶連絡人或購買群組成員。
+使用&#x200B;_傳送電子郵件_&#x200B;動作將已核准的 Marketo Engage 電子郵件傳送給所選取的帳戶聯絡人或購買群組成員。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="瞭解如何傳送電子郵件給帳戶連絡人"}
+[!BADGE 了解更多]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="了解如何傳送電子郵件給帳戶聯絡人"}
 
-在購買群組詳細資料中，動作還包括&#x200B;_指派新成員_、_移除成員_&#x200B;和&#x200B;_編輯角色_。
+在購買群組詳細資料中，可採取的動作也包括&#x200B;_指派新成員_、_移除成員_&#x200B;和&#x200B;_編輯角色_。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="瞭解購買群組動作"}
+[!BADGE 了解更多]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="了解購買群組動作"}
 
->[!TAB 自訂CSS支援]
+>[!TAB 自訂 CSS 支援]
 
-現在，當您在設計空間內編寫電子郵件和登陸頁面內容時，可以新增您自己的自訂CSS。
+現在，您在設計空間中製作電子郵件和登陸頁面內容時可以新增自訂 CSS。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="瞭解如何使用自訂CSS"}
+[!BADGE 了解更多]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="了解如何使用自訂 CSS"}
 
 >[!TAB 意圖關鍵字對應]
 
-若要啟動並管理意圖偵測模型，您現在可以上傳試算表來定義意圖資料對應類別。
+若要啟動和管理意圖偵測模型，您現在可以上傳試算表來定義意圖資料對應類別。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/admin/intent-data.md" tooltip="瞭解意圖關鍵字對應設定"}
+[!BADGE 了解更多]{type=Informative url="/help/user/admin/intent-data.md" tooltip="了解意圖關鍵字對應設定"}
 
->[!TAB 使用Litmus進行電子郵件測試]
+>[!TAB 使用 Litmus 進行電子郵件測試]
 
-透過Litmus帳戶，您現在可以在Journey Optimizer B2B edition的常見電子郵件使用者端中預覽電子郵件呈現。 此整合可協助您確保電子郵件內容看起來不錯，而且可在每個電子郵件收件匣中正常運作。
+有了 Litmus 帳戶，您現在可以從 Journey Optimizer B2B Edition 預覽在常用電子郵件用戶端的電子郵件呈現效果。此整合功能有助於確保電子郵件內容外觀精美，而且在每個電子郵件收件匣中都依照設計運作。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="瞭解Litmus電子郵件測試整合"}
+[!BADGE 了解更多]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="了解 Litmus 電子郵件測試整合"}
 
 >[!ENDTABS]
 
@@ -137,7 +137,7 @@ ht-degree: 60%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">文件</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>

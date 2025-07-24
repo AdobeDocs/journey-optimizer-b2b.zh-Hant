@@ -4,9 +4,9 @@ description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增強
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -26,21 +26,21 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 ## 2025.6 發行說明
 
-**部署日期**：2025年7月15日
+**部署日期**：2025 年 7 月 15 日
 
 此版本包括下列新功能和增強功能：
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 與 GenStudio for Performance Marketing 的整合 | (限量開放) 您現在可以將 GenStudio for Performance Marketing 電子郵件體驗與 Journey Optimizer B2B Edition 整合，以提高行銷效率並保持品牌一致性。透過此整合，您就可以將 GenStudio AI 驅動的內容創作與 Journey Optimizer B2B Edition 中的進階協調功能相結合。[了解更多](../content/genstudio-email-workflow.md) |
-| 功能 | 垃圾郵件偵測報告 | 若要避免垃圾郵件篩選並確保將郵件傳遞到對象收件匣，您可以直接在電子郵件設計空間產生&#x200B;_垃圾郵件報告_。 [了解更多](../content/email-spam-report.md) |
-| 功能 | 個人詳細資訊頁面 | 現在，當個人名稱顯示在「智慧型儀表板」、購買群組詳細資訊頁面和帳戶詳細資訊頁面中時（超連結），您可以按一下該名稱。 此動作會開啟關聯人員詳細資訊頁面，其中包含連絡人、其活動以及最常參與之購買群組的資訊。 [了解更多](../accounts/person-details.md) |
-| 功能 | 帳戶和購買群組動作 | 直接從帳戶詳細資料和購買群組詳細資料頁面採取行動，以便及時和有意識地參與。 <li>使用&#x200B;_傳送電子郵件_&#x200B;動作，將核准的Marketo Engage電子郵件傳送給選取的帳戶連絡人或購買群組成員。 [了解更多](../accounts/account-details.md#send-emails) <li>在購買群組詳細資料中，動作還包括&#x200B;_指派新成員_、_移除成員_&#x200B;和&#x200B;_編輯角色_。 [了解更多](../buying-groups/buying-group-details.md#members-tab) |
-| 功能 | CRM內部對詳細資訊頁面的存取權 | 您現在可以在客戶關係管理(CRM)工具(例如Journey Optimizer或Microsoft Dynamics)中，設定帳戶、聯絡人和潛在客戶的Salesforce B2B edition詳細資訊頁面的直接連結。 [了解更多](../accounts/crm-linking.md) |
-| 功能 | 內容設計的自訂CSS支援 | 現在，當您在設計空間內編寫電子郵件和登陸頁面內容時，可以新增您自己的自訂CSS。 [了解更多](../content/design-custom-css.md) |
-| 功能 | 意圖關鍵字對應設定 | 若要啟動並管理意圖偵測模型，您現在可以上傳試算表來定義意圖資料對應類別。 [了解更多](../admin/intent-data.md) |
-| 增強功能 | 從電子郵件摘要模擬內容 | 當您從[電子郵件]清單開啟電子郵件時，您現在可以從電子郵件摘要（詳細資訊和屬性）存取&#x200B;_模擬內容_&#x200B;工具。 除了電子郵件設計空間之外，此存取權也包含在內。 [了解更多](../content/email-simulate-content.md#display-the-email-preview) |
-| 增強功能 | 角色範本清單顯示的總數 | _[!UICONTROL 角色範本]_&#x200B;清單頁面已增強，並在搜尋列旁邊顯示總數。 |
+| 功能 | 垃圾郵件偵測報告 | 為了避免訊息被垃圾郵件篩選器篩除並確保傳送至客群的收件匣，您可以直接在電子郵件設計空間產生&#x200B;_垃圾郵件報告_。[了解更多](../content/email-spam-report.md) |
+| 功能 | 人員詳細資料頁面 | 現在，當某人的姓名 (以超連結形式) 顯示於智慧儀表板、購買群組詳細資料頁面及帳戶詳細資料頁面時，您可以直接點按該姓名。此動作將開啟相關人員詳細資料頁面，其中包含聯絡人、其活動以及參與度最高之購買群組的資訊。[了解更多](../accounts/person-details.md) |
+| 功能 | 帳戶和購買群組動作 | 直接從帳戶詳細資料和購買群組詳細資料頁面採取行動，以利及時進行刻意的參與。 <li>使用&#x200B;_傳送電子郵件_&#x200B;動作將已核准的 Marketo Engage 電子郵件傳送給所選取的帳戶聯絡人或購買群組成員。[了解更多](../accounts/account-details.md#send-emails) <li>在購買群組詳細資料中，可採取的動作也包括&#x200B;_指派新成員_、_移除成員_&#x200B;和&#x200B;_編輯角色_。[了解更多](../buying-groups/buying-group-details.md#members-tab) |
+| 功能 | 從 CRM 內存取詳細資料頁面 | 您現在可以在客戶關係管理 (CRM) 工具 (例如 Salesforce 或 Microsoft Dynamics) 中，設定帳戶、聯絡人和潛在客戶連接至 Journey Optimizer B2B Edition 詳細資料頁面的直接連結。[了解更多](../accounts/crm-linking.md) |
+| 功能 | 內容設計的自訂 CSS 支援 | 現在，您在設計空間中製作電子郵件和登陸頁面內容時可以新增自訂 CSS。[了解更多](../content/design-custom-css.md) |
+| 功能 | 意圖關鍵字對應設定 | 若要啟動和管理意圖偵測模型，您現在可以上傳試算表來定義意圖資料對應類別。[了解更多](../admin/intent-data.md) |
+| 增強功能 | 模擬電子郵件摘要中的內容 | 現在，您從電子郵件清單中開啟電子郵件時，可以直接從電子郵件摘要 (詳細資料與屬性) 存取&#x200B;_模擬內容_&#x200B;工具。此存取權是在電子郵件設計空間以外的權限。[了解更多](../content/email-simulate-content.md#display-the-email-preview) |
+| 增強功能 | 角色範本清單的總計數顯示 | _[!UICONTROL 角色範本]_&#x200B;清單頁面已有改進，現在於搜尋列旁會顯示總計數。 |
 
 <!-- The following capabilities are currently available only for a set of program participants (Beta):
 

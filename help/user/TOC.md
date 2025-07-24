@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
 source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -60,16 +60,16 @@ ht-degree: 95%
       + [用於歷程和方案中](./accounts/account-lists-journeys.md)
    + [XDM 欄位](./data/field-mapping.md)
    + 銷售體驗 {#sales-experience}
-      + [帳戶詳細資訊](./accounts/account-details.md)
-      + [購買群組詳細資訊](./buying-groups/buying-group-details.md)
-      + [個人詳細資料](./accounts/person-details.md)
-      + [CRM連結](./accounts/crm-linking.md)
+      + [帳戶詳細資料](./accounts/account-details.md)
+      + [購買群組詳細資料](./buying-groups/buying-group-details.md)
+      + [人員詳細資料](./accounts/person-details.md)
+      + [CRM 連結](./accounts/crm-linking.md)
 + 內容管理 {#content-management}
    + 電子郵件 {#emails}
       + [使用電子郵件內容](./content/emails-list.md)
       + 預覽和驗證 {#preview}
          + [模擬內容](./content/email-simulate-content.md)
-         + [測試電子郵件呈現](./content/email-test-rendering.md)
+         + [測試電子郵件呈現效果](./content/email-test-rendering.md)
          + [垃圾郵件報告](./content/email-spam-report.md)
    + 資產 {#assets}
       + [概觀](./content/assets-overview.md)
@@ -95,7 +95,7 @@ ht-degree: 95%
       + [概觀](./content/landing-pages.md)
       + [登陸頁面設計](./content/landing-page-design.md)
    + [條件式內容](./content/conditional-content.md)
-   + [自訂CSS](./content/design-custom-css.md)
+   + [自訂 CSS](./content/design-custom-css.md)
 + 深入分析儀表板 {#dashboards}
    + [智慧儀表板](./dashboards/intelligent-dashboard.md)
    + [參與度概觀](./dashboards/engagement-dashboard.md)
