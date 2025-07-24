@@ -5,7 +5,7 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2151'
 ht-degree: 100%
 
@@ -220,4 +220,4 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3452952/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
