@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+source-git-commit: 99e859e352cb2682e1d3fb5f0000eb55eacf2642
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 95%
 
 ---
 
@@ -88,12 +88,16 @@ ht-degree: 100%
    + 片段 {#visual-fragments}
       + [概觀](./content/fragments.md)
       + [片段編寫](./content/fragment-authoring.md)
-   + 表單 {#forms}
+   + Forms (Beta) {#forms}
       + [概觀](./content/forms.md)
       + [表單設計](./content/form-design.md)
-   + 登陸頁面 {#landing-pages}
+   + 登陸頁面(Beta) {#landing-pages}
       + [概觀](./content/landing-pages.md)
       + [登陸頁面設計](./content/landing-page-design.md)
+   + 品牌(Beta) {#brands}
+      + [概觀](./content/brands-overview.md)
+      + [管理和建立](./content/brands-manage-create.md)
+      + [品牌一致性](./content/brand-alignment.md)
    + [條件式內容](./content/conditional-content.md)
    + [自訂 CSS](./content/design-custom-css.md)
 + 深入分析儀表板 {#dashboards}
