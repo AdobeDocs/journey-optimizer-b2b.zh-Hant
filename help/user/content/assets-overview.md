@@ -4,10 +4,10 @@ description: 了解 Journey Optimizer B2B Edition 中的資產管理。
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '981'
-ht-degree: 100%
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer B2B Edition 可以連接至 Adobe Experience Manager Ass
 
 在製作電子郵件、電子郵件範本及視覺片段時使用資產。視覺化內容編輯器可讓您存取已連接的資產存放庫中的影像。如果您訂閱 Experience Manager Assets as a Cloud Service 以及預設的 Adobe Marketo Engage Design Studio，則可以從任一來源選擇影像資產。您亦可上傳影像資產，將其放置在已連接 Marketo Engage Design Studio 存放庫的 Journey Optimizer B2B Edition 工作區中。
 
-您可以在編輯影像元件設定時，或直接在畫布上選擇影像來源。
+您可以在編輯影像元件的設定或直接在畫布上選擇影像來源：
 
 * **_影像元件設定_** - 當您在視覺化設計工具中已選取影像元件時，您可以在右側面板中檢視和編輯此設定。若要新增或變更元件中顯示的影像檔案，請選擇來源類型並選取一個影像檔案。
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer B2B Edition 可以連接至 Adobe Experience Manager Ass
 
   ![使用工具列來選擇來源，以選取影像元件的影像檔案](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-您在製作內容時可以新增影像資產，視影像資產來源而定。
+您可以在編寫內容時新增影像資產，實際取決於影像資產來源。 您也可以在結構元件的背景設定中選擇影像資產。
 
 >[!BEGINTABS]
 

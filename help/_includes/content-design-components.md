@@ -1,7 +1,7 @@
 ---
 title: 內容製作 — 元件
 description: 關於使用元件和內容元素進行內容製作的重複使用區段
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >選取&#x200B;_[!UICONTROL n：n欄]_&#x200B;元件以定義您選擇的欄數（介於3到10之間）。 您也可以移動欄下方的箭頭來定義每欄的寬度。
+   >選取&#x200B;_[!UICONTROL n:n資料行]_&#x200B;元件以定義您所選擇的資料行數目（介於3到10之間）。 您也可以移動欄下方的箭頭來定義每欄的寬度。
 
    ![將結構拖曳到畫布上並調整設定](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"}
 
    每個欄大小不能小於結構元件總寬度的10%。 只能移除空白欄。
 
-1. 展開&#x200B;**[!UICONTROL 內容]**&#x200B;區段，並新增您所需數量的元素至一或多個結構元件。
+1. 展開&#x200B;**[!UICONTROL 內容]**&#x200B;區段，並視需要新增內容元件至一或多個結構元件。
 
    ![將內容元素拖曳到畫布上並調整設定](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--

@@ -4,10 +4,10 @@ description: 瞭解如何撰寫可用於帳戶歷程電子郵件的內容電子�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 14%
+source-wordcount: '373'
+ht-degree: 3%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 14%
 在您[建立電子郵件範本](./email-templates.md#create-an-email-template)之後，請使用視覺化設計空間來編寫電子郵件範本中的結構和內容元件。
 
 ## 新增結構和內容 {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="新增結構元件"
->abstract="結構元件會定義範本的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中，開始設計您的範本內容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="關於內容元件"
->abstract="內容元件指可用於建立範本版面的空白內容預留位置。"
 
 {{$include /help/_includes/content-design-components.md}}
 

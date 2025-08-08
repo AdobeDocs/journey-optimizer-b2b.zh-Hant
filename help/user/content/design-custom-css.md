@@ -1,9 +1,10 @@
 ---
 title: 為內容新增自訂CSS
 description: 瞭解如何將自訂CSS新增至您的電子郵件和登入頁面內容。
-feature: Email Authoring, Landing Pages, Content Design Tools
+feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
-source-git-commit: 9d753873ed24f10b5747ed64b7f85188dec52fa0
+exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -77,7 +78,7 @@ ht-degree: 0%
 
    ![在編輯器中輸入自訂CSS](./assets/content-design-add-custom-css.png){width="450"}
 
-1. 按一下[儲存]儲存自訂CSS。**&#x200B;**
+1. 按一下[儲存]儲存自訂CSS。****
 
    自訂樣式表會套用至現有內容。 您可以檢查自訂CSS是否已根據您的需求套用。 如需如何進行變更及調整樣式表應用程式的詳細資訊，請參閱[疑難排解](#troubleshooting)。
 
@@ -214,4 +215,3 @@ body {
   background: red !important;
   }
   ```
-

@@ -5,10 +5,10 @@ feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 16%
+source-wordcount: '374'
+ht-degree: 3%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 16%
 在您[建立登入頁面](./landing-pages.md#create-a-landing-page)之後，請使用視覺設計空間來編寫頁面中的結構和內容元件。
 
 ## 新增結構和內容 {#structure-content-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
->title="新增結構元件至登陸頁面"
->abstract="結構元件會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放至版面，以開始設計您的頁面內容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
->title="關於登陸頁面的內容元件"
->abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。"
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -62,7 +52,7 @@ ht-degree: 16%
 
 ### 儲存您的工作
 
-隨時按一下「儲存」**&#x200B;**&#x200B;以儲存草稿登陸頁面。
+隨時按一下「儲存」****&#x200B;以儲存草稿登陸頁面。
 
 您可以繼續編輯草稿頁面。 當您準備好顯示頁面，並可在電子郵件或簡訊訊息中供連結使用時，即可發佈頁面。
 

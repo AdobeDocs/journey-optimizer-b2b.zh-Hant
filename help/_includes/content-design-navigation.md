@@ -1,20 +1,20 @@
 ---
 title: 內容製作 — 導覽
 description: 重複使用關於使用導覽樹進行內容製作的區段
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # 內容製作 — 導覽
 
-當您在視覺化設計工具中處理內容時，可以使用&#x200B;_導覽_&#x200B;樹狀結構來存取圖層/容器和元素。 按一下&#x200B;_導覽_&#x200B;圖示，在畫布左側顯示樹狀結構。
+當您在視覺化設計空間中使用內容時，可以使用導覽樹狀結構來存取元件、欄和內容元素。 按一下左側的&#x200B;_[!UICONTROL 導覽樹狀結構]_&#x200B;圖示（![導覽樹狀結構圖示](../assets/do-not-localize/icon-navigation-tree.svg)）以顯示樹狀結構。
 
 ![存取內容層](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
-下列範例概述在由欄組成的結構元件內調整邊框間距和垂直對齊方式的步驟。
+下列範例概述在具有欄的結構元件內調整邊框間距和垂直對齊的步驟。
 
 1. 直接在畫布中選取結構元件中的欄，或使用左側顯示的&#x200B;_導覽樹狀結構_。
 

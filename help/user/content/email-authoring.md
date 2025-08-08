@@ -4,16 +4,16 @@ description: 瞭解如何在Adobe Journey Optimizer B2B中建立電子郵件內�
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 14%
+source-wordcount: '924'
+ht-degree: 2%
 
 ---
 
 # 電子郵件訊息製作
 
-在您&lbrack;新增新的<!-- or duplicated -->電子郵件資產至歷程動作節點&rbrack;(./add-email.md)後，您可以定義電子郵件訊息的內容。
+在您[新增新的<!-- or duplicated -->電子郵件資產至歷程動作節點](./add-email.md)後，您可以定義電子郵件訊息的內容。
 
 按一下右側面板上&#x200B;**[!UICONTROL 詳細資料]**&#x200B;索引標籤中的&#x200B;_[!UICONTROL 編輯電子郵件內容]_。
 
@@ -35,16 +35,6 @@ ht-degree: 14%
 
 ## 從頭開始設計您的電子郵件 {#design-from-scratch}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_landing_page"
->title="新增結構元件"
->abstract="結構元件會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的登入頁面內容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_landing_page"
->title="關於內容元件"
->abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。"
-
 使用視覺內容設計空間來定義電子郵件的結構和內容。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計可重複使用電子郵件內容的形狀。
 
 1. 從&#x200B;_[!UICONTROL 設計您的範本]_&#x200B;首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
@@ -60,7 +50,7 @@ ht-degree: 14%
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容
 
@@ -83,16 +73,6 @@ ht-degree: 14%
 > 儲存的範本可能會套用至一或多個元件的治理（內容鎖定）設定。 當您[從受控制的範本](./email-authoring-governance.md)撰寫電子郵件時，視覺化設計工具會提供鎖定元件的相關准則。
 
 ## 新增結構和內容 {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="新增結構元件"
->abstract="結構元件會定義電子郵件的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的電子郵件內容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="關於內容元件"
->abstract="內容元件指可用於建立電子郵件版面的空白內容預留位置。"
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -159,11 +139,6 @@ ht-degree: 14%
 * **[!UICONTROL 匯出HTML]** — 將視覺畫布中的內容以HTML格式下載到您的本機系統，並封裝成zip檔。
 
 ## 檢查和測試電子郵件 {#email-testing}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_email_preview_simulate"
->title="檢查您內容的呈現方式"
->abstract="定義內容後，您可以進行預覽，並檢查所使用的頻道是否正確呈現。"
 
 定義訊息內容時，您可以使用測試設定檔來預覽內容、傳送校樣，以及檢閱其在桌上型電腦和行動外觀比例中的呈現。 如果您已插入個人化內容，您可以使用測試設定檔資料預覽此內容在訊息中的顯示方式。
 

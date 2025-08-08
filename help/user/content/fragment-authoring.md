@@ -4,10 +4,10 @@ description: 瞭解如何編寫可重複用於您的電子郵件和範本設計�
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 19%
+source-wordcount: '325'
+ht-degree: 7%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 19%
 在您[建立片段](./fragments.md#create-fragments)之後，請使用視覺化編輯器來編寫片段中的結構和內容元件。
 
 ## 新增結構和內容 {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="新增結構元件"
->abstract="結構元件會定義區段的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="關於內容元件"
->abstract="內容元件指可用於建立片段版面的空白內容預留位置。"
 
 {{$include /help/_includes/content-design-components.md}}
 

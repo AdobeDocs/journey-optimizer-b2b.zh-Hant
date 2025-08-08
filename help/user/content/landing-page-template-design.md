@@ -5,10 +5,10 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 18%
+source-wordcount: '345'
+ht-degree: 4%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 18%
 在您[建立登入頁面範本](./landing-page-templates.md#create-a-landing-page-template)之後，請使用視覺設計空間來編寫頁面範本中的結構和內容元件。
 
 ## 新增結構和內容 {#structure-content-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_template_structure"
->title="新增結構元件至登陸頁面"
->abstract="結構元件會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放至版面，開始設計頁面範本的內容。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_template_content_components"
->title="關於登陸頁面的內容元件"
->abstract="內容元件是可以用來建立登陸頁面範本之版面的空白內容預留位置。"
 
 {{$include /help/_includes/content-design-components.md}}
 
