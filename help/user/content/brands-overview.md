@@ -7,10 +7,11 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 91424c334c22bf683cd071afcb0ab0660a9ac832
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -19,12 +20,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="開始使用品牌"
->abstract="建立並自訂您自己的品牌，以定義您獨特的視覺和口頭身分，同時讓您更輕鬆地產生符合品牌風格和聲音的內容。"
+>abstract="建立並自訂自己的品牌，以定義您唯一的視覺和語言識別，同時更輕鬆地產生與您品牌風格和語調相符的內容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
 >title="選取您的品牌"
->abstract="選擇您的品牌，以確保所有AI產生的內容都經過量身打造，符合您的品牌規格和指導方針。"
+>abstract="選擇您的品牌，以確保所有 AI 產生的內容都是量身打造，符合您品牌的規格和準則。"
 
 品牌有助於定義您的&#x200B;_品牌識別_，並在確保建立一致且有效的內容以準確代表您的品牌識別、價值和傳訊方面扮演重要角色。 透過遵循明確界定的品牌樣式，組織可以跨管道和接觸點維持一致和可辨識的品牌影響力，並強化其在目標受眾中的品牌認知度、信任度和忠誠度。
 
@@ -86,7 +87,7 @@ ht-degree: 3%
 
    ![為品牌存取新增AI助理許可權](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
    已指派給該角色的任何使用者的許可權都會自動更新。
 
@@ -96,7 +97,6 @@ ht-degree: 3%
 
      如果尚未建立使用者，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}。
 
-   * 按一下[儲存]以套用變更。**&#x200B;**
+   * 按一下[儲存]以套用變更。****
 
 >[!ENDSHADEBOX]
-

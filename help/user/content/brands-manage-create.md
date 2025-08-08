@@ -7,10 +7,11 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 98298c41981de45dfc5d0de430913729f3a92453
+exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '2052'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -66,12 +67,12 @@ ht-degree: 5%
 
 ![指定預設品牌識別](./assets/brands-set-default.png){width="350"}
 
-## 建立和定義品牌 {#create-brand}
+## 建立並定義品牌 {#create-brand}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brands_create"
 >title="建立您的品牌"
->abstract="輸入您的品牌名稱，並上傳您的品牌準則檔案。此工具會自動擷取重要詳細資訊，讓您更輕鬆維護品牌識別。"
+>abstract="輸入您的品牌名稱，並上傳您的品牌準則檔案。此工具將自動擷取關鍵詳細資訊，讓您更輕鬆維持品牌識別。"
 
 若要建立及定義您的品牌指引，您可以輸入詳細資料或上傳您的品牌指引檔案，以用於自動擷取。
 
@@ -155,7 +156,7 @@ ht-degree: 5%
 
 ### 發佈品牌
 
-當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] **&#x200B;**，讓您的品牌指引可用於內容對齊與產生。
+當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] ****，讓您的品牌指引可用於內容對齊與產生。
 
 已發佈的品牌可從AI **[!UICONTROL 品牌一致性]**&#x200B;和內容產生工具中的[品牌](./brand-alignment.md)選項存取。<!-- [Learn more about content generation](gs-generative.md) -->
 
@@ -323,4 +324,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [視覺內容](#visual-content)
 
-1. 使用草稿更新時，請按一下[儲存]。**&#x200B;**，然後在準備取代&#x200B;**[!UICONTROL [即時]]**&#x200B;版本時，按一下[發佈]。__
+1. 使用草稿更新時，請按一下[儲存]。****，然後在準備取代&#x200B;**[!UICONTROL [即時]]**&#x200B;版本時，按一下[發佈]。__
