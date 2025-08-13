@@ -230,4 +230,4 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3452952/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
