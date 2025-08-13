@@ -4,10 +4,10 @@ description: 了解 Journey Optimizer B2B Edition 中的購買群組如何透過
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
-workflow-type: ht
-source-wordcount: '2151'
-ht-degree: 100%
+source-git-commit: a2917ea8c389c35129a77d427528051be499addf
+workflow-type: tm+mt
+source-wordcount: '2170'
+ht-degree: 97%
 
 ---
 
@@ -102,7 +102,12 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 每次建立或更新購買群組時，均會重新計算購買群組完整性分數。
 
-### 購買群組參與度分數
+### 購買群組參與度分數 {#engagement-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score"
+>title="參與分數"
+>abstract="參與分數會決定購買群組成員的參與程度。"
 
 購買群組參與度分數是根據購買群組成員所執行的活動來決定其參與度的數字。
 
@@ -112,7 +117,7 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 * 每項活動的每日頻率上限為 20 次。如果購買群組的成員每天執行相同活動超過 20 次，則此活動次數上限為 20，而不是更高的數字。
 * 所顯示的分數已四捨五入。例如，分數 75.89999 會顯示為 76。
 
-+++ 用於評分的活動
++++用於評分的活動
 
 | 活動名稱 | 說明 | 參與類型 | 每日最大頻率計數 | 活動權重 |
 | --- | --- | --- | --- | --- |
@@ -158,9 +163,14 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 +++
 
-#### 加權
+#### 加權 {#engagement-score-weighting}
 
-使用者可以指派&#x200B;_加權_，為角色範本中的每個角色分配不同權重，以計算出參與度分數。
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score_weighting"
+>title="參與分數加權"
+>abstract="使用加權來自訂參與分數計算。"
+
+使用者可以將&#x200B;_加權_&#x200B;指派給[角色範本](./buying-groups-role-templates.md)中的每個角色，以配置角色的不同加權。
 
 ![為角色範本中每個角色設定權重](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -220,4 +230,4 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3452952/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
