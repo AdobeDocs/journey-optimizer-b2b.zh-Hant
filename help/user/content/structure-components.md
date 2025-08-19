@@ -3,10 +3,11 @@ title: 結構元件
 description: 瞭解如何使用結構元件來定義電子郵件、登入頁面和視覺片段內容的版面。
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -15,22 +16,22 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
 >title="關於結構元件"
->abstract="結構元件是版面配置元素，可用來設計電子郵件的結構。"
+>abstract="結構元件是指設計電子郵件結構時可以使用的版面配置元素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="關於結構元件"
->abstract="結構元件是可用於設計頁面結構的版面配置元素。"
+>abstract="結構元件是指設計頁面結構時可以使用的版面配置元素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
 >title="關於結構元件"
->abstract="CStructure元件是可用於設計片段結構的佈局元素。"
+>abstract="CStructure 元件是指設計片段結構時可以使用的版面配置元素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="關於結構元件"
->abstract="結構元件是配置圖元素，可用來設計範本的結構。"
+>abstract="結構元件是指設計範本結構時可以使用的版面配置元素。"
 
 使用視覺設計空間中的&#x200B;_結構元件_&#x200B;來定義內容的結構。 透過使用簡單的拖放動作新增和移動結構元素，您可以快速定義內容配置的形狀。 每個結構元件橫跨水準空間，您可以棧疊它們以垂直建置版面。 將每個元件劃分為欄，以組成您所需的每個內容區塊。
 
@@ -152,7 +153,7 @@ ht-degree: 2%
 
 +++
 
-+++邊界
++++邊距
 
 {{styles-margin}}
 
@@ -222,7 +223,7 @@ ht-degree: 2%
 
 +++
 
-+++邊界
++++邊距
 
 {{styles-margin}}
 

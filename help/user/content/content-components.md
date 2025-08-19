@@ -3,10 +3,11 @@ title: 內容元件
 description: 瞭解如何使用內容元件來設計您的電子郵件、登入頁面和視覺片段內容。
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '2841'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -15,22 +16,22 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_email"
 >title="關於內容元件"
->abstract="內容元件是空的內容預留位置，可用於設計電子郵件。"
+>abstract="內容元件是指設計電子郵件時可以使用的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="關於內容元件"
->abstract="內容元件是空的內容預留位置，可用於設計登入頁面。"
+>abstract="內容元件是指設計登陸頁面時可以使用的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_fragment"
 >title="關於內容元件"
->abstract="內容元件是空的內容預留位置，可用於設計片段。"
+>abstract="內容元件是指設計片段時可以使用的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
 >title="關於內容元件"
->abstract="內容元件是空的內容預留位置，可用於設計範本。"
+>abstract="內容元件是指設計範本時可以使用的空白內容預留位置。"
 
 當您設計電子郵件、登入頁面、範本及視覺化片段的內容時，請使用[!UICONTROL 內容元件]來新增視覺化設計元素。 您可以視需要在定義配置圖的一或多個結構元件內新增任意數量的內容元件。
 
@@ -74,7 +75,7 @@ ht-degree: 2%
 
 +++
 
-+++水準對齊
++++水準對齊方式
 
 <table>
     <tr>
@@ -255,13 +256,13 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
 +++
 
-+++邊界
++++邊距
 
 {{styles-margin}}
 
@@ -307,7 +308,7 @@ ht-degree: 2%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -337,7 +338,7 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
@@ -395,13 +396,13 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
 +++
 
-+++邊界
++++邊距
 
 {{styles-margin}}
 
@@ -431,11 +432,11 @@ ht-degree: 2%
 
 +++
 
-+++行
++++折線圖
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
@@ -447,7 +448,7 @@ ht-degree: 2%
 
 +++
 
-+++邊界
++++邊距
 
 {{styles-margin}}
 
@@ -473,7 +474,7 @@ ht-degree: 2%
 
    [開啟程式碼編輯器以新增HTML](./assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
 
    [編輯HTML對話方塊](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
@@ -493,7 +494,7 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
@@ -505,7 +506,7 @@ ht-degree: 2%
 
 +++
 
-+++邊界
++++邊距
 
 {{styles-margin}}
 
@@ -605,7 +606,7 @@ ht-degree: 2%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -629,7 +630,7 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
@@ -641,7 +642,7 @@ ht-degree: 2%
 
 +++
 
-+++邊界
++++邊距
 
 {{styles-margin}}
 
@@ -695,7 +696,7 @@ ht-degree: 2%
 
 +++
 
-+++Size
++++大小
 
 {{styles-size}}
 
@@ -707,7 +708,7 @@ ht-degree: 2%
 
 +++
 
-+++邊界
++++邊距
 
 {{styles-margin}}
 
