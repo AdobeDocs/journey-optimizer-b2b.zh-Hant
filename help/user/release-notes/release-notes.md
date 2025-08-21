@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增強功能。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+workflow-type: tm+mt
+source-wordcount: '2780'
+ht-degree: 92%
 
 ---
 
@@ -17,12 +17,32 @@ Adobe Journey Optimizer B2B Edition 持續提供新功能、增強現有功能�
 Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方式建置，並繼承其最新的創新功能和改進項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/latest){target="_blank"}。
 
 請檢視此[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，以了解有關權益、效能護欄及限制的資訊。
-<!-- hold for 2025.8 release 
+
+<!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## 2025.8 發行說明
+
+**部署日期**：2025年8月26日
+
+此版本包括下列新功能和增強功能：
+
+| 類型 | 項目 | 說明 |
+| ---- | ---- | ----------- |
+| 功能 | 角色範本和歷程的個人參與分數篩選器 | 您現在可以使用&#x200B;_個人參與分數_&#x200B;作為用來建立購買群組和分割路徑歷程節點的角色範本中的篩選器。 |
+| 功能 | 購買群組自訂角色設定 | 您現在可以彈性設定購買群組的自訂角色，這可讓您定義使用案例的特定角色。 |
+| 功能 | 參與分數加權設定 | 您現在可以將權重指派給影響購買群組參與分數的活動。 此功能包括定義您自己的自訂分數模型，以及變更影響參與分數計算的作用中模型。 |
+| 增強功能 | 片段的條件式內容 | 您現在可以使用條件式內容工具進行視覺片段設計。 |
+| 增強功能 | 參與分數更新 | 已更新購買群組參與分數邏輯，以將分數標準化。 此外，您也可以使用成員層級的參與分數，以及整個購買群組的集體參與分數。 |
+| 增強功能 | 作用中歷程可觀察性 — 每個節點的帳戶 | 對於作用中帳戶歷程，您可以存取已到達歷程中每個帳戶節點的帳戶清單。 |
+
+>[!NOTE]
+>
+>版本變更於2025年8月26日開始部署，並分階段推出每個功能。 功能和增強功能的發行日期可能會有所變更。
 
 ## 2025.6 發行說明
 
