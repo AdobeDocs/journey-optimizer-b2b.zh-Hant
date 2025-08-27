@@ -1,10 +1,10 @@
 ---
 title: 程式碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: f12042952864dfbc37b214351849a20578d1ed63
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 0%
+source-wordcount: '2375'
+ht-degree: 3%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。 確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 整合僅限於來自&#x200B;_傳遞層_&#x200B;的存放庫。 如果您使用&#x200B;_作者階層_&#x200B;且想要轉換它，請連絡Adobe Experience Manager支援。<br/>
->&#x200B;>根據您的合約和設定，在設計視覺內容時，可以直接從Adobe Experience Manager Assets B2B edition存取Adobe Journey Optimizer as a Cloud Service 。
+>AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。 確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 整合僅限於來自&#x200B;_傳遞層_&#x200B;的存放庫。 如果您使用&#x200B;_作者階層_&#x200B;且想要轉換它，請連絡Adobe Experience Manager支援。<br/>
+>>根據您的合約和設定，在設計視覺內容時，可以直接從Adobe Experience Manager Assets B2B edition存取Adobe Journey Optimizer as a Cloud Service 。
 
 ## 內容製作 — 元件 — 結構步驟 {#structures-step}
 
@@ -262,3 +262,16 @@ HTML元件的![對齊樣式](../assets/content-design-shared/content-components-
 所選影像的檔案名稱會顯示在對話方塊中。 資產檔案名稱必須是唯一的（跨資料夾），如果已存在同名的檔案，則會顯示訊息。 名稱最多可包含100個字元，且不能包含特殊字元（例如`;`、`:`、`\`和`|`）。
 
 按一下&#x200B;**[!UICONTROL 匯入]**。
+
+## 參與分數活動 {#engagement-activities}
+
+| 活動名稱 | 說明 | 參與類型 | 每日最大頻率計數 | 預設模型活動權重 |
+| --- | --- | --- | --- | --- |
+| [!UICONTROL 出席活動] | 成員參加一項活動 | 活動 | 20 | 60 |
+| [!UICONTROL 電子郵件已點按] | 成員點按電子郵件中的連結 | 電子郵件 | 20 | 30 |
+| [!UICONTROL 電子郵件已開啟] | 成員開啟電子郵件 | 電子郵件 | 20 | 30 |
+| [!UICONTROL 表單已填寫] | 成員在網頁上填寫並提交表單 | 網頁 | 20 | 40 |
+| [!UICONTROL 精彩時刻] | 成員有一個精彩時刻 | 監管型 | 20 | 60 |
+| [!UICONTROL 連結點選次數] | 成員點按網頁上的連結 | 網頁 | 20 | 40 |
+| [!UICONTROL 頁面檢視次數] | 成員檢視網頁 | 網頁 | 20 | 40 |
+| [!UICONTROL 登入事件] | 為事件註冊的成員 | 活動 | 20 | 60 |

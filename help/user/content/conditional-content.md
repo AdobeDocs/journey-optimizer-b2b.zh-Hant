@@ -1,23 +1,23 @@
 ---
 title: 條件式內容
-description: 瞭解如何在編寫帳戶歷程的電子郵件內容時建立內容變體並套用條件規則。
-feature: Email Authoring, Content
+description: 瞭解如何在編寫帳戶歷程的視覺片段和電子郵件內容時建立內容變體並套用條件規則。
+feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1259'
 ht-degree: 10%
 
 ---
 
 # 條件式內容
 
-條件式內容可讓您根據條件式規則調整電子郵件內容。 這些規則是使用設定檔屬性或內容事件定義的。 您可以在規則產生器中建立條件式規則，並將規則儲存起來，以便在您的帳戶歷程中重複使用。
+條件內容可讓您根據條件規則調整電子郵件和片段內容。 這些規則是使用設定檔屬性或內容事件定義的。 您可以在規則產生器中建立條件式規則，並將規則儲存起來，以便在您的帳戶歷程中重複使用。
 
-若要新增條件式內容至您的電子郵件訊息，Adobe Journey Optimizer可讓您套用儲存在&#x200B;_條件_&#x200B;資料庫中的條件式規則。 當您[為帳戶歷程](./email-authoring.md)編寫電子郵件內容時，在電子郵件設計空間套用條件式規則。
+若要新增條件式內容至您的片段與電子郵件訊息，Adobe Journey Optimizer可讓您套用儲存在&#x200B;_條件_&#x200B;資料庫中的條件式規則。 當您為帳戶歷程[或](./email-authoring.md)視覺片段[編寫](./fragment-authoring.md)電子郵件內容時，在視覺設計空間內套用條件規則。
 
-## 在電子郵件中新增條件內容 {#email-content}
+## 新增條件內容 {#email-fragment-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
@@ -29,15 +29,15 @@ ht-degree: 10%
 >title="條件式內容"
 >abstract="使用儲存在資料庫中的條件式規則或建立新規則。"
 
-當您在電子郵件設計空間為您的帳戶歷程撰寫電子郵件時，請使用條件規則來定義內容元件的多個變體。
+在視覺設計空間中創作片段或電子郵件時，請使用條件規則來定義內容元件的多個變體。
 
 1. 選取內容元件，然後按一下元件工具列中的&#x200B;**[!UICONTROL 啟用條件式內容]**&#x200B;圖示。
 
-   元件外框顯示為橙色，表示元件已啟用為條件元件。 **[!UICONTROL 條件式內容]**&#x200B;窗格會顯示在左側，其中有&#x200B;_預設變體_&#x200B;和_Variant - 1。
+   元件外框顯示為橙色，表示元件已啟用為條件元件。 **[!UICONTROL 條件式內容]**&#x200B;窗格會以&#x200B;_預設變體_&#x200B;和&#x200B;_變體 — 1_&#x200B;顯示在左側。
 
    ![啟用文字元件的條件式內容](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
-   您選取並啟動的原始內容為預設內容，且會在任何條件規則都不符合您定義的任何變體時套用。
+   您選取並啟動的原始內容為預設內容，且會在您定義的任何變體都不符合任何條件規則時套用。
 
    在此窗格中，您可以使用條件規則為所選內容元件定義多個變體。
 
@@ -51,7 +51,7 @@ ht-degree: 10%
 
    ![條件資料庫存取條件詳細資料](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則[&#128279;](#create-condition)。
+   若您需要的條件不存在，請按一下[新建](#create-condition)以建立條件規則&#x200B;**[!UICONTROL 。]**
 
 1. 選取條件式規則，然後按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以將其與變體關聯。
 
@@ -94,22 +94,20 @@ ht-degree: 10%
 ## 條件式規則
 
 條件規則是一組條件運算式，可評估為true或false。 您可以使用這些規則，根據各種篩選器（例如設定檔屬性或內容事件）來決定要在電子郵件訊息中顯示的內容變體。
-
-條件式規則儲存在條件資料庫中，可供組織重複使用跨歷程內容。
-<!-- 
-
+規則儲存在條件資料庫中，可在電子郵件和組織的片段內容中重複使用。
+<!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization. -->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
 
 ### 條件篩選器 {#condition-filters}
 
 | 條件型別 | 篩選器 | 說明 |
 | -------------- | ------- | ----------- |
 | **帳戶** | 帳戶屬性 | 帳戶設定檔中的屬性，包括： <li>年收入</li><li>城市</li><li>國家/地區</li><li>員工人數</li><li>行業</li><li>名稱</li><li>SIC代碼</li><li>狀態</li> |
-| | [!UICONTROL 特殊篩選器] > [!UICONTROL 有購買群組] | 帳戶是否擁有購買群組的成員。 也可以根據下列一或多個條件進行評估： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li> |
+| | [!UICONTROL 特殊篩選器] > [!UICONTROL 有購買群組] | 帳戶是否擁有購買群組的成員。 篩選條件也可依據下列一或多個條件進行評估： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li> |
 | **人員** | [!UICONTROL 活動歷史記錄] > [!UICONTROL 電子郵件] | 與歷程相關聯的電子郵件活動： <li>[!UICONTROL 已點按電子郵件中的連結]</li><li>已開啟的電子郵件</li><li>已傳遞電子郵件</li><li>已傳送電子郵件</li> 會使用歷程中先前選取的電子郵件訊息評估這些條件。 |
-|  | [!UICONTROL 個人屬性] | 個人設定檔中的屬性，包括： <li>城市</li><li>國家/地區</li><li>出生日期</li><li>電子郵件地址</li><li>電子郵件無效</li><li>電子郵件已暫停</li><li>名字</li><li>推斷的狀態區域</li><li>職稱</li><li>姓氏</li><li>行動電話號碼</li><li>電話號碼</li><li>郵遞區號</li><li>狀態</li><li>退訂</li><li>取消訂閱的原因</li> |
+|  | [!UICONTROL 個人屬性] | 個人設定檔中的屬性，包括： <li>城市</li><li>國家/地區</li><li>出生日期</li><li>電子郵件地址</li><li>電子郵件無效</li><li>電子郵件已暫停</li><li>名字</li><li>推斷的狀態區域</li><li>職稱</li><li>姓氏</li><li>行動電話號碼</li><li>電話號碼</li><li>郵遞區號</li><li>狀態</li><li>已取消訂閱</li><li>取消訂閱的原因</li> |
 | | [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>角色</li> |
 
 ### 建立條件式規則 {#create-condition}

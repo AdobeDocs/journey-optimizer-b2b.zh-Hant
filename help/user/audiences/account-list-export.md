@@ -1,19 +1,19 @@
 ---
-title: 匯出帳戶清單
+title: 匯出帳戶
 description: 了解如何根據購買群組篩選條件匯出帳戶清單。
 feature: Account Lists
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '253'
-ht-degree: 100%
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 91%
 
 ---
 
-# 匯出帳戶清單
+# 匯出帳戶
 
-使用&#x200B;_匯出帳戶清單_&#x200B;功能，根據您定義的篩選條件來匯出所有帳戶或一組帳戶。匯出流程會產生一個 CSV 檔案，並透過即時簡短通知傳送所儲存檔案的 URL。在需要時，您可以使用此功能將帳戶移動至第三方平台。
+使用&#x200B;_匯出帳戶_&#x200B;功能，根據您定義的篩選條件匯出所有帳戶或一組帳戶。 匯出流程會產生一個 CSV 檔案，並透過即時簡短通知傳送所儲存檔案的 URL。在需要時，您可以使用此功能將帳戶移動至第三方平台。
 
 1. 在 Journey Optimizer B2B Edition，前往左側導覽中的「**[!UICONTROL 帳戶]** > **[!UICONTROL 購買群組]**」。
 

@@ -4,9 +4,9 @@ description: 瞭解如何使用內容元件來設計您的電子郵件、登入�
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2844'
 ht-degree: 6%
 
 ---
@@ -200,10 +200,9 @@ ht-degree: 6%
 | ---- | ---- | ----- |
 | ![新增個人化](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | 新增個人化 | 使用個人化編輯器在元件內容中插入個人化代號。 [了解更多](./email-authoring.md#personalize-content) |
 | ![顯示原始程式碼](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | 顯示原始程式碼 | 以唯讀快顯視窗顯示元件的HTML原始碼。 <br/>![顯示HTML程式碼](./assets/content-components-show-source-code.png){width="200"} |
-| ![啟用條件式內容](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | 啟用條件式內容 | 啟用元件的條件變體。 [了解更多](./conditional-content.md) |
+| ![啟用條件式內容](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | 啟用條件式內容 | （電子郵件和片段）啟用元件的條件變體。 [了解更多](./conditional-content.md) |
 | ![複製](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | 重複 | 建立元件的復本，並直接將其新增到下方。 |
 | ![刪除](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | 刪除 | 移除元件。 |
-
 
 ## 將內容元件新增至您的設計
 
@@ -308,7 +307,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -474,7 +473,7 @@ ht-degree: 6%
 
    [開啟程式碼編輯器以新增HTML](./assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
 
    [編輯HTML對話方塊](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
@@ -606,7 +605,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。

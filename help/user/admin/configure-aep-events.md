@@ -5,7 +5,7 @@ feature: Setup, Integrations
 role: Admin
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
 workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 設定Experience Platform事件定義
 
-管理員可以設定Adobe Experience Platform (AEP)型事件定義，讓行銷人員建立會對[AEP體驗事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反應的帳戶歷程。
+管理員可以設定Adobe Experience Platform (AEP)型事件定義，讓行銷人員建立會對[AEP體驗事件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反應的帳戶歷程。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"}[觀看概觀影片](#overview-video)
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >請與您的工程團隊協調，確保已定義所需的結構描述。 [建立XDM結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition){target="_blank"}是資料工程師根據您整個組織的使用案例需求所執行的複雜程式。
+  >請與您的工程團隊協調，確保已定義所需的結構描述。 [建立XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}是資料工程師根據您整個組織的使用案例需求所執行的複雜程式。
 
 * **_事件型別_** - XDM ExperienceEvent eventType （每個事件定義最多20個）。
 
@@ -62,11 +62,11 @@ ht-degree: 1%
 
 ## 存取及管理事件定義
 
-1. 在左側導覽中，選擇&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 組態]**。
+1. 在左側導覽列中，選擇&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 組態]**。
 
 1. 按一下中間面板上的&#x200B;**[!UICONTROL 事件]**&#x200B;以顯示事件定義清單。
 
-   您可以從此頁面[建立](#create-an-event-definition)、[發佈](#publish-an-event-defintion)、[編輯](#publish-an-event-defintion)和[刪除](#delete-an-event-definition)事件定義。
+   您可以從此頁面[建立](#create-an-event-definition)、[發佈](#publish-an-event-defintion)、[編輯](#edit-an-event-definition)和[刪除](#delete-an-event-definition)事件定義。
 
    ![存取設定的事件定義](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 1. 選取要用於事件定義的&#x200B;**[!UICONTROL 事件型別]**。
 
-   您選取的[事件型別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}決定了在帳戶歷程中可作為&#x200B;_接聽事件_&#x200B;節點之條件約束的事件。
+   您選取的[事件型別](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}決定了在帳戶歷程中可作為&#x200B;_接聽事件_&#x200B;節點之條件約束的事件。
 
    * 按一下&#x200B;**[!UICONTROL 選取事件型別]**。
    * 在對話方塊中，從清單中選取一或多個事件型別（最多20個）。
@@ -156,7 +156,7 @@ ht-degree: 1%
 
    ![開啟草稿事件定義](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
 
-   如有需要，請先檢閱設定再發佈。 如果草稿[&#128279;](#edit-an-event-definition)不符合您的要求，您可以編輯草稿。
+   如有需要，請先檢閱設定再發佈。 如果草稿[不符合您的要求，您可以](#edit-an-event-definition)編輯草稿。
 
 1. 按一下右上方的&#x200B;**[!UICONTROL 發佈]**。
 
@@ -282,4 +282,4 @@ ht-degree: 1%
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3448694/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

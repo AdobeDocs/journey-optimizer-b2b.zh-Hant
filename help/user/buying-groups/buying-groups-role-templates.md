@@ -4,16 +4,16 @@ description: 瞭解如何定義作為購買群組元件的角色範本。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
+source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 3%
 
 ---
 
 # 購買群組角色範本
 
-在B2B市場中，購買決策通常由多人做出。 這些個人會根據其在組織內的角色參與決策過程。 根據每個產品供應專案型別或帳戶使用案例，建立包含這些角色定義的購買群組角色範本。
+在B2B市場中，購買決策通常由多人做出。 這些個人會根據其在組織內的角色參與決策過程。 根據每個產品供應專案型別或帳戶使用案例，建立包含一組角色定義的購買群組角色範本。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 1. 在&#x200B;_[!UICONTROL 購買群組]_&#x200B;頁面中，選取&#x200B;**[!UICONTROL 角色範本]**&#x200B;標籤。
 
-   ![角色範本索引標籤](assets/roles-templates-tab.png){width="700" zoomable="yes"}
+   ![角色範本索引標籤](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    索引標籤提供所有現有角色範本的詳細目錄清單，並以欄格式顯示下列資訊：
 
@@ -56,13 +56,13 @@ ht-degree: 3%
 
 ### 新增範本角色
 
-建立範本後，它會在工作區中開啟，並提示您定義角色。 預設會顯示第一個角色卡。
+建立範本後，它會在工作區中開啟，並提示您新增角色。 預設會顯示第一個角色卡。
 
 您為範本定義的每個角色都使用一組篩選器（或&#x200B;_條件_）來決定指派給角色的成員。 使用下列篩選型別來定義角色的條件：
 
 | 類型 | 條件 |
 | ---- | --------- |
-| 個人屬性 | <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件已暫停 <li>傳真號碼 <li>名字 <li>推斷的狀態區域 <li>職稱 <li>姓氏 <li>中間名 <li>行動電話號碼 <li>電話號碼 <li>郵遞區號 <li>狀態 <li>退訂 <li>取消訂閱的原因 |
+| 個人屬性 | <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件已暫停 <li>傳真號碼 <li>名字 <li>推斷的狀態區域 <li>職稱 <li>姓氏 <li>中間名 <li>行動電話號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>狀態 <li>已取消訂閱 <li>取消訂閱的原因 |
 | 特殊篩選 | <li>清單成員 <li>計畫成員 |
 | 意圖資料 | 類別方法 <li>產品意圖 <li>關鍵字意圖<br/>[瞭解意圖資料](../admin/intent-data.md)。 |
 
@@ -70,7 +70,7 @@ ht-degree: 3%
 
    * 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
 
-     目前版本有六個角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。
+     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在[角色&#x200B;_清單_&#x200B;中定義的任何](./default-custom-roles.md#custom-roles)自訂角色。
 
      ![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -162,4 +162,4 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
