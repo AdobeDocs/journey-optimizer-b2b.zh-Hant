@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2053'
 ht-degree: 6%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 6%
 
    * **新增或修訂您的指引和排除專案的範例**。
 
-     在顯示的範例圖磚中，按一下&#x200B;_編輯_ （![編輯圖示](../assets/do-not-localize/icon-edit.svg) ）以變更範例，或按一下&#x200B;_刪除_ （![刪除圖示](../assets/do-not-localize/icon-delete.svg) ）圖示以移除範例。
+     在顯示的範例圖磚中，按一下&#x200B;_編輯_ （ ![編輯圖示](../assets/do-not-localize/icon-edit.svg) ）圖示以變更範例，或按一下&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete.svg) ）圖示以移除範例。
 
 1. 定義好所有專案後，按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -156,7 +156,7 @@ ht-degree: 6%
 
 ### 發佈品牌
 
-當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] **&#x200B;**，讓您的品牌指引可用於內容對齊與產生。
+當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] ****，讓您的品牌指引可用於內容對齊與產生。
 
 已發佈的品牌可從AI **[!UICONTROL 品牌一致性]**&#x200B;和內容產生工具中的[品牌](./brand-alignment.md)選項存取。<!-- [Learn more about content generation](gs-generative.md) -->
 
@@ -324,4 +324,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [視覺內容](#visual-content)
 
-1. 使用草稿更新時，請按一下[儲存]。**&#x200B;**，然後在準備取代&#x200B;**[!UICONTROL [即時]]**&#x200B;版本時，按一下[發佈]。__
+1. 使用草稿更新時，請按一下[儲存]。****，然後在準備取代&#x200B;**[!UICONTROL [即時]]**&#x200B;版本時，按一下[發佈]。__

@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe Journey Optimizer B2B edition中建立和使�
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f700f84c55d37ded9980a08286da05011345800c
 workflow-type: tm+mt
-source-wordcount: '2624'
+source-wordcount: '2738'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,11 @@ ht-degree: 2%
 
 **視覺片段**
 
-視覺片段是預先定義的視覺化區塊，使用視覺化內容設計工具建置，可在多個電子郵件或電子郵件範本中重複使用。 Journey Optimizer B2B edition及本檔案的目前範圍僅為視覺片段。 Journey Optimizer B2B edition尚不支援運算式型片段。
+視覺片段是預先定義的視覺化區塊，使用視覺化設計工具建置，可在多個電子郵件或電子郵件範本中重複使用。 Journey Optimizer B2B edition及本檔案的目前範圍僅為視覺片段。
+
+>[!NOTE]
+>
+>[!DNL Journey Optimizer B2B Edition]中尚未支援運算式型片段。
 
 >[!ENDSHADEBOX]
 
@@ -42,9 +46,9 @@ ht-degree: 2%
 
 | 狀態 | 說明 |
 | -------------------- | ----------- |
-| 草稿 | 當您建立片段時，它處於草稿狀態。 在您定義或編輯視覺內容時，它保持此狀態，直到您發佈它以用於電子郵件或電子郵件範本為止。 可用的動作： <br/><ul><li>編輯所有詳細資料<li>在視覺化設計工具中編輯<li>發佈<li>重複<li>刪除 |
-| 發佈日期 | 當您發佈片段時，該片段將可用於電子郵件或電子郵件範本。 在視覺化設計工具中無法修改已發佈的片段內容。 可用的動作： <br/><ul><li>編輯說明<li>新增至電子郵件或範本<li>建立草稿版本<li>重複<li>刪除（若未使用） |
-| 已與草稿一起發佈 | 當您從已發佈的片段建立草稿時，已發佈的版本仍可在電子郵件或電子郵件範本中使用，且草稿內容可在視覺化設計工具中修改。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且使用中的電子郵件和電子郵件範本中的內容會更新。 可用的動作： <br/><ul><li>編輯說明<li>新增至電子郵件或範本<li>在視覺化設計工具中編輯草稿版本<li>發佈草稿版本<li>重複<li>刪除（若未使用） |
+| 草稿 | 當您建立片段時，它處於草稿狀態。 當您定義或編輯視覺設計空間時，它保持此狀態，直到您發佈它以用於電子郵件或電子郵件範本為止。 可用的動作： <br/><ul><li>編輯所有詳細資料<li>在視覺設計空間編輯<li>發佈<li>重複<li>刪除 |
+| 發佈日期 | 當您發佈片段時，該片段將可用於電子郵件或電子郵件範本。 在視覺化設計空間中無法修改已發佈的片段內容。 可用的動作： <br/><ul><li>編輯說明<li>新增至電子郵件或範本<li>建立草稿版本<li>重複<li>刪除（若未使用） |
+| 已與草稿一起發佈 | 當您從已發佈的片段建立草稿時，已發佈的版本仍可用於電子郵件或電子郵件範本，並且草稿內容可在視覺設計空間中進行修改。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且使用中的電子郵件和電子郵件範本中的內容會更新。 可用的動作： <br/><ul><li>編輯說明<li>新增至電子郵件或範本<li>在視覺化設計空間中編輯草稿版本<li>發佈草稿版本<li>重複<li>刪除（若未使用） |
 
 ![片段狀態生命週期](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -86,7 +90,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-   視覺化設計工具會以空白畫布開啟。
+   視覺設計空間會以空白畫布開啟。
 
 1. 使用內容設計工具建立視覺片段內容：
 
@@ -97,9 +101,21 @@ ht-degree: 2%
    * [啟用自訂欄位](./fragment-authoring.md#enable-fragment-customization)
    * [編輯連結的URL追蹤](./fragment-authoring.md#edit-linked-url-tracking)
 
+1. （選用）將[品牌主題](./brand-themes.md)套用至片段內容，以簡化片段製作程式，並確保設計符合定義的標準。
+
+   >[!NOTE]
+   >
+   >當您套用主題時，片段相容性僅限於在&#x200B;_主題模式_&#x200B;中建立的電子郵件和電子郵件範本。
+
+   按一下右側的&#x200B;_佈景主題_ （ ![佈景主題圖示](../assets/do-not-localize/icon-design-themes.svg) ）圖示。
+
+   ![片段設計空間 — 已選取主題圖示](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   選取&#x200B;**[!UICONTROL 我的佈景主題]**&#x200B;標籤中列出的其中一個自訂佈景主題，或者您可以選取&#x200B;**[!UICONTROL Adobe佈景主題]**&#x200B;來使用內建佈景主題。 當您按一下清單外部時，選取的主題會套用畫布中所有元件的樣式。 您可以視需要在顏色變體之間切換。
+
 1. 隨時按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存草稿片段。
 
-1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下[發佈]。**&#x200B;**
+1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下[發佈]。****
 
 ## 檢視片段詳細資訊
 
@@ -166,9 +182,9 @@ ht-degree: 2%
 
    ![具有草稿狀態的片段詳細資料](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. 若要變更視覺化設計工具中的內容，請按一下[編輯片段]。**&#x200B;**
+1. 若要變更視覺化設計空間中的內容，請按一下&#x200B;**[!UICONTROL 編輯片段]**。
 
-   視需要使用視覺化設計工具工具：
+   視需要使用視覺化設計工具：
 
    * [新增結構和內容](./fragment-authoring.md#add-structure-and-content)
    * [新增Assets](./fragment-authoring.md#add-assets)
@@ -193,11 +209,11 @@ ht-degree: 2%
 
 1. 若要更新內容，請按一下右上方的&#x200B;**[!UICONTROL 建立草稿版本]**。
 
-   在對話方塊中按一下「**[!UICONTROL 確定]**」，在視覺化設計工具中開啟草稿版本。
+   在對話方塊中按一下「**[!UICONTROL 確定]**」，在視覺化設計空間開啟草稿版本。
 
    ![建立草稿版本對話方塊](./assets/fragments-create-draft-version.png){width="300"}
 
-   視需要使用視覺化設計工具工具：
+   視需要使用視覺化設計工具：
 
    * [新增結構和內容](./fragment-authoring.md#add-structure-and-content)
    * [新增Assets](./fragment-authoring.md#add-assets)
@@ -226,7 +242,7 @@ ht-degree: 2%
 
 若要更新內容：
 
-1. 按一下右上方的&#x200B;**[!UICONTROL 編輯片段]**。 視需要使用視覺化設計工具工具：
+1. 按一下右上方的&#x200B;**[!UICONTROL 編輯片段]**。 視需要使用視覺化設計工具：
 
    * [新增結構和內容](./fragment-authoring.md#add-structure-and-content)
    * [新增Assets](./fragment-authoring.md#add-assets)
@@ -262,7 +278,7 @@ ht-degree: 2%
 
 在視覺內容編輯器中建立/編輯電子郵件或電子郵件範本時，您可以選擇將內容的所有或部分儲存為片段，以便重複使用。
 
-1. 當您將某些內容儲存為片段時，請按一下[其他] **&#x200B;**，然後選擇[另存為片段] **。**
+1. 當您將某些內容儲存為片段時，請按一下[其他] ****，然後選擇[另存為片段] **[!UICONTROL 。]**
 
 1. 選取要包含在片段中的不同元素。
 
@@ -286,9 +302,9 @@ ht-degree: 2%
 
 1. 導覽至&#x200B;**[!UICONTROL 帳戶歷程]**&#x200B;並開啟現有歷程或建立新歷程。
 
-1. 建立[_[!UICONTROL 傳送電子郵件&#x200B;]_&#x200B;節點](./add-email.md#add-an-email-action-node-in-a-journey)。
+1. 建立[_[!UICONTROL 傳送電子郵件&#x200B;]_節點](./add-email.md#add-an-email-action-node-in-a-journey)。
 
-1. 建立或編輯節點[&#128279;](./email-authoring.md)的電子郵件內容。
+1. 建立或編輯節點[的](./email-authoring.md)電子郵件內容。
 
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表拖放專案，以提供片段的&#x200B;_結構_。
 
@@ -310,7 +326,7 @@ ht-degree: 2%
 
 >[!TIP]
 >
->如果您希望片段佔據電子郵件內的整個水準版面，請新增[!UICONTROL 1:1欄]結構，然後將片段拖放到其中。
+>如果您希望片段佔據電子郵件內的整個水準配置，請新增[!UICONTROL 1:1欄]結構，然後將片段拖放至其中。
 
 儲存電子郵件後，選取&#x200B;_[!UICONTROL 使用者]_&#x200B;索引標籤時，它就會顯示在片段詳細資訊頁面中。 新增到電子郵件的片段在電子郵件或範本中無法編輯 — 發佈的來源片段會定義內容。
 
@@ -318,7 +334,7 @@ ht-degree: 2%
 
 1. 從左側導覽列按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 範本]**。
 
-1. 建立新範本，或開啟現有的電子郵件範本，然後按一下[編輯電子郵件範本]。**&#x200B;**
+1. 建立新範本，或開啟現有的電子郵件範本，然後按一下[編輯電子郵件範本]。****
 
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表拖放專案，以提供片段的&#x200B;_結構_。
 

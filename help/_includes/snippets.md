@@ -1,9 +1,9 @@
 ---
 title: 程式碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2376'
 ht-degree: 3%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。 確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 整合僅限於來自&#x200B;_傳遞層_&#x200B;的存放庫。 如果您使用&#x200B;_作者階層_&#x200B;且想要轉換它，請連絡Adobe Experience Manager支援。<br/>
->&#x200B;>根據您的合約和設定，在設計視覺內容時，可以直接從Adobe Experience Manager Assets B2B edition存取Adobe Journey Optimizer as a Cloud Service 。
+>AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。 確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 整合僅限於來自&#x200B;_傳遞層_&#x200B;的存放庫。 如果您使用&#x200B;_作者階層_&#x200B;且想要轉換它，請連絡Adobe Experience Manager支援。<br/>
+>>根據您的合約和設定，在設計視覺內容時，可以直接從Adobe Experience Manager Assets B2B edition存取Adobe Journey Optimizer as a Cloud Service 。
 
 ## 內容製作 — 元件 — 結構步驟 {#structures-step}
 
@@ -125,7 +125,7 @@ HTML元件的![對齊樣式](../assets/content-design-shared/content-components-
 
    * 若要設定&#x200B;**[!UICONTROL 邊框大小]** （線條寬度），請按一下向上和向下箭頭圖示以增加或減少畫素數量。
 
-   * 若要設定&#x200B;**[!UICONTROL 邊框樣式]**，請從清單中選取標準CSS `border-style`值。
+   * 若要設定&#x200B;**[!UICONTROL 邊框樣式]**，請從標準CSS `border-style`值清單中選擇一個值。
 
    * 若要決定顯示邊框的位置，請選取每個&#x200B;**[!UICONTROL 邊框位置]**&#x200B;核取方塊。
 

@@ -4,16 +4,16 @@ description: 瞭解如何在Adobe Journey Optimizer B2B中建立電子郵件內�
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
 
 # 電子郵件訊息製作
 
-在您&lbrack;新增新的<!-- or duplicated -->電子郵件資產至歷程動作節點&rbrack;(./add-email.md)後，您可以定義電子郵件訊息的內容。
+在您[新增電子郵件資產至歷程動作節點](./add-email.md)後，您可以定義電子郵件訊息的內容。
 
 按一下右側面板上&#x200B;**[!UICONTROL 詳細資料]**&#x200B;索引標籤中的&#x200B;_[!UICONTROL 編輯電子郵件內容]_。
 
@@ -38,19 +38,26 @@ ht-degree: 2%
 使用視覺內容設計空間來定義電子郵件的結構和內容。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計可重複使用電子郵件內容的形狀。
 
 1. 從&#x200B;_[!UICONTROL 設計您的範本]_&#x200B;首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
-1. [新增結構和內容](#add-structure-and-content)至電子郵件訊息。
-1. [新增影像資產](#add-assets)至電子郵件訊息。
-1. [個人化電子郵件內容](#personalize-content)。
+
+1. 在&#x200B;_[!UICONTROL 建立電子郵件]_&#x200B;對話方塊中，選擇您要編寫的電子郵件內容型別。
+
+   * **[!UICONTROL 使用佈景主題]** — 選擇此選項可在&#x200B;_佈景主題模式_&#x200B;中建立電子郵件。 在此模式中，您可以使用已定義的品牌主題來簡化內容製作程式，並確保設計符合已定義的標準。
+
+   * **[!UICONTROL 手動樣式]** — 選擇此選項可在&#x200B;_手動模式_&#x200B;中建立電子郵件。 在此模式中，您可以手動設定新增至空白畫布的所有結構和內容元件的樣式。
+
+1. [將結構和內容](./email-authoring.md#add-structure-and-content)新增到範本。
+
 1. [檢閱和更新連結](#preview-and-edit-linked-urls)。
+
 1. [測試電子郵件](#check-and-test-the-email)。
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual designer for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容
 
@@ -70,7 +77,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 儲存的範本可能會套用至一或多個元件的治理（內容鎖定）設定。 當您[從受控制的範本](./email-authoring-governance.md)撰寫電子郵件時，視覺化設計工具會提供鎖定元件的相關准則。
+> 儲存的範本可能會套用至一或多個元件的治理（內容鎖定）設定。 當您[從受控制的範本](./email-authoring-governance.md)撰寫電子郵件時，視覺化設計空間會提供鎖定元件的相關准則。
 
 ## 新增結構和內容 {#structure-content}
 
@@ -78,7 +85,7 @@ ht-degree: 2%
 
 ### 新增自訂 CSS
 
-您可以直接在電子郵件設計空間新增自己的自訂CSS。 使用自訂CSS套用進階和特定的樣式，以擁有更大的彈性並控制內容的外觀。 最佳實務是在加入影像、按鈕和文字等元件前，先新增此最高層級的樣式。
+您可以直接在電子郵件設計空間新增自己的自訂CSS。 使用自訂CSS套用進階和特定的樣式，以擁有更大的彈性並控制內容的外觀。 最佳實務是在包含內容元件（例如影像、按鈕和文字）之前新增此最高層級的樣式。
 
 如果畫布中至少有一個內容元件，請在左側導覽樹狀結構中選取&#x200B;**[!UICONTROL Body]**&#x200B;元件，以存取自訂CSS編輯器。
 
@@ -91,6 +98,10 @@ ht-degree: 2%
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### 新增片段
+
+>[!NOTE]
+>
+>電子郵件內容中的&#x200B;_主題模式_&#x200B;與&#x200B;_手動模式_&#x200B;之間的片段不相容。 若要在套用了主題的電子郵件內容中使用片段，該片段也必須在&#x200B;_主題模式_&#x200B;中建立。
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -128,13 +139,13 @@ ht-degree: 2%
 
 ## 更多選項
 
-從電子郵件設計空間頂端的&#x200B;_[!UICONTROL 更多……]_&#x200B;功能表，您可以執行下列動作：
+從視覺設計空間頂端的&#x200B;_[!UICONTROL 更多……]_&#x200B;功能表，您可以執行下列動作：
 
 ![按一下[更多]以存取範本動作](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL 重設電子郵件]** — 按一下此選項，將視覺化電子郵件設計工具畫布清除為空白並重新啟動內容建置。
+* **[!UICONTROL 重設電子郵件]** — 按一下此選項，將電子郵件設計畫布清除為空白並重新啟動內容建置。
 * **[!UICONTROL 另存為片段]** — 將電子郵件的全部或部份另存為片段，以便在多個電子郵件或電子郵件範本中重複使用。 您提供片段的名稱和說明，並將其儲存到可用片段清單中。
-* **[!UICONTROL 變更您的設計]** — 返回&#x200B;_設計您的電子郵件_&#x200B;頁面。 從那裡，您可以選擇另一個範本以重新啟動設計程式，或選擇在黑色畫布中從頭開始設計內容。\
+* **[!UICONTROL 變更您的設計]** — 返回&#x200B;_設計您的電子郵件_&#x200B;頁面。 從那裡，您可以選擇另一個範本以重新啟動設計流程。 您也可以選擇使用空白畫布（_傳統模式_）或使用[品牌主題](./brand-themes.md) （_主題模式_）從頭開始設計內容。
 * **[!UICONTROL 另存為內容範本]** — 將電子郵件內文另存為電子郵件範本，以便在多個電子郵件或電子郵件範本中重複使用。 您可以提供範本的名稱和說明，並將其儲存至已儲存電子郵件範本的清單。
 * **[!UICONTROL 匯出HTML]** — 將視覺畫布中的內容以HTML格式下載到您的本機系統，並封裝成zip檔。
 

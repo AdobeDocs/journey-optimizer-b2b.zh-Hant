@@ -4,9 +4,9 @@ description: 了解 Journey Optimizer B2B Edition 中的購買群組如何透過
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1194'
 ht-degree: 75%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 75%
 
 在帳戶中，可能有一小群人員組成&#x200B;_購買群組_。最終會由這些人員做出購買決定，因此行銷人員必須特別留意其動向，並且傳送給他們的資訊，可能需要與和該帳戶關聯的其他人員不同。不同產品線或產品方案的購買群組可能由不同的人員組成。例如，購買網路安全性產品通常需要資訊長或資安長，以及法務部門的代表核准。錯誤追蹤產品的採購群組成員通常會包含工程副總裁與 IT 總監。
 
-![影片](../../assets/do-not-localize/icon-video.svg){width="30"}[觀看概觀影片](#overview-video)
+![影片圖示](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看影片概述](#overview-video)
 
 ## 關鍵元件
 
@@ -112,4 +112,4 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3452952/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

@@ -4,9 +4,9 @@ description: 瞭解如何撰寫可用於帳戶歷程電子郵件的內容電子�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '423'
 ht-degree: 3%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 3%
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### 新增片段
+
+>[!NOTE]
+>
+>電子郵件內容中的&#x200B;_主題模式_&#x200B;與&#x200B;_手動模式_&#x200B;之間的片段不相容。 若要在套用了主題的電子郵件內容中使用片段，該片段也必須在&#x200B;_主題模式_&#x200B;中建立。
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -69,5 +73,5 @@ ht-degree: 3%
 
 * **[!UICONTROL 重設範本]** — 按一下此選項，將設計畫布清除為空白並重新啟動建立內容。
 * **[!UICONTROL 另存為片段]** — 將範本的所有或部份另存為片段，以便在多個電子郵件或電子郵件範本中重複使用。 您提供片段的名稱和說明，並將其儲存到可用片段清單中。
-* **[!UICONTROL 變更您的設計]** — 返回&#x200B;_設計您的範本_&#x200B;頁面。 從那裡，您可以選擇從頭開始設計範本，或使用現有的範本來重新啟動設計流程。
+* **[!UICONTROL 變更您的設計]** — 返回&#x200B;_設計您的電子郵件_&#x200B;頁面。 從那裡，您可以選擇另一個範本以重新啟動設計流程。 您也可以選擇使用空白畫布（_傳統模式_）或使用[品牌主題](./brand-themes.md) （_主題模式_）從頭開始設計內容。
 * **[!UICONTROL 匯出HTML]** — 將視覺畫布中的內容以HTML格式下載到您的本機系統，並封裝成zip檔。

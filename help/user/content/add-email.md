@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe Journey Optimizer B2B中新增、定義及最�
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 828419933a6552b09d05a8be2a14676a87046a26
+source-git-commit: b575ea7130d9305dd6a517323c58386c3720d807
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    * 選擇&#x200B;**[!UICONTROL 建立新電子郵件]**，在Journey Optimizer B2B edition中以原生方式編寫電子郵件。
 
-     此選項可讓您在Journey Optimizer B2B edition中以原生方式管理電子郵件內容。 按一下[建立電子郵件]&#x200B;**[!UICONTROL 以開啟[建立新電子郵件]]**&#x200B;對話方塊&#x200B;_。_&#x200B;您可以建立新的電子郵件內容資產或複製現有的電子郵件內容資產。
+     此選項可讓您在Journey Optimizer B2B edition中以原生方式管理電子郵件內容。 按一下[建立電子郵件]**[!UICONTROL 以開啟[建立新電子郵件]]**&#x200B;對話方塊&#x200B;_。_&#x200B;您可以建立新的電子郵件內容資產或複製現有的電子郵件內容資產。
 
      +++新電子郵件
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
          在電子郵件內容頁面的&#x200B;_[!UICONTROL 電子郵件屬性]_&#x200B;區段中，_[!UICONTROL 寄件者電子郵件]_&#x200B;與&#x200B;_[!UICONTROL 回覆地址]_&#x200B;欄位已設定。 您可以輸入&#x200B;_[!UICONTROL From name]_&#x200B;和&#x200B;_[!UICONTROL Description]_ （選擇性）欄位的值。
 
-      1. 如有需要，請按一下[編輯電子郵件] **&#x200B;**&#x200B;來修改電子郵件[設定](#define-the-email-settings)和[內容](./email-authoring.md)。
+      1. 如有需要，請按一下[編輯電子郵件] ****&#x200B;來修改電子郵件[設定](#define-the-email-settings)和[內容](./email-authoring.md)。
 
      +++
 
@@ -100,10 +100,10 @@ ht-degree: 0%
 | [!UICONTROL 回覆地址] | 電子郵件標頭中使用的寄件者地址。 預設值是從[電子郵件通道傳遞設定](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL 來自標籤]）填入。 輸入當收件者使用回覆功能時，您想要填入的電子郵件地址（可能與寄件者地址不同或相同）。 按一下「_個人化_」圖示（「![個人化圖示](../assets/do-not-localize/icon-personalize.svg)」）以在欄位中使用個人化權杖。 |
 | [!UICONTROL 主旨列] | 顯示在電子郵件主旨欄位中的文字。 預設值是從您在&#x200B;_[!UICONTROL 建立新電子郵件]_&#x200B;對話方塊中輸入的文字填入。 您可以視需要變更文字。 按一下&#x200B;_個人化_&#x200B;圖示（![個人化圖示](../assets/do-not-localize/icon-personalize.svg)）以在欄位中使用個人化權杖。<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL 品牌化網域] | 如果您在系統中定義了多個[品牌化網域](../admin/configure-channels-emails.md#branding-domains)，請選取要用來傳送電子郵件的品牌化網域。 使用特定品牌網域來傳送看似來自您的品牌而非整個公司的電子郵件。 它可建立與品牌的信任、個人化電子郵件體驗，並提高開啟率和回應率。 |
-| [!UICONTROL 專用IP] | 如果您定義了多個專用IP位址，請選取用於傳送電子郵件的專用IP位址。 當您為方案使用特定的專用IP時，可以更密切地追蹤和監視傳遞能力，並快速回應傳遞量度的任何變更。 如需為連線的Marketo Engage執行個體新增專用IP的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}。 |
+| [!UICONTROL 專用IP] | 如果您定義了多個專用IP位址，請選取用於傳送電子郵件的專用IP位址。 當您為方案使用特定的專用IP時，可以更密切地追蹤和監視傳遞能力，並快速回應傳遞量度的任何變更。 如需為連線的Marketo Engage執行個體新增專用IP的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}。 |
 | [!UICONTROL 操作電子郵件] | 如果要將電子郵件指定為可操作，請選取核取方塊。 營運電子郵件會從選擇退出/取消訂閱清單及通訊限制中排除。 只有當收件者無法將電子郵件視為未經請求的商業郵件(SPAM)時，才選取此選項。 |
 | [!UICONTROL 包含網頁檢視] | 選取核取方塊以包含從電子郵件內容產生的網頁連結。 電子郵件訊息的功能比網頁更為有限，因此對JavaScript、擴充式CSS和表單相當實用。 用來產生連結的文字已在[電子郵件通道傳遞設定](../admin/configure-channels-emails.md#delivery-settings)中設定([!UICONTROL 以網頁檢視HTML]和[!UICONTROL 以網頁文字檢視])。 |
-| [!UICONTROL 停用開啟追蹤] | 選取當您不想追蹤電子郵件開啟活動時的核取方塊。 停用此功能後，只有在不重複人員開啟電子郵件時，電子郵件開啟活動計數才會增加。 當您設計電子郵件內文內容時，可以[管理電子郵件內容連結的追蹤](./email-authoring.md#content-authoring---link-tracking)。 |
+| [!UICONTROL 停用開啟追蹤] | 選取當您不想追蹤電子郵件開啟活動時的核取方塊。 停用此功能後，只有在不重複人員開啟電子郵件時，電子郵件開啟活動計數才會增加。 當您設計電子郵件內文內容時，可以[管理電子郵件內容連結追蹤](./email-authoring.md#content-authoring---link-tracking)。 |
 | [!UICONTROL Preheader] | 選取核取方塊以包含預覽文字。 預覽文字是簡短摘要文字，顯示在部分電子郵件使用者端的主旨行後面。 它通常提供電子郵件的簡短摘要，通常是單句話。 在欄位<!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->中輸入摘要文字。 |
 | [!UICONTROL 用作CC位址的欄位] | 如果可用，請選取最多25個在Marketo Engage中使用`Email`型別設定的潛在客戶或公司欄位。 |
 
