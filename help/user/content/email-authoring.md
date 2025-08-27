@@ -57,7 +57,7 @@ ht-degree: 2%
 >
 >You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
-當您滿意內容時，請按一下[儲存]。****
+當您滿意內容時，請按一下[儲存]。**&#x200B;**
 
 ## 匯入現有的HTML內容
 
