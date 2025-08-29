@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 文件
 description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，透過內建的生成式 AI 和領先業界的自動化功能，協調帳戶和購買群組歷程。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 59f75834895e73c3ac84a3f01c923eaa202fbad7
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 76%
 
 ---
 
@@ -17,29 +17,23 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
+>[!TAB 個人參與分數]
+
+B2B行銷人員現在可以在其歷程的分割路徑或角色範本中使用人員層級的參與分數作為篩選器，以建立購買群組。 此分數和篩選可讓您精確鎖定購買群組成員，以個人化持續的參與。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="瞭解人員參與分數和篩選"}
+
+>[!TAB 自訂購買群組角色]
+
+B2B行銷策略師現在可以利用自訂購買群組角色，擴大購買群組精確度。 在預設的6個角色以外建立最多20個自訂角色，並在購買群組間重複使用它們。 在帳戶歷程中，量身打造訊息內容，以符合您獨特的角色，並提升各購買群組的相關性和參與度&#x200B;。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="瞭解自訂購買群組角色"}
+
 >[!TAB GenStudio 電子郵件體驗]
 
 將 GenStudio for Performance Marketing 電子郵件體驗與 Journey Optimizer B2B Edition 整合，以提高行銷效率並保持品牌一致性。透過此整合，您就可以將 GenStudio AI 驅動的內容創作與 Journey Optimizer B2B Edition 中的進階協調功能結合使用。
 
 [!BADGE 了解更多]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="了解 GenStudio 電子郵件體驗"}
-
->[!TAB 垃圾郵件偵測報告]
-
-透過新的垃圾郵件報告，您的訊息可以避免被垃圾郵件篩選器篩除並確保傳送到客群的收件匣。直接在電子郵件設計空間中產生&#x200B;_垃圾郵件報告_。
-
-[!BADGE 了解更多]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="了解垃圾郵件偵測報告"}
-
->[!TAB 帳戶和購買群組動作]
-
-直接從帳戶詳細資料和購買群組詳細資料頁面採取行動，以利及時進行刻意的參與。
-
-使用&#x200B;_傳送電子郵件_&#x200B;動作將已核准的 Marketo Engage 電子郵件傳送給所選取的帳戶聯絡人或購買群組成員。
-
-[!BADGE 了解更多]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="了解如何傳送電子郵件給帳戶聯絡人"}
-
-在購買群組詳細資料中，可採取的動作也包括&#x200B;_指派新成員_、_移除成員_&#x200B;和&#x200B;_編輯角色_。
-
-[!BADGE 了解更多]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="了解購買群組動作"}
 
 >[!TAB 自訂 CSS 支援]
 
@@ -53,11 +47,11 @@ ht-degree: 100%
 
 [!BADGE 了解更多]{type=Informative url="/help/user/admin/intent-data.md" tooltip="了解意圖關鍵字對應設定"}
 
->[!TAB 使用 Litmus 進行電子郵件測試]
+>[!TAB 垃圾郵件偵測報告]
 
-有了 Litmus 帳戶，您現在可以從 Journey Optimizer B2B Edition 預覽在常用電子郵件用戶端的電子郵件呈現效果。此整合功能有助於確保電子郵件內容外觀精美，而且在每個電子郵件收件匣中都依照設計運作。
+透過新的垃圾郵件報告，您的訊息可以避免被垃圾郵件篩選器篩除並確保傳送到客群的收件匣。直接在電子郵件設計空間中產生&#x200B;_垃圾郵件報告_。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="了解 Litmus 電子郵件測試整合"}
+[!BADGE 了解更多]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="了解垃圾郵件偵測報告"}
 
 >[!ENDTABS]
 
@@ -100,7 +94,7 @@ ht-degree: 100%
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="開始使用"><br/>
-      <strong>開始使用</strong><br/><a href="home-page.md">登入和首頁</a><br/><a href="./start/get-started.md">快速入門指南</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI 助理</a>
+      <strong>開始使用</strong><br/><a href="home-page.md">登入和首頁</a><br/><a href="./start/get-started.md">入門指南</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI小幫手</a>
     </td>
     <!--
     <td>
@@ -113,7 +107,7 @@ ht-degree: 100%
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="帳戶歷程"><br/>
-      <strong>帳戶歷程</strong><br/><a href="./journeys/journey-overview.md">歷程概觀</a><br/><a href="./journeys/journey-nodes.md">歷程節點</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">建立帳戶歷程</a>
+      <strong>帳戶歷程</strong><br/><a href="./journeys/journey-overview.md">歷程概觀</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">建立帳戶歷程</a><br/><a href="./journeys/journey-nodes.md">歷程節點</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -137,7 +131,7 @@ ht-degree: 100%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">文件</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
