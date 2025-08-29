@@ -3,18 +3,18 @@ title: 設定Experience Platform事件
 description: 瞭解可用於在Journey Optimizer B2B edition中協調帳戶歷程的等待節點型別。
 feature: Setup, Integrations
 role: Admin
-soultion: Journey Optimizer B2B Edition, Experience Platform
+solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1779'
 ht-degree: 1%
 
 ---
 
 # 設定Experience Platform事件定義
 
-管理員可以設定Adobe Experience Platform (AEP)型事件定義，讓行銷人員建立會對[AEP體驗事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反應的帳戶歷程。
+管理員可以設定Adobe Experience Platform (AEP)型事件定義，讓行銷人員建立會對[AEP體驗事件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反應的帳戶歷程。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"}[觀看概觀影片](#overview-video)
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >請與您的工程團隊協調，確保已定義所需的結構描述。 [建立XDM結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition){target="_blank"}是資料工程師根據您整個組織的使用案例需求所執行的複雜程式。
+  >為確保已定義所需的結構描述，請與您的工程團隊協調。 [建立XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}是資料工程師根據您整個組織的使用案例需求所執行的複雜程式。
 
 * **_事件型別_** - XDM ExperienceEvent eventType （每個事件定義最多20個）。
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
    ![存取設定的事件定義](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
-   資料表依&#x200B;_[!UICONTROL 已修改]_&#x200B;資料行排序，最近更新的定義預設會顯示在頂端。<!-- Click the column title to change between ascending and descending.-->
+   資料表是依&#x200B;_[!UICONTROL 已修改]_&#x200B;資料行排序，最近更新的定義會位於最上方，作為預設值。<!-- Click the column title to change between ascending and descending.-->
 
 1. 若要存取事件定義的詳細資訊，請按一下名稱。
 
@@ -80,9 +80,9 @@ ht-degree: 1%
 
 | 狀態 | 說明 |
 | -------------------- | ----------- |
-| 草稿 | 當您建立事件定義時，它會處於草稿狀態。 在您發佈以用於帳戶歷程之前，它會一直保持此狀態。 可用的動作： <br/><ul><li>編輯所有詳細資料<li>發佈<li>刪除 |
-| 發佈日期 | 當您發佈事件定義時，它便可用於帳戶歷程。 無法修改詳細資料。 可用的動作： <br/><ul><li>可用於&#x200B;_接聽事件_&#x200B;歷程節點<li>建立草稿版本<li>刪除（若未使用） |
-| 已發佈 (含草稿) | 當您從已發佈的事件定義建立草稿時，已發佈的版本仍可用於帳戶歷程，且可修改草稿版本。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且事件定義會針對尚未執行的帳戶歷程而更新。 可用的動作： <br/><ul><li>編輯所有詳細資料<li>發佈草稿版本<li>捨棄草稿版本<li>刪除（若未使用） |
+| 草稿 | 當您建立事件定義時，它會處於草稿狀態。 在您發佈以用於帳戶歷程之前，它會一直保持此狀態。 可用的動作： <br/><li>編輯所有詳細資料<li>發佈<li>刪除 |
+| 發佈日期 | 當您發佈事件定義時，它便可用於帳戶歷程。 無法修改詳細資料。 可用的動作： <br/><li>可用於&#x200B;_接聽事件_&#x200B;歷程節點<li>建立草稿版本<li>刪除（若未使用） |
+| 已發佈 (含草稿) | 當您從已發佈的事件定義建立草稿時，已發佈的版本仍可用於帳戶歷程，且可修改草稿版本。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且事件定義會針對尚未執行的帳戶歷程而更新。 可用的動作： <br/><li>編輯所有詳細資料<li>發佈草稿版本<li>捨棄草稿版本<li>刪除（若未使用） |
 
 ![片段狀態生命週期](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 1. 設定&#x200B;**[!UICONTROL 結構描述]**&#x200B;以用於事件定義。
 
-   您選取的結構描述會決定可新增至定義的欄位，這些欄位隨後可做為帳戶歷程中&#x200B;_接聽事件_&#x200B;節點的限制。
+   您選取的結構描述會決定可新增至定義的欄位。 然後，您新增的欄位便可作為帳戶歷程中&#x200B;_接聽事件_&#x200B;節點的條件約束。
 
    * 按一下&#x200B;**[!UICONTROL 選取結構描述]**。
    * 在對話方塊中，從體驗事件型結構描述清單中選取結構描述。
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 1. 選取要用於事件定義的&#x200B;**[!UICONTROL 事件型別]**。
 
-   您選取的[事件型別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}決定了在帳戶歷程中可作為&#x200B;_接聽事件_&#x200B;節點之條件約束的事件。
+   您選取的[事件型別](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}決定了在帳戶歷程中可作為&#x200B;_接聽事件_&#x200B;節點之條件約束的事件。
 
    * 按一下&#x200B;**[!UICONTROL 選取事件型別]**。
    * 在對話方塊中，從清單中選取一或多個事件型別（最多20個）。
@@ -146,7 +146,7 @@ ht-degree: 1%
 
 ## 發佈事件定義
 
-當您滿意草稿事件定義是完整且正確符合您的需求時，可以將其發佈以供帳戶歷程使用。 在事件定義發佈後，如果您需要對其進行變更，可以建立草稿版本。 不過，您無法變更結構，而且只能新增事件型別和欄位（無法刪除它們）。
+當您滿意草稿事件定義是完整且正確符合您的需求時，您可以將其發佈。 然後，發佈的事件定義便可用於帳戶歷程。 在事件定義發佈後，如果您需要對其進行變更，可以建立草稿版本。 不過，您無法變更結構，而且只能新增事件型別和欄位（無法刪除它們）。
 
 1. 在左側導覽中，選擇&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 組態]**。
 
@@ -218,7 +218,7 @@ ht-degree: 1%
 
 1. 按一下事件定義名稱以開啟。
 
-   對於&#x200B;_已發佈（含草稿）_&#x200B;事件定義，預設會選取&#x200B;_[!UICONTROL 已發佈]_&#x200B;版本標籤。
+   對於&#x200B;_已發佈（含草稿）_&#x200B;事件定義，_[!UICONTROL 已發佈]_&#x200B;版本索引標籤會選取為預設值。
 
 1. 選取&#x200B;**[!UICONTROL 草稿]**&#x200B;版本標籤。
 
@@ -240,7 +240,7 @@ ht-degree: 1%
 
 >[!TAB 已發佈（含草稿）]
 
-當您開啟&#x200B;_已發佈（含草稿）_&#x200B;事件定義時，預設會選取&#x200B;_[!UICONTROL 已發佈]_&#x200B;版本標籤。
+當您開啟&#x200B;_Published （含草稿）_&#x200B;事件定義時，_[!UICONTROL Published]_&#x200B;版本標籤會選取為預設值。
 
 1. 選取&#x200B;**[!UICONTROL 草稿]**&#x200B;版本標籤。
 
@@ -248,7 +248,7 @@ ht-degree: 1%
 
 1. 視需要變更任何可編輯的詳細資料（**[!UICONTROL 描述]**、**[!UICONTROL 事件型別]**&#x200B;和&#x200B;**[!UICONTROL 欄位]**）。
 
-   請遵循用於[建立事件定義](#create-an-event-definition)的相同准則。
+   遵循用於[建立事件定義](#create-an-event-definition)的相同准則。
 
    變更會自動儲存在草稿中。
 
@@ -274,7 +274,7 @@ ht-degree: 1%
 
 1. 按一下中間面板上的&#x200B;**[!UICONTROL 事件]**&#x200B;以顯示事件定義清單。
 
-1. 在清單中找出事件定義，然後按一下名稱右側的&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete.svg) ）圖示。
+1. 在清單中找到事件定義，然後按一下名稱右側的&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete.svg) ）圖示。
 
 1. 在確認對話框中，按一下「**[!UICONTROL 刪除]**」。
 
@@ -282,4 +282,4 @@ ht-degree: 1%
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3448694/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

@@ -6,9 +6,10 @@ hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 role: Admin
-source-git-commit: c17e66ae3bc6344a87cbb3e2d3a971babc9612c3
+exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 購買群組參與分數會透過評估為購買群組成員記錄的各種活動來反映參與程度。 透過自訂分數加權，行銷營運團隊可靈活定義自己的模型，用於加權對參與最有意義的活動。 自訂評分模型藉由優先處理在銷售程式中最準確地代表購買意圖的行為，而更準確地反映您的管道。
 
-身為管理員，您可以為組織定義多個參與分數模型，但一次只能啟用一個模型。 您可以根據要包含的活動以及套用至每個活動的權重來定義評分模型。
+身為管理員，您可以為組織定義多個參與分數模型，但一次只能啟用一個模型。 您可以根據套用至每個參與評分活動的權重，定義評分模型。
 
 ## 存取參與分數加權模型
 
@@ -29,7 +30,7 @@ ht-degree: 0%
 
    ![存取設定的事件定義](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   表格是依&#x200B;_[!UICONTROL 上次更新時間]_&#x200B;欄排序，最近更新的模型預設會顯示在頂端，並可依據&#x200B;_[!UICONTROL 名稱]_&#x200B;搜尋。 您可以按一下右上角的&#x200B;_欄設定_ （ ![欄設定](../assets/do-not-localize/icon-column-settings.svg) ）圖示，並選取或清除欄核取方塊來自訂顯示的表格。
+   此表格在頂端顯示最近更新的模型（依&#x200B;_[!UICONTROL 上次更新時間]_&#x200B;排序），並包含依&#x200B;_[!UICONTROL 名稱]_&#x200B;搜尋的功能。 您可以按一下右上角的&#x200B;_欄設定_ （ ![欄設定](../assets/do-not-localize/icon-column-settings.svg) ）圖示，並選取或清除欄核取方塊來自訂顯示的表格。
 
 ![要顯示在參與分數加權清單中的欄](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
@@ -78,11 +79,11 @@ ht-degree: 0%
 1. 針對每個權重範圍，請根據您的需求調整名稱或值：
 
    * 變更&#x200B;_[!UICONTROL 加權頻帶]_&#x200B;欄位中的名稱。
-   * 輸入新值，或按一下&#x200B;**+**&#x200B;或&#x200B;**-**&#x200B;以增加或減少值。
+   * 輸入新值。 您也可以按一下&#x200B;**&amp;amp；加號；**&#x200B;或&#x200B;**−**&#x200B;來增加或減少值。
 
    ![參與權重設定](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
-1. 如有需要，新增另一個加權範圍：
+1. 如有需要，請新增另一個加權範圍：
 
    按一下清單底部的&#x200B;**[!UICONTROL +新增加權頻帶]**。 此動作會在清單底部插入空白加權範圍。
 
@@ -90,7 +91,7 @@ ht-degree: 0%
 
 1. 如有需要，請移除加權範圍，然後按一下加權範圍列的&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete-outline.svg) ）圖示。
 
-1. 完成變更後，按一下[儲存]。**&#x200B;**
+1. 完成變更後，按一下[儲存]。****
 
 ### 變更活動加權
 
@@ -98,7 +99,7 @@ ht-degree: 0%
 
 {{engagement-activities}}
 
-針對清單中的每個活動，設定您要針對每個活動發生次數指派的值。 按一下「加權」欄位中的向下箭頭，然後選擇參與加權設定中所定義的加權範圍。
+針對清單中的每個活動，設定您要指派給每個活動發生次數的值。 按一下&#x200B;**[!UICONTROL 加權]**&#x200B;欄位中的向下箭頭，然後選擇參與加權設定中所定義的加權頻帶。
 
 ![設定活動加權](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="500"}
 

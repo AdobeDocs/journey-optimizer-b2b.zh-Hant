@@ -4,24 +4,24 @@ description: 瞭解如何設定與Experience Manager Assets存放庫的連線，
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
 # 設定Experience Manager資產存放庫
 
-Adobe Journey Optimizer B2B edition與Adobe Experience Manager Assets as a Cloud Service整合，不僅允許在帳戶歷程中使用電子郵件等資產。 它透過與Experience Manager Assets交換資訊來確保透明度。 設定與Adobe Experience Assets的連線以啟用此功能。
+[!DNL Adobe Journey Optimizer B2B Edition]與[!DNL Adobe Experience Manager Assets as a Cloud Service]整合，允許在您的電子郵件內容中使用資產。 它透過與[!DNL Experience Manager Assets]交換資訊來確保透明度。 設定與[!DNL Adobe Experience Assets]的連線以啟用此功能。
 
-Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都有多個環境和存放庫（[瞭解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 在Adobe Journey Optimizer B2B edition中設定Adobe Experience Manager Assets時，您需設定與每個要用於存取數位資產的存放庫的連線。
+Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都有多個環境和存放庫（[瞭解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 在Adobe Journey Optimizer B2B edition中設定Adobe Experience Manager Assets時，您需設定與每個要用於存取數位資產的存放庫的連線。
 
 {{aem-assets-licensing-note}}
 
 ## 先決條件
 
-* 在AEM Headless Developer Console上針對所需的環境產生服務認證（[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
+* 在AEM Headless Developer Console上針對所需的環境產生服務認證（[深入瞭解](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
 * 取得連線所需的憑證。 最佳做法是確保憑證在到期前至少還有六個月。 憑證每365天過期一次。
 * Adobe Journey Optimizer B2B edition支援一次存取一個數位資產管理來源。 切換之前，請確定Adobe Experience Manager中提供了所需的資產。
 
@@ -47,7 +47,7 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 
 1. 按一下&#x200B;**[!UICONTROL 新增憑證]**，並使用對話方塊工具上傳檔案。
 
-   您可以上傳.json檔案，方法是將其拖曳至對話方塊或按一下連結，以尋找並從系統中選取檔案（請確定檔案是有效的JSON型別）。
+   您可以將.json檔案拖曳至對話方塊上傳。 您也可以按一下連結，從系統中尋找並選取檔案。
 
    ![上傳憑證JSON檔案](./assets/configuration-assets-aem-upload-cert.png){width="500"}
 
@@ -65,7 +65,7 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 
    ![檢閱設定的AEM資產存放庫](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
 
-當您完成存放庫設定時，專案團隊成員可以在編寫內容時選取Adobe Experience Manager Assets。
+當您完成存放庫設定時，團隊成員可以在編寫內容時選取[!DNL Adobe Experience Manager Assets]。
 
 >[!NOTE]
 >
@@ -73,11 +73,11 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 
 ## 取代憑證
 
-憑證從建立日期起每365天過期。 在到期之前將其取代，以確保您的團隊可以繼續存取資產。
+憑證從建立日期起每365天過期。 為確保您的團隊可以繼續存取資產，請在憑證過期前取代憑證。
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B edition會與Experience Manager資產通訊，以取得使用資訊。 連線必須保持作用中狀態，才能可靠同步使用資料並避免資料差異。 管理員使用者會透過應用程式內通知收到有關憑證過期的通知。 他們也可以在「管理」區域的「Assets數位資產管理」子區段上記錄到期日。
+>[!DNL Adobe Journey Optimizer B2B Edition]與[!DNL Experience Manager Assets]通訊以取得使用資訊。 連線必須保持作用中狀態，才能進行可靠的使用資料同步處理，並防止資料不一致。 管理員會透過應用程式內通知接收有關憑證過期的通知。 到期日也會顯示在&#x200B;_管理_&#x200B;區域的&#x200B;_[!UICONTROL Assets]_&#x200B;子區段中。
 
 1. 在數位資產管理頁面上，找出已設定的存放庫清單。
 
@@ -89,7 +89,7 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 
 1. 選擇&#x200B;**[!UICONTROL 取代]**&#x200B;以開啟檔案上傳對話方塊。
 
-1. 將檔案拖曳至對話方塊或使用連結即可上傳檔案。 確認檔案為json型別。
+1. 將檔案拖曳至對話方塊或使用連結即可上傳檔案。 確認檔案為JSON型別。
 
    ![上傳取代的AEM資產存放庫憑證JSON檔案](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
 
@@ -107,7 +107,7 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 
 1. 選擇&#x200B;**[!UICONTROL 檢視]**。
 
-   ![檢視已連線之AEM資產存放庫的憑證JSON檔案](./assets/configuration-assets-aem-view-cert.png){width="600"}
+   ![檢視連線的AEM資產存放庫的憑證JSON檔案](./assets/configuration-assets-aem-view-cert.png){width="600"}
 
 1. 按一下&#x200B;**[!UICONTROL 關閉]**&#x200B;以返回「設定存放庫」頁面。
 
