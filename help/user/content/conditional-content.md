@@ -17,7 +17,7 @@ ht-degree: 10%
 
 若要新增條件式內容至您的片段與電子郵件訊息，Adobe Journey Optimizer可讓您套用儲存在&#x200B;_條件_&#x200B;資料庫中的條件式規則。 當您為帳戶歷程[或](./email-authoring.md)視覺片段[編寫](./fragment-authoring.md)電子郵件內容時，在視覺設計空間內套用條件規則。
 
-## 新增條件內容 {#email-fragment-content}
+## 新增條件式內容 {#email-fragment-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"

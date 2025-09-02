@@ -3,15 +3,15 @@ title: 購買群組的參與分數
 description: 瞭解關於購買群組和個人參與分數，包括決定分數的計算邏輯和活動型別。
 feature: Buying Groups
 role: User
-source-git-commit: 9a70cdf73585a1d55cc973046d91fe15c7e80a02
+exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
-
-# 參與分數 {#engagement-scores}
+# 參與度分數 {#engagement-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
@@ -30,7 +30,7 @@ ht-degree: 24%
 
 * **個人參與分數** — 個人參與分數是以個別購買群組成員的活動為基礎。
 
-  每個購買群組成員的個人參與分數會顯示在購買群組詳細資訊頁面[_[!UICONTROL 成員&#x200B;]_&#x200B;標籤](./buying-group-details.md#buying-group-members)中。 這些分數也會顯示在頁面和儀表板中，其中包含最常參與的成員和重疊的聯絡人資訊。
+  每個購買群組成員的個人參與分數會顯示在購買群組詳細資訊頁面[_[!UICONTROL 成員&#x200B;]_標籤](./buying-group-details.md#buying-group-members)中。 這些分數也會顯示在頁面和儀表板中，其中包含最常參與的成員和重疊的聯絡人資訊。
 
   ![最常參與購買群組成員](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -100,8 +100,8 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score_weighting"
->title="參與分數角色加權"
->abstract="使用角色加權來自訂參與分數計算。"
+>title="參與度分數角色加權"
+>abstract="使用角色加權自訂參與度分數計算。"
 
 使用者可以指派&#x200B;_加權_&#x200B;給[角色範本](./buying-groups-role-templates.md)中每個角色，以分配不同的角色權重。
 
