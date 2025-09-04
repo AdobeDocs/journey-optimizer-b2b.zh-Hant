@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
 source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 96%
       + [解決方案興趣](./buying-groups/solution-interests.md)
       + [角色範本](./buying-groups/buying-groups-role-templates.md)
       + [預設和自訂角色](./buying-groups/default-custom-roles.md)
-      + [參與分數](./buying-groups/engagement-scores.md)
+      + [參與度分數](./buying-groups/engagement-scores.md)
       + [購買群組階段](./buying-groups/buying-group-stages.md)
       + [建立購買群組](./buying-groups/buying-groups-create.md)
       + [匯出帳戶](./audiences/account-list-export.md)
-      + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
+      + [LinkedIn 帳號配對客群](./data/linkedin-account-matched-audiences.md)
       + [Marketo Engage 中的購買群組篩選器](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + 帳戶清單 {#account-lists}
       + [概觀](./accounts/account-lists.md)
@@ -119,6 +119,6 @@ ht-degree: 96%
       + [簡訊設定](./admin/configure-channels-sms.md)
    + [設定 AEM Assets 存放庫](./admin/configure-aem-repositories.md)
    + [設定 AEP 事件定義](./admin/configure-aep-events.md)
-   + [設定參與分數加權](./admin/engagement-score-weighting.md)
+   + [設定參與度分數加權](./admin/engagement-score-weighting.md)
    + [登陸頁面設定](./admin/landing-page-settings.md)
    + [治理](./admin/governance.md)

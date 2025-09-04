@@ -4,9 +4,9 @@ description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增強
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2787'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 角色範本和歷程的人員參與度分數篩選器 | 您現在可以使用&#x200B;_個人參與分數_&#x200B;作為用來建立購買群組和分割路徑歷程節點的角色範本中的篩選器。 [了解更多](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
-| 功能 | 購買群組自訂角色設定 | 您現在可以彈性設定購買群組的自訂角色，這可讓您定義使用案例的特定角色。 [了解更多](../buying-groups/default-custom-roles.md) |
-| 功能 | 參與度分數加權設定 | 您現在可以為影響購買群組參與度分數的活動指派權重。此功能包括定義您自己的自訂分數模型，以及變更影響參與分數計算的作用中模型。<!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
-| 增強功能 | 片段的條件式內容 | 您現在可以使用條件式內容工具進行視覺片段設計。 [了解更多](../content/conditional-content.md) |
-| 增強功能 | 參與度分數更新 | 購買群組參與度分數邏輯已更新，以便評分標準化。此外，您也可以使用成員層級的參與分數，以及整個購買群組的集體參與分數。 [了解更多](../buying-groups/engagement-scores.md) |
+| 功能 | 角色範本和歷程的人員參與度分數篩選器 | 您現在可以在用來建立購買群組的角色範本中以及在拆分路徑歷程節點中，使用&#x200B;_人員參與度分數_&#x200B;作為篩選器。[了解更多](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| 功能 | 購買群組自訂角色設定 | 現在您可以靈活地設定購買群組的自訂角色，從而根據自己的使用案例定義角色。[了解更多](../buying-groups/default-custom-roles.md) |
+| 功能 | 參與度分數加權設定 | 您現在可以為影響購買群組參與度分數的活動指派權重。此功能包括定義自己的自訂分數模型，以及變更影響參與度分數計算的有效模型。<!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| 增強功能 | 片段的條件式內容 | 現在可以使用條件式內容工具進行視覺化片段設計。[了解更多](../content/conditional-content.md) |
+| 增強功能 | 參與度分數更新 | 購買群組參與度分數邏輯已更新，以便評分標準化。此外，也可以使用會員等級參與度分數，以及整個購買群組的集體參與度分數。[了解更多](../buying-groups/engagement-scores.md) |
 | 增強功能 | 使用中的歷程可觀察性－每個節點的帳戶 | 針對使用中的帳戶歷程，您可以存取已達歷程中每個帳戶節點的帳戶清單。 |
 
 >[!NOTE]
@@ -186,7 +186,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | LinkedIn Account Matched Audiences | 透過 Account Matched Audiences 產生 LinkedIn 廣告客群，以協助您填入購買群組中的空白角色。透過定義一組購買群組篩選器，您可以維護 LinkedIn Matched Audience，以針對符合您的購買群組參數的潛在客戶。 <p>此功能善用 Experience Platform 目標來管理整合的某些部分。<a href="../data/linkedin-account-matched-audiences.md">了解更多</a> |
+| 功能 | LinkedIn 帳號配對客群 | 透過帳號配對客群產生 LinkedIn 廣告客群，以協助您填入購買群組中的空白角色。透過定義一組購買群組篩選器，您可以維護 LinkedIn 配對客群，以針對符合您的購買群組參數的潛在客戶。 <p>此功能善用 Experience Platform 目標來管理整合的某些部分。<a href="../data/linkedin-account-matched-audiences.md">了解更多</a> |
 | 增強功能 | 視覺內容片段的狀態生命週期 | 現在使用狀態生命週期來管理視覺片段。片段狀態決定其是否可用於電子郵件或電子郵件範本，以及您可以對其進行的變更。 <p>此增強型工作流程可讓您輕鬆根據促銷和通訊行事曆來管理重複使用的內容。<a href="../content/fragments.md#fragment-status-and-lifecycle">了解更多</a> |
 
 +++
