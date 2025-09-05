@@ -4,7 +4,7 @@ description: 瞭解如何設定自訂參與分數加權，以反映符合您業�
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -27,9 +27,11 @@ ht-degree: 0%
 
    ![存取設定的事件定義](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   此表格在頂端顯示最近更新的模型（依&#x200B;_[!UICONTROL 上次更新時間]_&#x200B;排序），並包含依&#x200B;_[!UICONTROL 名稱]_&#x200B;搜尋的功能。 您可以按一下右上角的&#x200B;_欄設定_ （ ![欄設定](../assets/do-not-localize/icon-column-settings.svg) ）圖示，並選取或清除欄核取方塊來自訂顯示的表格。
+   此表格在頂端顯示最近更新的模型（依&#x200B;_[!UICONTROL 上次更新時間]_&#x200B;排序），並包含依&#x200B;_[!UICONTROL 名稱]_&#x200B;搜尋的功能。
 
-![要顯示在參與分數加權清單中的欄](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   您可以按一下右上角的&#x200B;_欄設定_ （ ![欄設定](../assets/do-not-localize/icon-column-settings.svg) ）圖示，並選取或清除欄核取方塊來自訂顯示的表格。
+
+   ![要顯示在參與分數加權清單中的欄](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. 若要存取參與分數模型的詳細資訊，請按一下名稱。
 
@@ -88,7 +90,7 @@ ht-degree: 0%
 
 1. 如有需要，請移除加權範圍，然後按一下加權範圍列的&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete-outline.svg) ）圖示。
 
-1. 完成變更後，按一下[儲存]。**&#x200B;**
+1. 完成變更後，按一下[儲存]。****
 
 ### 變更活動加權
 
