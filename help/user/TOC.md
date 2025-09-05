@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: a5df9dc1674d2a4fbc1705423e51318e3367d3c6
+source-git-commit: 2a452537620e357a94a5f1c6b6c66f994d06c3c2
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 97%
+source-wordcount: '314'
+ht-degree: 96%
 
 ---
 
@@ -112,14 +112,15 @@ ht-degree: 97%
    + [購買群組概觀](./dashboards/buying-groups-dashboard.md)
    + [帳戶歷程概觀](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
+   + [治理](./admin/governance.md)
    + [使用者管理](./admin/user-management.md)
-   + [意圖資料](./admin/intent-data.md)
    + 管道 {#channels}
       + [電子郵件設定](./admin/configure-channels-emails.md)
       + [簡訊設定](./admin/configure-channels-sms.md)
       + [登陸頁面設定](./admin/landing-page-settings.md)
       + [設定事件收集的資料串流](./data/aep-event-collection.md)
-   + [設定 AEM Assets 存放庫](./admin/configure-aem-repositories.md)
-   + [設定 AEP 事件定義](./admin/configure-aep-events.md)
-   + [設定參與度分數加權](./admin/engagement-score-weighting.md)
-   + [治理](./admin/governance.md)
+   + 設定 {#configurations}
+      + [AEM Assets存放庫](./admin/configure-aem-repositories.md)
+      + [AEP事件定義](./admin/configure-aep-events.md)
+      + [意圖資料](./admin/intent-data.md)
+      + [參與度分數加權](./admin/engagement-score-weighting.md)

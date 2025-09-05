@@ -2,14 +2,11 @@
 title: 設定參與分數加權
 description: 瞭解如何設定自訂參與分數加權，以反映符合您業務策略的評分邏輯。
 feature: Setup, Engagement, Buying Groups
-hide: true
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -91,7 +88,7 @@ ht-degree: 0%
 
 1. 如有需要，請移除加權範圍，然後按一下加權範圍列的&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete-outline.svg) ）圖示。
 
-1. 完成變更後，按一下[儲存]。**&#x200B;**
+1. 完成變更後，按一下[儲存]。****
 
 ### 變更活動加權
 
