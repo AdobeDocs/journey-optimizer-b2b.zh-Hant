@@ -1,13 +1,13 @@
 ---
 title: 帳戶客群
-description: 了解帳戶客群，以及他們如何實現基於帳戶的歷程。
+description: 透過細分建立帳戶對象，以鎖定特定帳戶，並在Journey Optimizer B2B edition中啟用個人化的帳戶型歷程。
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '552'
-ht-degree: 100%
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 96%
 
 ---
 

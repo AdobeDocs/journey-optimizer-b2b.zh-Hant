@@ -1,12 +1,12 @@
 ---
 title: 購買群組總覽儀表板
-description: 瞭解購買群組概述儀表板，以及它如何啟用行銷團隊的銷售移交。
+description: 使用完成分數、參與量度和解決方案興趣分析追蹤購買群組進度，以啟用Journey Optimizer B2B edition中的銷售移交功能。
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ![依屬性篩選顯示的資料](./assets/buying-group-overview-filters.png){width="500"}
 
-請針對您想要用來篩選資料的每個屬性選取多個值，然後按一下[套用]。**&#x200B;**
+請針對您想要用來篩選資料的每個屬性選取多個值，然後按一下[套用]。****
 
 ## 與資料互動
 

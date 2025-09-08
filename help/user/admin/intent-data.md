@@ -1,12 +1,12 @@
 ---
 title: 意圖資料
-description: 瞭解如何組合併提交關鍵字以產生Journey Optimizer B2B edition的意圖資料。
+description: 使用關鍵字對應設定意圖資料，以預測客戶興趣和在Journey Optimizer B2B edition中針對帳戶式行銷購買訊號。
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-source-git-commit: 65c7bdcc998c604125442fbd0a65c2f8ebd3255d
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 核准或拒絕類別
 
-檢閱類別清單，然後按一下&#x200B;**[!UICONTROL 核准]**&#x200B;以啟用關鍵字，以用於智慧型儀表板、帳戶詳細資訊頁面、購買群組詳細資訊頁面和人員詳細資訊頁面。 按一下[檢視全部]&#x200B;**&#x200B;**&#x200B;以顯示每個產品的完整清單，或按一下[下載]&#x200B;**&#x200B;**&#x200B;以Excel檔案檢視完整清單。
+檢閱類別清單，然後按一下&#x200B;**[!UICONTROL 核准]**&#x200B;以啟用關鍵字，以用於智慧型儀表板、帳戶詳細資訊頁面、購買群組詳細資訊頁面和人員詳細資訊頁面。 按一下[檢視全部]****&#x200B;以顯示每個產品的完整清單，或按一下[下載]****&#x200B;以Excel檔案檢視完整清單。
 
 如果您對清單不滿意，可以按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以移除類別。 接著，您可以調整試算表檔案，再開始上傳程式以定義該類別。
 

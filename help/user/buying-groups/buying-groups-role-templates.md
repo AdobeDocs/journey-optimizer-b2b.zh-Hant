@@ -1,12 +1,12 @@
 ---
 title: 購買群組角色範本
-description: 瞭解如何定義作為購買群組元件的角色範本。
+description: 建立具有自動指派條件的購買群組角色範本，以識別Journey Optimizer B2B edition中的決策者與利害關係人。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 3%
 
    * 如有需要，請新增其他屬性和條件，進一步精簡符合角色的條件。
 
-   * 按一下&#x200B;**[!UICONTROL 「完成」]**。
+   * 按一下「**[!UICONTROL 完成]**」。
 
 1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] **[!UICONTROL ，並重複步驟1和2來定義角色。]**
 
@@ -162,4 +162,4 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

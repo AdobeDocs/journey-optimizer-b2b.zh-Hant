@@ -1,13 +1,13 @@
 ---
 title: 智慧儀表板
-description: 瞭解Intelligent Dashboard，其提供購買群組和帳戶量度的全面檢視
+description: 存取AI支援的深入分析，瞭解如何在Journey Optimizer B2B edition中使用參與量度、意圖偵測和預測性分析來購買群組和帳戶。
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 15%
+source-wordcount: '1679'
+ht-degree: 16%
 
 ---
 
@@ -153,7 +153,7 @@ _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群
 
 >[!NOTE]
 >
->帳戶激增資料僅限於Journey Optimizer B2B edition透過帳戶歷程或購買群組在帳戶對象中擷取的帳戶。
+>帳戶激增資料僅包含Journey Optimizer B2B edition透過帳戶歷程或購買群組擷取的帳戶。
 
 ![帳戶突增資料視覺效果](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -197,7 +197,7 @@ _[!UICONTROL 帳戶醒目提示]_&#x200B;區段已組織為兩列，以顯示貴
 
 >[!NOTE]
 >
->帳戶反白顯示資料僅限於Journey Optimizer B2B edition透過帳戶歷程或購買群組在帳戶對象中擷取的帳戶。
+>帳戶醒目提示資料僅包含Journey Optimizer B2B edition透過帳戶歷程或購買群組擷取的帳戶。
 
 ![帳戶重點](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 

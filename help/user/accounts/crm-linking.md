@@ -1,21 +1,22 @@
 ---
-title: CRM內部對詳細資訊頁面的存取權
-description: 瞭解銷售團隊成員如何直接從他們的客戶關係管理(CRM)工具(例如Salesforce或Microsoft Dynamics)存取帳戶、聯絡人和潛在客戶的詳細頁面。
+title: 從 CRM 內存取詳細資料頁面
+description: 新增帳戶和聯絡人詳細資料的自訂連結，以便從Salesforce和Dynamics CRM直接存取Journey Optimizer B2B深入分析。
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 0%
+source-wordcount: '1428'
+ht-degree: 1%
 
 ---
 
-# CRM內部對詳細資訊頁面的存取權
+# 從 CRM 內存取詳細資料頁面
 
-Adobe Journey Optimizer B2B edition可讓銷售團隊成員和帳戶管理員直接從其客戶關係管理(CRM)工具(例如Salesforce或Microsoft Dynamics)存取帳戶和購買群組資訊的詳細頁面。 透過這項整合，銷售代表可快速存取即時帳戶並購買群組深入分析，例如參與記錄、意圖訊號和AI產生的推薦。 這項能力讓銷售團隊能夠更快地進行外聯、更明智地安排優先順序，並且更好地與行銷保持一致。
+Adobe Journey Optimizer B2B edition可讓銷售與帳戶團隊成員直接從其客戶關係管理(CRM)工具(例如Salesforce或Microsoft Dynamics)存取帳戶與購買群組資訊的詳細頁面。 透過這項整合，銷售代表可快速存取即時帳戶並購買群組深入分析，例如參與記錄、意圖訊號和AI產生的推薦。 這項能力讓銷售團隊能夠更快地進行外聯、更明智地安排優先順序，並且更好地與行銷保持一致。
 
-若要讓銷售團隊成員能夠從CRM檢視Journey Optimizer B2B edition中的[帳戶詳細資料](account-details.md)和[個人詳細資料](person-details.md)頁面，Salesforce或Dynamics管理員可以從帳戶、聯絡人或潛在客戶檢視新增Journey Optimizer B2B edition連結。
+若要讓銷售和帳戶團隊成員能夠從CRM檢視Journey Optimizer B2B edition中的[帳戶詳細資料](account-details.md)和[個人詳細資料](person-details.md)頁面，Salesforce或Dynamics管理員可以從帳戶、連絡人或潛在客戶檢視新增連結。
 
 當銷售團隊成員使用來自CRM執行個體的連結時，沙箱應該是&#x200B;_Prod_，並且IMS組織會根據以下順序邏輯來決定：
 
@@ -72,7 +73,7 @@ Adobe Journey Optimizer B2B edition可讓銷售團隊成員和帳戶管理員直
 
 +++
 
-+++詳細資料頁面連結
++++詳細資訊頁面連結
 
 1. 在Salesforce中，移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 物件管理員]** > **[!UICONTROL 帳戶]**/**[!UICONTROL 連絡人]**/**[!UICONTROL 銷售機會]** > **[!UICONTROL 按鈕、連結和動作]**。
 1. 按一下右上角的「**[!UICONTROL 新增」按鈕或「連結]**」，建立詳細頁面連結。
@@ -91,7 +92,7 @@ Adobe Journey Optimizer B2B edition可讓銷售團隊成員和帳戶管理員直
 
 +++
 
-+++詳細資訊頁面按鈕
++++詳細資料頁面按鈕
 
 1. 在Salesforce中，移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 物件管理員]** > **[!UICONTROL 帳戶]**/**[!UICONTROL 連絡人]**/**[!UICONTROL 銷售機會]** > **[!UICONTROL 按鈕、連結和動作]**。
 1. 按一下右上角的「**[!UICONTROL 新增」按鈕或「連結]**」，然後建立詳細頁面按鈕。
@@ -134,7 +135,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
 **_範例:_**
 
-+++URL欄位
++++url欄位
 
 依照此工作順序將自訂連結新增為URL欄位：
 
@@ -198,7 +199,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
    ![新增表單屬性](./assets/crm-linking-dynamics-url-form-properties.png){width="500" zoomable="yes"}
 
-1. 找到資源，選取該資源，然後按一下[新增]。**&#x200B;**
+1. 找到資源，選取該資源，然後按一下[新增]。****
 
    ![新增Web資源](./assets/crm-linking-dynamics-url-form-field-libraries.png){width="500" zoomable="yes"}
 
@@ -222,7 +223,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
 +++
 
-+++HTML網頁資源
++++HTML網站資源
 
 依照下列工作順序，將自訂連結新增為HTML網頁資源：
 
@@ -293,7 +294,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
 1. 按一下&#x200B;**[!UICONTROL 新增]**。
 
-1. 找到您建立的JScript Web資源(`new_getFormContext`)，選取它，然後按一下[新增]。**&#x200B;**
+1. 找到您建立的JScript Web資源(`new_getFormContext`)，選取它，然後按一下[新增]。****
 
    ![新增Web資源](./assets/crm-linking-dynamics-web-resources-add-form-property.png){width="500" zoomable="yes"}
 
@@ -319,7 +320,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
    ![網頁資源](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
 
-   請參閱[Power Apps檔案](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy)，以取得有關Web資源屬性和格式的詳細資訊。
+   如需有關Web資源屬性和格式的詳細資訊，請參閱[Power Apps檔案](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy)。
 
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 

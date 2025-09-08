@@ -1,15 +1,15 @@
 ---
 title: 登陸頁面設定
-description: 瞭解如何存取及設定登入頁面設定，以便您的行銷團隊可以製作及發佈網頁以支援其行銷活動。
+description: 設定登陸頁面子網域、表單預填設定和資料流，以啟用Journey Optimizer B2B edition中的行銷活動網頁發佈。
 feature: Setup, Landing Pages, Content
 role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 8bd3d696a52a813b88de9e3b58145b1cbfb3fa32
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '506'
 ht-degree: 23%
 
 ---

@@ -1,12 +1,12 @@
 ---
 title: 簡訊設定
-description: 瞭解如何設定與受支援SMS提供者的連線，以供Journey Optimizer B2B edition SMS傳訊使用。
+description: 使用API憑證連線Sinch、Twilio和Infobip等SMS提供者，以啟用Journey Optimizer B2B edition歷程中的文字訊息。
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Adobe Journey Optimizer B2B edition目前與獨立提供簡訊服務的協力廠
 
 >[!TAB Sinch]
 
-_若要使用Adobe Journey Optimizer B2B edition將Sinch設定為您的簡訊提供者：_
+若要使用Adobe Journey Optimizer B2B edition將Sinch設定為您的簡訊提供者(_T):_
 
 1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 設定]**。
 
-1. 按一下&#x200B;_[!UICONTROL API認證]_&#x200B;清單右上角的&#x200B;**[!UICONTROL 建立新API認證]**。
+1. 按一下&#x200B;**[!UICONTROL API認證]**&#x200B;清單右上角的&#x200B;_[!UICONTROL 建立新API認證]_。
 
 1. 設定您的SMS API認證：
 
@@ -71,11 +71,11 @@ _若要使用Adobe Journey Optimizer B2B edition將Sinch設定為您的簡訊提
 
 >[!TAB Twilio]
 
-_若要使用Adobe Journey Optimizer B2B edition將Twilio設定為您的SMS提供者：_
+若要使用Adobe Journey Optimizer B2B edition將Twilio設定為您的簡訊提供者(_T):_
 
 1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 設定]**。
 
-1. 按一下&#x200B;_[!UICONTROL API認證]_&#x200B;清單右上角的&#x200B;**[!UICONTROL 建立新API認證]**。
+1. 按一下&#x200B;**[!UICONTROL API認證]**&#x200B;清單右上角的&#x200B;_[!UICONTROL 建立新API認證]_。
 
 1. 設定您的SMS API認證：
 
@@ -93,11 +93,11 @@ _若要使用Adobe Journey Optimizer B2B edition將Twilio設定為您的SMS提�
 
 >[!TAB Infobip]
 
-_若要使用Adobe Journey Optimizer B2B edition將Infobip設定為您的SMS提供者：_
+若要使用Adobe Journey Optimizer B2B edition將Infobip設定為簡訊提供者(_T):_
 
 1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理員]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 設定]**。
 
-1. 按一下&#x200B;_[!UICONTROL API認證]_&#x200B;清單右上角的&#x200B;**[!UICONTROL 建立新API認證]**。
+1. 按一下&#x200B;**[!UICONTROL API認證]**&#x200B;清單右上角的&#x200B;_[!UICONTROL 建立新API認證]_。
 
 1. 設定您的SMS API認證：
 

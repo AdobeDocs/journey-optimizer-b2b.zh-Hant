@@ -1,12 +1,12 @@
 ---
 title: 帳戶歷程總覽儀表板
-description: 瞭解歷程概觀儀表板提供的資訊，以及它如何協助您監視和管理您的帳戶歷程策略。
+description: 在Journey Optimizer B2B edition中使用完成率、參與量度和管道效率分析追蹤客戶歷程績效。
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---

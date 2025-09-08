@@ -1,10 +1,10 @@
 ---
 title: 帳戶清單
-description: 瞭解帳戶清單，以及行銷人員如何透過帳戶歷程使用它們來鎖定帳戶。
+description: 在Journey Optimizer B2B edition中，使用自訂篩選器建立靜態和動態帳戶清單，以利進行目標歷程協調及帳戶型行銷。
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 40d39ba6d3b4844fe928db5cbf3a990d523aadef
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 在Journey Optimizer B2B edition中，帳戶清單是行銷人員可用於目標歷程協調的具名帳戶集合。 帳戶清單可依據您定義的條件（例如產業、地點或公司規模）來鎖定已命名的帳戶。 帳戶清單有兩種型別：
 
 * **靜態** — 使用靜態帳戶清單時，清單只有在您新增帳戶時才會變更。 您可以套用篩選器集來根據目前的帳戶資料填入清單，以手動新增帳戶，或是透過帳戶歷程新增和移除帳戶。
-* **動態** — 使用動態帳戶清單，您可以定義自動組織清單的篩選器集。 系統會使用此篩選器集，根據帳戶資訊中的變更來新增和移除帳戶。 此清單管理類似於Real-time Customer Data Platform[中的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}對象細分。
+* **動態** — 使用動態帳戶清單，您可以定義自動組織清單的篩選器集。 系統會使用此篩選器集，根據帳戶資訊中的變更來新增和移除帳戶。 此清單管理類似於Real-time Customer Data Platform[中的](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}對象細分。
 
 當帳戶清單處於&#x200B;_即時_ （已發佈）狀態時，它可用於[帳戶歷程和Marketo Engage程式](./account-lists-journeys.md)。
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->帳戶清單會利用Marketo Engage中的帳戶資料來建立帳戶區段和清單。 這表示，如果Adobe Experience Platform的科目節段未主動同步至Marketo Engage，Journey Optimizer B2B edition科目清單中可能無法使用該Experience Platform節段中的科目。 接著，Experience Platform區段中，未同步至Marketo Engage之帳戶的任何人員，都不會納入人員會籍計數或觸發事件中。
+>帳戶清單會利用Marketo Engage中的帳戶資料來建立帳戶區段和清單。 這表示，如果Adobe Experience Platform的科目節段未主動同步至Marketo Engage，Journey Optimizer B2B edition科目清單中可能無法使用該Experience Platform節段中的科目。 隨後，只有同步至Marketo Engage之Experience Platform區段帳戶中的人員，才會納入人員會籍計數及觸發事件。
 
 ## 存取和瀏覽帳戶清單
 
@@ -180,4 +180,4 @@ ht-degree: 2%
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3448660/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)

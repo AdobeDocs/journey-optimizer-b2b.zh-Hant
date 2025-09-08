@@ -1,20 +1,20 @@
 ---
 title: 設定Experience Platform事件
-description: 瞭解如何設定Experience Platform事件定義，以用於Journey Optimizer B2B edition歷程。
+description: 設定Experience Platform事件定義，以根據客戶行為在Journey Optimizer B2B edition中觸發即時帳戶歷程。
 feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 2cfe830608857206dacb23bb52e41f0b3953b39b
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1778'
 ht-degree: 1%
 
 ---
 
 # 設定Experience Platform事件定義
 
-管理員可以設定Adobe Experience Platform (AEP)型事件定義，讓行銷人員建立會對[AEP體驗事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反應的帳戶歷程。
+管理員可以設定Adobe Experience Platform (AEP)型事件定義，讓行銷人員建立會對[AEP體驗事件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反應的帳戶歷程。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"}[觀看概觀影片](#overview-video)
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >為確保已定義所需的結構描述，請與您的工程團隊協調。 [建立XDM結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition){target="_blank"}是資料工程師根據您整個組織的使用案例需求所執行的複雜程式。
+  >為確保已定義所需的結構描述，請與您的工程團隊協調。 [建立XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}是資料工程師根據您整個組織的使用案例需求所執行的複雜程式。
 
 * **_事件型別_** - XDM ExperienceEvent eventType （每個事件定義最多20個）。
 
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 1. 選取要用於事件定義的&#x200B;**[!UICONTROL 事件型別]**。
 
-   您選取的[事件型別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}決定了在帳戶歷程中可作為&#x200B;_接聽事件_&#x200B;節點之條件約束的事件。
+   您選取的[事件型別](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"}決定了在帳戶歷程中可作為&#x200B;_接聽事件_&#x200B;節點之條件約束的事件。
 
    * 按一下&#x200B;**[!UICONTROL 選取事件型別]**。
    * 在對話方塊中，從清單中選取一或多個事件型別（最多20個）。
@@ -282,4 +282,4 @@ ht-degree: 1%
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3448694/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

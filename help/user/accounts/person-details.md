@@ -1,16 +1,17 @@
 ---
 title: 個人詳細資訊
-description: 瞭解如何在Journey Optimizer B2B edition中存取帳戶或購買群組相關人員的詳細資訊和創作AI摘要。
+description: 在Journey Optimizer B2B edition中檢視擁有AI摘要、參與分數、活動追蹤和購買群組成員意圖偵測的人員深入分析。
 feature: Account Insights
 role: User
-source-git-commit: 5382bc89903a567268ee06648a8d6b0bf34695a6
+exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 5%
+source-wordcount: '297'
+ht-degree: 6%
 
 ---
 
-# 個人詳細資料
+# 人員詳細資料
 
 當您在Journey Optimizer B2B edition中的任何地方按一下人員名稱時，都會顯示人員詳細資訊頁面。 此頁面包含與帳戶或購買群組相關之個人的實用資訊，包括醒目提示和意圖資料的產生AI摘要（如果已設定）。<!-- There are also [actions](#person-actions) that you can execute for the person. -->
 
@@ -30,7 +31,7 @@ ht-degree: 5%
 * 標題
 * 電子郵件
 * 電話號碼
-* 參與分數
+* 參與度分數
 * 摘要
 
 ## 活動
@@ -44,7 +45,7 @@ ht-degree: 5%
 本節包括購買群組（此人為會員），且會根據參與分數排序。 每張卡片都包含下列購買群組資訊：
 
 * 名稱 — 按一下名稱以開啟[購買群組詳細資料](../buying-groups/buying-group-details.md)。
-* 參與分數
+* 參與度分數
 * 完整性分數
 * 階段
 * 成員

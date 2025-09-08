@@ -1,17 +1,17 @@
 ---
 title: 帳戶詳細資料
-description: 瞭解如何在Journey Optimizer B2B edition中存取帳戶的詳細資訊和產生式AI摘要。
+description: 在Journey Optimizer B2B edition中使用AI摘要、意圖偵測、聯絡人涵蓋範圍分析和電子郵件通訊來檢視帳戶深入分析。
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 31c79208503e01964475230ea950eb8bdfadd176
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '639'
 ht-degree: 5%
 
 ---
 
-# 帳戶詳細資訊
+# 帳戶詳細資料
 
 當您在Journey Optimizer B2B edition的任何位置按一下帳戶名稱時，都會顯示&#x200B;_帳戶詳細資料_&#x200B;頁面。 此頁面提供帳戶的實用資訊，包括產生式AI摘要。 您也可以針對與帳戶關聯的連絡人執行[動作](#account-actions)。
 

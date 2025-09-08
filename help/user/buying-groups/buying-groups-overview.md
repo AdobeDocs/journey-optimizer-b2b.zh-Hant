@@ -1,13 +1,13 @@
 ---
 title: 購買群組
-description: 了解 Journey Optimizer B2B Edition 中的購買群組如何透過確認和選擇目標的帳戶清單成員來提高行銷效益。
+description: 透過購買群組來促進以帳戶為基礎的行銷，以識別關鍵決策者、追蹤參與分數並鎖定Journey Optimizer B2B edition中的帳戶。
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
-workflow-type: ht
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -112,4 +112,4 @@ _[!UICONTROL 購買群組]_&#x200B;頁面被整理成多個索引標籤：
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3452952/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

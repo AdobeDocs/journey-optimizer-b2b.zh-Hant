@@ -1,12 +1,12 @@
 ---
 title: 參與總覽儀表板
-description: 瞭解如何使用參與總覽儀表板來監控您的參與工作。
+description: 透過Journey Optimizer B2B edition中的互動式圖表和趨勢分析，監視帳戶、購買群組以及人員的即時參與量度。
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '549'
 ht-degree: 6%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 6%
 
 ![依屬性篩選顯示的資料](./assets/engagement-dashboard-filters.png){width="500"}
 
-請針對您想要用來篩選資料的每個屬性選取多個值，然後按一下[套用]。**&#x200B;**
+請針對您想要用來篩選資料的每個屬性選取多個值，然後按一下[套用]。****
 
 ## 與資料互動
 

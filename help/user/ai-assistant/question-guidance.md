@@ -1,13 +1,13 @@
 ---
 title: AI助理的問題指引
-description: 瞭解如何在Journey Optimizer B2B edition中為AI助理撰寫有效的問題。
+description: 撰寫有效的AI Assistant問題，其中包含最佳實務、範例和措辭提示，以便在Journey Optimizer B2B edition中取得最佳回應。
 feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '891'
 ht-degree: 1%
 
 ---

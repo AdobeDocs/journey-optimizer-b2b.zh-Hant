@@ -1,12 +1,12 @@
 ---
 title: 在Market Engage購買群組篩選器
-description: 瞭解如何使用購買群組成員資格來定義Marketo Engage智慧清單中的篩選器。
+description: 透過Marketo Engage智慧清單中的購買群組成員資格來篩選銷售機會，以透過Journey Optimizer B2B edition最佳化行銷活動和銷售機會評分。
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 在連線至Journey Optimizer B2B edition的Marketo Engage執行個體中，您可以在智慧清單中使用&#x200B;_[!UICONTROL 購買群組成員]_&#x200B;篩選器，根據您的行銷活動策略來識別這些銷售機會。
 
-1. 在您[在Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}中建立智慧列示後，請選取&#x200B;**[!UICONTROL 智慧列示]**&#x200B;索引標籤以開啟篩選器編輯器。
+1. 在您[在Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}中建立智慧列示後，請選取&#x200B;**[!UICONTROL 智慧列示]**&#x200B;索引標籤以開啟篩選器編輯器。
 
 1. 在右側的篩選器清單中，向下捲動清單並展開&#x200B;**[!UICONTROL 特殊篩選器]**&#x200B;資料夾。
 

@@ -1,17 +1,17 @@
 ---
 title: 購買群組詳細資訊
-description: 瞭解如何在Journey Optimizer B2B edition中存取購買群組的詳細資訊和產生式AI摘要。
+description: 在Journey Optimizer B2B edition中使用AI見解檢視購買群組詳細資訊、管理成員及追蹤參與分數。
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: 65c7bdcc998c604125442fbd0a65c2f8ebd3255d
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '780'
 ht-degree: 4%
 
 ---
 
-# 購買群組詳細資訊
+# 購買群組詳細資料
 
 當您在Journey Optimizer B2B edition的任何位置按一下購買群組名稱時，都會顯示購買群組的詳細資訊。 此概觀提供有關購買群組的實用資訊，包括創作AI摘要。 您也可以針對與帳戶關聯的連絡人執行[動作](#buying-group-actions)。
 
@@ -32,7 +32,7 @@ ht-degree: 4%
 * 購買群組名稱
 * 帳戶名稱（按一下名稱以開啟[帳戶詳細資料](../accounts/account-details.md)）
 * 購買群組中的成員人數
-* 參與分數
+* 參與度分數
 * 完整性分數
 * 目前購買群組階段
 * 角色範本（按一下名稱以開啟[角色範本](buying-groups-role-templates.md#access-and-browse-role-templates)）

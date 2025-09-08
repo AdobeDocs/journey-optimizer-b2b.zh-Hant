@@ -1,12 +1,12 @@
 ---
 title: 建立購買群組
-description: 瞭解如何使用所需元件來建立購買群組。
+description: 在Journey Optimizer B2B edition中選取解決方案興趣和帳戶對象，以進行自動行銷，藉此建立購買群組。
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '276'
 ht-degree: 3%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 3%
 
    ![按一下「建立購買群組」](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
-1. 按照每個頁面上的提示進行，然後按一下[下一步]&#x200B;**[!UICONTROL 以繼續。]**
+1. 按照每個頁面上的提示進行，然後按一下[下一步]**[!UICONTROL 以繼續。]**
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看作法影片](#how-to-video)
 
 ## 指導頁面
 
-第一頁提供建立購買群組所需之先決條件/元件的相關指引。 如果您知道已具備必要的元件，請按一下[下一步] **&#x200B;**。
+第一頁提供建立購買群組所需之先決條件/元件的相關指引。 如果您知道已具備必要的元件，請按一下[下一步] ****。
 
 ## 元件
 
@@ -42,11 +42,11 @@ ht-degree: 3%
 
    ![按一下「建立購買群組」](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
-1. 在您選取方案興趣和帳戶對象後，按一下[建立]。**&#x200B;**
+1. 在您選取方案興趣和帳戶對象後，按一下[建立]。****
 
 ## 確認
 
-確認對話方塊提供購買群組流程的摘要，以及預估完成時間。 若要確認並啟動程式，請按一下[建立]。**&#x200B;**
+確認對話方塊提供購買群組流程的摘要，以及預估完成時間。 若要確認並啟動程式，請按一下[建立]。****
 
 ![建立購買群組確認對話方塊](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
@@ -64,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## 作法影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3451772/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

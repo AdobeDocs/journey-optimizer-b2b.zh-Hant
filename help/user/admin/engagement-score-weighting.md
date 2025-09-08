@@ -1,12 +1,12 @@
 ---
 title: 設定參與分數加權
-description: 瞭解如何設定自訂參與分數加權，以反映符合您業務策略的評分邏輯。
+description: 使用加權活動建立自訂參與分數模型，以在Journey Optimizer B2B edition中準確測量購買群組參與度和意圖。
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 如有需要，請移除加權範圍，然後按一下加權範圍列的&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete-outline.svg) ）圖示。
 
-1. 完成變更後，按一下[儲存]。**&#x200B;**
+1. 完成變更後，按一下[儲存]。****
 
 ### 變更活動加權
 
