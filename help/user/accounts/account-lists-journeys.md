@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 新增帳戶清單]**。
 
-1. 選取帳戶清單的核取方塊，然後按一下[儲存]。****
+1. 選取帳戶清單的核取方塊，然後按一下[儲存]。**&#x200B;**
 
    ![選取帳戶對象節點的帳戶清單選項](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
 
