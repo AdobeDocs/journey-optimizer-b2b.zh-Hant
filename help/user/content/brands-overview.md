@@ -87,7 +87,7 @@ ht-degree: 6%
 
    ![為品牌存取新增AI助理許可權](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
-1. 按一下[儲存]以套用變更。****
+1. 按一下[儲存]以套用變更。**&#x200B;**
 
    已指派給該角色的任何使用者的許可權都會自動更新。
 
@@ -97,6 +97,6 @@ ht-degree: 6%
 
      如果尚未建立使用者，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}。
 
-   * 按一下[儲存]以套用變更。****
+   * 按一下[儲存]以套用變更。**&#x200B;**
 
 >[!ENDSHADEBOX]
