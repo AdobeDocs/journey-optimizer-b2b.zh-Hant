@@ -1,13 +1,13 @@
 ---
 title: 登陸頁面設計
-description: 瞭解如何為支援帳戶歷程和行銷活動的登入頁面設計和編寫內容。
+description: 使用視覺化工具設計登入頁面 — 為Journey Optimizer B2B edition中的帳戶歷程新增內容元件、表單、自訂CSS、個人化和裝置預覽。
 feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 ### 儲存您的工作
 
-隨時按一下「儲存」**&#x200B;**&#x200B;以儲存草稿登陸頁面。
+隨時按一下「儲存」****&#x200B;以儲存草稿登陸頁面。
 
 您可以繼續編輯草稿頁面。 當您準備好顯示頁面，並可在電子郵件或簡訊訊息中供連結使用時，即可發佈頁面。
 

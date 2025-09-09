@@ -1,13 +1,13 @@
 ---
 title: 登陸頁面
-description: 瞭解登入頁面，以及如何建立和管理這些頁面，以支援帳戶歷程和行銷活動。
+description: 建立、設計和發佈帳戶歷程的登入頁面 — 從頭開始建立、匯入HTML、新增表單、個人化內容，以及從Journey Optimizer B2B edition中的電子郵件連結。
 feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2198'
 ht-degree: 2%
 
 ---
@@ -239,7 +239,7 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
-1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。**&#x200B;**
+1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。****
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而託管頁面中的內容會更新。
 

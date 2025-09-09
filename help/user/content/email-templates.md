@@ -1,12 +1,12 @@
 ---
 title: 電子郵件範本
-description: 瞭解如何輕鬆有效管理及建立用於撰寫帳戶歷程電子郵件的電子郵件範本。
+description: 從頭開始建立可重複使用的電子郵件範本、HTML匯入或現有設計 — 在Journey Optimizer B2B edition中管理帳戶歷程的範本。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---

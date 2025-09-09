@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition 文件
-description: 了解如何使用 Adobe Journey Optimizer B2B Edition 功能，透過內建的生成式 AI 和領先業界的自動化功能，協調帳戶和購買群組歷程。
+description: Journey Optimizer B2B edition的完整檔案 — 探索用於上線、建立購買群組、建立帳戶歷程及管理內容的可用資源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 92%
+source-wordcount: '636'
+ht-degree: 89%
 
 ---
 
@@ -137,7 +137,7 @@ B2B 行銷策略師現在可以透過自訂購買群組角色，提升購買群�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">文件</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>

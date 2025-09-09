@@ -1,12 +1,12 @@
 ---
 title: 電子郵件訊息製作
-description: 瞭解如何在Adobe Journey Optimizer B2B中建立電子郵件內容。 使用範本、HTML匯入和AI支援的工具，個人化和最佳化您的電子郵件通訊。
+description: 使用視覺化設計工具、HTML匯入或範本建立電子郵件 — 使用Journey Optimizer B2B edition中的AI助理內容產生、自訂CSS和個人化。
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1045'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 >
 >You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容
 

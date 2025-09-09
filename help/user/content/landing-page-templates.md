@@ -1,15 +1,15 @@
 ---
 title: 登陸頁面範本
-description: 瞭解如何建立行銷團隊可用來建立新頁面的登入頁面範本，以支援帳戶歷程和行銷活動。
+description: 建立、管理和重複使用登入頁面範本 — 從頭開始設計、匯入HTML、複製、刪除，以及追蹤Journey Optimizer B2B edition中行銷團隊的使用情況。
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -150,13 +150,13 @@ Adobe Journey Optimizer B2B edition可讓您匯入現有的HTML內容，以設�
 
 ## 從已儲存的範本編寫登入頁面
 
-從&#x200B;_建立您的登入頁面_&#x200B;頁面，使用&#x200B;_選取設計範本_&#x200B;區段，以從範本開始建立您的內容。
+從&#x200B;_[!UICONTROL 建立您的登入頁面]_&#x200B;頁面，使用&#x200B;_選取設計範本_&#x200B;區段，以從範本開始建立您的內容。
 
 若要使用已建立的其中一個登入頁面範本開始建立您的內容，請使用下列步驟：
 
 1. 從&#x200B;_編輯內容_&#x200B;頁面存取視覺化設計空間。
 
-   在&#x200B;_建立您的登入頁面_&#x200B;頁面上，預設會選取&#x200B;_範例範本_&#x200B;索引標籤。
+   在&#x200B;_[!UICONTROL 建立您的登入頁面]_&#x200B;頁面上，預設會選取&#x200B;_範例範本_&#x200B;索引標籤。
 
 1. 若要使用自訂登入頁面範本，請選取&#x200B;**[!UICONTROL 已儲存的範本]**&#x200B;索引標籤。
 
@@ -168,4 +168,4 @@ Adobe Journey Optimizer B2B edition可讓您匯入現有的HTML內容，以設�
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 使用此範本]**。
 
-1. 在視覺內容設計工具中，視需要編輯您的內容。
+1. 在視覺內容設計空間，視需要編輯您的內容。

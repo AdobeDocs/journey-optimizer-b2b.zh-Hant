@@ -1,12 +1,12 @@
 ---
 title: 範本內容控管
-description: 瞭解如何鎖定電子郵件範本中的內容元素，以便您可以控管如何變更內容元素以用於帳戶歷程。
+description: 鎖定電子郵件範本元件以符合品牌規範 — 在Journey Optimizer B2B edition中設定治理模式、控制內容編輯並管理帳戶歷程作者的許可權。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## 啟用範本的內容控管
 
-使用視覺化設計工具來[為電子郵件範本編寫結構和內容元件](./email-template-authoring.md)之後，請視需要啟用治理並套用特定內容鎖定。
+使用視覺化設計空間來[為電子郵件範本編寫結構和內容元件](./email-template-authoring.md)之後，請視需要啟用治理並套用特定內容鎖定。
 
-1. 在視覺化設計工具中，使用&#x200B;_導覽樹狀結構_&#x200B;來存取圖層/容器和元素。
+1. 在視覺化設計空間中，使用&#x200B;_導覽樹狀結構_&#x200B;存取圖層/容器和元素。
 
    按一下畫布左側的&#x200B;_導覽樹狀結構_&#x200B;圖示（![連結圖示](../assets/do-not-localize/icon-navigation-tree.svg)）以顯示樹狀結構。
 

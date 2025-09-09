@@ -1,12 +1,12 @@
 ---
 title: 解決方案興趣
-description: 定義解決方案興趣，以識別目標產品，並在Journey Optimizer B2B edition中使用角色範本自動建立購買群組。
+description: 在Journey Optimizer B2B edition中建立目標產品的解決方案興趣、使用角色範本自動建立購買群組，以及管理階段進展。
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 1. 選擇&#x200B;**[!UICONTROL 角色範本]** （必要）。
 
-   按一下&#x200B;**[!UICONTROL 選取角色範本]**，然後從對話方塊的清單中選擇即時角色範本。 您只能將一個即時角色範本與解決方案興趣建立關聯。 按一下[儲存]&#x200B;**[!UICONTROL 返回[建立方案興趣]]**&#x200B;頁面，其中顯示選取的角色範本。__
+   按一下&#x200B;**[!UICONTROL 選取角色範本]**，然後從對話方塊的清單中選擇即時角色範本。 您只能將一個即時角色範本與解決方案興趣建立關聯。 按一下[儲存]**[!UICONTROL 返回[建立方案興趣]]**&#x200B;頁面，其中顯示選取的角色範本。__
 
    ![新增角色範本至方案興趣](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
@@ -104,4 +104,4 @@ ht-degree: 1%
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3450124/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

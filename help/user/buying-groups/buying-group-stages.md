@@ -1,12 +1,12 @@
 ---
 title: 購買群組階段
-description: 設定購買群組階段，以追蹤Journey Optimizer B2B edition中從商機到客戶轉換的銷售進度。
+description: 建立具有進入、成功和失敗階段的自訂購買群組階段模型，以追蹤進度並觸發Journey Optimizer B2B edition中的帳戶歷程動作。
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2351'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 購買群組階段的設計目的，是為了追蹤購買群組將機會轉換為客戶時的進度。 使用此功能來追蹤購買群組進度，並識別購買群組的下一個最佳動作。
 
-定義單一暫存模型內的階段，定義多個階段以及它們之間的轉換流程。 一個或多個階段被指定進入生命週期。 模型也允許非線性漸層，您可以在此指定從一個階段到另一個階段的轉變，例如從階段A到階段B、C或D。必須指定一個階段作為成功階段，例如購買或簽署的合約。 您可以選擇將另一個階段指定為失敗階段，例如拒絕的合約或向其他廠商購買競爭解決方案。 這是透過[智慧型儀表板](../dashboards/intelligent-dashboard.md)達成的，顯示購買群組在完成銷售機會或將機會轉換為客戶方面的進度。
+定義單一暫存模型內的階段，定義多個階段以及它們之間的轉換流程。 一個或多個階段被指定進入生命週期。 模型也允許非線性漸層，您可以在此指定從一個階段到另一個階段的轉變，例如從階段A到階段B、C或D。必須指定一個階段作為成功階段，例如購買或簽署的合約。 您可以選擇將另一個階段指定為失敗階段，例如拒絕的合約或向其他廠商購買競爭解決方案。 透過[智慧型儀表板](../dashboards/intelligent-dashboard.md)監視這些階段，顯示購買群組在完成銷售機會或將機會轉換為客戶方面的進度。
 
 ![購買群組階段範例](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
    為模型![定義的](assets/stages-model-stages-added.png){width="700" zoomable="yes"}階段
 
-1. 在您滿意已定義的階段後，請按一下[儲存]。**&#x200B;**
+1. 在您滿意已定義的階段後，請按一下[儲存]。****
 
    >[!IMPORTANT]
    >
@@ -146,7 +146,7 @@ ht-degree: 1%
 
    * 捲動至底部，然後按一下&#x200B;**[!UICONTROL 新增階段]**，視需要為模型定義新的階段。
 
-1. 在您滿意已定義的階段後，請按一下[儲存]。**&#x200B;**
+1. 在您滿意已定義的階段後，請按一下[儲存]。****
 
    您也可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;關閉對話方塊，並返回模型詳細資訊頁面，而不做任何變更。
 
@@ -158,7 +158,7 @@ ht-degree: 1%
 
    請參閱[設定工作流程和轉換規則](#configure-the-workflow-and-transition-rules)，以取得有關這些選項以及它們如何影響模型流程的詳細資訊。
 
-1. 當您對已定義的轉換規則感到滿意時，請按一下[儲存]。**&#x200B;**
+1. 當您對已定義的轉換規則感到滿意時，請按一下[儲存]。****
 
    您也可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;關閉對話方塊，並返回模型詳細資訊頁面，而不做任何變更。
 
@@ -365,4 +365,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3448705/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

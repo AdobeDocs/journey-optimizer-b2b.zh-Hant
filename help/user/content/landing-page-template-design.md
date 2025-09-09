@@ -1,13 +1,13 @@
 ---
 title: 登入頁面範本設計
-description: 瞭解如何設計和編寫行銷人員可重複使用的登陸頁面範本內容，以建立登陸頁面。
+description: 設計登入頁面範本以供重複使用 — 在Journey Optimizer B2B edition中新增內容元件、表單、自訂CSS、個人化和裝置預覽。
 feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '347'
 ht-degree: 4%
 
 ---

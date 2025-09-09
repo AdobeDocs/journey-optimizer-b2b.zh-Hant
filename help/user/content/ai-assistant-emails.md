@@ -1,17 +1,17 @@
 ---
-title: 用於電子郵件製作的AI助理
-description: 瞭解如何使用AI Assistant來最佳化帳戶歷程中使用的電子郵件內容。
+title: 用於產生電子郵件內容的AI助理
+description: 使用AI Assistant產生電子郵件內容 — 在Journey Optimizer B2B edition中使用品牌資產和購買群組角色目標定位建立訊息內容、主旨行和前置標題。
 feature: AI Assistant, Email Authoring, Content
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3072'
+source-wordcount: '3089'
 ht-degree: 0%
 
 ---
 
-# 電子郵件編寫的 AI 助理
+# 用於產生電子郵件內容的AI助理
 
 隨著行銷業的競爭日益激烈，品牌開始尋求有效率的方式，以快速且有效率的方式產生具影響力的內容。 適用於Adobe Journey Optimizer B2B edition中電子郵件製作的AI Assistant是Adobe的AI支援內容產生功能，徹底改變行銷人員建立專業且品牌一致電子郵件內容的方式。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，其內容針對品牌概述的樣式、版面、色調等最佳化。 AI Assistant可讓電子郵件行銷活動的建立和執行直覺化、簡單且免費。 在工作流程中新增此功能，可以節省您的時間、提高效率並帶來更好的結果。
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
 
 下列步驟說明使用AI助理產生電子郵件最佳化主旨行的工作順序：
 
-1. 在&#x200B;_[!UICONTROL 電子郵件屬性]_&#x200B;中，按一下&#x200B;**[!UICONTROL 主旨列]**&#x200B;欄位右側的「AI小幫手」圖示（ ![AI小幫手存取圖示](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL 電子郵件屬性]_&#x200B;中，按一下![主旨列](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}欄位右側的「AI小幫手」圖示（ **[!UICONTROL AI小幫手存取圖示]**）。
 
    ![電子郵件主旨列](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}的AI助理存取
 
@@ -90,7 +90,7 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
 
    根據與電子郵件關聯的電子郵件內容，或您想要使用主旨行以符合您的用途，有幾個選項可產生主旨行文字：
 
-   * 您可以立即按一下[產生&#x200B;**&#x200B;**]，而不需要提示或品牌資產，以使用現有的電子郵件內文作為主旨列產生的內容。
+   * 您可以立即按一下[產生&#x200B;****]，而不需要提示或品牌資產，以使用現有的電子郵件內文作為主旨列產生的內容。
 
    * （建議）您可以提供提示、品牌資產和其他設定值，以提供上下文，產生最符合您需求的主旨行文字。 （步驟2到7）
 
@@ -118,7 +118,7 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
 
 1. 根據您的喜好變更&#x200B;**[!UICONTROL 使用表情符號]**&#x200B;選項（開啟或關閉）。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
 1. 捲動「AI輔助程式」面板，並瀏覽產生的變數來決定哪一個最適合。
 
@@ -178,7 +178,7 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
 
 1. 根據您的喜好變更&#x200B;**[!UICONTROL 使用表情符號]**&#x200B;選項（開啟或關閉）。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
 1. 捲動「AI輔助程式」面板，並瀏覽產生的變數來決定哪一個最適合。
 
@@ -204,11 +204,11 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
 
 在您[建立並個人化您的電子郵件](./email-authoring.md)後，請使用Adobe Journey Optimizer B2B edition中的AI小幫手（由創作AI提供技術支援），將您的電子郵件內文內容提升到新的境界。
 
-在電子郵件設計工具中，AI Assistant可以產生完整的電子郵件內文、目標文字內容，以及吸引觀眾共鳴的影像建議，協助您最佳化傳送的影響。 這種電子郵件行銷活動最佳化是為了產生更好的參與度而設計。
+在電子郵件設計空間，AI Assistant可以產生完整的電子郵件內文、目標文字內容，以及吸引觀眾共鳴的影像建議，協助您最佳化傳送的影響。 這種電子郵件行銷活動最佳化是為了產生更好的參與度而設計。
 
 1. 從帳戶歷程建立電子郵件，然後按一下&#x200B;**[!UICONTROL 開啟電子郵件Designer]**&#x200B;或&#x200B;**[!UICONTROL 新增電子郵件內容]**。
 
-1. 在視覺化電子郵件設計工具中選取並開啟電子郵件範本。
+1. 在視覺化電子郵件設計空間中選取並開啟電子郵件範本。
 
 1. 視需要個人化歷程節點的電子郵件。
 
@@ -220,7 +220,7 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
 
 下列步驟說明使用AI助理來調整現有電子郵件範本的工作順序：
 
-1. 在電子郵件設計工具中，按一下右側的圖示（ ![AI助理功能表切換](../assets/button-ai-assistant.png){width="30" zoomable="no"} ）來存取AI助理功能表。
+1. 在電子郵件設計空間中，按一下右側的圖示（ ![AI助理功能表切換](../assets/button-ai-assistant.png){width="30" zoomable="no"} ）來存取AI助理功能表。
 
    電子郵件設計工具中的![AI助理切換](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -247,9 +247,9 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
    * **[!UICONTROL 通訊策略]** — 為您的產生的文字選擇最合適的通訊樣式。
    * **[!UICONTROL 語言]** — 選取您要產生內容的語言。
    * **[!UICONTROL 音調]** — 選擇可與您的觀眾產生共鳴的音調。 如果您指定想要提供資訊、好玩或有說服力的聲音，AI Assistant可以相應地調整訊息。
-   * **內容型別** — 選擇可反映視覺元素性質的選項。 此設定可區分不同視覺呈現形式，例如像片、圖形或藝術品。
+   * **內容型別** — 選擇可反映視覺元素性質的選項。 此設定可區分不同的視覺呈現形式，例如像片、圖形或藝術品。
 
-1. 當您的提示就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示就緒時，請按一下[產生]。****
 
 1. 捲動「AI輔助程式」面板，並瀏覽產生的變數來決定哪一個最適合。
 
@@ -259,15 +259,15 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
 
      ![AI小幫手 — 文字設定](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
 
-1. 按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以選取的變體取代範本內容，並返回電子郵件設計工具。
+1. 按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以選取的變體取代範本內容，並返回電子郵件設計空間。
 
-   在電子郵件設計工具中，您可以使用畫布上的編輯和格式化工具來變更內容，以及右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;選項。
+   在電子郵件設計空間中，您可以使用畫布上的編輯和格式化工具來變更內容，以及右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;選項。
 
 >[!TAB 文字產生]
 
 下列步驟說明使用AI助理來調整或增強現有電子郵件文字內容的工作順序：
 
-1. 在電子郵件設計工具中，按一下右側的圖示（ ![AI助理功能表切換](../assets/button-ai-assistant.png){width="30" zoomable="no"} ）來存取AI助理功能表。
+1. 在電子郵件設計空間中，按一下右側的圖示（ ![AI助理功能表切換](../assets/button-ai-assistant.png){width="30" zoomable="no"} ）來存取AI助理功能表。
 
    電子郵件設計工具中的![AI助理切換](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -297,7 +297,7 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
 
 1. 如有需要，請使用滑桿來設定所要產生的文字長度。
 
-1. 當您的提示就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示就緒時，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;_變數_，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本。
 
@@ -315,9 +315,9 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
 
    ![AI Assistant預覽文字變化與細分選項](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
-1. 當您有想要的內容時，請按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以選取的變體取代文字，並返回電子郵件設計工具。
+1. 當您有想要的內容時，請按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以選取的變體取代文字，並返回電子郵件設計空間。
 
-   在電子郵件設計工具中，您可以使用畫布上的編輯和格式化工具來變更文字，以及右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;選項。
+   在電子郵件設計空間中，您可以使用畫布上的編輯和格式化工具來更改文字，以及右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;選項。
 
 >[!TAB 影像建議]
 
@@ -345,13 +345,13 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
 
 1. 使用影像設定來調整提示：
 
-   * **[!UICONTROL 外觀比例]** — 此設定決定資產的寬度和高度。 您可以選擇一般比例，例如16:9、4:3、3:2或1:1，或者輸入自訂大小。
+   * **[!UICONTROL 外觀比例]** — 此設定決定資產的寬度和高度。 您可以選擇一般比率，例如16:9、4:3、3:2或1:1，或者您可以輸入自訂大小。
    * **[!UICONTROL 色彩和色調]** — 此設定會影響影像中顏色的整體外觀及其傳達的氣氛或氣氛。
    * **[!UICONTROL 內容型別]** — 此設定會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
    * **[!UICONTROL 照明]** — 此設定會調整影像中閃電的出現，進而塑造大氣層，並反白顯示特定元素。
    * **[!UICONTROL 構成]** — 此設定決定影像框架中元素的排列。
 
-1. 如果您對提示組態感到滿意，請按一下[產生]。**&#x200B;**
+1. 如果您對提示組態感到滿意，請按一下[產生]。****
 
    AI Assistant會處理請求，並根據提示和其他輸入從輸入品牌資產內建議最適合的影像。
 
@@ -361,10 +361,10 @@ Adobe Journey Optimizer B2B edition提供五個現成可用的標準B2B購買團
 
 1. 瀏覽&#x200B;_[!UICONTROL 變數]_&#x200B;並選取最適合電子郵件的變數。
 
-   若要檢視所選變數的全熒幕版本，請按一下[預覽]。**&#x200B;**
+   若要檢視所選變數的全熒幕版本，請按一下[預覽]。****
 
-1. 反白顯示您想要的影像，然後按一下[選取&#x200B;**&#x200B;**]以選取的專案取代影像或預留位置，並返回電子郵件設計工具。
+1. 反白顯示您想要的影像，然後按一下[選取&#x200B;****]以選取的專案取代影像或預留位置，並返回電子郵件設計空間。
 
-   在電子郵件設計工具中，您可以使用畫布上的編輯和格式化工具來變更內容，以及右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;選項。
+   在電子郵件設計空間中，您可以使用畫布上的編輯和格式化工具來變更內容，以及右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;選項。
 
 >[!ENDTABS]

@@ -1,14 +1,14 @@
 ---
 title: 帳戶歷程節點
-description: 瞭解您可以在Journey Optimizer B2B edition中用來建構帳戶歷程的節點型別。
+description: 使用動作、事件和協調流程節點（對象、等待、分割和合併）建立帳戶歷程，用於Journey Optimizer B2B edition中的跨管道行銷。
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 9438b1472df38eddc3e1fa6cd5bc3992af0c9eec
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 12%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 * [帳戶客群](./account-audience-nodes.md)
 * [採取動作](./action-nodes.md)
-* [接聽事件](./listen-for-event-nodes.md)
+* [監聽事件](./listen-for-event-nodes.md)
 * [分割路徑](./split-merge-paths-nodes.md)
 * [等待](./wait-nodes.md)
 * [合併路徑](./split-merge-paths-nodes.md)

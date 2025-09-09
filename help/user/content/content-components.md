@@ -1,12 +1,12 @@
 ---
 title: 內容元件
-description: 瞭解如何使用內容元件來設計您的電子郵件、登入頁面和視覺片段內容。
+description: 在Journey Optimizer B2B edition中新增按鈕、文字、影像、表單和容器等內容元件，以設計電子郵件、登入頁面和片段。
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '2849'
 ht-degree: 6%
 
 ---
@@ -307,7 +307,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -473,7 +473,7 @@ ht-degree: 6%
 
    [開啟程式碼編輯器以新增HTML](./assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
 
    [編輯HTML對話方塊](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
@@ -605,7 +605,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。

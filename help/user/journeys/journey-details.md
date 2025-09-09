@@ -1,12 +1,12 @@
 ---
 title: 歷程詳細資料
-description: 瞭解歷程詳細資訊頁面提供的資訊，以及它如何協助您監視和管理已發佈的帳戶歷程。
+description: 在Journey Optimizer B2B edition中使用完成率、參與量度、電子郵件/簡訊分析和AI深入分析來監控帳戶歷程績效。
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---

@@ -1,12 +1,12 @@
 ---
-title: Journey Optimizer B2B Edition 發行說明
-description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能和增強功能。
+title: Journey Optimizer B2B edition發行說明
+description: 探索Adobe Journey Optimizer B2B edition的最新功能、增強功能和錯誤修正 — 透過新功能和產品改進保持更新。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 99%
+source-wordcount: '2795'
+ht-degree: 97%
 
 ---
 
@@ -130,7 +130,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 體驗事件轉送 | 管理員可以設定基於 Adobe Experience Platform (AEP) 的事件定義。行銷人員可以利用這些設定，建立能回應 AEP 體驗事件的帳戶歷程。<a href="../admin/configure-aep-events.md">了解更多</a> |
-| 功能 | 付費媒體目標 | 透過帳戶歷程判斷已知人員是否符合付費媒體行銷活動的資格，以便在 LinkedIn 等廣告平台上進一步與他們互動。在帳戶歷程中使用分割路徑節點，以根據特定行為細分帳戶客群，並找出需要提高參與度的帳戶。然後，透過 Real-time CDP 將這些帳戶中的人員新增至外部客戶客群中，並新增至支援的付費媒體目標。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解更多</a> |
+| 功能 | 付費媒體目標 | 透過帳戶歷程判斷已知人員是否符合付費媒體行銷活動的資格，以便在 LinkedIn 等廣告平台上進一步與他們互動。使用分割路徑節點，根據特定行為來劃分帳戶對象，並識別需要額外參與的帳戶。 然後，透過 Real-time CDP 將這些帳戶中的人員新增至外部客戶客群中，並新增至支援的付費媒體目標。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解更多</a> |
 | 功能 | 智慧儀表板 | 透過購買群組的帳戶歷程檢視其進度，包括由 AI 產生的深入分析，以便進行智慧化分析和準確的帳戶優先排序。<a href="../dashboards/intelligent-dashboard.md">了解更多</a> |
 | 功能 | 購買群組和帳戶詳細資訊 | 檢視購買群組和帳戶層級的深入分析，以便了解更多背景和歷史資料，然後再開始與客戶互動。<p>購買群組詳細資訊包括已偵測到的任何第一方意圖。<a href="../buying-groups/buying-group-details.md">了解更多</a><p>帳戶詳細資訊會加強顯示偵測到參與度的意圖激增情形，以便您可以通知銷售人員注意那些已經準備好接受客製化銷售導向互動的帳戶。<a href="../accounts/account-details.md">了解更多</a> |
 | 功能 | 歷程概觀 | 存取帳戶歷程時，「概觀」索引標籤會提供使用中帳戶歷程的綜合概況，並利用圓形圖和長條圖分類及量化完成情況和參與活動，以詳細說明帳戶進度。<a href="../dashboards/journeys-dashboard.md">了解更多</a> |

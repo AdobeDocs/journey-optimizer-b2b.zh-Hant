@@ -1,12 +1,12 @@
 ---
 title: 條件式內容
-description: 瞭解如何在編寫帳戶歷程的視覺片段和電子郵件內容時建立內容變體並套用條件規則。
+description: 在Journey Optimizer B2B edition中，根據個人化電子郵件和片段的設定檔屬性和事件，使用條件規則來建立動態內容變體。
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1262'
 ht-degree: 10%
 
 ---

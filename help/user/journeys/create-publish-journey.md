@@ -1,12 +1,12 @@
 ---
 title: 建立及發佈帳戶歷程
-description: 瞭解如何建立和發佈帳戶歷程。
+description: 在視覺畫布中建立帳戶歷程、新增動作和事件節點、設定排程，以及在Journey Optimizer B2B edition中發佈即時協調。
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '806'
 ht-degree: 4%
 
 ---
@@ -73,7 +73,7 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域
 
 1. 在右側的節點屬性中，選取&#x200B;**[!UICONTROL 帳戶]**。
 
-1. 若要新增更多路徑，請按一下[新增路徑]。**&#x200B;**
+1. 若要新增更多路徑，請按一下[新增路徑]。****
 
    當在歷程中建立每個路徑時，屬性中都會顯示新路徑卡。
 
@@ -141,4 +141,4 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443230/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

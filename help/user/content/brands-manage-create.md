@@ -1,6 +1,6 @@
 ---
 title: 建立品牌以產生內容並維持一致性
-description: 瞭解如何建立及自訂您自己的品牌，以產生並最佳化符合您品牌風格和聲音的內容。
+description: 透過從檔案自動擷取或手動輸入來建立和管理品牌方針 — 在Journey Optimizer B2B edition中為一致的內容設定預設品牌。
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2056'
 ht-degree: 6%
 
 ---
@@ -156,7 +156,7 @@ ht-degree: 6%
 
 ### 發佈品牌
 
-當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] **&#x200B;**，讓您的品牌指引可用於內容對齊與產生。
+當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] ****，讓您的品牌指引可用於內容對齊與產生。
 
 已發佈的品牌可從AI **[!UICONTROL 品牌一致性]**&#x200B;和內容產生工具中的[品牌](./brand-alignment.md)選項存取。<!-- [Learn more about content generation](gs-generative.md) -->
 
@@ -324,4 +324,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [視覺內容](#visual-content)
 
-1. 使用草稿更新時，請按一下[儲存]。**&#x200B;**，然後在準備取代&#x200B;**[!UICONTROL [即時]]**&#x200B;版本時，按一下[發佈]。__
+1. 使用草稿更新時，請按一下[儲存]。****，然後在準備取代&#x200B;**[!UICONTROL [即時]]**&#x200B;版本時，按一下[發佈]。__

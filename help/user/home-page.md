@@ -1,13 +1,13 @@
 ---
 title: 登入和首頁
-description: 了解如何存取 Journey Optimizer B2B Edition 應用程式及使用首頁資訊。
+description: 存取Journey Optimizer B2B edition並導覽個人化首頁 — 行銷人員和管理員可透過快速存取和AI助理使用不同檢視。
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '444'
-ht-degree: 100%
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 59%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 100%
 
 ![Adobe Experience Platform 應用程式](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-當您登入 Adobe Experience Platform 並選取 Adobe Journey Optimizer B2B Edition 應用程式時，便會看到首頁。此頁面將概略介紹 Journey Optimizer B2B 行動方案的現況，並提供<!-- refined insights and-->快速存取相關模組<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->的功能。
+登入Adobe Experience Platform並選取Adobe Journey Optimizer B2B edition應用程式時，首頁隨即顯示。 此頁面以<!-- refined insights and-->個相關資源的快速存取連結的形式，提供Journey Optimizer B2B方案目前狀態的概觀。<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
 ![Journey Optimizer B2B Edition 首頁](./assets/home-page.png){width="800" zoomable="yes"}
 
 Journey Optimizer B2B Edition 具有兩種主要使用者角色：_**行銷人員**_&#x200B;和&#x200B;_**管理員**_。每個角色針對不同的成熟度階段 (新手或進階) 均有特定的首頁。此頁面是根據每個角色所需的資訊及後續要採取的行動來提供相關內容。
 
-* **行銷人員 - 新使用者** -- 新使用者的&#x200B;_行銷人員_&#x200B;首頁可協助他們逐漸熟悉 Journey Optimizer B2B 及其功能。此首頁提供引導式操作示範，在新進行銷人員入職時逐步指導，讓他們了解系統運作細節，並且有效率的開發 B2B 行銷策略和行動方案。
-* **行銷人員 - 進階使用者** -- 進階行銷人員的&#x200B;_行銷人員_&#x200B;首頁可以為他們提供有關行動方案目前進度、特定動作和後續的最合適動作之更多資訊，而且可以快速存取相關區段。
-* **管理員 - 新使用者** - 新管理員的&#x200B;_管理員_&#x200B;首頁可協助他們逐漸熟悉 Journey Optimizer B2B Edition 及其功能。此首頁提供引導式操作示範，逐步指導新管理員完成入職歷程，以了解系統運作細節，並且有效率的開發 B2B 行銷策略和行動方案。
-* **管理員 - 進階使用者** - 進階管理員的&#x200B;_管理員_&#x200B;首頁為他們提供有關執行個體目前狀態以及可採取的特定動作之更多資訊，使行銷人員的工作效率更高且效果更好。
+* **行銷人員 — 新使用者** — 新使用者的&#x200B;_行銷人員_&#x200B;首頁可協助他們熟悉Journey Optimizer B2B及其功能。 此首頁提供引導式操作示範，在新進行銷人員入職時逐步指導，讓他們了解系統運作細節，並且有效率的開發 B2B 行銷策略和行動方案。
+* **行銷人員 — 進階使用者** — 進階行銷人員的&#x200B;_行銷人員_&#x200B;首頁會顯示目前的方案進度、建議的後續動作，並可讓您快速存取相關區段。
+* **管理員 — 新使用者** — 新管理員的&#x200B;_管理員_&#x200B;首頁可協助他們熟悉Journey Optimizer B2B edition及其功能。 此首頁提供引導式操作示範，逐步指導新管理員完成入職歷程，以了解系統運作細節，並且有效率的開發 B2B 行銷策略和行動方案。
+* **管理員 — 進階使用者** — 進階管理員的&#x200B;_管理員_&#x200B;首頁會顯示目前的執行個體狀態以及可操作的步驟，以提高管理員的效率和成效。
 
 _[!UICONTROL 最近存取]_&#x200B;區段列出行銷人員或管理員最近存取的資產清單。使用此清單可直接前往您最近處理的資產，不需要導覽一系列的資產頁面及搜尋。
 

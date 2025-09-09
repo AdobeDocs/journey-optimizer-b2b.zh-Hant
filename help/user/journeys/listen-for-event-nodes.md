@@ -1,12 +1,12 @@
 ---
 title: 接聽事件
-description: 瞭解在Journey Optimizer B2B edition中可用於協調帳戶歷程的事件節點型別。
+description: 設定帳戶和人員觸發器的事件節點 — 在Journey Optimizer B2B edition中監聽購買群組變更、電子郵件點選、表單填寫和Experience Platform事件。
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1374'
 ht-degree: 8%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 8%
 
 ### 事件和限制
 
-| 活動 | 限制 |
+| 事件 | 限制 |
 | ----- | ----------- |
 | 帳戶有一個有趣的時刻 | 型別（電子郵件、里程碑或Web）<br/>其他限制（選擇性）： <li>說明</li><li>來源</li><li>活動日期</li> <br/>逾時（選擇性） |
 | 帳戶資料值的變化 | 屬性<br/>其他限制（選擇性）： <li>新值</li><li>上一個值</li><li>活動日期</li> <br/>逾時（選擇性） |
@@ -56,7 +56,7 @@ ht-degree: 8%
 
 ### 事件和限制
 
-| 輸入型別 | 活動 | 限制 |
+| 輸入型別 | 事件 | 限制 |
 | ---------- | ----- | ----------- |
 | Journey Optimizer B2B | 已指派給購買群組 | 方案興趣<br/><br/>其他限制（選擇性）： <li>角色</li><li>活動日期</li><br/>逾時（選擇性） |
 | | 點按電子郵件中的連結 | 電子郵件<br/><br/>其他限制（選擇性）： <li>連結</li><li>連結識別碼</li><li>是行動裝置</li><li>裝置</li><li>平台</li><li>瀏覽器</li><li>為預測性內容</li><li>是機器人活動</li><li>機器人活動模式</li><li>瀏覽器</li><li>活動日期</li><li>最低 次數</li><br/>逾時（選擇性） |
@@ -66,7 +66,7 @@ ht-degree: 8%
 | | 已從購買群組中移除 | 方案興趣<br/>活動日期（選擇性）<br/>逾時（選擇性） |
 | | 分數已變更 | 分數名稱<br/><br/>其他限制（選擇性）：<li>變更</li><li>新分數</li><li>急迫性</li><li>優先順序</li><li>相對分數</li><li>相對急迫性</li><li>活動日期</li><li>最低 次數</li><br/>逾時（選擇性） |
 | | 簡訊退回 | SMS訊息<br/><br/>其他限制（選擇性）： <li>活動日期</li><li>最小次數</li><br/>逾時（選擇性） |
-| Marketo Engage | 造訪網頁 | 網頁<br/>選取一或多個要比對的Marketo Engage頁面。 <br/><br/>其他限制（選擇性）： <li>Querystring</li><li>使用者端IP位址</li><li>反向連結</li><li>使用者代理</li><li>搜尋引擎</li><li>搜尋查詢</li><li>Token</li><li>瀏覽器</li><li>平台</li><li>裝置</li><li>活動日期</li> |
+| Marketo Engage | 造訪網頁 | 網頁<br/>選取一或多個要比對的Marketo Engage頁面。 <br/><br/>其他限制（選擇性）： <li>Querystring</li><li>使用者端IP位址</li><li>反向連結</li><li>使用者代理</li><li>搜尋引擎</li><li>搜尋查詢</li><li>權杖</li><li>瀏覽器</li><li>平台</li><li>裝置</li><li>活動日期</li> |
 | | 填寫表單 | 表單<br/>選取一或多個要比對的Marketo Engage表單。  <br/><br/>其他限制（選擇性）： <li>活動日期</li><li>Querystring</li><li>使用者端IP位址</li><li>反向連結</li><li>使用者代理</li><li>平台</li><li>裝置</li><br/>逾時（選擇性） |
 | Adobe Experience Platform | 事件定義 | 事件型別<br/><br/>其他限制（選擇性）： <li>欄位</li> <br/>其他限制（不支援）： <li>活動日期</li><li>最低 次數</li><br/>逾時（選擇性） |
 
@@ -86,7 +86,7 @@ ht-degree: 8%
 
 ### 接聽Marketo Engage活動
 
-如果您在連線的Marketo Engage執行個體中建立了網頁，則可以根據造訪/未造訪Marketo Engage網頁以及未填滿Marketo Engage表單來觸發事件。
+如果您在連線的Marketo Engage執行個體中有網頁，您可以根據這些網頁的造訪/未造訪以及/未填寫的Marketo Engage表單來觸發事件。
 
 1. 在歷程地圖中選取&#x200B;**[!UICONTROL 接聽事件]**&#x200B;節點。
 
@@ -119,7 +119,7 @@ ht-degree: 8%
 
 ### 聆聽體驗事件
 
-管理員可以設定Adobe Experience Platform (AEP)型事件定義，讓行銷人員建立會對[AEP體驗事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反應的帳戶歷程。 在帳戶歷程中使用AEP體驗事件有兩個步驟：
+管理員可以設定Adobe Experience Platform (AEP)型事件定義，讓行銷人員建立會對[AEP體驗事件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反應的帳戶歷程。 在帳戶歷程中使用AEP體驗事件有兩個步驟：
 
 1. [建立並發佈AEP事件定義](../admin/configure-aep-events.md)。
 
@@ -127,7 +127,7 @@ ht-degree: 8%
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"}[觀看概觀影片](../admin/configure-aep-events.md#overview-video)
 
-_若要在歷程中加入體驗事件：_
+若要在歷程中包含體驗事件(_T):_
 
 1. 在歷程地圖中選取&#x200B;**[!UICONTROL 接聽事件]**&#x200B;節點。
 
@@ -183,4 +183,4 @@ _若要在歷程中加入體驗事件：_
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition 概觀
-description: 探索 Adobe Journey Optimizer B2B Edition 主要功能、使用案例及架構。
+description: 瞭解Adobe Journey Optimizer B2B edition — 使用購買群組、AI見解和B2B行銷的Experience Platform整合，協調帳戶歷程。
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
-workflow-type: ht
-source-wordcount: '811'
-ht-degree: 100%
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+workflow-type: tm+mt
+source-wordcount: '819'
+ht-degree: 88%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## 使用購買群組的帳戶歷程
 
-相較於 Marketo Engage 和 Adobe Journey Optimizer 標準，Adobe Journey Optimizer B2B Edition 的關鍵區別在於它是由帳戶歷程推動帳戶完成整個歷程，而非由人員推動。與某個帳戶關聯的人員，其歷程通常不會線性發展，而是取決於該帳戶在整個歷程中的進度，而非人員的個別動作。例如，當帳戶處於購買歷程的早期階段時，所傳送的資訊可能與一般解決方案功能或特色有關。在購買過程的後續進展中，所傳送的內容可能會更加針對特定的優惠，或是以成功銷售為目標的其他項目。購買解決方案後，所傳送的資訊可能會再次變更，改為提供操作指南、最佳實務或即將舉辦的活動相關資訊，或是有關其他向上銷售的內容。即使某人並未與早期階段的內容互動，您仍會希望根據其帳戶或購買群組內其他人員的行動 (而非他們自身的行動)，將其推進至目前階段。
+將Adobe Journey Optimizer B2B edition與Marketo Engage和Adobe Journey Optimizer標準進行比較時，關鍵的區別在於帳戶歷程會透過歷程移動帳戶，而非人員。 與某個帳戶關聯的人員，其歷程通常不會線性發展，而是取決於該帳戶在整個歷程中的進度，而非人員的個別動作。例如，當帳戶處於購買歷程的早期階段時，所傳送的資訊可能與一般解決方案功能或特色有關。在購買過程的後續進展中，所傳送的內容可能會更加針對特定的優惠，或是以成功銷售為目標的其他項目。購買解決方案後，所傳送的資訊可能會再次變更，改為提供操作指南、最佳實務或即將舉辦的活動相關資訊，或是有關其他向上銷售的內容。即使某人並未與早期階段的內容互動，您仍會希望根據其帳戶或購買群組內其他人員的行動 (而非他們自身的行動)，將其推進至目前階段。
 
 ## 高階架構
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B Edition 會使用來自 Adobe Experience Platform �
 
 >[!NOTE]
 >
->有關效能護欄和靜態限制，請參關您的授權權益以及相對應的[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}。
+>檢查您的授權權益和對應的[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，瞭解效能護欄和靜態限制。
 
 ### 訂閱模型
 
@@ -37,7 +37,7 @@ Journey Optimizer B2B Edition 訂閱由一對 Experience Platform (AEP) 沙箱�
 
 帳戶歷程是在 Journey Optimizer B2B Edition 中編寫，並儲存在與訂閱相關的 Marketo Engage 執行個體中。雖然帳戶歷程儲存在 Marketo Engage 資料儲存區中，但不會顯示在 Marketo Engage 使用者介面中，而且僅可在 Journey Optimizer B2B Edition 中使用。
 
-帳戶歷程開始時，一律會先選取一個帳戶細分做為歷程的帳戶客群。若要選取客群，請使用標準的 Experience Platform 客群選擇器元件。然後，行銷人員可以根據自己的條件 (包括帳戶條件、人員條件或購買群組條件)，透過分割歷程路徑來實施帳戶歷程。您可以在每個分支上採取行動來實施歷程，例如傳送電子郵件或等待事件發生。
+帳戶歷程開始時，一律會先選取一個帳戶細分做為歷程的帳戶客群。若要選取客群，請使用標準的 Experience Platform 客群選擇器元件。行銷人員隨後可透過根據自己的條件分割歷程路徑來實作帳戶歷程，該條件可包括帳戶條件、人員條件或購買群組條件。 您可以在每個分支上採取行動來實施歷程，例如傳送電子郵件或等待事件發生。
 
 建立帳戶歷程後，必須進行發佈。在發佈時，此帳戶歷程經驗證並轉換為一系列實施歷程體驗的 Marketo Engage 行銷活動。聯絡資料整合服務來開始資料流，進而開始帳戶歷程作業。第一步是為帳戶人員建立細分。
 

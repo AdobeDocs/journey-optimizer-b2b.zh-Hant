@@ -1,12 +1,12 @@
 ---
 title: 為內容新增自訂CSS
-description: 瞭解如何將自訂CSS新增至您的電子郵件和登入頁面內容。
+description: 新增自訂CSS至電子郵件和登陸頁面，以實現Journey Optimizer B2B edition標準元件以外的進階樣式和精確設計控制。
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
    ![在編輯器中輸入自訂CSS](./assets/content-design-add-custom-css.png){width="450"}
 
-1. 按一下[儲存]儲存自訂CSS。**&#x200B;**
+1. 按一下[儲存]儲存自訂CSS。****
 
    自訂樣式表會套用至現有內容。 您可以檢查自訂CSS是否已根據您的需求套用。 如需如何進行變更及調整樣式表應用程式的詳細資訊，請參閱[疑難排解](#troubleshooting)。
 
@@ -192,7 +192,7 @@ body {
 
 * 如果您匯入包含CSS的外部HTML內容，則會以<!-- unless converting that content, -->相容性模式[!UICONTROL 填入該內容，且無法使用]CSS樣式[!UICONTROL 區段。]
 
-* 如果您匯入原本在電子郵件或登入頁面設計空間建立的內容，包括透過[!UICONTROL 新增自訂CSS]選項套用的CSS，則套用的CSS會透過相同選項顯示和編輯。
+* 如果您匯入原本使用[!UICONTROL 新增自訂CSS]選項在電子郵件或登入頁面設計空間建立的內容，則套用的CSS會透過相同選項顯示及編輯。
 
 ## 疑難排解
 

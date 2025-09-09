@@ -1,21 +1,21 @@
 ---
 title: 資產
-description: 了解 Journey Optimizer B2B Edition 中的資產管理。
+description: 從Marketo Engage Design Studio和AEM Assets管理Journey Optimizer B2B edition中的影像資產，以取得電子郵件、範本和片段。
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
-workflow-type: ht
-source-wordcount: '871'
-ht-degree: 100%
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+workflow-type: tm+mt
+source-wordcount: '883'
+ht-degree: 91%
 
 ---
 
 # 資產
 
-在 [!DNL Adobe Journey Optimizer B2B Edition]中，資產通常是在設計內容時用於支援帳戶歷程的影像。您可以透過資產選擇器或視覺化設計空間的簡易拖放介面，在電子郵件、電子郵件範本和片段內使用這些影像。
+在 [!DNL Adobe Journey Optimizer B2B Edition]中，資產通常是在設計內容時用於支援帳戶歷程的影像。您可以在資產選擇器的電子郵件、電子郵件範本和片段中，或視覺設計空間的簡單拖放介面中，使用這些影像。
 
-[!DNL Journey Optimizer B2B Edition] 讓行銷人員存取兩種資產庫：[!DNL Adobe Marketo Engage][!DNL Design Studio] 和 [!DNL Adobe Experience Manager Assets as a Cloud Service]。您可以只使用 Adobe Marketo Engage Design Studio，或同時使用已設定的兩種資產庫 (依據您具備的 [!DNL Experience Manager Assets] 授權而定)。
+[!DNL Journey Optimizer B2B Edition] 讓行銷人員存取兩種資產庫：[!DNL Adobe Marketo Engage][!DNL Design Studio] 和 [!DNL Adobe Experience Manager Assets as a Cloud Service]。您可能只使用Adobe Marketo Engage Design Studio，或使用同時設定的兩個程式庫（根據您擁有的[!DNL Experience Manager Assets]授權）。
 
 ## 資產管理
 

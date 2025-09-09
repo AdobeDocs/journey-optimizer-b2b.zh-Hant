@@ -1,13 +1,13 @@
 ---
 title: 表單設計
-description: 瞭解如何設計用於收集商業潛在客戶資訊的可重複使用表單。
+description: 在Journey Optimizer B2B edition中，針對商業資料收集設計具有欄位型別、驗證、樣式和XDM結構描述屬性的表單。
 feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2062'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 1. 根據欄位的資料型別設定&#x200B;**[!UICONTROL 欄位型別]**：
 
-   | 欄位型別 | 使用情況 | 範例 |
+   | 欄位類型 | 使用情況 | 範例 |
    | ---------- | ----- | ------- |
    | **[!UICONTROL 核取方塊]** | 使用此型別，讓訪客可以選取&#x200B;_true_ （已核取）或&#x200B;_false_ （未核取）值。 | |
    | **[!UICONTROL 核取方塊群組]** | 使用此型別，讓訪客可以為多個專案選取&#x200B;_true_ （已核取）或&#x200B;_false_ （未核取）值。 | |
@@ -79,7 +79,7 @@ ht-degree: 1%
      >
      >_指示與預留位置文字_<br/>
      >
-     >使用這兩個屬性來引導訪客填寫欄位。 將指標暫留在欄位上時，指示文字會顯示為工具提示/快顯文字。 預留位置文字在欄位內顯示&#x200B;_變暗_，當訪客將其文字加入欄位時便會消失。 您可以使用這兩種方法，或只使用其中一種。
+     >使用這兩個屬性來引導訪客填寫欄位。 將指標暫留在欄位上時，指示文字會顯示為工具提示/快顯文字。 預留位置文字在欄位中顯示&#x200B;_變暗_，當訪客在欄位中輸入文字時，預留位置文字就會消失。 您可以使用這兩種方法，或只使用其中一種。
 
    * **[!UICONTROL 預設值]** — 使用此選項來指定欄位的預設值。
 

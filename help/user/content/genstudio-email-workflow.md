@@ -1,15 +1,15 @@
 ---
 title: 使用GenStudio for Performance Marketing建立電子郵件內容
-description: 瞭解如何整合GenStudio工作流程，以簡化電子郵件體驗設計。
+description: 將GenStudio for Performance Marketing與Journey Optimizer B2B edition整合 — 匯出HTML、建立AI支援的電子郵件體驗，以及匯入品牌內容。
 feature: Email Authoring, Content, Integrations
 topic: Content Supply Chain
 level: Intermediate
 role: User
-badge: label="可用性限制" type="Informative"
+badge: label="有限可用性" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
-source-git-commit: 82bfb3b425bc7a3931b5ce8b925b860ef70d11fe
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '794'
 ht-degree: 8%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 8%
 
 使用HTML檔案在GenStudio for Performance Marketing中建立範本。
 
-如需有關在Adobe GenStudio for Performance Marketing中將HTML範本上傳到GenStudio的詳細資訊，請參閱GenStudio for Performance Marketing檔案中的[新增範本](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)。
+如需有關在Adobe GenStudio for Performance Marketing中將HTML範本上傳到GenStudio的詳細資訊，請參閱GenStudio for Performance Marketing檔案中的[新增範本](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template)。
 
 當您上傳匯出的HTML作為範本時，GenStudio for Performance Marketing會掃描HTML檔案以尋找可識別的欄位。 使用預覽可檢閱您的範本元素，並確認您以識別的欄位名稱正確識別了這些元素。
 
@@ -81,7 +81,7 @@ ht-degree: 8%
 
 在GenStudio for Performance Marketing中，使用範本建立多個電子郵件體驗變數並儲存。
 
-如需有關產生品牌化電子郵件體驗的詳細資訊，請參閱GenStudio for Performance Marketing檔案中的[建立電子郵件體驗](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
+如需有關產生品牌化電子郵件體驗的詳細資訊，請參閱GenStudio for Performance Marketing檔案中的[建立電子郵件體驗](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
 
 ## 將產生的電子郵件體驗新增至Journey Optimizer B2B edition
 
@@ -91,11 +91,11 @@ ht-degree: 8%
 
 若要使用從轉存的GenStudio B2B edition電子郵件HTML檔案建立的Journey Optimizer電子郵件變數，請遵循下列步驟：
 
-1. 在Journey Optimizer B2B edition中，[使用&#x200B;_[!UICONTROL 執行動作]_&#x200B;節點，將電子郵件](./add-email.md)新增至帳戶歷程。
+1. 在Journey Optimizer B2B edition中，[使用](./add-email.md)執行動作&#x200B;_[!UICONTROL 節點，將電子郵件]_&#x200B;新增至帳戶歷程。
 
-   * 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
+   * 針對&#x200B;_[!UICONTROL 目標上的]_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
 
-   * 針對人員&#x200B;_的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
+   * 針對人員&#x200B;_[!UICONTROL 的]_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
 
      ![採取動作 — 傳送電子郵件](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 

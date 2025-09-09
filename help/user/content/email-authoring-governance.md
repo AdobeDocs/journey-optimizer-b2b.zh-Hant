@@ -1,19 +1,19 @@
 ---
 title: 從控管範本作者
-description: 瞭解如何將電子郵件製作與包含鎖定內容元件的控管範本搭配使用。
+description: 從包含鎖定內容的控管範本製作電子郵件 — 識別可編輯區域，並在Journey Optimizer B2B edition的控管限制內運作。
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # 從控管範本中作者
 
-內容設計工具可以在建立電子郵件範本時啟用[治理（_內容鎖定_）](./template-content-governance.md)。 治理功能可讓他們指定在帳戶歷程中使用時無法變更的設計部分。 當您[選取已儲存的範本](./email-authoring.md#select-a-template)來製作電子郵件時，視覺化設計工具會載入範本，以便您能將其用作電子郵件的基礎。
+內容設計工具可以在建立電子郵件範本時啟用[治理（_內容鎖定_）](./template-content-governance.md)。 治理功能可讓他們指定在帳戶歷程中使用時無法變更的設計部分。 當您[選取已儲存的範本](./email-authoring.md#select-a-template)來製作電子郵件時，視覺設計空間會載入範本，以便您能將其用作電子郵件的基礎。
 
 如果範本已啟用治理，右側的「屬性」面板中會顯示警報。 您可以開啟畫布頂端的&#x200B;**[!UICONTROL 反白可編輯區域]**，以檢視哪些元件和內容元素可以在您的歷程中使用。
 

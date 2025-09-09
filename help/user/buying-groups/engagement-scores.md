@@ -1,12 +1,12 @@
 ---
 title: 購買群組的參與分數
-description: 透過Journey Optimizer B2B edition中的加權活動與角色型計算，追蹤購買團體和個人的參與分數。
+description: 在Journey Optimizer B2B edition中使用加權活動、角色型計算和30天評分視窗，計算購買團體和人員參與分數。
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1254'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 30%
 
 * **個人參與分數** — 個人參與分數是以個別購買群組成員的活動為基礎。
 
-  每個購買群組成員的個人參與分數會顯示在購買群組詳細資訊頁面[_[!UICONTROL 成員&#x200B;]_&#x200B;標籤](./buying-group-details.md#buying-group-members)中。 這些分數也會顯示在頁面和儀表板中，其中包含最常參與的成員和重疊的聯絡人資訊。
+  每個購買群組成員的個人參與分數會顯示在購買群組詳細資訊頁面[_[!UICONTROL 成員&#x200B;]_標籤](./buying-group-details.md#buying-group-members)中。 這些分數也會顯示在頁面和儀表板中，其中包含最常參與的成員和重疊的聯絡人資訊。
 
   ![最常參與購買群組成員](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 

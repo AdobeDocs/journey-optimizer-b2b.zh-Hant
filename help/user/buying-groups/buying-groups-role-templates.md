@@ -1,12 +1,12 @@
 ---
 title: 購買群組角色範本
-description: 建立具有自動指派條件的購買群組角色範本，以識別Journey Optimizer B2B edition中的決策者與利害關係人。
+description: 使用條件式自動指派來建立角色範本，以識別在Journey Optimizer B2B edition中購買群組的決策者和利害關係人。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 3%
 
 ---
@@ -162,4 +162,4 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

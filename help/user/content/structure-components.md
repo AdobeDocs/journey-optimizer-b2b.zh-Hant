@@ -1,12 +1,12 @@
 ---
 title: 結構元件
-description: 瞭解如何使用結構元件來定義電子郵件、登入頁面和視覺片段內容的版面。
+description: 使用結構元件來建置電子郵件、登入頁面和片段的版面 — 拖曳欄版面、設定樣式，以及在Journey Optimizer B2B edition中設定行動顯示。
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1584'
 ht-degree: 6%
 
 ---

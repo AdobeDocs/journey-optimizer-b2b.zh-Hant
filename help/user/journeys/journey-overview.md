@@ -1,13 +1,13 @@
 ---
 title: 帳戶歷程
-description: 開始使用帳戶歷程，並了解如何使用「帳戶歷程」清單來管理歷程。
+description: 透過帳戶歷程簡化需求產生 — 在Journey Optimizer B2B edition中建立、發佈、管理跨電子郵件、簡訊和事件的購買群組參與。
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: ht
-source-wordcount: '1027'
-ht-degree: 100%
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 97%
 
 ---
 
@@ -157,4 +157,4 @@ _帳戶歷程_&#x200B;清單包含您的 Journey Optimizer B2B Edition 執行個
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443218/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

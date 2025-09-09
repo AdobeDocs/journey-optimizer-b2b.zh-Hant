@@ -1,10 +1,10 @@
 ---
 title: 片段製作
-description: 瞭解如何編寫可重複用於您的電子郵件和範本設計的內容片段，以提高效率並維護設計和品牌標準。
+description: 使用視覺化設計工具創作可重複使用的內容片段 — 為Journey Optimizer B2B edition中的電子郵件和範本新增元件、個人化、條件式內容和可自訂欄位。
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%

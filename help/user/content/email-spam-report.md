@@ -1,12 +1,13 @@
 ---
 title: 檢閱垃圾郵件報告
-description: 瞭解如何在專用的垃圾郵件報告中檢查您的電子郵件內容垃圾郵件評分，以預測ISP或信箱提供者是否將其視為垃圾郵件。
+description: 產生具有SpamAssassin評分的垃圾郵件報告，以檢查電子郵件是否觸發垃圾郵件篩選器，並改善Journey Optimizer B2B edition中的傳遞能力。
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: 7992df497182b69c5103b603d69a70e1a40e903a
+exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -40,6 +41,3 @@ ht-degree: 0%
 1. 如果電子郵件內容中有些元素可以改善，請編輯您的內容以套用必要的更新。
 
 1. 完成變更後，請返回&#x200B;_[!UICONTROL 模擬]_&#x200B;頁面，然後再次按一下&#x200B;**[!UICONTROL 垃圾郵件報告]**&#x200B;以檢查產生的分數改善。
-
-
-
