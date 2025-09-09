@@ -30,7 +30,7 @@ ht-degree: 30%
 
 * **個人參與分數** — 個人參與分數是以個別購買群組成員的活動為基礎。
 
-  每個購買群組成員的個人參與分數會顯示在購買群組詳細資訊頁面[_[!UICONTROL 成員&#x200B;]_標籤](./buying-group-details.md#buying-group-members)中。 這些分數也會顯示在頁面和儀表板中，其中包含最常參與的成員和重疊的聯絡人資訊。
+  每個購買群組成員的個人參與分數會顯示在購買群組詳細資訊頁面[_[!UICONTROL 成員&#x200B;]_&#x200B;標籤](./buying-group-details.md#buying-group-members)中。 這些分數也會顯示在頁面和儀表板中，其中包含最常參與的成員和重疊的聯絡人資訊。
 
   ![最常參與購買群組成員](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
