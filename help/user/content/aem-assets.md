@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->管理員需要將存取Assets的使用者新增至Assets消費者使用者或/和Assets使用者產品設定檔。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>管理員需要將存取Assets的使用者新增至Assets消費者使用者或/和Assets使用者產品設定檔。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## 存取AEM Assets影像
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->目前，[!DNL Adobe Experience Manager Assets]僅支援來自[!DNL Adobe Journey Optimizer B2B Edition]的影像資產。 必須從[!DNL Adobe Experience Manager Assets]中央存放庫變更資產。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>目前，[!DNL Adobe Experience Manager Assets]僅支援來自[!DNL Adobe Journey Optimizer B2B Edition]的影像資產。 必須從[!DNL Adobe Experience Manager Assets]中央存放庫變更資產。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 變更顯示的存放庫
 
