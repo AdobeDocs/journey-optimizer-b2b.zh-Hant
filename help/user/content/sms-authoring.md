@@ -1,13 +1,13 @@
 ---
 title: 簡訊製作
-description: 瞭解如何在其行動裝置上傳送簡訊(SMS)給您的客戶，以及從SMS編輯器使用文字格式個人化和預覽訊息。
+description: 使用個人化、連結和同意管理建立帳戶歷程的SMS訊息 — 在Journey Optimizer B2B edition中預覽內容並設定傳送設定。
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 3%
+source-wordcount: '1362'
+ht-degree: 2%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 3%
 
 使用Adobe Journey Optimizer B2B edition傳送簡訊(SMS)給行動裝置上的客戶。 您可以從簡訊編輯器建立、個人化及預覽文字格式的訊息。
 
-在建立帳戶歷程的SMS訊息之前，請確定[SMS服務提供者已由&#x200B;_[!UICONTROL 系統管理員]_&#x200B;設定設定](../admin/configure-channels-sms.md)。
+在建立帳戶歷程的SMS訊息之前，請確定[SMS服務提供者已由](../admin/configure-channels-sms.md)系統管理員&#x200B;_[!UICONTROL 設定設定]_。
 
 ## 在帳戶歷程中新增簡訊動作
 
 當您新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點並執行下列動作時，可以在帳戶歷程中設定文字訊息傳遞：
 
-1. 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
+1. 針對&#x200B;_[!UICONTROL 目標上的]_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
 
-1. 針對人員&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送簡訊]**。
+1. 針對人員&#x200B;_[!UICONTROL 上的]_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送簡訊]**。
 
    ![採取動作 — 傳送簡訊](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
@@ -92,7 +92,7 @@ ht-degree: 3%
      >[!NOTE]
      >
      >當您允許追蹤但停用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;時，目的地URL在重新導向後不會包含`mkt_tok`查詢字串引數。 Marketo Engage登陸頁面和Munchkin會使用此引數，以確保追蹤人員活動（例如當人員取消訂閱電子郵件時）。 除非引數造成您網站上的問題，否則請勿停用此選項。<br/>
-     >如需有關在網站上使用Munchkin追蹤代碼的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
+     >如需有關在網站上使用Munchkin追蹤代碼的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
    ![新增SMS訊息的連結對話方塊](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -124,7 +124,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="檢查您內容的呈現方式"
->abstract="定義內容後，您可以進行預覽，並檢查所使用的頻道轉譯狀況。"
+>abstract="定義內容後，您可以預覽並檢查您使用之頻道的演算。"
 
 定義訊息內容時，您可以使用測試設定檔來模擬（預覽）其內容。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 

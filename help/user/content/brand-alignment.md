@@ -1,6 +1,6 @@
 ---
 title: 品牌一致性分數
-description: 瞭解如何使用品牌一致性分數來建立、驗證和管理品牌內內容。
+description: 透過品牌一致性評分來評估電子郵件內容 — 根據Journey Optimizer B2B edition中的品牌方針驗證顏色、字型、標誌和撰寫風格。
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 17%
+source-wordcount: '467'
+ht-degree: 11%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="品牌一致性分數"
->abstract="您的品牌一致性分數會衡量您的內容對品牌準則的遵循程度，確保顏色、字體、標誌、影像及寫作風格的一致性。"
+>abstract="您的品牌一致性分數會衡量您的內容遵守品牌指引的程度，以確保色彩、字型、標誌、影像和寫作風格的一致性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"
@@ -87,4 +87,4 @@ ht-degree: 17%
 
 選取任何已標幟的指引以檢視特定意見和建議。
 
-您可以變更內容，然後按一下[重新評估分數] **&#x200B;**，執行其他評估並檢查改善的結果。
+您可以變更內容，然後按一下[重新評估分數] ****，執行其他評估並檢查改善的結果。

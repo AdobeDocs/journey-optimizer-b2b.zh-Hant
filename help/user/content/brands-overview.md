@@ -1,6 +1,6 @@
 ---
 title: 使用品牌來產生內容並維持一致性
-description: 瞭解您可以在Journey Optimizer B2B edition中定義的品牌指導方針，以根據您的品牌樣式和聲音產生和最佳化您的內容。
+description: 定義品牌准則，以建立一致的內容 — 在Journey Optimizer B2B edition中維持視覺識別、訊息一致性和真實的聲音。
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 9%
+source-wordcount: '837'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="開始使用品牌"
->abstract="建立並自訂自己的品牌，以定義您唯一的視覺和語言識別，同時更輕鬆地產生與您品牌風格和語調相符的內容。"
+>abstract="建立並自訂您的品牌，以定義您獨特的視覺和口頭身分，同時更輕鬆地產生符合您品牌風格和聲音的內容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
@@ -73,7 +73,7 @@ ht-degree: 9%
 
 ## 品牌相關許可權
 
-產品管理員可以透過在Adobe Experience Cloud中指派&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;**[!UICONTROL 啟用AI小幫手]**&#x200B;資源許可權（透過&#x200B;_許可權_&#x200B;應用程式），來啟用品牌管理和品牌對齊功能的存取權。
+產品管理員可以透過在Adobe Experience Cloud中透過&#x200B;**[!UICONTROL 許可權]** UI指派&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;_啟用AI小幫手_&#x200B;資源許可權，來啟用品牌管理和品牌對齊功能的存取權。
 
 1. 在許可權應用程式中，移至&#x200B;**[!UICONTROL 角色]**&#x200B;標籤，並選取所需的[角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}。
 
@@ -87,7 +87,7 @@ ht-degree: 9%
 
    ![為品牌存取新增AI助理許可權](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
    已指派給該角色的任何使用者的許可權都會自動更新。
 
@@ -97,6 +97,6 @@ ht-degree: 9%
 
      如果尚未建立使用者，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}。
 
-   * 按一下[儲存]以套用變更。**&#x200B;**
+   * 按一下[儲存]以套用變更。****
 
 >[!ENDSHADEBOX]

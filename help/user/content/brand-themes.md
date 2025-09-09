@@ -1,6 +1,6 @@
 ---
 title: 對電子郵件內容使用品牌主題
-description: 瞭解如何使用可重複使用的主題來簡化電子郵件內容建立，確保設計一致性和效率。
+description: 建立電子郵件和範本的自訂品牌主題 — 在Journey Optimizer B2B edition中定義色彩、字型、間距和按鈕，以實現一致設計。
 feature: Email Authoring, Brand Identity, Content Design Tools
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 2%
+source-wordcount: '3087'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="將品牌主題套用至您的電子郵件或電子郵件範本"
->abstract="為您的電子郵件或電子郵件範本選取一個主題，套用符合品牌形象與設計的特定樣式。"
+>abstract="為您的電子郵件或電子郵件範本選取主題，以套用適合您的品牌和設計的樣式。"
 
 透過主題，非技術性設計人員能夠建立符合特定品牌和樣式的可重複使用電子郵件內容設計准則。 主題可讓行銷人員更快且更省力地運用視覺上吸引人、品牌一致的電子郵件，並提供進階自訂選項以滿足獨特的設計需求。
 
@@ -83,7 +83,7 @@ ht-degree: 2%
 
    當您定義新的主題設定時，畫布上的視覺元素會變更。 如果結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-1. 當您的佈景主題定義完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的佈景主題定義完成時，請按一下[儲存]。****
 
 1. 按一下&#x200B;**[!UICONTROL 關閉]**&#x200B;返回&#x200B;_[!UICONTROL 建立主題]_&#x200B;頁面，然後按&#x200B;**[!UICONTROL 取消]**&#x200B;返回設計頁面。
 
@@ -132,7 +132,7 @@ ht-degree: 2%
 
   | 類型 | 設定 | 說明 |
   | ---- | -------- | ----------- |
-  | [!UICONTROL 一般] | ![變體的一般色彩設定](./assets/email-theme-colors-settings-variant-general.png){width="300"} | 這些設定可讓您設定主體、結構、容器、背景、連結、格點和框線的顏色。 |
+  | [!UICONTROL 一般] | ![變體的一般色彩設定](./assets/email-theme-colors-settings-variant-general.png){width="300"} | 這些設定決定主體、結構、容器、背景、連結、格點和框線的顏色。 |
   | [!UICONTROL 標題] | ![變體的標題色彩設定](./assets/email-theme-colors-settings-variant-headings.png){width="300"} | 這些設定會套用至`Heading`元素，您可以在其中為6個標題層級中的每一個層級設定文字和邊框顏色。 展開您要設定變體顏色的每個標題層級。 |
   | [!UICONTROL 段落] | ![變體的段落色彩設定](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | 這些設定會套用至`Paragraph`元素，您可以在其中為三種段落型別的每一種設定文字和邊框顏色。 展開您要為變體設定顏色的每個段落型別。 |
   | [!UICONTROL 按鈕] | 變體的![按鈕色彩設定](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | 這些設定會套用至按鈕元素，您可以在其中設定三個按鈕預設集的填色色彩、邊框色彩和文字色彩： _主要_、_次要_&#x200B;和&#x200B;_第三_。 |
@@ -247,7 +247,7 @@ ht-degree: 2%
 
 顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >
@@ -281,7 +281,7 @@ ht-degree: 2%
 
    顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右邊欄底部的&#x200B;_還原_&#x200B;圖示。 按一下&#x200B;_重做_&#x200B;圖示以重新套用變更。
 
-1. 當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >
@@ -303,7 +303,7 @@ ht-degree: 2%
 
 ## 使用主題進行電子郵件內容製作 {#use-email-theme}
 
-當您建立新的電子郵件或電子郵件範本時，您可以選擇使用品牌佈景主題，以精簡內容製作程式，並確保設計符合定義的標準。 針對新片段，您也可以在儲存片段之前套用主題。 片段從此點保持在&#x200B;_佈景主題模式_&#x200B;中，並相容於新增到同樣處於&#x200B;_佈景主題模式_&#x200B;的電子郵件和電子郵件範本。
+當您建立新的電子郵件或電子郵件範本時，您可以選擇使用品牌佈景主題，以簡化內容製作程式，並確保設計符合定義的標準。 針對新片段，您也可以在儲存片段之前套用主題。 片段從此點保持在&#x200B;_佈景主題模式_&#x200B;中，並相容於新增到同樣處於&#x200B;_佈景主題模式_&#x200B;的電子郵件和電子郵件範本。
 
 1. 選取下列其中一個動作：
 

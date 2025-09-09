@@ -1,14 +1,14 @@
 ---
 title: 預覽和測試您的電子郵件內容
-description: 瞭解如何預覽和測試您的電子郵件內容，以確保其內容和個人化設定皆沒有錯誤。
+description: 預覽包含測試設定檔的電子郵件、檢查案頭和行動轉譯、傳送校樣給收件者，以及驗證Journey Optimizer B2B edition中的個人化。
 feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 5%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="檢查您內容的呈現方式"
->abstract="定義內容後，您可以進行預覽，並檢查所使用的頻道是否正確呈現。"
+>abstract="定義內容後，您可以預覽內容，並檢查您使用的管道的演算是否正確。"
 
 使用&#x200B;_模擬內容_&#x200B;功能來預覽電子郵件內容，並將測試傳遞傳送給特定收件者。 必須定義必要的電子郵件欄位，包括&#x200B;_[!UICONTROL 寄件者姓名]_、_[!UICONTROL 寄件者地址]_、_[!UICONTROL 回覆地址]_&#x200B;和&#x200B;_[!UICONTROL 主旨列]_，才能存取預覽和測試功能。
 
@@ -69,7 +69,7 @@ ht-degree: 5%
 
 1. 在&#x200B;_傳送校樣_&#x200B;頁面中，輸入第一個收件者的電子郵件地址。
 
-1. 對於您想要加入檢閱的每個其他收件者，請按一下[新增收件者]，然後在[傳送至] **[!UICONTROL 欄位中輸入其電子郵件地址。]**&#x200B;**&#x200B;**
+1. 對於您想要加入檢閱的每個其他收件者，請按一下[新增收件者]，然後在[傳送至] **[!UICONTROL 欄位中輸入其電子郵件地址。]******
 
    您最多可以為校樣傳遞新增10個收件者。
 
