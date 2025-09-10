@@ -115,7 +115,7 @@ ht-degree: 96%
    + [治理](./admin/governance.md)
    + [使用者管理](./admin/user-management.md)
    + 管道 {#channels}
-      + [電子郵件設定](./admin/configure-channels-emails.md)
+      + [電子郵件組態](./admin/configure-channels-emails.md)
       + [簡訊設定](./admin/configure-channels-sms.md)
       + [登陸頁面設定](./admin/landing-page-settings.md)
       + [設定事件收集的資料串流](./data/aep-event-collection.md)
