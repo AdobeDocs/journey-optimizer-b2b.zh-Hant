@@ -1,12 +1,12 @@
 ---
-title: Journey Optimizer B2B edition發行說明
-description: 探索Adobe Journey Optimizer B2B edition的最新功能、增強功能和錯誤修正 — 透過新功能和產品改進保持更新。
+title: Journey Optimizer B2B Edition 發行說明
+description: 了解 Adobe Journey Optimizer B2B Edition 中的最新功能、增強功能及錯誤修正，隨時了解新功能和產品改良。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '2795'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | ---- | ---- | ----------- |
 | 功能 | 角色範本和歷程的人員參與度分數篩選器 | 您現在可以在用來建立購買群組的角色範本中以及在拆分路徑歷程節點中，使用&#x200B;_人員參與度分數_&#x200B;作為篩選器。[了解更多](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | 功能 | 購買群組自訂角色設定 | 現在您可以靈活地設定購買群組的自訂角色，從而根據自己的使用案例定義角色。[了解更多](../buying-groups/default-custom-roles.md) |
-| 功能 | 參與度分數加權設定 | 您現在可以為影響購買群組參與度分數的活動指派權重。此功能包括定義您自己的自訂分數模型，以及變更影響參與分數計算的作用中模型。 [了解更多](../admin/engagement-score-weighting.md) |
+| 功能 | 參與度分數加權設定 | 您現在可以為影響購買群組參與度分數的活動指派權重。此功能包括定義自己的自訂分數模型，以及變更影響參與度分數計算的有效模型。[了解更多](../admin/engagement-score-weighting.md) |
 | 增強功能 | 片段的條件式內容 | 現在可以使用條件式內容工具進行視覺化片段設計。[了解更多](../content/conditional-content.md) |
 | 增強功能 | 參與度分數更新 | 購買群組參與度分數邏輯已更新，以便評分標準化。此外，也可以使用會員等級參與度分數，以及整個購買群組的集體參與度分數。[了解更多](../buying-groups/engagement-scores.md) |
 | 增強功能 | 使用中的歷程可觀察性－每個節點的帳戶 | 針對使用中的帳戶歷程，您可以存取已達歷程中每個帳戶節點的帳戶清單。 |
@@ -130,7 +130,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 體驗事件轉送 | 管理員可以設定基於 Adobe Experience Platform (AEP) 的事件定義。行銷人員可以利用這些設定，建立能回應 AEP 體驗事件的帳戶歷程。<a href="../admin/configure-aep-events.md">了解更多</a> |
-| 功能 | 付費媒體目標 | 透過帳戶歷程判斷已知人員是否符合付費媒體行銷活動的資格，以便在 LinkedIn 等廣告平台上進一步與他們互動。使用分割路徑節點，根據特定行為來劃分帳戶對象，並識別需要額外參與的帳戶。 然後，透過 Real-time CDP 將這些帳戶中的人員新增至外部客戶客群中，並新增至支援的付費媒體目標。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解更多</a> |
+| 功能 | 付費媒體目標 | 透過帳戶歷程判斷已知人員是否符合付費媒體行銷活動的資格，以便在 LinkedIn 等廣告平台上進一步與他們互動。使用分割路徑節點，以根據特定行為細分帳戶客群，並找出需要提高參與度的帳戶。然後，透過 Real-time CDP 將這些帳戶中的人員新增至外部客戶客群中，並新增至支援的付費媒體目標。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解更多</a> |
 | 功能 | 智慧儀表板 | 透過購買群組的帳戶歷程檢視其進度，包括由 AI 產生的深入分析，以便進行智慧化分析和準確的帳戶優先排序。<a href="../dashboards/intelligent-dashboard.md">了解更多</a> |
 | 功能 | 購買群組和帳戶詳細資訊 | 檢視購買群組和帳戶層級的深入分析，以便了解更多背景和歷史資料，然後再開始與客戶互動。<p>購買群組詳細資訊包括已偵測到的任何第一方意圖。<a href="../buying-groups/buying-group-details.md">了解更多</a><p>帳戶詳細資訊會加強顯示偵測到參與度的意圖激增情形，以便您可以通知銷售人員注意那些已經準備好接受客製化銷售導向互動的帳戶。<a href="../accounts/account-details.md">了解更多</a> |
 | 功能 | 歷程概觀 | 存取帳戶歷程時，「概觀」索引標籤會提供使用中帳戶歷程的綜合概況，並利用圓形圖和長條圖分類及量化完成情況和參與活動，以詳細說明帳戶進度。<a href="../dashboards/journeys-dashboard.md">了解更多</a> |

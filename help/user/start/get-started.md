@@ -1,13 +1,13 @@
 ---
 title: 管理員和行銷人員的上線指引
-description: 管理員和行銷人員入門指南 — 在Journey Optimizer B2B edition中設定沙箱、設定頻道、建立購買群組和設計帳戶歷程。
+description: 管理員和行銷人員的上線指南：在 Journey Optimizer B2B Edition 中設定沙箱、設定管道、建立購買群組以及設計帳戶歷程。
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
 source-wordcount: '716'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
