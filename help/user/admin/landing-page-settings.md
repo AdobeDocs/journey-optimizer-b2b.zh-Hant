@@ -10,7 +10,7 @@ exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 28%
+ht-degree: 31%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="缺少資料流 ID"
->abstract="子網域缺少正確路由所需的資料串流ID。 於「設定」中進行設定以繼續執行"
+>abstract="子網域缺少正確路由所需的資料流 ID。於「設定」中進行設定以繼續執行"
 
 設定&#x200B;**[!UICONTROL Datastream]**&#x200B;選項，設定登陸頁面事件集合的資料流。
 
