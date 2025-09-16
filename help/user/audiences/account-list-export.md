@@ -1,13 +1,13 @@
 ---
 title: 匯出帳戶
-description: 在Journey Optimizer B2B edition中，使用購買群組和參與分數篩選器的第三方平台，將篩選的帳戶清單匯出為CSV。
+description: 將已篩選帳戶清單匯出為 CSV，以用於 Journey Optimizer B2B Edition 中使用購買群組和參與度分數篩選器的第三方平台。
 feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 

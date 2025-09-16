@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition 文件
-description: Journey Optimizer B2B edition的完整檔案 — 探索用於上線、建立購買群組、建立帳戶歷程及管理內容的可用資源。
+description: Journey Optimizer B2B Edition 的完整文件：探索用於上線、建立購買群組、建置帳戶歷程，以及管理內容的可用資源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ B2B 行銷策略師現在可以透過自訂購買群組角色，提升購買群�
 
 [!BADGE 了解更多]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="了解自訂購買群組角色"}
 
->[!TAB 自訂參與分數加權]
+>[!TAB 自訂參與度分數加權]
 
-將自訂權重指派給參與活動，讓參與分數反映您最高價值的活動。 透過強調高意圖訊號，您的團隊可以更有效地識別具有最大購買潛力的客戶，並排定其優先順序。
+指派自訂權重至參與活動，以便參與度分數反映您的最高價值活動。透過強調高意圖訊號，您的團隊可以更有效地識別並確認最具購買潛力之帳戶的優先順序。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="瞭解自訂參與分數加權"}
+[!BADGE 了解更多]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="了解自訂參與度分數加權"}
 
 >[!TAB GenStudio 電子郵件體驗]
 
@@ -137,7 +137,7 @@ B2B 行銷策略師現在可以透過自訂購買群組角色，提升購買群�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">文件</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>

@@ -3,7 +3,7 @@ title: Adobe Journey Optimizer B2B Edition 概觀
 description: 了解 Adobe Journey Optimizer B2B Edition：透過購買群組、AI 洞察及 Experience Platform 整合來協調帳戶歷程，以進行 B2B 行銷。
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## 使用購買群組的帳戶歷程
 
-比較 Adobe Journey Optimizer B2B Edition、Marketo Engage 以及 Adobe Journey Optimizer 標準時，關鍵區別在於它是由帳戶歷程推動帳戶完成整個歷程，而並非由人員推動。與某個帳戶關聯的人員，其歷程通常不會線性發展，而是取決於該帳戶在整個歷程中的進度，而非人員的個別動作。例如，當帳戶處於購買歷程的早期階段時，所傳送的資訊可能與一般解決方案功能或特色有關。在購買過程的後續進展中，所傳送的內容可能會更加針對特定的優惠，或是以成功銷售為目標的其他項目。購買解決方案後，所傳送的資訊可能會再次變更，改為提供操作指南、最佳實務或即將舉辦的活動相關資訊，或是有關其他向上銷售的內容。即使某人並未與早期階段的內容互動，您仍會希望根據其帳戶或購買群組內其他人員的行動 (而非他們自身的行動)，將其推進至目前階段。
+以 Adobe Journey Optimizer B2B Edition 對比 Marketo Engage 以及 Adobe Journey Optimizer 標準版時，關鍵區別在於帳戶歷程推動帳戶完成整個歷程，而並非由人員推動。與某個帳戶關聯的人員，其歷程通常不會線性發展，而是取決於該帳戶在整個歷程中的進度，而非人員的個別動作。例如，當帳戶處於購買歷程的早期階段時，所傳送的資訊可能與一般解決方案功能或特色有關。在購買過程的後續進展中，所傳送的內容可能會更加針對特定的優惠，或是以成功銷售為目標的其他項目。購買解決方案後，所傳送的資訊可能會再次變更，改為提供操作指南、最佳實務或即將舉辦的活動相關資訊，或是有關其他向上銷售的內容。即使某人並未與早期階段的內容互動，您仍會希望根據其帳戶或購買群組內其他人員的行動 (而非他們自身的行動)，將其推進至目前階段。
 
 ## 高階架構
 

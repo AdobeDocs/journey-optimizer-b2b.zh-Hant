@@ -1,13 +1,13 @@
 ---
 title: 帳戶客群
-description: 透過細分建立帳戶對象，以鎖定特定帳戶，並在Journey Optimizer B2B edition中啟用個人化的帳戶型歷程。
+description: 透過細分來建置帳戶客群以鎖定特定帳戶，並在 Journey Optimizer B2B Edition 中啟用個人化帳戶型歷程。
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 客群是具有相似行為和/或特徵的一組人員。Journey Optimizer B2B Edition 使用 Adobe Real-Time Customer Data Platform B2B 和 B2P 版本中的帳戶細分功能。使用帳戶細分，使用者可以透過系統內任何 B2B 實體的資料來產生帳戶客群。這些帳戶客群將會成為 Journey Optimizer B2B Edition 帳戶歷程的輸入資料，以利順利啟用和提供個人化功能。
 
-請參閱 [Adobe Experience Platform 細分服務文件](https://experienceleague.adobe.com/zh-hant/docs/ experience-platform/segmentation/types/account-audiences){target="_blank"}，以了解帳戶客群及其定義方式。
+請參閱 [Adobe Experience Platform 細分服務文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}，以了解帳戶客群及其定義方式。
 
 ## 帳戶客群工作流程
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 ## 建立帳戶客群
 
-透過建立帳戶細分來定義帳戶客群。您可以選擇直接在 Journey Optimizer B2B Edition 應用程式中建立帳戶細分，或者可以使用 [客戶細分工具使用者介面](https://experienceleague.adobe.com/zh-hant/docs/ experience-platform/segmentation/ui/segment-builder){target="_blank"}。您可以使用以下步驟，在 Journey Optimizer B2B Edition 中建立帳戶細分。
+透過建立帳戶細分來定義帳戶客群。您可以選擇直接在 Journey Optimizer B2B Edition 應用程式中建立帳戶細分，或者可以使用 [客戶細分工具使用者介面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}。您可以使用以下步驟，在 Journey Optimizer B2B Edition 中建立帳戶細分。
 
 1. 在左側導覽中，選擇「**[!UICONTROL 帳戶]** > **[!UICONTROL 客群]**」。
 
