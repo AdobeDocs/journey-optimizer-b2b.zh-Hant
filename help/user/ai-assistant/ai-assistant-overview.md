@@ -30,7 +30,7 @@ Journey Optimizer B2B edition中的AI助理是從Adobe Experience Platform[中](
 
 ## Journey Optimizer B2B edition中的AI助理功能
 
-為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料的內部表示法，也稱為&#x200B;_&#x200B;**_知識圖表_**&#x200B;_，這是概念、資料及指定答案的中繼資料的完整網路。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
+為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料的內部表示法，也稱為&#x200B;_**_知識圖表_**_，這是概念、資料及指定答案的中繼資料的完整網路。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
 
 * Experience League檔案。
 * 運算成品，例如結構描述、欄位、對象和歷程。
@@ -92,7 +92,7 @@ Journey Optimizer B2B edition中的AI助理是透過隱私、安全性及控管�
 
 * 您必須有明確的許可權才能與AI助理互動。
 
-   * 管理員可以使用[許可權UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/browse){target="_blank"}來設定許可權。
+   * 管理員可以使用[許可權UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}來設定許可權。
 
    * 許可權很細微，您的沙箱管理員可以設定哪些使用者可以提出不同的問題類別（使用AI Assistant的產品知識型問題或操作深入分析的問題）。
 
