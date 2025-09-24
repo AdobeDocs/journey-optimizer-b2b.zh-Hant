@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B Edition 中的最新功能、增強功能及錯誤修正，隨時了解新功能和產品改良。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
 workflow-type: tm+mt
-source-wordcount: '2795'
-ht-degree: 100%
+source-wordcount: '3016'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,23 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## 2025.9 發行說明
+
+**部署日期**：2025年9月30日
+
+此版本包括下列新功能和增強功能：
+
+| 類型 | 項目 | 說明 |
+| ---- | ---- | ----------- |
+| 功能 | 電子郵件內容共同作業 | 您現在可以在電子郵件資產的情境下，評論與其他Journey Optimizer B2B edition使用者共同作業的情況。 您可以標籤團隊成員，讓他們收到包含評論詳細資訊的電子郵件通知。 通知也以脈衝通知的形式提供。<!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| 功能 | 用於電子郵件設計的深色模式 | 電子郵件設計空間現在包含切換至&#x200B;_深色模式_&#x200B;的功能。 在深色模式下，您可以預覽電子郵件內容，並定義要專門針對在深色模式下檢視其電子郵件的收件者顯示的自訂設定。<!-- [Learn more](../content/email-dark-mode.md) --> |
+| 增強功能 | 歷程 — 依角色中的人數分割路徑 | 使用依帳戶節點的分割路徑，以一或多個購買群組角色中的人數來鎖定帳戶。 在此路徑中，您可以根據角色深度，評估購買群組對銷售警示和其他參與度的整備程度。<!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
+| 增強功能 | 歷程 — 事件的人員篩選器 | 使用人物篩選器來監聽人物事件。 這些篩選器包括鎖定相符購買群組的特定角色的能力。<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+
+>[!NOTE]
+>
+>版本變更從2025年9月30日開始部署，並分階段推出每個功能。 功能的發行日期和增強功能可能有所變更。
 
 ## 2025.8 發行說明
 
