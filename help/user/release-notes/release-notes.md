@@ -4,9 +4,9 @@ description: 了解 Adobe Journey Optimizer B2B Edition 中的最新功能、增
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3016'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,20 +27,20 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 ## 2025.9 發行說明
 
-**部署日期**：2025年9月30日
+**部署日期**：2025 年 9 月 30 日
 
 此版本包括下列新功能和增強功能：
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 電子郵件內容共同作業 | 您現在可以在電子郵件資產的情境下，評論與其他Journey Optimizer B2B edition使用者共同作業的情況。 您可以標籤團隊成員，讓他們收到包含評論詳細資訊的電子郵件通知。 通知也以脈衝通知的形式提供。<!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| 功能 | 用於電子郵件設計的深色模式 | 電子郵件設計空間現在包含切換至&#x200B;_深色模式_&#x200B;的功能。 在深色模式下，您可以預覽電子郵件內容，並定義要專門針對在深色模式下檢視其電子郵件的收件者顯示的自訂設定。<!-- [Learn more](../content/email-dark-mode.md) --> |
-| 增強功能 | 歷程 — 依角色中的人數分割路徑 | 使用依帳戶節點的分割路徑，以一或多個購買群組角色中的人數來鎖定帳戶。 在此路徑中，您可以根據角色深度，評估購買群組對銷售警示和其他參與度的整備程度。<!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| 增強功能 | 歷程 — 事件的人員篩選器 | 使用人物篩選器來監聽人物事件。 這些篩選器包括鎖定相符購買群組的特定角色的能力。<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| 功能 | 電子郵件內容協同作業 | 您現在可以在電子郵件資產的情境下，與其他的 Journey Optimizer B2B edition 使用者進行評論和協作。您可以標記團隊成員，以便他們收到包含評論之詳細資訊的電子郵件通知。通知也可以採用即時簡短通知的形式。<!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| 功能 | 電子郵件設計的深色模式 | 電子郵件設計空間現在提供切換成&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以預覽電子郵件內容，並針對在深色模式下檢視電子郵件的收件者，定義要特別對他們顯示的自訂設定。<!-- [Learn more](../content/email-dark-mode.md) --> |
+| 增強功能 | 歷程 - 依特定角色中的人數分割路徑 | 使用「依帳戶分割路徑」節點，根據帳戶中擁有一個或多個購買群組角色的人數來鎖定帳戶。在此路徑中，您可以根據角色深度評估購買群組是否已準備好接收銷售警報和其他互動。<!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
+| 增強功能 | 歷程 - 事件的人員篩選器 | 使用人員篩選器來監聽人員事件。這些篩選器擁有鎖定相符購買群組中特定角色的能力。<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
 
 >[!NOTE]
 >
->版本變更從2025年9月30日開始部署，並分階段推出每個功能。 功能的發行日期和增強功能可能有所變更。
+>此發布變更將於 2025 年 9 月 30 日開始部署，每個功能將分階段推出。功能及增強功能的發行日期隨時可能變動。
 
 ## 2025.8 發行說明
 
