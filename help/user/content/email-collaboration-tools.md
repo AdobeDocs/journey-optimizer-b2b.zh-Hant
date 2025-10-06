@@ -3,7 +3,8 @@ title: 傳送Collaboration工具電子郵件
 description: 在Journey Optimizer B2B edition中共同使用電子郵件。 新增評論、邀請稽核者、解決意見反應，並簡化團隊的稽核工作流程。
 feature: Email Authoring, Content
 role: User
-source-git-commit: cdc5963c1222fe2e225ad53467bdba83ccd3207b
+hidefromtoc: true
+source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 1%
@@ -44,7 +45,7 @@ Display visual indicators (badges) for elements with associated comments -->
 
    ![在Adobe Experience Platform許可權UI中管理B2B電子郵件許可權設定](./assets/emails-aep-permissions.png){width="700" zoomable="yes"}
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
    已指派給該角色的任何使用者的許可權都會自動更新。
 
@@ -54,7 +55,7 @@ Display visual indicators (badges) for elements with associated comments -->
 
      如果尚未建立使用者，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}。
 
-   * 按一下[儲存]以套用變更。**&#x200B;**
+   * 按一下[儲存]以套用變更。****
 
 +++
 

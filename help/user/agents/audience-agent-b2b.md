@@ -3,7 +3,8 @@ title: Audience Agent B2B
 description: Journey OptimizerB2B Edition中的Audience Agent B2B使用意圖分析和角色對應來建立購買群組，並加速B2B行銷工作流程。
 feature: Audiences, AI Assistant
 role: User
-source-git-commit: 7f1c1533c226a2626978ada221c7026bc3d1432b
+hidefromtoc: true
+source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
