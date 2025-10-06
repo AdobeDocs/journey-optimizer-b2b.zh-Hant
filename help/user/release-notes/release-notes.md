@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B Edition 中的最新功能、增強功能及錯誤修正，隨時了解新功能和產品改良。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: ht
-source-wordcount: '3016'
-ht-degree: 100%
+source-git-commit: 93a5b236c9d6f4e11d18704f1feb4804a79989f6
+workflow-type: tm+mt
+source-wordcount: '3000'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,6 @@ Adobe Journey Optimizer B2B Edition 持續提供新功能、增強現有功能�
 Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方式建置，並繼承其最新的創新功能和改進項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/latest){target="_blank"}。
 
 請檢視此[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，以了解有關權益、效能護欄及限制的資訊。
-
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -33,10 +32,10 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 電子郵件內容協同作業 | 您現在可以在電子郵件資產的情境下，與其他的 Journey Optimizer B2B edition 使用者進行評論和協作。您可以標記團隊成員，以便他們收到包含評論之詳細資訊的電子郵件通知。通知也可以採用即時簡短通知的形式。<!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| 功能 | 電子郵件設計的深色模式 | 電子郵件設計空間現在提供切換成&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以預覽電子郵件內容，並針對在深色模式下檢視電子郵件的收件者，定義要特別對他們顯示的自訂設定。<!-- [Learn more](../content/email-dark-mode.md) --> |
-| 增強功能 | 歷程 - 依特定角色中的人數分割路徑 | 使用「依帳戶分割路徑」節點，根據帳戶中擁有一個或多個購買群組角色的人數來鎖定帳戶。在此路徑中，您可以根據角色深度評估購買群組是否已準備好接收銷售警報和其他互動。<!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| 增強功能 | 歷程 - 事件的人員篩選器 | 使用人員篩選器來監聽人員事件。這些篩選器擁有鎖定相符購買群組中特定角色的能力。<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| 功能 | 電子郵件內容協同作業 | 您現在可以在電子郵件資產的情境下，與其他的 Journey Optimizer B2B edition 使用者進行評論和協作。您可以標記團隊成員，以便他們收到包含評論之詳細資訊的電子郵件通知。通知也以脈衝通知的形式提供。 [了解更多](../content/email-collaboration-tools.md) |
+| 功能 | 電子郵件設計的深色模式 | 電子郵件設計空間現在提供切換成&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以預覽電子郵件內容，並定義要專門針對在深色模式下檢視其電子郵件的收件者顯示的自訂設定。 [了解更多](../content/email-dark-mode.md) |
+| 增強功能 | 歷程 - 依特定角色中的人數分割路徑 | 使用「依帳戶分割路徑」節點，根據帳戶中擁有一個或多個購買群組角色的人數來鎖定帳戶。在此路徑中，您可以根據角色深度，評估購買群組對銷售警示和其他參與度的整備程度。 [了解更多](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
+| 增強功能 | 歷程 - 事件的人員篩選器 | 使用人員篩選器來監聽人員事件。這些篩選器包括鎖定相符購買群組的特定角色的能力。 [了解更多](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
@@ -56,10 +55,6 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 增強功能 | 片段的條件式內容 | 現在可以使用條件式內容工具進行視覺化片段設計。[了解更多](../content/conditional-content.md) |
 | 增強功能 | 參與度分數更新 | 購買群組參與度分數邏輯已更新，以便評分標準化。此外，也可以使用會員等級參與度分數，以及整個購買群組的集體參與度分數。[了解更多](../buying-groups/engagement-scores.md) |
 | 增強功能 | 使用中的歷程可觀察性－每個節點的帳戶 | 針對使用中的帳戶歷程，您可以存取已達歷程中每個帳戶節點的帳戶清單。 |
-
->[!NOTE]
->
->此發布變更將於 2025 年 8 月 26 日開始部署，每個功能將分階段推出。功能的發行日期和增強功能可能有所變更。
 
 ## 2025.6 發行說明
 
@@ -108,7 +103,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 帳戶清單歷程協調 | 使用歷程動作節點來新增和移除靜態帳戶清單的帳戶。<a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解更多</a> |
 | 增強功能 | 在 Marketo Engage 中篩選歷程會籍 | 使用 Adobe Journey Optimizer B2B Edition 帳戶清單作為歷程客群，然後使用 Marketo Engage 智慧清單中的「_帳戶清單成員_」篩選器。<a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解更多</a> |
 | 功能 | 閒置狀態篩選器 | 根據 Marketo Engage 行銷活動和方案 (包括電子郵件閒置狀態、有趣時刻、資料值變更以及造訪過的網頁) 中的閒置狀態來協調歷程。<a href="../journeys/split-merge-paths-nodes.md#activity-filtering">了解更多</a> |
-| 增強功能 | 造訪過的網頁篩選器 | 根據所造訪過與 Marketo Engage 行銷活動和方案相關之網頁的活動來協調歷程。<a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">了解更多</a> |
+| 增強功能 | 造訪過的網頁篩選器 | 根據所造訪過與 Marketo Engage 行銷活動和方案相關之網頁的活動來協調歷程。<a href="../journeys/split-merge-paths-nodes.md#people-path-filters">了解更多</a> |
 | 增強功能 | 電子郵件清單 | 檢視使用中和草稿狀態的電子郵件全域清單，以便在相關帳戶歷程中搜尋、檢閱與更新這些電子郵件。<a href="../content/emails-list.md">了解更多</a> |
 
 ## 2025.3 發行說明
