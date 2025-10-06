@@ -17,7 +17,7 @@ ht-degree: 2%
 
 按一下右側面板上&#x200B;**[!UICONTROL 詳細資料]**&#x200B;索引標籤中的&#x200B;_[!UICONTROL 編輯電子郵件內容]_。
 
-![按一下[編輯電子郵件內容] ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![按一下[編輯電子郵件內容] &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 此動作會啟動電子郵件設計工具，您可在其中從下列選項中選擇要如何設計電子郵件：
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 >
 >You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
-當您滿意內容時，請按一下[儲存]。****
+當您滿意內容時，請按一下[儲存]。**&#x200B;**
 
 ## 匯入現有的HTML內容
 
