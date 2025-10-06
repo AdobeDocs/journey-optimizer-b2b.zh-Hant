@@ -29,7 +29,7 @@ _深色模式_&#x200B;可讓支援的電子郵件使用者端或應用程式針�
 
 ![淺色和深色模式概念圖，以淺色和深色主題顯示內容轉譯](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-當您在[視覺化設計空間中](./email-authoring.md)建立您的電子郵件內容[!DNL Journey Optimizer B2B Edition]時，您可以切換至&#x200B;_&#x200B;**[!UICONTROL 深色模式]**&#x200B;_&#x200B;檢視。 在此檢視中，您也可以定義特定的自訂設定，以便在啟用電子郵件使用者端的深色模式時支援這些使用者端。
+當您在[視覺化設計空間中](./email-authoring.md)建立您的電子郵件內容[!DNL Journey Optimizer B2B Edition]時，您可以切換至&#x200B;_**[!UICONTROL 深色模式]**_&#x200B;檢視。 在此檢視中，您也可以定義特定的自訂設定，以便在啟用電子郵件使用者端的深色模式時支援這些使用者端。
 
 ## 電子郵件使用者端注意事項
 
