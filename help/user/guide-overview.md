@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition 文件
 description: Journey Optimizer B2B Edition 的完整文件：探索用於上線、建立購買群組、建置帳戶歷程，以及管理內容的可用資源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 78%
 
 >[!TAB 電子郵件內容共同作業]
 
-電子郵件設計空間包括用於發表評論和解決問題的共同作業工具，因此行銷團隊可以直接在[!DNL Journey Optimizer B2B Edition]內順暢地檢閱、討論及完成電子郵件資產。 使用者不必透過外部工具（例如聊天、電子郵件對話串或試算表）分享草稿，而是在電子郵件設計空間評論、建議編輯和解決意見反應。 您可以標籤團隊成員，讓他們收到包含評論詳細資訊的電子郵件或脈衝通知。
+電子郵件設計空間包括用於註解和解決問題的共同作業工具，讓行銷團隊可以直接在 [!DNL Journey Optimizer B2B Edition] 內順暢地審閱、討論及完成電子郵件資產。使用者無須透過外部工具 (如聊天室、電子郵件對話串或試算表) 共用草稿，而是在電子郵件設計空間內進行註解、提出編輯建議和解決意見回饋提出的問題。您可以標記團隊成員，以便他們收到包含註解之詳細資訊的電子郵件或即時簡短通知。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="瞭解電子郵件內容共同作業工具"}
+[!BADGE 了解更多]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="了解電子郵件內容共同作業工具"}
 
 >[!TAB 深色模式電子郵件設計]
 
-電子郵件設計空間現在包含&#x200B;_深色模式_&#x200B;預覽和設定。 深色模式可讓支援的電子郵件使用者端或應用程式針對文字、按鈕和其他視覺元素，顯示背景較暗且顏色較淺的電子郵件。 預覽呈現、自訂設定、確保協助工具，以及在電子郵件使用者端間進行測試。
+電子郵件設計空間現在包括&#x200B;_深色模式_&#x200B;預覽和設定。深色模式讓支援的電子郵件用戶端或應用程式可以用深色背景顯示電子郵件，並用較淺的顏色顯示文字、按鈕及其他視覺元素。預覽轉譯結果、自訂設定、確保無障礙功能，以及對多個電子郵件用戶端進行測試。
 
-[!BADGE 了解更多]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="瞭解深色模式電子郵件設計"}
+[!BADGE 了解更多]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="了解深色模式電子郵件設計"}
 
 >[!TAB 人員參與度分數]
 
@@ -137,7 +137,7 @@ B2B 行銷策略師現在可以透過自訂購買群組角色，提升購買群�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">文件</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
