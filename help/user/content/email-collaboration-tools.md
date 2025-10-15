@@ -3,17 +3,16 @@ title: 傳送Collaboration工具電子郵件
 description: 在Journey Optimizer B2B edition中共同使用電子郵件。 新增評論、邀請稽核者、解決意見反應，並簡化團隊的稽核工作流程。
 feature: Email Authoring, Content
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # 電子郵件共同作業工具
 
-[電子郵件設計空間](./email-authoring.md)包括用於發表評論和解決問題的共同作業工具，以便行銷團隊能夠直接在[!DNL Journey Optimizer B2B Edition]內順暢地檢閱、討論及完成電子郵件資產。 使用者不必透過外部工具（例如聊天、電子郵件對話串或試算表）分享草稿，而是在電子郵件設計空間評論、建議編輯和解決意見反應。 使用這些工具簡化工作流程、減少錯誤，並確保利害關係人在帳戶歷程中啟動電子郵件行銷活動之前保持一致：
+[電子郵件設計空間](./email-authoring.md)包括用於發表評論和解決問題的共同作業工具，以便行銷團隊能夠直接在[!DNL Journey Optimizer B2B Edition]內順暢地檢閱、討論及完成電子郵件資產。 使用者無須透過外部工具 (如聊天室、電子郵件對話串或試算表) 共用草稿，而是在電子郵件設計空間內進行註解、提出編輯建議和解決意見回饋提出的問題。使用這些工具簡化工作流程、減少錯誤，並確保利害關係人在帳戶歷程中啟動電子郵件行銷活動之前保持一致：
 
 * **_集中式意見反應_** — 在一個地方收集和追蹤所有意見反應。
 
@@ -45,7 +44,7 @@ Display visual indicators (badges) for elements with associated comments -->
 
    ![在Adobe Experience Platform許可權UI中管理B2B電子郵件許可權設定](./assets/emails-aep-permissions.png){width="700" zoomable="yes"}
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
    已指派給該角色的任何使用者的許可權都會自動更新。
 
@@ -55,7 +54,7 @@ Display visual indicators (badges) for elements with associated comments -->
 
      如果尚未建立使用者，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}。
 
-   * 按一下[儲存]以套用變更。**&#x200B;**
+   * 按一下[儲存]以套用變更。****
 
 +++
 
