@@ -35,7 +35,7 @@ ht-degree: 8%
 
 ## GenStudio內容產生功能
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"}是一款創造性的AI優先應用程式，可讓行銷團隊根據品牌標準並遵守其企業政策，建立具影響力、個人化的廣告和電子郵件。 透過運用Adobe AI技術，提供一套完整的工具，可簡化內容建立及管理的複雜性，讓創意人員可專注在創新上。
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html){target="_blank"}是一款創造性的AI優先應用程式，可讓行銷團隊根據品牌標準並遵守其企業政策，建立具影響力、個人化的廣告和電子郵件。 透過運用Adobe AI技術，提供一套完整的工具，可簡化內容建立及管理的複雜性，讓創意人員可專注在創新上。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [建立品牌內行銷電子郵件](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
