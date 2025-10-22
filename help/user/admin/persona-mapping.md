@@ -2,11 +2,10 @@
 title: 角色對應
 description: 瞭解如何對應人員屬性來建立購買群組的簡化角色範本，以設定帳戶式行銷的角色。
 feature: Setup, Buying Groups
-hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 role: Admin
-source-git-commit: e301dfd5ac1421eb73e80b1d772d1b17f9ef3a1e
+source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
