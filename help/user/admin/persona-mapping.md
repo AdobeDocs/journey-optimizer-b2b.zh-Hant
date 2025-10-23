@@ -5,9 +5,9 @@ feature: Setup, Buying Groups
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 role: Admin
-source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
+source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -76,10 +76,7 @@ _角色對應_&#x200B;清單包含根據工作標題屬性定義的五個預設�
 
   ![篩選顯示的事件定義](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
-* 按一下左上方的&#x200B;_篩選器_ （![篩選器圖示](../assets/do-not-localize/icon-filter.svg) ）圖示，使用下列任一屬性來篩選顯示的清單：
-
-   * ？
-   * ?
+* 按一下左上方的&#x200B;_篩選器_ （![篩選器圖示](../assets/do-not-localize/icon-filter.svg) ）圖示，以依屬性篩選顯示的清單。
 
 ## 建立角色
 
@@ -114,7 +111,6 @@ _角色對應_&#x200B;清單包含根據工作標題屬性定義的五個預設�
 ## 編輯角色
 
 1. 若要存取角色的詳細資訊，請按一下名稱。
-
 
 ## 刪除角色
 
