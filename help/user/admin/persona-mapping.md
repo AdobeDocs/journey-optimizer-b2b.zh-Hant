@@ -1,18 +1,16 @@
 ---
 title: 角色對應
-description: 瞭解如何對應人員屬性來建立購買群組的簡化角色範本，以設定帳戶式行銷的角色。
+description: 瞭解如何為B2B行銷設定角色對應。 在Journey Optimizer B2B edition中對應人員屬性以建立角色範本，並最佳化購買群組目標定位。
 feature: Setup, Buying Groups
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 role: Admin
-source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
 
-# 角色對應
+# 人物誌對應
 
 角色是以帳戶為基礎的行銷(ABM)方法中的關鍵面向，角色可協助行銷人員根據目標帳戶中個人的特定需求、偏好和痛點調整策略。 行銷人員可以為每個角色建立詳細的設定檔，包括其背景、責任、痛點和偏好的通訊管道。 透過這些定義，管理員可以根據Journey Optimizer B2B edition中的人員屬性來設定角色，讓角色範本可以使用簡化且一致的角色條件來擷取這些角色。
 
@@ -92,7 +90,7 @@ _角色對應_&#x200B;清單包含根據工作標題屬性定義的五個預設�
 
    * 按一下&#x200B;**[!UICONTROL 選取人員屬性]**。
 
-   * 在&#x200B;_[!UICONTROL 選取人員屬性]_&#x200B;對話方塊中，選取您要對應的每個屬性的核取方塊（最多5個）。
+   * 在對話方塊中，選取每一個要對應的屬性的核取方塊（最多五個）。
 
      您可以按一下右上角的&#x200B;_欄設定_ （ ![欄設定](../assets/do-not-localize/icon-column-settings.svg) ）圖示來自訂顯示的表格。
 
@@ -110,7 +108,7 @@ _角色對應_&#x200B;清單包含根據工作標題屬性定義的五個預設�
 
 ## 編輯角色
 
-1. 若要存取角色的詳細資訊，請按一下名稱。
+按一下角色名稱以存取及編輯角色的詳細資料，
 
 ## 刪除角色
 
