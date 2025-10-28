@@ -51,11 +51,11 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 
 ![存取品牌化網域設定](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-此設定會為連線的Marketo Engage執行個體中的一或多個工作區定義您的主要網域。 新電子郵件會使用此網域作為預設值，但行銷人員可以[根據每封電子郵件](../content/add-email.md#define-the-email-settings)覆寫它。 如需定義預設品牌定義域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
+此設定會為連線的Marketo Engage執行個體中的一或多個工作區定義您的主要網域。 新電子郵件會使用此網域作為預設值，但行銷人員可以[根據每封電子郵件](../content/add-email.md#define-the-email-settings)覆寫它。 如需定義預設品牌定義域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
 
 >[!NOTE]
 >
->如果您正在行銷多個品牌，且希望每個品牌都有自己的品牌追蹤連結，您可以新增額外的品牌領域名稱。 如需新增多個品牌化網域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
+>如果您正在行銷多個品牌，且希望每個品牌都有自己的品牌追蹤連結，您可以新增額外的品牌領域名稱。 如需新增多個品牌化網域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
 
 ### [!UICONTROL 自訂標頭選項] {#custom-header-options}
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 >
 >若要在Adobe Marketo Engage中存取及編輯這些設定，您必須擁有產品管理員許可權。
 
-如需設定通訊限制的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}。
+如需設定通訊限制的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}。
 
 ## SPF/DKIM
 
@@ -146,4 +146,4 @@ Marketo Engage使用兩種方法來確認機器人活動：
 >
 >若要在Adobe Marketo Engage中存取及編輯這些設定，您必須擁有產品管理員許可權。
 
-如需設定機器人活動選項的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
+如需設定機器人活動選項的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
