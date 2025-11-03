@@ -4,7 +4,7 @@ description: 從頭開始建立可重複使用的電子郵件範本、HTML匯入
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
+source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 電子郵件範本
 
-為了加速並改善設計流程，您可以建立獨立的電子郵件範本，以重複使用[!DNL Adobe Journey Optimizer B2B Edition]帳戶歷程中的自訂內容。 透過範本，您的內容導向團隊成員可以在歷程之外處理電子郵件內容。 行銷策略師隨後可在其帳戶歷程中重複使用這些獨立範本，並加以調整。 例如，一個團隊成員只負責內容，無權存取帳戶歷程。 但是，他們可以建立電子郵件範本，行銷人員可以選取作為電子郵件通訊的起點，並根據歷程的需求進行自訂。
+為了加快並改善設計流程，您可以建立獨立的電子郵件範本，以在[!DNL Adobe Journey Optimizer B2B Edition]帳戶歷程中重複使用您的自訂內容。 透過範本，您的內容導向團隊成員可以在歷程之外處理電子郵件內容。 行銷策略師隨後可重複使用這些獨立範本，並在其歷程中加以調整。 例如，一個團隊成員只負責內容，無權存取帳戶歷程。 但是，他們可以建立電子郵件範本，行銷人員可以選取作為電子郵件通訊的起點，並根據歷程的需求進行自訂。
 
 ## 存取和管理電子郵件範本
 

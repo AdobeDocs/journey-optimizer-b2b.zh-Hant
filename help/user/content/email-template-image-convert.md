@@ -2,7 +2,7 @@
 title: 將影像轉換為電子郵件範本
 description: 使用Journey Optimizer B2B edition將影像檔案轉換為HTML電子郵件範本。 上傳PNG/JPEG檔案並自動產生可重複使用的電子郵件內容。
 feature: Email Authoring, Content
-source-git-commit: afac631110f27c59f73aaf4761e3739c772258be
+source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -11,11 +11,9 @@ ht-degree: 0%
 
 # 將影像轉換為電子郵件範本
 
-您可以輕鬆地將儲存為影像的設計檔案(PNG或JPEG)轉換為可透過電子郵件使用範本的HTML，節省您的網路團隊寶貴的時間和資源。
-
 建立和更新電子郵件範本是行銷內容supply chain中的基本元件，但由於HTML的手動編碼，這些工作通常需要相當的時間和資源。 傳統上，行銷團隊會仰賴代理商或IT團隊開發這些範本。 新的電子郵件範本影像 — HTML工具可讓行銷人員將設計檔案轉換為HTML程式碼範本，藉此簡化此程式。 轉換後的HTML已準備好在電子郵件設計空間中進行進一步編輯。 此工具支援JPEG和PNG檔案型別，並具備拖放介面。
 
-直覺式範本產生器會將影像轉換為HTML程式碼範本，以便使用電子郵件設計工具進行修改。 行銷人員或設計專業人士可以上傳影像並快速產生電子郵件範本，無需手動HTML編碼。 此工具支援從JPEG和PNG檔案型別轉換為HTML編碼的電子郵件範本。
+您可以輕鬆地將儲存為影像的設計檔案(PNG或JPEG)轉換為可透過電子郵件使用範本的HTML，節省您的網路團隊寶貴的時間和資源。 直覺式範本產生器會將影像轉換為HTML編碼的電子郵件範本，以便使用電子郵件設計工具進行修改。 行銷人員或設計專業人士可以上傳影像並快速產生電子郵件範本，無需手動HTML編碼。 此工具支援從JPEG和PNG檔案型別轉換為HTML編碼的電子郵件範本。
 
 >[!BEGINSHADEBOX]
 
