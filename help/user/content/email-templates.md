@@ -4,7 +4,7 @@ description: 從頭開始建立可重複使用的電子郵件範本、HTML匯入
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 若要依名稱搜尋範本，請在搜尋列中輸入文字字串。 按一下左上方的&#x200B;_篩選器_&#x200B;圖示，以根據建立或修改日期以及您已建立或修改的範本來篩選清單。
 
-![存取電子郵件範本庫，並依名稱和日期篩選](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
+![存取電子郵件範本庫，並依名稱和日期篩選](./assets/templates-list-search-filter.png){width="800" zoomable="yes"}
 
 按一下右上角的&#x200B;_自訂表格_&#x200B;圖示（![自訂表格圖示](../assets/do-not-localize/icon-column-settings.svg)），自訂您要顯示在表格中的欄。 選取要顯示的資料行，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
