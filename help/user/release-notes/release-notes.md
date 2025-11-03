@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 探索Adobe Journey Optimizer B2B edition的最新功能、增強功能和錯誤修正。 透過新功能和產品改進保持更新。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7b36124cf830b5cdb980a1288d3870843a10fed2
+source-git-commit: 74633474e8d0af1e976d007d75bf4db9906fe7d2
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 87%
+source-wordcount: '3644'
+ht-degree: 83%
 
 ---
 
@@ -17,6 +17,16 @@ Adobe Journey Optimizer B2B Edition 持續提供新功能、增強現有功能�
 Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方式建置，並繼承其最新的創新功能和改進項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/latest){target="_blank"}。
 
 請檢視此[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，以了解有關權益、效能護欄及限制的資訊。
+
+## Agentic-AI功能
+
+下列代理式 AI 功能現在可在 AI 助理介面中用於 Journey Optimizer B2B edition：
+
+| 代理 | 更新 | 說明 |
+| ----- | ------ | ----------- |
+| 歷程建置代理 | 新版 | 歷程建置代理會即時分析、構想並共同建立歷程，讓行銷人員可更快速地啟動、提高參與度並推動更高的轉換率。[了解更多](../agents/journey-agent.md) |
+| Audience 代理 | 新版 | Audience 代理會使用結構化和非結構化資料，進行自動識別並建置購買群組。此功能可協助行銷人員更快速且更準確地鎖定合適的人員。[了解更多](../agents/audience-agent-b2b.md) |
+| Account Qualification Agent | 新版 | 檢視哪些帳戶可以使用AI助理中的Account Qualification Agent進行下一步的準備。 此代理程式可呈現高價值銷售機會並自動化資格認定工作流程，讓您的銷售團隊成員專注於正確的客戶。 [了解更多](../agents/account-qualification-agent.md) |
 
 ## 2025.10 發行說明
 
@@ -36,15 +46,20 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 增強功能 | 購買群組維護工作 | 購買群組維護工作頻率從每週更新為每天。 |
 | 增強功能 | 帳戶歷程進度 | 顯示&#x200B;_更多資訊_&#x200B;連結，供歷程進度存取帳戶計數和清單使用。 |
 
-下列代理式 AI 功能現在可在 AI 助理介面中用於 Journey Optimizer B2B edition：
-
-| 代理 | 更新 | 說明 |
-| ----- | ------ | ----------- |
-| Account Qualification Agent | 新版 | 檢視哪些帳戶可以使用AI助理中的Account Qualification Agent進行下一步的準備。 此代理程式可呈現高價值銷售機會並自動化資格認定工作流程，讓您的銷售團隊成員專注於正確的客戶。 [了解更多](../agents/account-qualification-agent.md) |
-
 >[!NOTE]
 >
->版本變更從2025年10月31日開始部署，並分階段推出每個功能。 功能及增強功能的發行日期隨時可能變動。
+>這些版本變更從2025年10月31日開始部署，並分階段推出每個功能。 功能及增強功能的發行日期隨時可能變動。
+
+### 簡化的架構
+
+Adobe Journey Optimizer B2B edition現在可使用簡化的架構。 透過此更新的架構，Journey Optimizer B2B edition和Marketo Engage將不再是位於相同的系統和相同的資料存放區。 Journey Optimizer B2B edition只會從Adobe Experience Platform接收資料。 但是，它仍仰賴Marketo Engage許可權和部分設定功能來布建和設定系統。
+
+此更新的架構提供多項優點：
+
+* **輕鬆統一和擴充您的資料**：更新的平台支援複雜的資料模型，包括自訂物件、購買群組和帳戶事件。
+* **連線多個Adobe Marketo Engage執行個體**：在一個位置管理並統一來自多個Adobe Marketo Engage環境的資料。
+* **保護您的資料安全**：進階的隱私和安全性功能有助於保護您的客戶資訊。
+* **為未來打造**：此更新將設定您的組織以進行持續改進和創新。
 
 <!-- hold for later release 
 
@@ -66,16 +81,9 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 增強功能 | 歷程 - 依特定角色中的人數分割路徑 | 使用「依帳戶分割路徑」節點，根據帳戶中擁有一個或多個購買群組角色的人數來鎖定帳戶。在此路徑中，您可以根據角色深度評估購買群組是否已準備好接收銷售警報和進行其他參與。[了解更多](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 增強功能 | 歷程 - 事件的人員篩選器 | 使用人員篩選器來監聽人員事件。這些篩選器可以鎖定相符購買群組中的特定角色。[了解更多](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
-下列代理式 AI 功能現在可在 AI 助理介面中用於 Journey Optimizer B2B edition：
-
-| 代理 | 更新 | 說明 |
-| ----- | ------ | ----------- |
-| 歷程建置代理 | 新版 | 歷程建置代理會即時分析、構想並共同建立歷程，讓行銷人員可更快速地啟動、提高參與度並推動更高的轉換率。[了解更多](../agents/journey-agent.md) |
-| Audience 代理 | 新版 | Audience 代理會使用結構化和非結構化資料，進行自動識別並建置購買群組。此功能可協助行銷人員更快速且更準確地鎖定合適的人員。[了解更多](../agents/audience-agent-b2b.md) |
-
 >[!NOTE]
 >
->此發布變更將於 2025 年 9 月 30 日開始部署，每個功能將分階段推出。功能及增強功能的發行日期隨時可能變動。
+>這些版本變更從2025年9月30日開始部署，並分階段推出每個功能。 功能及增強功能的發行日期隨時可能變動。
 
 ## 2025.8 發行說明
 
