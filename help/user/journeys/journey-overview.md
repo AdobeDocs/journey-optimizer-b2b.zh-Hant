@@ -4,10 +4,10 @@ description: 使用帳戶歷程簡化需求開發：在 Journey Optimizer B2B Ed
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 91%
 
 ---
 
@@ -85,7 +85,7 @@ _帳戶歷程_&#x200B;清單包含您的 Journey Optimizer B2B Edition 執行個
 
 >[!IMPORTANT]
 >
->當在另一個歷程的「_採取動作_」節點中透過「_將帳戶新增至 (其他) 歷程_」動作來使用此帳戶歷程時，中止歷程會阻止該歷程中的該動作。
+>當在另一個歷程的「_採取動作_」節點中透過「_[!UICONTROL 將帳戶新增至 (其他) 歷程]_」動作來使用此帳戶歷程時，中止歷程會阻止該歷程中的該動作。
 
 1. 按一下歷程名稱來開啟。
 
@@ -101,7 +101,7 @@ _帳戶歷程_&#x200B;清單包含您的 Journey Optimizer B2B Edition 執行個
 
 >[!IMPORTANT]
 >
->當帳戶歷程在另一個歷程的「_採取動作_」節點中，使用「_將帳戶新增至 (其他) 歷程_」動作時，對新進客戶關閉會阻止該歷程執行那個動作。
+>當帳戶歷程在另一個歷程的「_採取動作_」節點中，使用「_[!UICONTROL 將帳戶新增至 (其他) 歷程]_」動作時，對新進客戶關閉會阻止該歷程執行那個動作。
 
 1. 按一下歷程名稱來開啟。
 
@@ -155,6 +155,16 @@ _帳戶歷程_&#x200B;清單包含您的 Journey Optimizer B2B Edition 執行個
 
 1. 在確認對話框中，按一下「**[!UICONTROL 刪除]**」。
 
+## 複查帳戶進度
+
+針對處於&#x200B;_即時_、_已關閉新專案_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;狀態的已發佈歷程，您可以開啟歷程對應，以檢閱歷程節點的帳戶進展。 地圖上的每個節點會顯示到達該節點的帳戶數，如果是即時歷程，則顯示目前在該節點的帳戶數。
+
+![歷程節點帳戶進度資訊](./assets/node-account-progression-observability.png){width="400"}
+
+當您選取節點時，按一下數字可檢視進入節點或目前處於歷程該步驟的帳戶清單。
+
+![歷程節點帳戶進度資訊](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
+
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443218/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

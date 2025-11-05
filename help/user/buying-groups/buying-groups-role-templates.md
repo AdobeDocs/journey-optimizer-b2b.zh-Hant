@@ -4,9 +4,9 @@ description: 使用條件式自動指派來建立角色範本，以識別在Jour
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1303'
 ht-degree: 3%
 
 ---
@@ -120,6 +120,26 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 您的變更會自動儲存為&#x200B;_草稿_&#x200B;狀態。 如果您尚未準備好發佈角色範本，請按一下頁面頂端的向左（後退）箭頭，並返回&#x200B;_[!UICONTROL 角色範本]_&#x200B;清單。
 
+### 變更完整度分數設定
+
+依預設，角色的完整性定義為指派給角色的一個成員。 當您想要使用購買群組完整度作為銷售整備程度或成功<!-- journey decisioning coming later-->的指標時，可以使用這些設定來調整分數與每個角色關閉商機所需的成員數量。
+
+例如，若要完成您的解決方案&#x200B;_X_&#x200B;的交易，必須識別並參與多個行銷決策者，因為一個組織的多個行銷團隊都會使用該解決方案。 在此情況下，您至少要有兩個行銷決策者，才能增加臨界值以計算&#x200B;_完整_&#x200B;購買群組。
+
+如需完整度評分和計算的詳細資訊，請參閱[完整度評分](./completeness-scores.md)。
+
+1. 按一下角色範本頁面右上角的&#x200B;**[!UICONTROL 完整度分數設定]**。
+
+   ![角色範本 — 完整度分數設定按鈕](./assets/buying-group-details-edit-roles-completeness-settings.png){width="700" zoomable="yes"}
+
+1. 在對話方塊中，視需要變更每個已定義角色所需的&#x200B;**[!UICONTROL 成員]**&#x200B;值。
+
+   您可以輸入值，或按一下&#x200B;**&amp;amp；加號；**&#x200B;或&#x200B;**−**&#x200B;來增加或減少值。
+
+   ![角色範本 — 完整度分數設定按鈕](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
 ### 發佈角色範本
 
 如果範本已可供使用，請按一下右上方的&#x200B;**[!UICONTROL 發佈]**。
@@ -162,4 +182,4 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

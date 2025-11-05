@@ -1,21 +1,23 @@
 ---
-title: LinkedIn Account Matched Audiences
-description: 瞭解如何連結LinkedIn帳戶並啟用購買群組的資料流。
+title: LinkedIn 帳號配對客群
+description: 瞭解如何連線LinkedIn帳戶並為帳戶成員啟用資料流。
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1cc50d33e396e490f401330688e5d322270090e3
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 16%
+source-wordcount: '920'
+ht-degree: 13%
 
 ---
 
-# LinkedIn Account Matched Audiences
+# LinkedIn 帳號配對客群
 
-Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生LinkedIn廣告受眾，其目的是協助您在購買群組中填入空角色。 透過定義一組購買群組篩選器，您可以維護「LinkedIn相符對象」，以鎖定符合您購買群組引數的潛在客戶。 此功能善用 Experience Platform 目標來管理整合的某些部分。資料流上限為10個。
+Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生LinkedIn廣告受眾，其目的是協助您在購買群組中填入空角色。 透過定義一組購買群組篩選器，您可以維護「LinkedIn相符對象」，以鎖定符合您購買群組引數的潛在客戶。 您也可以從&#x200B;_採取動作_&#x200B;節點的帳戶歷程啟用對象。
 
-在從Journey Optimizer B2B edition起始資料流之前，您必須至少有一個[（公司） LinkedIn相符對象目的地聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的執行個體，而且已在Experience Platform應用程式中設定LinkedIn促銷活動管理員帳戶。
+此功能善用 Experience Platform 目標來管理整合的某些部分。資料流上限為10個。
+
+在從Journey Optimizer B2B edition起始資料流之前，您必須至少有一個[（公司） LinkedIn相符對象目的地聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的執行個體，而且已在Experience Platform應用程式中設定LinkedIn促銷活動管理員帳戶。
 
 ## 設定新的 LinkedIn 帳戶連結 {#linkedin-destination-setup}
 
@@ -84,7 +86,7 @@ Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生Linked
 
    儲存之後，您為資料流指定的名稱會加上&#x200B;_AJOB2B_，以協助識別Experience Platform中的資料流。
 
-1. 輸入LinkedIn行銷活動管理員帳戶[&#128279;](https://www.linkedin.com/help/lms/answer/a424270)的帳戶ID。
+1. 輸入LinkedIn行銷活動管理員帳戶[的](https://www.linkedin.com/help/lms/answer/a424270)帳戶ID。
 
    您可以在Campaign Manager UI中依帳戶名稱尋找您的帳戶ID。
 
@@ -114,8 +116,26 @@ Journey Optimizer B2B edition可讓您透過帳戶相符的受眾來產生Linked
 
    橫幅會顯示連結，連至Experience Platform中的資料流功能表，讓您檢視資料流記錄。
 
+## 從帳戶歷程啟用對象
+
+從2025.10版開始，對帳戶使用&#x200B;_對目的地啟用_&#x200B;動作，直接從您的歷程對LinkedIn目的地啟用帳戶。 針對LinkedIn目的地使用動作，可消除多系統移交並減少延遲，進而簡化行銷活動的執行作業。 例如，身為行銷人員，您可以在關鍵購買角色遺失時，自動對LinkedIn啟用高意圖帳戶以重新進行目標定位，或根據閒置篩選器重新與休眠帳戶互動。
+
+1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;**[!UICONTROL 上的]**&#x200B;動作設定為&#x200B;**[!UICONTROL 啟用到目的地]**。
+
+1. 按一下&#x200B;**[!UICONTROL 選取目的地]**。
+
+   ![歷程節點 — 對帳戶採取動作 — 啟用到目的地](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
+
+1. 在對話方塊中，選取設定的LinkedIn目的地，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+
+   ![歷程節點 — 對帳戶採取動作 — 啟用到目的地 — 選取目的地對話方塊](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+
+1. 輸入用來識別目的地中已啟動對象的&#x200B;**[!UICONTROL 對象名稱]**。
+
+   ![歷程節點 — 對帳戶採取動作 — 啟用到目的地 — 完成的設定](../journeys/assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
+
 ## 協調付費媒體參與
 
 您可以透過付費媒體管道（例如LinkedIn廣告對象）與帳戶成員互動，以取得、培養客戶並符合銷售資格。 使用帳戶歷程中的&#x200B;_執行動作_&#x200B;節點，透過最適合不同帳戶成員的外部管道，自動與帳戶的主要成員進行互動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448683/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
