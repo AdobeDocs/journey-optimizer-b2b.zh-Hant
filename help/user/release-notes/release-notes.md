@@ -1,12 +1,12 @@
 ---
 title: Journey Optimizer B2B Edition 發行說明
-description: 探索Adobe Journey Optimizer B2B edition的最新功能、增強功能和錯誤修正。 透過新功能和產品改進保持更新。
+description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '3690'
-ht-degree: 82%
+ht-degree: 92%
 
 ---
 
@@ -26,30 +26,30 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | ----- | ------ | ----------- |
 | 歷程建置代理 | 新版 | 歷程建置代理會即時分析、構想並共同建立歷程，讓行銷人員可更快速地啟動、提高參與度並推動更高的轉換率。[了解更多](../agents/journey-agent.md) |
 | Audience 代理 | 新版 | Audience 代理會使用結構化和非結構化資料，進行自動識別並建置購買群組。此功能可協助行銷人員更快速且更準確地鎖定合適的人員。[了解更多](../agents/audience-agent-b2b.md) |
-| Account Qualification Agent | 新版 | 檢視哪些帳戶可以使用AI助理中的Account Qualification Agent進行下一步的準備。 此代理程式可呈現高價值銷售機會並自動化資格認定工作流程，讓您的銷售團隊成員專注於正確的客戶。 [了解更多](../agents/account-qualification-agent.md) |
+| Account Qualification 代理 | 新版 | 使用 AI 助理中的 Account Qualification 代理，查看哪些帳戶已準備好進入下一階段。此代理程式透過顯示高價值商機並自動進行資格篩選工作流程，使您的銷售團隊成員可專注於正確的帳戶。[了解更多](../agents/account-qualification-agent.md) |
 
 ## 2025.10 發行說明
 
-**部署日期**：2025年10月31日
+**部署日期**：2025 年 10 月 31 日
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 關聯式資料模型 | 運用連結至B2B帳戶的關聯資料，以篩選帳戶歷程中的帳戶或個人化電子郵件內容。 此關聯式資料可代表真實世界的商業實體，例如購買記錄、事件註冊、軟體授權、服務訂閱或預訂。 |
-| 功能 | 啟用到歷程的目的地 | 使用新的&#x200B;_啟用至目的地_&#x200B;公司帳戶動作，直接啟用至公司，而非個人。 （僅限此版本的LinkedIn公司使用。） [深入瞭解](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
-| 功能 | 品牌主題 | 透過品牌主題，非技術使用者現在可以在標準範本之上新增自訂樣式，建立符合特定品牌和設計語言的可重複使用內容。 [了解更多](../content/brand-themes.md) |
+| 功能 | 關聯式資料模型 | 善用連結至 B2B 帳戶的關聯式資料，來篩選帳戶歷程中的帳戶或個人化電子郵件內容。此關聯式資料可代表現實世界的商業實體，例如：購買記錄、事件註冊、軟體授權、服務訂閱或預訂。 |
+| 功能 | 針對歷程目的地啟用 | 使用新的「_針對目的地啟用_」公司帳戶動作，來直接針對公司進行啟用，而非個人。（僅限此版本的LinkedIn公司使用。） [深入瞭解](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| 功能 | 品牌主題 | 透過品牌主題，非技術使用者現在可以藉由在此標準範本上方新增自訂樣式，建立符合特定品牌和設計語言的可重複使用內容。[了解更多](../content/brand-themes.md) |
 | 功能 | 電子郵件範本 — 將影像轉換為HTML | 您現在可以使用儲存為JPG或PNG影像檔的設計檔案，並自動產生電子郵件範本。 [了解更多](../content/email-template-image-convert.md) |
-| 功能 | 人物誌對應 | 將帳戶成員與已建立的角色與屬性對應聯絡起來。 [了解更多](../admin/persona-mapping.md) |
-| 功能 | Salesforce和Dynamics的銷售分析 | 銷售團隊成員現在可以在Salesforce或Dynamics整合中檢視到期的購買群組和相關深入分析，以識別新的商機。 包括階段、分數和相關成員等購買群組細節。 |
-| 功能 | 多個Marketo Engage啟用 | 設定與遠端Marketo Engage執行個體的連線，並使用這些連線來設定Marketo Engage相關的歷程動作。 這些動作（例如從清單新增或移除人員，或將人員新增至請求促銷活動）適用於指定的Marketo Engage執行個體。 |
-| 增強功能 | 電子郵件疲勞重複資料刪除 | 您現在可以啟用電子郵件重複資料刪除，以確保在歷程中不會將相同的電子郵件多次傳送至相同地址。 重複地址會被封鎖，直到該電子郵件地址的第一個記錄完成歷程為止。 |
+| 功能 | 人物誌對應 | 將帳戶成員和已建立的人物誌透過屬性對應進行連結。[了解更多](../admin/persona-mapping.md) |
+| 功能 | Salesforce 和 Dynamics 的銷售洞察 | 銷售團隊成員現在可以在 Salesforce 或 Dynamics 整合中檢視成熟化的購買群組和相關洞察，來識別新的商機。此購買群組詳細資訊如：階段、分數及相關成員均已涵蓋在內。 |
+| 功能 | 多個 Marketo Engage 啟用 | 設定與遠端 Marketo Engage 執行個體的連線，並使用這些連線來設定 Marketo Engage 相關的歷程動作。這些動作 (例如從清單新增或移除人員，或將人員新增至請求行銷活動) 適用於指定的 Marketo Engage 執行個體。 |
+| 增強功能 | 電子郵件疲勞重複資料刪除 | 您現在可以啟用電子郵件重複資料刪除，來確保不會在歷程中將相同的電子郵件多次傳送至相同地址。直到該電子郵件地址的第一筆記錄完成歷程之前，會將重複地址進行封鎖。 |
 | 增強功能 | 改善購買群組完整度評分 | 您現在可以透過可自訂的角色成員臨界值來確保購買群組反映真正的決策，以進行完整度評分。  [了解更多](../buying-groups/completeness-scores.md) |
-| 增強功能 | 通訊限制 | 系統現在會遵守Marketo Engage和Journey Optimizer B2B edition的通訊限制。 |
-| 增強功能 | 購買群組維護工作 | 購買群組維護工作頻率從每週更新為每天。 |
+| 增強功能 | 通訊限制 | 此系統現在會遵循 Marketo Engage 和 Journey Optimizer B2B Edition 的合併通訊限制。 |
+| 增強功能 | 購買群組維護工作 | 此購買群組維護工作頻率從每週更新為每日。 |
 | 增強功能 | 帳戶歷程進度 | 對於處於&#x200B;_即時_、_已關閉的新專案_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;狀態的已發佈歷程，您可以開啟歷程地圖以檢閱每個歷程節點的帳戶清單。 |
 
 >[!NOTE]
 >
->這些版本變更從2025年10月31日開始部署，並分階段推出每個功能。 功能及增強功能的發行日期隨時可能變動。
+>這些版本變更從2025年10月31日開始部署，並分階段推出每個功能。 功能及增強功能的發行日期隨時可能變更。
 
 ### 簡化的架構
 
@@ -77,8 +77,8 @@ Adobe Journey Optimizer B2B edition現在可使用簡化的架構。 透過此�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 電子郵件內容協同作業 | 您現在可以在電子郵件資產的情境下，與其他的 Journey Optimizer B2B edition 使用者進行評論和協作。您可以標記團隊成員，以便他們收到包含評論之詳細資訊的電子郵件通知。通知也以脈衝通知的形式提供。 [了解更多](../content/email-collaboration-tools.md) |
-| 功能 | 電子郵件設計的深色模式 | 電子郵件設計空間現在提供切換成&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以預覽電子郵件內容，並定義要專門針對在深色模式下檢視其電子郵件的收件者顯示的自訂設定。 [了解更多](../content/email-dark-mode.md) |
+| 功能 | 電子郵件內容協同作業 | 您現在可以在電子郵件資產的情境下，與其他的 Journey Optimizer B2B edition 使用者進行評論和協作。您可以標記團隊成員，以便他們收到包含評論之詳細資訊的電子郵件通知。通知亦可採用即時簡短通知的形式。[了解更多](../content/email-collaboration-tools.md) |
+| 功能 | 電子郵件設計的深色模式 | 電子郵件設計空間現在提供切換成&#x200B;_深色模式_&#x200B;的功能。在深色模式下，您可以預覽電子郵件內容，並針對在深色模式下檢視電子郵件的收件者，定義要特別對其顯示的自訂設定。[了解更多](../content/email-dark-mode.md) |
 | 增強功能 | 歷程 - 依特定角色中的人數分割路徑 | 使用「依帳戶分割路徑」節點，根據帳戶中擁有一個或多個購買群組角色的人數來鎖定帳戶。在此路徑中，您可以根據角色深度評估購買群組是否已準備好接收銷售警報和進行其他參與。[了解更多](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 增強功能 | 歷程 - 事件的人員篩選器 | 使用人員篩選器來監聽人員事件。這些篩選器可以鎖定相符購買群組中的特定角色。[了解更多](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
