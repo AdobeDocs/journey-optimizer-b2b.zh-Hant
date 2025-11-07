@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 96%
+source-wordcount: '346'
+ht-degree: 95%
 
 ---
 
@@ -23,9 +23,12 @@ ht-degree: 96%
    + [啟用 AI 助理存取權](./ai-assistant/enable-ai-assistant-access.md)
    + [問題指引](./ai-assistant/question-guidance.md)
    + [使用 AI 助理](./ai-assistant/use-ai-assistant.md)
+   + 專員 {#ai-agents}
+      + [Audience 代理](./agents/audience-agent-b2b.md)
+      + [歷程建置代理](./agents/journey-agent.md)
+      + [銷售限定詞](./agents/sales-qualifier.md)
 + 帳戶歷程 {#account-journeys}
    + [概觀](./journeys/journey-overview.md)
-   + [歷程建置代理](./agents/journey-agent.md)
    + [建立並發佈歷程](./journeys/create-publish-journey.md)
    + [歷程節點](./journeys/journey-nodes.md)
    + 歷程節點 {#journey-nodes}
@@ -48,8 +51,6 @@ ht-degree: 96%
    + [簡訊編寫](./content/sms-authoring.md)
 + 帳戶 {#accounts}
    + [客群](./audiences/account-audience-overview.md)
-   + [Audience 代理](./agents/audience-agent-b2b.md)
-   + [Account Qualification 代理](agents/account-qualification-agent.md)
    + 購買群組 {#buying-groups}
       + [概觀](./buying-groups/buying-groups-overview.md)
       + [解決方案興趣](./buying-groups/solution-interests.md)
@@ -63,6 +64,7 @@ ht-degree: 96%
       + [匯出帳戶](./audiences/account-list-export.md)
       + [LinkedIn 帳號配對客群](./data/linkedin-account-matched-audiences.md)
       + [Marketo Engage 中的購買群組篩選器](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [In-CRM Insights](./buying-groups/incrm-insights.md)
    + 帳戶清單 {#account-lists}
       + [概觀](./accounts/account-lists.md)
       + [用於歷程和方案中](./accounts/account-lists-journeys.md)

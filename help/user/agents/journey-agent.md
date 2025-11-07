@@ -1,11 +1,11 @@
 ---
 title: B2B的Journey Build代理程式
-description: 了解做法
+description: 瞭解如何使用AI支援的Journey Build Agent協助快速建立強大的歷程
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---

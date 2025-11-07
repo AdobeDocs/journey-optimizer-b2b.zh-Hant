@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
 ht-degree: 92%
@@ -26,7 +26,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | ----- | ------ | ----------- |
 | 歷程建置代理 | 新版 | 歷程建置代理會即時分析、構想並共同建立歷程，讓行銷人員可更快速地啟動、提高參與度並推動更高的轉換率。[了解更多](../agents/journey-agent.md) |
 | Audience 代理 | 新版 | Audience 代理會使用結構化和非結構化資料，進行自動識別並建置購買群組。此功能可協助行銷人員更快速且更準確地鎖定合適的人員。[了解更多](../agents/audience-agent-b2b.md) |
-| Account Qualification 代理 | 新版 | 使用 AI 助理中的 Account Qualification 代理，查看哪些帳戶已準備好進入下一階段。此代理程式透過顯示高價值商機並自動進行資格篩選工作流程，使您的銷售團隊成員可專注於正確的帳戶。[了解更多](../agents/account-qualification-agent.md) |
+| Account Qualification 代理 | 新版 | 使用 AI 助理中的 Account Qualification 代理，查看哪些帳戶已準備好進入下一階段。此代理程式透過顯示高價值商機並自動進行資格篩選工作流程，使您的銷售團隊成員可專注於正確的帳戶。[了解更多](../agents/sales-qualifier.md) |
 
 ## 2025.10 發行說明
 
