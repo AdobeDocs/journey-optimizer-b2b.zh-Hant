@@ -233,4 +233,4 @@ Adobe AI代理程式使用&#x200B;_自然語言查詢_，這表示他們在文�
 
 下列影片提供Sales Qualifier和Account Qualification Agent的簡短示範。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476572?captions=chi_hant)
