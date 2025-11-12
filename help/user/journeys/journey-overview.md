@@ -5,9 +5,9 @@ feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ ht-degree: 91%
 
 | 狀態 | 說明 | 可用的動作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 未發佈且可以編輯的歷程。 | <li>[發佈](./create-publish-journey.md#publish-an-account-journey)<li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
-| _&#x200B;**已上線**&#x200B;_ | 歷程發佈後，歷程狀態會從「草稿」變更為「已上線」。在此狀態下，您將無法編輯歷程。 | <li>[複製](#duplicate-journey)<li>[對新進客戶關閉](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**對新進客戶關閉**&#x200B;_ | 當您在頂端導覽區域按一下「_對新進客戶關閉_」，此歷程狀態會從「_已上線_」變更為「[!UICONTROL 對新進客戶關閉]」。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。中止的歷程無法重新啟動。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 當歷程中的所有帳戶均完成該歷程時，其狀態會從「_已上線_」或「_對新進客戶關閉_」變更為「_已完成_」。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**草稿**_ | 未發佈且可以編輯的歷程。 | <li>[發佈](./create-publish-journey.md#publish-an-account-journey)<li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**已上線**_ | 歷程發佈後，歷程狀態會從「草稿」變更為「已上線」。在此狀態下，您將無法編輯歷程。 | <li>[複製](#duplicate-journey)<li>[對新進客戶關閉](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**對新進客戶關閉**_ | 當您在頂端導覽區域按一下「_對新進客戶關閉_」，此歷程狀態會從「_已上線_」變更為「[!UICONTROL 對新進客戶關閉]」。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。中止的歷程無法重新啟動。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**已完成**_ | 當歷程中的所有帳戶均完成該歷程時，其狀態會從「_已上線_」或「_對新進客戶關閉_」變更為「_已完成_」。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
 
 ## 管理歷程
 
@@ -155,16 +155,16 @@ _帳戶歷程_&#x200B;清單包含您的 Journey Optimizer B2B Edition 執行個
 
 1. 在確認對話框中，按一下「**[!UICONTROL 刪除]**」。
 
-## 複查帳戶進度
+## 審閱帳戶進度
 
-針對處於&#x200B;_即時_、_已關閉新專案_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;狀態的已發佈歷程，您可以開啟歷程對應，以檢閱歷程節點的帳戶進展。 地圖上的每個節點會顯示到達該節點的帳戶數，如果是即時歷程，則顯示目前在該節點的帳戶數。
+針對處於&#x200B;_上線_、_關閉新進入_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;狀態的已發佈歷程，您可以開啟歷程圖來審閱歷程節點的帳戶進度。地圖上的每個節點皆會顯示到達該節點的帳戶數量，而對於上線歷程，則是顯示目前位於該節點的帳戶數量。
 
 ![歷程節點帳戶進度資訊](./assets/node-account-progression-observability.png){width="400"}
 
-當您選取節點時，按一下數字可檢視進入節點或目前處於歷程該步驟的帳戶清單。
+當您選取該節點時，按一下數字可檢視進入該節點或目前正處於該歷程步驟的帳戶清單。
 
 ![歷程節點帳戶進度資訊](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443218/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
