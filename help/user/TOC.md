@@ -4,7 +4,7 @@ user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如�
 source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 95%
       + [解決方案興趣](./buying-groups/solution-interests.md)
       + [角色範本](./buying-groups/buying-groups-role-templates.md)
       + [預設和自訂角色](./buying-groups/default-custom-roles.md)
-      + 購買群組得分 {#scoring}
+      + 購買群組評分 {#scoring}
          + [參與度分數](./buying-groups/engagement-scores.md)
          + [完整性分數](./buying-groups/completeness-scores.md)
       + [購買群組階段](./buying-groups/buying-group-stages.md)
@@ -95,7 +95,7 @@ ht-degree: 95%
          + [概觀](./content/email-templates.md)
          + [電子郵件範本編寫](./content/email-template-authoring.md)
          + [將影像轉換為範本](./content/email-template-image-convert.md)
-      + 登入頁面範本(Beta) {#landing-page-templates}
+      + 登陸頁面範本 (Beta) {#landing-page-templates}
          + [概觀](./content/landing-page-templates.md)
          + [設計登陸頁面範本](./content/landing-page-template-design.md)
    + 片段 {#visual-fragments}

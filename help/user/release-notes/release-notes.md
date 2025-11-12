@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 請檢視此[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，以了解有關權益、效能護欄及限制的資訊。
 
-## Agentic-AI功能
+## 代理式 AI 功能
 
 下列代理式 AI 功能現在可在 AI 助理介面中用於 Journey Optimizer B2B edition：
 
@@ -35,32 +35,32 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 關聯式資料模型 | 善用連結至 B2B 帳戶的關聯式資料，來篩選帳戶歷程中的帳戶或個人化電子郵件內容。此關聯式資料可代表現實世界的商業實體，例如：購買記錄、事件註冊、軟體授權、服務訂閱或預訂。 |
-| 功能 | 針對歷程目的地啟用 | 使用新的「_針對目的地啟用_」公司帳戶動作，來直接針對公司進行啟用，而非個人。（僅限此版本的LinkedIn公司使用。） [深入瞭解](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| 功能 | 針對歷程目的地啟用 | 使用新的「_針對目的地啟用_」公司帳戶動作，來直接針對公司進行啟用，而非個人。(此版本僅開放 LinkedIn 公司。) [了解更多](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | 功能 | 品牌主題 | 透過品牌主題，非技術使用者現在可以藉由在此標準範本上方新增自訂樣式，建立符合特定品牌和設計語言的可重複使用內容。[了解更多](../content/brand-themes.md) |
-| 功能 | 電子郵件範本 — 將影像轉換為HTML | 您現在可以使用儲存為JPG或PNG影像檔的設計檔案，並自動產生電子郵件範本。 [了解更多](../content/email-template-image-convert.md) |
+| 功能 | 電子郵件範本 - 將影像轉換為 HTML | 您現在可以使用儲存為 JPG 或 PNG 影像檔案的設計檔案，並自動產生電子郵件範本。[了解更多](../content/email-template-image-convert.md) |
 | 功能 | 人物誌對應 | 將帳戶成員和已建立的人物誌透過屬性對應進行連結。[了解更多](../admin/persona-mapping.md) |
 | 功能 | Salesforce 和 Dynamics 的銷售洞察 | 銷售團隊成員現在可以在 Salesforce 或 Dynamics 整合中檢視成熟化的購買群組和相關洞察，來識別新的商機。此購買群組詳細資訊如：階段、分數及相關成員均已涵蓋在內。 |
 | 功能 | 多個 Marketo Engage 啟用 | 設定與遠端 Marketo Engage 執行個體的連線，並使用這些連線來設定 Marketo Engage 相關的歷程動作。這些動作 (例如從清單新增或移除人員，或將人員新增至請求行銷活動) 適用於指定的 Marketo Engage 執行個體。 |
 | 增強功能 | 電子郵件疲勞重複資料刪除 | 您現在可以啟用電子郵件重複資料刪除，來確保不會在歷程中將相同的電子郵件多次傳送至相同地址。直到該電子郵件地址的第一筆記錄完成歷程之前，會將重複地址進行封鎖。 |
-| 增強功能 | 改善購買群組完整度評分 | 您現在可以透過可自訂的角色成員臨界值來確保購買群組反映真正的決策，以進行完整度評分。  [了解更多](../buying-groups/completeness-scores.md) |
+| 增強功能 | 改善購買群組完整性評分 | 您現在可以自訂角色成員的完整性評分臨界值，確保購買群組反映真正的決策。[了解更多](../buying-groups/completeness-scores.md) |
 | 增強功能 | 通訊限制 | 此系統現在會遵循 Marketo Engage 和 Journey Optimizer B2B Edition 的合併通訊限制。 |
 | 增強功能 | 購買群組維護工作 | 此購買群組維護工作頻率從每週更新為每日。 |
-| 增強功能 | 帳戶歷程進度 | 對於處於&#x200B;_即時_、_已關閉的新專案_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;狀態的已發佈歷程，您可以開啟歷程地圖以檢閱每個歷程節點的帳戶清單。 |
+| 增強功能 | 帳戶歷程進度 | 針對處於&#x200B;_上線_、_關閉新進入_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;狀態的已發佈歷程，您可以開啟歷程圖來審閱每個歷程節點的帳戶清單。 |
 
 >[!NOTE]
 >
->這些版本變更從2025年10月31日開始部署，並分階段推出每個功能。 功能及增強功能的發行日期隨時可能變更。
+>這些發布變更將於 2025 年 10 月 31 日開始部署，且每個功能將分階段推出。功能及增強功能的發行日期可能隨時變更。
 
 ### 簡化的架構
 
-Adobe Journey Optimizer B2B edition現在可使用簡化的架構。 透過此更新的架構，Journey Optimizer B2B edition和Marketo Engage將不再是位於相同的系統和相同的資料存放區。 Journey Optimizer B2B edition只會從Adobe Experience Platform接收資料。 但是，它仍仰賴Marketo Engage許可權和部分設定功能來布建和設定系統。
+現在可透過簡化的架構使用 Adobe Journey Optimizer B2B Edition。透過此新版架構，Journey Optimizer B2B Edition 和 Marketo Engage 不再位於相同的系統和相同的資料存放庫。Journey Optimizer B2B Edition 只會接收來自 Adobe Experience Platform 的資料。但是仍要仰賴 Marketo Engage 的權限和部分設定功能來進行系統佈建和設定。
 
-此更新的架構提供多項優點：
+此新版架構提供多項優勢：
 
-* **輕鬆統一和擴充您的資料**：更新的平台支援複雜的資料模型，包括自訂物件、購買群組和帳戶事件。
-* **連線多個Adobe Marketo Engage執行個體**：在一個位置管理並統一來自多個Adobe Marketo Engage環境的資料。
-* **保護您的資料安全**：進階的隱私和安全性功能有助於保護您的客戶資訊。
-* **為未來打造**：此更新將設定您的組織以進行持續改進和創新。
+* **輕鬆統一和擴充您的資料**：更新後的平台支援複雜的資料模型，包括自訂物件、購買群組及帳戶事件。
+* **連接多個 Adobe Marketo Engage 實例**：在一個位置管理並統一來自多個 Adobe Marketo Engage 環境的資料。
+* **確保資料安全**：進階的隱私和安全性功能有助於保護您的客戶資訊。
+* **為未來打造**：此更新會為您的組織奠定基礎，以便持續改進和創新。
 
 <!-- hold for later release 
 
@@ -84,7 +84,7 @@ Adobe Journey Optimizer B2B edition現在可使用簡化的架構。 透過此�
 
 >[!NOTE]
 >
->這些版本變更從2025年9月30日開始部署，並分階段推出每個功能。 功能及增強功能的發行日期隨時可能變動。
+>這些發布變更將於 2025 年 9 月 30 日開始部署，每個功能將分階段推出。功能及增強功能的發行日期隨時可能變動。
 
 ## 2025.8 發行說明
 
