@@ -30,7 +30,7 @@ ht-degree: 6%
 
 ## 名稱空間和結構描述
 
-請參閱Experience Platform檔案中的[B2B名稱空間和結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)以取得概覽。
+請參閱Experience Platform檔案中的[B2B名稱空間和結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)以取得概覽。
 
 ### 環境設定
 
@@ -40,9 +40,9 @@ ht-degree: 6%
 
 * 如需有關使用Experience Platform API的資訊，包括如何收集必要標題的值以及讀取範例API呼叫的詳細資訊，請參閱[Experience Platform API快速入門](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-guide)指南。
 
-* 如需如何產生Experience Platform API認證的相關資訊，請參閱有關[驗證及存取Experience Platform API](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication)的教學課程。
+* 如需如何產生Experience Platform API認證的相關資訊，請參閱有關[驗證及存取Experience Platform API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-authentication)的教學課程。
 
-* 如需有關為Experience Platform API設定Postman的資訊，請參閱Adobe Experience Platform中[Postman](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman)的詳細步驟。
+* 如需有關為Experience Platform API設定Postman的資訊，請參閱Adobe Experience Platform中[Postman](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/postman)的詳細步驟。
 
 設定Experience Platform開發人員控制檯和Postman後，您現在可以開始將適當的環境值套用至您的Postman環境。
 
@@ -110,7 +110,7 @@ ht-degree: 6%
 
 ### 關聯式結構描述
 
-選取[關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)以用於&#x200B;**_歷程決策_**&#x200B;和&#x200B;**_個人化_**。 目前，這些結構描述適用於自訂物件使用案例。 在未來，關聯式結構描述也可用於其他物件使用案例。
+選取[關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)以用於&#x200B;**_歷程決策_**&#x200B;和&#x200B;**_個人化_**。 目前，這些結構描述適用於自訂物件使用案例。 在未來，關聯式結構描述也可用於其他物件使用案例。
 
 1. 選取&#x200B;**[!UICONTROL 關聯式]**&#x200B;標籤。
 
@@ -133,7 +133,7 @@ ht-degree: 6%
 ><li>行為：記錄
 >&gt; <li>區段：已啟用
 >&gt; <li>關係型別：多對一
->&gt; <li>參考結構描述：[B2B帳戶 — XDM商業帳戶結構描述](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+>&gt; <li>參考結構描述：[B2B帳戶 — XDM商業帳戶結構描述](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
 >&gt; <li>必填欄位：主索引鍵、外部索引鍵和版本描述項
 >&gt; <li>關聯的資料集：已定義並對應到結構描述
 
@@ -155,27 +155,27 @@ ht-degree: 6%
 
 應將以下專案設定為從Journey Optimizer B2B edition傳送電子郵件。  
 
-[https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols)
+[https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols)
 
 ### 追蹤和電子郵件傳送的協定
 
-1. [建立電子郵件的DNS記錄](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
+1. [建立電子郵件的DNS記錄](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
 
-1. [設定SPF和DKIM](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
+1. [設定SPF和DKIM](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
 
-1. [設定DMARC](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
+1. [設定DMARC](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
 
-1. [為您的網域設定MX記錄](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
+1. [為您的網域設定MX記錄](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
 
-1. [將輸出IP位址新增至允許清單](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
+1. [將輸出IP位址新增至允許清單](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
 
 1. 如果您需要共用專用的IP集區，請聯絡傳遞團隊以瞭解可行性和協助設定。
 
 ### 電子郵件通道設定
 
-在簡化的架構中，電子郵件設定是從Marketo Engage UI進行設定。 完成電子郵件相關設定步驟： [https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps)
+在簡化的架構中，電子郵件設定是從Marketo Engage UI進行設定。 完成電子郵件相關設定步驟： [https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps)
 
-[https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
+[https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
 
 ### 通訊限制
 
@@ -187,7 +187,7 @@ ht-degree: 6%
 
    如果未建立全域規則集，則沒有通訊限制。
 
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
+<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
 
 ### 共用通訊限制
 
@@ -210,7 +210,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 ## 簡訊頻道設定
 
-如需詳細資訊，請參閱&#x200B;[_簡訊設定_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms)。
+如需詳細資訊，請參閱&#x200B;[_簡訊設定_](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms)。
 
 ## 歷程中的Marketo Engage動作
 
@@ -240,7 +240,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 ## 使用者上線
 
-如需概觀，請參閱[使用者管理](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)頁面。
+如需概觀，請參閱[使用者管理](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/user-management)頁面。
 
 ### 現有使用者群組
 
@@ -250,7 +250,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 1. 將現有的使用者群組新增到已建立的產品設定檔。
 
-設定檔會授與已指派給該使用者群組的所有角色和許可權，且使用者應已設定這些角色和許可權，以存取Journey Optimizer B2B edition。 如果只有部分使用者應存取新架構，請完成以下概述的步驟。 在[目前檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)中取得更多詳細資料。
+設定檔會授與已指派給該使用者群組的所有角色和許可權，且使用者應已設定這些角色和許可權，以存取Journey Optimizer B2B edition。 如果只有部分使用者應存取新架構，請完成以下概述的步驟。 在[目前檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/user-management)中取得更多詳細資料。
 
 ### 建立新的使用者群組
 
