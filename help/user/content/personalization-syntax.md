@@ -34,7 +34,7 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >屬性結構是在[Adobe Experience Platform XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中定義。
+  >屬性結構是在[Adobe Experience Platform XDM結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中定義。
 
 * 識別碼可以是任何的Unicode字元，但下列字元除外：
 
