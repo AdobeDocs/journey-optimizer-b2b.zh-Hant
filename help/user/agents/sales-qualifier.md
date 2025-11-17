@@ -223,4 +223,4 @@ _[!UICONTROL 代表管理]_&#x200B;面板會顯示定義的代表及其行事曆
 
 下列影片提供Sales Qualifier和Account Qualification Agent的簡短示範。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476572?captions=chi_hant)
