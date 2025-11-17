@@ -1,11 +1,11 @@
 ---
 title: 銷售限定詞
-description: 瞭解如何使用Sales Qualifier應用程式來加速及維護您的歷程。
-feature: Account Journeys, AI Assistant
+description: 使用Sales Qualifier自動化B2B潛在客戶資格和拓展。 它提供AI支援的研究、電子郵件草擬、CRM整合，以及BDR的參與計畫。
+feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 1%
 >此功能目前處於「有限可用性」，並非所有使用者都可使用。
 >
 
-Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驅動附加應用程式，其中包含Account Qualification Agent，旨在簡化業務開發代表(BDR)的工作流程。 Sales Qualifier可跨管道自動化潛在客戶資格、外聯及買方參與工作流程，減少手動BDR負載，並加快企業B2B公司的管道速度。
+Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驅動附加應用程式，其中包含Account Qualification Agent，旨在簡化業務開發代表(BDR)的工作流程。 Sales Qualifier可跨管道自動執行潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
 使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存取商業智慧。
 
-銷售限定詞包含在AJO B2B中，但是AEP Experience Cloud中的獨立應用程式。
+Journey Optimizer B2B edition隨附銷售限定詞，不過它是Experience Platform Experience Cloud中的獨立應用程式。
 
 ![銷售限定詞首頁](assets/home-screen.png)
 
 ## Account Qualification 代理
 
-Account Qualification Agent (AQA)是銷售限定詞的核心。 AQA會使用AI來讀取您的帳戶，並判斷哪些帳戶已準備好進行下一步。  它可協助研究、電子郵件草擬和CRM更新。
+Account Qualification Agent (AQA)是銷售限定詞的核心。 AQA會使用AI來讀取您的帳戶，並判斷哪些帳戶已準備好進行下一步。 它可協助研究、電子郵件草擬和CRM更新。
 
 ![Account Qualification Agent](assets/acc-qualification-agent.png)
 
@@ -52,9 +52,9 @@ Adobe AI代理程式使用&#x200B;_自然語言查詢_，這表示他們在文�
 
 使用自然語言時，您可以要求代理程式：
 
-* 顯示我指派但尚未參與的銷售機會
-* 顯示我所有不屬於任何自主參與的銷售機會
-* 提供`<company>`的詳細摘要，包括他們的購買群組、最近的意圖訊號，以及我們過去的參與。
+* `Show me my assigned leads with no engagement yet`
+* `Show me all my leads that are not part of any autonomous engagement`
+* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
 
 您可以立即瞭解哪些帳戶和潛在客戶最活躍，並顯示出最高的意圖，因此您可以將精力集中在最具影響力的地方。
 
@@ -66,11 +66,11 @@ Adobe AI代理程式使用&#x200B;_自然語言查詢_，這表示他們在文�
 
 ## 潛在客戶
 
-此視窗會列出您有權存取的所有銷售機會。 這可快速檢查潛在客戶狀態和上次活動等。
+此視窗會列出您有權存取的所有銷售機會。 這是對事物的快速檢查，例如潛在客戶狀態和上次活動。
 
 ![在銷售機會表中檢視您所有的銷售機會](assets/prospects.png)
 
-按一下「篩選」圖示![篩選圖示](../assets/icon-filter.png)以依潛在客戶狀態篩選。
+按一下&#x200B;_篩選器_ ![篩選器圖示](../../assets/do-not-localize/icon_filter-outline.svg)圖示，依潛在客戶狀態篩選顯示的清單。
 
 ## 參與計畫
 
@@ -78,12 +78,12 @@ Adobe AI代理程式使用&#x200B;_自然語言查詢_，這表示他們在文�
 
 ![參與計畫](assets/engagement-plans.png)
 
-若要建立新的參與計畫，請按一下[建立參與計畫]。**&#x200B;**
+若要建立新的參與計畫，請按一下[建立參與計畫]。****
 
-1. 在「詳細資訊」階段中，提供名稱和選擇性說明。 按一下&#x200B;**[!UICONTROL 儲存並繼續]**。
-1. 在「選取潛在客戶」階段中，選取應屬於此計畫的潛在客戶。
-1. 在定義步調階段中，設定計畫的引數。
-1. 在「預覽」階段中，確定一切都如預期般運作。
+1. 在&#x200B;_詳細資料_&#x200B;階段中，提供名稱和選擇性說明。 按一下&#x200B;**[!UICONTROL 儲存並繼續]**。
+1. 在&#x200B;_選取潛在客戶_&#x200B;階段中，選取應屬於此計畫的潛在客戶。
+1. 在&#x200B;_定義步調_&#x200B;階段中，設定計畫的引數。
+1. 在&#x200B;_預覽_&#x200B;階段中，確定一切如預期般運作。
 
 ## 電子郵件寄件匣
 
@@ -99,7 +99,7 @@ Adobe AI代理程式使用&#x200B;_自然語言查詢_，這表示他們在文�
 
 ![聊天收件匣](assets/chat-inbox.png)
 
-您不僅可以與使用者端互動，還可以檢視聯絡人的摘要和執行緒的摘要，以便快速瞭解您在執行緒中的位置。
+您可以與客戶互動，並檢視聯絡人和對話串的摘要，以便快速瞭解您在對話串中的位置。
 
 ## 整合
 
@@ -116,12 +116,12 @@ Adobe AI代理程式使用&#x200B;_自然語言查詢_，這表示他們在文�
 
 ![整合詳細資料](assets/integration-details.png)
 
-我們在此處定義整合的URL，並建立要傳送的裝載。
+定義整合的URL，並建立要傳送的裝載：
 
 1. 提供整合的唯一名稱和說明（選用）。
 1. 將URL欄位設定為整合網站的整合驗證端點。
 1. 在路徑引數中，設定HTTP方法。
-1. 在標頭引數中，設定需要傳送的任何HTTP標頭。 一般而言，所傳送且需要內容型別標頭的JSON物件。
+1. 在標頭引數中，設定需要傳送的任何HTTP標頭。 一般而言，這是已傳送且需要內容型別標頭的JSON物件。
 1. 在查詢引數中，建立任何必要的引數。
 1. 在「驗證」下，設定整合網站的登入資訊。
 
@@ -130,27 +130,28 @@ Adobe AI代理程式使用&#x200B;_自然語言查詢_，這表示他們在文�
    * API金鑰
    * 基本驗證
 
-1. 在承載設定區段中設定節流和快取值。
-1. 在「裝載設定」下，按一下鉛筆圖示。 在「貼上裝載」對話方塊中，貼上或輸入您的JSON裝載物件。
-   * 請求裝載：包含要傳送整合網站之資料的JSON物件。
-   * 回應裝載：您預期會傳回的資料結構。
-1. 按一下[!UICONTROL 測試連線]以確保您的設定正確無誤。
+1. 在&#x200B;**[!UICONTROL 承載組態]**&#x200B;區段中設定節流和快取值。
+   * 按一下鉛筆圖示。
+   * 在&#x200B;_貼上裝載_&#x200B;對話方塊中，貼上或輸入您的JSON裝載物件。
+
+      * **[!UICONTROL 要求承載]** — 包含要傳送至整合網站之資料的JSON物件。
+      * **[!UICONTROL 回應承載]** — 您預期會傳回的資料結構。
+
+1. 按一下&#x200B;**[!UICONTROL 測試連線]**&#x200B;以確保您的設定正確無誤。
 
 當連線設定有效時，按一下&#x200B;**[!UICONTROL 另存為草稿]**。
 
-當您回到主要整合表格時，請選取整合併按一下「**[!UICONTROL 啟用]**」讓整合上線，或&#x200B;**[!UICONTROL 儲存為草稿]**。
-
-
+當您回到主要&#x200B;_[!UICONTROL 整合]_&#x200B;表格時，請選取整合，然後按一下[啟用] ****&#x200B;讓整合上線。 如果您尚未準備好要啟動它，請按一下&#x200B;**[!UICONTROL 另存為草稿]**。
 
 #### 管理存取權
 
 您可以管理對使用者的存取權以及與不同使用者群組共用的資料型別。
 
-按一下&#x200B;**[!UICONTROL 管理存取權]**&#x200B;以開啟[管理存取權]對話方塊。
+按一下&#x200B;**[!UICONTROL 管理存取權]**&#x200B;以開啟&#x200B;_[!UICONTROL 管理存取權]_&#x200B;對話方塊。
 
-此對話方塊會列出貴組織已建立的所有標籤。 選取您要套用至此整合的標籤。
+此對話方塊會列出為您的組織建立的所有標籤。 選取您要套用至此整合的標籤。
 
-如果您需要新標籤，請按一下&#x200B;**[!UICONTROL 建立標籤]**&#x200B;並填入：
+如果您需要新標籤，請按一下&#x200B;**[!UICONTROL 建立標籤]**，然後輸入標籤資訊：
 
 * 名稱
 * 易記名稱
@@ -158,56 +159,45 @@ Adobe AI代理程式使用&#x200B;_自然語言查詢_，這表示他們在文�
 
 ## 代表設定
 
-您可以在此輸入自己的相關資訊：個人詳細資料、電子郵件和行事曆設定，以及聊天可用性。
+代表設定會指定有關自己的資訊，包括個人詳細資料、電子郵件和行事曆設定，以及聊天可用性。
 
 ### 詳細資料
 
-您可以在「詳細資訊」標籤中輸入自己的相關資訊：
+**[!UICONTROL 詳細資料]**&#x200B;標籤是您輸入自己相關資訊的位置：
 
 ![銷售限定詞詳細資料設定](assets/details.png)
 
 ### 電子郵件設定
 
-在電子郵件設定索引標籤中，設定您的電子郵件連線。
+在&#x200B;**[!UICONTROL 電子郵件設定]**&#x200B;索引標籤中，設定您的電子郵件連線。
 
 ![電子郵件設定](assets/email-settings.png)
 
-#### 電子郵件連線
+* **[!UICONTROL 電子郵件連線]** — 按一下&#x200B;**[!UICONTROL 連線]**&#x200B;並遵循Microsoft登入程式。
 
-按一下「**[!UICONTROL 連線]**」，然後依照Microsoft登入程式進行。
-
-#### 電子郵件簽章
-
-設定用於自動產生電子郵件的電子郵件簽名。
+* **[!UICONTROL 電子郵件簽章]** — 設定用於自動產生電子郵件中的電子郵件簽章。
 
 ### 行事曆設定
 
-在「行事曆設定」標籤中，設定您的時區與可用性。
+在&#x200B;**[!UICONTROL 行事曆設定]**&#x200B;索引標籤中，設定您的時區與可用性。
 
 ![行事曆設定](assets/calendar-settings.png)
 
-#### 行事曆連線
+* **[!UICONTROL 行事曆連線]** — 按一下&#x200B;**[!UICONTROL 連線]**，然後依照Microsoft登入程式來整合您的行事曆。
 
-按一下&#x200B;**[!UICONTROL 連線]**，然後依照Microsoft登入程式來整合您的行事曆。
+* **[!UICONTROL 會議確認電子郵件]** — 當使用者端確認與您進行會議時，他們會收到確認電子郵件作為回覆。 使用這些設定來定義電子郵件主旨與內文。
 
-#### 會議確認電子郵件
-
-當使用者端確認與您會面時，他們會收到確認電子郵件作為回覆。
-使用這些設定來定義電子郵件主旨與內文。
-
-#### 偏好設定
-
-設定您的預設會議長度，以及您想在連續會議之間的時間。
+* **[!UICONTROL 喜好設定]** — 設定預設會議長度，以及您想要在連續會議之間的時間。
 
 ### 聊天設定
 
-在此索引標籤中，設定您的時區即時聊天可用性。
+在&#x200B;**[!UICONTROL 聊天設定]**&#x200B;索引標籤中，設定您的時區即時聊天可用性。
 
 ![聊天設定](assets/chat-settings.png)
 
 ## 代表管理
 
-此面板中會顯示一個表格，其中包含所有已定義的代表及其行事曆狀態。
+_[!UICONTROL 代表管理]_&#x200B;面板會顯示定義的代表及其行事曆狀態。
 
 ## 會議績效
 
@@ -227,10 +217,10 @@ Adobe AI代理程式使用&#x200B;_自然語言查詢_，這表示他們在文�
 
 ## 編輯左側導覽列
 
-在應用程式的左下方，按一下[編輯] **&#x200B;**&#x200B;來控制可在導覽中看到哪些圖示。 您也可以視需要拖放它們以重新排序。
+在應用程式的左下方，按一下[編輯] ****&#x200B;來控制可在導覽中看到哪些圖示。 您也可以視需要拖放它們以重新排序。
 
 ## 示範影片
 
 下列影片提供Sales Qualifier和Account Qualification Agent的簡短示範。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476572?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)

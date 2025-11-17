@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: 8ddd69584f834517c9f4cea14ed4417f14020254
 workflow-type: tm+mt
-source-wordcount: '3690'
-ht-degree: 100%
+source-wordcount: '3729'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | ----- | ------ | ----------- |
 | 歷程建置代理 | 新版 | 歷程建置代理會即時分析、構想並共同建立歷程，讓行銷人員可更快速地啟動、提高參與度並推動更高的轉換率。[了解更多](../agents/journey-agent.md) |
 | Audience 代理 | 新版 | Audience 代理會使用結構化和非結構化資料，進行自動識別並建置購買群組。此功能可協助行銷人員更快速且更準確地鎖定合適的人員。[了解更多](../agents/audience-agent-b2b.md) |
-| Account Qualification 代理 | 新版 | 使用 AI 助理中的 Account Qualification 代理，查看哪些帳戶已準備好進入下一階段。此代理程式透過顯示高價值商機並自動進行資格篩選工作流程，使您的銷售團隊成員可專注於正確的帳戶。[了解更多](../agents/sales-qualifier.md) |
+| 銷售限定詞 | 新版 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驅動附加應用程式，其中包含Account Qualification Agent，旨在簡化業務開發代表(BDR)的工作流程。 它可跨管道自動化潛在客戶資格、外聯和購買者參與工作流程[瞭解更多](../agents/sales-qualifier.md) |
 
 ## 2025.10 發行說明
 
@@ -34,16 +34,12 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 關聯式資料模型 | 善用連結至 B2B 帳戶的關聯式資料，來篩選帳戶歷程中的帳戶或個人化電子郵件內容。此關聯式資料可代表現實世界的商業實體，例如：購買記錄、事件註冊、軟體授權、服務訂閱或預訂。 |
 | 功能 | 針對歷程目的地啟用 | 使用新的「_針對目的地啟用_」公司帳戶動作，來直接針對公司進行啟用，而非個人。(此版本僅開放 LinkedIn 公司。) [了解更多](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | 功能 | 品牌主題 | 透過品牌主題，非技術使用者現在可以藉由在此標準範本上方新增自訂樣式，建立符合特定品牌和設計語言的可重複使用內容。[了解更多](../content/brand-themes.md) |
 | 功能 | 電子郵件範本 - 將影像轉換為 HTML | 您現在可以使用儲存為 JPG 或 PNG 影像檔案的設計檔案，並自動產生電子郵件範本。[了解更多](../content/email-template-image-convert.md) |
 | 功能 | 人物誌對應 | 將帳戶成員和已建立的人物誌透過屬性對應進行連結。[了解更多](../admin/persona-mapping.md) |
-| 功能 | Salesforce 和 Dynamics 的銷售洞察 | 銷售團隊成員現在可以在 Salesforce 或 Dynamics 整合中檢視成熟化的購買群組和相關洞察，來識別新的商機。此購買群組詳細資訊如：階段、分數及相關成員均已涵蓋在內。 |
-| 功能 | 多個 Marketo Engage 啟用 | 設定與遠端 Marketo Engage 執行個體的連線，並使用這些連線來設定 Marketo Engage 相關的歷程動作。這些動作 (例如從清單新增或移除人員，或將人員新增至請求行銷活動) 適用於指定的 Marketo Engage 執行個體。 |
-| 增強功能 | 電子郵件疲勞重複資料刪除 | 您現在可以啟用電子郵件重複資料刪除，來確保不會在歷程中將相同的電子郵件多次傳送至相同地址。直到該電子郵件地址的第一筆記錄完成歷程之前，會將重複地址進行封鎖。 |
+| 功能 | Salesforce 和 Dynamics 的銷售洞察 | 銷售團隊成員現在可以在 Salesforce 或 Dynamics 整合中檢視成熟化的購買群組和相關洞察，來識別新的商機。包括階段、分數和相關成員等購買群組細節。 [了解更多](../buying-groups/incrm-insights.md) |
 | 增強功能 | 改善購買群組完整性評分 | 您現在可以自訂角色成員的完整性評分臨界值，確保購買群組反映真正的決策。[了解更多](../buying-groups/completeness-scores.md) |
-| 增強功能 | 通訊限制 | 此系統現在會遵循 Marketo Engage 和 Journey Optimizer B2B Edition 的合併通訊限制。 |
 | 增強功能 | 購買群組維護工作 | 此購買群組維護工作頻率從每週更新為每日。 |
 | 增強功能 | 帳戶歷程進度 | 針對處於&#x200B;_上線_、_關閉新進入_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;狀態的已發佈歷程，您可以開啟歷程圖來審閱每個歷程節點的帳戶清單。 |
 
@@ -61,6 +57,17 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 * **連接多個 Adobe Marketo Engage 實例**：在一個位置管理並統一來自多個 Adobe Marketo Engage 環境的資料。
 * **確保資料安全**：進階的隱私和安全性功能有助於保護您的客戶資訊。
 * **為未來打造**：此更新會為您的組織奠定基礎，以便持續改進和創新。
+
+透過簡化的架構，2025.10版提供下列新功能和增強功能：
+
+| 類型 | 項目 | 說明 |
+| ---- | ---- | ----------- |
+| 功能 | 關聯式資料模型 | 運用連結至B2B帳戶的關聯資料，以篩選帳戶歷程中的帳戶或個人化電子郵件內容。 此關聯式資料可代表現實世界的商業實體，例如：購買記錄、事件註冊、軟體授權、服務訂閱或預訂。 |
+| 功能 | 多個 Marketo Engage 啟用 | 設定與遠端Marketo Engage執行個體的連線，並使用這些連線來設定歷程的Marketo Engage動作。 這些動作 (例如從清單新增或移除人員，或將人員新增至請求行銷活動) 適用於指定的 Marketo Engage 執行個體。 |
+| 功能 | 電子郵件疲勞重複資料刪除 | 您現在可以啟用電子郵件重複資料刪除，來確保不會在歷程中將相同的電子郵件多次傳送至相同地址。直到該電子郵件地址的第一筆記錄完成歷程之前，會將重複地址進行封鎖。 |
+| 增強功能 | 通訊限制 | 系統現在會遵守Marketo Engage和Journey Optimizer B2B edition的通訊限制。 [了解更多](../admin/configure-channels-emails.md#communication-limits) |
+
+如果您的環境已布建在此架構上，請檢閱組態的[准則](../simplified-architecture.md)。
 
 <!-- hold for later release 
 
@@ -210,8 +217,8 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 電子郵件中的條件式內容 | 根據收件者的行為和輪廓特性來製作個人化的電子郵件內容，在帳戶層級或商機層級皆可。 <p>當您在電子郵件視覺化設計空間中為帳戶歷程編寫電子郵件時，請使用條件式規則來定義任何內容元件的多個變體。<a href="../content/conditional-content.md">了解更多</a> |
-| 功能 | 歷程中&#x200B;_新增至清單_&#x200B;和&#x200B;_從清單中刪除_&#x200B;的人員動作 | 根據收件者的行為和輪廓特性來製作個人化的電子郵件內容，在帳戶層級或商機層級皆可。<a href="../journeys/action-nodes.md">了解更多</a> |
+| 功能 | 電子郵件中的條件式內容 | 根據帳戶和潛在客戶層級的收件者行為和設定檔特性，個人化您的電子郵件內容。 <p>當您在電子郵件視覺化設計空間中為帳戶歷程編寫電子郵件時，請使用條件式規則來定義任何內容元件的多個變體。<a href="../content/conditional-content.md">了解更多</a> |
+| 功能 | 歷程中&#x200B;_新增至清單_&#x200B;和&#x200B;_從清單中刪除_&#x200B;的人員動作 | 根據帳戶和潛在客戶層級的收件者行為和設定檔特性，個人化您的電子郵件內容。 <a href="../journeys/action-nodes.md">了解更多</a> |
 | 功能 | 內容治理和元件鎖定 | 若要確保遵守已核准的內容設計，請使用內容治理功能來鎖定電子郵件範本內容元件。在電子郵件範本中啟用內容治理後，行銷人員可以僅變更所允許的元素，以確保符合內容策略。<a href="../content/template-content-governance.md">了解更多</a> |
 | 功能 | 購買群組階段 | 當您定義並發佈自訂購買群組暫存模型時，您可以透過購買群組生命週期階段來追蹤購買群組進度。使用這些階段來確定購買群組成員的下一步最佳行動。您可以設定轉換規則和歷程節點，以判斷階段進度並根據變更觸發動作。<a href="../buying-groups/buying-group-stages.md">了解更多</a> |
 | 增強功能 | 全新現成可用的電子郵件範本 | 此範本範例資料庫現在包括專為 B2B 行銷人員設計的其他電子郵件範本。使用這些範本範例做為起點，並新增您自己的品牌和訊息。<a href="../content/email-templates.md#select-a-design-template">了解更多</a> |

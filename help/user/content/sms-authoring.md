@@ -4,9 +4,9 @@ description: 使用個人化、連結和同意管理建立帳戶歷程的SMS訊�
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: aa79e0655737541f122801f28db73d9f31ebb2f7
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1299'
 ht-degree: 3%
 
 ---
@@ -49,15 +49,15 @@ ht-degree: 3%
 
 您可以建立最多1600個字元的訊息，將每160個字元視為單一SMS訊息。
 
-![按一下[個人化]圖示以新增代號至郵件](./assets/sms-message-compose.png){width="800" zoomable="yes"}
+![撰寫簡訊](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
 #### 個人化簡訊
 
-1. 編寫文字訊息時，隨時按一下文字訊息方塊右側的&#x200B;_個人化_&#x200B;圖示（ ![個人化圖示](../assets/do-not-localize/icon-personalize.svg)）。
+1. 將游標放在訊息中要新增個人化權杖的位置。
 
-   顯示的頁面可讓您存取Adobe Marketo Engage銷售機會和系統Token。 包含標準和自訂Token。 您可以使用&#x200B;_搜尋_&#x200B;列來尋找您需要的權杖，或瀏覽資料夾樹狀結構來尋找及選取任何銷售機會/系統權杖。
+1. 按一下文字訊息方塊右側的&#x200B;_個人化_&#x200B;圖示（![個人化圖示](../assets/do-not-localize/icon-personalize.svg)）。
 
-1. 將游標放在訊息中要新增權杖的位置。
+   此對話方塊提供帳戶權杖、人員權杖和系統權杖的存取權。 包含標準和自訂Token。 您可以使用&#x200B;_搜尋_&#x200B;列來尋找您需要的權杖，或瀏覽資料夾樹狀結構來尋找及選取任何權杖。
 
 1. 按一下標籤旁的加號( **+** )以新增標籤。
 
@@ -77,13 +77,15 @@ ht-degree: 3%
 
 1. 輸入訊息文字後，請按一下文字訊息方塊右側的&#x200B;_連結_&#x200B;圖示（ ![連結圖示](../assets/do-not-localize/icon-link.svg)）。
 
-1. 在對話方塊中，選擇要連結的URL型別：
+1. 輸入連結的&#x200B;**[!UICONTROL URL]**。
+<!--    
+1. In the dialog, choose the type of URLs to link:
 
-   * **[!UICONTROL 登陸頁面]** — 選擇此選項可從Marketo Engage執行個體中選取任何已核准的Adobe Marketo Engage登陸頁面。 選取工作區，然後選取登入頁面。
+   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
 
-   * **[!UICONTROL 外部URL]** — 此型別是您在文字方塊中輸入的任何外部URL。
+   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. -->
 
-1. 如果您選擇使用登入頁面，請設定追蹤選項。
+1. 如果您選擇使用Marketo Engage登陸頁面，請設定追蹤選項。
 
    * **[!UICONTROL 啟用追蹤]** — 選取此核取方塊以啟用追蹤，這需要&#x200B;_縮短_ URL。 對於登入頁面，此維度會使用Marketo Engage子網域作為縮短的URL。 畫面會顯示縮短的URL格式範例。 實際URL會在SMS傳送給收件者時建立。
 
@@ -92,7 +94,7 @@ ht-degree: 3%
      >[!NOTE]
      >
      >當您允許追蹤但停用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;時，目的地URL在重新導向後不會包含`mkt_tok`查詢字串引數。 Marketo Engage登陸頁面和Munchkin會使用此引數，以確保追蹤人員活動（例如當人員取消訂閱電子郵件時）。 除非引數造成您網站上的問題，否則請勿停用此選項。<br/>
-     >如需有關在網站上使用Munchkin追蹤代碼的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
+     >如需有關在網站上使用Munchkin追蹤代碼的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
    ![新增SMS訊息的連結對話方塊](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -109,15 +111,15 @@ ht-degree: 3%
    * 針對需要使用者同意的促銷文字訊息，請使用`Marketing`。
    * 將`Transactional`用於非商業訊息，例如訂單確認、密碼重設通知或傳遞資訊。
 
-1. 針對&#x200B;**[!UICONTROL SMS設定]**，請選擇其中一個預先定義的API設定。
+1. 針對&#x200B;**[!UICONTROL SMS設定]**，請選擇其中一個預先定義的[SMS API設定](../admin/configure-channels-sms.md#create-new-api-credentials-for-an-sms-service-provider)。
 
    此設定會決定使用哪個SMS閘道服務提供者和帳戶來傳遞訊息。
 
 1. 輸入您要&#x200B;用於通訊的&#x200B;**[!UICONTROL 寄件者號碼]**。
 
-   ![採取動作 — 傳送簡訊](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![SMS訊息屬性](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   收件者號碼一律對應至Marketo Engage中的`Lead.mobilePhone`欄位。
+   收件者號碼一律對應至Experience Platform中的`profile.mobilePhone.number`欄位。
 
 ### 模擬文字訊息內容 {#preview-test}
 
@@ -160,7 +162,7 @@ ht-degree: 3%
 
 讓收件者能夠取消訂閱來自品牌的通訊，並遵守此選擇為法律要求。 若未遵守這些法規，您的品牌將面臨法律風險。 此功能也可協助您避免傳送未經請求的通訊給您的收件者，這可能會將您的訊息標示為垃圾訊息，並損害您的聲譽。
 
-提供此選項時，簡訊收件者可使用選擇加入和選擇退出關鍵字進行回覆。 支援並接受所有標準的選擇加入和選擇退出關鍵字，以及在SMS服務提供者設定的任何自訂關鍵字。 取消訂閱後，設定檔會自動從未來行銷訊息的對象中移除。
+提供此選項時，簡訊收件者可使用選擇加入和選擇退出關鍵字進行回覆。 支援並接受所有標準的選擇加入和選擇退出關鍵字，以及使用SMS服務提供者設定的所有自訂關鍵字。 取消訂閱後，設定檔會自動從未來行銷訊息的對象中移除。
 
 Journey Optimizer B2B edition可讓您使用下列邏輯，管理簡訊訊息中的選擇退出：
 

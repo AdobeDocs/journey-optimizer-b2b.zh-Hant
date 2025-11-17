@@ -4,9 +4,9 @@ description: 使用API憑證連線Sinch、Twilio和Infobip等SMS提供者，以�
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 325ae8e8c1f3bbf25e0d96907ede6cb9f2e76e3d
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Adobe Journey Optimizer B2B edition目前與獨立提供簡訊服務的協力廠
 
    ![按一下「篩選」圖示以調整API認證清單](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
-## 為SMS服務提供者建立新的API認證
+## 建立SMS服務提供者的新API認證
 
 >[!BEGINTABS]
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer B2B edition目前與獨立提供簡訊服務的協力廠
 
    * **[!UICONTROL 服務ID]**&#x200B;和&#x200B;**[!UICONTROL API Token]** — 從您的Sinch帳戶存取API頁面（您可以在SMS標籤下找到您的認證）。
 
-   如需尋找您Sinch帳戶之相關資訊的詳細資訊，請參閱[Sinch開發人員檔案](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
+   如需尋找您Sinch帳戶之相關資訊的詳細資訊，請參閱[Sinch開發人員檔案](https://developers.sinch.com/docs/sms/getting-started)
 
 1. 當API認證的組態詳細資料完成時，按一下&#x200B;**[!UICONTROL 提交]**。
 
