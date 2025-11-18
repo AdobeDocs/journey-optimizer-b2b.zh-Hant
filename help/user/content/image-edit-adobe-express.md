@@ -86,7 +86,7 @@ Adobe Express函式支援PNG和JPEG影像檔案格式。
 
    ![選取編輯型別以修改影像](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. 當您返回主要Adobe Express快速動作編輯器時，按一下「儲存」****，使用相同的檔案名稱將修改後的影像檔案儲存在Journey Optimizer B2B edition資產存放庫中。
+1. 當您返回主要Adobe Express快速動作編輯器時，按一下「儲存」**&#x200B;**，使用相同的檔案名稱將修改後的影像檔案儲存在Journey Optimizer B2B edition資產存放庫中。
 
 ## 調整影像大小
 
@@ -96,17 +96,17 @@ Adobe Express函式支援PNG和JPEG影像檔案格式。
 
    * 顯示的&#x200B;_[!UICONTROL 原始大小]_&#x200B;和&#x200B;_[!UICONTROL 壓縮大小]_&#x200B;顯示您套用變更時所導致的大小變更。 **[!UICONTROL 縮放與裁切]**&#x200B;工具可讓您更密切地檢查顯示的影像部分。
 
-   * 如果要將影像回覆成原始狀態，請按一下[重設]。****
+   * 如果要將影像回覆成原始狀態，請按一下[重設]。**&#x200B;**
 
    ![使用Adobe Express編輯 — 調整影像大小](./assets/assets-edit-adobe-express-resize-image.png){width="600" zoomable="yes"}
 
-1. 當您對結果滿意時，請按一下[套用]。****
+1. 當您對結果滿意時，請按一下[套用]。**&#x200B;**
 
 ## 移除背景
 
 ![使用Adobe Express編輯 — 移除背景](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
-Adobe Express會執行自動背景移除，以隔離影像中的主要物件。 如果您對結果滿意，請按一下[套用]。****
+Adobe Express會執行自動背景移除，以隔離影像中的主要物件。 如果您對結果滿意，請按一下[套用]。**&#x200B;**
 
 ## 裁切影像
 
@@ -114,7 +114,7 @@ Adobe Express會執行自動背景移除，以隔離影像中的主要物件。 
 
    ![使用Adobe Express編輯 — 裁切影像](./assets/assets-edit-adobe-express-crop-image.png){width="600" zoomable="yes"}
 
-1. 當您對結果滿意時，請按一下[套用]。****
+1. 當您對結果滿意時，請按一下[套用]。**&#x200B;**
 
 ## 轉換檔案格式
 
