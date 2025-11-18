@@ -4,9 +4,9 @@ description: 在Journey Optimizer B2B edition中新增按鈕、文字、影像�
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2843'
 ht-degree: 6%
 
 ---
@@ -293,7 +293,7 @@ ht-degree: 6%
 
    * **[!UICONTROL 外部連結]** — 選擇此型別以使用標準URL作為連結目的地。
 
-     在&#x200B;**[!UICONTROL Url]**&#x200B;中，輸入連結目的地的URL。 按一下「_個人化_」圖示（「![個人化圖示](../assets/do-not-localize/icon-personalize.svg)」）以使用個人化權杖作為URL中的引數。
+     在&#x200B;**[!UICONTROL Url]**&#x200B;中，輸入連結目的地的URL。 按一下「_個人化_」（「![個人化圖示](../assets/do-not-localize/icon-personalize.svg)」）圖示，使用個人化權杖作為URL中的引數。
 
      ![定義按鈕元件的外部連結](./assets/component-button-link-options-external.png){width="200"}
 
@@ -307,7 +307,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -473,7 +473,7 @@ ht-degree: 6%
 
    [開啟程式碼編輯器以新增HTML](./assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
 
    [編輯HTML對話方塊](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
@@ -537,7 +537,7 @@ ht-degree: 6%
 
   ![瀏覽可用的影像資產](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-  從該對話方塊中，您可以從選取的存放庫和工作區中選擇影像。 按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以新增資產。
+  從對話方塊中，您可以從選取的存放庫中選擇影像。 按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以新增資產。
 
   有多種工具可協助您找到所需的資產：
 
@@ -591,7 +591,7 @@ ht-degree: 6%
 
    * **[!UICONTROL 外部連結]** — 選擇此型別以使用標準URL作為連結目的地。
 
-     在&#x200B;**[!UICONTROL Url]**&#x200B;中，輸入連結目的地的URL。 按一下「_個人化_」圖示（「![個人化圖示](../assets/do-not-localize/icon-personalize.svg)」）以使用個人化權杖作為URL中的引數。
+     在&#x200B;**[!UICONTROL Url]**&#x200B;中，輸入連結目的地的URL。 按一下「_個人化_」（「![個人化圖示](../assets/do-not-localize/icon-personalize.svg)」）圖示，使用個人化權杖作為URL中的引數。
 
      ![定義按鈕元件的外部連結](./assets/component-button-link-options-external.png){width="250"}
 
@@ -605,7 +605,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。

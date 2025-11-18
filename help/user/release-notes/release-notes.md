@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 8ddd69584f834517c9f4cea14ed4417f14020254
+source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
 workflow-type: tm+mt
 source-wordcount: '3729'
 ht-degree: 95%
@@ -58,6 +58,10 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 * **確保資料安全**：進階的隱私和安全性功能有助於保護您的客戶資訊。
 * **為未來打造**：此更新會為您的組織奠定基礎，以便持續改進和創新。
 
+>[!NOTE]
+>
+>如果您的環境已布建在此架構上，請檢閱組態的[准則](../simplified-architecture.md)。
+
 透過簡化的架構，2025.10版提供下列新功能和增強功能：
 
 | 類型 | 項目 | 說明 |
@@ -67,7 +71,12 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 電子郵件疲勞重複資料刪除 | 您現在可以啟用電子郵件重複資料刪除，來確保不會在歷程中將相同的電子郵件多次傳送至相同地址。直到該電子郵件地址的第一筆記錄完成歷程之前，會將重複地址進行封鎖。 |
 | 增強功能 | 通訊限制 | 系統現在會遵守Marketo Engage和Journey Optimizer B2B edition的通訊限制。 [了解更多](../admin/configure-channels-emails.md#communication-limits) |
 
-如果您的環境已布建在此架構上，請檢閱組態的[准則](../simplified-architecture.md)。
+<!-- There are additional functional changes with the simplified architecture:
+
+| Item | Description |
+| ---- | ----------- |
+| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
+| | | -->
 
 <!-- hold for later release 
 
@@ -235,7 +244,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 增強功能 | 中央資產庫 | 增強型&#x200B;_中央資產庫_&#x200B;可讓您在 Design Studio 工作區中使用 Marketo Engage 執行個體中的所有影像資產。內建護欄可防止從 Journey Optimizer B2B Edition 編輯 Marketo Engage 資產，並防止刪除和移動作業。這些保護措施可確保來源資產 (Marketo Engage Design Studio) 獲得妥善維護，同時允許在 Journey Optimizer B2B Edition 中順暢讀取和重複使用。<p>針對專屬 Journey Optimizer B2B Edition 使用的資產，特定的工作區提供完整的資產管理功能。<a href="../content/marketo-engage-design-studio.md">了解更多</a> |
+| 增強功能 | 中央資產庫 | 增強型&#x200B;_中央資產庫_&#x200B;可讓您在 Design Studio 工作區中使用 Marketo Engage 執行個體中的所有影像資產。內建護欄可防止從 Journey Optimizer B2B Edition 編輯 Marketo Engage 資產，並防止刪除和移動作業。這些保護措施可確保來源資產 (Marketo Engage Design Studio) 獲得妥善維護，同時允許在 Journey Optimizer B2B Edition 中順暢讀取和重複使用。<p>針對專屬 Journey Optimizer B2B Edition 使用的資產，特定的工作區提供完整的資產管理功能。<a href="../content/internal-image-assets.md">了解更多</a> |
 | 功能 | 最近存取的資產 | Journey Optimizer B2B Edition 應用程式中的首頁現在包括「_[!UICONTROL 最近存取]_」區段，為行銷人員或管理員提供最近存取的資產清單。您可以使用此清單直接前往最近處理的資產，不需要導覽一系列的資產頁面及搜尋。 <p>此清單提供有關修改的其他資訊，以便您可以決定上一個工作階段中有哪些資產需要進一步修改。針對電子郵件資產，它顯示使用電子郵件資產的帳戶歷程。<a href="../home-page.md">了解更多</a> |
 | 增強功能 | 歷程分割節點 - 重新排序路徑 | 分割路徑節點中的路徑篩選會由上而下進行評估。每位人員或每個帳戶均按照相符的第一條路徑前進。您可以透過點按每個路徑卡右上角的向上鍵和向下鍵來重新排序已定義的路徑，在清單中向上或向下移動。<a href="../journeys/split-merge-paths-nodes.md#split-paths">了解更多</a> |
 | 增強功能 | 歷程分割節點 - 其他活動歷史條件屬性 | 當使用條件來定義根據人員分割路徑的路徑篩選時，有兩種附加屬性：_已開啟電子郵件_&#x200B;和&#x200B;_已傳送電子郵件_。這些附加屬性提供更大的彈性，可根據電子郵件活動篩選歷程中的人員。<a href="../journeys/journey-nodes.md#split-paths">了解更多</a> |
