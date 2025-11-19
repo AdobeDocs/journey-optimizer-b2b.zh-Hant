@@ -1,19 +1,27 @@
 ---
-title: 在Market Engage購買群組篩選器
+title: 在Marketo Engage中購買群組篩選器
 description: 透過在Marketo Engage智慧清單中購買群組成員資格並使用完整性分數等限制來篩選銷售機會，以最佳化行銷活動和銷售機會分數。
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
 
-# Market Engage 中的購買群組篩選器
+# Marketo Engage 中的購買群組篩選器
 
-身為行銷人員，您可能想要針對Marketo Engage中屬於Journey Optimizer B2B edition購買群組的人員，抑制其行銷活動。 您也可以使用與購買群組相關聯潛在客戶的相關資訊，通知Marketo Engage中的潛在客戶評分工作流程。 例如：
+>[!IMPORTANT]
+>
+>**功能淘汰**</br></br>
+>
+>Journey Optimizer B2B edition的[簡化架構](../simplified-architecture.md)讓購買群組篩選器在連線的Marketo Engage執行個體中不再可用。</br></br>
+>
+>或者，您可以為每個解決方案興趣建立靜態清單，然後[使用歷程節點的&#x200B;_新增至Marketo清單_&#x200B;動作](../journeys/action-nodes.md#marketo-engage-actions)。 此動作會將購買群組成員新增至已連線Marketo Engage執行個體中的特定靜態清單。 然後，將解決方案以興趣為中心的靜態清單用於智慧清單篩選器。
+
+行銷人員可能會想要針對Marketo Engage中屬於Journey Optimizer B2B edition購買群組的人員，抑制其行銷活動。 您也可以使用與購買群組相關聯潛在客戶的相關資訊，通知Marketo Engage中的潛在客戶評分工作流程。 例如：
 
 * 此潛在客戶是否為購買群組的一部分？
 * 購買群組是否完成並參與？
@@ -22,7 +30,7 @@ ht-degree: 1%
 
 在連線至Journey Optimizer B2B edition的Marketo Engage執行個體中，您可以在智慧清單中使用&#x200B;_[!UICONTROL 購買群組成員]_&#x200B;篩選器，根據您的行銷活動策略來識別這些銷售機會。
 
-1. 在您[在Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}中建立智慧列示後，請選取&#x200B;**[!UICONTROL 智慧列示]**&#x200B;索引標籤以開啟篩選器編輯器。
+1. 在您[在Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}中建立智慧列示後，請選取&#x200B;**[!UICONTROL 智慧列示]**&#x200B;索引標籤以開啟篩選器編輯器。
 
 1. 在右側的篩選器清單中，向下捲動清單並展開&#x200B;**[!UICONTROL 特殊篩選器]**&#x200B;資料夾。
 
