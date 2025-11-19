@@ -4,10 +4,10 @@ description: 從Journey Optimizer B2B edition和AEM Assets管理電子郵件、�
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 70%
+source-wordcount: '852'
+ht-degree: 60%
 
 ---
 
@@ -49,15 +49,15 @@ ht-degree: 70%
 
 您可以在編輯影像元件的設定時，或直接在版面上選擇影像來源。
 
-* **_影像元件設定_** - 當您在視覺化設計空間中選取某個影像元件時，便可以在右側面板中檢視和編輯此設定。若要新增或變更元件中顯示的影像檔案，請選擇來源類型並選取一個影像檔案。
+* **_影像元件設定_** — 當您在畫布中選取影像元件時，您可以在右側面板中檢視及編輯設定。 若要新增或變更元件中顯示的影像檔案，請選擇來源類型並選取一個影像檔案。
 
   ![在右側面板中編輯影像元件設定](./assets/content-assets-image-settings.png){width="350"}
 
-* **_空白元件_** - 在視覺化設計空間中新增影像元件時，元件是空的並提供簡易途徑讓您選擇來源並選取一個影像檔案。
+* **_空白元件_** — 將影像元件新增至畫布時，該元件為空白，可讓您輕鬆選擇來源及選取影像檔案。
 
   ![選擇來源，以便選取空白影像元件的影像檔案](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_影像元件工具列_** - 當您在視覺化設計空間中選取某個影像元件時，可透過工具列輕鬆選擇來源再選取影像檔案。
+* **_影像元件工具列_** — 當您在畫布中選取影像元件時，工具列可讓您輕鬆選擇來源並選取影像檔案。
 
   ![使用工具列來選擇來源，以便選取影像元件的影像檔案](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
