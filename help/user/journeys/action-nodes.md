@@ -4,7 +4,7 @@ description: 設定帳戶和人員動作的動作節點 — 傳送電子郵件�
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 2%
@@ -174,7 +174,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 +++[!UICONTROL 變更資料值]
 
-使用此動作來變更[人員設定檔屬性](../data/field-mapping.md#xdm-business-person-attributes)的值。 選取屬性，然後設定新值。
+使用此動作來變更[人員設定檔屬性](../admin/field-mapping.md#xdm-business-person-attributes)的值。 選取屬性，然後設定新值。
 
 ![採取動作 — 變更資料值](./assets/node-action-change-data-value.png){width="300"}
 
