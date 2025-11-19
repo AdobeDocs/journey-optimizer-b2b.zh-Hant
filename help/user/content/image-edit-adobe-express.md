@@ -4,9 +4,9 @@ description: 在Journey Optimizer B2B edition中使用Adobe Express以原生方�
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '856'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 >title="在 Adobe Express 編輯影像"
 >abstract="這個簡單直觀的影像編輯工具是由 Adobe Express 提供支援，可直接在 Adobe Journey Optimizer B2B Edition 中使用以加快建立內容的速度。"
 
-Adobe Journey Optimizer B2B edition與Adobe Express原生整合，可讓您存取一組Adobe Express影像編輯工具。 您可以使用這些工具來修改儲存在Journey Optimizer B2B edition資產存放庫中的影像。 整合提供下列主要優點：
+[!DNL Adobe Journey Optimizer B2B Edition]與Adobe Express原生整合，可讓您存取一組[!DNL Adobe Express]影像編輯工具。 您可以使用這些工具來修改儲存在[!DNL Journey Optimizer B2B Edition]資產存放庫中的影像。 整合提供下列主要優點：
 
 * 透過在Journey Optimizer B2B edition中編輯和儲存新影像資產，增加內容重複使用率。
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer B2B edition與Adobe Express原生整合，可讓您存�
 >
 >Adobe Express編輯功能的權益包含在所有Journey Optimizer B2B edition訂閱中。
 
-Adobe Express函式支援PNG和JPEG影像檔案格式。
+[!DNL Adobe Express]函式支援PNG和JPEG影像檔案格式。
 
 修改影像(_T):_
 
@@ -70,7 +70,7 @@ Adobe Express函式支援PNG和JPEG影像檔案格式。
 
 ![在Adobe Express Enterprise編輯器中開啟影像](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-[Adobe Express使用手冊](https://helpx.adobe.com/tw/express/web.html){target="_blank"}提供可用編輯功能的詳細資訊。
+[Adobe Express使用手冊](https://helpx.adobe.com/express/web.html){target="_blank"}提供可用編輯功能的詳細資訊。
 
 ## Adobe Express中的快速動作
 
@@ -86,7 +86,7 @@ Adobe Express函式支援PNG和JPEG影像檔案格式。
 
    ![選取編輯型別以修改影像](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. 當您返回主要Adobe Express快速動作編輯器時，按一下「儲存」**&#x200B;**，使用相同的檔案名稱將修改後的影像檔案儲存在Journey Optimizer B2B edition資產存放庫中。
+1. 當您返回主要Adobe Express快速動作編輯器時，按一下「儲存」****，使用相同的檔案名稱將修改後的影像檔案儲存在Journey Optimizer B2B edition資產存放庫中。
 
 ## 調整影像大小
 
@@ -96,17 +96,17 @@ Adobe Express函式支援PNG和JPEG影像檔案格式。
 
    * 顯示的&#x200B;_[!UICONTROL 原始大小]_&#x200B;和&#x200B;_[!UICONTROL 壓縮大小]_&#x200B;顯示您套用變更時所導致的大小變更。 **[!UICONTROL 縮放與裁切]**&#x200B;工具可讓您更密切地檢查顯示的影像部分。
 
-   * 如果要將影像回覆成原始狀態，請按一下[重設]。**&#x200B;**
+   * 如果要將影像回覆成原始狀態，請按一下[重設]。****
 
    ![使用Adobe Express編輯 — 調整影像大小](./assets/assets-edit-adobe-express-resize-image.png){width="600" zoomable="yes"}
 
-1. 當您對結果滿意時，請按一下[套用]。**&#x200B;**
+1. 當您對結果滿意時，請按一下[套用]。****
 
 ## 移除背景
 
 ![使用Adobe Express編輯 — 移除背景](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
-Adobe Express會執行自動背景移除，以隔離影像中的主要物件。 如果您對結果滿意，請按一下[套用]。**&#x200B;**
+Adobe Express會執行自動背景移除，以隔離影像中的主要物件。 如果您對結果滿意，請按一下[套用]。****
 
 ## 裁切影像
 
@@ -114,7 +114,7 @@ Adobe Express會執行自動背景移除，以隔離影像中的主要物件。 
 
    ![使用Adobe Express編輯 — 裁切影像](./assets/assets-edit-adobe-express-crop-image.png){width="600" zoomable="yes"}
 
-1. 當您對結果滿意時，請按一下[套用]。**&#x200B;**
+1. 當您對結果滿意時，請按一下[套用]。****
 
 ## 轉換檔案格式
 
