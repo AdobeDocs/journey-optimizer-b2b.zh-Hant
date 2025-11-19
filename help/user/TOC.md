@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 96%
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
    + [使用 AI 助理](./ai-assistant/use-ai-assistant.md)
    + 專員 {#ai-agents}
       + [Audience 代理](./agents/audience-agent-b2b.md)
-      + [歷程建置代理](./agents/journey-agent.md)
+      + [Journey Build代理程式B2B](./agents/journey-agent.md)
       + [銷售限定詞](./agents/sales-qualifier.md)
 + 帳戶歷程 {#account-journeys}
    + [概觀](./journeys/journey-overview.md)
@@ -68,7 +68,6 @@ ht-degree: 96%
    + 帳戶清單 {#account-lists}
       + [概觀](./accounts/account-lists.md)
       + [用於歷程和方案中](./accounts/account-lists-journeys.md)
-   + [XDM 欄位](./data/field-mapping.md)
    + 銷售體驗 {#sales-experience}
       + [帳戶詳細資料](./accounts/account-details.md)
       + [購買群組詳細資料](./buying-groups/buying-group-details.md)
@@ -121,15 +120,18 @@ ht-degree: 96%
       + [概觀](./content/personalization.md)
       + [個人化語法](./content/personalization-syntax.md)
       + [協助程式函式清單](./content/personalization-helper-functions.md)
-+ 深入分析儀表板 {#dashboards}
++ 洞察儀表板 {#dashboards}
    + [智慧儀表板](./dashboards/intelligent-dashboard.md)
    + [參與度概觀](./dashboards/engagement-dashboard.md)
    + [購買群組概觀](./dashboards/buying-groups-dashboard.md)
    + [帳戶歷程概觀](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [治理](./admin/governance.md)
+   + [Marketo動作設定](./admin/marketo-actions-connect.md)
    + [人物誌對應](./admin/persona-mapping.md)
    + [使用者管理](./admin/user-management.md)
+   + [XDM 欄位](./admin/field-mapping.md)
+   + [XDM欄位選擇](admin/xdm-field-management.md)
    + 管道 {#channels}
       + [電子郵件組態](./admin/configure-channels-emails.md)
       + [簡訊設定](./admin/configure-channels-sms.md)
