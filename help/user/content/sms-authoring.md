@@ -4,7 +4,7 @@ description: 使用個人化、連結和同意管理建立帳戶歷程的SMS訊�
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: aa79e0655737541f122801f28db73d9f31ebb2f7
+source-git-commit: 9a97682590d779c8b5f5b385efd912ee1f56ed31
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 3%
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 1. 在&#x200B;_[!UICONTROL 輸入遞補值]_&#x200B;對話方塊中，輸入顯示為遞補的文字，然後按一下&#x200B;**[!UICONTROL 新增]**。
 
-   ![輸入權杖的遞補文字](./assets/sms-message-personalize-fallback-text.png){width="400"}
+   ![輸入權杖的遞補文字](./assets/sms-message-personalize-fallback-text.png){width="450"}
 
 1. 置入個人化權杖後，按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更並返回主要SMS編寫工作區。
 
@@ -89,12 +89,12 @@ ht-degree: 3%
 
    * **[!UICONTROL 啟用追蹤]** — 選取此核取方塊以啟用追蹤，這需要&#x200B;_縮短_ URL。 對於登入頁面，此維度會使用Marketo Engage子網域作為縮短的URL。 畫面會顯示縮短的URL格式範例。 實際URL會在SMS傳送給收件者時建立。
 
-   * **[!UICONTROL 包含mkt_tok]** — 選取此核取方塊可追蹤使用者的活動。
+   * **[!UICONTROL 包含mkt_tok]** — 選取此核取方塊以追蹤使用者的活動。</br>
 
      >[!NOTE]
      >
      >當您允許追蹤但停用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;時，目的地URL在重新導向後不會包含`mkt_tok`查詢字串引數。 Marketo Engage登陸頁面和Munchkin會使用此引數，以確保追蹤人員活動（例如當人員取消訂閱電子郵件時）。 除非引數造成您網站上的問題，否則請勿停用此選項。<br/>
-     >如需有關在網站上使用Munchkin追蹤代碼的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
+     >如需有關在網站上使用Munchkin追蹤代碼的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
    ![新增SMS訊息的連結對話方塊](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -117,7 +117,7 @@ ht-degree: 3%
 
 1. 輸入您要&#x200B;用於通訊的&#x200B;**[!UICONTROL 寄件者號碼]**。
 
-   ![SMS訊息屬性](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![SMS訊息屬性](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    收件者號碼一律對應至Experience Platform中的`profile.mobilePhone.number`欄位。
 
