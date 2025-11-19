@@ -4,16 +4,16 @@ description: 瀏覽、管理和使用Journey Optimizer B2B edition資產 — 組
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: ddc0c68c5d2fb3c1260100bb4686bcff16aafdff
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1758'
 ht-degree: 1%
 
 ---
 
 # 使用內部影像資產
 
-內部影像資產存放庫是設計內容的預設資產來源，您可以輕鬆管理和使用可用資產來設計支援帳戶歷程的內容。
+內部影像資產存放庫是預設影像資產來源，您可以輕鬆管理和使用可用資產，以設計支援帳戶歷程的內容。
 
 Journey Optimizer B2B edition提供完整的資產管理功能。 這些函式包括：
 
@@ -36,7 +36,7 @@ Journey Optimizer B2B edition提供完整的資產管理功能。 這些函式�
 
 * 若要自訂表格中顯示的欄，請按一下右上方的&#x200B;_自訂表格_&#x200B;圖示（ ![自訂表格](../assets/do-not-localize/icon-column-settings.svg)）。
 
-  選取您要顯示在清單中的資料行，然後按一下[套用]。**&#x200B;**
+  選取您要顯示在清單中的資料行，然後按一下[套用]。****
 
 ## 檢視資產詳細資訊
 
@@ -86,7 +86,7 @@ Journey Optimizer B2B edition提供完整的資產管理功能。 這些函式�
 
 使用下列其中一種方法來刪除資產：
 
-* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，並從選項中選擇[刪除]。**&#x200B;**
+* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，並從選項中選擇[刪除]。****
 
   ![存取資產的動作](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
 
@@ -102,7 +102,7 @@ Journey Optimizer B2B edition提供完整的資產管理功能。 這些函式�
 
 使用下列其中一種方法來取代位於&#x200B;_[!UICONTROL Journey Optimizer B2B edition]_&#x200B;資產存放庫中的資產：
 
-* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，然後從選項中選擇[取代]。**&#x200B;**
+* 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，然後從選項中選擇[取代]。****
 
 * 在&#x200B;_[!UICONTROL Assets]_&#x200B;清單頁面上，按一下資產專案旁的&#x200B;_更多_&#x200B;圖示(**[!UICONTROL ...]**)，然後從選項中選擇&#x200B;**[!UICONTROL 取代]**。
 
@@ -110,7 +110,7 @@ Journey Optimizer B2B edition提供完整的資產管理功能。 這些函式�
 
 ![取代資產對話方塊](./assets/assets-replace-dialog.png){width="500"}
 
-若要繼續，請按一下[取代]。**&#x200B;** 您可以按一下&#x200B;**[!UICONTROL 取消]**，中止程式。
+若要繼續，請按一下[取代]。**** 您可以按一下&#x200B;**[!UICONTROL 取消]**，中止程式。
 
 如果要取代的檔案正在使用中，對話方塊會警告您新的影像檔案取代了該檔案所使用的影像（電子郵件、電子郵件範本和片段）。
 
