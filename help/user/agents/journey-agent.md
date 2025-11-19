@@ -1,16 +1,16 @@
 ---
-title: B2B的Journey Build代理程式
+title: Journey Build代理程式B2B
 description: 瞭解如何使用AI支援的Journey Build Agent協助快速建立強大的歷程
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# B2B的Journey Build代理程式
+# Journey Build代理程式B2B
 
 Journey Builder Agent B2B是一種AI代理程式，可協助您透過自動化和資料導向建議進行歷程設計/建立、執行和最佳化。 適用於B2B的Journey Builder代理程式會自動執行建立新B2B歷程所需的時間，並縮短所需時間。
 
