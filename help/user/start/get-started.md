@@ -27,7 +27,7 @@ ht-degree: 100%
 
 作為系統管理員，您必須了解產品輪廓並指派沙箱管理和管道設定的權限。您也必須設定沙箱，並針對可用的產品輪廓進行管理。然後，您可以將團隊成員指派給產品輪廓。具有 Adobe Admin Console 存取權的產品管理員可以管理這些功能。[了解更多關於 Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
 
-請前往下列頁面，了解存取管理：
+請前往下列頁面，了解存取權管理：
 
 1. **建立沙箱**&#x200B;以將執行個體分區到獨立的虛擬環境中。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 

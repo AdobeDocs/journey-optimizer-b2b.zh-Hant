@@ -204,8 +204,8 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | ---- | ---- | ----------- |
 | 功能 | 體驗事件轉送 | 管理員可以設定基於 Adobe Experience Platform (AEP) 的事件定義。行銷人員可以利用這些設定，建立能回應 AEP 體驗事件的帳戶歷程。<a href="../admin/configure-aep-events.md">了解更多</a> |
 | 功能 | 付費媒體目標 | 透過帳戶歷程判斷已知人員是否符合付費媒體行銷活動的資格，以便在 LinkedIn 等廣告平台上進一步與他們互動。使用分割路徑節點，以根據特定行為細分帳戶客群，並找出需要提高參與度的帳戶。然後，透過 Real-time CDP 將這些帳戶中的人員新增至外部客戶客群中，並新增至支援的付費媒體目標。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">了解更多</a> |
-| 功能 | 智慧儀表板 | 透過購買群組的帳戶歷程檢視其進度，包括由 AI 產生的深入分析，以便進行智慧化分析和準確的帳戶優先排序。<a href="../dashboards/intelligent-dashboard.md">了解更多</a> |
-| 功能 | 購買群組和帳戶詳細資訊 | 檢視購買群組和帳戶層級的深入分析，以便了解更多背景和歷史資料，然後再開始與客戶互動。<p>購買群組詳細資訊包括已偵測到的任何第一方意圖。<a href="../buying-groups/buying-group-details.md">了解更多</a><p>帳戶詳細資訊會加強顯示偵測到參與度的意圖激增情形，以便您可以通知銷售人員注意那些已經準備好接受客製化銷售導向互動的帳戶。<a href="../accounts/account-details.md">了解更多</a> |
+| 功能 | 智慧儀表板 | 透過購買群組的帳戶歷程檢視其進度，包括由 AI 產生的洞察，以便進行智慧化分析和準確的帳戶優先排序。<a href="../dashboards/intelligent-dashboard.md">了解更多</a> |
+| 功能 | 購買群組和帳戶詳細資訊 | 檢視購買群組和帳戶層級的洞察，以便了解更多背景和歷史資料，然後再開始與客戶互動。<p>購買群組詳細資訊包括已偵測到的任何第一方意圖。<a href="../buying-groups/buying-group-details.md">了解更多</a><p>帳戶詳細資訊會加強顯示偵測到參與度的意圖激增情形，以便您可以通知銷售人員注意那些已經準備好接受客製化銷售導向互動的帳戶。<a href="../accounts/account-details.md">了解更多</a> |
 | 功能 | 歷程概觀 | 存取帳戶歷程時，「概觀」索引標籤會提供使用中帳戶歷程的綜合概況，並利用圓形圖和長條圖分類及量化完成情況和參與活動，以詳細說明帳戶進度。<a href="../dashboards/journeys-dashboard.md">了解更多</a> |
 | 功能 | Adobe Express 影像編輯 | 使用 Adobe Express 快速動作對影像進行簡易編輯 (例如裁切和調整大小)，使內容看起來更精美。<a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">了解更多</a>  <p>為了提供更完整的設計工具組，此整合將完整的 Adobe Express 授權納入 Journey Optimizer B2B Edition。透過此設定，您可以在本機資產工作區內存取完整的 Adobe Express 使用者介面。<a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">了解更多</a> |
 | 功能 | 購買群組角色的意圖篩選器 | 當您提交意圖關鍵字時，意圖偵測模型會根據某個商機的活動，以足夠高的可信度預測您感興趣的解決方案/產品。<a href="../admin/intent-data.md">了解更多</a> <p>此意圖資料可用於定義購買群組角色條件<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解更多</a> |
