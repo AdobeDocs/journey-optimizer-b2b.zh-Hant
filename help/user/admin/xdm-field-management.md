@@ -96,7 +96,7 @@ Adobe Experience Platform (AEP)結構描述通常包含複雜階層中的許多�
 
    ![從XDM結構描述設定中的資料集選取可更新欄位的對話方塊](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
 
-1. 按一下[儲存]以套用您的變更。****
+1. 按一下[儲存]以套用您的變更。**&#x200B;**
 
 ### 關聯式結構描述
 
