@@ -4,9 +4,9 @@ description: 設定帳戶和人員觸發器的事件節點 — 在Journey Optimi
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: f5fc362d52ff83335c71b5efe7ea2915d6a7e330
+source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1810'
 ht-degree: 4%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**[!UICONTROL 編輯事件]**&#x200B;並定義一個或多個要比對的網頁，以及事件的任何其他限制。
 
-   * （必要）在&#x200B;_[!UICONTROL 編輯事件]_&#x200B;對話方塊中，定義&#x200B;**[!UICONTROL 網頁]**&#x200B;或&#x200B;**[!UICONTROL 填寫表單]**&#x200B;條件約束。 使用&#x200B;**[!UICONTROL 是]** （預設）在一或多個選取的頁面或表單上比對。 使用&#x200B;**[!UICONTROL 不是]**&#x200B;在所有頁面瀏覽/表單上相符，並排除一或多個選取的頁面/表單。 或者，使用&#x200B;**[!UICONTROL 為任何]**&#x200B;以符合任何Marketo Engage網頁造訪或填寫的表單。
+   * （必要）在&#x200B;_[!UICONTROL 編輯事件]_&#x200B;對話方塊中，定義&#x200B;**[!UICONTROL 網頁]**&#x200B;或&#x200B;**[!UICONTROL 填寫表單]**&#x200B;條件約束。 使用&#x200B;**[!UICONTROL 是]** （預設）在一或多個選取的頁面或表單上比對。 使用&#x200B;**[!UICONTROL 不是]**&#x200B;在所有頁面瀏覽/表單上相符，並排除一或多個選取的頁面/表單。 或者，使用&#x200B;**[!UICONTROL 是任何]**&#x200B;運運算元，以比對任何Marketo Engage網頁造訪或填寫的表單。
 
    * （選擇性）按一下&#x200B;**[!UICONTROL 新增限制]**，然後選擇您要用於限制的欄位。 設定欄位的運運算元和值。
 
@@ -135,13 +135,14 @@ ht-degree: 4%
 
 ### 聆聽體驗事件
 
-管理員可以設定Adobe Experience Platform (AEP)型事件定義，讓行銷人員建立會對[AEP體驗事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}做出反應的帳戶歷程。 在帳戶歷程中使用AEP體驗事件有兩個步驟：
+管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立近乎即時對事件回應的歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
 
-1. [建立並發佈AEP事件定義](../admin/configure-aep-events.md)。
+1. 管理員[選取感興趣的事件型別和欄位](../admin/configure-aep-events.md#select-an-event)，以便在歷程中使用。
 
-2. 在帳戶歷程中，新增&#x200B;_接聽事件_&#x200B;節點，並為以人物為基礎的事件選取Experience Platform事件定義。
+2. 在歷程中，新增&#x200B;_接聽事件_&#x200B;節點，並為以人物為基礎的事件選取Experience Platform事件型別。
 
-![影片](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;， vertical-align=&quot;middle&quot;} [觀看影片概觀](../admin/configure-aep-events.md#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
 
 若要在歷程中包含體驗事件(_T):_
 
@@ -159,21 +160,21 @@ ht-degree: 4%
 
    ![編輯事件](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
-1. 按一下&#x200B;**[!UICONTROL 編輯事件]**&#x200B;並定義事件的事件型別和任何其他限制。
+1. 按一下&#x200B;**[!UICONTROL 編輯事件]**，並為事件定義一或多個限制。
 
-   * （必要）在&#x200B;_[!UICONTROL 編輯事件]_&#x200B;對話方塊中，定義事件型別。 您可以使用預設的&#x200B;**[!UICONTROL 是]**&#x200B;運運算元，在一或多個選取的事件型別上比對。 或者，您可以使用&#x200B;**[!UICONTROL is not]**&#x200B;運運算元來比對所有事件型別，並排除一或多個選取的事件型別。
+   可用的限制定義為事件設定的Managed欄位。
 
-   * （選擇性）按一下&#x200B;**[!UICONTROL 新增限制]**，然後選擇您要用於限制的欄位。 設定欄位的運運算元和值。
+   * 按一下&#x200B;**[!UICONTROL 新增限制]**，然後選擇您要用於限制的欄位。
+
+   * 完成限制條件。
+
+     您可以使用預設的&#x200B;**[!UICONTROL 是]**&#x200B;運運算元來比對一或多個欄位值。 或者，您可以使用&#x200B;**[!UICONTROL is not]**&#x200B;運運算元來比對所有值，並排除一或多個指定值。
 
      ![聆聽體驗活動](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
 
-     >[!NOTE]
-     >
-     >不支援&#x200B;_活動日期_&#x200B;和&#x200B;_最小次數_&#x200B;的限制。
-
-     您可以視需要重複此動作以包含其他欄位限制。
-
    * 如有需要，請選取&#x200B;**[!UICONTROL 篩選器]**&#x200B;索引標籤以[為事件新增篩選器](#add-a-filter-to-the-people-event)。
+
+   * （選擇性）按一下&#x200B;**[!UICONTROL 新增條件約束]**，並重複這些步驟以視需要包含其他欄位條件約束。
 
    * 定義限制和篩選器時，按一下&#x200B;**[!UICONTROL 完成]**。
 
@@ -219,6 +220,6 @@ ht-degree: 4%
 
    ![歷程事件節點 — 設定逾時路徑](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## 概觀影片
+<!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

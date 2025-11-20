@@ -1,28 +1,27 @@
 ---
-title: XDM欄位
+title: 預設XDM欄位
 description: 檢閱在Adobe Experience Platform和Journey Optimizer B2B edition之間同步的預設屬性欄位。
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1155'
 ht-degree: 11%
 
 ---
 
-# XDM 欄位
+# 預設XDM欄位
 
 帳戶對象資料同時儲存為XDM商業帳戶和XDM商業人士類別中的屬性。 資料會定期在Adobe Experience Platform和Journey Optimizer B2B edition之間同步。 以下各節列出預設屬性集。
 
 >[!TIP]
 >
->您可以使用XDM商業帳戶個人關係類別(如[Experience Platform XDM檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}所述)，以多對多關係來建立XDM商業帳戶和XDM商業帳戶類別的模型。
+>您可以使用XDM商業帳戶個人關係類別(如[Experience Platform XDM檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}所述)，以多對多關係來建立XDM商業帳戶和XDM商業帳戶類別的模型。
 
 >[!NOTE]
->Data Mirror和關聯式結構描述可供Adobe Journey Optimizer Orchestrated行銷活動授權持有人使用。 視您的授權和功能啟用而定，它們也會以限量版的形式提供給Customer Journey Analytics使用者。 請聯絡您的Adobe代表以取得存取權。 關聯式結構描述也可作為Adobe Journey Optimizer B2B edition的限量版使用。
 >
-
+>Data Mirror和關聯式結構描述可供Adobe Journey Optimizer Orchestrated行銷活動授權持有人使用。 視您的授權和功能啟用而定，它們也會以限量版的形式提供給Customer Journey Analytics使用者。 請聯絡您的Adobe代表以取得存取權。 關聯式結構描述也可作為Adobe Journey Optimizer B2B edition的限量版使用。
 
 ## XDM商業帳戶個人關係屬性
 
@@ -89,7 +88,7 @@ ht-degree: 11%
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

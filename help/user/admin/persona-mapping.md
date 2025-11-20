@@ -3,9 +3,9 @@ title: 角色對應
 description: 瞭解如何為B2B行銷設定角色對應。 在Journey Optimizer B2B edition中對應人員屬性以建立角色範本，並最佳化購買群組目標定位。
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -39,13 +39,13 @@ Then based on what agent informed, users can create a template with those person
 
 1. 按一下中繼面板上的&#x200B;**[!UICONTROL 角色對應]**&#x200B;以顯示角色清單。
 
-   ![存取設定的角色](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![存取設定的角色](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   您可以從此頁面[建立](#create-an-engagement-score-model)、[編輯](#change-the-engagement-weighting-settings)或[刪除](#delete-a-persona)角色。
+   您可以從此頁面[建立](#create-a-persona)、[編輯](#edit-a-persona)或[刪除](#delete-a-persona)角色。
 
-   角色對應清單。 組織為表格，並在頂端顯示最近更新的角色（依&#x200B;_[!UICONTROL 上次更新]_&#x200B;排序）。 您可以按一下右上角的&#x200B;_欄設定_ （ ![欄設定](../assets/do-not-localize/icon-column-settings.svg) ）圖示，並選取或清除欄核取方塊來自訂顯示的表格。
+   角色對應清單以表格形式組織，並在頂端顯示最近更新的角色（依&#x200B;_[!UICONTROL 上次更新]_&#x200B;排序）。 您可以按一下右上角的&#x200B;_欄設定_ （ ![欄設定](../assets/do-not-localize/icon-column-settings.svg) ）圖示，並選取或清除欄核取方塊來自訂顯示的表格。
 
-![要顯示在角色對應清單中的欄](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+![要顯示在角色對應清單中的欄](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. 若要存取角色的詳細資訊，請按一下名稱。
 
@@ -68,13 +68,9 @@ _角色對應_&#x200B;清單包含根據工作標題屬性定義的五個預設�
 
 ### 清單篩選
 
-若要找到您想要的角色，請使用搜尋和篩選工具：
+若要找到您想要的角色，請在搜尋列中輸入文字字串，依名稱比對角色，
 
-* 在搜尋列中輸入文字字串，依名稱比對角色，
-
-  ![篩選顯示的事件定義](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
-
-* 按一下左上方的&#x200B;_篩選器_ （![篩選器圖示](../assets/do-not-localize/icon-filter.svg) ）圖示，以依屬性篩選顯示的清單。
+![篩選顯示的角色對應](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## 建立角色
 
@@ -86,6 +82,8 @@ _角色對應_&#x200B;清單包含根據工作標題屬性定義的五個預設�
 
 1. 輸入角色唯一&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]** （選擇性）。
 
+   ![建立角色對應](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+
 1. 選取用於比對角色的屬性。
 
    * 按一下&#x200B;**[!UICONTROL 選取人員屬性]**。
@@ -96,6 +94,8 @@ _角色對應_&#x200B;清單包含根據工作標題屬性定義的五個預設�
 
      若要依名稱篩選屬性清單，請在搜尋列中輸入文字字串。 您也可以按一下左上方的&#x200B;_篩選器_ （![篩選器圖示](../assets/do-not-localize/icon-filter.svg) ）圖示，依型別&#x200B;_標準_&#x200B;或&#x200B;_自訂_&#x200B;來篩選顯示的清單。
 
+     ![選取角色屬性對話方塊](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+
    * 按一下&#x200B;**[!UICONTROL 儲存]**。
 
      選取的屬性會填入&#x200B;_[!UICONTROL 角色屬性]_&#x200B;區段中。
@@ -104,11 +104,13 @@ _角色對應_&#x200B;清單包含根據工作標題屬性定義的五個預設�
 
    您也可以新增可用來識別相符專案的提示，以取代值。 例如，您可以輸入
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
+1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
 ## 編輯角色
 
 按一下角色名稱以存取及編輯角色的詳細資料，
+
+您可以變更名稱或說明、新增屬性或更新屬性值。 完成變更後，按一下&#x200B;**[!UICONTROL 提交]**。
 
 ## 刪除角色
 
