@@ -23,7 +23,7 @@ Adobe Experience Platform (AEP)結構描述通常包含複雜階層中的許多�
 管理員若瞭解XDM並與資料工程師或B2B客戶資料平台(CDP)資料模型相關人員合作，請遵循本指南中的程式。
 
 >[!NOTE]
->[關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#)可作為[!DNL Journey Optimizer B2B Edition]的有限發行版本使用。 Data Mirror和關聯式結構描述可供Journey Optimizer Orchestrated行銷活動授權持有人使用。 根據您的授權和功能啟用，關聯式結構描述也以限量版形式提供給Customer Journey Analytics使用者。 請聯絡您的Adobe代表以取得存取權。
+>[關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#)可作為[!DNL Journey Optimizer B2B Edition]的有限發行版本使用。 Data Mirror和關聯式結構描述可供Journey Optimizer Orchestrated行銷活動授權持有人使用。 根據您的授權和功能啟用，關聯式結構描述也以限量版形式提供給Customer Journey Analytics使用者。 請聯絡您的Adobe代表以取得存取權。
 
 ## 存取XDM類別
 

@@ -17,7 +17,7 @@ ht-degree: 11%
 
 >[!TIP]
 >
->您可以使用XDM商業帳戶個人關係類別(如[Experience Platform XDM檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}所述)，以多對多關係來建立XDM商業帳戶和XDM商業帳戶類別的模型。
+>您可以使用XDM商業帳戶個人關係類別(如[Experience Platform XDM檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}所述)，以多對多關係來建立XDM商業帳戶和XDM商業帳戶類別的模型。
 
 >[!NOTE]
 >Data Mirror和關聯式結構描述可供Adobe Journey Optimizer Orchestrated行銷活動授權持有人使用。 視您的授權和功能啟用而定，它們也會以限量版的形式提供給Customer Journey Analytics使用者。 請聯絡您的Adobe代表以取得存取權。 關聯式結構描述也可作為Adobe Journey Optimizer B2B edition的限量版使用。
@@ -89,7 +89,7 @@ ht-degree: 11%
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

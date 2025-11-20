@@ -15,7 +15,7 @@ ht-degree: 0%
 
 CRM Insights是整合至Salesforce的網頁型應用程式，可讓您直接在Salesforce中存取Journey Optimizer B2B edition購買群組。 它可讓您找出提升參與度和銷售潛力的機會。
 
-In-CRM Insights應用程式可在[Marketo Sales Insights套件](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange)中使用。
+In-CRM Insights應用程式可在[Marketo Sales Insights套件](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange)中使用。
 
 ## 權限
 
@@ -43,4 +43,4 @@ In-CRM Insights應用程式可透過應用程式啟動器在Salesforce中使用�
 >
 >必須具備[B2B銷售使用者](../admin/user-management.md#b2b-built-in-roles)產品角色的成員資格，才能存取In-CRM Insights。
 
-選取購買群組後，您可以瀏覽[群組詳細資料](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)，就像在Journey Optimizer B2B edition中一樣。
+選取購買群組後，您可以瀏覽[群組詳細資料](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)，就像在Journey Optimizer B2B edition中一樣。

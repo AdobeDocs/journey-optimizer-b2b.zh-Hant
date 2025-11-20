@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Marketo Engage動作是&#x200B;_以人物為基礎的_&#x200B;動作，可讓您在Journey Optimizer B2B edition與Marketo Engage中的&#x200B;_潛在客戶為基礎的_&#x200B;行銷工作之間，協調您的&#x200B;_以帳戶為基礎的_&#x200B;行銷協調。 使用這些動作來編排靜態清單成員資格，並將人員放入行銷活動。
 
-若要使用Marketo Engage動作，管理員必須先在Marketo Engage中建立[自訂服務](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#)，此服務提供驗證所需的認證。
+若要使用Marketo Engage動作，管理員必須先在Marketo Engage中建立[自訂服務](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/rest/custom-services#)，此服務提供驗證所需的認證。
 接著，Journey Optimizer B2B edition的產品管理員會輸入認證，以建立與Marketo Engage的連線。
 接著Journey Optimizer B2B edition使用者可以參考連線，在<!-- Person and -->帳戶歷程中設定Marketo Engage動作，例如從Marketo Engage清單新增或移除人員，或將他們新增至請求行銷活動。
 
