@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL In-CRM Insights]是整合至Salesforce和Microsoft Dynamics 365的網頁型應用程式，可讓您直接在您的CRM中存取[!DNL Journey Optimizer B2B Edition]個購買群組。 這項服務將銷售資料來源彙整在一起，可讓您更輕鬆地找出提升參與度和銷售潛力的機會。
 
-[!DNL In-CRM Insights]應用程式可在[Marketo Sales Insights套件](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange)中使用。
+[!DNL In-CRM Insights]應用程式可在[Marketo Sales Insights套件](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange)中使用。
 
 ## 安裝
 
@@ -33,8 +33,8 @@ ht-degree: 0%
 
 如果您想要將使用者限製為僅[!DNL In-CRM Insights]：
 
-1. 建立[自訂角色](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)，並為其指派&#x200B;**Sales Insights：檢視Sales Insights**&#x200B;許可權。
-1. 建立新的[使用者群組](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
+1. 建立[自訂角色](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)，並為其指派&#x200B;**Sales Insights：檢視Sales Insights**&#x200B;許可權。
+1. 建立新的[使用者群組](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
 1. 將Experience Platform產品設定檔新增至群組。
 
 ### 安裝套件
@@ -73,4 +73,4 @@ ht-degree: 0%
 
 依照提示登入您的Adobe帳戶。 您的購買群組已載入並可供檢視。
 
-選取購買群組後，您可以瀏覽[群組詳細資料](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 這與Journey Optimizer B2B edition中顯示的資料和深入分析相同，但資料透過[!DNL In-CRM Insights]唯讀。
+選取購買群組後，您可以瀏覽[群組詳細資料](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 這與Journey Optimizer B2B edition中顯示的資料和深入分析相同，但資料透過[!DNL In-CRM Insights]唯讀。
