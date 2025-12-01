@@ -148,4 +148,4 @@ ht-degree: 12%
 
 您可以透過付費媒體管道（例如LinkedIn廣告對象）與帳戶成員互動，以取得、培養客戶並符合銷售資格。 使用帳戶歷程中的&#x200B;_執行動作_&#x200B;節點，透過最適合不同帳戶成員的外部管道，自動與帳戶的主要成員進行互動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448683/?captions=chi_hant&learn=on)
