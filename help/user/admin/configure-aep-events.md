@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 選取體驗事件和欄位
 
-管理員可以在體驗事件聯合結構描述中選取特定的[AEP Experience Event](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相關欄位。 選取後，使用者可以設定決策規則來監聽這些Experience事件，以根據近乎即時的事件資料啟用動態且鎖定的行銷活動動作。
+管理員可以在體驗事件聯合結構描述中選取特定的[AEP Experience Event](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相關欄位。 選取後，使用者可以設定決策規則來監聽這些Experience事件，以根據近乎即時的事件資料啟用動態且鎖定的行銷活動動作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 在歷程中使用AEP體驗事件有兩個步驟：
@@ -464,4 +464,4 @@ ht-degree: 7%
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448694/?captions=chi_hant&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
