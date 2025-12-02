@@ -23,7 +23,7 @@ Adobe Experience Platform (AEP)結構描述通常包含複雜階層中的許多�
 瞭解XDM並與資料工程師或B2B客戶資料平台(CDP)資料模型相關人員合作的管理員應使用本頁面上的程式。
 
 >[!NOTE]
->[關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#)可用於[!DNL Journey Optimizer B2B Edition]作為有限可用性版本。 Data Mirror和關聯式結構描述可供Journey Optimizer Orchestrated行銷活動授權持有人使用。 根據您的授權和功能啟用，關聯式結構描述也以限量版形式提供給Customer Journey Analytics使用者。 請聯絡您的Adobe代表以取得存取權。
+>[關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#)可用於[!DNL Journey Optimizer B2B Edition]作為有限可用性版本。 Data Mirror和關聯式結構描述可供Journey Optimizer Orchestrated行銷活動授權持有人使用。 根據您的授權和功能啟用，關聯式結構描述也以限量版形式提供給Customer Journey Analytics使用者。 請聯絡您的Adobe代表以取得存取權。
 
 ## 存取XDM類別
 
@@ -89,7 +89,7 @@ Adobe Experience Platform (AEP)結構描述通常包含複雜階層中的許多�
 
 #### 可更新欄位
 
-在設定可更新欄位之前，這些欄位必須位於自訂資料集中。 如需自訂資料集工作流程的逐步解說，請參閱[建立資料集並擷取資料](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，並使用&#x200B;**[!UICONTROL 從結構描述建立資料集]**&#x200B;選項。 此資料集可用來隔離可更新的欄位。 所有可更新欄位都必須在此資料集中。
+在設定可更新欄位之前，這些欄位必須位於自訂資料集中。 如需自訂資料集工作流程的逐步解說，請參閱[建立資料集並擷取資料](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，並使用&#x200B;**[!UICONTROL 從結構描述建立資料集]**&#x200B;選項。 此資料集可用來隔離可更新的欄位。 所有可更新欄位都必須在此資料集中。
 
 為個別設定檔建立資料集，並為企業帳戶建立另一個資料集。 在設定程式期間選取每個新資料集：
 
