@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 文件
 description: Journey Optimizer B2B Edition 的完整文件：探索用於上線、建立購買群組、建置帳戶歷程，以及管理內容的可用資源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 73%
 
 ---
 
@@ -13,9 +13,35 @@ ht-degree: 100%
 
 ## 新增功能
 
-以下是 Journey Optimizer B2B Edition 應用程式和文件中最新增添與增強功能的範例。
+以下是[!DNL Journey Optimizer B2B Edition]應用程式和檔案中最新新增和增強功能的範例。
 
 >[!BEGINTABS]
+
+>[!TAB AI代理程式]
+
+透過[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant介面可自動呼叫專業代理程式，以取得您正確的答案和見解。 Agent Orchestrator 會記住您的對話記錄，讓您可以不必複述相關背景資訊，即可自然地在先前問題的基礎上繼續提問，並且結合來自多個代理的洞察，為您提供清楚且統一的回答。在[!DNL Journey Optimizer B2B Edition]內容中，有三個針對特定B2B任務和網域專門建置的代理程式：
+
+* [Audience Agent B2B](./agents/audience-agent-b2b.md)
+* [Journey Build代理程式B2B](./agents/journey-agent.md)
+* [Account Qualification 代理](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB 品牌主題]
+
+透過主題，非技術性設計人員能夠建立符合特定品牌和樣式的可重複使用電子郵件內容設計准則。 主題可讓行銷人員更快且更省力地運用視覺上吸引人、品牌一致的電子郵件，並提供進階自訂選項以滿足獨特的設計需求。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/content/brand-themes.md" tooltip="瞭解品牌主題"}
+
+>[!TAB 角色對應]
+
+行銷人員可以定義詳細的設定檔，包括背景、責任、痛點和偏好的通訊管道。 使用這些定義，管理員可以根據[!DNL Journey Optimizer B2B Edition]中的人員屬性來設定角色，以便角色範本可以使用簡化且一致的角色條件來擷取這些角色。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="瞭解角色對應"}
+
+>[!TAB CRM內部銷售分析]
+
+銷售團隊成員現在可以在 Salesforce 或 Dynamics 整合中檢視成熟化的購買群組和相關洞察，來識別新的商機。此購買群組詳細資訊如：階段、分數及相關成員均已涵蓋在內。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="瞭解In-CRM Sales Insights"}
 
 >[!TAB 電子郵件內容共同作業]
 
@@ -34,30 +60,6 @@ ht-degree: 100%
 B2B 行銷人員現在可以使用個人層級的參與度分數做為歷程分割路徑的篩選器，或是建立購買群組的角色範本之篩選器。此分數和篩選可以精確鎖定購買群組成員，以為其持續參與提供個人化服務。
 
 [!BADGE 了解更多]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="了解人員參與度分數和篩選"}
-
->[!TAB 自訂購買群組角色]
-
-B2B 行銷策略師現在可以透過自訂購買群組角色，提升購買群組的精準度。除了預設的六個角色以外，還可以建立最多 20 個自訂角色，並在多個購買群組中重複使用。在帳戶歷程中，配合您的獨特角色量身打造相關訊息，並提高購買群組的相關性和參與度。
-
-[!BADGE 了解更多]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="了解自訂購買群組角色"}
-
->[!TAB 自訂參與度分數加權]
-
-指派自訂權重至參與活動，以便參與度分數反映您的最高價值活動。透過強調高意圖訊號，您的團隊可以更有效地識別並確認最具購買潛力之帳戶的優先順序。
-
-[!BADGE 了解更多]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="了解自訂參與度分數加權"}
-
->[!TAB 自訂 CSS 支援]
-
-現在，您在設計空間中製作電子郵件和登陸頁面內容時可以新增自訂 CSS。
-
-[!BADGE 了解更多]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="了解如何使用自訂 CSS"}
-
->[!TAB 意圖關鍵字對應]
-
-若要啟動和管理意圖偵測模型，您現在可以上傳試算表來定義意圖資料對應類別。
-
-[!BADGE 了解更多]{type=Informative url="/help/user/admin/intent-data.md" tooltip="了解意圖關鍵字對應設定"}
 
 >[!ENDTABS]
 
@@ -123,11 +125,11 @@ B2B 行銷策略師現在可以透過自訂購買群組角色，提升購買群�
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="內容管理"><br/>
-      <strong>內容管理</strong><br/><a href="./content/assets-overview.md">資產概觀</a><br/><a href="./content/email-templates.md">電子郵件範本</a><br/><a href="./content/fragments.md">視覺片段</a><br/><a href="./content/conditional-content.md">條件式內容</a>
+      <strong>內容管理</strong><br/><a href="./content/assets-overview.md">Assets概觀</a><br/><a href="./content/email-templates.md">電子郵件範本</a><br/><a href="./content/fragments.md">視覺片段</a><br/><a href="./content/conditional-content.md">條件式內容</a><br/><a href="./content/brand-themes.md">品牌主題</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="深入分析和儀表板"><br/>
-      <strong>深入分析</strong><br/><a href="./dashboards/intelligent-dashboard.md">智慧儀表板</a><br/><a href="./dashboards/engagement-dashboard.md">參與度儀表板</a><br/><a href="./dashboards/buying-groups-dashboard.md">購買群組儀表板</a><br/><a href="./dashboards/journeys-dashboard.md">歷程儀表板</a>
+      <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="洞察和儀表板"><br/>
+      <strong>分析</strong><br/><a href="./dashboards/intelligent-dashboard.md">智慧型儀表板</a><br/><a href="./dashboards/engagement-dashboard.md">參與儀表板</a><br/><a href="./dashboards/buying-groups-dashboard.md">購買群組儀表板</a><br/><a href="./dashboards/journeys-dashboard.md">歷程儀表板</a><br/><a href="./buying-groups/incrm-insights.md">In-CRM Insights</a>
     </td>
 
 </tr>
@@ -137,7 +139,7 @@ B2B 行銷策略師現在可以透過自訂購買群組角色，提升購買群�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">文件</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>

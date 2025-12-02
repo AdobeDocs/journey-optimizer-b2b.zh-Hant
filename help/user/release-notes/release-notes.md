@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
+source-git-commit: 4033d0eb711120d615851d614aa6abbcf07f6ea0
 workflow-type: tm+mt
-source-wordcount: '3729'
-ht-degree: 95%
+source-wordcount: '3778'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 電子郵件範本 - 將影像轉換為 HTML | 您現在可以使用儲存為 JPG 或 PNG 影像檔案的設計檔案，並自動產生電子郵件範本。[了解更多](../content/email-template-image-convert.md) |
 | 功能 | 人物誌對應 | 將帳戶成員和已建立的人物誌透過屬性對應進行連結。[了解更多](../admin/persona-mapping.md) |
 | 功能 | Salesforce 和 Dynamics 的銷售洞察 | 銷售團隊成員現在可以在 Salesforce 或 Dynamics 整合中檢視成熟化的購買群組和相關洞察，來識別新的商機。包括階段、分數和相關成員等購買群組細節。 [了解更多](../buying-groups/incrm-insights.md) |
+| 功能 | 啟用對象至[!DNL Adobe Target] | 您現在可以從帳戶歷程啟用對象至外部客戶對象，並將其推送[!DNL Adobe Target]。 透過這項整合，您可以透過歷程式列傳送符合在[!DNL Target]中設計的網頁體驗的對象。 [了解更多](../audiences/target-external-audience.md) |
 | 增強功能 | 改善購買群組完整性評分 | 您現在可以自訂角色成員的完整性評分臨界值，確保購買群組反映真正的決策。[了解更多](../buying-groups/completeness-scores.md) |
 | 增強功能 | 購買群組維護工作 | 此購買群組維護工作頻率從每週更新為每日。 |
 | 增強功能 | 帳戶歷程進度 | 針對處於&#x200B;_上線_、_關閉新進入_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;狀態的已發佈歷程，您可以開啟歷程圖來審閱每個歷程節點的帳戶清單。 |
@@ -66,8 +67,8 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 關聯式資料模型 | 運用連結至B2B帳戶的關聯資料，以篩選帳戶歷程中的帳戶或個人化電子郵件內容。 此關聯式資料可代表現實世界的商業實體，例如：購買記錄、事件註冊、軟體授權、服務訂閱或預訂。 |
-| 功能 | 多個 Marketo Engage 啟用 | 設定與遠端Marketo Engage執行個體的連線，並使用這些連線來設定歷程的Marketo Engage動作。 這些動作 (例如從清單新增或移除人員，或將人員新增至請求行銷活動) 適用於指定的 Marketo Engage 執行個體。 |
+| 功能 | 關聯式資料模型 | 運用連結至B2B帳戶的關聯資料，以篩選帳戶歷程中的帳戶或個人化電子郵件內容。 此關聯式資料可代表真實世界的商業實體，例如購買記錄、事件註冊、軟體授權、服務訂閱或預訂。 [了解更多](../admin/xdm-field-management.md#relational-schemas) |
+| 功能 | 多個Marketo Engage啟用 | 設定與遠端Marketo Engage執行個體的連線，並使用這些連線來設定歷程的Marketo Engage動作。 這些動作（例如從清單新增或移除人員，或將人員新增至請求促銷活動）適用於指定的Marketo Engage執行個體。 [了解更多](../admin/marketo-actions-connect.md) |
 | 功能 | 電子郵件疲勞重複資料刪除 | 您現在可以啟用電子郵件重複資料刪除，來確保不會在歷程中將相同的電子郵件多次傳送至相同地址。直到該電子郵件地址的第一筆記錄完成歷程之前，會將重複地址進行封鎖。 |
 | 增強功能 | 通訊限制 | 系統現在會遵守Marketo Engage和Journey Optimizer B2B edition的通訊限制。 [了解更多](../admin/configure-channels-emails.md#communication-limits) |
 
