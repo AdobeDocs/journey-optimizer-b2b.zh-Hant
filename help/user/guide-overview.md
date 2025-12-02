@@ -2,24 +2,28 @@
 title: Adobe Journey Optimizer B2B Edition 文件
 description: Journey Optimizer B2B Edition 的完整文件：探索用於上線、建立購買群組、建置帳戶歷程，以及管理內容的可用資源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+source-git-commit: ae903f25327d7ac9d7b47e4b5f736a164b2d2d4b
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 73%
+source-wordcount: '803'
+ht-degree: 62%
 
 ---
 
 # Adobe Journey Optimizer B2B Edition 文件
 
+[!DNL Adobe Journey Optimizer B2B Edition]是首創的應用程式，可讓行銷和銷售團隊在整個客戶生命週期中協調以帳戶為基礎的體驗，並讓購買群組符合特定產品的資格。 它使用AI來與目標帳戶中的購買群組互動並取得資格，協助您的團隊產生更高品質的管道，設計更好的贏取、擴充和保留策略。 它也會啟用銷售和行銷團隊之間的共用深入分析。
+
+本檔案提供熟悉應用程式的資訊。 它是專為行銷人員、業務開發代表、資料分析師和營運管理員所設計。
+
 ## 新增功能
 
-以下是[!DNL Journey Optimizer B2B Edition]應用程式和檔案中最新新增和增強功能的範例。
+檢閱[!DNL Journey Optimizer B2B Edition]應用程式和檔案的最新新增和增強功能抽樣。
 
 >[!BEGINTABS]
 
 >[!TAB AI代理程式]
 
-透過[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant介面可自動呼叫專業代理程式，以取得您正確的答案和見解。 Agent Orchestrator 會記住您的對話記錄，讓您可以不必複述相關背景資訊，即可自然地在先前問題的基礎上繼續提問，並且結合來自多個代理的洞察，為您提供清楚且統一的回答。在[!DNL Journey Optimizer B2B Edition]內容中，有三個針對特定B2B任務和網域專門建置的代理程式：
+透過[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant介面可自動呼叫專業代理程式，以取得正確的答案和見解。 Agent Orchestrator 會記住您的對話記錄，讓您可以不必複述相關背景資訊，即可自然地在先前問題的基礎上繼續提問，並且結合來自多個代理的洞察，為您提供清楚且統一的回答。在[!DNL Journey Optimizer B2B Edition]內容中，有三個針對特定B2B任務和網域專門建置的代理程式：
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Build代理程式B2B](./agents/journey-agent.md)
@@ -45,7 +49,7 @@ ht-degree: 73%
 
 >[!TAB 電子郵件內容共同作業]
 
-電子郵件設計空間包括用於註解和解決問題的共同作業工具，讓行銷團隊可以直接在 [!DNL Journey Optimizer B2B Edition] 內順暢地審閱、討論及完成電子郵件資產。使用者無須透過外部工具 (如聊天室、電子郵件對話串或試算表) 共用草稿，而是在電子郵件設計空間內進行註解、提出編輯建議和解決意見回饋提出的問題。您可以標記團隊成員，以便他們收到包含註解之詳細資訊的電子郵件或即時簡短通知。
+電子郵件設計空間包含用於意見反應和解決方法的共同作業工具，因此行銷團隊可以直接在[!DNL Journey Optimizer B2B Edition]內順暢地檢閱、討論及完成電子郵件資產。 使用者無須透過外部工具 (如聊天室、電子郵件對話串或試算表) 共用草稿，而是在電子郵件設計空間內進行註解、提出編輯建議和解決意見回饋提出的問題。您可以標記團隊成員，以便他們收到包含註解之詳細資訊的電子郵件或即時簡短通知。
 
 [!BADGE 了解更多]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="了解電子郵件內容共同作業工具"}
 
@@ -139,7 +143,7 @@ B2B 行銷人員現在可以使用個人層級的參與度分數做為歷程分�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">文件</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
