@@ -6,9 +6,9 @@ topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: 運算式，編輯器，開始，個人化
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+source-git-commit: 5063f9a924aef0a54b05e9bf223fc2d4898bc5a5
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -42,19 +42,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中進一步瞭解XDM結構描述。
+>在[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中進一步瞭解XDM結構描述。
 
 ## Personalization編輯器
 
 您必須在電子郵件內容中定義個人化的每個內容中，都可使用個人化編輯器。 在編輯器中，您可以選取、排列、自訂及驗證所有資料，為您的內容建立自訂個人化。
 
->[!NOTE]
->
->以下個人化編輯器的資訊反映了[簡化架構](../simplified-architecture.md)布建的Journey Optimizer B2B edition環境可用的變更。
-
 按一下「_新增個人化_」（「![新增個人化圖示](../../assets/do-not-localize/icon-personalization-field.svg)」）圖示，在任何欄位或內容元件中新增個人化。
 
 ![Personalization編輯器](./assets/personalization-editor.png){width="800" zoomable="yes"}
+
+>[!NOTE]
+>
+>下列有關個人化編輯器的資訊反映了[!DNL Journey Optimizer B2B Edition]簡化架構[上布建的](../simplified-architecture.md)環境可用的變更。
+
+### Token和協助程式函式
 
 若要使用個人化權杖或協助程式功能，請在左側導覽窗格中找出該權杖，然後按一下&#x200B;**+**&#x200B;將其新增至運算式。
 
@@ -66,13 +68,25 @@ ht-degree: 0%
 >
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->
-您也可以定義預設後援文字字串，當字串型別的設定檔屬性為空白時就會顯示。 按一下屬性的&#x200B;_更多功能表_ ( **...** )圖示，然後選取&#x200B;**[!UICONTROL 插入後援文字]**。 輸入設定檔的屬性值為空時所應顯示的文字，然後按一下[新增]。**&#x200B;**
+您也可以定義預設後援文字字串，當字串型別的設定檔屬性為空白時就會顯示。 按一下屬性的&#x200B;_更多功能表_ ( **...** )圖示，然後選取&#x200B;**[!UICONTROL 插入後援文字]**。 輸入設定檔的屬性值為空時所應顯示的文字，然後按一下[新增]。****
 
 最佳實務是在將運算式插入內容之前先驗證該運算式。 按一下編輯器底部的&#x200B;**[!UICONTROL 驗證]**，檢查您的語法並確保沒有錯誤。
 
 ![Personalization編輯器驗證碼](./assets/personalization-editor-validated.png){width="500"}
 
-當運算式完成且沒有錯誤時，請按一下[儲存]。**&#x200B;**
+當運算式完成且沒有錯誤時，請按一下[儲存]。****
+
+### 自訂資料集
+
+您可以使用關聯式結構描述（以模型為基礎的類別）進行電子郵件個人化。 自訂物件是在&#x200B;_關聯式結構描述_&#x200B;中定義，產品管理員可以在[中](../admin/xdm-field-management.md#relational-schemas)設定關聯式結構描述欄位[!DNL Journey Optimizer B2B Edition]。 可在個人化編輯器中存取這些欄位。 只有與帳戶:M具有一對多(1<!-- (M1.5 Beta) or Person (M1.5 GA) -->)關係的自訂物件才可使用。
+
+>[!IMPORTANT]
+>
+>在使用自訂物件進行指令碼式個人化之前，請確定您檢閱並瞭解[Handlebar範本化語言](https://handlebarsjs.com/guide/)、[個人化語法](./personalization-syntax.md)和內建[協助程式函式](./personalization-helper-functions.md)。
+
+當您使用自訂物件定義個人化時，可以存取&#x200B;**[!UICONTROL Personalization權杖]** （人員/銷售機會、帳戶、系統和My權杖）和&#x200B;**[!UICONTROL 以模型為基礎的類別]** （關聯式結構描述）中可指令碼存取之物件中的所有變數。 選取「以模型為基礎的類別」後，您可以按一下自訂物件資料夾來檢視欄位。 按一下每個欄位的&#x200B;**+**，您將欄位新增至運算式。
+
+![Personalization編輯器 — 模型型類別 — 新增自訂物件欄位](./assets/personalization-editor-custom-object-fields.png){width="800" zoomable="yes"}
 
 <!-- ## Personalization experimentation {#playground}
 
@@ -82,13 +96,13 @@ This playground provides a simulated environment to write and test personalizati
 
 ![personalization playground](assets/playground.png)
 
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ajo-personalization){target="_blank"} 
+➡️ [Access the personalization playground](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"} 
 
 ## How-to videos{#video-perso}
 
 Learn how to use contextual event information from a journey to personalize a message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448153?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Learn how to add profile-based personalization to a message and how to use audience membership as a pre-condition to a personalization block.
 
@@ -96,4 +110,4 @@ Learn how to add profile-based personalization to a message and how to use audie
 
 Learn how to leverage the personalization editor playground to write and test personalization code using sample data.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475963?captions=chi_hant&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12) -->
