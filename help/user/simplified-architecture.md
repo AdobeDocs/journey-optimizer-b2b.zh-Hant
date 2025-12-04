@@ -131,11 +131,11 @@ ht-degree: 6%
 >請注意，關聯式結構描述必須具備下列設定：
 >
 ><li>行為：記錄
-&gt; <li>區段：已啟用
-&gt; <li>關係型別：多對一
-&gt; <li>參考結構描述： <a href="https://experienceleague.adobe.com/zh-hant/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B帳戶 — XDM商業帳戶結構描述</a>
-&gt; <li>必填欄位：主索引鍵、外部索引鍵和版本描述項
-&gt; <li>關聯的資料集：已定義並對應到結構描述
+>&gt; <li>區段：已啟用
+>&gt; <li>關係型別：多對一
+>&gt; <li>參考結構描述： <a href="https://experienceleague.adobe.com/zh-hant/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B帳戶 — XDM商業帳戶結構描述</a>
+>&gt; <li>必填欄位：主索引鍵、外部索引鍵和版本描述項
+>&gt; <li>關聯的資料集：已定義並對應到結構描述
 
 ### 事件
 
