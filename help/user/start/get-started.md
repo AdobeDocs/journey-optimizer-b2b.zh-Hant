@@ -4,10 +4,10 @@ description: 管理員和行銷人員的入門指南：在 Journey Optimizer B2B
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 93%
 
 ---
 
@@ -33,13 +33,15 @@ ht-degree: 100%
 
 1. **與您的資料工程師合作**，規劃與實施您的 B2B 客群和輪廓啟動。檢閱已發布的藍圖並根據您的要求遵循指南。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **規劃和實施 Marketo Engage 整合**&#x200B;以納入自訂綱要、收錄輪廓和帳戶，以及協調購買群組的個人化歷程。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **計畫和實作Marketo Engage整合**&#x200B;以合併自訂結構描述、擷取設定檔和帳戶，以及協調購買群組的個人化歷程。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **設定產品輪廓**。產品輪廓是 Adobe Experience Platform 中的一組單一權利，允許使用者存取介面中的某些功能或物件。[了解更多](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. 針對產品輪廓 (包括沙箱) **設定使用者權限**，並將團隊成員指派至不同的產品輪廓，藉此授予存取權。此任務會在 Admin Console 執行。[了解更多](../admin/user-management.md#create-a-user-group)
 
-1. 在 Marketo Engage 中&#x200B;**設定電子郵件傳送** ，使您的團隊能夠從帳戶旅程中發送電子郵件內容。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
+1. **設定XDM類別和欄位**&#x200B;以控制可用於Journey Orchestration和內容個人化Journey Optimizer B2B edition的資料。 [了解更多](../admin/xdm-field-management.md)
+
+1. 在 Marketo Engage 中&#x200B;**設定電子郵件傳送** ，使您的團隊能夠從帳戶旅程中發送電子郵件內容。[了解更多](../admin/configure-channels-emails.md){target="_blank"}
 
 1. **設定 SMS 服務**。設定其中一個受支援的第三方 SMS 供應商，該供應商獨立提供簡訊服務，並在 Adobe Journey Optimizer B2B Edition 中設定帳戶認證。[了解更多](../admin/configure-channels-sms.md)
 
