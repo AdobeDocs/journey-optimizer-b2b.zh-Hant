@@ -3,10 +3,10 @@ title: xdm欄位管理
 description: 使用XDM欄位管理來控制Journey Optimizer B2B edition可用的資料。
 feature: Data Management, Integrations
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
-source-git-commit: 0497f44336cdd6bfed5bac9f6f579a97f6be585a
+badgeBeta: label="Beta" type="informative" tooltip="此功能目前在簡化架構的有限測試版中推出"
+source-git-commit: 7d57fa1154eceff81dedda7e9412a2d57ead3d6b
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 1%
 
 Adobe Experience Platform (AEP)結構描述通常包含複雜階層中的許多欄位。 周遊XDM結構描述樹狀結構需要時間。 XDM欄位管理只顯示與每個歷程相關的欄位，藉此簡化欄位選擇。 管理員可控制哪些欄位要向歷程建立者顯示。 管理員也會將欄位設定為唯讀或可編輯。 這些動作可改善歷程設計期間的效率。
 
-瞭解XDM並與資料工程師或B2B客戶資料平台(CDP)資料模型相關人員合作的管理員應使用本頁面上的程式。
+瞭解XDM並與資料工程師或B2B客戶資料平台(CDP)資料模型利害關係人合作的管理員應使用以下步驟，為[!DNL Journey Optimizer B2B Edition]設定XDM類別。
 
 >[!NOTE]
->[關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#)可用於[!DNL Journey Optimizer B2B Edition]作為有限可用性版本。 Data Mirror和關聯式結構描述可供Journey Optimizer Orchestrated行銷活動授權持有人使用。 根據您的授權和功能啟用，關聯式結構描述也以限量版形式提供給Customer Journey Analytics使用者。 請聯絡您的Adobe代表以取得存取權。
+>
+>XDM欄位管理適用於[簡化架構](../simplified-architecture.md)上布建的Journey Optimizer B2B edition環境。
 
 ## 存取XDM類別
 
@@ -89,7 +90,7 @@ Adobe Experience Platform (AEP)結構描述通常包含複雜階層中的許多�
 
 #### 可更新欄位
 
-在設定可更新欄位之前，這些欄位必須位於自訂資料集中。 如需自訂資料集工作流程的逐步解說，請參閱[建立資料集並擷取資料](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，並使用&#x200B;**[!UICONTROL 從結構描述建立資料集]**&#x200B;選項。 此資料集可用來隔離可更新的欄位。 所有可更新欄位都必須在此資料集中。
+在設定可更新欄位之前，這些欄位必須位於自訂資料集中。 如需自訂資料集工作流程的逐步解說，請參閱[建立資料集並擷取資料](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，並使用&#x200B;**[!UICONTROL 從結構描述建立資料集]**&#x200B;選項。 此資料集可用來隔離可更新的欄位。 所有可更新欄位都必須在此資料集中。
 
 為個別設定檔建立資料集，並為企業帳戶建立另一個資料集。 在設定程式期間選取每個新資料集：
 
@@ -98,13 +99,17 @@ Adobe Experience Platform (AEP)結構描述通常包含複雜階層中的許多�
 
    ![從XDM結構描述設定中的資料集選取可更新欄位的對話方塊](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
 
-1. 按一下[儲存]以套用您的變更。**&#x200B;**
+1. 按一下[儲存]以套用您的變更。****
 
 ### 關聯式結構描述
 
 關聯式結構描述可讓您建立自訂資料類別。 您可以存取多個資料集，建立依資料需求量身打造的類別。 在歷程決定和電子郵件個人化中，使用商業實體的關聯式結構描述，例如購買、授權和事件註冊。 您最多可以選取50個結構描述，以及每個結構描述最多100個欄位。
 
-如需如何將選取的欄位用於進階電子郵件個人化的詳細資訊，請參閱[內容個人化](../content/personalization.md#custom-datasets)。
+如需如何針對進階電子郵件個人化使用選取欄位的詳細資訊，請參閱[內容個人化](../content/personalization.md#custom-datasets)。 有關如何使用所選欄位進行歷程決策（依帳戶分割路徑）的資訊，請參閱[自訂資料篩選](../journeys/split-merge-paths-nodes.md#custom-data-filtering)。<!-- add link to split path by people in M 1.5 GA release -->
+
+>[!NOTE]
+>
+>[關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#)可作為[!DNL Journey Optimizer B2B Edition]的有限可用性版本使用。 [!DNL Journey Optimizer Orchestrated Campaigns]個授權持有人可使用Data Mirror和關聯式結構描述。 根據您的授權和功能啟用，[!DNL Customer Journey Analytics]個使用者也可限量使用關聯式結構描述。 請聯絡您的Adobe代表以取得存取權。
 
 >[!NOTE]
 >
