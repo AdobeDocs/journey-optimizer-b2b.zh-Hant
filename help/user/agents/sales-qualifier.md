@@ -3,7 +3,7 @@ title: 銷售限定詞
 description: 使用Sales Qualifier自動化B2B潛在客戶資格和拓展。 它提供AI支援的研究、電子郵件草擬、CRM整合，以及BDR的參與計畫。
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
+source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 1%
@@ -19,6 +19,12 @@ ht-degree: 1%
 
 Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驅動附加應用程式，其中包含Account Qualification Agent，旨在簡化業務開發代表(BDR)的工作流程。 Sales Qualifier可跨管道自動執行潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
 使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存取商業智慧。
+
+## 示範影片
+
+下列影片提供Sales Qualifier和Account Qualification Agent的簡短示範。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 銷售限定詞包含在[!UICONTROL Journey Optimizer B2B edition]中，但它是Experience Platform Experience Cloud中的個別應用程式。
 
@@ -78,7 +84,7 @@ Adobe AI代理程式使用&#x200B;_自然語言查詢_，這表示他們在文�
 
 ![顯示計畫詳細資料、所選潛在客戶及排程設定的參與計畫儀表板](assets/engagement-plans.png)
 
-若要建立新的參與計畫，請按一下[建立參與計畫]。**&#x200B;**
+若要建立新的參與計畫，請按一下[建立參與計畫]。****
 
 1. 在&#x200B;_詳細資料_&#x200B;階段中，提供名稱和選擇性說明。 按一下&#x200B;**[!UICONTROL 儲存並繼續]**。
 1. 在&#x200B;_選取潛在客戶_&#x200B;階段中，選取應屬於此計畫的潛在客戶。
@@ -141,7 +147,7 @@ Adobe AI代理程式使用&#x200B;_自然語言查詢_，這表示他們在文�
 
 當連線設定有效時，按一下&#x200B;**[!UICONTROL 另存為草稿]**。
 
-當您回到主要&#x200B;_[!UICONTROL 整合]_&#x200B;表格時，請選取整合，然後按一下[啟用] **&#x200B;**&#x200B;讓整合上線。 如果您尚未準備好要啟動它，請按一下&#x200B;**[!UICONTROL 另存為草稿]**。
+當您回到主要&#x200B;_[!UICONTROL 整合]_&#x200B;表格時，請選取整合，然後按一下[啟用] ****&#x200B;讓整合上線。 如果您尚未準備好要啟動它，請按一下&#x200B;**[!UICONTROL 另存為草稿]**。
 
 #### 管理存取權
 
@@ -217,10 +223,4 @@ _[!UICONTROL 代表管理]_&#x200B;面板會顯示定義的代表及其行事曆
 
 ## 編輯左側導覽列
 
-在應用程式的左下方，按一下[編輯] **&#x200B;**&#x200B;來控制可在導覽中看到哪些圖示。 您也可以視需要拖放它們以重新排序。
-
-## 示範影片
-
-下列影片提供Sales Qualifier和Account Qualification Agent的簡短示範。
-
->[!VIDEO](https://video.tv.adobe.com/v/3476572?captions=chi_hant)
+在應用程式的左下方，按一下[編輯] ****&#x200B;來控制可在導覽中看到哪些圖示。 您也可以視需要拖放它們以重新排序。
