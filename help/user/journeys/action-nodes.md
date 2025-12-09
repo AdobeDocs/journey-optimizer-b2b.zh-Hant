@@ -4,9 +4,9 @@ description: 設定帳戶和人員動作的動作節點 — 傳送電子郵件�
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: ab6629f97231ecde67dcc38d3fcb815b29eb5e37
+source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1725'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->2025.10版已棄用&#x200B;_[!UICONTROL 帳戶變更資料值]_&#x200B;動作。 已由&#x200B;_[!UICONTROL 簡化架構]_&#x200B;的[更新帳戶設定檔](../simplified-architecture.md)取代。<br/>
+>2025.10版已棄用&#x200B;_[!UICONTROL 帳戶變更資料值]_&#x200B;動作。 _[!UICONTROL 更新帳戶設定檔]_&#x200B;會取代[簡化架構](../simplified-architecture.md)的這個動作。<br/>
 >
 >管理員可以更新&#x200B;_[!UICONTROL XDM類別]_ > _[!UICONTROL 標準類別]_&#x200B;中的欄位，以設定XDM商業帳戶的可用屬性。 如需詳細資訊，請參閱[標準類別](../admin/xdm-field-management.md#standard-classes)。
 
@@ -99,7 +99,7 @@ ht-degree: 2%
 | | [!UICONTROL 變更分數] | 分數名稱<br/>分數變更 |
 | | [!UICONTROL 個人有趣的時刻] | 型別<br/>描述 |
 | | [!UICONTROL 從購買群組中移除] | 選取解決方案興趣 |
-| | [!UICONTROL 傳送電子郵件] | 建立新電子郵件<br/>從Marketo Engage選取電子郵件 |
+| | [!UICONTROL 傳送電子郵件] | 建立電子郵件 |
 | | [!UICONTROL 傳送簡訊] | 建立簡訊 |
 | | [!UICONTROL 更新個人設定檔] | 選取人員屬性<br/>設定新值 |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL 新增至Marketo Engage要求行銷活動] | 選取Marketo Engage工作區<br/>選取要求行銷活動 |
@@ -141,7 +141,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 選取此以人物為基礎的動作時，您可以建立新的外部對象，或從現有外部對象清單中選取。
 
 * 針對現有對象，您可以選擇僅在[!DNL Journey Optimizer B2B Edition]中建立的外部客戶對象。
-* 當您建立對象並將其用於此歷程動作時，請務必連線到目的地。 如需詳細資訊，請參閱[檔案中的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}建立新的目的地連線[和](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}啟用總覽[!DNL Experience Platform]。
+* 當您建立對象並將其用於此歷程動作時，請務必連線到目的地。 如需詳細資訊，請參閱[檔案中的](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}建立新的目的地連線[和](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}啟用總覽[!DNL Experience Platform]。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看付費媒體協調流程的影片概觀](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -187,7 +187,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 +++[!UICONTROL 變更分數]
 
-使用此動作來變更Marketo Engage中的人員分數。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+使用此動作來變更Marketo Engage中的人員分數。 [了解更多](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![採取動作 — 變更分數](./assets/node-action-change-score.png){width="300"}
 
@@ -211,9 +211,13 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 +++[!UICONTROL 傳送電子郵件]
 
-使用此動作傳送電子郵件。 在您[建立節點的電子郵件](../content/add-email.md#add-an-email-to-your-journey)之後，您可以在電子郵件設計空間設計、個人化和預覽電子郵件訊息（請參閱[電子郵件編寫](../content/email-authoring.md)）。 您也可以從Marketo Engage[傳送](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}電子郵件。 選取Marketo Engage工作區，然後選取要傳送的電子郵件。
+使用此動作傳送電子郵件。 在您[建立節點的電子郵件](../content/add-email.md#add-an-email-to-your-journey)之後，您可以在電子郵件設計空間設計、個人化和預覽電子郵件訊息（請參閱[電子郵件編寫](../content/email-authoring.md)）。 您也可以從Marketo Engage[傳送](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}電子郵件。 選取Marketo Engage工作區，然後選取要傳送的電子郵件。
 
 ![採取動作 — 傳送電子郵件](./assets/node-action-send-email-from-marketo.png){width="300"}
+
+>[!NOTE]
+>
+>您可以在帳戶歷程中使用電子郵件重複資料刪除，以確保在歷程中不會將相同的電子郵件多次傳送至相同的電子郵件地址。 如需詳細資訊，請參閱[電子郵件重複資料刪除](../content/email-deduplication.md)。
 
 +++
 
@@ -233,7 +237,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 >[!NOTE]
 >
->_[!UICONTROL 更新人員設定檔]_&#x200B;取代了&#x200B;_[!UICONTROL 簡化架構]_.[上的](../simplified-architecture.md)變更資料值<br/>動作
+>_[!UICONTROL 更新人員設定檔]_&#x200B;取代了&#x200B;_[!UICONTROL 簡化架構]_.[中的](../simplified-architecture.md)變更資料值<br/>動作
 >
 >管理員可以更新&#x200B;_[!UICONTROL XDM類別]_ > [!UICONTROL 標準類別]中的欄位，以設定XDM個別設定檔的可用屬性。 如需詳細資訊，請參閱[標準類別](../admin/xdm-field-management.md#standard-classes)。
 
@@ -251,7 +255,7 @@ Marketo Engage以人物為基礎的動作，旨在協調Journey Optimizer B2B ed
 
 +++[!UICONTROL 新增至Marketo Engage要求行銷活動]
 
-使用此動作將人員設定檔新增至Marketo Engage中的[請求行銷活動](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}。
+使用此動作將人員設定檔新增至Marketo Engage中的[請求行銷活動](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}。
 
 首先，選取連線的Marketo Engage執行個體。 接著，選取要求促銷活動名稱。
 
@@ -261,7 +265,7 @@ Marketo Engage以人物為基礎的動作，旨在協調Journey Optimizer B2B ed
 
 +++[!UICONTROL 新增至Marketo清單]
 
-使用此動作將人員新增至Marketo Engage中的[靜態清單](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}。
+使用此動作將人員新增至Marketo Engage中的[靜態清單](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}。
 
 首先，選取連線的Marketo Engage執行個體。 接著，選取清單名稱。
 
@@ -271,7 +275,7 @@ Marketo Engage以人物為基礎的動作，旨在協調Journey Optimizer B2B ed
 
 +++[!UICONTROL 從Marketo清單移除]
 
-使用此動作從Marketo Engage中的[靜態清單](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}移除人員。
+使用此動作從Marketo Engage中的[靜態清單](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}移除人員。
 
 首先，選取連線的Marketo Engage執行個體。 接著，選取清單名稱。
 
@@ -281,4 +285,4 @@ Marketo Engage以人物為基礎的動作，旨在協調Journey Optimizer B2B ed
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443256/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
