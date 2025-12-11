@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: 8a473540e850e2868f22d480809b3965806979f5
+source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '375'
 ht-degree: 88%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 88%
       + [解決方案興趣](./buying-groups/solution-interests.md)
       + [角色範本](./buying-groups/buying-groups-role-templates.md)
       + [預設和自訂角色](./buying-groups/default-custom-roles.md)
+      + [角色洞察](./buying-groups/buying-group-role-insights.md)
       + 購買群組評分 {#scoring}
          + [參與度分數](./buying-groups/engagement-scores.md)
          + [完整性分數](./buying-groups/completeness-scores.md)
