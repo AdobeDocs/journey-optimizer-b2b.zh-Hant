@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
+source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 88%
+source-wordcount: '378'
+ht-degree: 84%
 
 ---
 
@@ -124,11 +124,12 @@ ht-degree: 88%
       + [概觀](./content/personalization.md)
       + [個人化語法](./content/personalization-syntax.md)
       + [協助程式函式清單](./content/personalization-helper-functions.md)
-+ 洞察儀表板 {#dashboards}
-   + [智慧儀表板](./dashboards/intelligent-dashboard.md)
-   + [參與度概觀](./dashboards/engagement-dashboard.md)
-   + [購買群組概觀](./dashboards/buying-groups-dashboard.md)
-   + [帳戶歷程概觀](./dashboards/journeys-dashboard.md)
++ 智慧型儀表板 {#dashboards}
+   + [見解儀表板](./dashboards/intelligent-dashboard.md)
+   + [參與儀表板](./dashboards/engagement-dashboard.md)
+   + [Web參與儀表板](./dashboards/web-engagement-dashboard.md)
+   + [購買群組儀表板](./dashboards/buying-groups-dashboard.md)
+   + [帳戶歷程儀表板](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [治理](./admin/governance.md)
    + [Marketo動作設定](./admin/marketo-actions-connect.md)

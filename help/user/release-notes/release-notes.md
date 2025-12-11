@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
+source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
 workflow-type: tm+mt
-source-wordcount: '3807'
+source-wordcount: '3841'
 ht-degree: 91%
 
 ---
@@ -40,6 +40,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 人物誌對應 | 將帳戶成員和已建立的人物誌透過屬性對應進行連結。[了解更多](../admin/persona-mapping.md) |
 | 功能 | Salesforce 和 Dynamics 的銷售洞察 | 銷售團隊成員現在可以在 Salesforce 或 Dynamics 整合中檢視成熟化的購買群組和相關洞察，來識別新的商機。包括階段、分數和相關成員等購買群組細節。 [了解更多](../buying-groups/incrm-insights.md) |
 | 功能 | 啟用對象至[!DNL Adobe Target] | 您現在可以從帳戶歷程啟用對象至外部客戶對象，並將其推送[!DNL Adobe Target]。 透過這項整合，您可以透過歷程式列傳送符合在[!DNL Target]中設計的網頁體驗的對象。 [了解更多](../audiences/target-external-audience.md) |
+| 功能 | 網頁參與儀表板 | 新儀表板，提供網頁訪客如何與關鍵內容互動的深入分析。 它會區隔各個帳戶產業與地區的資料，協助您瞭解參與趨勢。 [了解更多](../dashboards/web-engagement-dashboard.md) |
 | 功能 | 角色分析控制面板 | 新的&#x200B;_[!UICONTROL 角色深入分析]_&#x200B;儀表板提供行銷活動和歷程如何影響購買群組角色贏取和參與的分析。 [了解更多](../buying-groups/buying-group-role-insights.md) |
 | 增強功能 | 改善購買群組完整性評分 | 您現在可以自訂角色成員的完整性評分臨界值，確保購買群組反映真正的決策。[了解更多](../buying-groups/completeness-scores.md) |
 | 增強功能 | 購買群組維護工作 | 此購買群組維護工作頻率從每週更新為每日。 |
