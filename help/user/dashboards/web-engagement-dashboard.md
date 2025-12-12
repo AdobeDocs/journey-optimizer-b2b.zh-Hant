@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ![依屬性篩選顯示的資料](./assets/web-engagement-dashboard-filters-dialog.png){width="500"}
 
-請針對您想要用來篩選資料的每個屬性選取多個值，然後按一下[套用]。**&#x200B;**
+請針對您想要用來篩選資料的每個屬性選取多個值，然後按一下[套用]。****
 
 ## [!UICONTROL 熱門頁面檢視次數] {#top-page-views}
 
