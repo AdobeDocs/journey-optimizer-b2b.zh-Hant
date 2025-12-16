@@ -23,6 +23,7 @@ ht-degree: 0%
 
 以下各節概述使用[!DNL Journey Optimizer B2B Edition]設計無障礙內容的最佳實務。 此資訊著重於設計可供所有收件者存取的內容，讓身心障礙人士能夠閱讀、瞭解並與您的電子郵件及登入頁面互動。
  
+
 ## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 如需文字元件樣式的詳細資訊，請參閱[內容元件](content-components.md#text)
