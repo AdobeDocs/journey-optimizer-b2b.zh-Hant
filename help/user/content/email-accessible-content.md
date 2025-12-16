@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: 09391f6d7c3360d0624edd7dae6c25a8616046d9
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1645'
 ht-degree: 0%
 
 ---
@@ -19,43 +19,37 @@ ht-degree: 0%
 
 此法規規定所有數位通訊，包括電子郵件、電子報、PDF和可下載內容，皆應可供存取。 因此，在為收件者建立內容時，您必須遵循特定准則，例如使用無障礙字型、可讀格式，以及為影像提供替代文字。
 
-[!DNL Journey Optimizer B2B Edition]電子郵件Designer可讓行銷人員建立&#x200B;**電子郵件**&#x200B;和&#x200B;**登陸頁面**&#x200B;的內容，讓您根據網頁內容可及性指引(WCAG) 2.1、AA級輕鬆遵守此指示。
+[!DNL Journey Optimizer B2B Edition]設計工具可讓行銷人員為&#x200B;**電子郵件**&#x200B;和&#x200B;**登陸頁面**&#x200B;建立內容。 請根據網頁內容可及性指引(WCAG) 2.1 （AA級），使用這些工具來遵守此指示。
 
-因此，以下列出使用[!DNL Journey Optimizer B2B Edition]設計無障礙內容的最佳實務。
-
->[!NOTE]
->
->此頁面旨在讓您的內容可供所有收件者存取，以確保身心障礙人士可以閱讀、理解並互動您使用[!DNL Journey Optimizer B2B Edition]設計的電子郵件和登入頁面。
->
+以下各節概述使用[!DNL Journey Optimizer B2B Edition]設計無障礙內容的最佳實務。 此資訊著重於設計可供所有收件者存取的內容，讓身心障礙人士能夠閱讀、瞭解並與您的電子郵件及登入頁面互動。
  
-
 ## 確保文字可讀性 {#text-readability}
 
-運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
+運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 如需文字元件樣式的詳細資訊，請參閱[內容元件](content-components.md#text)
 
-![](assets/accessible-text-styles.png){width="80%"}
+![文字元件[樣式]索引標籤顯示字型、大小和顏色選項](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 針對字型和文字，請務必遵循下列准則：
 
-**字型選擇**
+### 字型選取
 
-* 使用Arial、Verdana、Tahoma、Helvetica或Open Sans等無襯線字型。
+* 使用無襯線字型，例如Arial、Verdana、Tahoma、Helvetica或Open Sans。
 * 避免在正文內容中使用襯線、草稿或裝飾字型。
 * 保留至有限的字型集以取得一致性和遞補（例如： `font-family: Arial, Helvetica, sans-serif;`）。
 
-**字型大小**
+### 字型大小調整
 
 * 確定內文字型大小下限為16px。
-* 請使用適當的標題階層。
+* 為標題使用適當的階層。
 
-**色彩對比**
+### 顏色對比
 
 * 維持文字與背景之間的對比率至少為4.5:1。
 * 對於大型文字(≥24px或粗體18px)，請確定至少3:1對比度。
 * 避免白色背景上的淺灰色或淡色文字。
 * 請勿僅仰賴顏色來傳達意義，而是要使用底線、圖示等。
 
-**文字協助工具**
+### 文字協助工具
 
 * 避免影像中的文字。
 * 請勿在正文中使用全部大寫字。
@@ -74,11 +68,11 @@ ht-degree: 0%
 
 例如，您可以更新背景，或變更邊界、邊框間距和對齊方式，以改善內容的視覺協助工具。
 
-![](assets/accessible-styles.png){width="80%"}
+![樣式窗格，包含背景、邊界、邊框間距和對齊方式設定](assets/accessible-styles.png){width="700" zoomable="yes"}
 
 此外，[!DNL Journey Optimizer B2B Edition]電子郵件Designer可讓您預覽和最佳化不同裝置和熒幕大小的設計。 您隨時可以&#x200B;**[!UICONTROL 切換到即時檢視]**，以檢查您的內容在各種裝置大小上可能會如何呈現。
 
-![](assets/accessible-live-view.png){width="80%"}
+![顯示案頭、平板電腦和行動裝置預覽選項的即時檢視切換](assets/accessible-live-view.png){width="700" zoomable="yes"}
 
 >[!CAUTION]
 >
@@ -86,9 +80,9 @@ ht-degree: 0%
 
 ## 使用影像的替代文字 {#alt-text}
 
-使用&#x200B;**[!UICONTROL 影像]**&#x200B;元件提供影像的替代文字。 [了解更多](content-components.md#image)
+使用&#x200B;**[!UICONTROL 影像]**&#x200B;元件提供影像的替代文字。 如需影像元件設定的詳細資訊，請參閱[內容元件](content-components.md#image)
 
-![](assets/accessible-alt-text.png){width="90%"}
+![反白顯示替代文字欄位的影像元件設定面板](assets/accessible-alt-text.png){width="700" zoomable="yes"}
 
 若要在數位產品中使用有效的替代文字，請遵循以下准則：
 
@@ -100,7 +94,7 @@ ht-degree: 0%
 
 使用電子郵件Designer相關結構和[內容元件](content-components.md)，以及&#x200B;**[!UICONTROL 樣式]**&#x200B;窗格中的選項，以清晰、邏輯且簡潔的方式組織您的內容，讓所有人都能存取。
 
-![](assets/accessible-components.png){width="100%"}
+![電子郵件Designer，顯示組織版面的結構和內容元件](assets/accessible-components.png){width="800" zoomable="yes"}
 
 * 使用結構化、語意化的HTML，搭配適當的標題、段落、清單和表格。
 * 確保內容遵循由左至右、由上至下的邏輯流程。
@@ -117,7 +111,7 @@ ht-degree: 0%
 * 使用主動語態讓句子結構更簡單。
 * 避免使用某些人可能不熟悉的俚語、行話或地區性用語。
 
-若要評估您的電子郵件可讀性，您可以使用熱門的[Flesch Reading Easy測試](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}，此測試可在Microsoft Word中找到，並以0至100的級數計算內容的閱讀容易程度。
+若要評估您的電子郵件可讀性，請使用Microsoft Word中常用的[Flesch Reading Easy測試](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}。 它會計算您閱讀內容的難易程度，範圍從0到100。
 
 ## 測試您的內容 {#test}
 
@@ -129,7 +123,7 @@ ht-degree: 0%
 
 * 傳送校樣以測試內容的轉譯，然後再傳送給真正的對象。
 
-![](assets/accessible-simulate.png){width="90%"}
+![具有測試設定檔預覽選項的內容模擬介面](assets/accessible-simulate.png){width="800" zoomable="yes"}
 
 如果能以可靠的方式存取內容，若要以更一致的方式簽入，請前往特定的外部工具，例如：
 
@@ -139,13 +133,12 @@ ht-degree: 0%
 
 ## 使用深色模式 {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
 深色模式可增強對光線敏感度或視覺障礙的使用者的視覺協助功能，進而改善觀看體驗。
 
-![](assets/accessible-dark-mode.png){width="90%"}
+![比較淺色模式和深色模式演算的電子郵件預覽](assets/accessible-dark-mode.png){width="800" zoomable="yes"}
 
-在深色模式中設計內容的最佳實務中，請使用透明的PNG或SVG、設定適當的中繼標籤和CSS，並在不支援深色模式時提供可存取的遞補樣式。 最後，透過在淺色和深色模式下測試所有電子郵件內容和UI元素，確保您的電子郵件在深色模式下正確呈現。
+針對深色模式進行設計時，請使用透明的PNG或SVG影像，並設定適當的中繼標籤和CSS。 如果深色模式不受支援，請提供可存取的遞補樣式。 最後，以淺色和深色模式測試所有電子郵件內容和UI元素。
 
 ## 針對協助工具使用特定屬性 {#attributes}
 
@@ -189,7 +182,7 @@ ht-degree: 0%
 
   +++
 
-熒幕朗讀程式依賴`lang`屬性來套用正確的發音規則，而文字方向可確保內容從左至右或從右至左的語言自然流暢。 如果沒有這些屬性，使用者可能會遇到閱讀順序混亂或發音錯誤的情況。 因此，請一律使用適當的`lang`和`dir`屬性包住您的電子郵件內文。
+熒幕朗讀程式依賴`lang`屬性來套用正確的發音規則。 文字方向可確保內容自然地由左至右或由右至左的語言。 如果沒有這些屬性，使用者可能會遇到閱讀順序混亂或發音錯誤的情況。 因此，請一律使用適當的`lang`和`dir`屬性包住您的電子郵件內文。
 
 >[!TIP]
 >
@@ -197,7 +190,7 @@ ht-degree: 0%
 
 ### 表格 {#tables}
 
-在HTML內容中，表格通常用於版面。 依預設，熒幕助讀程式會將每個`<table>`視為資料表，宣告列、欄和結構。 如果表格僅用於格式設定，這可能會造成混淆。
+在HTML內容中，表格通常用於版面。 依預設，熒幕助讀程式會將每個`<table>`視為資料表，宣告列、欄和結構。 如果表格僅用於格式設定，則此結構可能會令人困惑。
 
 將`role="presentation"` （或`role="none"`）新增至配置表格，以確保輔助技術會略過其結構並僅專注於實際內容。
 
@@ -215,7 +208,7 @@ ht-degree: 0%
 ```
 
 熒幕助讀程式顯示：
-「你好。 歡迎使用我們的電子報。」 *（未提及列、欄或資料表）*
+「你好。 歡迎使用此Newsletter。」 *（未提及列、欄或資料表）*
 
 +++
 
@@ -253,11 +246,11 @@ ht-degree: 0%
 
 ### 連結文字 {#links}
 
-熒幕助讀程式會使用文字朗讀連結。 如果連結僅標籤為「按一下這裡」或「閱讀更多」，則輔助技術的使用者將無法知道目的地。 為了確保協助工具，這些檔案需要清楚指出目標或動作的描述性文字。
+熒幕助讀程式會使用文字朗讀連結。 如果連結標示為&#x200B;_按一下這裡_&#x200B;或&#x200B;_閱讀更多_，則輔助技術的使用者不知道目的地。 為了確保協助工具，這些檔案需要清楚指出目標或動作的描述性文字。
 
-使用電子郵件Designer為您的內容新增連結，並編輯標籤，使其可區分（可見）並具描述性（清除用途）。 避免使用模糊的標籤，如「這裡」或「更多」。
+使用電子郵件Designer為您的內容新增連結，並編輯標籤，使其可區分（可見）並具描述性（清除用途）。 避免&#x200B;_這裡_&#x200B;或&#x200B;_更多_&#x200B;這類模糊的標籤。
 
-![](assets/accessible-link.png){width="70%"}
+![顯示URL欄位和描述性標籤選項的連結設定面板](assets/accessible-link.png){width="600" zoomable="yes"}
 
 +++範例 — 良好連結（描述性）： 
 
@@ -289,7 +282,7 @@ ht-degree: 0%
 
 <!--for landing pages-->
 
-提供鍵盤導覽和焦點支援，讓無法使用滑鼠的人能夠完全存取內容並與內容互動。 它也能讓所有使用者以清晰一致的方式瀏覽資訊，進而改善整體可用性。
+提供鍵盤導覽和焦點支援，讓無法使用滑鼠存取內容並與內容互動的人得以存取。 它也能讓所有使用者以清晰一致的方式瀏覽資訊，進而改善整體可用性。
 
 * 透過鍵盤聚焦
    * 確認所有互動式元素（例如按鈕、核取方塊、連結）皆有`tabindex="0"`，使其以自然索引標籤順序包含。
