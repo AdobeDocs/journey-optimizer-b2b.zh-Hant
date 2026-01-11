@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
+source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '392'
+ht-degree: 80%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 84%
       + [等待](./journeys/wait-nodes.md)
    + [歷程詳細資訊](./journeys/journey-details.md)
 + 歷程內容 {#journey-content}
+   + [簡訊頻道](./content/sms-authoring.md)
    + 電子郵件頻道 {#email-channel}
       + [新增電子郵件](./content/add-email.md)
       + [電子郵件編寫](./content/email-authoring.md)
@@ -48,8 +49,11 @@ ht-degree: 84%
       + [控管型範本](./content/email-authoring-governance.md)
       + [銷售警報電子郵件](./content/sales-alert-email.md)
       + [電子郵件重複資料刪除](./content/email-deduplication.md)
+   + 網路頻道(Beta) {#web-channel}
+      + [概觀](./content/web-experiences.md)
+      + [網站體驗設計](./content/web-experience-design.md)
+      + [單頁應用程式](./content/web-single-page-applications.md)
    + [自訂個人化權杖](./content/personalization-my-tokens.md)
-   + [簡訊編寫](./content/sms-authoring.md)
 + 客群 {#audiences}
    + [Experience Platform對象](./audiences/account-audience-overview.md)
    + [鎖定外部對象](./audiences/target-external-audience.md)
@@ -142,7 +146,8 @@ ht-degree: 84%
    + 管道 {#channels}
       + [電子郵件組態](./admin/configure-channels-emails.md)
       + [簡訊設定](./admin/configure-channels-sms.md)
-      + [登陸頁面設定](./admin/landing-page-settings.md)
+      + [Web頻道設定(Beta)](./admin/configure-channels-web.md)
+      + [登陸頁面設定(Beta)](./admin/landing-page-settings.md)
       + [設定事件收集的資料流](./data/aep-event-collection.md)
    + 設定 {#configurations}
       + [AEM Assets 存放庫](./admin/configure-aem-repositories.md)

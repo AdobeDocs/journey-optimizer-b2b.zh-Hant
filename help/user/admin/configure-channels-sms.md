@@ -1,17 +1,17 @@
 ---
-title: 簡訊設定
+title: SMS頻道設定
 description: 使用API憑證連線Sinch、Twilio和Infobip等SMS提供者，以啟用Journey Optimizer B2B edition歷程中的文字訊息。
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 325ae8e8c1f3bbf25e0d96907ede6cb9f2e76e3d
+source-git-commit: ee6000d8527222a246f715de033ee99ea49f47fd
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# 簡訊設定
+# 簡訊頻道設定
 
 Adobe Journey Optimizer B2B edition會透過SMS服務提供者（或SMS閘道提供者）傳送文字訊息。 建立SMS訊息之前，請先從&#x200B;_管理員_&#x200B;設定設定您的服務提供者。
 

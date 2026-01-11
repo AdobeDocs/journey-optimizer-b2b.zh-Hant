@@ -4,9 +4,9 @@ description: 在Journey Optimizer B2B edition中新增按鈕、文字、影像�
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2825'
 ht-degree: 6%
 
 ---
@@ -307,7 +307,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -371,7 +371,7 @@ ht-degree: 6%
 
 ### 文字
 
-使用文字元件，將文字區塊插入內容中。 在畫布中選取文字元件時，輸入文字並使用工具列選項來新增內嵌格式和選項，包括個人化代號和條件變體。 如需有關在設計空間中製作文字的詳細資訊，包括內嵌樣式和選項，請參閱文字製作。
+使用文字元件，將文字區塊插入內容中。 在畫布中選取文字元件時，輸入文字並使用工具列選項來新增內嵌格式和選項，包括個人化代號和條件變體。<!-- For detailed information about crafting text, including inline styling and options, in the design space, see [Text authoring](#). -->
 
 在&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤中自訂文字元件樣式。
 
@@ -473,7 +473,7 @@ ht-degree: 6%
 
    [開啟程式碼編輯器以新增HTML](./assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
 
    [編輯HTML對話方塊](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
@@ -605,7 +605,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
