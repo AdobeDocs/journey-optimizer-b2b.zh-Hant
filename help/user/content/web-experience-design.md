@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * 產品管理員已設定一或多個網路通道，以定義要納入網路體驗的URL （頁面）。 如需詳細資訊，請參閱[網路通道設定](../admin/configure-channels-web.md)。
 
-* 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 需要Adobe Experience Platform Web SDK 2.16版或更高版本。
+* 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 需要Adobe Experience Platform Web SDK 2.16版或更高版本。
 
 * 您擁有必要的[許可權](../admin/user-management.md#b2b-product-permissions)，才能在歷程中建立和管理網頁體驗：
    * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 管理行銷活動]_ — 需要新增或更新Web個人化動作節點。
@@ -326,7 +326,7 @@ Drag and drop modifications in the list to change the order. The preview updates
 
 啟用（即時）網頁體驗時，您也可以使用Adobe Customer Journey Analytics建立報表（需要產品訂閱）。 若要改善網站體驗監控功能，您也可以追蹤網站任何特定元素的點按次數。 追蹤可讓您在網頁報告中顯示該元素的點選次數。
 
-如需Customer Journey Analytics和建置Web報表的詳細資訊，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)。
+如需Customer Journey Analytics和建置Web報表的詳細資訊，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-landing)。
 
 1. 在網頁體驗編輯器中選取元素，例如影像或連結。
 

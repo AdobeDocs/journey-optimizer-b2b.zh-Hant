@@ -19,7 +19,7 @@ Web設定是由傳送內容的URL識別的Web屬性。 它可以比對單一頁�
 
 **先決條件**
 
-若要使用網路管道，您的網站必須實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
+若要使用網路管道，您的網站必須實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
 
 Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../admin/user-management.md#b2b-product-permissions)：
 
