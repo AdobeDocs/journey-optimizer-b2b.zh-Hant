@@ -47,7 +47,7 @@ ht-degree: 0%
 
    ![安裝In-CRM Insights套件](assets/incrm-install-sf.png){width=500}
 
-1. 在對話方塊中核准協力廠商存取權，然後按一下[繼續]。****
+1. 在對話方塊中核准協力廠商存取權，然後按一下[繼續]。**&#x200B;**
 1. 安裝完成時，按一下&#x200B;**[!UICONTROL 完成]**。
 
    它現在列在&#x200B;**已安裝的套件**&#x200B;頁面上，而&#x200B;**Journey Optimizer B2B edition**&#x200B;列在App啟動器中。
@@ -60,7 +60,7 @@ ht-degree: 0%
 1. 移至[Power Apps入口網站](https://make.powerapps.com/){target=_blank}。
 1. 登入後，請選取封裝的環境，然後從左側功能表導覽至&#x200B;**[!UICONTROL 解決方案]**。
 1. 按一下&#x200B;**[!UICONTROL 匯入方案]**。
-1. 瀏覽並上傳安裝程式套件，然後按一下[下一步] ****。
+1. 瀏覽並上傳安裝程式套件，然後按一下[下一步] **&#x200B;**。
 1. 驗證封裝詳細資料，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 1. 在&#x200B;_環境變數_&#x200B;下，確認值已設定為`prod` （不要變更值），然後按一下&#x200B;**[!UICONTROL 匯入]**。
 1. 安裝完成時，左側導覽列中會顯示&#x200B;**[!UICONTROL Journey Optimizer B2B edition]** > **[!UICONTROL 購買群組]**。
