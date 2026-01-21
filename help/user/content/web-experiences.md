@@ -53,7 +53,7 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
    如果您正在使用[!DNL Microsoft Edge]，請選取&#x200B;_允許副檔名_ （從上方橫幅上的其他存放區）。 啟用此選項可讓您將擴充功能從[!DNL Chrome Web Store]新增至[!DNL Microsoft Edge]。
 
-1. 搜尋並導覽至&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_瀏覽器延伸模組。
+1. 搜尋並導覽至&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;瀏覽器延伸模組。
 
    ![適用於Google Chrome的Adobe Experience Cloud Visual Editing Helper擴充功能](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -109,7 +109,7 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
    ![選取的Web Channel設定](./assets/web-experience-journey-node-actions-tab.png){width="700" zoomable="yes"}
 
-1. 若要定義網頁修改，請按一下[編輯內容]。****
+1. 若要定義網頁修改，請按一下[編輯內容]。**&#x200B;**
 
    編輯器會在&#x200B;_[!UICONTROL 內容]_&#x200B;標籤中開啟，您可以在其中定義網頁體驗的修改。 如需使用設計工具新增網頁體驗內容修改的詳細資訊，請參閱[網頁體驗設計](./web-experience-design.md)。
 
@@ -130,7 +130,7 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
 1. 開啟歷程並選取&#x200B;**[!UICONTROL 個人化Web體驗]**&#x200B;動作節點。
 
-1. 若要變更Web Channel設定或內容，請按一下[編輯網頁體驗]。****
+1. 若要變更Web Channel設定或內容，請按一下[編輯網頁體驗]。**&#x200B;**
 
 1. 選取&#x200B;**[!UICONTROL 動作]**&#x200B;標籤，並視需要變更Web組態。
 
