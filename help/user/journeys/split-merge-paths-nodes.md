@@ -284,4 +284,4 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443267/?captions=chi_hant&learn=on)

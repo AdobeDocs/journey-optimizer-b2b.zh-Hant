@@ -294,4 +294,4 @@ Marketo Engage以人物為基礎的動作，旨在協調Journey Optimizer B2B ed
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443256/?captions=chi_hant&learn=on)

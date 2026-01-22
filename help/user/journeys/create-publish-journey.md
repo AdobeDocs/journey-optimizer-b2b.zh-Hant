@@ -165,4 +165,4 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443230/?captions=chi_hant&learn=on)
