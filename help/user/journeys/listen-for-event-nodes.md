@@ -4,26 +4,26 @@ description: 設定帳戶和人員觸發器的事件節點 — 在Journey Optimi
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1843'
 ht-degree: 4%
 
 ---
 
 # 監聽事件
 
-新增&#x200B;_接聽事件_&#x200B;節點，在事件發生時，將您的對象移至帳戶歷程中的下一個步驟。
+新增&#x200B;_接聽事件_&#x200B;節點，以便在事件發生時，將您的對象移至歷程的下一個步驟。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;， vertical-align=&quot;middle&quot;} [觀看概觀影片](#overview-video)
 
 >[!NOTE]
 >
->您無法依人員於分割路徑上新增此節點型別。
+>對於帳戶歷程，您無法在分割路徑上由人員新增此節點型別。
 
 ## 帳戶事件
 
-當您想要根據帳戶活動所觸發的事件，在歷程中向前移動帳戶時，根據帳戶監聽事件。
+在帳戶歷程中，當您想要根據帳戶活動所觸發的事件，在歷程中向前移動帳戶時，您可以根據帳戶來監聽事件。
 
 ### 事件和限制
 
@@ -52,7 +52,7 @@ ht-degree: 4%
 
 ## 人物活動
 
-根據您想要在歷程中根據人員活動所觸發的事件向前移動帳戶的人來監聽事件。 您也可以根據人員屬性來篩選事件，
+在帳戶歷程中，當您想要根據人員活動所觸發的事件，在歷程中向前移動帳戶時，您可以根據人員來監聽事件。 您也可以根據人員屬性來篩選事件，
 
 ### 事件和限制
 
@@ -135,7 +135,7 @@ ht-degree: 4%
 
 ### 聆聽體驗事件
 
-管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立近乎即時對事件回應的歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
+管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
 
 1. 管理員[選取感興趣的事件型別和欄位](../admin/configure-aep-events.md#select-an-event)，以便在歷程中使用。
 
@@ -148,19 +148,19 @@ ht-degree: 4%
 
 1. 在歷程地圖中選取&#x200B;**[!UICONTROL 接聽事件]**&#x200B;節點。
 
-1. 在右側的節點屬性中，選擇事件型別的&#x200B;**[!UICONTROL 人員]**。
-
-1. 按一下&#x200B;**[!UICONTROL 選取人員事件]**&#x200B;選取器的箭頭，然後捲動功能表至&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;區段。
-
-   ![聆聽體驗活動](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+1. （僅限帳戶歷程）在右側的節點屬性中，選擇&#x200B;**[!UICONTROL 人員]**&#x200B;作為事件型別。
 
 1. 選取事件。
 
-   事件型別在節點詳細資料中顯示為空白。
+   若要進行&#x200B;**_帳戶歷程_**，請按一下&#x200B;**[!UICONTROL 選取人員事件]**&#x200B;選取器的箭頭，然後捲動功能表至&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;區段。
 
-   ![編輯事件](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
+   ![聆聽體驗活動](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+
+   若為個人歷程，請按一下&#x200B;**[!UICONTROL 選取事件]**&#x200B;選取器的箭頭，然後選擇事件。
 
 1. 按一下&#x200B;**[!UICONTROL 編輯事件]**，並為事件定義一或多個限制。
+
+   ![編輯事件](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
    可用的限制定義為事件設定的Managed欄位。
 
@@ -182,11 +182,13 @@ ht-degree: 4%
 
 1. 在歷程地圖中，新增下一個節點，以便在事件發生時執行。
 
-1. 完成您歷程的其餘節點，並[發佈它](./journey-overview.md)。
+1. 完成您歷程的其餘節點，並[發佈它](./journeys-overview.md)。
 
    當歷程為即時（已發佈）並到達&#x200B;_接聽事件_&#x200B;節點時，它會開始接聽AEP體驗事件。
 
 ### 將篩選器新增至人物事件
+
+（僅限帳戶歷程）
 
 1. 定義事件後，請在&#x200B;**[!UICONTROL 編輯事件]**&#x200B;對話方塊中選取&#x200B;_[!UICONTROL 篩選器]_&#x200B;索引標籤。
 
@@ -222,4 +224,4 @@ ht-degree: 4%
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?captions=chi_hant&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

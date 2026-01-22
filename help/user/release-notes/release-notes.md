@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: eabef3060f200d35c6914bc8fecfa8e0960d745d
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 91%
@@ -178,7 +178,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 重複帳戶歷程 | 現在可以對帳戶歷程執行重複動作。您可以重複帳戶歷程的詳細資訊，或僅重複流程和路徑架構的基本框架。<a href="../journeys/journey-overview.md#duplicate-journey">了解更多</a> |
+| 功能 | 重複帳戶歷程 | 現在可以對帳戶歷程執行重複動作。您可以重複帳戶歷程的詳細資訊，或僅重複流程和路徑架構的基本框架。<a href="../journeys/journeys-overview.md#duplicate-journey">了解更多</a> |
 | 功能 | 帳戶歷程適用的「我的權杖」 | 現在您可以使用帳戶歷程特定的數值定義一組自訂權杖。這組自訂權杖稱為「_我的權杖_」，而且在製作歷程電子郵件時，任何這些自訂權杖均供個人化使用。<a href="../content/personalization-my-tokens.md">了解更多</a> |
 | 功能 | 刪除購買群組階段 | 您可以刪除處於草稿或已發佈狀態的購買群組階段模型。若購買群組階段模型是已發佈 (上線) 狀態，則唯有在其與解決方案無利害關係時，才能刪除。<a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">了解更多</a> |
 | 增強功能 | 歷程節點數 | 提高在節點層級的已發佈歷程會員數量的可見度。在「_歷程圖_」中，節點顯示「_[!UICONTROL 輸入的帳戶總數]_」。當您選擇並操作節點時，右側的詳細資訊還包括「_[!UICONTROL 尚未採取動作的帳戶]_」。_監聽事件_&#x200B;節點的詳細資訊包括「_[!UICONTROL 此步驟中的帳戶]_」。使用此資訊來驗證已上線、已完成和已中止歷程中的帳戶進度。 |
@@ -192,7 +192,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 可自訂欄位 - 內容片段 | 在視覺化片段設計期間，您可以將片段中某個元件的參數指定為可編輯。透過這項功能，電子郵件或範本作者可以根據本身需求指定自訂欄位值。此自訂標幟僅限影像、文字和按鈕視覺元件使用。<a href="../content/fragment-authoring.md#enable-fragment-customization">了解更多</a> |
-| 功能 | 歷程重複類型 | 當您重複帳戶歷程時，您可以包含節點詳細資訊，但不包括 Journey Optimizer B2B Edition 中建立的電子郵件和 SMS 訊息。或者，您可以建立結構和路徑流程基本框架的副本，不需要節點詳細資訊和設定。<a href="../journeys/journey-overview.md#duplicate-journey">了解更多</a> |
+| 功能 | 歷程重複類型 | 當您重複帳戶歷程時，您可以包含節點詳細資訊，但不包括 Journey Optimizer B2B Edition 中建立的電子郵件和 SMS 訊息。或者，您可以建立結構和路徑流程基本框架的副本，不需要節點詳細資訊和設定。<a href="../journeys/journeys-overview.md#duplicate-journey">了解更多</a> |
 | 增強功能 | 其他四個電子郵件範本範例 | 電子郵件範本範例資料庫現在包括四個 SecurFinacial 範本，做為重新參與、通知、培養及意見回饋內容範例 |
 
 <!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->

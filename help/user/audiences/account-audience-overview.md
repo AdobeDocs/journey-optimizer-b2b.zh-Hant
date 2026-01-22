@@ -4,8 +4,8 @@ description: 透過細分來建置帳戶客群以鎖定特定帳戶，並在 Jou
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: ht
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ ht-degree: 100%
 
 1. 按一下右上角的「**[!UICONTROL 儲存並關閉]**」。
 
-若要啟用 Journey Optimizer B2B Edition 的帳戶客群，您必須[將其新增至帳戶歷程](../journeys/journey-overview.md#add-the-account-audience-for-your-journey)，並[發佈此歷程](../journeys/journey-overview.md)。
+若要啟用 Journey Optimizer B2B Edition 的帳戶客群，您必須[將其新增至帳戶歷程](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey)，並[發佈此歷程](../journeys/journeys-overview.md)。

@@ -4,7 +4,7 @@ description: 管理員和行銷人員的入門指南：在 Journey Optimizer B2B
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 93%
@@ -73,6 +73,6 @@ ht-degree: 93%
 
    * 在歷程圖中，建立多步驟使用案例、新增條件以及傳送個人化訊息。
 
-[了解更多](../journeys/journey-overview.md)
+[了解更多](../journeys/journeys-overview.md)
 
 >[!ENDTABS]

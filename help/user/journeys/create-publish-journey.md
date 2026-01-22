@@ -1,25 +1,32 @@
 ---
-title: 建立及發佈帳戶歷程
-description: 在視覺畫布中建立帳戶歷程、新增動作和事件節點、設定排程，以及在Journey Optimizer B2B edition中發佈即時協調。
+title: 建立及發佈歷程
+description: 在視覺畫布中建立帳戶和個人歷程、新增動作和事件節點、設定排程，以及在Journey Optimizer B2B edition中發佈即時協調。
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 433b08efbb24453f318bbce989ce18c9d96dea05
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '857'
 ht-degree: 4%
 
 ---
 
-# 建立及發佈帳戶歷程
+# 建置並發佈歷程
 
-若要開始使用帳戶歷程，請建立歷程，然後在歷程地圖中建構節點和歷程流程。
+若要開始使用歷程，請建立歷程，然後在歷程地圖中建構節點和歷程流程。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
-## 建立帳戶歷程
+## 建立歷程
 
-1. 在左側導覽中，按一下「**[!UICONTROL 帳戶歷程]**」。
+在左側導覽的&#x200B;**[!UICONTROL 歷程管理]**&#x200B;下，選取您要建立的歷程型別：
+
+* **[!UICONTROL 帳戶歷程]**
+* **[!UICONTROL 個人歷程]** (Beta)
+
+新增歷程(_T):_
+
++++帳戶歷程
 
 1. 按一下頁面右上角的&#x200B;**[!UICONTROL 建立帳戶歷程]**。
 
@@ -29,9 +36,26 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-## 歷程的組成要素
++++
 
-_歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域中新增及設定歷程節點。 按一下節點，即可開啟畫布右側的屬性窗格，並根據您的設計加以設定。 帳戶歷程一律以[帳戶對象節點](./account-audience-nodes.md)開始，您可以在其中新增輸入到歷程。
++++個人歷程(Beta)
+
+1. 按一下頁面右上方的&#x200B;**[!UICONTROL 建立歷程]**。
+
+1. 在對話方塊中，輸入唯一的&#x200B;**[!UICONTROL Name]** （必要）和&#x200B;**[!UICONTROL Description]** （選用）。
+
+   ![建立歷程對話方塊](./assets/person-journey-create-dialog.png){width="400"}
+
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
+
++++
+
+## 歷程設計的建置區塊
+
+_歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域中新增及設定歷程節點。 按一下節點，即可開啟畫布右側的屬性窗格，並根據您的設計加以設定。 歷程一律以受眾節點開始，您可在此定義歷程的輸入：
+
+* [帳戶對象節點](./account-audience-nodes.md)
+* [個人受眾節點](./person-audience-nodes.md)
 
 建立帳戶歷程並新增對象後，請使用節點建立歷程。 歷程地圖提供畫布，您可以在其中使用下列節點型別建置您的多步驟B2B行銷使用案例，以建構帳戶歷程：
 
@@ -73,7 +97,7 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域
 
 1. 在右側的節點屬性中，選取&#x200B;**[!UICONTROL 帳戶]**。
 
-1. 若要新增更多路徑，請按一下[新增路徑]。**&#x200B;**
+1. 若要新增更多路徑，請按一下[新增路徑]。****
 
    當在歷程中建立每個路徑時，屬性中都會顯示新路徑卡。
 
@@ -109,7 +133,7 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域
 
    當您準備好發佈您的歷程時，您可以在按一下&#x200B;_[!UICONTROL 發佈]_&#x200B;時檢閱這些設定。
 
-## 發佈帳戶歷程
+## 發佈歷程
 
 如果沒有封鎖程式錯誤，您可以發佈歷程。 發佈後，歷程狀態會變更為「_已上線_」。如果歷程發生錯誤，_[!UICONTROL 發佈]_&#x200B;按鈕會變暗並顯示內容資訊： `Resolve errors before publishing`。
 
@@ -141,4 +165,4 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443230/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

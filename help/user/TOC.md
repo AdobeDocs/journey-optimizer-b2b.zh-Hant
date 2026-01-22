@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
+source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 80%
+source-wordcount: '398'
+ht-degree: 78%
 
 ---
 
@@ -27,12 +27,13 @@ ht-degree: 80%
       + [Audience 代理](./agents/audience-agent-b2b.md)
       + [Journey Build代理程式B2B](./agents/journey-agent.md)
       + [銷售限定詞](./agents/sales-qualifier.md)
-+ 帳戶歷程 {#account-journeys}
-   + [概觀](./journeys/journey-overview.md)
++ 歷程管理 {#journeys}
+   + [帳戶和個人歷程](./journeys/journeys-overview.md)
    + [建立並發佈歷程](./journeys/create-publish-journey.md)
    + [歷程節點](./journeys/journey-nodes.md)
    + 歷程節點 {#journey-nodes}
       + [帳戶客群](./journeys/account-audience-nodes.md)
+      + [個人對象(Beta)](./journeys/person-audience-nodes.md)
       + [採取動作](./journeys/action-nodes.md)
       + [監聽事件](./journeys/listen-for-event-nodes.md)
       + [分割和合併路徑](./journeys/split-merge-paths-nodes.md)

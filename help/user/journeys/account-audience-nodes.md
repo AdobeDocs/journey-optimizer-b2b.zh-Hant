@@ -4,7 +4,7 @@ description: 使用帳戶對象或帳戶清單設定帳戶對象節點，以在J
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 帳戶對象歷程節點
 
-帳戶對象節點會指定哪些帳戶進入歷程。 當您[建立帳戶歷程](./journey-overview.md#create-an-account-journey)時，歷程一律以定義其輸入的帳戶對象節點開始。
+帳戶對象節點會指定哪些帳戶進入歷程。 當您[建立帳戶歷程](./create-publish-journey.md#create-a-journey)時，歷程一律以定義其輸入的帳戶對象節點開始。
 
 對此歷程節點使用下列其中一個輸入選項：
 
@@ -55,4 +55,4 @@ ht-degree: 0%
 
    ![建立對象區段](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. 請依照[Segmentation Service指南](https://experienceleague.adobe.com/zh-hant/docs/ experience-platform/segmentation/types/account-audiences){target="_blank"}中的步驟操作。
+1. 請依照[Segmentation Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}中的步驟操作。
