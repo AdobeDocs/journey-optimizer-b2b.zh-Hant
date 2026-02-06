@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '4087'
+source-wordcount: '4085'
 ht-degree: 86%
 
 ---
@@ -37,7 +37,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B edition中定義品牌，為創意團隊建立任何視覺或書面內容時提供可使用的真實來源。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 |
 | 功能 | 用於產生電子郵件內容的品牌 | 您可以定義品牌指引，並使用此資訊產生電子郵件內容。 透過此功能，電子郵件內容會符合您特定品牌的文字撰寫指南、樣式和語調。 |
 | 增強功能 | 歷程&#x200B;_等待_&#x200B;節點 — 進階設定 | 對於歷程中的&#x200B;_等待_&#x200B;節點，您現在可以指定退出日期和時間，並選取時區。 此增強功能可讓您更能掌控歷程協調流程和行銷活動時間。 |
-| 增強功能 | 購買群組成員篩選器 — 已移除 | 針對由人員&#x200B;_節點分割的_&#x200B;路徑，_[!UICONTROL 購買群組成員]_&#x200B;篩選器現在包含&#x200B;_已移除_&#x200B;限制。 選取時，篩選器可包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;_[!UICONTROL 的]_&#x200B;成員篩選器中使用此新限制。 |
+| 增強功能 | 購買群組成員特殊篩選 — 已移除限制 | 購買群組&#x200B;_[!UICONTROL 的]_&#x200B;成員現在包含&#x200B;_已移除_&#x200B;限制。 當您將此限制新增至篩選器時，您可以包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;_[!UICONTROL 的]_&#x200B;成員篩選器中使用此新限制。 |
 | 增強功能 | 電子郵件設計 — 多級專案符號 | 電子郵件內容設計空間工具現在支援子專案符號（專案符號層級）。 |
 
 <!--

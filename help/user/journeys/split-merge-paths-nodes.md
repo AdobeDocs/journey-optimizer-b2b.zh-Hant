@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '2509'
+source-wordcount: '2567'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ _分割路徑_&#x200B;節點會根據&#x200B;**__**&#x200B;帳戶或人員篩選
 
 依帳戶分割路徑可包含帳戶和人員動作與事件。 這些路徑可以進一步分割。
 
-_&#x200B;**依帳戶節點分割路徑的運作方式**&#x200B;_
+_**依帳戶節點分割路徑的運作方式**_
 
 * 您新增的每個路徑都包含一個能夠向每個邊緣新增節點的結束節點。
 * 可巢狀方式依帳戶節點分割（您可以重複依帳戶分割路徑）。
@@ -76,7 +76,7 @@ _&#x200B;**依帳戶節點分割路徑的運作方式**&#x200B;_
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 若要新增更多路徑，請按一下[新增路徑] **&#x200B;**，並重複先前步驟以新增適用於此路徑的條件。
+1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複先前步驟以新增適用於此路徑的條件。
 
    您也可以根據這些條件來標示每個路徑，或使用預設標籤。
 
@@ -139,7 +139,7 @@ This will also be available for split paths by people (under special filters) fo
 
 依人員路徑分割只能包含人員動作。 這些路徑無法再次分割並自動聯結。
 
-_&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
+_**依人員節點分割路徑的運作方式**_
 
 * 在&#x200B;_群組節點_&#x200B;分割合併組合中，依人員節點進行分割。 分割路徑會自動合併，以便所有人員能夠前進到下一個步驟，而不會失去其帳戶內容。
 * 依人員節點分割無法巢狀（您無法在此群組節點內的路徑中為人員新增分割路徑）。
@@ -159,7 +159,7 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 | [!UICONTROL 活動歷史記錄] > [!UICONTROL 有趣的時刻] | 在相關[!DNL Marketo Engage]執行個體中定義的有趣時刻活動。 限制包括： <li>里程碑<li>電子郵件<li>網頁<br>**[!UICONTROL 切換到非活動篩選器&#x200B;]**— 使用此選項來根據缺少活動進行篩選（某人沒有有趣的時刻）。 |
 | [!UICONTROL 活動歷史記錄] > [!UICONTROL 造訪的網頁] | 由相關[!DNL Marketo Engage]執行個體管理的一或多個網頁的網頁活動。 限制包括： <li>網頁（必填）<li>活動日期<li>使用者端IP位址 <li>Querystring <li>反向連結 <li>使用者代理 <li>搜尋引擎 <li>搜尋查詢 <li>個人化URL <li>權杖 <li>瀏覽器 <li>平台 <li>裝置 <li>最低 次數<br>**[!UICONTROL 切換到非使用狀態篩選器&#x200B;]**— 使用此選項來根據缺少使用狀態進行篩選（某人未造訪網頁）。 |
 | [!UICONTROL 個人屬性] | 個人設定檔中的屬性，包括： <li>城市 <li>國家/地區 <li>出生日期 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件已暫停 <li>名字 <li>推斷的狀態區域<li>職稱 <li>姓氏 <li>行動電話號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>狀態 <li>已取消訂閱 <li>取消訂閱的原因 |
-| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>角色</li> |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除</li><li>角色</li> |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 清單成員] | 此人是否為一或多個[!DNL Marketo Engage]清單的成員。 |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 計畫成員] | 此人是否為一或多個[!DNL Marketo Engage]方案的成員。 |
 
@@ -204,7 +204,7 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 若要新增更多路徑，請按一下[新增路徑] **&#x200B;**，並重複先前步驟以新增適用於此路徑的條件。
+1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複先前步驟以新增適用於此路徑的條件。
 
    您也可以根據這些條件來標示每個路徑，或使用預設標籤。
 
@@ -234,7 +234,7 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 >[!BEGINSHADEBOX 「非使用中篩選」]
 
-您可以針對每個&#x200B;_[!UICONTROL 活動歷史記錄]_&#x200B;篩選器，啟用&#x200B;**[!UICONTROL 切換至非活動篩選器]**&#x200B;選項。 此選項會將篩選器變更為缺少該活動型別的評估。 例如，新增&#x200B;_[!UICONTROL 電子郵件]_ > _[!UICONTROL 已開啟電子郵件]_&#x200B;篩選器，為&#x200B;_&#x200B;**未**&#x200B;_&#x200B;在歷程中先前開啟電子郵件的人建立路徑。 啟用非使用狀態選項並指定電子郵件。 最佳實務是使用活動的&#x200B;_[!UICONTROL 日期]_&#x200B;限制來定義非活動的時段。
+您可以針對每個&#x200B;_[!UICONTROL 活動歷史記錄]_&#x200B;篩選器，啟用&#x200B;**[!UICONTROL 切換至非活動篩選器]**&#x200B;選項。 此選項會將篩選器變更為缺少該活動型別的評估。 例如，新增&#x200B;_[!UICONTROL 電子郵件]_ > _[!UICONTROL 已開啟電子郵件]_&#x200B;篩選器，為&#x200B;_**未**_&#x200B;在歷程中先前開啟電子郵件的人建立路徑。 啟用非使用狀態選項並指定電子郵件。 最佳實務是使用活動的&#x200B;_[!UICONTROL 日期]_&#x200B;限制來定義非活動的時段。
 
 ![依人員條件分割購買群組成員資格的路徑](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -242,15 +242,29 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 ### 成員資格篩選
 
-在&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;區段中，有多個篩選器可用來評估購買群組或[!DNL Marketo Engage]清單中的成員資格。 例如，如果您想要為購買群組成員且被指派特定角色的人建立路徑，請新增&#x200B;_[!UICONTROL 特殊篩選器]_ > _[!UICONTROL 購買群組成員]_&#x200B;篩選器。 針對篩選，將成員資格設為&#x200B;_true_，選取與一個或多個購買群組相關聯的&#x200B;_[!UICONTROL 方案興趣]_，並設定您要比對的&#x200B;_[!UICONTROL 角色]_。
+在&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;區段中，有多個篩選器可用來評估購買群組或[!DNL Marketo Engage]清單中的成員資格。
+
+例如，如果您想要為購買群組成員且被指派特定角色的人建立路徑，請新增&#x200B;_[!UICONTROL 特殊篩選器]_ > _[!UICONTROL 購買群組成員]_&#x200B;篩選器。 針對篩選，將成員資格設為&#x200B;_true_，選取與一個或多個購買群組相關聯的&#x200B;_[!UICONTROL 方案興趣]_，並設定您要比對的&#x200B;_[!UICONTROL 角色]_。
 
 ![依人員條件分割購買群組成員資格的路徑](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
->[!BEGINSHADEBOX 「Marketo Engage清單成員資格」]
+您也可以包含其他購買群組成員資格限制：
+
+* _[!UICONTROL 購買團體階段]_
+* _[!UICONTROL 購買群組狀態]_
+* _[!UICONTROL 完整性分數]_
+* _[!UICONTROL 參與分數]_
+* _[!UICONTROL 已移除]_
+
+>[!TIP]
+>
+>若要排除從購買群組移除的成員，請使用&#x200B;_[!UICONTROL Is Removed]_&#x200B;條件約束設為`false`。 您也可以將此限制設定為`true`，明確包含已移除的成員。
+
+>[!BEGINSHADEBOX 「Marketo Engage清單和計畫會籍」]
 
 在[!DNL Marketo Engage]中，_智慧行銷活動_&#x200B;會檢查方案的成員資格，以確保潛在客戶不會收到重複的電子郵件，而且不會同時成為多個電子郵件串流的成員。 在Journey Optimizer B2B中，您可以檢查[!DNL Marketo Engage]清單成員資格以作為依人員分割路徑的條件，以協助消除歷程活動中的重複。
 
-若要在分割條件中使用清單成員資格，請展開&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 清單成員]**&#x200B;條件拖曳到篩選器空間。 完成篩選定義以評估一或多個[!DNL Marketo Engage]清單中的成員資格。
+若要在分割條件中使用清單成員資格，請展開&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 清單成員]**&#x200B;或&#x200B;**[!UICONTROL 方案成員]**&#x200B;條件拖曳到篩選器空間。 完成篩選定義以評估一或多個[!DNL Marketo Engage]清單中的成員資格。
 
 ![依人員條件分割[!DNL Marketo Engage]清單成員資格的路徑](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
@@ -284,4 +298,4 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443267/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

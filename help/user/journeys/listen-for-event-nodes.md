@@ -4,9 +4,9 @@ description: 設定帳戶和人員觸發器的事件節點 — 在Journey Optimi
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1845'
 ht-degree: 4%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 4%
 
 ## 人物活動
 
-在帳戶歷程中，當您想要根據人員活動所觸發的事件，在歷程中向前移動帳戶時，您可以根據人員來監聽事件。 您也可以根據人員屬性來篩選事件，
+在帳戶歷程中，當您想要根據人員活動所觸發的事件，在歷程中向前移動帳戶時，您可以根據人員來監聽事件。 您也可以根據人員屬性來篩選事件。
 
 ### 事件和限制
 
@@ -80,7 +80,7 @@ ht-degree: 4%
 | [!UICONTROL 活動歷史記錄] > [!UICONTROL 有趣的時刻] | 在關聯的Marketo Engage例項中定義的有趣時刻活動。 限制包括： <li>里程碑<li>電子郵件<li>網頁<!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL 活動歷史記錄] > [!UICONTROL 造訪的網頁] | 針對由相關Marketo Engage例項管理的一或多個網頁的網頁活動。 限制包括： <li>網頁（必填）<li>活動日期<li>使用者端IP位址 <li>Querystring <li>反向連結 <li>使用者代理 <li>搜尋引擎 <li>搜尋查詢 <li>個人化URL <li>權杖 <li>瀏覽器 <li>平台 <li>裝置 <li>最低 次數<!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
 | [!UICONTROL 個人屬性] | 個人設定檔中的屬性，包括： <li>城市 <li>國家/地區 <li>出生日期 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件已暫停 <li>名字 <li>推斷的狀態區域<li>職稱 <li>姓氏 <li>行動電話號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>狀態 <li>已取消訂閱 <li>取消訂閱的原因 |
-| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>角色</li> |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除</li><li>角色</li> |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 清單成員] | 此人是否為一或多個Marketo Engage清單的成員。 |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 計畫成員] | 此人是否為一或多個Marketo Engage方案的成員。 |
 
@@ -108,7 +108,7 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**[!UICONTROL 選取人員事件]**&#x200B;選取器的箭頭，然後捲動功能表至&#x200B;**[!UICONTROL Marketo Engage]**&#x200B;區段。
 
-1. 選取Market Engage活動型別：
+1. 選取Marketo Engage活動型別：
 
    * **[!UICONTROL 瀏覽網頁]**。
    * **[!UICONTROL 填寫表單]**
@@ -135,7 +135,7 @@ ht-degree: 4%
 
 ### 聆聽體驗事件
 
-管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
+管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
 
 1. 管理員[選取感興趣的事件型別和欄位](../admin/configure-aep-events.md#select-an-event)，以便在歷程中使用。
 
@@ -224,4 +224,4 @@ ht-degree: 4%
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?captions=chi_hant&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
