@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
+source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
 workflow-type: tm+mt
 source-wordcount: '4087'
 ht-degree: 86%
@@ -30,7 +30,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 ## 2026.1 發行說明
 
-**部署日期**： 2025年2月3日
+**部署日期**： 2026年2月3日
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
@@ -46,7 +46,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 >[!NOTE]
 >
->這些版本變更從2025年2月3日開始部署，並分階段推出每個功能。 功能及增強功能的發行日期可能隨時變更。
+>這些版本變更從2026年2月3日開始部署，並分階段推出每個功能。 功能及增強功能的發行日期可能隨時變更。
 
 ## 2025.10 發行說明
 
