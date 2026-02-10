@@ -4,10 +4,10 @@ description: 使用條件式自動指派來建立角色範本，以識別在Jour
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 3%
+source-wordcount: '1329'
+ht-degree: 4%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 3%
 | ---- | --------- |
 | 個人屬性 | <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件已暫停 <li>傳真號碼 <li>名字 <li>推斷的狀態區域 <li>職稱 <li>姓氏 <li>中間名 <li>行動電話號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>狀態 <li>已取消訂閱 <li>取消訂閱的原因 |
 | 特殊篩選 | <li>清單成員 <li>計畫成員 |
-| 意圖資料 | 類別方法 <li>產品意圖 <li>關鍵字意圖<br/>[瞭解意圖資料](../admin/intent-data.md)。 |
+| 意圖資料 | <li>類別方法 <li>產品意圖 <li>關鍵字意圖<br/>[瞭解意圖資料](../admin/intent-data.md) |
 
 1. 對於第一個角色卡，定義角色屬性。
 
@@ -115,6 +115,13 @@ ht-degree: 3%
 若要使用清單成員資格做為角色條件，請展開&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 清單成員]**&#x200B;條件拖曳到篩選器空間。 然後完成篩選器定義，以評估一或多個Marketo Engage清單中的成員資格。
 
 Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+<br/>
+
+>[!NOTE]
+>
+>**功能淘汰**</br></br>
+>
+>使用Journey Optimizer B2B edition的[簡化架構](../simplified-architecture.md)，不支援根據Marketo Engage執行個體中的清單或程式成員資格進行篩選。
 
 >[!ENDSHADEBOX]
 
@@ -126,7 +133,7 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 例如，若要完成您的解決方案&#x200B;_X_&#x200B;的交易，必須識別並參與多個行銷決策者，因為一個組織的多個行銷團隊都會使用該解決方案。 在此情況下，您至少要有兩個行銷決策者，才能增加臨界值以計算&#x200B;_完整_&#x200B;購買群組。
 
-如需完整度評分和計算的詳細資訊，請參閱[完整度評分](./completeness-scores.md)。
+若需有關完整性評分和計算的詳細資訊，請參閱[完整性分數](./completeness-scores.md)。
 
 1. 按一下角色範本頁面右上角的&#x200B;**[!UICONTROL 完整度分數設定]**。
 
@@ -182,4 +189,4 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
