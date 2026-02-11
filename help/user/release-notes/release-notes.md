@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: d9b9b0627a20c49452aef74ae44d506b240aeb1d
 workflow-type: tm+mt
-source-wordcount: '4085'
-ht-degree: 86%
+source-wordcount: '4114'
+ht-degree: 85%
 
 ---
 
@@ -92,6 +92,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 關聯式資料模型 | 運用連結至B2B帳戶的關聯資料，以篩選帳戶歷程中的帳戶或個人化電子郵件內容。 此關聯式資料可代表真實世界的商業實體，例如購買記錄、事件註冊、軟體授權、服務訂閱或預訂。 [了解更多](../admin/xdm-field-management.md#relational-schemas) |
 | 功能 | 多個Marketo Engage啟用 | 設定與遠端Marketo Engage執行個體的連線，並使用這些連線來設定歷程的Marketo Engage動作。 這些動作（例如從清單新增/移除人員，或將人員新增至請求促銷活動）適用於指定的Marketo Engage執行個體。 [了解更多](../admin/marketo-actions-connect.md) |
 | 功能 | 電子郵件疲勞重複資料刪除 | 您現在可以啟用電子郵件重複資料刪除，來確保不會在歷程中將相同的電子郵件多次傳送至相同地址。重複地址會被封鎖，直到該電子郵件地址的第一個記錄完成歷程為止。  [了解更多](../content/email-deduplication.md) |
+| 增強功能 | 參與分數加權 — AEP事件 | 參與分數加權現在可以包含任何標準或自訂Experience Platform事件，並根據您的需求加權。 [了解更多](../admin/engagement-score-weighting.md) |
 | 增強功能 | 通訊限制 | 系統現在會遵守Marketo Engage和Journey Optimizer B2B edition的通訊限制。 [了解更多](../admin/configure-channels-emails.md#communication-limits) |
 
 <!-- There are additional functional changes with the simplified architecture:
