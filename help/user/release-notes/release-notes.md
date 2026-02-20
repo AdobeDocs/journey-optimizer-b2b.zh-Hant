@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: d9b9b0627a20c49452aef74ae44d506b240aeb1d
+source-git-commit: 7ee4ffdee351efb478ea1faefe6f1d478a75e2f8
 workflow-type: tm+mt
-source-wordcount: '4114'
-ht-degree: 85%
+source-wordcount: '4425'
+ht-degree: 80%
 
 ---
 
@@ -18,15 +18,23 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 請檢視此[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，以了解有關權益、效能護欄及限制的資訊。
 
-## 代理式 AI 功能
+## 2026.2 發行說明
 
-下列代理式 AI 功能現在可在 AI 助理介面中用於 Journey Optimizer B2B edition：
+**部署日期**：2026年2月20日
 
-| 代理 | 更新 | 說明 |
-| ----- | ------ | ----------- |
-| 歷程建置代理 | 新增和更新 | 歷程建置代理會即時分析、構想並共同建立歷程，讓行銷人員可更快速地啟動、提高參與度並推動更高的轉換率。[了解更多](../agents/journey-agent.md) |
-| Audience 代理 | 新版 | Audience 代理會使用結構化和非結構化資料，進行自動識別並建置購買群組。此功能可協助行銷人員更快速且更準確地鎖定合適的人員。[了解更多](../agents/audience-agent-b2b.md) |
-| 銷售限定詞 | 新版 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驅動附加應用程式，其中包含Account Qualification Agent，旨在簡化業務開發代表(BDR)的工作流程。 它可跨管道自動化潛在客戶資格、外聯和購買者參與工作流程[瞭解更多](../agents/sales-qualifier.md) |
+| 類型 | 項目 | 說明 |
+| ---- | ---- | ----------- |
+| 功能 | XDM欄位/關聯式結構描述 — 支援人員自訂物件 | 管理員現在可以使用與帳戶的單一、一對一關係，選取與個人相關的自訂物件。 此功能可讓您的行銷組織呈現更豐富的真實世界業務資料檢視，以針對個人或帳戶層級以外的實體進行目標定位、個人化和報告。 |
+| 功能 | 電子郵件設計 — 支援Firefly和自訂的創作AI模型 | 您現在可以整合標準和自訂Firefly模型，以及已核准的協力廠商影像模型（例如NanoBanana）。 行銷人員可以為每個使用案例選取最佳模型：適用於一般需求的標準Firefly、適用於品牌內產生的自訂Firefly，或適用於特殊或實驗場景的已核准第三方模型。 |
+| 增強功能 | 電子郵件設計 — 內容品質驗證 | 除了品牌一致性之外，您還可以評估整體內容品質，以找出可讀性、一致性和有效性方面的潛在問題（不受品牌指南影響）。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 |
+| 增強功能 | 歷程重新進入 | 您現在可以透過歷程工作流程多次傳送帳戶/人員。 重新進入可處理多種情境，例如重新評估資格標準和可重複使用的培養工作流程。 |
+| 增強功能 | 啟用至目的地 — 可重複使用的對象 | 您現在可以在&#x200B;_啟用至目的地_&#x200B;相同歷程中的歷程動作中，重複使用虛擬對象，並從虛擬對象中移除帳戶。 |
+| 增強功能 | 帳戶和個人歷程 — 支援個人自訂物件 | 運用連結至帳戶的關聯資料，以篩選帳戶或個人歷程中的人員。 |
+| 增強功能 | 內容個人化 — 支援人員自訂物件 | 使用自訂物件定義內容個人化時，您可以存取模型類別自訂物件（關聯式架構）的變數。 |
+
+>[!NOTE]
+>
+>這些版本變更從2026年2月20日開始部署，並分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
 
 ## 2026.1 發行說明
 
@@ -47,6 +55,16 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 >[!NOTE]
 >
 >這些版本變更從2026年2月3日開始部署，並分階段推出每個功能。 功能及增強功能的發行日期可能隨時變更。
+
+## 代理式 AI 功能
+
+下列代理式 AI 功能現在可在 AI 助理介面中用於 Journey Optimizer B2B edition：
+
+| 代理 | 更新 | 說明 |
+| ----- | ------ | ----------- |
+| 歷程建置代理 | 新增和更新 | 歷程建置代理會即時分析、構想並共同建立歷程，讓行銷人員可更快速地啟動、提高參與度並推動更高的轉換率。[了解更多](../agents/journey-agent.md) |
+| Audience 代理 | 新版 | Audience 代理會使用結構化和非結構化資料，進行自動識別並建置購買群組。此功能可協助行銷人員更快速且更準確地鎖定合適的人員。[了解更多](../agents/audience-agent-b2b.md) |
+| 銷售限定詞 | 新版 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驅動附加應用程式，其中包含Account Qualification Agent，旨在簡化業務開發代表(BDR)的工作流程。 它可跨管道自動化潛在客戶資格、外聯和購買者參與工作流程[瞭解更多](../agents/sales-qualifier.md) |
 
 ## 2025.10 發行說明
 
