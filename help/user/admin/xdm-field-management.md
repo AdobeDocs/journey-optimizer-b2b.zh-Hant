@@ -90,7 +90,7 @@ Adobe Experience Platform (AEP)結構描述通常包含複雜階層中的許多�
 
 #### 可更新欄位
 
-在設定可更新欄位之前，這些欄位必須位於自訂資料集中。 如需自訂資料集工作流程的逐步解說，請參閱[建立資料集並擷取資料](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，並使用&#x200B;**[!UICONTROL 從結構描述建立資料集]**&#x200B;選項。 此資料集可用來隔離可更新的欄位。 所有可更新欄位都必須在此資料集中。
+在設定可更新欄位之前，這些欄位必須位於自訂資料集中。 如需自訂資料集工作流程的逐步解說，請參閱[建立資料集並擷取資料](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}，並使用&#x200B;**[!UICONTROL 從結構描述建立資料集]**&#x200B;選項。 此資料集可用來隔離可更新的欄位。 所有可更新欄位都必須在此資料集中。
 
 >[!IMPORTANT]
 >
@@ -117,7 +117,7 @@ Adobe Experience Platform (AEP)結構描述通常包含複雜階層中的許多�
 
 >[!AVAILABILITY]
 >
->[關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#)可作為[!DNL Journey Optimizer B2B Edition]的有限可用性版本使用。 [!DNL Journey Optimizer Orchestrated Campaigns]個授權持有人可使用Data Mirror和關聯式結構描述。 根據您的授權和功能啟用，[!DNL Customer Journey Analytics]個使用者也可限量使用關聯式結構描述。 請聯絡您的Adobe代表以取得存取權。
+>[關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#)可作為[!DNL Journey Optimizer B2B Edition]的有限可用性版本使用。 [!DNL Journey Optimizer Orchestrated Campaigns]個授權持有人可使用Data Mirror和關聯式結構描述。 根據您的授權和功能啟用，[!DNL Customer Journey Analytics]個使用者也可限量使用關聯式結構描述。 請聯絡您的Adobe代表以取得存取權。
 
 >[!NOTE]
 >
