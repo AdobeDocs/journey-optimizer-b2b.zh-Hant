@@ -4,19 +4,19 @@ description: 控制帳戶何時及多久重新進入同一帳戶歷程。
 feature: Account Journeys
 role: User
 level: Intermediate
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
+source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '432'
 ht-degree: 1%
 
 ---
-
 
 # 歷程重新進入
 
 _僅限帳戶歷程_
 
-當您啟用帳戶歷程的重新進入時，您可以控制帳戶何時以及多久可重新進入同一個歷程。 使用重新進入設定來設定條件、限制和等待時間，讓帳戶以可控制的方式重新認證。
+當您啟用帳戶歷程的重新進入時，您可以控制帳戶何時以及多久可重新進入同一個歷程。 使用重新進入設定來設定條件、限制和等待時間，以便帳戶能以可控制的方式符合歷程的資格。
 
 當下列專案為True時，帳戶便可符合歷程的資格：
 

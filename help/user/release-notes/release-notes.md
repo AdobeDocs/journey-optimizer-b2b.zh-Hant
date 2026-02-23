@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 768820247354cf8eb3da23f118314317f3a1e93c
+source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
 workflow-type: tm+mt
-source-wordcount: '4436'
-ht-degree: 80%
+source-wordcount: '4474'
+ht-degree: 79%
 
 ---
 
@@ -24,12 +24,12 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | XDM欄位/關聯式結構描述 — 支援人員自訂物件 | (Beta)管理員現在可以使用與帳戶的單一層級一對一關係，選取與個人相關的自訂物件。 此功能可讓您的行銷組織呈現更豐富的真實世界業務資料檢視，以針對個人或帳戶層級以外的實體進行目標定位、個人化和報告。 [了解更多](../admin/xdm-field-management.md#relational-schemas) |
-| 功能 | 歷程重新進入 | 您現在可以透過歷程工作流程多次傳送帳戶/人員。 重新進入可處理多種情境，例如重新評估資格標準和可重複使用的培養工作流程。 [了解更多](../journeys/journey-re-entry.md) |
+| 功能 | XDM欄位/關聯式結構描述 — 支援人員自訂物件 | [!BADGE 簡化的架構]{type=Informative tooltip="提供簡化的架構"} (Beta)管理員現在可以選取與個人相關的自訂物件，這些物件使用與帳戶的單一、一對一關係。 此功能可讓您的行銷組織呈現更豐富的真實世界業務資料檢視，以針對個人或帳戶層級以外的實體進行目標定位、個人化和報告。 [了解更多](../admin/xdm-field-management.md#relational-schemas) |
+| 功能 | 歷程重新進入 | [!BADGE 簡化的架構]{type=Informative tooltip="提供簡化的架構"}您現在可以透過歷程工作流程多次傳送帳戶/人員。 重新進入可處理多種情境，例如重新評估資格標準和可重複使用的培養工作流程。 [了解更多](../journeys/journey-re-entry.md) |
 | 功能 | 電子郵件設計 — 支援Firefly和自訂的創作AI模型 | 您現在可以整合標準和自訂Firefly模型，以及已核准的協力廠商影像模型（例如NanoBanana）。 行銷人員可以為每個使用案例選取最佳模型：適用於一般需求的標準Firefly、適用於品牌內產生的自訂Firefly，或適用於特殊或實驗場景的已核准第三方模型。 |
 | 增強功能 | 電子郵件設計 — 內容品質驗證 | 除了品牌一致性之外，您還可以評估整體內容品質，以找出可讀性、一致性和有效性方面的潛在問題（不受品牌指南影響）。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 |
-| 增強功能 | 帳戶和個人歷程 — 支援個人自訂物件 | (Beta)運用連結至帳戶的關聯資料，以篩選帳戶或個人歷程中的人員。 [了解更多](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
-| 增強功能 | (Beta)內容個人化 — 支援人員自訂物件 | 使用自訂物件定義內容個人化時，您可以存取模型類別自訂物件（關聯式架構）的變數。 [了解更多](../content/personalization.md#custom-datasets) |
+| 增強功能 | 帳戶和個人歷程 — 支援個人自訂物件 | [!BADGE 簡化的架構]{type=Informative tooltip="提供簡化的架構"} (Beta)運用連結至帳戶的關聯資料，以篩選帳戶或個人歷程中的人員。 [了解更多](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
+| 增強功能 | (Beta)內容個人化 — 支援人員自訂物件 | [!BADGE 簡化的架構]{type=Informative tooltip="提供簡化的架構"}當您使用自訂物件定義內容個人化時，可以存取模型類別自訂物件（關聯式結構描述）的變數。 [了解更多](../content/personalization.md#custom-datasets) |
 | 增強功能 | 啟用至目的地 — 可重複使用的對象 | 您現在可以在&#x200B;_啟用至目的地_&#x200B;相同歷程中的歷程動作中，重複使用虛擬對象，並從虛擬對象中移除帳戶。 |
 
 >[!NOTE]
@@ -42,10 +42,10 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B edition中定義品牌，為創意團隊建立任何視覺或書面內容時提供可使用的真實來源。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 |
-| 功能 | 用於產生電子郵件內容的品牌 | 您可以定義品牌指引，並使用此資訊產生電子郵件內容。 透過此功能，電子郵件內容會符合您特定品牌的文字撰寫指南、樣式和語調。 |
-| 增強功能 | 歷程&#x200B;_等待_&#x200B;節點 — 進階設定 | 對於歷程中的&#x200B;_等待_&#x200B;節點，您現在可以指定退出日期和時間，並選取時區。 此增強功能可讓您更能掌控歷程協調流程和行銷活動時間。 |
-| 增強功能 | 購買群組成員特殊篩選 — 已移除限制 | 購買群組&#x200B;_[!UICONTROL 的]_&#x200B;成員現在包含&#x200B;_已移除_&#x200B;限制。 當您將此限制新增至篩選器時，您可以包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;_[!UICONTROL 的]_&#x200B;成員篩選器中使用此新限制。 |
+| 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B edition中定義品牌，為創意團隊建立任何視覺或書面內容時提供可使用的真實來源。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 [了解更多](../content/brands-overview.md) |
+| 功能 | 用於產生電子郵件內容的品牌 | 您可以定義品牌指引，並使用此資訊產生電子郵件內容。 透過此功能，電子郵件內容會符合您特定品牌的文字撰寫指南、樣式和語調。 [了解更多](../content/ai-assistant-emails.md) |
+| 增強功能 | 歷程&#x200B;_等待_&#x200B;節點 — 進階設定 | [!BADGE 簡化的架構]{type=Informative tooltip="適用於簡化的架構"}對於歷程中的&#x200B;_等待_&#x200B;節點，您現在可以指定退出日期和時間，並選取時區。 此增強功能可讓您更能掌控歷程協調流程和行銷活動時間。 [了解更多](../journeys/wait-nodes.md#advanced-wait-settings) |
+| 增強功能 | 購買群組成員篩選器 — 已移除 | 針對由人員&#x200B;_節點分割的_&#x200B;路徑，_[!UICONTROL 購買群組成員]_&#x200B;篩選器現在包含&#x200B;_已移除_&#x200B;限制。 選取時，篩選器可包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;_[!UICONTROL 的]_&#x200B;成員篩選器中使用此新限制。 |
 | 增強功能 | 電子郵件設計 — 多級專案符號 | 電子郵件內容設計空間工具現在支援子專案符號（專案符號層級）。 |
 
 <!--

@@ -6,9 +6,10 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
+source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
 workflow-type: tm+mt
-source-wordcount: '4857'
+source-wordcount: '4853'
 ht-degree: 6%
 
 ---
@@ -19,9 +20,9 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->協助程式功能適用於在[簡化架構](../simplified-architecture.md)上布建的Journey Optimizer B2B edition環境。
+>協助程式功能適用於在[!DNL Journey Optimizer B2B Edition]簡化架構[上布建的](../simplified-architecture.md)環境。
 
-## 聚合函式
+## 彙總函式
 
 使用彙總函式將多個值分組，以形成單一摘要值。 您也可以使用陣列和清單函式，更輕鬆地定義與陣列、清單和字串的互動。
 
@@ -954,7 +955,7 @@ The following operation gets all the values for the map `identityMap`.
 |---------|---------|--------------------------------------|
 | `y` | 日曆年（標準年） | `2023` |
 | `Y` | 周基準年(ISO 8601)。 可能會依年份邊界而有所不同。 | `2024` （2023年12月31日為2024年的第一週） |
-| `M` | 月份（1-12或類似`Jan`， `January`的文字） | `12`或`Dec` |
+| `M` | 月份（1-12或類似`Jan`， `January`的文字） | `12`或 `Dec` |
 | `m` | 小時制的分鐘(0-59) | `15` |
 | `d` | 當月日期(1-31) | `31` |
 | `D` | 年日(1-366) | `365` |
