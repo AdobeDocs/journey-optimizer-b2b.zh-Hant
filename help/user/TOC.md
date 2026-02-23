@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
+source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '400'
 ht-degree: 78%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 78%
 + 歷程管理 {#journeys}
    + [帳戶和個人歷程](./journeys/journeys-overview.md)
    + [建立並發佈歷程](./journeys/create-publish-journey.md)
+   + [歷程重新進入](./journeys/journey-re-entry.md)
    + [歷程節點](./journeys/journey-nodes.md)
    + 歷程節點 {#journey-nodes}
       + [帳戶客群](./journeys/account-audience-nodes.md)
@@ -43,7 +44,7 @@ ht-degree: 78%
    + [簡訊頻道](./content/sms-authoring.md)
    + 電子郵件頻道 {#email-channel}
       + [新增電子郵件](./content/add-email.md)
-      + [電子郵件編寫](./content/email-authoring.md)
+      + [電子郵件製作](./content/email-authoring.md)
       + [電子郵件編寫的 AI 助理](./content/ai-assistant-emails.md)
       + [GenStudio 工作流程](./content/genstudio-email-workflow.md)
       + [電子郵件設計的深色模式](./content/email-dark-mode.md)
