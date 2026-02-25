@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B edition 的最新功能、增強功能及錯誤修正。隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: a624ef4575aaf771af7bfcb301e98fdb615699f6
+source-git-commit: 0215a83066bea181a09050b2ea35899241125a4d
 workflow-type: tm+mt
-source-wordcount: '4371'
+source-wordcount: '4343'
 ht-degree: 81%
 
 ---
@@ -28,13 +28,12 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 歷程重新進入 | [!BADGE 簡化的架構]{type=Informative tooltip="提供簡化的架構"}您現在可以透過歷程工作流程多次傳送帳戶/人員。 重新進入可處理多種情境，例如重新評估資格標準和可重複使用的培養工作流程。 [了解更多](../journeys/journey-re-entry.md) |
 | 增強功能 | 帳戶和個人歷程 — 支援個人自訂物件 | [!BADGE 簡化的架構]{type=Informative tooltip="提供簡化的架構"} (Beta)運用連結至帳戶的關聯資料，以篩選帳戶或個人歷程中的人員。 [了解更多](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | 增強功能 | (Beta)內容個人化 — 支援人員自訂物件 | [!BADGE 簡化的架構]{type=Informative tooltip="提供簡化的架構"}當您使用自訂物件定義內容個人化時，可以存取模型類別自訂物件（關聯式結構描述）的變數。 [了解更多](../content/personalization.md#custom-datasets) |
-| 增強功能 | 啟用至目的地 — 可重複使用的對象 | 您現在可以在&#x200B;_啟用至目的地_&#x200B;相同歷程中的歷程動作中，重複使用虛擬對象，並從虛擬對象中移除帳戶。 |
 
-<!-- wait for next release
+<!-- wait for later release
 | Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. |
 | Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
 | Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
-| -->
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
 
 >[!NOTE]
 >

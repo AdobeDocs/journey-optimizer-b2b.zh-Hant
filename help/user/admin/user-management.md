@@ -1,12 +1,12 @@
 ---
-title: User Management
+title: 使用者管理
 description: 使用Experience Cloud Admin Console管理使用者存取 — 建立Journey Optimizer B2B edition的使用者群組、指派產品設定檔及設定角色型許可權。
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: fed4ffe06d645784dc3f2adc84c15906e9816507
+source-git-commit: 00633bec3f5b9299208dc3e4523bcd97fb055be7
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2012'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 新增使用者至Marketo Engage產品設定檔時，他們隨後會新增至Marketo Engage訂閱預設工作區中的&#x200B;_標準使用者_&#x200B;角色。 此角色會授予他們該工作區中Marketo Engage的所有&#x200B;_標準使用者_&#x200B;許可權。 目前，所有Journey Optimizer B2B edition使用者都必須是Marketo Engage使用者。 Marketo Engage管理員可以更新&#x200B;_標準使用者_&#x200B;角色的許可權，或將使用者移至其他具有更嚴格許可權的Marketo Engage使用者角色，以限制存取權。
 
-如需有關在Marketo Engage中管理這些許可權的詳細資訊，請參閱Marketo Engage檔案中的[管理使用者角色和許可權](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
+如需有關在Marketo Engage中管理這些許可權的詳細資訊，請參閱Marketo Engage檔案中的[管理使用者角色和許可權](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 1. 輸入產品設定檔名稱，例如&#x200B;_標準使用者_。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[下一步]****，然後按一下[儲存]****。
 
 ## 建立使用者群組 {#create-user-group}
 
@@ -106,10 +106,10 @@ ht-degree: 1%
 
    * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
-   * [!UICONTROL Adobe Experience Platform資料彙集]
-   * [!UICONTROL 資料收集所有存取權]
+   * [!UICONTROL Adobe Experience Platform Data Collection — 預設資料收集所有存取權]
+   * [!UICONTROL Adobe Experience Platform — 預設的生產所有存取權]
 
-   ![Admin Console — 使用者群組 — 新增產品](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
+   ![Admin Console — 使用者群組 — 新增產品](./assets/admin-console-user-group-add-products.png){width="550" zoomable="yes"}
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -143,7 +143,7 @@ ht-degree: 1%
 
 Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 許可權也可讓您管理與特定角色相關聯的沙箱和使用者。
 
-如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 ### B2B產品許可權
 
