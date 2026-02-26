@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition 文件
 description: Journey Optimizer B2B Edition 的完整文件：探索用於上線、建立購買群組、建置帳戶歷程，以及管理內容的可用資源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 151a8808d3e560fee729064baa3fd840928785ad
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 50%
+source-wordcount: '839'
+ht-degree: 44%
 
 ---
 
@@ -23,11 +23,17 @@ ht-degree: 50%
 
 >[!TAB AI代理程式]
 
-透過[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant介面可自動呼叫專業代理程式，以取得正確的答案和見解。 Agent Orchestrator 會記住您的對話記錄，讓您可以不必複述相關背景資訊，即可自然地在先前問題的基礎上繼續提問，並且結合來自多個代理的洞察，為您提供清楚且統一的回答。在[!DNL Journey Optimizer B2B Edition]內容中，有三個針對特定B2B任務和網域專門建置的代理程式：
+透過[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant介面可自動呼叫專業代理程式，以取得正確的答案和見解。 Agent Orchestrator 會記住您的對話記錄，讓您可以不必複述相關背景資訊，即可自然地在先前問題的基礎上繼續提問，並且結合來自多個代理的洞察，為您提供清楚且統一的回答。在[!DNL Journey Optimizer B2B Edition]內容中，有三個針對特定B2B任務和網域專門建置的代理程式：
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Build代理程式B2B](./agents/journey-agent.md)
 * [Account Qualification 代理](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB 歷程重新進入]
+
+您現在可以透過帳戶歷程工作流程多次傳送帳戶/人員。 重新進入可處理多種情境，例如重新評估資格標準和可重複使用的培養工作流程。 使用重新進入設定來設定條件、限制和等待時間，以便帳戶能以可控制的方式符合歷程的資格。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="瞭解重新進入歷程"}
 
 >[!TAB 品牌主題]
 
@@ -59,18 +65,13 @@ ht-degree: 50%
 
 [!BADGE 了解更多]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="了解深色模式電子郵件設計"}
 
->[!TAB 人員參與度分數]
-
-B2B 行銷人員現在可以使用個人層級的參與度分數做為歷程分割路徑的篩選器，或是建立購買群組的角色範本之篩選器。此分數和篩選可以精確鎖定購買群組成員，以為其持續參與提供個人化服務。
-
-[!BADGE 了解更多]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="了解人員參與度分數和篩選"}
-
 >[!ENDTABS]
 
 ## 開始探索 {#section-explore}
 
 :::: landing-cards-container
 :::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
@@ -80,7 +81,7 @@ B2B 行銷人員現在可以使用個人層級的參與度分數做為歷程分�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入門
 
@@ -90,6 +91,7 @@ B2B 行銷人員現在可以使用個人層級的參與度分數做為歷程分�
 :::
 
 :::
+![設定圖示](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定您的XDM欄位
 
@@ -99,7 +101,7 @@ B2B 行銷人員現在可以使用個人層級的參與度分數做為歷程分�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -110,7 +112,7 @@ B2B 行銷人員現在可以使用個人層級的參與度分數做為歷程分�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 建立帳戶歷程
 
@@ -120,7 +122,7 @@ B2B 行銷人員現在可以使用個人層級的參與度分數做為歷程分�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 瞭解購買群組
 
@@ -133,7 +135,7 @@ B2B 行銷人員現在可以使用個人層級的參與度分數做為歷程分�
 
 <!-- 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -149,7 +151,7 @@ Learn how to author and manage content for personalized customer experiences orc
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
-## 深入瞭解此檔案
+## 探索文件
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -192,10 +194,10 @@ Learn how to author and manage content for personalized customer experiences orc
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a><!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">文件</a> - <a href="https://business.adobe.com/tw/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">文件</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home" target="_blank">文件</a> - <a href="https://experienceleague.adobe.com/zh-hant/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">開發人員教學課程</a>
