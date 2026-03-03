@@ -25,7 +25,7 @@ ht-degree: 0%
 
 開始使用此功能之前，請先檢閱[准則和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。[在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-由於Adobe承諾在媒體建立中使用創作AI工具時提高透明度，Adobe針對任何內容或專案套用[內容認證](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}，其中包含Firefly產生的資產（下載或匯出時）。
+由於Adobe承諾在媒體建立中使用創作AI工具時提高透明度，Adobe針對任何內容或專案套用[內容認證](https://helpx.adobe.com/tw/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}，其中包含Firefly產生的資產（下載或匯出時）。
 
 下列限制和准則適用於[!DNL Journey Optimizer B2B Edition]中用於產生電子郵件內容的AI助理功能：
 
