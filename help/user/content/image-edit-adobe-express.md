@@ -70,7 +70,7 @@ ht-degree: 3%
 
 ![在Adobe Express Enterprise編輯器中開啟影像](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-[Adobe Express使用手冊](https://helpx.adobe.com/express/web.html){target="_blank"}提供可用編輯功能的詳細資訊。
+[Adobe Express使用手冊](https://helpx.adobe.com/tw/express/web.html){target="_blank"}提供可用編輯功能的詳細資訊。
 
 ## Adobe Express中的快速動作
 
