@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Journey Optimizer B2B edition中的AI助理
 
-Journey Optimizer B2B edition中的AI助理是從Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中[AI助理的相同技術基礎建立的。 這是一種對話式體驗，可用來加速Adobe Journey Optimizer B2B edition的工作流程。 您可以使用AI Assistant進一步瞭解產品功能、疑難排解問題，或透過資訊進行搜尋，並找到Journey Optimizer B2B edition的營運深入分析。
+Journey Optimizer B2B edition中的AI助理是從Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中AI助理的相同技術基礎建立的。 這是一種對話式體驗，可用來加速Adobe Journey Optimizer B2B edition的工作流程。 您可以使用AI Assistant進一步瞭解產品功能、疑難排解問題，或透過資訊進行搜尋，並找到Journey Optimizer B2B edition的營運深入分析。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Journey Optimizer B2B edition中的AI助理是從Adobe Experience Platform](http
 
 ## Journey Optimizer B2B edition中的AI助理功能
 
-為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料的內部表示法，也稱為&#x200B;_**_知識圖表_**_，這是概念、資料及指定答案的中繼資料的完整網路。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
+為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料的內部表示法，也稱為&#x200B;_&#x200B;**_知識圖表_**&#x200B;_，這是概念、資料及指定答案的中繼資料的完整網路。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
 
 * Experience League檔案。
 * 運算成品，例如結構描述、欄位、對象和歷程。
