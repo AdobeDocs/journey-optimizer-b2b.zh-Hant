@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，可重複使用，品牌一致性，電子郵件設計
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3107'
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 2%
 
    當您定義新的主題設定時，畫布上的視覺元素會變更。 如果結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-1. 當您的佈景主題定義完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的佈景主題定義完成時，請按一下[儲存]。****
 
 1. 按一下&#x200B;**[!UICONTROL 關閉]**&#x200B;返回&#x200B;_[!UICONTROL 建立主題]_&#x200B;頁面，然後按&#x200B;**[!UICONTROL 取消]**&#x200B;返回設計頁面。
 
@@ -113,7 +113,11 @@ ht-degree: 2%
 
   按一下&#x200B;_上一步_&#x200B;箭頭以關閉調色盤工具。
 
-* 按一下&#x200B;**[!UICONTROL 新增變體]**&#x200B;以建立多個色彩變體，例如&#x200B;_淺色_&#x200B;和&#x200B;_深色_&#x200B;模式，每個變體都有自己的調色盤和細微控制項。 您最多可以有六個變體。
+* 按一下&#x200B;**[!UICONTROL 新增變體]**&#x200B;以建立多個色彩變體，例如&#x200B;_淺色_&#x200B;和&#x200B;_深色_&#x200B;模式，每個變體都有自己的調色盤和細微控制項。
+
+  >[!NOTE]
+  >
+  >對於每個品牌主題，您最多可以定義四個變體。
 
   針對每個變體，按一下&#x200B;_編輯_ （ ![編輯圖示](../assets/do-not-localize/icon-edit.svg) ）圖示。 您可以使用預設調色盤或任何自訂顏色。
 
@@ -193,7 +197,7 @@ ht-degree: 2%
 | 類型 | 設定 | 說明 |
 | ---- | -------- | ----------- |
 | [!UICONTROL 文字] | ![按鈕文字設定](./assets/email-theme-button-settings-text.png){width="300"} | 將&#x200B;**[!UICONTROL 字型庫]**&#x200B;設定為&#x200B;_[!UICONTROL 標準]_&#x200B;或&#x200B;_[!UICONTROL Google字型]_。 然後，選擇字型系列、大小和樣式。 選擇&#x200B;**[!UICONTROL 文字對齊]**： _靠左_、_置中_、_靠右_&#x200B;或&#x200B;_對齊_。 |
-| [!UICONTROL 邊框] | ![按鈕邊框設定](./assets/email-theme-button-settings-border.png){width="300"} | 將&#x200B;**[!UICONTROL 邊框]**&#x200B;切換移動至右側，以啟用按鈕邊框顯示選項，並根據您的設計准則進行設定。 增加或減少畫素數目，以設定&#x200B;**[!UICONTROL 邊框大小]** （線條寬度）。 從標準CSS **[!UICONTROL 值清單中選擇一個值，例如]**&#x200B;實線`border-style`、_點線_&#x200B;和&#x200B;_虛線_，以設定&#x200B;_邊框樣式_。 |
+| [!UICONTROL 邊框] | ![按鈕邊框設定](./assets/email-theme-button-settings-border.png){width="300"} | 將&#x200B;**[!UICONTROL 邊框]**&#x200B;切換移動至右側，以啟用按鈕邊框顯示選項，並根據您的設計准則進行設定。 增加或減少畫素數目，以設定&#x200B;**[!UICONTROL 邊框大小]** （線條寬度）。 從標準CSS `border-style`值清單中選擇一個值，例如&#x200B;_實線_、_點線_&#x200B;和&#x200B;_虛線_，以設定&#x200B;**[!UICONTROL 邊框樣式]**。 |
 | [!UICONTROL 大小] | ![按鈕大小設定](./assets/email-theme-button-settings-size.png){width="300"} | 對於&#x200B;**[!UICONTROL 高度]**&#x200B;選項，按一下向上和向下箭頭圖示以增加或減少畫素數量。 空白值(Auto)為預設值，會根據按鈕內容調整按鈕高度。 對於&#x200B;**[!UICONTROL 寬度]**，請使用切換功能以畫素或百分比設定寬度。 若為百分比寬度，請使用滑桿來設定百分比值。 百分比會根據包含區塊的內容方塊來決定按鈕大小，其中不包含邊框間距和邊框。 例如，值50會將按鈕寬度設定為其所包含區塊內容寬度的50%。 針對以畫素為基礎的寬度，按一下向上和向下箭頭圖示，以增加或減少畫素數量。 預設值是空值(_Auto_)，而且會根據按鈕的內容來調整按鈕的寬度。 |
 
 +++
@@ -208,7 +212,7 @@ ht-degree: 2%
 
 | 類型 | 設定 | 說明 |
 | ---- | -------- | ----------- |
-| [!UICONTROL Line] | ![分隔線設定](./assets/email-theme-divider-settings-line.png){width="300"} | 從標準CSS **[!UICONTROL 值清單中選擇一個值，例如]**&#x200B;實線`border-style`、_點線_&#x200B;和&#x200B;_虛線_，以設定&#x200B;_邊框樣式_。 |
+| [!UICONTROL Line] | ![分隔線設定](./assets/email-theme-divider-settings-line.png){width="300"} | 從標準CSS `border-style`值清單中選擇一個值，例如&#x200B;_實線_、_點線_&#x200B;和&#x200B;_虛線_，以設定&#x200B;**[!UICONTROL 邊框樣式]**。 |
 | [!UICONTROL 容器大小] | ![分隔線容器大小設定](./assets/email-theme-divider-settings-container-size.png){width="300"} | 在&#x200B;**[!UICONTROL 高度]**&#x200B;選項中，按一下向上和向下箭頭圖示，以增加或減少元件/元素的畫素數量。 空白值（自動）為預設值，並根據其內容（行樣式）調整高度。 對於&#x200B;**[!UICONTROL 寬度]**，請使用切換功能以畫素或百分比設定寬度。 若為百分比寬度，請使用滑桿來設定百分比值。 百分比會根據包含區塊的內容方塊來決定元素寬度。 例如，如果值為50，則會將分隔線寬度設定為其包含區塊內容寬度的50%。 針對以畫素為基礎的寬度，按一下向上和向下箭頭圖示，以增加或減少畫素數量。 空值(_Auto_)是預設值，而且會根據分隔線的內容調整其寬度。 |
 | [!UICONTROL 對齊方式] | ![分隔線對齊方式設定](./assets/email-theme-divider-settings-alignment.png){width="300"} | 選擇容納區塊內的水準對齊方式： _左_、_置中_&#x200B;或&#x200B;_右_。 |
 
@@ -244,7 +248,7 @@ ht-degree: 2%
 
 顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >
@@ -278,7 +282,7 @@ ht-degree: 2%
 
    顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右邊欄底部的&#x200B;_還原_&#x200B;圖示。 按一下&#x200B;_重做_&#x200B;圖示以重新套用變更。
 
-1. 當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >
@@ -286,7 +290,7 @@ ht-degree: 2%
 
 ### 刪除或複製主題
 
-當您找到主題時，請按一下主題卡右下角的&#x200B;_更多功能表_ (**...**)圖示，然後選擇您要採取的動作：
+當您找到主題時，請按一下&#x200B;_更多功能表_ (**...**) 圖示並選擇要採取的動作：
 
 ![編輯佈景主題 — 選取要編輯的自訂佈景主題](./assets/email-theme-edit-more-menu.png){width="220"}
 
@@ -314,7 +318,7 @@ ht-degree: 2%
      >
      >如果您選擇&#x200B;_[!UICONTROL 手動樣式]_&#x200B;模式，您必須重設電子郵件設計以套用主題。
      >
-     >如果您選擇&#x200B;_[!UICONTROL 佈景主題]_&#x200B;模式，只有[同樣以](./fragments.md)佈景主題&#x200B;_模式建立的片段_&#x200B;可新增至電子郵件內容。
+     >如果您選擇&#x200B;_[!UICONTROL 佈景主題]_&#x200B;模式，只有[同樣以&#x200B;_佈景主題_&#x200B;模式建立的片段](./fragments.md)可新增至電子郵件內容。
 
 1. 在電子郵件設計空間中，按一下右側的&#x200B;_主題_ （ ![主題圖示](../assets/do-not-localize/icon-design-themes.svg) ）圖示。
 
