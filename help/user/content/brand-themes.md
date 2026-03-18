@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，可重複使用，品牌一致性，電子郵件設計
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
+source-git-commit: 5e8dc7e2da8f27950e9c05c66943317669a5361b
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 2%
@@ -80,11 +80,11 @@ ht-degree: 2%
 
    當您定義新的主題設定時，畫布上的視覺元素會變更。 如果結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-1. 當您的佈景主題定義完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的佈景主題定義完成時，請按一下[儲存]。****
 
 1. 按一下&#x200B;**[!UICONTROL 關閉]**&#x200B;返回&#x200B;_[!UICONTROL 建立主題]_&#x200B;頁面，然後按&#x200B;**[!UICONTROL 取消]**&#x200B;返回設計頁面。
 
-   然後，您可以選擇&#x200B;**[!UICONTROL 從草稿開始設計]**&#x200B;以開啟視覺化設計空間，並[使用主題](#use-your-theme-for-email-content-authoring)作為電子郵件或範本。
+   然後，您可以選擇&#x200B;**[!UICONTROL 從草稿開始設計]**&#x200B;以開啟視覺化設計空間，並[使用主題](#use-email-theme)作為電子郵件或範本。
 
 ### 一般設定
 
@@ -152,7 +152,7 @@ ht-degree: 2%
 | ---- | -------- | ----------- |
 | [!UICONTROL 全域] | ![選取全域文字設定的資料庫](./assets/email-theme-text-settings-global-library.png){width="300"} | 將&#x200B;**[!UICONTROL 字型庫]**&#x200B;設定為&#x200B;_[!UICONTROL 標準]_&#x200B;或&#x200B;_[!UICONTROL Google字型]_。 然後，選擇您要使用的字型系列。 除非您為標題層級和段落型別設定不同的文字樣式，否則會套用這些全域文字設定。 |
 | [!UICONTROL 標題] | ![H1](./assets/email-theme-text-settings-headings.png){width="300"}的標題文字樣式 | 針對您要設定的標題層級，選取&#x200B;**[!UICONTROL H1]**、**[!UICONTROL H2]**&#x200B;等。 將&#x200B;**[!UICONTROL 字型庫]**&#x200B;設定為&#x200B;_[!UICONTROL 標準]_&#x200B;或&#x200B;_[!UICONTROL Google字型]_。 然後，選擇字型系列、大小和樣式。 選擇&#x200B;**[!UICONTROL 文字對齊]**： _靠左_、_置中_、_靠右_&#x200B;或&#x200B;_對齊_。 |
-| [!UICONTROL 段落] | ![型別P1](./assets/email-theme-text-settings-headings.png){width="300"}的段落文字樣式 | 對於您要設定的標題層級，請選取&#x200B;**[!UICONTROL P1]**、**[!UICONTROL HP]**&#x200B;等。 將&#x200B;**[!UICONTROL 字型庫]**&#x200B;設定為&#x200B;_[!UICONTROL 標準]_&#x200B;或&#x200B;_[!UICONTROL Google字型]_。 然後，選擇字型系列、大小和樣式。 視需要調整&#x200B;**[!UICONTROL 行高]**。 選擇&#x200B;**[!UICONTROL 文字對齊]**： _靠左_、_置中_、_靠右_&#x200B;或&#x200B;_對齊_。 |
+| [!UICONTROL 段落] | ![型別P1](./assets/email-theme-text-settings-paragraphs.png){width="300"}的段落文字樣式 | 針對您要設定的段落型別，選取&#x200B;**[!UICONTROL P1]**、**[!UICONTROL P2]**&#x200B;等。 將&#x200B;**[!UICONTROL 字型庫]**&#x200B;設定為&#x200B;_[!UICONTROL 標準]_&#x200B;或&#x200B;_[!UICONTROL Google字型]_。 然後，選擇字型系列、大小和樣式。 視需要調整&#x200B;**[!UICONTROL 行高]**。 選擇&#x200B;**[!UICONTROL 文字對齊]**： _靠左_、_置中_、_靠右_&#x200B;或&#x200B;_對齊_。 |
 
 +++
 
@@ -166,8 +166,8 @@ ht-degree: 2%
 
 | 類型 | 設定 | 說明 |
 | ---- | -------- | ----------- |
-| [!UICONTROL 邊界] | ![邊界設定](./assets/email-theme-spacing-settings-margins.png){width="300"} | 選擇&#x200B;_邊界_&#x200B;圖示以顯示複製CSS `margin`引數的設定，該引數可控制元件邊界外的空間，並將其與其他元件/元素分開。 它會在元件周圍建立間隙，以影響其定位和周圍內容的版面。 根據您的設計需求設定邊界值（畫素）。 您可以單獨設定元件所有側、上邊框、左右邊或每一側的邊界。 按一下「_鎖定_」和「_解除鎖定_」圖示以同步或取消同步上下及左右邊界值。 |
-| [!UICONTROL 內邊距] | ![內距設定](./assets/email-theme-spacing-settings-paddings.png){width="300"} | 選擇&#x200B;_內距_&#x200B;圖示以顯示復寫CSS `padding`引數的設定，此引數是元件/元素的內容與其邊框之間的空間。 內距提供內部間距，可用來控制內容與元件邊框之間的距離。 根據您的設計需求，設定以畫素為單位的填補值。 您可以單獨設定元件所有側、上邊框、左右邊或每一側的邊框間距。 按一下「_鎖定_」和「_解除鎖定_」圖示以同步或取消同步上下和左右邊框間距值。 |
+| [!UICONTROL 邊界] | ![邊界設定](./assets/email-theme-spacing-settings-margins.png){width="300"} | 選擇&#x200B;_邊界_&#x200B;圖示以顯示複製CSS `margin`引數的設定，該引數可控制元件邊界外的空間，並將其與其他元件/元素分開。 它會在元件周圍建立間隙，以影響其定位和周圍內容的版面。 根據您的設計需求設定邊界值（畫素）。 您可以單獨設定元件所有側、上下側、左右側或每一側的邊界。 按一下「_鎖定_」和「_解除鎖定_」圖示以同步或取消同步上下及左右邊界值。 |
+| [!UICONTROL 內邊距] | ![內距設定](./assets/email-theme-spacing-settings-paddings.png){width="300"} | 選擇&#x200B;_內距_&#x200B;圖示以顯示復寫CSS `padding`引數的設定，此引數是元件/元素的內容與其邊框之間的空間。 內距提供內部間距，可用來控制內容與元件邊框之間的距離。 根據您的設計需求，設定以畫素為單位的填補值。 您可以單獨設定元件所有側、上下側、左右側或每一側的邊距。 按一下「_鎖定_」和「_解除鎖定_」圖示以同步或取消同步上下和左右邊框間距值。 |
 | [!UICONTROL 角] | ![邊角設定](./assets/email-theme-spacing-settings-corners.png){width="300"} | 選擇&#x200B;_轉角_&#x200B;圖示以顯示復寫CSS `border-radius`引數的設定，此引數定義元件/元素轉角的半徑。 根據您想要的轉角曲線設定數值。 值為0 （預設）會產生方形轉角。 |
 
 +++
@@ -248,7 +248,7 @@ ht-degree: 2%
 
 顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >
@@ -282,7 +282,7 @@ ht-degree: 2%
 
    顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右邊欄底部的&#x200B;_還原_&#x200B;圖示。 按一下&#x200B;_重做_&#x200B;圖示以重新套用變更。
 
-1. 當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >
