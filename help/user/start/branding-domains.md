@@ -60,7 +60,7 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
 
    ![編輯品牌領域對話方塊](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
-1. 如果您為Marketo Engage執行個體定義了多個工作區，請按一下[下一步] ****。
+1. 如果您為Marketo Engage執行個體定義了多個工作區，請按一下[下一步] **&#x200B;**。
 
    選取您想要套用更新主網域的每個工作區。
 
@@ -94,7 +94,7 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
    >
    >**_自訂SSL_**：如果您需要自訂SSL，可以提交[支援票證](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}。 請勿在建立SSL時使用核取方塊。
 
-1. 如果您為Marketo Engage執行個體定義了多個工作區，請按一下[下一步] ****。
+1. 如果您為Marketo Engage執行個體定義了多個工作區，請按一下[下一步] **&#x200B;**。
 
    如有需要，請選取您要將新領域套用為主要領域的每個工作區。
 

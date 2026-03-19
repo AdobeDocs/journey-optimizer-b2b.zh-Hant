@@ -117,7 +117,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 1. 根據您想要為限制定義時間週期的方式，選擇&#x200B;**[!UICONTROL 重設上限頻率]**&#x200B;值。
 
-   您可以選擇每小時&#x200B;_[!UICONTROL 、_[!UICONTROL &#x200B;每日&#x200B;]_、_[!UICONTROL &#x200B;每週&#x200B;]_或_[!UICONTROL &#x200B;每月&#x200B;]_。]_
+   您可以選擇每小時&#x200B;_[!UICONTROL 、_[!UICONTROL &#x200B;每日&#x200B;]_、_[!UICONTROL &#x200B;每週&#x200B;]_&#x200B;或_[!UICONTROL &#x200B;每月&#x200B;]_。]_
 
    ![存取通訊限制設定](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
 
