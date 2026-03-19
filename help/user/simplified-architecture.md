@@ -3,278 +3,355 @@ title: 簡化的架構設定
 description: 在簡化的架構上設定Journey Optimizer B2B edition。 設定XDM結構描述、電子郵件/簡訊頻道、Marketo Engage歷程動作和使用者。
 feature: Setup, Administration
 role: Admin, Data Engineer
-hide: true
-hidefromtoc: true
-source-git-commit: 8f2cd2a657892b0f776b51776d3056946930df21
+exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
+source-git-commit: 38d1794ed30a34dbb34dfaec2d3088bc3a4680ac
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 6%
+source-wordcount: '884'
+ht-degree: 17%
 
 ---
 
 # 簡化的架構設定
 
-現在可透過簡化的架構使用 Adobe Journey Optimizer B2B Edition。透過此新版架構，Journey Optimizer B2B Edition 和 Marketo Engage 不再位於相同的系統和相同的資料存放庫。Journey Optimizer B2B Edition 只會接收來自 Adobe Experience Platform 的資料。但是仍要仰賴 Marketo Engage 的權限和部分設定功能來進行系統佈建和設定。
+現在可透過簡化的架構使用 Adobe Journey Optimizer B2B Edition。 透過此架構，Journey Optimizer B2B edition和Marketo Engage不再是位於相同系統和相同資料存放區。 Journey Optimizer B2B Edition 只會接收來自 Adobe Experience Platform 的資料。 但是，它繼續仰賴Marketo Engage許可權和部分後端功能（例如電子郵件傳送）來布建和設定系統。
 
-簡化的架構是解鎖Adobe Journey Optimizer B2B edition新功能的基礎：
+簡化的架構是解鎖Journey Optimizer B2B edition新功能的基礎：
 
-* **輕鬆統一並擴充您的資料：**&#x200B;新平台支援複雜的資料模型，包括自訂物件、購買群組和帳戶事件。 
+* **輕鬆統一並擴充您的資料：**&#x200B;新平台支援複雜的資料模型，包括自訂物件、購買群組和帳戶事件。
 
-* **連線多個Adobe Marketo Engage執行個體：**&#x200B;在一個位置管理並統一來自多個Adobe Marketo Engage環境的資料。
+* **連線多個Adobe Marketo Engage執行個體：**&#x200B;在一個位置管理並統一來自多個Marketo Engage環境的資料。
 
 * **保護您的資料安全：**&#x200B;進階的隱私和安全性功能，可協助保護您的客戶資訊。 （_即將推出_）
 
-* **為未來打造：**&#x200B;此升級可讓您持續改進與創新。 
+* **為未來打造：**&#x200B;此升級可讓您持續改進與創新。
 
 針對針對此架構布建的環境，請使用下列設定准則。
 
-## 名稱空間和結構描述
-
-請參閱Experience Platform檔案中的[B2B名稱空間和結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)以取得概覽。
-
-### 環境設定
-
-設定Postman環境以支援B2B名稱空間和結構描述自動產生公用程式。
-
-* 您可以從[GitHub存放庫](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility)下載名稱空間和結構描述自動產生公用程式集合和環境。
-
-* 如需有關使用Experience Platform API的資訊，包括如何收集必要標題的值以及讀取範例API呼叫的詳細資訊，請參閱[Experience Platform API快速入門](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-guide)指南。
-
-* 如需如何產生Experience Platform API認證的相關資訊，請參閱有關[驗證及存取Experience Platform API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-authentication)的教學課程。
-
-* 如需有關為Experience Platform API設定Postman的資訊，請參閱Adobe Experience Platform中[Postman](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/postman)的詳細步驟。
-
-設定Experience Platform開發人員控制檯和Postman後，您現在可以開始將適當的環境值套用至您的Postman環境。
-
-### 執行指令碼
-
-透過您的Postman集合和環境設定，您可以透過Postman介面執行指令碼。
-
-在Postman介面中，選取自動產生器公用程式的根資料夾，然後從頂端標題選取&#x200B;**執行**。
-
-顯示Runner介面時，請確定已選取所有核取方塊，然後選取&#x200B;**執行名稱空間和結構描述自動產生公用程式**。
-
-成功的請求會建立B2B所需的名稱空間和結構描述。
-
-## XDM欄位選擇
-
-您可以在Journey Optimizer B2B edition UI中管理整個應用程式內可用的XDM欄位。 這些欄位僅會顯示與建立&#x200B;**_歷程_**、**_購買群組_**&#x200B;或&#x200B;**_電子郵件個人化_**&#x200B;相關的欄位，有助於簡化您的執行個體。
-
-### XDM類別
-
-#### 標準類別
-
-使用下列步驟來定義標準XDM類別的欄位：
-
-1. 瀏覽至&#x200B;**[!UICONTROL 管理] > [!UICONTROL 組態]**。
-
-1. 在導覽面板中，選取&#x200B;**[!UICONTROL XDM類別]**。
-
-1. 選取&#x200B;**[!UICONTROL 標準]**&#x200B;標籤以檢視可用的XDM類別：
-
-   * XDM 個人輪廓
-
-   * XDM商業帳戶
-
-#### 受管理的欄位
-
-定義在整個應用程式中可用的欄位。
-
-1. 按一下&#x200B;_更多功能表_ (**...**)圖示並選取&#x200B;**[!UICONTROL 編輯受管理的欄位]**。
-
-1. 檢閱可用欄位清單（按一下欄位中繼資料的&#x200B;_資訊_&#x200B;圖示）。
-
-1. 選取您要包含的欄位，並清除不需要的欄位選擇。
-
-1. 使用&#x200B;**[!UICONTROL 僅顯示選取的欄位]**&#x200B;滑桿來檢閱您的選取。
-
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
-
-#### 可更新欄位
-
-選擇可以透過&#x200B;**[!UICONTROL 更新帳戶設定檔]**&#x200B;或&#x200B;**[!UICONTROL 更新個人設定檔]**&#x200B;歷程動作修改的欄位。
-
-1. 按一下&#x200B;_更多功能表_ (**...**)圖示並選取&#x200B;**[!UICONTROL 編輯可更新欄位]**。
-
-1. 選取&#x200B;**[!UICONTROL 結構描述]**，然後選取&#x200B;**[!UICONTROL 資料集]**。
-
-   這些結構描述和資料集由您的組織提供。
-
-   可更新欄位的護欄：
-
-   * 結構描述 — 結構描述不得在XDM個別設定檔類別上包含系統定義欄位以外的任何必要欄位，例如`identityMap`或`personID`。
-   * 資料集 — 請勿選取已用於其他目的的資料集。 最佳實務是建立專屬的資料集，以專門儲存可更新欄位。 為每個XDM類別使用個別的資料集。
-
-1. 檢閱可更新欄位清單（按一下中繼資料的&#x200B;_資訊_&#x200B;圖示）。
-
-   只能編輯受管理的欄位。
-
-1. 選取您想讓歷程更新的欄位。
-
-1. 按一下&#x200B;**[!UICONTROL 儲存]**
-
-### 關聯式結構描述
-
-選取[關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)以用於&#x200B;**_歷程決策_**&#x200B;和&#x200B;**_個人化_**。 目前，這些結構描述適用於自訂物件使用案例。 在未來，關聯式結構描述也可用於其他物件使用案例。
-
-1. 選取&#x200B;**[!UICONTROL 關聯式]**&#x200B;標籤。
-
-1. 按一下&#x200B;**[!UICONTROL 選取關聯式XDM類別]**。
-
-   目前僅支援帳戶多對一自訂物件。
-
-1. 檢閱結構描述欄位清單（按一下&#x200B;_資訊_&#x200B;圖示以檢視中繼資料）。
-
-1. 選取您要包含的欄位。
-
-1. 使用&#x200B;**[!UICONTROL 僅顯示選取的欄位]**&#x200B;滑桿來檢閱您的選取。
-
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
-
->[!NOTE]
->
->請注意，關聯式結構描述必須具備下列設定：
->
-><li>行為：記錄
->&gt; <li>區段：已啟用
->&gt; <li>關係型別：多對一
->&gt; <li>參考結構描述： <a href="https://experienceleague.adobe.com/zh-hant/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B帳戶 — XDM商業帳戶結構描述</a>
->&gt; <li>必填欄位：主索引鍵、外部索引鍵和版本描述項
->&gt; <li>關聯的資料集：已定義並對應到結構描述
-
-### 事件
-
-選取要在&#x200B;**_歷程決策_**&#x200B;中使用的體驗事件。
-
-1. 選取&#x200B;**[!UICONTROL 事件]**&#x200B;標籤。
-
-1. 按一下&#x200B;**[!UICONTROL 選取體驗事件]**。
-
-1. 按一下&#x200B;**[!UICONTROL 選取事件型別]**、選取事件型別、按一下&#x200B;**[!UICONTROL 選取]**。
-
-1. 按一下&#x200B;**[!UICONTROL 選取欄位]**，選擇您需要的欄位，按一下&#x200B;**[!UICONTROL 選取]**。
-
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
-
-## 電子郵件設定
-
-應將以下專案設定為從Journey Optimizer B2B edition傳送電子郵件。  
-
-[https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols)
-
-### 追蹤和電子郵件傳送的協定
-
-1. [建立電子郵件的DNS記錄](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
-
-1. [設定SPF和DKIM](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
-
-1. [設定DMARC](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
-
-1. [為您的網域設定MX記錄](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
-
-1. [將輸出IP位址新增至允許清單](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
-
-1. 如果您需要共用專用的IP集區，請聯絡傳遞團隊以瞭解可行性和協助設定。
-
-### 電子郵件通道設定
-
-在簡化的架構中，電子郵件設定是從Marketo Engage應用程式中設定。 完成電子郵件相關設定步驟：
-
-* [https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps)
-
-* [https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
-
-### 通訊限制
-
-1. 在左側導覽列中，選擇&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**。
-
-1. 在導覽面板中，選取&#x200B;**[!UICONTROL 通訊限制]**。
-
-1. 建立全域通訊限制規則集(預設會在每個Journey Optimizer B2B edition執行個體中建立此規則集)。
-
-   如果未建立全域規則集，則沒有通訊限制。
-
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
-
-### 共用通訊限制
-
-在新架構中，Journey Optimizer B2B edition和Marketo Engage預設會有獨立的通訊限制。
-
-如果您希望Marketo Engage執行個體共用在Journey Optimizer B2B edition執行個體中設定的通訊限制，請聯絡Adobe支援以取得設定協助或開啟支援票證。 工程團隊可應要求啟用Journey Optimizer B2B edition與一或多個Marketo Engage執行個體之間的通訊限制共用。
-
-啟用共用通訊限制後，您可以在Journey Optimizer B2B edition中定義規則，並將這些限制的共用延伸至Marketo Munchkin程式碼。 如需詳細資訊，請參閱[通訊限制](./admin/configure-channels-emails.md#communication-limits)
-
-<!-- internal info only 
-
-Currently, the shared communication limit in the Marketo Engage instance must be set up through an API call.
-
-For example, when:
-
-* The munchkinId of the Journey Optimizer B2B Edition instance is `JKL-567-MNO`.
-* The munchkinId of the Marketo Engage instance is `ABC-123-DEF` and it is in the SJ datacenter
-
-The API request should look similar to the following:
-
-```
-curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_munchkinId=ABC-123-DEF&featureName=Mktmail%20Config&paramName=ajoB2bMappingMunchkinId&dataType=string&value=JKL-567-MNO'
-```
+使用此檢查清單，在簡化的架構上完成Journey Optimizer B2B edition設定。
+
+## &#x200B;1. 產生B2B名稱空間和結構描述
+
+<table>
+<thead>
+<tr>
+<th colspan="2">任務</th>
+<th>詳細資訊和指示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>環境設定：</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>從GitHub下載名稱空間和結構描述自動產生公用程式。</td>
+<td><a href="./data/namespaces-schemas.md#set-up-the-auto-generation-utility">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>收集Experience Platform API憑證和必要的標頭。</td>
+<td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-guide">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>套用環境值至您的Postman環境。</td>
+<td><a href="./data/namespaces-schemas.md#environment-values">了解更多</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong>執行指令碼：</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>在Postman中執行<em>名稱空間和結構描述</em>產生公用程式，並確認已建立名稱空間和結構描述。</td>
+<td><a href="./data/namespaces-schemas.md#run-the-scripts">了解更多</a></td>
+</tr>
+</tbody>
+</table>
+
+## &#x200B;2. 設定XDM欄位和事件
+
+<table>
+<thead>
+<tr>
+<th colspan="2">任務</th>
+<th>詳細資訊和指示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>標準XDM類別</strong>：設定XDM個人設定檔和XDM商業帳戶類別。</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>選取要公開供歷程、購買群組和電子郵件個人化的受管理欄位。</td>
+<td><a href="./admin/xdm-field-management.md#standard-classes">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>編輯結構描述的可更新欄位。</td>
+<td><a href="./admin/xdm-field-management.md#updatable-fields">了解更多</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong>關聯式結構描述</strong>：選取關聯式XDM類別（帳戶多對一自訂物件）。</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>請確定結構描述具有所需的設定值。</td>
+<td><a href="./admin/xdm-field-management.md#relational-schemas">了解更多</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong>事件</strong>：設定Experience Platform事件型別和欄位。</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>使用要在歷程決策/分割路徑中支援的欄位來設定每個Experience Platform事件型別。</td>
+<td><a href="./admin/configure-aep-events.md">了解更多</a></td>
+</tr>
+</tbody>
+</table>
+
+## &#x200B;3. 設定追蹤和電子郵件傳遞能力
+
+若要在簡化的架構上從[!DNL Journey Optimizer B2B Edition]傳送電子郵件，請在附加的[!DNL Marketo Engage]生產執行個體和[!DNL Journey Optimizer B2B Edition]應用程式中設定電子郵件追蹤與傳遞能力。
+
+<table>
+<thead>
+<tr>
+<th colspan="2">任務</th>
+<th>詳細資訊和指示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">附加的Marketo Engage執行個體的<strong>初始設定</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定新的CNAME以追蹤DNS記錄中的連結</td>
+<td><a href="./start/email-protocols.md#create-dns-records-for-landing-pages-and-email">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>為附加的Marketo Engage執行個體設定品牌化網域</td>
+<td><a href="./start/branding-domains.md">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>將DKIM和SPF設定到附加的Marketo Engage執行個體</td>
+<td><a href="./start/email-protocols.md#set-up-spf-and-dkim">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定 DMARC</td>
+<td><a href="./start/email-protocols.md#set-up-dmarc">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定您的網域的 MX 記錄</td>
+<td><a href="./start/email-protocols.md#set-up-mx-records-for-your-domain">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>將輸出IP位址新增至允許清單</td>
+<td><a href="./start/email-protocols.md#outbound-ip-addresses">了解更多</a></td>
+</tr>
+<tr>
+<td colspan="2">附件之Marketo Engage執行個體的<strong>電子郵件設定</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定<em>從電子郵件</em>和<em>從標籤</em> （選擇性）</td>
+<td><a href="./start/email-setup.md#from-email-and-label">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定<em>取消訂閱HTML</em>和<em>取消訂閱文字</em></td>
+<td><a href="./start/email-setup.md#unsubscribe-messaging">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定<em>以網頁檢視HTML</em>和<em>以網頁文字檢視</em></td>
+<td><a href="./start/email-setup.md#view-as-web-page">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定<em>自訂物件擷取限制</em></td>
+<td><a href="./start/email-setup.md#custom-object-retrieval-limits">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定<em>自訂標頭選項</em></td>
+<td><a href="./start/email-setup.md#custom-header-options">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定<em>機器人活動</em>篩選</td>
+<td><a href="./start/email-setup.md#filter-email-bots">了解更多</a></td>
+</tr>
+<tr>
+<td colspan="2">Journey Optimizer B2B edition的<strong>電子郵件通道設定</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>在Journey Optimizer B2B edition中設定<em>通訊限制</em></td>
+<td><a href="./admin/configure-channels-emails.md#communication-limits">了解更多</a></td>
+</tr>
+</tbody>
+</table>
+
+<!-- TBD for later 
+
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Configure <em>Email CC Settings</em></td>
+<td>[Learn more](TBD)</td>
+</tr>
+
+<tr>
+<td colspan="2"><strong>Additional configurations</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Configure <em>Location Settings</em> for the attached Marketo Engage instance</td>
+<td>< [Learn more](TBD)</td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Define and configure which Binding Groups / IPs to move over</td>
+<td>[Learn more](TBD)</td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Test Email Send</td>
+<td>[Learn more](TBD)</td>
+</tr>
 -->
 
-## 簡訊頻道設定
+## &#x200B;4. 設定其他內容頻道
 
-如需詳細資訊，請參閱&#x200B;[_簡訊設定_](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms)。
+若要支援行銷人員將其他管道納入其歷程，請設定其他管道。
 
-## 歷程中的Marketo Engage動作
+<table>
+<thead>
+<tr>
+<th colspan="2">任務</th>
+<th>詳細資訊和指示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">Journey Optimizer B2B edition的<strong>簡訊</strong>頻道設定。</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定您要支援的每個SMS帳戶。</td>
+<td><a href="./admin/configure-channels-sms.md">了解更多</a></td>
+</tr>
+<tr>
+<td colspan="2">Journey Optimizer B2B edition的<strong>登陸頁面</strong> (Beta)管道設定。</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>完成登入頁面設定，以支援製作及發佈這些頁面的行銷人員</td>
+<td><a href="./admin/landing-page-settings.md">了解更多</a></td>
+</tr>
+<tr>
+<td colspan="2">適用於Journey Optimizer B2B edition的<strong>Web</strong> (Beta)管道設定</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定您的企業網站以支援Adobe Experience Platform Web SDK。</td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>依照傳送內容的URL新增Web屬性。</td>
+<td><a href="./admin/configure-channels-web.md">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>指示網頁體驗作者安裝Adobe Experience Cloud Visual Editing Helper瀏覽器擴充功能。</td>
+<td><a href="./content/web-experiences.md#install-the-visual-editing-helper-extension">了解更多</a></td>
+</tr>
+</tbody>
+</table>
 
-您可以設定一或多個遠端&#x200B;**_Marketo Engage_**&#x200B;執行個體，以搭配下列歷程動作使用：
+## &#x200B;5. 連線Marketo Engage執行個體以支援歷程動作（選用）
 
-* 新增至Marketo清單
-* 從Marketo清單移除
-* 新增至Marketo請求行銷活動
+如果您打算透過Marketo Engage中的行銷活動和方案補充Journey Optimizer B2B edition功能，請設定Marketo Engage動作支援。 這些動作可讓您的行銷團隊在Journey Optimizer B2B edition中協調其&#x200B;_以帳戶為基礎的_&#x200B;行銷，並在Marketo Engage中協調&#x200B;_以銷售機會為基礎的_&#x200B;行銷工作。
 
-完成下列步驟來設定這些連線：
+<table>
+<thead>
+<tr>
+<th colspan="2">任務</th>
+<th>詳細資訊和指示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">針對每個Marketo Engage執行個體<strong>支援歷程動作</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>建立Marketo Engage自訂服務</td>
+<td><a href="./admin/marketo-actions-connect.md#create-the-marketo-engage-custom-service">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>在Journey Optimizer B2B edition中新增整合</td>
+<td><a href="./admin/marketo-actions-connect.md#add-the-integration">了解更多</a></td>
+</tr>
+</tbody>
+</table>
 
-1. 瀏覽至&#x200B;**[!UICONTROL 管理] > [!UICONTROL 組態]**。
+## &#x200B;6. 啟用使用者存取
 
-1. 在導覽面板中，選取&#x200B;**[!UICONTROL XDM類別]**。
+布建完成後，沙箱已繫結且初始設定任務已完成，請為團隊和使用者設定Journey Optimizer B2B edition和Marketo Engage存取權。
 
-1. 選取&#x200B;**[!UICONTROL 整合]**&#x200B;索引標籤。
-
-1. 按一下&#x200B;**[!UICONTROL 建立連線]**。
-
-1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
-
-1. 選取&#x200B;**[!UICONTROL 更新原則]**&#x200B;以取得相符的人員記錄。
-
-1. 輸入&#x200B;**[!UICONTROL Munchkin ID]**、**[!UICONTROL 使用者端識別碼]**、**[!UICONTROL 使用者端密碼]**，然後按一下&#x200B;**[!UICONTROL 連線至Marketo]**。
-
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
-
-## 使用者上線
-
-如需概觀，請參閱[使用者管理](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/user-management)頁面。
-
-### 現有使用者群組
-
-如果所有現有Journey Optimizer B2B edition使用者都需要存取新架構，請使用現有Journey Optimizer B2B edition使用者群組。 系統管理員或產品管理員可以執行下列步驟。
-
-1. 在專用的Marketo Engage中建立產品設定檔。
-
-1. 將現有的使用者群組新增到已建立的產品設定檔。
-
-設定檔會授與已指派給該使用者群組的所有角色和許可權，且使用者應已設定這些角色和許可權，以存取Journey Optimizer B2B edition。 如果只有部分使用者應存取新架構，請完成以下概述的步驟。 在[目前檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/user-management)中取得更多詳細資料。
-
-### 建立新的使用者群組
-
-1. 在專用的Marketo Engage執行個體中建立產品設定檔。
-1. 為新使用者建立使用者群組。
-1. 選擇並將所需的產品設定檔指派給使用者群組：
-
-   * 您建立的Marketo Engage設定檔
-   * Adobe Experience Platform設定檔
-      * AEP-Default-All-Users
-      * Adobe Experience Platform 資料彙集
-      * 資料收集所有存取權
-
-1. 將使用者新增至使用者群組。
-1. 在Experience Platform中新增使用者群組至Journey Optimizer B2B edition角色。
+<table>
+<thead>
+<tr>
+<th colspan="2">任務</th>
+<th>詳細資訊和指示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>為使用者提供產品存取和許可權</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>在Adobe Admin Console中建立Marketo Engage產品設定檔（僅限新的Marketo Engage執行個體）</td>
+<td><a href="./admin/user-management.md#create-the-marketo-engage-product-profile">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>為設定檔新增使用者群組</td>
+<td><a href="./admin/user-management.md#add-a-user-group-for-the-profile">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定B2B使用者角色</td>
+<td><a href="./admin/user-management.md#b2b-built-in-roles">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>將使用者或群組新增至角色</td>
+<td><a href="./admin/user-management.md#add-users-to-a-role">了解更多</a></td>
+</tr>
+</tbody>
+</table>

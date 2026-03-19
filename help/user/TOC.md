@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 2e63606151c41a4fcdb632c367e3f41ca04c6ecb
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 76%
+source-wordcount: '423'
+ht-degree: 74%
 
 ---
 
@@ -15,9 +15,18 @@ ht-degree: 76%
 + [發行說明](./release-notes/release-notes.md)
 + 開始使用 {#get-started}
    + [Journey Optimizer B2B Edition 概觀](about-journey-optimizer-b2b-edition.md)
+   + 簡化的架構 {#simplified-architecture}
+      + [設定檢查清單](./simplified-architecture.md)
+      + [名稱空間和結構描述](./data/namespaces-schemas.md)
+      + [XDM欄位選擇](./admin/xdm-field-management.md)
+      + [體驗事件和欄位](./admin/configure-aep-events.md)
+      + [品牌化網域](./start/branding-domains.md)
+      + [電子郵件追蹤和傳遞](./start/email-protocols.md)
+      + [電子郵件設定](./start/email-setup.md)
+      + [Marketo Engage歷程動作](./admin/marketo-actions-connect.md)
+      + [使用者管理](./admin/user-management.md)
+   + [使用者入門指南](./start/get-started.md)
    + [登入和首頁](home-page.md)
-   + [上線指引](./start/get-started.md)
-   + [追蹤和電子郵件協定](./start/email-protocols.md)
 + AI 助理 {#ai-assistant}
    + [概觀](./ai-assistant/ai-assistant-overview.md)
    + [啟用 AI 助理存取權](./ai-assistant/enable-ai-assistant-access.md)
@@ -61,6 +70,7 @@ ht-degree: 76%
    + [Experience Platform對象](./audiences/account-audience-overview.md)
    + [鎖定外部對象](./audiences/target-external-audience.md)
    + [LinkedIn帳戶比對的對象](./data/linkedin-account-matched-audiences.md)
+   + [預設XDM欄位](./admin/field-mapping.md)
 + 帳戶 {#accounts}
    + 購買群組 {#buying-groups}
       + [概觀](./buying-groups/buying-groups-overview.md)
@@ -140,13 +150,7 @@ ht-degree: 76%
    + [帳戶歷程儀表板](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [治理](./admin/governance.md)
-   + [Marketo動作設定](./admin/marketo-actions-connect.md)
    + [人物誌對應](./admin/persona-mapping.md)
-   + [使用者管理](./admin/user-management.md)
-   + xdm欄位管理 {#xdm-field-management}
-      + [XDM類別](admin/xdm-field-management.md)
-      + [體驗事件和欄位](./admin/configure-aep-events.md)
-      + [預設XDM欄位](./admin/field-mapping.md)
    + 管道 {#channels}
       + [電子郵件組態](./admin/configure-channels-emails.md)
       + [簡訊設定](./admin/configure-channels-sms.md)
@@ -157,4 +161,3 @@ ht-degree: 76%
       + [AEM Assets 存放庫](./admin/configure-aem-repositories.md)
       + [意圖資料](./admin/intent-data.md)
       + [參與度分數加權](./admin/engagement-score-weighting.md)
-   + [簡化的架構設定](simplified-architecture.md)

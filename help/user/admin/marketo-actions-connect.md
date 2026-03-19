@@ -1,21 +1,25 @@
 ---
 title: 啟動Marketo Engage以支援歷程動作
 description: 啟用Marketo Engage連線以支援歷程動作，讓行銷人員能夠協調Marketo Engage與Journey Optimizer B2B edition之間的行銷活動。
-feature: Integrations, Audiences, Buying Groups
-role: User, Admin
+feature: Setup, Integrations
+role: Admin
 exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
-source-git-commit: cd11d96c80a8015fedd82d2c4db12e559da37f2c
+source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '522'
 ht-degree: 6%
 
 ---
 
-# 啟動Marketo Engage執行個體以支援動作
+# 啟用Marketo Engage連線以支援動作
 
 Marketo Engage動作是&#x200B;_以人物為基礎的_&#x200B;動作，可讓您在Journey Optimizer B2B edition與Marketo Engage中的&#x200B;_潛在客戶為基礎的_&#x200B;行銷工作之間，協調您的&#x200B;_以帳戶為基礎的_&#x200B;行銷協調。 使用這些動作來編排靜態清單成員資格，並將人員放入行銷活動。
 
-若要使用Marketo Engage歷程動作，管理員必須先在Marketo Engage中建立[自訂服務](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}，此服務提供驗證所需的認證。 接著，Journey Optimizer B2B edition的產品管理員會使用這些憑證來建立與Marketo Engage的連線。 接著Journey Optimizer B2B edition使用者可以參考連線，在<!-- person and -->帳戶歷程中設定Marketo Engage動作，例如從Marketo Engage清單新增或移除人員，或將他們新增至請求行銷活動。
+若要使用Marketo Engage歷程動作，管理員必須先在Marketo Engage中建立[自訂服務](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}，此服務提供驗證所需的認證。 接著，Journey Optimizer B2B edition的產品管理員會使用這些憑證來建立與Marketo Engage的連線。 接著Journey Optimizer B2B edition使用者可以參考連線，在<!-- person and -->帳戶歷程中設定Marketo Engage動作：
+
+* [!UICONTROL 新增至Marketo清單]
+* [!UICONTROL 從Marketo清單移除]
+* [!UICONTROL 新增至Marketo要求行銷活動]
 
 ## 設定 Marketo Engage 連線 {#external-marketo-configure}
 
@@ -28,14 +32,14 @@ Marketo Engage動作是&#x200B;_以人物為基礎的_&#x200B;動作，可讓您
 
 ### 建立Marketo Engage自訂服務
 
-1. 以系統管理員身分登入Marketo Engage，並[建立自訂服務](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}。
+1. 以系統管理員身分登入Marketo Engage，並[建立自訂服務](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}。
 1. 複製下列值以用於Journey Optimizer B2B edition連線：
 
    * Munchkin ID
    * 用戶端 ID
    * 使用者端密碼
 
-資產（例如清單和行銷活動）的Marketo Engage工作區可見度是由自訂服務中指派的[角色許可權](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}所管理。 行銷人員可以在一個歷程中多次使用相同的連線，並在同一歷程中使用不同的Marketo Engage連線。
+資產（例如清單和行銷活動）的Marketo Engage工作區可見度是由自訂服務中指派的[角色許可權](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}所管理。 行銷人員可以在一個歷程中多次使用相同的連線，並在同一歷程中使用不同的Marketo Engage連線。
 
 ### 新增整合
 
