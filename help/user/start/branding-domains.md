@@ -30,7 +30,7 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
 
 >[!PREREQUISITES]
 >
->在UI中編輯或新增網域之前，您必須將[對應的CNAME對應至Adobe提供的Marketo Engage網域](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}。
+>在UI中編輯或新增網域之前，您必須將[對應的CNAME對應至Adobe提供的Marketo Engage網域](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}。
 >
 >新增網域時，系統會檢查預先存在的SSL，這些SSL可能在之前已手動建立。 如果您遇到此驗證，請在不選取SSL建立的情況下建立您的網域，然後將它們連線為單獨的程式。
 
