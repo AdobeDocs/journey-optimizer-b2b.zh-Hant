@@ -49,7 +49,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 ## 一般准則和限制 {#general-guidelines-and-limitations}
 
-您對generative AI功能的使用須遵守[Adobe Experience Cloud Generative AI使用指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 由於Adobe承諾在使用創作AI工具建立媒體時保持透明度，因此Adobe會在下載或匯出內容或專案時，針對包含[!DNL Firefly]產生的資產的任何內容或專案套用[內容認證](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}。
+您對generative AI功能的使用須遵守[Adobe Experience Cloud Generative AI使用指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 由於Adobe承諾在使用創作AI工具建立媒體時保持透明度，因此Adobe會在下載或匯出內容或專案時，針對包含[!DNL Firefly]產生的資產的任何內容或專案套用[內容認證](https://helpx.adobe.com/tw/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}。
 
 檢閱針對[!DNL Journey Optimizer B2B Edition]中的內容使用創作AI的一般准則：
 
