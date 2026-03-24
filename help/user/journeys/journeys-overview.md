@@ -4,10 +4,10 @@ description: 透過歷程簡化需求產生 — 在Journey Optimizer B2B edition
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 6511f40329df34db665ed6f971fa20670be0ae32
+source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 44%
+source-wordcount: '1525'
+ht-degree: 43%
 
 ---
 
@@ -70,7 +70,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 在左側導覽列中，展開&#x200B;**[!UICONTROL 歷程管理]**，然後按一下&#x200B;**[!UICONTROL 個人歷程]**。
 
-在清單頂端的&#x200B;_搜尋_&#x200B;工具中輸入文字，依名稱篩選顯示的清單。
+在清單頂端的「_搜尋_」工具中輸入文字，以便依據名稱來篩選顯示的清單。
 
 ![篩選人員歷程清單](./assets/person-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
@@ -99,15 +99,15 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ### 歷程狀態
 
-根據您套用的動作，歷程狀態可能會變更。根據歷程狀態，您可以或無法從標頭右側執行某些動作。
+根據您套用的動作，歷程狀態可能會變更。 根據歷程狀態，您可以或無法從標頭右側執行某些動作。
 
 | 狀態 | 說明 | 可用的動作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 未發佈且可以編輯的歷程。 | <li>[發佈](./create-publish-journey.md#publish-a-journey)<li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
-| _&#x200B;**已上線**&#x200B;_ | 發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | <li>[複製](#duplicate-journey)<li>[對新進客戶關閉](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**對新進客戶關閉**&#x200B;_ | 當您在頂端導覽區域按一下「_對新進客戶關閉_」，此歷程狀態會從「_已上線_」變更為「[!UICONTROL 對新進客戶關閉]」。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。中止的歷程無法重新啟動。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 當歷程中的所有帳戶或個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉的新專案_&#x200B;變更為&#x200B;_已完成_。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**草稿**_ | 未發佈且可以編輯的歷程。 | <li>[發佈](./create-publish-journey.md#publish-a-journey)<li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**已上線**_ | 發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | <li>[複製](#duplicate-journey)<li>[對新進客戶關閉](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**對新進客戶關閉**_ | 當您在頂端導覽區域按一下「_對新進客戶關閉_」，此歷程狀態會從「_已上線_」變更為「[!UICONTROL 對新進客戶關閉]」。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。 中止的歷程無法重新啟動。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**已完成**_ | 當歷程中的所有帳戶或個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉的新專案_&#x200B;變更為&#x200B;_已完成_。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
 
 ## 歷程圖
 
@@ -145,7 +145,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ### 對新進客戶關閉
 
-如果您關閉已上線的歷程，則目前在歷程中的帳戶會繼續在該歷程中的路徑，且不再允許後續客群進入歷程。已關閉的歷程無法重新啟動。您可以重複已關閉的歷程。
+如果您關閉已上線的歷程，則目前在歷程中的帳戶會繼續在該歷程中的路徑，且不再允許後續客群進入歷程。 已關閉的歷程無法重新啟動。 您可以重複已關閉的歷程。
 
 >[!IMPORTANT]
 >
@@ -157,15 +157,15 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 1. 在確認對話框中，按一下「**[!UICONTROL 對新進客戶關閉]**」。
 
-### 複製歷程
+### 複製歷程 {#duplicate-journey}
 
-重複動作類似於原地複製功能，但重複的歷程不會包括任何已建立的歷程內容資產。您可以複製歷程的詳細資料，或只是流程與路徑結構的簡單&#x200B;_骨架_。
+重複動作類似於原地複製功能，但重複的歷程不會包括任何已建立的歷程內容資產。 您可以複製歷程的詳細資料，或只是流程與路徑結構的簡單&#x200B;_骨架_。
 
 >[!NOTE]
 >
 >此動作目前不適用於個人歷程。
 
-1. 按一下歷程名稱旁的&#x200B;_「更多」_&#x200B;圖示 (**...**)，然後選擇「**[!UICONTROL 重複]**」。
+1. 按一下&#x200B;_更多_&#x200B;圖示(**...**) 在歷程名稱旁邊，並選擇&#x200B;**[!UICONTROL 複製]**。
 
    ![按一下 ... 圖示並選擇「重複」](./assets/account-journeys-list-more-menu.png){width="450"}
 
@@ -179,15 +179,15 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 1. 在「_重複歷程_」對話框中，設定新歷程的「**[!UICONTROL 名稱]**」和「**[!UICONTROL 描述]**」。
 
-   預設情況下，對話框會使用重複歷程的名稱，並加上 __copy_。依需要為歷程輸入另一個唯一名稱。
+   預設情況下，對話框會使用重複歷程的名稱，並加上 __ copy_。 依需要為歷程輸入另一個唯一名稱。
 
    ![重複歷程對話框](./assets/account-journey-duplicate-dialog.png){width="400"}
 
 1. 選擇重複的「**[!UICONTROL 類型]**」：
 
-   * **[!UICONTROL 部分內容重複]** - 使用此類型複製歷程中所有內容，但不包括任何已建立的電子郵件或 SMS 訊息。參照 Marketo Engage 電子郵件或 SMS 訊息的節點完好無損。
+   * **[!UICONTROL 部分內容重複]** - 使用此類型複製歷程中所有內容，但不包括任何已建立的電子郵件或 SMS 訊息。 參照 Marketo Engage 電子郵件或 SMS 訊息的節點完好無損。
 
-   * **[!UICONTROL 重複但不包含詳細資訊]** - 使用此類型僅複製節點結構和路徑。所有節點設定和路徑條件均未定義 (預設)，以便您可以根據不同的客群、動作和路徑分段設定來重複使用基本流程。所有&#x200B;_等待_&#x200B;節點的預設值都是五天。
+   * **[!UICONTROL 重複但不包含詳細資訊]** - 使用此類型僅複製節點結構和路徑。 所有節點設定和路徑條件均未定義 (預設)，以便您可以根據不同的客群、動作和路徑分段設定來重複使用基本流程。 所有&#x200B;_等待_&#x200B;節點的預設值都是五天。
 
 1. 按一下「**[!UICONTROL 重複]**」。
 
@@ -195,9 +195,9 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ### 刪除歷程
 
-使用刪除動作永久刪除歷程。您不能刪除已上線或已排程的歷程。
+使用刪除動作永久刪除歷程。 您不能刪除已上線或已排程的歷程。
 
-1. 按一下歷程名稱旁的&#x200B;_「更多」_&#x200B;圖示 (**...**)，然後選擇「**[!UICONTROL 刪除]**」。
+1. 按一下&#x200B;_更多_&#x200B;圖示(**...**) 在歷程名稱旁邊，然後選擇&#x200B;**[!UICONTROL 刪除]**。
 
    根據歷程的狀態，您也可以從歷程詳細資訊或歷程地圖存取刪除動作：
 
@@ -219,4 +219,4 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ## 帳戶歷程概觀影片 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443218/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

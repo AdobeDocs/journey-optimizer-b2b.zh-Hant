@@ -4,9 +4,9 @@ description: 設定帳戶和人員觸發器的事件節點 — 在Journey Optimi
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1844'
 ht-degree: 4%
 
 ---
@@ -66,8 +66,8 @@ ht-degree: 4%
 | | [!UICONTROL 已從購買群組]移除 | 方案興趣<br/>活動日期（選擇性）<br/>逾時（選擇性） |
 | | [!UICONTROL 分數已變更] | 分數名稱<br/><br/>其他限制（選擇性）：<li>變更</li><li>新分數</li><li>急迫性</li><li>優先順序</li><li>相對分數</li><li>相對急迫性</li><li>活動日期</li><li>最低 次數</li><br/>逾時（選擇性） |
 | | [!UICONTROL 簡訊退信] | SMS訊息<br/><br/>其他限制（選擇性）： <li>活動日期</li><li>最小次數</li><br/>逾時（選擇性） |
-| Marketo Engage | [!UICONTROL 瀏覽網頁] | 網頁<br/>選取一或多個要比對的Marketo Engage頁面。 <br/><br/>其他限制（選擇性）： <li>Querystring</li><li>使用者端IP位址</li><li>反向連結</li><li>使用者代理</li><li>搜尋引擎</li><li>搜尋查詢</li><li>權杖</li><li>瀏覽器</li><li>平台</li><li>裝置</li><li>活動日期</li> |
-| | [!UICONTROL 填寫表單] | 表單<br/>選取一或多個要比對的Marketo Engage表單。 <br/><br/>其他限制（選擇性）： <li>活動日期</li><li>Querystring</li><li>使用者端IP位址</li><li>反向連結</li><li>使用者代理</li><li>平台</li><li>裝置</li><br/>逾時（選擇性） |
+| Marketo Engage | [!UICONTROL 瀏覽網頁] | 網頁<br/>選取一或多個要比對的Marketo Engage頁面。<br/><br/>其他限制（選擇性）： <li>Querystring</li><li>使用者端IP位址</li><li>反向連結</li><li>使用者代理</li><li>搜尋引擎</li><li>搜尋查詢</li><li>權杖</li><li>瀏覽器</li><li>平台</li><li>裝置</li><li>活動日期</li> |
+| | [!UICONTROL 填寫表單] | 表單<br/>選取一或多個要比對的Marketo Engage表單。<br/><br/>其他限制（選擇性）： <li>活動日期</li><li>Querystring</li><li>使用者端IP位址</li><li>反向連結</li><li>使用者代理</li><li>平台</li><li>裝置</li><br/>逾時（選擇性） |
 | Adobe Experience Platform | [!UICONTROL 事件定義] | 事件型別<br/><br/>其他限制（選擇性）： <li>欄位</li> <br/>其他限制（不支援）： <li>活動日期</li><li>最低 次數</li><br/>逾時（選擇性） |
 
 ### 人員事件篩選器
@@ -79,7 +79,7 @@ ht-degree: 4%
 | [!UICONTROL 活動歷史記錄] > [!UICONTROL 資料值已變更] | 針對選取的人員屬性，發生值變更。 這些變更型別包括： <li>新值<li>上一個值<li>原因<li>來源<li>活動日期<li>最低 次數<!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL 活動歷史記錄] > [!UICONTROL 有趣的時刻] | 在關聯的Marketo Engage例項中定義的有趣時刻活動。 限制包括： <li>里程碑<li>電子郵件<li>網頁<!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL 活動歷史記錄] > [!UICONTROL 造訪的網頁] | 針對由相關Marketo Engage例項管理的一或多個網頁的網頁活動。 限制包括： <li>網頁（必填）<li>活動日期<li>使用者端IP位址 <li>Querystring <li>反向連結 <li>使用者代理 <li>搜尋引擎 <li>搜尋查詢 <li>個人化URL <li>權杖 <li>瀏覽器 <li>平台 <li>裝置 <li>最低 次數<!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
-| [!UICONTROL 個人屬性] | 個人設定檔中的屬性，包括： <li>城市 <li>國家/地區 <li>出生日期 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件已暫停 <li>名字 <li>推斷的狀態區域<li>職稱 <li>姓氏 <li>行動電話號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>狀態 <li>已取消訂閱 <li>取消訂閱的原因 |
+| [!UICONTROL 個人屬性] | 個人設定檔中的屬性，包括： <li>城市 <li>國家 <li>出生日期 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件已暫停 <li>名字 <li>推斷的狀態區域<li>職稱 <li>姓氏 <li>行動電話號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>州別 <li>已取消訂閱 <li>取消訂閱的原因 |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除</li><li>角色</li> |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 清單成員] | 此人是否為一或多個Marketo Engage清單的成員。 |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 計畫成員] | 此人是否為一或多個Marketo Engage方案的成員。 |
@@ -98,7 +98,7 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**[!UICONTROL 編輯事件]**&#x200B;並定義事件的詳細資料。
 
-### 接聽Marketo Engage活動
+### 接聽Marketo Engage活動 {#listen-for-marketo-engage-event}
 
 如果您在連線的Marketo Engage執行個體中有網頁，您可以根據這些網頁的造訪/未造訪以及/未填寫的Marketo Engage表單來觸發事件。
 
@@ -135,7 +135,7 @@ ht-degree: 4%
 
 ### 聆聽體驗事件
 
-管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
+管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
 
 1. 管理員[選取感興趣的事件型別和欄位](../admin/configure-aep-events.md#select-an-event)，以便在歷程中使用。
 
@@ -190,7 +190,7 @@ ht-degree: 4%
 
 （僅限帳戶歷程）
 
-1. 定義事件後，請在&#x200B;**[!UICONTROL 編輯事件]**&#x200B;對話方塊中選取&#x200B;_[!UICONTROL 篩選器]_&#x200B;索引標籤。
+1. 定義事件後，請在&#x200B;_[!UICONTROL 編輯事件]_&#x200B;對話方塊中選取&#x200B;**[!UICONTROL 篩選器]**&#x200B;索引標籤。
 
    ![依人員接聽「事件」節點 — 選取「篩選器」索引標籤以編輯事件](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
 
@@ -224,4 +224,4 @@ ht-degree: 4%
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?captions=chi_hant&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
