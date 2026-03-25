@@ -15,7 +15,7 @@ ht-degree: 10%
 
 條件內容允許您根據條件規則調整電子郵件和片段內容。 這些規則是使用配置檔案屬性或上下文事件定義的。 您可以在規則產生器中建立條件式規則，並將規則儲存起來，以便在您的帳戶歷程中重複使用。
 
-若要向片段和電子郵件添加條件內容，Adobe Journey Optimizer允許您應用儲存在&#x200B;_條件_&#x200B;庫中的條件規則。 在為帳戶行程](./email-authoring.md)或[可視片段](./fragment-authoring.md)編寫[電子郵件內容時，在可視設計空間中應用條件規則。
+若要向片段和電子郵件添加條件內容，Adobe Journey Optimizer允許您應用儲存在&#x200B;_條件_&#x200B;庫中的條件規則。 在為帳戶行程[&#128279;](./email-authoring.md)或[可視片段](./fragment-authoring.md)編寫電子郵件內容時，在可視設計空間中應用條件規則。
 
 ## 新增條件式內容 {#email-fragment-content}
 

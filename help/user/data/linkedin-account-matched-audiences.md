@@ -86,7 +86,7 @@ ht-degree: 14%
 
    保存後，為資料流指定的名稱會以&#x200B;_AJOB2B_&#x200B;為前置詞，以幫助在Experience Platform中標識資料流。
 
-1. 輸入你的LinkedIn市場活動經理帳戶](https://www.linkedin.com/help/lms/answer/a424270)的[帳戶ID。
+1. 輸入你的LinkedIn市場活動經理帳戶[&#128279;](https://www.linkedin.com/help/lms/answer/a424270)的帳戶ID。
 
    您可以在「市場活動經理」UI中按帳戶名查找帳戶ID。
 
@@ -120,7 +120,7 @@ ht-degree: 14%
 
 從2025.10版開始，使用帳戶的&#x200B;_激活到目標_&#x200B;操作，從您的旅途直接將帳戶激活到LinkedIn目標。 使用LinkedIn目標的操作，通過消除多系統切換和減少延遲來簡化市場活動執行。 例如，作為營銷人員，您可以自動將高意向帳戶激活到LinkedIn，以便在關鍵購買角色缺失時重新確定目標，或根據不活動過濾器重新激活休眠帳戶。
 
-1. 在行程畫布中選擇&#x200B;_執行操作_&#x200B;節點後，將帳戶&#x200B;]**上的**[!UICONTROL &#x200B;操作設定為&#x200B;**[!UICONTROL 激活到目標]**。
+1. 在行程畫布中選擇&#x200B;_執行操作_&#x200B;節點後，將帳戶&#x200B;**上的**&#x200B;操作設定為&#x200B;**[!UICONTROL 激活到目標]**。
 
    ![行程節點 — 對帳戶執行操作 — 激活到目標](./assets/node-activate-destination.png){width="550" zoomable="yes"}
 
