@@ -6,7 +6,7 @@ role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1682'
 ht-degree: 16%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="購買群組階段"
->abstract="此圖表會根據設定的轉換規則，提供購買群組在各個不同階段的進度概觀。第一列顯示在所選時間段的第一天處於特定階段的購買群組數量，並與所選時間段最後一天的購買群組數量進行比較。"
+>abstract="此圖表會根據設定的轉換規則，提供購買群組在各個不同階段的進度概觀。 第一列顯示在所選時間段的第一天處於特定階段的購買群組數量，並與所選時間段最後一天的購買群組數量進行比較。"
 
 _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群組進度概觀（[根據管理員設定的轉換規則](../buying-groups/buying-group-stages.md)）。
 
@@ -109,26 +109,26 @@ _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群
 
 每張卡片都包含下列資料：
 
-* **_購買群組名稱_**。 按一下名稱以開啟購買群組詳細資訊頁面。
-* **_帳戶名稱_**。 按一下名稱以開啟帳戶詳細資訊頁面（超連結至帳戶詳細資訊頁面）。
-* 購買群組的&#x200B;**_目前階段_**。
-* **_參與分數_** （在所有購買群組中標準化）。 如果所有購買群組都有相同的最高分數，這會顯示上次更新的分數。
-* **_完整度分數_** （範圍從1到100）。 如果所有購買群組都有相同的最高分數，這會顯示上次更新的分數。
-* **_類別目的_**。 按一下&#x200B;_[!UICONTROL 檢視詳細資料]_&#x200B;以檢視意圖資料：
+* **_購買群組名稱_**。 按一下名稱以開啟採購組詳細資訊頁面。
+* **_帳戶名_**。 按一下名稱以開啟帳戶詳細資訊頁（超連結到帳戶詳細資訊頁）。
+* 購買組的&#x200B;**_當前階段_**。
+* **_訂約分數_**（在所有購買組中均標準化）。 如果所有採購組具有相同的最高得分，則顯示上次更新的得分。
+* **_完整性得分_**（範圍為1-100）。 如果所有採購組具有相同的最高得分，則顯示上次更新的得分。
+* **_類別意圖_**。 按一下&#x200B;_[!UICONTROL 查看詳細資訊]_&#x200B;以查看意圖資料：
 
-  ![購買群組意向資料](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
+  ![購買群意圖資料](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
-   * 詳細資訊快顯視窗會顯示類別名稱，其意圖層級位於頂端。
-   * 每一列的資料會以欄的形式組織：產品名稱、產品意圖強度，以及依意圖強度排名的前幾個關鍵字。
-   * 類別、產品和關鍵字的排序順序為高到低。 如果每種型別的一或多個具有相同的意圖強度，則排序會使用字母順序。
+   * 詳細資訊彈出窗口在頂部顯示具有目的級別的類別名稱。
+   * 每行的資料按產品名稱、產品意圖強度和按意圖強度排列的頂級關鍵字按列排列。
+   * 對於類別、產品和關鍵字，排序順序為「高」到「低」。 如果每種類型中的一個或多個具有相同的意圖強度，則排序使用字母順序。
 
   {{intent-data-note}}
 
-在&#x200B;_購買群組醒目提示_&#x200B;面板的右上角，按一下&#x200B;**[!UICONTROL 全部檢視]**&#x200B;以瀏覽購買群組清單頁面。
+在&#x200B;_購買組突出顯示_&#x200B;面板的右上角，按一下「查看全部」]**以導航到「購買組」清單頁。**[!UICONTROL 
 
-### 屬性篩選 {#attribute-filter-bg-highlights}
+### 屬性篩選器 {#attribute-filter-bg-highlights}
 
-按一下左上方的&#x200B;_篩選器_ （![編輯圖示](../assets/do-not-localize/icon-filter.svg) ）圖示，使用下列任一屬性來篩選資料顯示：
+按一下左上角的&#x200B;_篩選器_（![編輯表徵圖](../assets/do-not-localize/icon-filter.svg)）表徵圖，使用以下任何屬性篩選資料顯示：
 
 * 解決方案興趣
 * 購買群組
@@ -138,7 +138,7 @@ _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群
 
 ### 時段 {#time-period-bg-highlights}
 
-使用右上角的日期篩選器來變更資料視覺效果的日期範圍。 按一下向下箭頭，以設定相對日期範圍，或設定自訂開始和結束日期。
+使用右上角的日期篩選器更改資料可視化的日期範圍。 按一下向下箭頭設定相對日期範圍，或設定自定義起始日期和終止日期。
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -149,25 +149,25 @@ _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群
 >title="帳戶激增"
 >abstract="在選定時間段內，參與度動量發生顯著變化的帳戶。"
 
-「_[!UICONTROL 飆升帳戶]_」區段會顯示所選時間範圍內參與動量發生重大變更的帳戶的視覺效果。
+_[!UICONTROL 激增的帳戶]_&#x200B;部分顯示帳戶的可視化，在所選時間範圍內，項目動量發生了顯著變化。
 
 >[!NOTE]
 >
->帳戶激增資料僅包含Journey Optimizer B2B edition透過帳戶歷程或購買群組擷取的帳戶。
+>帳戶激增資料只包括Journey OptimizerB2B版通過帳戶旅行或購買小組獲取的帳戶。
 
-![帳戶突增資料視覺效果](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
+![帳戶湧出資料可視化](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
-將滑鼠停留在每個長條上，即可檢視每個類別中的帳戶數。
+將滑鼠懸停在每個欄上以查看每個類別中的帳戶數。
 
-![將滑鼠指標暫留在長條圖上以檢視詳細數字](./assets/intelligent-dashboard-account-surge-hover-bar.png){width="400"}
+![將滑鼠懸停在欄上以查看詳細數字](./assets/intelligent-dashboard-account-surge-hover-bar.png){width="400"}
 
-按一下長條圖以顯示所選時間範圍內類別中帳戶的產生AI摘要。
+按一下條可顯示選定時間幀類別中帳戶的生成AI摘要。
 
-![按一下列以檢視產生AI摘要](./assets/intelligent-dashboard-account-surge-click-bar.png){width="500"}
+![按一下條查看生成的AI摘要](./assets/intelligent-dashboard-account-surge-click-bar.png){width="500"}
 
-### 屬性篩選 {#attribute-filter-acct-surge}
+### 屬性篩選器 {#attribute-filter-acct-surge}
 
-按一下左上方的&#x200B;_篩選器_ （![編輯圖示](../assets/do-not-localize/icon-filter.svg) ）圖示，使用下列任一屬性來篩選資料顯示：
+按一下左上角的&#x200B;_篩選器_（![編輯表徵圖](../assets/do-not-localize/icon-filter.svg)）表徵圖，使用以下任何屬性篩選資料顯示：
 
 * 解決方案興趣
 * 行業
@@ -177,7 +177,7 @@ _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群
 
 ### 時段 {#time-period-acct-surge}
 
-使用右上角的日期篩選器來變更資料視覺效果的日期範圍。 按一下向下箭頭，以設定相對日期範圍，或設定自訂開始和結束日期。
+使用右上角的日期篩選器更改資料可視化的日期範圍。 按一下向下箭頭設定相對日期範圍，或設定自定義起始日期和終止日期。
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -193,36 +193,36 @@ _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群
 >title="有風險的帳戶"
 >abstract="在選定時間段內，參與度動量顯著減少的帳戶。"
 
-_[!UICONTROL 帳戶醒目提示]_&#x200B;區段已組織為兩列，以顯示貴組織感興趣之帳戶的資訊。
+_[!UICONTROL 帳戶突出顯示]_&#x200B;部分被組織成兩行，以顯示有關您組織感興趣的帳戶的資訊。
 
 >[!NOTE]
 >
->帳戶醒目提示資料僅包含Journey Optimizer B2B edition透過帳戶歷程或購買群組擷取的帳戶。
+>Account突出顯示的資料只包括Journey OptimizerB2B版通過帳戶旅程或購買組獲取的帳戶。
 
-![帳戶重點](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
+![帳戶亮點](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
-* **正在飆升的帳戶** — 此列顯示了在所選時間範圍內參與動量大幅增加的帳戶。
-* **有風險的帳戶** — 此資料列顯示了在所選時間範圍內參與動量大幅減少的帳戶。
+* **帳戶激增** — 此行顯示的帳戶在所選時間範圍內的訂約量顯著增加。
+* **風險帳戶** — 此行顯示的帳戶在所選時間範圍內的簽約動量顯著下降。
 
-每張卡片都包含下列資料：
+每張卡包括以下資料：
 
-* **_帳戶名稱_**。 按一下名稱以開啟帳戶詳細資訊頁面。
-* **_帳戶的產生AI摘要_**。
-* **_關鍵字意圖_**。 按一下&#x200B;_[!UICONTROL 檢視詳細資料]_&#x200B;以檢視意圖資料：
+* **_帳戶名_**。 按一下名稱以開啟帳戶詳細資訊頁面。
+* 帳戶的&#x200B;**_生成AI摘要_**。
+* **_關鍵字意圖_**。 按一下&#x200B;_[!UICONTROL 查看詳細資訊]_&#x200B;以查看意圖資料：
 
   ![帳戶意圖資料](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
-   * 詳細資訊快顯視窗會顯示類別名稱，其意圖層級位於頂端。
-   * 每一列的資料會以欄的形式組織：產品名稱、產品意圖強度，以及依意圖強度排名的前幾個關鍵字。
-   * 類別、產品和關鍵字的排序順序為高到低。 如果每種型別的一或多個具有相同的意圖強度，則排序會使用字母順序。
+   * 詳細資訊彈出窗口在頂部顯示具有目的級別的類別名稱。
+   * 每行的資料按產品名稱、產品意圖強度和按意圖強度排列的頂級關鍵字按列排列。
+   * 對於類別、產品和關鍵字，排序順序為「高」到「低」。 如果每種類型中的一個或多個具有相同的意圖強度，則排序使用字母順序。
 
   {{intent-data-note}}
 <!-- 
 At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
 
-### 屬性篩選 {#attribute-filter-acct-highlights}
+### 屬性篩選器 {#attribute-filter-acct-highlights}
 
-按一下左上方的&#x200B;_篩選器_ （![篩選器圖示](../assets/do-not-localize/icon-filter.svg) ）圖示，使用下列任一屬性來篩選資料顯示：
+按一下左上角的&#x200B;_篩選器_（![篩選器表徵圖](../assets/do-not-localize/icon-filter.svg)）表徵圖，使用以下任何屬性篩選資料顯示：
 
 * 解決方案興趣
 * 購買群組
@@ -231,7 +231,7 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 
 ### 時段 {#time-period-acct-highlights}
 
-使用右上角的日期篩選器來變更資料視覺效果的日期範圍。 按一下向下箭頭，以設定相對日期範圍，或設定自訂開始和結束日期。
+使用右上角的日期篩選器更改資料可視化的日期範圍。 按一下向下箭頭，以設定相對日期範圍，或設定自訂開始和結束日期。
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -240,7 +240,7 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_coverage"
 >title="聯絡人涵蓋範圍"
->abstract="顯示具有與解決方案興趣相關之特定角色的聯絡人數量。角色和解決方案興趣是根據購買群組範本進行指派。"
+>abstract="顯示具有與解決方案興趣相關之特定角色的聯絡人數量。 角色和解決方案興趣是根據購買群組範本進行指派。"
 
 _[!UICONTROL 連絡人涵蓋範圍]_&#x200B;區段會顯示與解決方案相關的特定角色的連絡人數量視覺效果。 角色和解決方案興趣是根據購買群組範本進行指派。
 

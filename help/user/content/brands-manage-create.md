@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2056'
-ht-degree: 6%
+source-wordcount: '2079'
+ht-degree: 7%
 
 ---
 
@@ -53,70 +53,70 @@ ht-degree: 6%
 * **[!UICONTROL 取消發佈]** （僅供上線） — 取消發佈品牌以將其從內容對齊和產生的使用中移除。
 * **[!UICONTROL 刪除]** — 從您的品牌庫中移除品牌。
 
-![存取品牌的[更多]功能表](./assets/brands-library-card-more-menu.png){width="440"}
+![訪問品牌的「更多」菜單](./assets/brands-library-card-more-menu.png){width="440"}
 
 ### 預設品牌
 
-您可以指定預設品牌，以便在內容建立期間產生內容並計算一致性分數時自動套用。 只能預設已發佈（_即時_）品牌。
+您可以指定在生成內容和計算內容建立期間對齊分數時自動應用的預設品牌。 預設值只能是已發佈(_Live_)品牌。
 
-在品牌資料庫中，預設品牌卡會顯示旗標。
+在「品牌」庫中，預設品牌卡顯示有標誌。
 
-![預設品牌標幟](./assets/brands-default-flag.png){width="200"}
+![預設品牌標誌](./assets/brands-default-flag.png){width="200"}
 
-您可以將任何已發佈的（_即時_）品牌設定為預設品牌。 在品牌卡上，按一下&#x200B;_更多功能表_ （![更多功能表圖示](../../assets/do-not-localize/icon-more-menu.svg) ）圖示，然後選擇&#x200B;**[!UICONTROL 標示為預設品牌]**。
+您可以將任何已發佈(_Live_)品牌設定為預設品牌。 在品牌卡上，按一下&#x200B;_更多菜單_（![更多菜單表徵圖](../../assets/do-not-localize/icon-more-menu.svg)）表徵圖，然後選擇&#x200B;**[!UICONTROL 標籤為預設品牌]**。
 
-![指定預設品牌識別](./assets/brands-set-default.png){width="350"}
+![指定預設品牌標識](./assets/brands-set-default.png){width="350"}
 
 ## 建立並定義品牌 {#create-brand}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brands_create"
 >title="建立您的品牌"
->abstract="輸入您的品牌名稱，並上傳您的品牌準則檔案。此工具將自動擷取關鍵詳細資訊，讓您更輕鬆維持品牌識別。"
+>abstract="輸入您的品牌名稱，並上傳您的品牌準則檔案。 此工具將自動擷取關鍵詳細資訊，讓您更輕鬆維持品牌識別。"
 
-若要建立及定義您的品牌指引，您可以輸入詳細資料或上傳您的品牌指引檔案，以用於自動擷取。
+要建立和定義您的品牌指南，您可以輸入詳細資訊或上載您的品牌指南文檔以用於自動提取。
 
-### 新增品牌
+### 添加品牌
 
 1. 在&#x200B;_[!UICONTROL 品牌]_&#x200B;頁面的右上角，按一下&#x200B;**[!UICONTROL 建立品牌]**。
 
-1. 輸入您品牌的&#x200B;**[!UICONTROL 名稱]**。
+1. 為您的品牌輸入&#x200B;**[!UICONTROL 名稱]**。
 
-1. 拖放或選取您的檔案，以上傳您的品牌指引，並自動擷取相關的品牌資訊。
+1. 拖放或選擇檔案以上載品牌指南並自動提取相關品牌資訊。
 
    ![定義新品牌](./assets/brands-create-new.png){width="500"}
 
    >[!NOTE]
    >
-   >如果您尚未以PDF格式儲存檔案，可在品牌建立後手動新增指引並上傳個別視覺資產。
+   >如果您沒有以PDF格式保存的文檔，則可以在建立品牌後手動添加准則並上載單個視覺資產。
 
 1. 按一下&#x200B;**[!UICONTROL 建立品牌]**。
 
-   如果您加入一或多個檔案來建立品牌，資訊擷取程式就會開始。 這可能需要幾分鐘才能完成。
+   如果包含一個或多個檔案以建立品牌，則資訊提取過程將開始。 可能需要幾分鐘才能完成。
 
-   提取程式完成後，系統會自動填入您的內容和視覺化建立標準。
+   提取過程完成後，將自動填充您的內容和可視化建立標準。
 
-   ![上傳檔案的初始品牌准則](./assets/brands-create-new-page.png){width="700" zoomable="yes"}
+   ![上載文檔中的初始品牌准則](./assets/brands-create-new-page.png){width="700" zoomable="yes"}
 
-### 調整並更新品牌指引
+### 完善和更新品牌指南
 
-1. 瀏覽不同的標籤，視需要調整並定義更詳細的資訊。
+1. 瀏覽不同的頁籤，根據需要調整和定義更詳細的資訊。
 
    * [!UICONTROL 概觀]
 
    * [[!UICONTROL 關於品牌]](#about-the-brand)
 
-   * [[!UICONTROL 寫入樣式]](#writing-style)
+   * [[!UICONTROL 正在寫入樣式]](#writing-style)
 
    * [[!UICONTROL 視覺內容]](#visual-content)
 
    如果您在建立品牌時包含一或多個檔案，資訊擷取程式會建立標籤和區段的定義。 完整性取決於任何檔案中包含的範圍和詳細資訊。 檢閱結果時，您可以變更或移除任何資訊。
 
-   從每個索引標籤或類別的&#x200B;_更多功能表_ （![更多功能表圖示](../../assets/do-not-localize/icon-more-menu.svg) ），您可以新增檔案以自動擷取相關品牌資訊。 您也可以清除現有內容。
+   您可以從每個索引標籤或類別的&#x200B;_更多功能表_ （![更多功能表圖示](../../assets/do-not-localize/icon-more-menu.svg) ）新增檔案，以自動擷取相關的品牌資訊。 您也可以清除現有內容。
 
    ![清除區段/類別或新增擷取參考](./assets/brands-sections-categories-more-menu.png){width="500" zoomable="yes"}
 
-   如果您要檢閱子區段中擷取資訊的來源，請按一下&#x200B;**[!UICONTROL 檢視來源]**&#x200B;連結。
+   如果您想要檢閱子區段中擷取資訊的來源，請按一下&#x200B;**[!UICONTROL 檢視來源]**&#x200B;連結。
 
    ![檢視品牌內容來源](./assets/brands-view-source.png){width="700" zoomable="yes"}
 
@@ -124,11 +124,11 @@ ht-degree: 6%
 
    標示為&#x200B;**[!UICONTROL Do&#39;s]**&#x200B;的子區段概述類別的准則。 使用此區域新增指引的說明和範例。
 
-   ![已定義附有範例的指引](./assets/brands-guidelines-examples.png){width="500" zoomable="yes"}
+   ![已定義包含範例的指引](./assets/brands-guidelines-examples.png){width="500" zoomable="yes"}
 
-   標示為&#x200B;**[!UICONTROL Don&#39;s]**&#x200B;的子區段概述排除專案。 使用此區域新增排除專案的說明和範例。
+   標示為&#x200B;**[!UICONTROL 不要]**&#x200B;的子區段概述排除專案。 使用此區域新增排除專案的說明和範例。
 
-   ![已定義具有範例的排除專案](./assets/brands-exclusions-examples.png){width="500" zoomable="yes"}
+   ![定義的排除專案，包含範例](./assets/brands-exclusions-examples.png){width="500" zoomable="yes"}
 
    * **新增指引或排除專案**。
 
@@ -138,118 +138,118 @@ ht-degree: 6%
 
    * **變更指引或排除專案**。
 
-     在您想要移除指引的區段中，按一下指引Widget。 在快顯對話方塊中，視需要變更指引的內容及選取的核取方塊。 然後，按一下&#x200B;**[!UICONTROL 更新]**。
+     在您想要移除指引的區段中，按一下指引Widget。 在快顯對話方塊中，視需要變更指引的內容及選取的核取方塊。 接著，按一下&#x200B;**[!UICONTROL 更新]**。
 
-     ![變更指引](./assets/brands-guideline-update.png){width="600" zoomable="yes"}
+     ![Change a guideline](./assets/brands-guideline-update.png){width="600" zoomable="yes"}
 
-   * **移除指引或排除專案**。
+   * **Remove a guideline or exclusion**.
 
-     在您想要移除指引的區段中，按一下指引Widget。 在快顯視窗對話方塊中，按一下頂端的&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete.svg) ）圖示。
+     In the section where you want to remove a guideline, click the guideline widget. In the popup dialog, click the _Delete_  ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon at the top.
 
-   * **新增或修訂您的指引和排除專案的範例**。
+   * **Add or revise examples of your guidelines and exclusions**.
 
-     在顯示的範例圖磚中，按一下&#x200B;_編輯_ （ ![編輯圖示](../assets/do-not-localize/icon-edit.svg) ）圖示以變更範例，或按一下&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete.svg) ）圖示以移除範例。
+     In the displayed example tile, click the _Edit_ ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) ) icon to change the example, or click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon to remove it.
 
-1. 定義好所有專案後，按一下&#x200B;**[!UICONTROL 儲存]**。
+1. When you have everything defined, click **[!UICONTROL Save]**.
 
-   您可以繼續變更草稿品牌，直到決定準備好發佈為止。
+   You can continue to make changes to the draft brand until you decide it is ready to publish.
 
-### 發佈品牌
+### Publish the brand
 
-當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] **&#x200B;**，讓您的品牌指引可用於內容對齊與產生。
+When your brand includes a complete set of definitions and meets your requirements, click **[!UICONTROL Publish]** to make your brand guidelines available for content alignment and generation.
 
-已發佈的品牌可從AI **[!UICONTROL 品牌一致性]**&#x200B;和內容產生工具中的[品牌](./brand-alignment.md)選項存取。<!-- [Learn more about content generation](gs-generative.md) -->
+Published brands are accessible from the **[!UICONTROL Brand]** option in the AI [brand alignment](./brand-alignment.md) and content generation tools. <!-- [Learn more about content generation](gs-generative.md) -->
 
-內容的![品牌選項](./assets/brand-menu-content-ai-tools.png){width="300"}
+![Brand options for content](./assets/brand-menu-content-ai-tools.png){width="300"}
 
-## 品牌定義
+## Brand definitions
 
-品牌定義會組織為三個類別，以標籤顯示。 選取每個標籤以完成和更新品牌指引。
+The brand definitions are organized into three categories, displayed as tabs. Select each tab to complete and update the brand guidelines.
 
 ### 關於品牌 {#about-brand}
 
-使用&#x200B;**[!UICONTROL 關於品牌]**&#x200B;標籤來建立品牌的核心識別。 此資訊概述其目的、個性、標語和其他高階屬性。
+Use the **[!UICONTROL About the brand]** tab to establish the core identity of your brand. This information outlines its purpose, personality, tagline, and other high-level attributes.
 
-1. 在&#x200B;**[!UICONTROL 關鍵詳細資料]**&#x200B;類別中新增品牌的基本資訊：
+1. Add the foundational information for your brand in the **[!UICONTROL Key details]** category:
 
-   * **[!UICONTROL 品牌套件名稱]** — 更新品牌名稱。
+   * **[!UICONTROL Brand kit name]** - Update the brand name.
 
-   * **[!UICONTROL 何時使用]** — 指定應套用此品牌的案例或內容。
+   * **[!UICONTROL When to use]** - Specify scenarios or contexts where this brand should be applied.
 
-   * **[!UICONTROL 品牌名稱]** — 輸入品牌的正式名稱。
+   * **[!UICONTROL Brand name]** - Enter the official name of the brand.
 
-   * **[!UICONTROL 此品牌的描述]** — 提供此品牌代表的概觀。
+   * **[!UICONTROL Description of this brand]** - Provide an overview of what this brand represents.
 
-   * **[!UICONTROL 標語（預設）]** — 新增與品牌相關聯的主要標語。
+   * **[!UICONTROL Tagline (Default)]** - Add the primary tagline associated with the brand.
 
-   ![關於品牌 — 重要詳細資料](./assets/brands-about-key-details.png){width="600" zoomable="yes"}
+   ![About the brand - Key details](./assets/brands-about-key-details.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;**[!UICONTROL 指導原則]**&#x200B;類別中，請釐清品牌的核心方向與理念：
+1. In the **[!UICONTROL Guiding principles]** category, clarify the core direction and philosophy of your brand:
 
-   * **[!UICONTROL 任務]** — 詳細描述品牌用途。
+   * **[!UICONTROL Mission]** - Detail the brand purpose.
 
-   * **[!UICONTROL 願景]** — 說明長期目標或想要的未來狀態。
+   * **[!UICONTROL Vision]** - Describe the long-term goal or desired future state.
 
-   * **[!UICONTROL 市場定位]** — 說明品牌在市場中的定位。
+   * **[!UICONTROL Market positioning]** - Explain how the brand is positioned in the market.
 
-   ![關於品牌 — 指導原則](./assets/brands-about-guiding-principles.png){width="600" zoomable="yes"}
+   ![About the brand - Guiding principles](./assets/brands-about-guiding-principles.png){width="600" zoomable="yes"}
 
-   從&#x200B;**[!UICONTROL 核心品牌值]**&#x200B;類別，檢閱定義的品牌值，並視需要加以調整。
+   From the **[!UICONTROL Core brand values]** category, review the defined brand values and adjust them as needed.
 
-   * 若要定義新的核心值，請按一下右側的&#x200B;_新增_ （ ![新增圖示](../assets/do-not-localize/icon-add-components.svg) ）圖示，並完成詳細資料：
+   * To define a new core value, click the _Add_ ( ![Add icon](../assets/do-not-localize/icon-add-components.svg) ) icon on the right and complete the details:
 
-     ![關於品牌 — 指導原則 — 增加核心價值](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
+     ![About the brand - Guiding principles - add core value](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
-      * **[!UICONTROL 值]** — 輸入核心品牌值的名稱。
+      * **[!UICONTROL Value]** - Enter the name for the core brand value.
 
-      * **[!UICONTROL 描述]** — 說明這個值對您品牌的意義。
+      * **[!UICONTROL Description]** - Explain what this value means to your brand.
 
-      * **[!UICONTROL 行為]** — 概述實際中反映此值的動作或態度。
+      * **[!UICONTROL Behaviors]** - Outline the actions or attitudes that reflect this value in practice.
 
-      * **[!UICONTROL 表現]** — 提供這個值在真實世界品牌中如何表示的範例。
+      * **[!UICONTROL Manifestations]** - Provide examples of how this value is expressed in real-world branding.
 
-   * 若要變更或刪除核心值，請按一下&#x200B;_編輯_ （ ![編輯圖示](../assets/do-not-localize/icon-edit.svg) ）圖示，以更新或刪除核心品牌值。
+   * To change or delete a core value, click the _Edit_ ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) ) icon to update or delete a core brand value.
 
-     ![關於品牌 — 指導原則 — 編輯核心值](./assets/brands-about-guiding-principles-edit-core-values.png){width="500" zoomable="yes"}
+     ![About the brand - Guiding principles - edit core value](./assets/brands-about-guiding-principles-edit-core-values.png){width="500" zoomable="yes"}
 
-     變更詳細資料，然後按一下&#x200B;**[!UICONTROL 更新]**。 或者，按一下頂端的&#x200B;_刪除_ （![刪除圖示](../assets/do-not-localize/icon-delete.svg) ）圖示以移除核心值。
+     Change the details and click **[!UICONTROL Update]**. Or, click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon at the top to remove the core value.
 
-1. 在&#x200B;**[!UICONTROL 品牌指引檔案]**&#x200B;類別中，檢閱用來產生品牌指引的檔案。
+1. In the **[!UICONTROL Brand guidelines documents]** category, review the documents used to generate the brand guidelines.
 
-   按一下「更多」選單圖示，然後選擇選項以使用上傳的參考檔案更新品牌指引：
+   Click the More menu icon and choose an option to update the brand guidelines using uploaded reference documents:
 
-   * **[!UICONTROL 重新擷取准則]** — 選擇此動作以使用目前檔案執行擷取工作。
-   * **[!UICONTROL 新增擷取的參考]** — 選擇此動作可上傳其他檔案並執行擷取工作。
+   * **[!UICONTROL Re-extract guidelines]** - Choose this action to run an extraction job using the current documents.
+   * **[!UICONTROL Add reference for extraction]** - Choose this action to upload another document and run an extraction job.
 
-   ![關於品牌 — 品牌指引檔案](./assets/brands-about-documents.png){width="600" zoomable="yes"}
+   ![About the brand - Brand guidelines documents](./assets/brands-about-documents.png){width="600" zoomable="yes"}
 
-您可以繼續調整[撰寫樣式](#writing-style)或[視覺內容](#visual-content)指南、排除專案和範例，或是[發佈您的品牌](#publish-the-brand)。
+You can proceed to refine the [writing style](#writing-style) or [visual content](#visual-content) guidelines, exclusions, and examples, or you can [publish your brand](#publish-the-brand).
 
 ### 寫作風格 {#writing-style}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="寫作風格一致性分數"
->abstract="寫作風格區段會定義語言、格式及結構的標準，以確保內容清晰且一致。一致性分數從高至低評分，會顯示您的內容對這些準則的遵循程度，並醒目提示需要改善的區域。"
+>abstract="寫作風格區段會定義語言、格式及結構的標準，以確保內容清晰且一致。 一致性分數從高至低評分，會顯示您的內容對這些準則的遵循程度，並醒目提示需要改善的區域。"
 
-_[!UICONTROL 撰寫樣式]_&#x200B;定義概述撰寫內容的標準，並詳細說明應如何使用語言、格式和結構來維持所有資料的清晰度、一致性和一致性。
+The _[!UICONTROL Writing style]_ definitions outline the standards for writing content, and details how language, formatting, and structure should be used to maintain clarity, coherence, and consistency across all materials.
 
-選取&#x200B;**[!UICONTROL 寫入樣式]**&#x200B;索引標籤，並檢閱每個類別。
+Select the **[!UICONTROL Writing Style]** tab, and review each category.
 
-![正在寫入樣式索引標籤](./assets/brands-writing-style-tab.png){width="600" zoomable="yes"}
+![Writing style tab](./assets/brands-writing-style-tab.png){width="600" zoomable="yes"}
 
 | 類別 | 子類別 | 指引範例 | 排除專案範例 |
 |----------------------------|----------------|-----------------------|-----------------------|
-| [!UICONTROL 品牌通訊樣式] | [!UICONTROL 品牌個人特徵] | 親切易懂。 | 不要失敗。 |
-|                            | [!UICONTROL 正在寫入機制] | 讓句子儘量簡短並有影響力。 | 不要使用過多的行話。 |
-|                            | [!UICONTROL 情境色調] | 維持危機溝通的專業語調。 | 支援通訊時請勿不屑一顧。 |
-|                            | [!UICONTROL Word選擇指南] | 使用&#x200B;_創新_&#x200B;和&#x200B;_智慧_&#x200B;之類的文字。 | 避免使用&#x200B;_便宜_&#x200B;或&#x200B;_駭客_&#x200B;之類的字詞。 |
-|                            | [!UICONTROL 語言標準] | 遵循美式英文慣例。 | 請勿混合使用英式及美式拼字。 |
-| [!UICONTROL 品牌訊息標準] | [!UICONTROL 品牌訊息標準] | 強調創新和客戶至上的訊息。 | 請勿過度承諾產品功能。 |
-|                            | [!UICONTROL 標語使用方式] | 在所有數位行銷資產的標誌下方放置標語。 | 請勿修改或翻譯標語。 |
+| [!UICONTROL Brand communication style] | [!UICONTROL Brand Personality Traits] | 親切易懂。 | 不要失敗。 |
+|                            | [!UICONTROL Writing Mechanics] | 讓句子儘量簡短並有影響力。 | 不要使用過多的行話。 |
+|                            | [!UICONTROL Situational Tone] | 維持危機溝通的專業語調。 | 支援通訊時請勿不屑一顧。 |
+|                            | [!UICONTROL Word Choice Guidelines] | Use words like _innovative_ and _smart_. | Avoid words like _cheap_ or _hack_. |
+|                            | [!UICONTROL Language Standards] | 遵循美式英文慣例。 | 請勿混合使用英式及美式拼字。 |
+| [!UICONTROL Brand messaging standards] | [!UICONTROL Brand messaging standards] | 強調創新和客戶至上的訊息。 | 請勿過度承諾產品功能。 |
+|                            | [!UICONTROL Tagline usage] | 在所有數位行銷資產的標誌下方放置標語。 | 請勿修改或翻譯標語。 |
 |                            | [!UICONTROL 核心訊息] | 強調主要優勢陳述，例如提高生產力。 | 請勿使用不相關的值主張。 |
 |                            | [!UICONTROL 命名標準] | 使用簡單的描述性名稱，例如&#x200B;_ProScheduler_。 | 請勿使用複雜字元或特殊字元。 |
-| [!UICONTROL 法律規範標準] | [!UICONTROL 商標標準] | 請一律使用™或®符號。 | 必要時，請勿省略法定符號。 |
+| [!UICONTROL 法規遵循標準] | [!UICONTROL 商標標準] | 請一律使用™或®符號。 | 必要時，請勿省略法定符號。 |
 |                            | [!UICONTROL 版權標準] | 在行銷資料中加入版權注意事項。 | 未經許可請勿使用協力廠商內容。 |
 |                            | [!UICONTROL 免責宣告標準] | 在數位資產上清楚顯示免責宣告。 | 請勿隱藏隱藏隱藏隱藏隱藏區域的免責宣告。 |
 
@@ -273,20 +273,20 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="視覺內容一致性分數"
->abstract="視覺內容一致性分數表示您的內容與設定之品牌準則的符合程度。從高至低的評分可協助您總覽評估一致性。探索不同的類別可找出需要改善的區域，並找出可能不符合品牌的元素。"
+>abstract="視覺內容一致性分數表示您的內容與設定之品牌準則的符合程度。 從高至低的評分可協助您總覽評估一致性。 探索不同的類別可找出需要改善的區域，並找出可能不符合品牌的元素。"
 
 _[!UICONTROL 視覺內容]_&#x200B;定義概述影像和設計標準，並詳細說明維持統一一致的品牌外觀所需的規格。
 
 選取&#x200B;**[!UICONTROL 視覺內容]**&#x200B;標籤，並檢閱每個類別。
 
-![視覺內容標籤](./assets/brands-visual-content-tab.png){width="600" zoomable="yes"}
+![視覺內容索引標籤](./assets/brands-visual-content-tab.png){width="600" zoomable="yes"}
 
 | 類別 | 准則範例 | 排除專案範例 |
 |------------------------|---------------------|---------------------|
 | [!UICONTROL 攝影標準] | 戶外鏡頭使用自然光線。 | 避免過度編輯或畫素化的影像。 |
 | [!UICONTROL 插圖示準] | 使用簡潔的極簡風格。 | 避免過於複雜。 |
 | [!UICONTROL 圖示標準] | 使用一致的24px格線系統。 | 請勿混合圖示尺寸、使用不一致的線條粗細，或偏離格線規則。 |
-| [!UICONTROL 使用准則] | 選擇反映真實客戶在專業環境中使用該產品的生活方式影像。 | 請勿使用與品牌色調相抵觸或看起來與內容不符的影像。 |
+| [!UICONTROL 使用指南] | 選擇反映真實客戶在專業環境中使用該產品的生活方式影像。 | 請勿使用與品牌色調相抵觸或看起來與內容不符的影像。 |
 
 <!-- #### Styles
 
@@ -300,7 +300,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
 #### 影像範例
 
-若要新增顯示正確或不正確使用方式的影像，請在&#x200B;**[!UICONTROL 新增指引]**&#x200B;或&#x200B;_[!UICONTROL 新增排除專案]_&#x200B;快顯對話方塊中選擇&#x200B;_[!UICONTROL 範例]_。 按一下&#x200B;**[!UICONTROL 選取影像]**，從您的系統選擇影像檔案。 按一下&#x200B;**[!UICONTROL [新增]**]上傳影像並顯示區域的縮圖。
+若要新增顯示正確或不正確使用方式的影像，請在&#x200B;_[!UICONTROL 新增指引]_&#x200B;或&#x200B;_[!UICONTROL 新增排除專案]_&#x200B;快顯對話方塊中選擇&#x200B;**[!UICONTROL 範例]**。 按一下&#x200B;**[!UICONTROL 選取影像]**，從您的系統選擇與影像檔案。 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以上傳影像並顯示區域的縮圖。
 
 ![新增範例影像](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"}
 
@@ -324,4 +324,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [視覺內容](#visual-content)
 
-1. 使用草稿更新時，請按一下[儲存]。**&#x200B;**，然後在準備取代&#x200B;**[!UICONTROL [即時]]**&#x200B;版本時，按一下[發佈]。__
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;處理草稿更新時，然後按一下&#x200B;**[!UICONTROL 發佈]** （當您準備好要取代&#x200B;_即時_&#x200B;版本）。
