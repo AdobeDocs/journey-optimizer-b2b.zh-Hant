@@ -148,4 +148,4 @@ ht-degree: 14%
 
 您可以通過付費媒體渠道(如LinkedIn廣告受眾)與客戶成員接洽，以獲得、培養和確認他們的銷售資格。 在帳戶行程中使用&#x200B;_執行操作_&#x200B;節點，通過最適合不同帳戶成員的外部渠道自動與帳戶的關鍵成員進行接洽。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448683/?captions=chi_hant&learn=on)
