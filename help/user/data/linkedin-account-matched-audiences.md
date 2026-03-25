@@ -17,7 +17,7 @@ ht-degree: 14%
 
 此功能善用 Experience Platform 目標來管理整合的某些部分。 資料流限制為10個。
 
-在從Journey OptimizerB2B版啟動資料流之前，必須至少有一個[（公司）LinkedIn匹配受眾目標連接器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的實例，該實例在您的Experience Platform應用程式中配置了LinkedIn市場活動經理帳戶。
+在從Journey OptimizerB2B版啟動資料流之前，必須至少有一個[（公司）LinkedIn匹配受眾目標連接器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的實例，該實例在您的Experience Platform應用程式中配置了LinkedIn市場活動經理帳戶。
 
 ## 設定新的 LinkedIn 帳戶連結 {#linkedin-destination-setup}
 

@@ -43,7 +43,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->瞭解有關[Adobe Experience Platform資料模型(XDM)文檔](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中XDM架構的詳細資訊。
+>瞭解有關[Adobe Experience Platform資料模型(XDM)文檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中XDM架構的詳細資訊。
 
 ## 個性化編輯器
 
