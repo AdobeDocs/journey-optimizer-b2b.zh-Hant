@@ -125,7 +125,7 @@ To view this email as a web page, go to the following address:
 
 1. 移至附加的Marketo Engage執行個體中的&#x200B;**[!UICONTROL 管理員]**&#x200B;區域，並選取&#x200B;**[!UICONTROL 電子郵件]**。
 
-1. 捲動至&#x200B;_[!UICONTROL 自訂物件擷取限制]_&#x200B;面板，並在&#x200B;**[!UICONTROL 父擷取限制]**中輸入新值
+1. 捲動至&#x200B;_[!UICONTROL 自訂物件擷取限制]_&#x200B;面板，並在&#x200B;**[!UICONTROL 父擷取限制]**&#x200B;中輸入新值
 欄位。
 
    ![Marketo Engage電子郵件管理員 — 自訂物件擷取限制預設值](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
@@ -158,8 +158,8 @@ To view this email as a web page, go to the following address:
 
 電子郵件機器人活動(也稱為非人類互動(NHI))可能會誇大您的電子郵件&#x200B;_開啟_&#x200B;和&#x200B;_點按_&#x200B;資料，扭曲您的參與量度，並觸發事件型歷程進度。 使用電子郵件機器人篩選來維持點選參與量度和深入分析的完整性。 識別疑似機器人活動的方法有兩種：
 
-* _**[!UICONTROL 與IAB機器人清單相符]**_ — 與[Interactive Advertising Bureau機器人清單](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} （使用者代理程式/IP位址）上的任何專案相符的活動會標示為機器人。
-* _**[!UICONTROL 符合近似程度模式]**_ — 將同時發生的兩個或多個活動（在一秒以內）識別為機器人。 比較期間考慮的屬性包括：
+* _&#x200B;**[!UICONTROL 與IAB機器人清單相符]**&#x200B;_ — 與[Interactive Advertising Bureau機器人清單](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} （使用者代理程式/IP位址）上的任何專案相符的活動會標示為機器人。
+* _&#x200B;**[!UICONTROL 符合近似程度模式]**&#x200B;_ — 將同時發生的兩個或多個活動（在一秒以內）識別為機器人。 比較期間考慮的屬性包括：
    * 銷售機會ID （應相同）
    * 電子郵件資產（應相同）
    * 連結點選或電子郵件開啟
