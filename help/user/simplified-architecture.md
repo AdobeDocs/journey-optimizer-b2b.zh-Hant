@@ -273,7 +273,7 @@ ht-degree: 100%
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>設定您的企業網站以支援Adobe Experience Platform Web SDK。</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">了解更多</a></td>
+<td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview">了解更多</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
