@@ -3,15 +3,13 @@ title: 使用品牌來產生內容並維持一致性
 description: 定義品牌准則，以建立一致的內容 — 在Journey Optimizer B2B edition中維持視覺識別、訊息一致性和真實的聲音。
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 9%
+source-wordcount: '868'
+ht-degree: 12%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 9%
 >title="選取您的品牌"
 >abstract="選擇您的品牌，以確保所有 AI 產生的內容都是量身打造，符合您品牌的規格和準則。"
 
-品牌有助於定義您的&#x200B;_品牌識別_，並在確保建立一致且有效的內容以準確代表您的品牌識別、價值和傳訊方面扮演重要角色。 透過遵循明確界定的品牌樣式，組織可以跨管道和接觸點維持一致和可辨識的品牌影響力，並強化其在目標受眾中的品牌認知度、信任度和忠誠度。
+品牌有助於定義您的&#x200B;_品牌識別_，並在確保建立一致且有效的內容以準確代表您的品牌識別、價值和傳訊方面扮演重要角色。 透過遵循清楚定義的品牌樣式，組織可以跨管道和接觸點維持一致和可辨識的品牌存在感，並強化其在目標受眾中的品牌認知度、信任度和忠誠度。
 
 +++使用品牌的好處
 
@@ -47,7 +45,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->此功能目前以私人測試版的形式提供，並計畫在未來版本中逐步提供給所有客戶。
+>此功能目前以公開測試版的形式提供。
 >
 >您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
@@ -73,7 +71,7 @@ ht-degree: 9%
 
 ## 品牌相關許可權
 
-產品管理員可以透過在Adobe Experience Cloud中透過&#x200B;**[!UICONTROL 許可權]** UI指派&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;_啟用AI小幫手_&#x200B;資源許可權，來啟用品牌管理和品牌對齊功能的存取權。
+產品管理員可以透過在Adobe Experience Cloud中透過&#x200B;_許可權_ UI指派&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;**[!UICONTROL 啟用AI小幫手]**&#x200B;資源許可權，來啟用品牌管理和品牌對齊功能的存取權。
 
 1. 在許可權應用程式中，移至&#x200B;**[!UICONTROL 角色]**&#x200B;標籤，並選取所需的[角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}。
 
@@ -87,16 +85,16 @@ ht-degree: 9%
 
    ![為品牌存取新增AI助理許可權](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
    已指派給該角色的任何使用者的許可權都會自動更新。
 
-1. 若要將此角色指派給新使用者，請選取&#x200B;**[!UICONTROL 角色]**&#x200B;儀表板中的&#x200B;_[!UICONTROL 使用者]_&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增使用者]**。
+1. 若要將此角色指派給新使用者，請選取&#x200B;_[!UICONTROL 角色]_&#x200B;儀表板中的&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
    * 輸入使用者名稱和電子郵件地址，或從清單中選擇現有使用者。
 
      如果尚未建立使用者，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}。
 
-   * 按一下[儲存]以套用變更。**&#x200B;**
+   * 按一下[儲存]以套用變更。****
 
 >[!ENDSHADEBOX]

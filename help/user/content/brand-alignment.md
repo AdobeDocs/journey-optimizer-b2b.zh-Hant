@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 5824f311da00468b3e85c4e212f81c5d9657c5f7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 16%
+source-wordcount: '472'
+ht-degree: 19%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 16%
 >title="標誌分數"
 >abstract="標誌分數"
 
-品牌一致性評估與分數可協助您建立、檢閱和管理遵循所選品牌[中定義的准則](./brands-manage-create.md#brand-definitions)的內容。 它可確保您的電子郵件行銷活動的語調、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
+品牌一致性評估與分數可協助您建立、檢閱和管理遵循所選品牌](./brands-manage-create.md#brand-definitions)中定義的准則[的內容。 它可確保您的電子郵件行銷活動的語調、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
 
 >[!AVAILABILITY]
 >
->此功能目前以私人測試版的形式提供，並計畫在未來版本中逐步提供給所有客戶。
+>此功能目前以公開測試版的形式提供。
 >
 >您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
 >
@@ -81,10 +81,10 @@ ht-degree: 16%
 * 60-79 =公平 — 某些重大違規
 * 60以下=不良 — 重大違規需要注意
 
-您可以更詳細地檢閱評估結果，以協助您識別違規並改善類別對齊分數(_高_、_Medium_&#x200B;和&#x200B;_低_)並檢閱詳細資料。 針對&#x200B;**[!UICONTROL 寫入樣式]**&#x200B;或&#x200B;**[!UICONTROL 視覺內容]**，按一下&#x200B;_展開_ （![展開箭頭](../assets/do-not-localize/icon-expand-right.svg)）箭頭以顯示評估的詳細資料。
+您可以更詳細地檢閱評估結果，以協助您識別違規並改善類別對齊分數（_高_、_Medium_&#x200B;和&#x200B;_低_）並檢閱詳細資料。 針對&#x200B;**[!UICONTROL 寫入樣式]**&#x200B;或&#x200B;**[!UICONTROL 視覺內容]**，按一下&#x200B;_展開_ （![展開箭頭](../assets/do-not-localize/icon-expand-right.svg)）箭頭以顯示評估的詳細資料。
 
 ![品牌一致性評估詳細資料](./assets/brands-alignment-evaluation-details.png){width="600" zoomable="yes"}
 
 選取任何已標幟的指引以檢視特定意見和建議。
 
-您可以變更內容，然後按一下[重新評估分數] **&#x200B;**，執行其他評估並檢查改善的結果。
+您可以變更內容，然後按一下[重新評估分數] ****，執行其他評估並檢查改善的結果。
