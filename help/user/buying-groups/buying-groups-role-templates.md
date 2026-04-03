@@ -4,10 +4,10 @@ description: 使用條件式自動指派來建立角色範本，以識別在Jour
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
+source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 4%
+source-wordcount: '1410'
+ht-degree: 5%
 
 ---
 
@@ -62,15 +62,16 @@ ht-degree: 4%
 
 | 類型 | 條件 |
 | ---- | --------- |
-| 個人屬性 | <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件已暫停 <li>傳真號碼 <li>名字 <li>推斷的狀態區域 <li>職稱 <li>姓氏 <li>中間名 <li>行動電話號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>狀態 <li>已取消訂閱 <li>取消訂閱的原因 |
-| 特殊篩選 | <li>清單成員 <li>計畫成員 |
-| 意圖資料 | <li>類別方法 <li>產品意圖 <li>關鍵字意圖<br/>[瞭解意圖資料](../admin/intent-data.md) |
+| [!UICONTROL 個人屬性] | [個人檔案](../admin/field-mapping.md#xdm-business-person-attributes)中的屬性，包括： <li>城市 <li>國家 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域 <li>職稱 <li>姓氏 <li>手機號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>狀態 |
+| [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此帳戶有或沒有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 |
+| 特殊篩選條件 | <li>清單成員（已棄用） <li>計畫成員（已棄用） |
+| 意圖資料 | <li>類別方法 <li>產品意圖 <li>關鍵字比對方式<br/>（請參閱&#x200B;[_比對方式資料_](../admin/intent-data.md)） |
 
 1. 對於第一個角色卡，定義角色屬性。
 
    * 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
 
-     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在[角色&#x200B;_清單_&#x200B;中定義的任何](./default-custom-roles.md#custom-roles)自訂角色。
+     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單](./default-custom-roles.md#custom-roles)中定義的任何[自訂角色。
 
      ![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -92,21 +93,27 @@ ht-degree: 4%
 
      >[!NOTE]
      >
-     >如果您在Experience Platform的帳戶對象結構描述中定義了自訂人員欄位，這些欄位也可在條件中作為人員屬性使用。
+     >如果您在Experience Platform的企業人員結構描述中定義了自訂人員欄位，則這些欄位也可用作條件中的人員屬性。
 
-   * 使用屬性，以使用一或多個值建立相符篩選器。
+     使用屬性，以使用一或多個值建立相符篩選器。
 
      在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
 
-     使用職稱![的](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}角色範本條件範例
+     使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
 
-   * 如有需要，請新增其他屬性和條件，進一步精簡符合角色的條件。
+   * 如果已設定自訂物件與XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中定義的人員[相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
+
+     ![角色範本新增自訂物件條件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
+
+   * 如有需要，請新增其他屬性/物件和條件，進一步精簡符合角色的條件。
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] **[!UICONTROL ，並重複步驟1和2來定義角色。]**
+1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] ]**，並重複步驟1和2來定義角色。**[!UICONTROL 
 
    已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+   您的變更會自動儲存為&#x200B;_草稿_&#x200B;狀態。 如果您尚未準備好發佈角色範本，請按一下頁面頂端的向左（後退）箭頭，並返回&#x200B;_[!UICONTROL 角色範本]_&#x200B;清單。
 
 >[!BEGINSHADEBOX 「Marketo Engage清單成員資格」]
 
@@ -121,11 +128,9 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 >
 >**功能淘汰**</br></br>
 >
->使用Journey Optimizer B2B edition的[簡化架構](../simplified-architecture.md)，不支援根據Marketo Engage執行個體中的清單或程式成員資格進行篩選。
+>使用Journey Optimizer B2B edition的[簡化架構](../simplified-architecture.md)時，不支援根據Marketo Engage執行個體中的清單或程式成員資格進行篩選。
 
 >[!ENDSHADEBOX]
-
-您的變更會自動儲存為&#x200B;_草稿_&#x200B;狀態。 如果您尚未準備好發佈角色範本，請按一下頁面頂端的向左（後退）箭頭，並返回&#x200B;_[!UICONTROL 角色範本]_&#x200B;清單。
 
 ### 變更完整度分數設定
 
@@ -141,7 +146,7 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 1. 在對話方塊中，視需要變更每個已定義角色所需的&#x200B;**[!UICONTROL 成員]**&#x200B;值。
 
-   您可以輸入值，或按一下&#x200B;**&amp;amp；加號；**&#x200B;或&#x200B;**−**&#x200B;來增加或減少值。
+   您可以輸入值，或按一下&#x200B;**&amp;plus；**&#x200B;或&#x200B;**−**&#x200B;來增加或減少值。
 
    ![角色範本 — 完整度分數設定按鈕](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -189,4 +194,4 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
