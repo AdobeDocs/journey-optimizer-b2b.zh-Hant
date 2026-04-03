@@ -154,7 +154,7 @@ ht-degree: 7%
 
 ### 發佈品牌
 
-當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] ****，讓您的品牌指引可用於內容對齊與產生。
+當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] **&#x200B;**，讓您的品牌指引可用於內容對齊與產生。
 
 已發佈的品牌可從AI [品牌一致性](./brand-alignment.md)和內容產生工具中的&#x200B;**[!UICONTROL 品牌]**&#x200B;選項存取。<!-- [Learn more about content generation](gs-generative.md) -->
 
@@ -322,4 +322,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [視覺內容](#visual-content)
 
-1. 使用草稿更新時，請按一下[儲存]。****，然後在準備取代&#x200B;_[即時]_&#x200B;版本時，按一下[發佈]。****
+1. 使用草稿更新時，請按一下[儲存]。**&#x200B;**，然後在準備取代&#x200B;_[即時]_&#x200B;版本時，按一下[發佈]。**&#x200B;**
