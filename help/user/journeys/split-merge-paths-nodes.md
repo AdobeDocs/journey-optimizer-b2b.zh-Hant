@@ -313,4 +313,4 @@ Note: These are currently going under Account Attributes/Person Attributes folde
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443267/?captions=chi_hant&learn=on)
