@@ -49,9 +49,9 @@ WhatsApp支援下列訊息型別：
 
 當您[新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點](../journeys/action-nodes.md)並執行下列動作時，您可以在帳戶歷程中設定WhatsApp訊息傳遞：
 
-1. 針對&#x200B;]_目標上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
+1. 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
 
-1. 若要對人員&#x200B;]_執行_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送WhatsApp]**。
+1. 若要對人員&#x200B;_執行_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送WhatsApp]**。
 
    ![採取動作 — 傳送WhatsApp](./assets/whatsapp-journey-node.png){width="500" zoomable="yes"}
 
