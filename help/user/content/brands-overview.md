@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '875'
 ht-degree: 12%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 12%
 >title="選取您的品牌"
 >abstract="選擇您的品牌，以確保所有 AI 產生的內容都是量身打造，符合您品牌的規格和準則。"
 
-品牌有助於定義您的&#x200B;_品牌識別_，並在確保建立一致且有效的內容以準確代表您的品牌識別、價值和傳訊方面扮演重要角色。 透過遵循清楚定義的品牌樣式，組織可以跨管道和接觸點維持一致和可辨識的品牌存在感，並強化其在目標受眾中的品牌認知度、信任度和忠誠度。
+品牌可協助定義&#x200B;_品牌識別_，並在確保以一致且有效的方式建立內容以準確代表您的品牌識別、價值和訊息方面發揮關鍵作用。 透過遵循清楚定義的品牌樣式，組織可以跨管道和接觸點維持一致和可辨識的品牌存在感，並強化其在目標受眾中的品牌認知度、信任度和忠誠度。
 
 +++使用品牌的好處
 
@@ -64,8 +64,8 @@ ht-degree: 12%
 1. 當它可以使用時，[發佈品牌](./brands-manage-create.md#publish-the-brand)。
 
 1. 使用品牌進行[電子郵件內容對齊](./brand-alignment.md)。
-<!-- 
-1. Use the brand to generate content. -->
+
+1. 使用品牌[產生電子郵件內容](./ai-assistant-emails.md)。
 
 >[!BEGINSHADEBOX]
 
@@ -85,7 +85,7 @@ ht-degree: 12%
 
    ![為品牌存取新增AI助理許可權](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
    已指派給該角色的任何使用者的許可權都會自動更新。
 
@@ -95,6 +95,6 @@ ht-degree: 12%
 
      如果尚未建立使用者，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}。
 
-   * 按一下[儲存]以套用變更。**&#x200B;**
+   * 按一下[儲存]以套用變更。****
 
 >[!ENDSHADEBOX]
