@@ -20,7 +20,7 @@ ht-degree: 0%
 - 由Gemini 2.5 Flash支援的&#x200B;**[!UICONTROL 合作夥伴機型]**&#x200B;針對特定使用案例提供特殊功能。
 - **[!UICONTROL 自訂模型]**&#x200B;是在您自己的資產上訓練並由您的組織新增的品牌特定模型。
 
-在[Adobe Firefly檔案](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}中瞭解自訂模型。
+在[Adobe Firefly檔案](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}中瞭解自訂模型。
 
 行銷人員在為其電子郵件或登陸頁面內容產生影像時，可以選取任何已啟用的產生模型。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 輸入&#x200B;**[!UICONTROL 模型識別碼]**。
 
-   若要尋找您的模型ID，請存取Firefly網站並導覽至您訓練的模型。 發佈模型後，可在模型的「管理」區段中取得唯一識別碼。 如需詳細資訊，請參閱[Firefly自訂模型檔案](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}。
+   若要尋找您的模型ID，請存取Firefly網站並導覽至您訓練的模型。 發佈模型後，可在模型的「管理」區段中取得唯一識別碼。 如需詳細資訊，請參閱[Firefly自訂模型檔案](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}。
 
 1. 選擇性地輸入&#x200B;**[!UICONTROL 描述]**&#x200B;以協助識別模型及其預期用途。
 
