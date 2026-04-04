@@ -3,7 +3,8 @@ title: WhatsApp頻道設定
 description: 透過Meta的Cloud API連線您的WhatsApp商業帳戶，以啟用Journey Optimizer B2B edition帳戶歷程中的WhatsApp傳訊。
 feature: Setup, Channels
 role: Admin
-source-git-commit: 6313d097634af92450e6dd107fc5ba8040170e88
+exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
+source-git-commit: ce039c5e2a7dc836b434d9ab373ebdfe1d19fc3b
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 11%
