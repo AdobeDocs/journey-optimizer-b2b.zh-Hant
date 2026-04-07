@@ -1,12 +1,12 @@
 ---
 title: 內容元件
-description: 在Journey Optimizer B2B edition中新增按鈕、文字、影像、表單和容器等內容元件，以設計電子郵件、登入頁面和片段。
+description: 設計包含內容元件的電子郵件、登入頁面和片段 — 在Journey Optimizer B2B Edition中新增按鈕、文字、影像、表單和容器。
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
+source-git-commit: ab9e6a1d8785ad4f36e1026a8c376abc9c526c9e
 workflow-type: tm+mt
-source-wordcount: '2825'
+source-wordcount: '3057'
 ht-degree: 6%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 6%
 | ![HTML圖示](../../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | 將此元件新增至您的設計，以複製並貼上現有HTML的不同部分。 使用此元件來建立免費的模組化HTML區塊，以重複使用某些外部內容。 |
 | ![影像圖示](../../assets/do-not-localize/icon-content-component-image.svg) | [影像](#image) | 將此元件新增到您的設計以插入影像檔案。 |
 | ![社交圖示](../../assets/do-not-localize/icon-content-component-social.svg) | [社交](#social) | 將此元件新增到您的設計，以插入指向社群媒體頁面的連結。 |
-| ![表單圖示](../../assets/do-not-localize/icon-content-component-form.svg) | [表單](#form) | **_僅適用於登陸頁面。_**&#x200B;將此元件新增到您的設計以插入建立的表單。 |
+| ![表單圖示](../../assets/do-not-localize/icon-content-component-form.svg) | [表單](#form) | **_僅供登陸頁面使用。_** 將此元件新增到您的設計以插入建立的表單。 |
 
 ## 內容元件工具列
 
@@ -210,7 +210,7 @@ ht-degree: 6%
 
 1. 在&#x200B;**[!UICONTROL 元件]**&#x200B;資料庫中，抓取您所選內容元件的&#x200B;_拖曳控點_ ![拖曳控點](../../assets/do-not-localize/icon-drag-handle.svg)，然後將其拖放到結構元件上。
 
-   您可以將數個元件加入單一結構元件中，並加入結構元件的每個欄中。
+   您可以將多個元件新增到單一結構元件和結構元件的每個欄中。
 
    ![將內容元件拖曳至結構元件](./assets/content-components-drag.png){width="600" zoomable="yes"}
 
@@ -239,7 +239,7 @@ ht-degree: 6%
 
 使用容器將特定樣式套用至一組內容元件。 新增[!UICONTROL Container]元件，然後在其中新增其他內容元件。 此元件類似於您在HTML中使用`div`元素的方式。 您可以將不同的樣式套用至容器，使其與套用至其所包含內容元件的樣式不同。
 
-例如，新增&#x200B;_[!UICONTROL Container]_&#x200B;元件，然後在該容器中新增&#x200B;_[!UICONTROL Button]_&#x200B;元件。 您可以使用容器的特定區域樣式，並視需要設定按鈕及其背景的樣式。
+例如，新增&#x200B;_[!UICONTROL 容器]_&#x200B;元件，然後在該容器內部新增&#x200B;_[!UICONTROL 按鈕]_&#x200B;元件。 您可以使用容器的特定區域樣式，並視需要設定按鈕及其背景的樣式。
 
 ![容器內容元件樣式](./assets/content-components-container.png){width="600" zoomable="yes"}
 
@@ -283,7 +283,7 @@ ht-degree: 6%
 
 當您輸入按鈕標籤文字並設定格式時，按鈕會調整大小以符合內容。
 
-與工具列![一起顯示的](./assets/content-components-button.png){width="500" zoomable="yes"}按鈕元件
+與工具列](./assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的![按鈕元件
 
 #### 設定連結選項
 
@@ -307,7 +307,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -345,9 +345,13 @@ ht-degree: 6%
 
 +++對齊方式
 
+{{styles-alignment-h-v}}
+
 +++
 
 +++按鈕邊界
+
+{{styles-margin}}
 
 +++
 
@@ -423,8 +427,6 @@ ht-degree: 6%
 
 新增&#x200B;_分隔線_&#x200B;元件，在內容區段之間納入線性分隔。
 
-
-
 +++背景
 
 {{styles-background}}
@@ -432,6 +434,22 @@ ht-degree: 6%
 +++
 
 +++折線圖
+
+在已選取&#x200B;_[!UICONTROL 樣式]_&#x200B;標籤的右側面板上，展開&#x200B;**[!UICONTROL 行]**&#x200B;區段並設定元件高度和寬度的選項：
+
+* **[!UICONTROL 色彩]** — 按一下色彩方塊，從選擇器中選擇色彩。 您可以輸入已知的RGB、HSL、HSB或十六進位值來選擇顏色。 或者，您可以使用顏色滑桿和顏色欄位來選取顏色。
+
+* **[!UICONTROL 高度]** — 按一下向上和向下箭頭圖示，以增加或減少畫素數量。 空白值(Auto)是預設值，會根據元素的內容調整元素的高度。
+
+* **[!UICONTROL 寬度]** — 使用切換功能以畫素或百分比設定寬度。
+
+   * 若為百分比寬度，請使用滑桿來設定百分比值。 百分比會根據包含區塊的內容方塊來決定元素大小，其中不包含邊框間距和邊框。 例如，值50會將元素寬度設定為其所包含區塊內容寬度的50%。
+
+  ![定義分隔線元件](./assets/component-divider-line-options.png){width="250"}的線條樣式
+
+   * 針對以畫素為基礎的寬度，按一下向上和向下箭頭圖示，以增加或減少畫素數量。 空白值(Auto)是預設值，會根據元素內容調整元素寬度。
+
+* **[!UICONTROL 樣式]** — 從標準CSS `line-style`值清單中選擇值，例如&#x200B;_實線_、_點線_&#x200B;和&#x200B;_虛線_。
 
 +++
 
@@ -473,7 +491,7 @@ ht-degree: 6%
 
    [開啟程式碼編輯器以新增HTML](./assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
 
    [編輯HTML對話方塊](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
@@ -605,7 +623,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
