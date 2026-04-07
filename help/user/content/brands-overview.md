@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '868'
 ht-degree: 12%
 
 ---
@@ -63,9 +63,9 @@ ht-degree: 12%
 
 1. 當它可以使用時，[發佈品牌](./brands-manage-create.md#publish-the-brand)。
 
-1. 使用品牌進行[電子郵件內容對齊](./brand-alignment.md)。
-
-1. 使用品牌[產生電子郵件內容](./ai-assistant-emails.md)。
+1. 使用品牌進行[電子郵件內容對齊](./content-evaluation.md#brand-alignment-score)。
+<!-- 
+1. Use the brand to generate content. -->
 
 >[!BEGINSHADEBOX]
 
@@ -85,7 +85,7 @@ ht-degree: 12%
 
    ![為品牌存取新增AI助理許可權](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
    已指派給該角色的任何使用者的許可權都會自動更新。
 
@@ -95,6 +95,6 @@ ht-degree: 12%
 
      如果尚未建立使用者，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}。
 
-   * 按一下[儲存]以套用變更。**&#x200B;**
+   * 按一下[儲存]以套用變更。****
 
 >[!ENDSHADEBOX]

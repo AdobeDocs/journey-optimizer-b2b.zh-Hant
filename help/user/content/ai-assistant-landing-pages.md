@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-source-git-commit: 859656dc4e355be0d9efe9414ad93404970d6e73
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
 source-wordcount: '2700'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 開始使用此功能之前，請先檢閱[准則和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 [在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-由於Adobe承諾在媒體建立中使用創作AI工具時提高透明度，Adobe針對任何內容或專案套用[內容認證](https://helpx.adobe.com/tw/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}，其中包含Firefly產生的資產（下載或匯出時）。
+由於Adobe承諾在媒體建立中使用創作AI工具時提高透明度，Adobe針對任何內容或專案套用[內容認證](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}，其中包含Firefly產生的資產（下載或匯出時）。
 
 下列限制和准則適用於[!DNL Journey Optimizer B2B Edition]中用於產生登陸頁面內容的AI助理功能：
 
@@ -140,7 +140,7 @@ ht-degree: 1%
 
 1. (Beta)選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;來定義您的[可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;來定義您的[可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中，輸入要產生的專案說明。
 
@@ -158,7 +158,7 @@ ht-degree: 1%
    * [**[!UICONTROL 影像設定]**](#image-settings) — 如果您想要在產生的內容中包含影像，請啟用影像產生並提供指引。
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供作為內容產生來源的內容資產。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
 1. 在AI助理面板中向下捲動，並瀏覽產生的變數以確定哪一個最適合。
 
@@ -186,7 +186,7 @@ ht-degree: 1%
 
 1. (Beta)選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中，輸入要產生的專案說明。
 
@@ -200,7 +200,7 @@ ht-degree: 1%
 
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供做為內容產生來源的內容資產。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
 1. 在AI助理面板中向下捲動，並瀏覽產生的變數以確定哪一個最適合。
 
@@ -228,7 +228,7 @@ ht-degree: 1%
 
 1. (Beta)選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中輸入您想要的描述。
 
@@ -242,7 +242,7 @@ ht-degree: 1%
 
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供做為內容產生來源的內容資產。
 
-1. 當您對提示和設定感到滿意時，請按一下[產生]。**&#x200B;**
+1. 當您對提示和設定感到滿意時，請按一下[產生]。****
 
    AI Assistant會處理要求，並根據提示和其他輸入產生最適合的影像。
 
@@ -254,13 +254,13 @@ ht-degree: 1%
 
    此對話方塊提供額外的空間來比較變化、調整影像和參考內容設定（如果需要），以及重新產生變化。
 
-   您可以選取變數並按一下&#x200B;**[!UICONTROL 產生類似專案]**&#x200B;以產生與所選變數類似的其他影像。 或者，按一下[在Adobe Express中編輯] **&#x200B;**，自行變更影像。 如需使用Adobe Express調整影像的詳細資訊，請參閱[Adobe Express中的快速動作](./image-edit-adobe-express.md#quick-actions-in-adobe-express)。
+   您可以選取變數並按一下&#x200B;**[!UICONTROL 產生類似專案]**&#x200B;以產生與所選變數類似的其他影像。 或者，按一下[在Adobe Express中編輯] ****，自行變更影像。 如需使用Adobe Express調整影像的詳細資訊，請參閱[Adobe Express中的快速動作](./image-edit-adobe-express.md#quick-actions-in-adobe-express)。
 
    ![文字變化與細分選項的AI Assistant預覽](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
 
    您也可以[針對產生的變化，提交意見反應](#submit-variation-feedback)。
 
-1. 反白顯示您想要的影像，然後按一下「選取&#x200B;**&#x200B;**」以選取的專案取代影像或預留位置，並返回登陸頁面設計空間。
+1. 反白顯示您想要的影像，然後按一下「選取&#x200B;****」以選取的專案取代影像或預留位置，並返回登陸頁面設計空間。
 
    您可以使用畫布上的編輯和格式化工具來更改影像，以及右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;選項。
 
@@ -314,6 +314,6 @@ ht-degree: 1%
 
 品牌一致性評估和評分可協助您確保行銷活動中的語調、訊息和視覺身分的一致性，同時還可作為內容上線前的品質檢查。 登入頁面內容完成時，請按一下右側的&#x200B;_品牌一致性_ （ ![品牌一致性圖示](../assets/do-not-localize/icon-brand-compliance.svg) ）圖示，以開啟登入頁面設計空間中的&#x200B;_品牌一致性_&#x200B;右側面板。
 
-![存取品牌對齊工具](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+![存取Brand Alignment評分工具](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-如需詳細資訊，請參閱[驗證您的品牌一致性](./brand-alignment.md#validate-your-brand-alignment)
+如需詳細資訊，請參閱&#x200B;[_品牌一致性分數_](./content-evaluation.md#brand-alignment-score)
