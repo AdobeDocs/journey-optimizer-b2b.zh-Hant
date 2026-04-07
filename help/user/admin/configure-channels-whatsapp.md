@@ -4,7 +4,7 @@ description: 透過Meta的Cloud API連線您的WhatsApp商業帳戶，以啟用J
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-source-git-commit: ce039c5e2a7dc836b434d9ab373ebdfe1d19fc3b
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 11%
@@ -212,11 +212,11 @@ Webhook可讓Journey Optimizer B2B edition接收來自WhatsApp商業帳戶的傳
 
 1. 針對&#x200B;**[!UICONTROL 選取頻道]**，請選擇`WhatsApp`。
 
-<!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration.
+   <!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration. -->
 
-   Make sure to include all applicable marketing actions to ensure compliance with customer preferences.
+   <!-- Make sure to include all applicable marketing actions to ensure compliance with customer preferences. -->
 
-   All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
+   <!-- All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
 
 1. 在&#x200B;_[!UICONTROL WhatsApp設定]_&#x200B;底下，選取您在前一個工作中建立的&#x200B;**[!UICONTROL WhatsApp設定]** （API認證）。
 

@@ -4,10 +4,10 @@ description: 將Experience Manager Assets存放庫連線至Journey Optimizer B2B
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 1%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer B2B Edition]與[!DNL Adobe Experience Manager Assets as a Cloud Service]整合，允許在您的電子郵件內容中使用資產。 它透過與[!DNL Experience Manager Assets]交換資訊來確保透明度。 設定與[!DNL Adobe Experience Assets]的連線以啟用此功能。
 
-Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都有多個環境和存放庫（[瞭解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 在Adobe Journey Optimizer B2B edition中設定Adobe Experience Manager Assets時，您需設定與每個要用於存取數位資產的存放庫的連線。
+Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都有多個環境和存放庫（[瞭解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 在Adobe Journey Optimizer B2B edition中設定Adobe Experience Manager Assets時，您需設定與每個要用於存取數位資產的存放庫的連線。
 
 {{aem-assets-licensing-note}}
 
 ## 先決條件
 
-* 在AEM Headless Developer Console上針對所需的環境產生服務認證（[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
+* 在AEM Headless Developer Console上針對所需的環境產生服務認證（[深入瞭解](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
 * 取得連線所需的憑證。 最佳做法是確保憑證在到期前至少還有六個月。 憑證每365天過期一次。
 * Adobe Journey Optimizer B2B edition支援一次存取一個數位資產管理來源。 切換之前，請確定Adobe Experience Manager中提供了所需的資產。
 
@@ -37,9 +37,9 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 
    ![存取Assets設定空間](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
-<!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
--->
-從這裡，您可以逐一設定與每個AEM環境存放庫的連線。
+   <!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
+    -->
+   從這裡，您可以逐一設定與每個AEM環境存放庫的連線。
 
 1. 在&#x200B;_[!UICONTROL Adobe Experience Manager Assets]_&#x200B;方塊中，按一下&#x200B;**[!UICONTROL 設定存放庫]**&#x200B;旁的箭頭，然後選擇存放庫。
 
@@ -77,13 +77,13 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 
 >[!NOTE]
 >
->[!DNL Adobe Journey Optimizer B2B Edition]與[!DNL Experience Manager Assets]通訊以取得使用資訊。 連線必須保持作用中狀態，才能進行可靠的使用資料同步處理，並防止資料不一致。 管理員會透過應用程式內通知接收有關憑證過期的通知。 到期日也會顯示在&#x200B;_管理_&#x200B;區域的&#x200B;_[!UICONTROL Assets]_&#x200B;子區段中。
+>[!DNL Adobe Journey Optimizer B2B Edition]與[!DNL Experience Manager Assets]通訊以取得使用資訊。 連線必須保持作用中狀態，才能進行可靠的使用資料同步處理，並防止資料不一致。 管理員會透過應用程式內通知接收有關憑證過期的通知。 到期日也會顯示在&#x200B;_[!UICONTROL 管理]_&#x200B;區域的&#x200B;_Assets_&#x200B;子區段中。
 
 1. 在數位資產管理頁面上，找出已設定的存放庫清單。
 
 1. 按一下所需的存放庫以取代憑證。
 
-1. 按一下憑證檔案的省略符號(**...**)圖示，以顯示其動作選項。
+1. 按一下省略符號(**...**) 圖示來顯示憑證檔案上動作的選項。
 
    ![存取AEM資產存放庫憑證的選項功能表](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
 
@@ -103,7 +103,7 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 
 1. 按一下已連線的存放庫。
 
-1. 按一下憑證檔案的省略符號(**...**)圖示，以顯示其動作選項。
+1. 按一下省略符號(**...**) 圖示來顯示憑證檔案上動作的選項。
 
 1. 選擇&#x200B;**[!UICONTROL 檢視]**。
 
@@ -119,11 +119,12 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 
 1. 按一下所需的存放庫名稱以編輯連線。
 
-1. 按一下憑證檔案的省略符號(**...**)圖示，以顯示其動作選項。
+1. 按一下省略符號(**...**) 圖示來顯示憑證檔案上動作的選項。
 
 1. 選擇&#x200B;**[!UICONTROL 刪除]**。
 
 1. 在確認對話框中，按一下「**[!UICONTROL 刪除]**」。
+
 <!--
 
 ## Switch back to Adobe Marketo Engage Assets
