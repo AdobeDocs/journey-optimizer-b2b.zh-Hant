@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
+source-git-commit: e770b40ebe15a9fe8addd2876d34a0f7800affd2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 96%
+source-wordcount: '439'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 96%
       + [監聽事件](./journeys/listen-for-event-nodes.md)
       + [分割與合併路徑](./journeys/split-merge-paths-nodes.md)
       + [等待](./journeys/wait-nodes.md)
+      + [外部節點](./journeys/external-nodes.md)
    + [歷程詳細資訊](./journeys/journey-details.md)
 + 歷程內容 {#journey-content}
    + [簡訊頻道](./content/sms-authoring.md)
@@ -155,6 +156,11 @@ ht-degree: 96%
 + 管理 {#admin}
    + [治理](./admin/governance.md)
    + [人物誌對應](./admin/persona-mapping.md)
+   + 設定 {#configurations}
+      + [AEM Assets 存放庫](./admin/configure-aem-repositories.md)
+      + [意圖資料](./admin/intent-data.md)
+      + [參與度分數加權](./admin/engagement-score-weighting.md)
+      + [外部動作](./admin/configure-external-actions.md)
    + 管道 {#channels}
       + [電子郵件組態](./admin/configure-channels-emails.md)
       + [簡訊設定](./admin/configure-channels-sms.md)
@@ -162,7 +168,3 @@ ht-degree: 96%
       + [Web頻道設定(Beta)](./admin/configure-channels-web.md)
       + [登陸頁面設定(Beta)](./admin/landing-page-settings.md)
       + [設定事件收集的資料流](./data/aep-event-collection.md)
-   + 設定 {#configurations}
-      + [AEM Assets 存放庫](./admin/configure-aem-repositories.md)
-      + [意圖資料](./admin/intent-data.md)
-      + [參與度分數加權](./admin/engagement-score-weighting.md)
