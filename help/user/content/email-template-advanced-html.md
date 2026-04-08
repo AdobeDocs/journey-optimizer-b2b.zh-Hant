@@ -46,7 +46,7 @@ _進階HTML模式_&#x200B;提供檢視，讓經驗豐富的使用者直接檢視
 
    ![按一下電子郵件範本設計空間工具列中的HTML圖示](./assets/email-template-advanced-html-mode-toolbar.png){width="750" zoomable="yes"}
 
-   如果您是第一次開啟進階HTML模式（或經過一個月以上），系統會顯示警告訊息。 檢閱資訊，然後按一下[確定] ****&#x200B;以繼續。
+   如果您是第一次開啟進階HTML模式（或經過一個月以上），系統會顯示警告訊息。 檢閱資訊，然後按一下[確定] **&#x200B;**&#x200B;以繼續。
 
    ![檢閱進階HTML模式警告，然後按一下[確定]繼續](./assets/email-template-html-mode-warning.png){width="500"}
 
