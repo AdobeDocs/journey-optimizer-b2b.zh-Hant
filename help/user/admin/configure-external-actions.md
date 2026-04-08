@@ -39,7 +39,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->回呼函式需要持有人權杖。 請在Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中為您的IMS組織設定[OAuth伺服器對伺服器認證，以擷取此專案。
+>回呼函式需要持有人權杖。 請在Adobe Developer Console[&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中為您的IMS組織設定OAuth伺服器對伺服器認證，以擷取此專案。
 
 服務上線後，將OpenAPI規格的URL和驗證認證提供給負責設定動作的產品管理員。
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;_上一箭號_&#x200B;以返回清單並將動作保持在&#x200B;_草稿_&#x200B;狀態。
 
-   或者，按一下[啟動]****&#x200B;將動作組態變更為[啟動]__&#x200B;狀態。 設定的外部動作必須處於作用中狀態，才能用於帳戶歷程。
+   或者，按一下[啟動]&#x200B;**&#x200B;**&#x200B;將動作組態變更為[啟動]__&#x200B;狀態。 設定的外部動作必須處於作用中狀態，才能用於帳戶歷程。
 
 ## 將外部節點新增至歷程 {#add-journey-node}
 
