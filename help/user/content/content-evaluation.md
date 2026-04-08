@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # 內容得分 {#content-scoring}
 
-內容評估與評分可協助您建立、檢閱和管理遵循所選品牌[&#128279;](./brands-manage-create.md#brand-definitions)中定義的准則和一般品質標準的內容。 執行評估可確保電子郵件行銷活動的語氣、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
+內容評估與評分可協助您建立、檢閱和管理遵循所選品牌](./brands-manage-create.md#brand-definitions)中定義的准則[和一般品質標準的內容。 執行評估可確保電子郵件行銷活動的語氣、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
 
 >[!AVAILABILITY]
 >
@@ -93,7 +93,7 @@ ht-degree: 8%
 
 ![全熒幕檢視中的品牌一致性評估詳細資料](./assets/brands-alignment-evaluation-details-full-screen.png){width="700" zoomable="yes"}
 
-您可以變更內容，然後按一下[重新評估分數] **&#x200B;**，執行其他評估並檢查改善的結果。
+您可以變更內容，然後按一下[重新評估分數] ****，執行其他評估並檢查改善的結果。
 
 ## 內容品質分數 {#quality-score}
 
