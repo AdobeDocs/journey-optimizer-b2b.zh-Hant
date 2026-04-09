@@ -24,7 +24,7 @@ Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驅動附加應用程�
 
 下列影片提供Sales Qualifier和Account Qualification Agent的簡短示範。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476572?captions=chi_hant)
 
 銷售限定詞包含在[!UICONTROL Journey Optimizer B2B edition]中，但它是Experience Platform Experience Cloud中的個別應用程式。
 
