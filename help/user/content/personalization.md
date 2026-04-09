@@ -1,13 +1,13 @@
 ---
 title: 內容個人化
-description: 使用Journey OptimizerB2B版中的帳戶、人員和系統令牌對B2B電子郵件進行個性化。 瞭解如何使用個性化編輯器和語法。
+description: 在Journey Optimizer B2B edition中使用帳戶、人員和系統權杖，個人化B2B電子郵件。 瞭解如何使用個人化編輯器和語法。
 feature: Personalization, Content Design Tools, Email Authoring
 topic: Personalization
 role: User, Developer
 level: Intermediate
-keywords: 表達式，編輯器，開始，個性化
+keywords: 運算式，編輯器，開始，個人化
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
+source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 6%
@@ -21,33 +21,33 @@ ht-degree: 6%
 >title="個人化內容體驗"
 >abstract="使用 **Adobe Journey Optimizer B2B Edition**，利用手邊關於各個特定接收者的資料與資訊，調整給其的訊息。 可以是使用者的名字、產業、職稱等。"
 
-[!DNL Adobe Journey Optimizer B2B Edition]個性化功能允許您通過利用您擁有的有關電子郵件的資料和資訊，將電子郵件調整為每個特定收件人。 可以是使用者的名字、產業、職稱等。
+[!DNL Adobe Journey Optimizer B2B Edition]個人化功能可讓您利用所擁有的資料與資訊，將電子郵件訊息調整至每個特定收件者。 可以是使用者的名字、產業、職稱等。
 
-使用&#x200B;_個性化編輯器_，您可以選擇、排列、自定義和驗證所有資料，以便為您的內容建立自定義個性化。 使用各種工具（如幫助程式功能）來定制消息。 編輯器使用基於&#x200B;_Handlebars_&#x200B;的內聯個性化語法，其中表達式由雙花括弧`{{}}`括起的內容構造。
+使用&#x200B;_個人化編輯器_，您可以選取、排列、自訂及驗證所有資料，為您的內容建立自訂的個人化。 使用各種工具（例如協助程式功能）來量身打造訊息。 編輯器使用以&#x200B;_Handlebars_&#x200B;為基礎的內嵌個人化語法，其中運算式是以雙大括弧`{{}}`括住的內容所建構。
 
-處理消息時，Journey OptimizerB2B版用Adobe Experience Platform資料集和本地系統值中包含的資料替換表達式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`動態變為`Hello John Doe`。
+處理訊息時，Journey Optimizer B2B edition會以Adobe Experience Platform資料集和本機系統值中包含的資料取代運算式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`會動態變成`Hello John Doe`。
 
-使用此語法，您可以在多個欄位中對郵件進行個性化設定，包括電子郵件主題行、郵件正文和發件人資訊。
+使用此語法，您可以跨多個欄位個人化訊息，包括電子郵件主旨列、訊息本文和寄件者資訊。
 
-## 個性化令牌
+## Personalization Token
 
-在[!DNL Journey Optimizer B2B Edition]中，您可以使用個性化令牌構建動態電子郵件內容：
+在[!DNL Journey Optimizer B2B Edition]中，您可以使用個人化權杖來建置您的動態電子郵件內容：
 
-* **帳戶令牌** — 這些令牌基於帳戶屬性，如&#x200B;_帳戶名_、_工業_&#x200B;和&#x200B;_員工數_。 使用這些令牌填充由&#x200B;**_XDM業務帳戶詳細資訊_**&#x200B;架構管理的屬性資料，該架構在Adobe Experience Platform定義。
+* **帳戶權杖** — 這些權杖是以帳戶屬性為基礎，例如&#x200B;_帳戶名稱_、_產業_&#x200B;和&#x200B;_員工人數_。 使用這些權杖來填入由&#x200B;**_XDM商業帳戶詳細資料_**&#x200B;結構描述管理的屬性資料，該結構描述已在Adobe Experience Platform中定義。
 
-* **人員令牌** — 這些令牌基於商業人員屬性，如&#x200B;_名字_、_職務_&#x200B;和&#x200B;_公司名稱_。 使用這些令牌填充由&#x200B;**_XDM Business Person Details_**&#x200B;架構管理的屬性資料，該架構在Adobe Experience Platform定義。
+* **人員權杖** — 這些權杖是以企業人員屬性為基礎，例如&#x200B;_名字_、_職稱_&#x200B;和&#x200B;_公司名稱_。 使用這些權杖來填入由&#x200B;**_XDM商業人士詳細資料_**&#x200B;結構描述管理的屬性資料，該結構描述已在Adobe Experience Platform中定義。
 
-* **系統令牌** — 這些令牌基於系統欄位值，如&#x200B;_日期_、_時間_&#x200B;和&#x200B;_取消訂閱連結_。
+* **系統權杖** — 這些權杖是以系統欄位值為基礎，例如&#x200B;_date_、_time_&#x200B;和&#x200B;_取消訂閱連結_。
 
-* **我的令牌**（當為行程定義時） — 為電子郵件所在的行程定義的[自定義令牌](./personalization-my-tokens.md)。
+* **我的權杖** （為歷程定義時） — 為電子郵件所在的歷程](./personalization-my-tokens.md)定義的[自訂權杖。
 
 >[!NOTE]
 >
->瞭解有關[Adobe Experience Platform資料模型(XDM)文檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中XDM架構的詳細資訊。
+>在[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中進一步瞭解XDM結構描述。
 
-## 個性化編輯器
+## Personalization編輯器
 
-個性化編輯器在您需要在電子郵件內容中定義個性化的每個上下文中都可用。 在編輯器中，您可以選擇、排列、自定義和驗證所有資料，以便為您的內容建立自定義個性化。
+您必須在電子郵件內容中定義個人化的每個內容中，都可使用個人化編輯器。 在編輯器中，您可以選取、排列、自訂及驗證所有資料，為您的內容建立自訂個人化。
 
 按一下「_新增個人化_」（「![新增個人化圖示](../../assets/do-not-localize/icon-personalization-field.svg)」）圖示，在任何欄位或內容元件中新增個人化。
 
@@ -65,17 +65,19 @@ ht-degree: 6%
 
 ![Personalization編輯器 — Token更多功能表](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
-<!-- >>[!NOTE]
+<!--
+>[!NOTE]
 >
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->
-您也可以定義預設後援文字字串，當字串型別的設定檔屬性為空白時就會顯示。 按一下屬性的&#x200B;_更多功能表_ ( **...** )圖示，然後選取&#x200B;**[!UICONTROL 插入後援文字]**。 輸入設定檔的屬性值為空時所應顯示的文字，然後按一下[新增]。**&#x200B;**
+
+您也可以定義預設後援文字字串，當字串型別的設定檔屬性為空白時就會顯示。 按一下屬性的&#x200B;_更多功能表_ ( **...** )圖示，然後選取&#x200B;**[!UICONTROL 插入後援文字]**。 輸入設定檔的屬性值為空時所應顯示的文字，然後按一下[新增]。****
 
 最佳實務是在將運算式插入內容之前先驗證該運算式。 按一下編輯器底部的&#x200B;**[!UICONTROL 驗證]**，檢查您的語法並確保沒有錯誤。
 
 ![Personalization編輯器驗證碼](./assets/personalization-editor-validated.png){width="500"}
 
-當運算式完成且沒有錯誤時，請按一下[儲存]。**&#x200B;**
+當運算式完成且沒有錯誤時，請按一下[儲存]。****
 
 ### 自訂資料集
 

@@ -5,10 +5,10 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 4%
+source-wordcount: '353'
+ht-degree: 6%
 
 ---
 
@@ -54,7 +54,8 @@ ht-degree: 4%
 
 隨時按一下「儲存」**[!UICONTROL 以儲存登入頁面範本。]**
 <!--
-You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). 
+-->
 
 ### 檢視選項
 
@@ -74,5 +75,5 @@ You can continue to make edits to the draft page template. When you are ready to
 
 * **[!UICONTROL 重設登陸頁面]** — 按一下此選項，將視覺化設計畫布清除為空白並重新啟動建立頁面內容。
 * **[!UICONTROL 變更您的設計]** — 返回&#x200B;_[!UICONTROL 建立您的主要登陸頁面]_&#x200B;首頁。 從那裡，您可以選擇另一個範本以重新啟動設計程式，或選擇在空白畫布中從頭開始設計頁面。
-<!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
+<!-- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL 匯出HTML]** — 將視覺畫布中的內容以HTML格式下載到您的本機系統，並封裝成zip檔。

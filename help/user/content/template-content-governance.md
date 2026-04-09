@@ -4,7 +4,7 @@ description: 鎖定電子郵件範本元件以符合品牌規範 — 在Journey 
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -48,14 +48,15 @@ ht-degree: 0%
    ![啟用內容新增](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
 
    在根層級設定此模式時，範本中的所有元素都會鎖定。 左側的樹狀結構會在根及所有子元素旁顯示&#x200B;_唯讀_&#x200B;圖示（ ![唯讀圖示](../assets/do-not-localize/icon-tree-lock.svg) ）。
-<!-- 
+<!--
 
    
 - ![Link icon](../assets/do-not-localize/icon-navigation-tree.svg)
 - ![Read only icon](../assets/do-not-localize/icon-tree-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-content-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-edit-text.svg)
-- ![Edit element](../assets/do-not-localize/icon-edit.svg) -->
+- ![Edit element](../assets/do-not-localize/icon-edit.svg) 
+-->
 
 ## 將鎖定套用至結構
 

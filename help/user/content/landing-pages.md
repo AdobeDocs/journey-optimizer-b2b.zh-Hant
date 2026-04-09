@@ -5,7 +5,7 @@ feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 093deda1fa43f1e699709b0ec96db173fc39c3cd
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2220'
 ht-degree: 2%
@@ -27,8 +27,9 @@ ht-degree: 2%
 例如，您可以建立並設計登入頁面，將使用者導向至線上資訊。 頁面可能包含他們可以選擇加入或選擇退出接收您通訊的表單。 或者，也可以是訂閱電子報等週期性通訊的良機。
 
 您可以在視覺設計空間中建立、個人化和預覽登入頁面。
-<!-- 
-For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
+<!--
+For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. 
+-->
 
 ## 存取及管理登入頁面
 
@@ -152,10 +153,11 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
 >[!ENDTABS]
 
-<!-- 
+<!--
 >[!NOTE]
 >
-> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). -->
+> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). 
+-->
 
 ## 編輯登入頁面
 
@@ -239,7 +241,7 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
-1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。**&#x200B;**
+1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。****
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而託管頁面中的內容會更新。
 

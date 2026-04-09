@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '4853'
+source-wordcount: '4943'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->協助程式功能適用於在[!DNL Journey Optimizer B2B Edition]簡化架構[上布建的](../simplified-architecture.md)環境。
+>協助程式功能適用於在[簡化架構](../simplified-architecture.md)上布建的[!DNL Journey Optimizer B2B Edition]環境。
 
 ## 彙總函式
 
@@ -326,7 +326,7 @@ ht-degree: 6%
 
 **範例**
 
-下列作業會傳回價格最高的前五個訂單中的第一個。 有關`topN`函式的詳細資訊可在陣列[區段的`n`第一個](#first-n)中找到。
+下列作業會傳回價格最高的前五個訂單中的第一個。 有關`topN`函式的詳細資訊可在陣列](#first-n)區段的[第一個`n`中找到。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -360,7 +360,7 @@ ht-degree: 6%
 
 +++
 
-### 在  {#in}
+### 在 {#in}
 
 使用`in`函式來判斷專案是否為陣列或清單的成員。
 
@@ -420,7 +420,9 @@ ht-degree: 6%
 
 +++
 
-<!-- ## Intersection{#intersection}
+<!--
+
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -450,7 +452,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 
 | 引數 | 說明 |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | 要排序的陣列或清單。 |
 | `{VALUE}` | 用來排序陣列或清單的屬性。 |
 | `{AMOUNT}` | 要傳回的專案數。 |
@@ -1447,7 +1449,7 @@ not (homeAddress.countryISO = "CA")
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在此範例中，如果此設定檔的`there`屬性為空白或Null，則會顯示值`firstName`。
+在此範例中，如果此設定檔的`firstName`屬性為空白或Null，則會顯示值`there`。
 
 +++
 
@@ -1592,7 +1594,7 @@ Some edu specific content
 
 +++
 
-### 替換為 {#with}
+### 使用 {#with}
 
 使用`with`協助程式變更範本部分的評估權杖。
 
@@ -2675,7 +2677,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ### replaceAll {#replaceAll}
 
-使用`replaceAll`函式以指定的常值取代字串，取代符合規則運算式之文字的所有子字串。 Regex對`\`和`+`有特殊處理，並且所有regex運算式都遵循PQL逸出策略。 取代從字串的開頭到結尾進行，例如，在字串`aa`中將`b`取代為`aaa`會產生`ba`而非`ab`。
+使用`replaceAll`函式以指定的常值取代字串，取代符合規則運算式之文字的所有子字串。 Regex對`\`和`+`有特殊處理，並且所有regex運算式都遵循PQL逸出策略。 取代從字串的開頭到結尾進行，例如，在字串`aaa`中將`aa`取代為`b`會產生`ba`而非`ab`。
 
 +++語法
 

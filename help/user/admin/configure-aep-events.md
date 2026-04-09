@@ -6,16 +6,16 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前正在測試版中"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: cefd98099bf6524d1d559a47d502990852de1468
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 7%
+source-wordcount: '1477'
+ht-degree: 12%
 
 ---
 
 # 選取體驗事件和欄位
 
-管理員可以在體驗事件聯合結構描述中選取特定的[AEP Experience Event](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相關欄位。 選取後，使用者可以設定決策規則來監聽這些Experience事件，以根據近乎即時的事件資料啟用動態且鎖定的行銷活動動作。
+管理員可以在體驗事件聯合結構描述中選取特定的[AEP Experience Event](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相關欄位。 選取後，使用者可以設定決策規則來監聽這些Experience事件，以根據近乎即時的事件資料啟用動態且鎖定的行銷活動動作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 在歷程中使用AEP體驗事件有兩個步驟：
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 * 您最多可以選取50個事件，每個事件最多可選取100個欄位。
 
-* 歷程可以聆聽使用Experience Platform串流功能(例如Web SDK或HTTP API)擷取的體驗事件。
+* 歷程可以聆聽使用Experience Platform串流功能（例如Web SDK或HTTP API）擷取的體驗事件。
 
 * 您可以在歷程中使用體驗事件進行決策，但不會保留這些事件。 因此，您無法在Journey Optimizer B2B edition中運用體驗事件的歷史記錄。
 
@@ -283,7 +283,7 @@ ht-degree: 7%
 
 +++
 
-### 電子郵件已軟退回
+### 電子郵件已退回 (暫時性)
 
 此事件會追蹤傳送給個人的電子郵件何時軟跳出。
 
@@ -462,6 +462,8 @@ ht-degree: 7%
 
 +++
 
-<!-- ## Overview video
+<!--
+ ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448694/?captions=chi_hant&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
+-->

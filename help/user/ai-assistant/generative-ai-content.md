@@ -6,7 +6,7 @@ level: Beginner
 topic: Artificial Intelligence
 role: User
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-source-git-commit: ce4df9a2726cf842c088738521b3e5dd88dd768f
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 7%
@@ -36,7 +36,8 @@ ht-degree: 7%
 在[!DNL Journey Optimizer B2B Edition]中使用創作AI功能來建立內容，以利用Adobe的創作AI功能。 製作電子郵件、SMS訊息、登陸頁面等的個人化文字和視覺效果。 當您建立完整的行銷活動或只是修訂特定資產時，這些功能可幫助您順暢地將內容與品牌准則保持一致，同時節省寶貴的時間。
 
 <!--
-Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. -->
+Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
+-->
 
 >[!IMPORTANT]
 >
@@ -49,7 +50,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 ## 一般准則和限制 {#general-guidelines-and-limitations}
 
-您對generative AI功能的使用須遵守[Adobe Experience Cloud Generative AI使用指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 由於Adobe承諾在使用創作AI工具建立媒體時保持透明度，因此Adobe會在下載或匯出內容或專案時，針對包含[!DNL Firefly]產生的資產的任何內容或專案套用[內容認證](https://helpx.adobe.com/tw/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}。
+您對generative AI功能的使用須遵守[Adobe Experience Cloud Generative AI使用指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 由於Adobe承諾在使用創作AI工具建立媒體時保持透明度，因此Adobe會在下載或匯出內容或專案時，針對包含[!DNL Firefly]產生的資產的任何內容或專案套用[內容認證](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}。
 
 檢閱針對[!DNL Journey Optimizer B2B Edition]中的內容使用創作AI的一般准則：
 
@@ -243,7 +244,8 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 </tbody>
 </table>
 
-<!-- channels not yet supported
+<!--
+ channels not yet supported
 <tr>
 <td><strong>SMS</strong></td>
 <td>"Alert VIP customers about a 4-hour flash sale on premium electronics with 40% discount, limited to the first 100 customers"</td>
@@ -251,9 +253,11 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 <tr>
 <td><strong>Push Notifications</strong></td>
 <td>"Re-engage users who haven't opened the app in 7 days with personalized content recommendations based on their reading history"</td>
-</tr> -->
+</tr> 
+-->
 
-<!-- Wait on more B2B specific examples
+<!--
+ Wait on more B2B specific examples
 
 ### Industry-specific approaches {#industry-approaches}
 
@@ -291,7 +295,8 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 </tr>
 </tbody>
 </table>
- -->
+ 
+-->
 
 ### 新內容與修改現有內容的比較 {#new-vs-modify}
 

@@ -2,7 +2,7 @@
 title: Adobe Journey Optimizer B2B Edition 文件
 description: Journey Optimizer B2B Edition 的完整文件：探索用於上線、建立購買群組、建置帳戶歷程，以及管理內容的可用資源。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 0e79785bd8baf3914127cc650b8e503a8d461a3d
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 29%
@@ -23,7 +23,7 @@ ht-degree: 29%
 
 >[!TAB AI代理程式]
 
-透過[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant介面可自動呼叫專業代理程式，以取得正確的答案和見解。 Agent Orchestrator 會記住您的對話記錄，讓您可以不必複述相關背景資訊，即可自然地在先前問題的基礎上繼續提問，並且結合來自多個代理的洞察，為您提供清楚且統一的回答。 在[!DNL Journey Optimizer B2B Edition]內容中，有三個針對特定B2B任務和網域專門建置的代理程式：
+透過[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}，AI Assistant介面可自動呼叫專業代理程式，以取得正確的答案和見解。 Agent Orchestrator 會記住您的對話記錄，讓您可以不必複述相關背景資訊，即可自然地在先前問題的基礎上繼續提問，並且結合來自多個代理的洞察，為您提供清楚且統一的回答。 在[!DNL Journey Optimizer B2B Edition]內容中，有三個針對特定B2B任務和網域專門建置的代理程式：
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
@@ -71,7 +71,7 @@ ht-degree: 29%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
@@ -81,7 +81,7 @@ ht-degree: 29%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入門
 
@@ -91,7 +91,7 @@ ht-degree: 29%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定您的XDM欄位
 
@@ -101,7 +101,7 @@ ht-degree: 29%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -113,7 +113,7 @@ ht-degree: 29%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 建立帳戶歷程
 
@@ -123,7 +123,7 @@ ht-degree: 29%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 瞭解購買群組
 
@@ -134,9 +134,9 @@ ht-degree: 29%
 
 ::::
 
-<!-- 
+<!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -164,7 +164,8 @@ Learn how to author and manage content for personalized customer experiences orc
     <td>
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
       <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
-    </td> -->
+    </td>
+    -->
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="購買群組"><br/>
       <strong>購買群組</strong><br/><a href="./buying-groups/buying-groups-overview.md">購買群組概觀</a><br/><a href="./buying-groups/buying-groups-role-templates.md">角色範本</a><br/><a href="./buying-groups/solution-interests.md">解決方案興趣</a><br/><a href="./buying-groups/buying-groups-create.md">建立購買群組</a>
@@ -195,10 +196,10 @@ Learn how to author and manage content for personalized customer experiences orc
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">影片和教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">產品說明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">檔案</a> - <a href="https://business.adobe.com/tw/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">檔案</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home" target="_blank">檔案</a> - <a href="https://experienceleague.adobe.com/zh-hant/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">開發人員教學課程</a>

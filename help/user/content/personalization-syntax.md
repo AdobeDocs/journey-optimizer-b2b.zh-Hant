@@ -6,10 +6,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 2%
+source-wordcount: '361'
+ht-degree: 3%
 
 ---
 
@@ -27,14 +28,14 @@ ht-degree: 2%
 {{account.accountName}}
 ```
 
-其中：
+其中:
 
 * `account`是名稱空間。
 * `accountName`是由屬性組成的Token。
 
   >[!NOTE]
   >
-  >屬性結構是在[Adobe Experience Platform XDM結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中定義。
+  >屬性結構是在[Adobe Experience Platform XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中定義。
 
 * 識別碼可以是任何的Unicode字元，但下列字元除外：
 
@@ -48,9 +49,11 @@ ht-degree: 2%
 
 * 在Handlebars中，{\{expression}\}傳回的值是&#x200B;_HTML逸出_。 如果運算式包含`&`，則會產生傳回的HTML逸出輸出為`&amp;`。 如果您不希望Handlebars逸出值，請使用+triple-stash_。
 
-<!-- For example:
+<!--
+ For example:
 
-    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. -->
+    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. 
+-->
 
 * 對於常值函式引數，範本化語言剖析器不支援單一未逸出的反斜線(`\`)符號。 此字元必須使用額外的反斜線(`\`)符號逸出。 例如：
 
@@ -68,9 +71,11 @@ Handlebars協助程式函式是可附加引數的簡單識別碼。 每個引數
 {{/each }}
 ```
 
-<!-- These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name. 
+<!--
+ These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name.
 
-Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
+Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). 
+-->
 
 如需這些函式的詳細資訊，請參閱[協助程式函式](./personalization-helper-functions.md)。
 
@@ -83,7 +88,7 @@ Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/
 | 字串 | 由雙引號包住的字元所組成的資料型別。 <br>範例： `"prospect"`， `"jobs"`， `"articles"` |
 | 布林值 | 為true或false的資料型別。 |
 | 整數 | 代表整數的資料型別。 可以是正數、負數或零。 <br>範例： `-201`， `0`， `412` |
-| 陣列 | 一種資料型別，由一組其他常值組成。 它使用方括弧將不同值分組，並使用逗號分隔不同值。<br> **注意：**&#x200B;您無法直接存取陣列中專案的屬性。 <br>範例： `[1, 4, 7]`， `["US", "FR"]` |
+| 陣列 | 一種資料型別，由一組其他常值組成。 它使用方括弧將不同值分組，並使用逗號分隔不同值。<br> **注意：**&#x200B;您無法直接存取陣列中專案的屬性。<br> 範例： `[1, 4, 7]`， `["US", "FR"]` |
 
 >[!CAUTION]
 >

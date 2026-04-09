@@ -3,16 +3,17 @@ title: 傳送Collaboration工具電子郵件
 description: 在Journey Optimizer B2B edition中共同使用電子郵件。 新增評論、邀請稽核者、解決意見反應，並簡化團隊的稽核工作流程。
 feature: Email Authoring, Content
 role: User
-source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
+exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 3%
+source-wordcount: '1213'
+ht-degree: 4%
 
 ---
 
 # 電子郵件共同作業工具
 
-[電子郵件設計空間](./email-authoring.md)包括用於發表評論和解決問題的共同作業工具，以便行銷團隊能夠直接在[!DNL Journey Optimizer B2B Edition]內順暢地檢閱、討論及完成電子郵件資產。 使用者無須透過外部工具 (如聊天室、電子郵件對話串或試算表) 共用草稿，而是在電子郵件設計空間內進行註解、提出編輯建議和解決意見回饋提出的問題。使用這些工具簡化工作流程、減少錯誤，並確保利害關係人在帳戶歷程中啟動電子郵件行銷活動之前保持一致：
+[電子郵件設計空間](./email-authoring.md)包括用於發表評論和解決問題的共同作業工具，以便行銷團隊能夠直接在[!DNL Journey Optimizer B2B Edition]內順暢地檢閱、討論及完成電子郵件資產。 使用者無須透過外部工具 (如聊天室、電子郵件對話串或試算表) 共用草稿，而是在電子郵件設計空間內進行註解、提出編輯建議和解決意見回饋提出的問題。 使用這些工具簡化工作流程、減少錯誤，並確保利害關係人在帳戶歷程中啟動電子郵件行銷活動之前保持一致：
 
 * **_集中式意見反應_** — 在一個地方收集和追蹤所有意見反應。
 
@@ -24,15 +25,17 @@ ht-degree: 3%
 
 * **_內容中的Collaboration_** — 檢閱版面配置中的電子郵件內文復本、影像和call-to-action (CTA)元素。
 
-<!-- Enable asynchronous collaboration between team members for an email asset
+<!--
+ Enable asynchronous collaboration between team members for an email asset
 Allow users to attach comments to specific design elements
 Provide a unified interface for viewing and managing all comments within a project
 Support comment placement, editing, deleting, and navigation
-Display visual indicators (badges) for elements with associated comments -->
+Display visual indicators (badges) for elements with associated comments 
+-->
 
 ## 為檢閱者啟用電子郵件共同作業工具
 
-產品管理員可透過Adobe Experience Cloud中的&#x200B;**[!UICONTROL 許可權]** UI指派&#x200B;_管理B2B電子郵件_&#x200B;許可權，以啟用電子郵件共同作業工具的存取權。
+產品管理員可透過Adobe Experience Cloud中的&#x200B;_許可權_ UI指派&#x200B;**[!UICONTROL 管理B2B電子郵件]**&#x200B;許可權，以啟用電子郵件共同作業工具的存取權。
 
 +++ 啟用電子郵件許可權
 
@@ -44,17 +47,17 @@ Display visual indicators (badges) for elements with associated comments -->
 
    ![在Adobe Experience Platform許可權UI中管理B2B電子郵件許可權設定](./assets/emails-aep-permissions.png){width="700" zoomable="yes"}
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
    已指派給該角色的任何使用者的許可權都會自動更新。
 
-1. 若要將此角色指派給新使用者，請選取&#x200B;**[!UICONTROL 角色]**&#x200B;儀表板中的&#x200B;_[!UICONTROL 使用者]_&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增使用者]**。
+1. 若要將此角色指派給新使用者，請選取&#x200B;_[!UICONTROL 角色]_&#x200B;儀表板中的&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
    * 輸入使用者名稱和電子郵件地址，或從清單中選擇現有使用者。
 
      如果尚未建立使用者，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}。
 
-   * 按一下[儲存]以套用變更。**&#x200B;**
+   * 按一下[儲存]以套用變更。****
 
 +++
 
@@ -62,7 +65,7 @@ Display visual indicators (badges) for elements with associated comments -->
 
 在電子郵件設計空間建立、編輯或檢閱內容時，您可以存取&#x200B;_Collaboration_&#x200B;面板，以新增或管理電子郵件內容的註解。
 
-按一下右側導覽中的&#x200B;_Collaboration_ ( ![Collaboration圖示](../assets/do-not-localize/icon-comments.svg) )圖示。
+按一下右側導覽中的&#x200B;_Collaboration_ （ ![Collaboration圖示](../assets/do-not-localize/icon-comments.svg) ）圖示。
 
 電子郵件設計右側導覽中的![Collaboration面板圖示](./assets/email-comments-right-nav-icon.png){width="700" zoomable="yes"}
 
@@ -93,7 +96,7 @@ Display visual indicators (badges) for elements with associated comments -->
 
 1. 選取電子郵件內文。
 
-1. 按一下右側導覽中的&#x200B;_Collaboration_ ( ![Collaboration圖示](../assets/do-not-localize/icon-comments.svg) )圖示。
+1. 按一下右側導覽中的&#x200B;_Collaboration_ （ ![Collaboration圖示](../assets/do-not-localize/icon-comments.svg) ）圖示。
 
 1. 在右側面板的頂端，輸入您的邀請文字，讓使用者進行共同作業並提供意見回饋。
 

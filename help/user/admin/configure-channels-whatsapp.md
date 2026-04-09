@@ -4,9 +4,9 @@ description: 透過Meta的Cloud API連線您的WhatsApp商業帳戶，以啟用J
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1491'
 ht-degree: 11%
 
 ---
@@ -112,8 +112,10 @@ Adobe Journey Optimizer B2B edition會透過Meta的Cloud API傳送WhatsApp訊息
 
 1. 從外部測試認證 — 直接使用Meta API驗證您的認證，以確認問題與認證有關，或與Journey Optimizer B2B edition認證處理有關。
 
-<!-- 1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures. 
-do we have advanced logs? How are they enabled?-->
+<!--
+ 1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
+do we have advanced logs? How are they enabled?
+-->
 
 1. 聯絡Adobe — 如果環境和權益經確認有效，但HTTP 500錯誤仍然存在，請聯絡您的Adobe代表。
 
@@ -215,6 +217,8 @@ Webhook可讓Journey Optimizer B2B edition接收來自WhatsApp商業帳戶的傳
    <!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration. -->
 
    <!-- Make sure to include all applicable marketing actions to ensure compliance with customer preferences. -->
+
+   系統會自動運用與所選行銷動作相關的所有同意原則，以尊重客戶的偏好設定。 例如，在歷程中使用該設定的任何WhatsApp訊息，只會傳送給同意接收來自您的WhatsApp訊息的設定檔。 未同意接收這些通訊的設定檔會被排除。
 
    <!-- All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
 

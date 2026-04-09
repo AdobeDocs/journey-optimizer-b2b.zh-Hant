@@ -4,9 +4,9 @@ description: 使用視覺化設計工具、HTML匯入或範本建立電子郵件
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1175'
 ht-degree: 2%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 2%
 
 在您[新增電子郵件資產至歷程動作節點](./add-email.md)後，您可以定義電子郵件訊息的內容。
 
-按一下右側面板上&#x200B;**[!UICONTROL 詳細資料]**&#x200B;索引標籤中的&#x200B;_[!UICONTROL 編輯電子郵件內容]_。
+按一下右側面板上&#x200B;_[!UICONTROL 詳細資料]_&#x200B;索引標籤中的&#x200B;**[!UICONTROL 編輯電子郵件內容]**。
 
-![按一下[編輯電子郵件內容] &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![按一下[編輯電子郵件內容] ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 此動作會啟動電子郵件設計工具，您可在其中從下列選項中選擇要如何設計電子郵件：
 
 * [使用電子郵件Designer介面，從草稿開始設計電子郵件](#design-your-email-from-scratch)。
 
-* [從檔案或.zip資料夾匯入現有的HTML內容](#import-existing-html-content)。
+* 從檔案或 .zip 資料夾[匯入現有 HTML 內容](#import-existing-html-content)。
 
 * [從內建或自訂電子郵件範本清單中選取現有的範本](#select-a-template)。
 
@@ -51,13 +51,15 @@ ht-degree: 2%
 
 1. [測試電子郵件](#check-and-test-the-email)。
 
-<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
+<!--
+ If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual design space for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. 
+-->
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容
 
@@ -91,7 +93,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容[的](./template-content-governance.md)範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ![存取內文樣式](./assets/email-body-styles.png){width="800" zoomable="yes"}
 

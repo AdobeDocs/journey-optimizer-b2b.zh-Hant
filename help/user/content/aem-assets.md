@@ -4,9 +4,9 @@ description: 在內容製作中存取和使用AEM Assets影像 — 在Journey Op
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '592'
 ht-degree: 2%
 
 ---
@@ -23,17 +23,17 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->管理員需要將存取Assets的使用者新增至Assets消費者使用者或/和Assets使用者產品設定檔。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>管理員需要將存取Assets的使用者新增至Assets消費者使用者或/和Assets使用者產品設定檔。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## 存取AEM Assets影像
 
-在內容設計空間中，按一下左側邊欄中的&#x200B;_[!UICONTROL Experience Manager Assets]_ ( ![Experience Manager Assets圖示](../../assets/do-not-localize/icon-assets-aem.svg) )圖示。 這會將工具面板變更為所選存放庫中的可用資產清單。
+在內容設計空間中，按一下左側邊欄中的&#x200B;_[!UICONTROL Experience Manager Assets]_ （ ![Experience Manager Assets圖示](../../assets/do-not-localize/icon-assets-aem.svg) ）圖示。 這會將工具面板變更為所選存放庫中的可用資產清單。
 
 ![按一下Assets選擇器圖示以存取影像資產](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->目前，[!DNL Adobe Experience Manager Assets]僅支援來自[!DNL Adobe Journey Optimizer B2B Edition]的影像資產。 必須從[!DNL Adobe Experience Manager Assets]中央存放庫變更資產。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>目前，[!DNL Adobe Journey Optimizer B2B Edition]僅支援來自[!DNL Adobe Experience Manager Assets]的影像資產。 必須從[!DNL Adobe Experience Manager Assets]中央存放庫變更資產。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 變更顯示的存放庫
 
@@ -78,7 +78,7 @@ ht-degree: 2%
    ![使用篩選和搜尋欄位來尋找資產](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
 1. 按一下&#x200B;**[!UICONTROL 選取]**。
-<!-- 
+<!--
 
 ## Upload assets
 

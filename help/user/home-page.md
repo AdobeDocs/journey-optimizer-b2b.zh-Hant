@@ -4,10 +4,10 @@ description: 存取 Journey Optimizer B2B Edition 和導覽個人化首頁：透
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -15,28 +15,31 @@ ht-degree: 100%
 
 您可以使用 Adobe Journey Optimizer B2B Edition 內建的生成式 AI 和領先業界的自動化功能，協調帳戶和購買群組歷程，以便利用符合行銷資格的購買群組，將特定產品的需求最大化。
 
-<!-- Requirements?
+<!--
+ Requirements?
 -->
+
 若要存取 [!DNL Adobe Journey Optimizer B2B Edition]，請使用 Adobe ID 連線至 Adobe Experience Cloud，然後選取 [!DNL Journey Optimizer B2B Edition]。
 
 ![Adobe Experience Platform 應用程式](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-您登入 Adobe Experience Platform 並選取 Adobe Journey Optimizer B2B Edition 應用程式時，便會顯示首頁。此頁面以<!-- refined insights and-->快速存取連結至相關資源<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->的形式，提供 Journey Optimizer B2B 行動方案的現況概觀。
+您登入 Adobe Experience Platform 並選取 Adobe Journey Optimizer B2B Edition 應用程式時，便會顯示首頁。 此頁面以<!-- refined insights and-->個相關資源的快速存取連結的形式，提供Journey Optimizer B2B方案目前狀態的概觀。
+<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
 ![Journey Optimizer B2B Edition 首頁](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition 具有兩種主要使用者角色：_**行銷人員**_&#x200B;和&#x200B;_**管理員**_。每個角色針對不同的成熟度階段 (新手或進階) 均有特定的首頁。此頁面是根據每個角色所需的資訊及後續要採取的行動來提供相關內容。
+Journey Optimizer B2B Edition 具有兩種主要使用者人物誌：_**行銷人員**_&#x200B;和&#x200B;_**管理員**_。 每個人物誌針對不同的成熟度階段 (新手或進階) 均有特定的首頁。 此頁面是根據每個人物誌所需的資訊及後續要採取的行動來提供相關內容。
 
-* **行銷人員 - 新使用者**：新使用者的「_行銷人員_」首頁可協助他們逐漸熟悉 Journey Optimizer B2B 及其功能。此首頁提供引導式操作示範，讓新行銷人員獲得入門的逐步指導，以便他們了解系統運作細節，並有效率地開發 B2B 行銷策略和行動方案。
+* **行銷人員 - 新使用者**：新使用者的「_行銷人員_」首頁可協助他們逐漸熟悉 Journey Optimizer B2B 及其功能。 此首頁提供引導式操作示範，讓新行銷人員獲得入門的逐步指導，以便他們了解系統運作細節，並有效率地開發 B2B 行銷策略和行動方案。
 * **行銷人員 - 進階使用者**：進階行銷人員的「_行銷人員_」首頁顯示目前的行動方案進度、建議的後續動作，並提供相關區段的快速存取。
-* **管理員 - 新使用者**：新管理員的「_管理員_」首頁可協助他們逐漸熟悉 Journey Optimizer B2B Edition 及其功能。此首頁提供引導式操作示範，讓新管理員獲得逐步入門歷程，以了解系統運作細節並有效率地開發 B2B 行銷策略和行動方案。
+* **管理員 - 新使用者**：新管理員的「_管理員_」首頁可協助他們逐漸熟悉 Journey Optimizer B2B Edition 及其功能。 此首頁提供引導式操作示範，讓新管理員獲得逐步入門歷程，以了解系統運作細節並有效率地開發 B2B 行銷策略和行動方案。
 * **管理員 - 進階使用者**：進階管理員的「_管理員_」首頁會顯示目前實例狀態和可操作步驟，以提高管理員的效率和有效性。
 
-_[!UICONTROL 最近存取]_&#x200B;區段列出行銷人員或管理員最近存取的資產清單。使用此清單可直接前往您最近處理的資產，不需要導覽一系列的資產頁面及搜尋。
+_[!UICONTROL 最近存取]_&#x200B;區段列出行銷人員或管理員最近存取的資產清單。 使用此清單可直接前往您最近處理的資產，不需要導覽一系列的資產頁面及搜尋。
 
 使用者亦可透過此頁面存取 [AI 助理](./ai-assistant/ai-assistant-overview.md)，並根據需求快速取得關於任何特定問題或主題的資訊。<!-- and to obtain specific recommendations for their challenges or objectives-->
 
-<!-- 
+<!--
 
 ## Marketer - new user
 
@@ -81,5 +84,4 @@ The second row consists of the recent assets used by the B2B marketers in a sing
 The third row consists of the Key Performance Indicators that would help the administrators gauge the progress of the instance in terms of operational parameters such as users and usage.
 
 The fourth row consists of the learning resources that would help the administrator gain more information on a specific topic.
-
 -->

@@ -2,9 +2,9 @@
 title: 簡化的架構設定
 description: 在簡化的架構上設定Journey Optimizer B2B edition。 設定XDM結構描述、電子郵件/簡訊頻道、Marketo Engage歷程動作和使用者。
 feature: Setup, Administration
-role: Admin, Data Engineer
+role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 100%
@@ -207,7 +207,8 @@ ht-degree: 100%
 </tbody>
 </table>
 
-<!-- TBD for later 
+<!--
+ TBD for later
 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
@@ -273,7 +274,7 @@ ht-degree: 100%
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>設定您的企業網站以支援Adobe Experience Platform Web SDK。</td>
-<td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview">了解更多</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">了解更多</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>

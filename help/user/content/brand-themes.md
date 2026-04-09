@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，可重複使用，品牌一致性，電子郵件設計
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 5e8dc7e2da8f27950e9c05c66943317669a5361b
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 * 對自訂主題所做的變更不會自動重疊顯示至已使用該主題的所有電子郵件或電子郵件範本。 編輯每個主題的內容以重新整理主題。
 
 * 如果您刪除主題，該主題不會影響已套用主題的任何電子郵件或電子郵件範本。
-<!-- 
+<!--
 * If using a content created in HTML, you will be in [compatibility mode](existing-content.md) and you cannot apply themes to this content.
 -->
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
    當您定義新的主題設定時，畫布上的視覺元素會變更。 如果結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-1. 當您的佈景主題定義完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的佈景主題定義完成時，請按一下[儲存]。****
 
 1. 按一下&#x200B;**[!UICONTROL 關閉]**&#x200B;返回&#x200B;_[!UICONTROL 建立主題]_&#x200B;頁面，然後按&#x200B;**[!UICONTROL 取消]**&#x200B;返回設計頁面。
 
@@ -248,7 +248,7 @@ ht-degree: 2%
 
 顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >
@@ -282,7 +282,7 @@ ht-degree: 2%
 
    顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右邊欄底部的&#x200B;_還原_&#x200B;圖示。 按一下&#x200B;_重做_&#x200B;圖示以重新套用變更。
 
-1. 當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >
@@ -379,4 +379,5 @@ ht-degree: 2%
 - The theme is saved and reused by marketers to author multiple emails.
 
 ### 2. Switching Themes
-- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.-->
+- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.
+-->
