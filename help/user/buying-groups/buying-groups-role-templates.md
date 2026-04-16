@@ -1,10 +1,10 @@
 ---
 title: 購買群組角色範本
-description: 使用條件式自動指派來建立角色範本，以識別在Journey Optimizer B2B edition中購買群組的決策者和利害關係人。
+description: 使用條件式自動指派來建立角色範本，以識別在Journey Optimizer B2B Edition中購買群組的決策者和利害關係人。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '1410'
 ht-degree: 5%
@@ -71,7 +71,7 @@ ht-degree: 5%
 
    * 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
 
-     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單[&#128279;](./default-custom-roles.md#custom-roles)中定義的任何自訂角色。
+     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單](./default-custom-roles.md#custom-roles)中定義的任何[自訂角色。
 
      ![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -99,9 +99,9 @@ ht-degree: 5%
 
      在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
 
-     使用職稱![&#128279;](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的角色範本條件範例
+     使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
 
-   * 如果已設定自訂物件與XDM關聯式結構描述[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定義的人員相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
+   * 如果已設定自訂物件與XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中定義的人員[相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
 
      ![角色範本新增自訂物件條件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -109,7 +109,7 @@ ht-degree: 5%
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] **，並重複步驟1和2來定義角色。**
+1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] ]**，並重複步驟1和2來定義角色。**[!UICONTROL 
 
    已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -128,7 +128,7 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 >
 >**功能淘汰**</br></br>
 >
->使用Journey Optimizer B2B edition的[簡化架構](../simplified-architecture.md)時，不支援根據Marketo Engage執行個體中的清單或程式成員資格進行篩選。
+>在目前的Journey Optimizer B2B Edition版本中，不再支援在Marketo Engage執行個體中根據清單或方案成員資格進行篩選。
 
 >[!ENDSHADEBOX]
 
@@ -194,4 +194,4 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

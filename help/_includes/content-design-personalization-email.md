@@ -1,26 +1,26 @@
 ---
 title: 內容製作 — 個人化
 description: 重複使用關於使用個人化進行內容製作的區段
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
 # 內容製作 — 個人化
 
-Journey Optimizer B2B edition使用內嵌簡單語法，可讓您建立包含大括弧`{{}}`括住之個人化內容的運算式。 您可以在相同的內容或欄位中新增多個運算式，不受限制。
+Journey Optimizer B2B Edition使用內嵌簡單語法，可讓您建立包含大括弧`{{}}`括住之個人化內容的運算式。 您可以在相同的內容或欄位中新增多個運算式，不受限制。
 
-例如，您可以將個人化運算式新增為`Hello {{lead.firstName}} {{lead.lastName}}`。 處理內容時，Journey Optimizer B2B edition會以Experience Platform資料庫中包含的資料取代運算式。 第一個範例會變成&#x200B;_Hello John Doe_。
+例如，您可以將個人化運算式新增為`Hello {{lead.firstName}} {{lead.lastName}}`。 處理內容時，Journey Optimizer B2B Edition會以Experience Platform資料庫中包含的資料取代運算式。 第一個範例會變成&#x200B;_Hello John Doe_。
 
-如需在Journey Optimizer B2B edition中使用個人化工具的更完整資訊，請參閱[內容個人化](../user/content/personalization.md)。
+如需在Journey Optimizer B2B Edition中使用個人化工具的更完整資訊，請參閱[內容個人化](../user/content/personalization.md)。
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition在電子郵件中遵循個人化權杖的&#x200B;_駝峰式大小寫_&#x200B;語法，以比對其他Adobe Experience Platform應用程式以獲得一致的體驗。 此權杖格式與[Handlebars範本化語言](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}完全相容。 在此變更前新增的任何Token都會自動更新。
+>Journey Optimizer B2B Edition在電子郵件中遵循個人化權杖的&#x200B;_駝峰式大小寫_&#x200B;語法，以比對其他Adobe Experience Platform應用程式以獲得一致的體驗。 此權杖格式與[Handlebars範本化語言](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}完全相容。 在此變更前新增的任何Token都會自動更新。
 
-以下範例概述使用人員和系統權杖個人化內容的步驟。 它反映了[簡化架構](../user/simplified-architecture.md)上布建的Journey Optimizer B2B edition環境可用的變更。
+以下範例概述使用人員和系統權杖個人化內容的步驟。 它反映了目前的Journey Optimizer B2B Edition版本。
 
 1. 選取文字元件，然後按一下工具列中的&#x200B;_新增個人化_ （![新增個人化圖示](../assets/do-not-localize/icon-personalization-field.svg) ）圖示。
 

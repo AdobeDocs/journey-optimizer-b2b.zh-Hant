@@ -4,9 +4,9 @@ description: 使用加權活動建立自訂參與分數模型，以在 [!DNL Jou
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: ff635309749cfb7c065522a34b1228e71b144a9f
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1306'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,13 @@ ht-degree: 0%
 
 ### 預設分數模型
 
-系統會建立名為&#x200B;_活動加權模型1_&#x200B;的初始參與分數模型。 模型狀態和參與活動取決於[!DNL Journey Optimizer B2B Edition]環境的資料架構：
+系統會建立名為&#x200B;_活動加權模型1_&#x200B;的初始參與分數模型。 參與活動是根據標準和自訂Experience Platform事件。 依預設，所有活動的權重為0。
 
-* **簡化架構** (Beta) — 如果您的環境使用[簡化架構](../simplified-architecture.md)，參與活動會以標準和自訂Experience Platform事件為基礎。 依預設，所有活動的權重為0。
+![Experience Platform事件的預設參與分數加權模型](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
-  ![簡化架構的預設參與分數加權模型](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
+<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
 
-* **標準架構** — 如果您的環境使用標準架構，則連線的[!DNL Marketo Engage]執行個體是參與活動資料的來源。 預設模型會一直處於活動狀態，直到您建立自訂版本並啟動它為止。
-
-  ![標準架構的預設參與分數加權模型](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"}
+<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 當您啟動自訂模型時，使用中的模型會變更為&#x200B;_已封存_&#x200B;狀態。 如果您決定恢復為預設參與分數模型，您可以複製原始預設模型，然後啟動它，或將其用作另一個自訂模型的起點。
 
@@ -92,7 +90,7 @@ ht-degree: 0%
 1. 針對每個權重範圍，請根據您的需求調整名稱或值：
 
    * 變更&#x200B;_[!UICONTROL 加權頻帶]_&#x200B;欄位中的名稱。
-   * 輸入新值。 您也可以按一下&#x200B;**&amp;amp；加號；**&#x200B;或&#x200B;**−**&#x200B;來增加或減少值。
+   * 輸入新值。 您也可以按一下&#x200B;**&amp;plus；**&#x200B;或&#x200B;**−**&#x200B;來增加或減少值。
 
    ![參與權重設定](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -104,15 +102,15 @@ ht-degree: 0%
 
 1. 若要移除加權範圍，請按一下加權範圍列的&#x200B;_刪除_ （![刪除圖示](../assets/do-not-localize/icon-delete-outline.svg) ）圖示。
 
-1. 完成變更後，按一下[儲存]。**&#x200B;**
+1. 完成變更後，按一下[儲存]。****
 
 ### 變更活動加權
 
 每個分數模型都包含支援的參與分數活動完整清單。
 
-+++簡化架構的活動
++++Experience Platform事件的活動
 
-簡化架構的預設模型包含Experience Platform追蹤的活動。 每個活動的權重為零(0) （未使用），直到您為其指定權重為止。 所有活動的每日頻率上限也為20，您無法加以變更。
+Experience Platform事件的預設模型包含Experience Platform追蹤活動。 每個活動的權重為零(0) （未使用），直到您為其指定權重為止。 所有活動的每日頻率上限也為20，您無法加以變更。
 
 <table style="table-layout: fixed; width: 100%; border: 0;">
 <tbody>

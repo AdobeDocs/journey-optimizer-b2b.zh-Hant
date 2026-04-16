@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4943'
+source-wordcount: '4930'
 ht-degree: 6%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 6%
 # 協助程式功能
 
 使用個人化編輯器中的協助程式功能，透過操控資料、執行計算和格式化內容，以精確且有效率的方式定義個人化內容體驗。 探索並實驗這些功能、操作員和協助人員，瞭解他們如何合作，以幫助您製作量身打造的資料導向歷程。
-
->[!AVAILABILITY]
->
->協助程式功能適用於在[簡化架構](../simplified-architecture.md)上布建的[!DNL Journey Optimizer B2B Edition]環境。
 
 ## 彙總函式
 
@@ -326,7 +322,7 @@ ht-degree: 6%
 
 **範例**
 
-下列作業會傳回價格最高的前五個訂單中的第一個。 有關`topN`函式的詳細資訊可在陣列[&#128279;](#first-n)區段的第一個`n`中找到。
+下列作業會傳回價格最高的前五個訂單中的第一個。 有關`topN`函式的詳細資訊可在陣列](#first-n)區段的[第一個`n`中找到。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}

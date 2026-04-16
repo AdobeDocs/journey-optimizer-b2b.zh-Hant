@@ -4,10 +4,10 @@ description: 管理員和行銷人員的入門指南：在 Journey Optimizer B2B
 role: User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 632530569c6247ffbd453578fc8561d17d500283
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 72%
 
 您在 Adobe Journey Optimizer B2B Edition 中要使用的功能和工具會依據您在團隊中的角色而定。 管理員可以根據您的組織定義數種使用者類型，並依這些使用者的權限授予特定功能的存取權。
 
-管理員完成[設定工作](../simplified-architecture.md)後，請將此資訊用於一般使用者上線。
+管理員完成[設定工作](../setup-ultimate.md)後，請將此資訊用於一般使用者上線。
 
 >[!TIP]
 >
@@ -25,13 +25,13 @@ ht-degree: 72%
 
 關於設定您的第一個歷程、新增資產及傳送內容，請參閱下列章節：
 
-1. **新增帳戶客群**。 Journey Optimizer B2B edition可讓您直接從應用程式透過區段定義建立帳戶對象，並將其運用於您的帳戶歷程。[瞭解更多](../audiences/account-audience-overview.md)
+1. **新增帳戶客群**。 您可以使用 Journey Optimizer B2B Edition，直接在應用程式中透過區段定義來建立帳戶客群，並在您的帳戶歷程中利用這些客群。 [了解更多](../audiences/account-audience-overview.md)
 
-1. **建立購買群組**。 定義符合業務目標與宗旨的關鍵元件，並建立可識別目標帳戶清單成員的購買群組。[瞭解更多](../buying-groups/buying-groups-overview.md)
+1. **建立購買群組**。 定義達成業務目標與目的之關鍵元件，並建立購買群組來確定目標帳戶清單的成員。 [了解更多](../buying-groups/buying-groups-overview.md)
 
-1. **建立及管理資產**。 Adobe Experience Manager Assets提供單一、集中的資產存放庫，供您用來填入訊息。[瞭解更多](../content/assets-overview.md)
+1. **建立及管理資產**。 Adobe Experience Manager Assets 提供單一的集中式資產存放庫，您可以使用其中資產來填入訊息。 [了解更多](../content/assets-overview.md)
 
-1. **新增個人化和動態的電子郵件範本**。 運用Journey Optimizer B2B edition個人化及動態內容功能，將您的訊息因應對象而調整。[瞭解更多](../content/email-templates.md)
+1. **新增個人化和動態的電子郵件範本**。 利用 Journey Optimizer B2B Edition 個人化及動態內容功能，以便根據客群調整您的訊息內容。 [了解更多](../content/email-templates.md)
 
 1. **設計帳戶歷程以便傳遞符合內容情境的個人化體驗**。 您可以利用 Journey Optimizer B2B Edition 儲存在事件或資料來源中符合內容情境的資料，建立即時協調流程使用案例。 設計由下列功能提供支援的多步驟進階案例：
 
