@@ -39,7 +39,7 @@ Marketo Engage動作是&#x200B;_以人物為基礎的_&#x200B;動作，可讓您
    * 用戶端 ID
    * 使用者端密碼
 
-自訂服務](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}中指派的[角色許可權可控管Marketo Engage工作區中資產的可見度，例如清單和行銷活動。 行銷人員可以在一個歷程中多次使用相同的連線，並在同一歷程中使用不同的Marketo Engage連線。
+自訂服務[&#128279;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}中指派的角色許可權可控管Marketo Engage工作區中資產的可見度，例如清單和行銷活動。 行銷人員可以在一個歷程中多次使用相同的連線，並在同一歷程中使用不同的Marketo Engage連線。
 
 ### 新增整合
 
