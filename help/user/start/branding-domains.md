@@ -3,10 +3,11 @@ title: 設定品牌化網域
 description: 設定品牌網域，讓您的每個品牌都有自己的品牌追蹤連結。
 feature: Setup, Channels
 role: Admin
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 1%
+source-wordcount: '1014'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +23,7 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
 
 **追蹤連結的唯一CNAME**
 
-電子郵件追蹤連結必須是新連結，且對於附加的Marketo Engage例項而言必須是唯一的。 如果您有追蹤連結的現有CNAME指向既存的（生產） Marketo Engage執行個體，則這些連結無法以&#x200B;_原樣_&#x200B;重複使用。
+電子郵件追蹤連結必須是新連結，且對於附加的Marketo Engage例項而言必須是唯一的。 如果您有用於追蹤連結的現有CNAME指向既存的（生產） Marketo Engage執行個體，則未經修改便無法重複使用。
 
 您可以在生產Marketo Engage執行個體和附加的執行個體之間共用傳迴路徑網域品牌，但這是後端變更。 開啟支援票證，並提供您的Marketo Engage前置詞(Munchkin ID)和新的Journey Optimizer B2B edition前置詞(Munchkin ID)，申請共用傳迴路徑網域名稱。
 
@@ -30,9 +31,9 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
 
 >[!PREREQUISITES]
 >
->在UI中編輯或新增網域之前，您必須將[對應的CNAME對應至Adobe提供的Marketo Engage網域](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}。
+>在UI中編輯或新增網域之前，您必須將[對應的CNAME對應至Adobe提供的Marketo Engage網域](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}。
 >
->新增網域時，系統會檢查預先存在的SSL，這些SSL可能在之前已手動建立。 如果您遇到此驗證，請在不選取SSL建立的情況下建立您的網域，然後將它們連線為單獨的程式。
+>新增網域時，系統會檢查預先存在的SSL，這些SSL可能在之前已手動建立。 如果您遇到此驗證，請在不選取SSL建立的情況下建立您的網域，然後將其作為單獨的程式進行連線。
 
 ## 存取Marketo Engage中的品牌化網域
 
@@ -60,7 +61,7 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
 
    ![編輯品牌領域對話方塊](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
-1. 如果您為Marketo Engage執行個體定義了多個工作區，請按一下[下一步] **&#x200B;**。
+1. 如果您為Marketo Engage執行個體定義了多個工作區，請按一下[下一步] ****。
 
    選取您想要套用更新主網域的每個工作區。
 
@@ -70,11 +71,11 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
 
 ## 定義其他網域
 
-編輯預設網域後，當您想要在Journey Optimizer B2B edition環境中執行多個品牌時（每個品牌都有自己的品牌追蹤連結），可以新增另一個品牌網域。 當您新增領域時，您有以下選項：
+編輯預設網域後，您可以新增另一個品牌網域，以在您的Journey Optimizer B2B Edition環境中支援多個品牌，每個品牌都有自己的品牌追蹤連結。 當您新增領域時，您有以下選項：
 
 >* _設為主要網域_：將這個設為工作區的主要網域。 當您選取此選項時，所有現有的未傳送電子郵件都會設定為預設主要網域，而所有新建立的電子郵件都會自動預設為此主要網域。 行銷人員可視需求選擇替代品牌領域。
 >
->* _產生SSL憑證_：建立網域以建立安全通訊端層(SSL)。 第一個追蹤網域會起始一次性的基礎結構設定，可能需要幾個小時的時間。 系統會在完成時傳送通知。
+>* _產生SSL憑證_：建立網域以建立安全通訊端層(SSL)。 第一個追蹤網域會啟動一次性的基礎結構設定，這可能需要幾個小時。 系統會在完成時傳送通知。
 
 新增網域&#x200B;:_(_T)
 
@@ -92,9 +93,9 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
 
    >[!NOTE]
    >
-   >**_自訂SSL_**：如果您需要自訂SSL，可以提交[支援票證](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}。 請勿在建立SSL時使用核取方塊。
+   >**_自訂SSL_**：如果您需要自訂SSL，可以提交[支援票證](https://experienceleague.adobe.com/en/support){target="_blank"}。 請勿在建立SSL時使用核取方塊。
 
-1. 如果您為Marketo Engage執行個體定義了多個工作區，請按一下[下一步] **&#x200B;**。
+1. 如果您為Marketo Engage執行個體定義了多個工作區，請按一下[下一步] ****。
 
    如有需要，請選取您要將新領域套用為主要領域的每個工作區。
 
