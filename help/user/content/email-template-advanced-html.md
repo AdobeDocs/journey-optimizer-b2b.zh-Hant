@@ -1,10 +1,11 @@
 ---
 title: 電子郵件範本設計的進階HTML模式
-description: 使用進階HTML模式，直接在Journey Optimizer B2B edition的電子郵件設計空間中檢視及編輯電子郵件範本內容的原始HTML來源。
+description: 使用進階HTML模式，直接在Journey Optimizer B2B Edition的電子郵件設計空間中檢視和編輯電子郵件範本內容的原始HTML來源。
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
-source-git-commit: 95dba963e08125370f998cf3960d51ede94c2fb9
+exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -15,10 +16,12 @@ ht-degree: 0%
 
 _進階HTML模式_&#x200B;提供檢視，讓經驗豐富的使用者直接檢視及編輯電子郵件範本內容的原始原始程式碼。 如果您想要將複雜的運算式（例如條件式邏輯）直接插入來源中，這個模式是理想的選擇。 在超越視覺設計工具所公開範圍的結構調整上，它也很有用。
 
-<!-- We don't have the code editor at this point 
+<!-- 
+We don't have the code editor at this point 
 >[!NOTE]
 >
->_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. -->
+>_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. 
+-->
 
 >[!AVAILABILITY]
 >
@@ -46,7 +49,7 @@ _進階HTML模式_&#x200B;提供檢視，讓經驗豐富的使用者直接檢視
 
    ![按一下電子郵件範本設計空間工具列中的HTML圖示](./assets/email-template-advanced-html-mode-toolbar.png){width="750" zoomable="yes"}
 
-   如果您是第一次開啟進階HTML模式（或經過一個月以上），系統會顯示警告訊息。 檢閱資訊，然後按一下[確定] **&#x200B;**&#x200B;以繼續。
+   如果您是第一次開啟進階HTML模式（或經過一個月以上），系統會顯示警告訊息。 檢閱資訊，然後按一下[確定] ****&#x200B;以繼續。
 
    ![檢閱進階HTML模式警告，然後按一下[確定]繼續](./assets/email-template-html-mode-warning.png){width="500"}
 

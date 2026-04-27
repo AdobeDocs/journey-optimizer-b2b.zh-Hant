@@ -1,11 +1,11 @@
 ---
 title: 歷程節點
-description: 使用動作、事件和協調流程節點（對象、等待、分割和合併）建立歷程，用於Journey Optimizer B2B edition中的跨管道行銷。
+description: 使用動作、事件和協調流程節點（對象、等待、分割和合併）建立歷程，以用於Journey Optimizer B2B Edition中的跨管道行銷。
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 6d3967babc1bc868fde0c76ac9068e63156070cd
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 12%
