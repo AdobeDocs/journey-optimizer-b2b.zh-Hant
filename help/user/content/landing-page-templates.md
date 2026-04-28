@@ -1,13 +1,12 @@
 ---
 title: 登陸頁面範本
-description: 建立、管理和重複使用登入頁面範本 — 從頭開始設計、匯入HTML、複製、刪除和追蹤Journey Optimizer B2B Edition中行銷團隊的使用情況。
+description: 建立、管理和重複使用登入頁面範本 — 從頭開始設計、匯入HTML、複製、刪除，以及追蹤Journey Optimizer B2B edition中行銷團隊的使用情況。
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 1%
@@ -20,7 +19,7 @@ ht-degree: 1%
 
 ## 存取及管理登入頁面範本
 
-若要存取Adobe Journey Optimizer B2B Edition中的登入頁面範本，請前往&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 範本]**。 在導覽面板的&#x200B;_[!UICONTROL 網頁]_&#x200B;下，選取&#x200B;**[!UICONTROL 登入頁面範本]**。
+若要存取Adobe Journey Optimizer B2B edition中的登入頁面範本，請前往&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 範本]**。 在導覽面板的&#x200B;_[!UICONTROL 網頁]_&#x200B;下，選取&#x200B;**[!UICONTROL 登入頁面範本]**。
 
 顯示的清單頁面包含以表格格式列出的執行個體中建立的所有登入頁面範本。 表格預設會依&#x200B;_[!UICONTROL 已修改]_&#x200B;欄排序，最近更新的範本會位於最上方。 按一下欄標題，在升序和降序之間變更。
 
@@ -64,7 +63,7 @@ _[!UICONTROL 建立您的主要登陸頁面]_&#x200B;頁面會開啟並提供建
 
 ### 匯入HTML
 
-Adobe Journey Optimizer B2B Edition可讓您匯入現有的HTML內容，以設計您的登入頁面範本。
+Adobe Journey Optimizer B2B edition可讓您匯入現有的HTML內容，以設計您的登入頁面範本。
 
 {{$include /help/_includes/content-design-import.md}}
 
