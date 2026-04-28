@@ -29,7 +29,7 @@ ht-degree: 46%
 1. 在&#x200B;_中，此內容是否有所幫助？_ 在瀏覽器視窗底部的橫幅，按一下&#x200B;**詳細意見選項**。
 1. 在GitHub UI中按一下&#x200B;**建議編輯**，並提交包含變更的提取請求(PR)。
 
-   如需詳細資訊，請參閱一般 [Adobe Docs 貢獻者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+   如需詳細資訊，請參閱一般 [Adobe Docs 貢獻者指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
 
 您為此存放庫文件和程式碼範例提交的微幅更正或釐清，均屬於 Adobe 使用條款規範的範圍。
 
@@ -43,7 +43,7 @@ ht-degree: 46%
 
 社群貢獻者可使用 GitHub UI 進行基本編輯或建立存放庫複本，提交重要貢獻。
 
-如需詳細資訊，請參閱 [Adobe Docs 貢獻者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+如需詳細資訊，請參閱 [Adobe Docs 貢獻者指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
 
 ## 內部貢獻者
 
