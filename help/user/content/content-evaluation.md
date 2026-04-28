@@ -1,6 +1,6 @@
 ---
 title: 內容評估與評分
-description: 透過品牌一致性評分來評估電子郵件內容 — 根據Journey Optimizer B2B edition中的品牌方針驗證顏色、字型、標誌和撰寫風格。
+description: 透過品牌一致性評分來評估電子郵件內容 — 根據Journey Optimizer B2B Edition中的品牌方針驗證顏色、字型、標誌和撰寫風格。
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -9,17 +9,17 @@ exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
 # 內容評估與評分 {#content-scoring}
 
-內容評估與評分可協助您建立、檢閱和管理遵循所選品牌[&#128279;](./brands-manage-create.md#brand-definitions)中定義的准則和一般品質標準的內容。 執行評估可確保電子郵件行銷活動的語氣、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
+內容評估與評分可協助您建立、檢閱和管理遵循所選品牌](./brands-manage-create.md#brand-definitions)中定義的准則[和一般品質標準的內容。 執行評估可確保電子郵件行銷活動的語氣、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
 
 >[!AVAILABILITY]
 >
->您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B Edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
 >
 >如需有關產品管理員如何啟用這些功能的資訊，請參閱[品牌相關許可權](./brands-overview.md#brand-related-permissions)。
 
@@ -51,7 +51,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="品牌一致性分數"
->abstract="您的品牌一致性分數會衡量您的內容遵守品牌指引的程度，以確保色彩、字型、標誌、影像和寫作風格的一致性。"
+>abstract="您的品牌一致性分數會衡量您的內容與品牌準則的符合程度，以確保顏色、字體、標誌、影像及寫作風格的一致性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"
@@ -93,14 +93,14 @@ ht-degree: 8%
 
 ![全熒幕檢視中的品牌一致性評估詳細資料](./assets/brands-alignment-evaluation-details-full-screen.png){width="700" zoomable="yes"}
 
-您可以變更內容，然後按一下[重新評估分數] **&#x200B;**，執行其他評估並檢查改善的結果。
+您可以變更內容，然後按一下[重新評估分數] ****，執行其他評估並檢查改善的結果。
 
 ## 內容品質分數 {#quality-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_quality_score_overview"
 >title="內容品質"
->abstract="評估一般內容品質，以找出可讀性、內容一致性和有效性方面的潛在問題。 品質評估與您的品牌指導方針無關。"
+>abstract="評估整體內容品質，找出易讀性、內容一致性和有效性方面的潛在問題。 品質評估不受您的品牌準則影響。"
 
 >[!NOTE]
 >
