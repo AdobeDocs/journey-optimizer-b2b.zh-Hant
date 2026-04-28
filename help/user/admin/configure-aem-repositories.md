@@ -4,7 +4,7 @@ description: 將Experience Manager Assets存放庫連線至Journey Optimizer B2B
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
+source-git-commit: a722a5ba7a0e70329032e2768c5fbaf63537a2b7
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer B2B Edition]與[!DNL Adobe Experience Manager Assets as a Cloud Service]整合，允許在您的電子郵件內容中使用資產。 它透過與[!DNL Experience Manager Assets]交換資訊來確保透明度。 設定與[!DNL Adobe Experience Assets]的連線以啟用此功能。
 
-Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都有多個環境和存放庫（[瞭解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 在Adobe Journey Optimizer B2B edition中設定Adobe Experience Manager Assets時，您需設定與每個要用於存取數位資產的存放庫的連線。
+Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都有多個環境和存放庫（[瞭解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 在Adobe Journey Optimizer B2B edition中設定Adobe Experience Manager Assets時，您需設定與每個要用於存取數位資產的存放庫的連線。
 
 {{aem-assets-licensing-note}}
 
 ## 先決條件
 
-* 在AEM Headless Developer Console上針對所需的環境產生服務認證（[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
+* 在AEM Headless Developer Console上針對所需的環境產生服務認證（[深入瞭解](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
 * 取得連線所需的憑證。 最佳做法是確保憑證在到期前至少還有六個月。 憑證每365天過期一次。
 * Adobe Journey Optimizer B2B edition支援一次存取一個數位資產管理來源。 切換之前，請確定Adobe Experience Manager中提供了所需的資產。
 
@@ -125,7 +125,6 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 1. 在確認對話框中，按一下「**[!UICONTROL 刪除]**」。
 
 <!--
-
 ## Switch back to Adobe Marketo Engage Assets
 
 Select Adobe Marketo Engage digital asset management in the Assets section.
