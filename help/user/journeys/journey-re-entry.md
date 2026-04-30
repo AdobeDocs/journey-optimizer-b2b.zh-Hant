@@ -5,10 +5,10 @@ feature: Account Journeys
 role: User
 level: Intermediate
 exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
-source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
+source-git-commit: 585f98370f6741a5f4854beedd14a69c3a663f3c
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 9%
 
 ---
 
@@ -60,7 +60,10 @@ _僅限帳戶歷程_
 
 ## 帳戶進展與活動
 
-對於已發佈的帳戶歷程，歷程地圖會顯示歷程節點的[帳戶進度](./journeys-overview.md#review-account-progression)。 地圖上的每個節點會顯示到達該節點的帳戶數，如果是即時歷程，則顯示目前在該節點的帳戶數。 每次帳戶重新進入歷程時，都會計為不重複的專案。
-<!-- You can see how many times accounts have entered the journey. ?? -->
+對於已發佈的帳戶歷程，歷程地圖會顯示歷程節點的[帳戶進度](./journeys-overview.md#review-account-progression)。 地圖上的每個節點皆會顯示到達該節點的帳戶數量，而對於上線歷程，則是顯示目前位於該節點的帳戶數量。 每次帳戶重新進入歷程時，都會計為不重複的專案。
 
-當您深入到[帳戶詳細資料](../accounts/account-details.md)時，帳戶活動會在每次帳戶進入歷程時顯示。 其中包含明確的活動和遞回計數，以便您清楚看到重新輸入。
+<!-- 
+You can see how many times accounts have entered the journey. ?? 
+
+When you drill in to [account details](../accounts/account-details.md), the account activity shows each time the account entered the journey. It includes explicit activity and a recurrence count so that you can see re-entries clearly.
+-->
