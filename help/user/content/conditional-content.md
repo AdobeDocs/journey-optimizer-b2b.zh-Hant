@@ -15,7 +15,7 @@ ht-degree: 12%
 
 條件內容可讓您根據條件規則調整電子郵件和片段內容。 這些規則是使用設定檔屬性或內容事件定義的。 您可以在規則產生器中建立條件式規則，並將規則儲存起來，以便在您的帳戶歷程中重複使用。
 
-若要新增條件式內容至您的片段與電子郵件訊息，Adobe Journey Optimizer可讓您套用儲存在&#x200B;_條件_&#x200B;資料庫中的條件式規則。 當您為帳戶歷程](./email-authoring.md)或[視覺片段](./fragment-authoring.md)編寫[電子郵件內容時，在視覺設計空間內套用條件規則。
+若要新增條件式內容至您的片段與電子郵件訊息，Adobe Journey Optimizer可讓您套用儲存在&#x200B;_條件_&#x200B;資料庫中的條件式規則。 當您為帳戶歷程[&#128279;](./email-authoring.md)或[視覺片段](./fragment-authoring.md)編寫電子郵件內容時，在視覺設計空間內套用條件規則。
 
 ## 新增條件式內容 {#email-fragment-content}
 
@@ -51,7 +51,7 @@ ht-degree: 12%
 
    ![條件資料庫存取條件詳細資料](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則](#create-condition)。[
+   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則[&#128279;](#create-condition)。
 
 1. 選取條件式規則，然後按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以將其與變體關聯。
 

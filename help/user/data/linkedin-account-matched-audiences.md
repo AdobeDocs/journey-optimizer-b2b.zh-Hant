@@ -86,7 +86,7 @@ ht-degree: 14%
 
    儲存之後，您為資料流指定的名稱會加上&#x200B;_AJOB2B_，以協助識別Experience Platform中的資料流。
 
-1. 輸入LinkedIn行銷活動管理員帳戶](https://www.linkedin.com/help/lms/answer/a424270)的[帳戶ID。
+1. 輸入LinkedIn行銷活動管理員帳戶[&#128279;](https://www.linkedin.com/help/lms/answer/a424270)的帳戶ID。
 
    您可以在Campaign Manager UI中依帳戶名稱尋找您的帳戶ID。
 
@@ -120,7 +120,7 @@ ht-degree: 14%
 
 從2025.10版開始，對帳戶使用&#x200B;_對目的地啟用_&#x200B;動作，直接從您的歷程對LinkedIn目的地啟用帳戶。 針對LinkedIn目的地使用動作，可消除多系統移交並減少延遲，進而簡化行銷活動的執行作業。 例如，身為行銷人員，您可以在關鍵購買角色遺失時，自動對LinkedIn啟用高意圖帳戶以重新進行目標定位，或根據閒置篩選器重新與休眠帳戶互動。
 
-1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;]**上的**[!UICONTROL &#x200B;動作設定為&#x200B;**[!UICONTROL 啟用到目的地]**。
+1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;**上的**&#x200B;動作設定為&#x200B;**[!UICONTROL 啟用到目的地]**。
 
    ![歷程節點 — 對帳戶採取動作 — 啟用到目的地](./assets/node-activate-destination.png){width="550" zoomable="yes"}
 
@@ -128,7 +128,7 @@ ht-degree: 14%
 
    * 如果有一或多個目的地已建立，您可以按一下[選取目的地] **[!UICONTROL 以選擇現有的目的地。]**
 
-   * 如果沒有現有的目的地，或您想要建立新的目的地，請按一下[設定目的地]。****
+   * 如果沒有現有的目的地，或您想要建立新的目的地，請按一下[設定目的地]。**&#x200B;**
 
      ![歷程節點 — 對帳戶採取動作 — 啟用到目的地 — 設定目的地](./assets/node-activate-destination-set-up-destination.png){width="550" zoomable="yes"}
 

@@ -283,7 +283,7 @@ ht-degree: 6%
 
 當您輸入按鈕標籤文字並設定格式時，按鈕會調整大小以符合內容。
 
-與工具列](./assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的![按鈕元件
+與工具列![&#128279;](./assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的按鈕元件
 
 #### 設定連結選項
 
@@ -307,7 +307,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -491,7 +491,7 @@ ht-degree: 6%
 
    [開啟程式碼編輯器以新增HTML](./assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
 
    [編輯HTML對話方塊](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
@@ -623,7 +623,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
