@@ -7,7 +7,7 @@ exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
 source-git-commit: 7e58b0ccb9d9dd0192cb119bec83a1f13e3d5d69
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 3%
    * [**[!UICONTROL 調整影像大小]**](#resize-image)
    * [**[!UICONTROL 移除背景]**](#remove-background)
    * [**[!UICONTROL 裁切影像]**](#crop-image)
-   * [**[!UICONTROL 轉換為PNG]**](#convert-file-format) (載入JPEG影像時)
+   * [**[!UICONTROL 轉換為PNG]**](#convert-file-format) （載入JPEG影像時）
    * [**[!UICONTROL 轉換為JPEG]**](#convert-file-format) （載入PNG影像時）
 
    ![選取編輯型別以修改影像](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}

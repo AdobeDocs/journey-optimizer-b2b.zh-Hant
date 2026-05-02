@@ -48,7 +48,7 @@ ht-degree: 15%
 | 已知訪客(%) | 歸因至已知（已識別）訪客的頁面檢視百分比。 |
 | 未知的訪客(%) | 歸因不明（匿名）訪客的頁面檢視百分比。 |
 
-![熱門頁面檢視表](./assets/web-engagement-dashboard-top-page-views.png){width="650" zoomable="yes"}
+![最上層頁面檢視表](./assets/web-engagement-dashboard-top-page-views.png){width="650" zoomable="yes"}
 
 ## [!UICONTROL 依帳戶區域的頁面檢視次數] {#page-views-by-region}
 
@@ -80,10 +80,10 @@ ht-degree: 15%
 
 ## 與資料互動
 
-若要與資料互動，請使用&#x200B;_更多_ (**...**) 功能表位於每個圖表的右上方，並選擇&#x200B;**[!UICONTROL 檢視更多]**&#x200B;以檢視擴充的資料和深入分析。
+若要與資料互動，請使用&#x200B;_更多_ (**...**) 每個圖表右上方的功能表，並選擇&#x200B;**[!UICONTROL 檢視更多]**&#x200B;以檢視擴充的資料和深入分析。
 
 顯示的快顯視窗包括圖表和顯示資料劃分的表格。
 
 若要下載資料，請按一下資料表格右上角的&#x200B;**[!UICONTROL 下載CSV]**。
 
-![熱門頁面檢視表檢視更多快顯視窗 — 按一下「下載CSV」](./assets/web-engagement-dashboard-top-page-views-view-more.png){width="700" zoomable="yes"}
+![最上層頁面檢視表檢視更多快顯功能表 — 按一下「下載CSV」](./assets/web-engagement-dashboard-top-page-views-view-more.png){width="700" zoomable="yes"}

@@ -1,6 +1,6 @@
 ---
 title: 電子郵件內容的深色模式
-description: 瞭解Journey Optimizer B2B Edition中的深色模式電子郵件設計。 預覽轉譯結果、自訂設定、確保無障礙功能，以及對多個電子郵件用戶端進行測試。
+description: 瞭解Journey Optimizer B2B edition中的深色模式電子郵件設計。 預覽轉譯結果、自訂設定、確保無障礙功能，以及對多個電子郵件用戶端進行測試。
 feature: Email Authoring
 topic: Content Management
 role: User
