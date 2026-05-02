@@ -7,7 +7,7 @@ role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '577'
 ht-degree: 7%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 7%
 
 1. 在&#x200B;_傳送校樣_&#x200B;頁面中，輸入第一個收件者的電子郵件地址。
 
-1. 對於您想要加入檢閱的每個其他收件者，請按一下[新增收件者]，然後在[傳送至] **[!UICONTROL 欄位中輸入其電子郵件地址。]**&#x200B;**&#x200B;**
+1. 對於您想要加入檢閱的每個其他收件者，請按一下[新增收件者]，然後在[傳送至] **[!UICONTROL 欄位中輸入其電子郵件地址。]******
 
    您最多可以為校樣傳遞新增10個收件者。
 

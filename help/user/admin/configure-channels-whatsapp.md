@@ -1,6 +1,6 @@
 ---
 title: WhatsApp頻道設定
-description: 透過Meta的Cloud API連線您的WhatsApp商業帳戶，以啟用Journey Optimizer B2B Edition帳戶歷程中的WhatsApp傳訊。
+description: 透過Meta的Cloud API連線您的WhatsApp商業帳戶，以啟用Journey Optimizer B2B edition帳戶歷程中的WhatsApp傳訊。
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
@@ -13,9 +13,9 @@ ht-degree: 13%
 
 # WhatsApp頻道設定
 
-Adobe Journey Optimizer B2B Edition透過Meta的Cloud API傳送WhatsApp訊息。 行銷人員必須為帳戶歷程建立WhatsApp訊息，產品管理員必須設定WhatsApp頻道。
+Adobe Journey Optimizer B2B edition會透過Meta的Cloud API傳送WhatsApp訊息。 行銷人員必須為帳戶歷程建立WhatsApp訊息，產品管理員必須設定WhatsApp頻道。
 
-適用於Journey Optimizer B2B Edition的![WhatsApp工作流程](./assets/whatsapp-flow-diagram.png)
+適用於Journey Optimizer B2B edition的![WhatsApp工作流程](./assets/whatsapp-flow-diagram.png)
 
 ## 先決條件
 
@@ -28,13 +28,13 @@ Adobe Journey Optimizer B2B Edition透過Meta的Cloud API傳送WhatsApp訊息。
 
 >[!IMPORTANT]
 >
->您使用WhatsApp訊息服務時，必須遵守Meta的條款與條件。 透過Journey Optimizer B2B Edition存取WhatsApp傳訊，即表示您確認已檢閱並同意遵守[Meta WhatsApp商業政策](https://www.whatsapp.com/legal/business-policy/)。
+>您使用WhatsApp訊息服務時，必須遵守Meta的條款與條件。 透過Journey Optimizer B2B edition存取WhatsApp傳訊，即表示您確認已檢閱並同意遵守[Meta WhatsApp商業政策](https://www.whatsapp.com/legal/business-policy/)。
 
 ## 限制 {#limitations}
 
 下列限制適用於 WhatsApp 頻道：
 
-* Adobe Journey Optimizer B2B Edition **不符合HIPAA標準，而且不符合HIPAA標準**。 此外，Adobe的BAA不包含第三方廠商。 客戶需自行負責法規遵循及供應商驗證。
+* Adobe Journey Optimizer B2B edition **不符合HIPAA標準，而且不符合HIPAA標準**。 此外，Adobe的BAA不包含第三方廠商。 客戶需自行負責法規遵循及供應商驗證。
 
 * 尚不支援自動化或預先定義的回應訊息。
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer B2B Edition透過Meta的Cloud API傳送WhatsApp訊息。
 
 ## 完成頻道設定
 
-在傳送WhatsApp訊息之前，您必須先設定您的Journey Optimizer B2B Edition環境，並將其連線至您的WhatsApp帳戶。
+在傳送WhatsApp訊息之前，您必須先設定Journey Optimizer B2B edition環境，並將其與您的WhatsApp帳戶連結。
 
 完成下列作業：
 
@@ -110,7 +110,7 @@ Adobe Journey Optimizer B2B Edition透過Meta的Cloud API傳送WhatsApp訊息。
    * API權杖 — 必須是具有適當許可權的有效[Meta存取權杖](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)。
    * Business帳戶ID — 必須與您的[Meta Business帳戶ID](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)完全相符。
 
-1. 從外部測試認證 — 直接使用Meta API驗證您的認證，以確認問題與認證有關，或與Journey Optimizer B2B Edition認證處理有關。
+1. 從外部測試認證 — 直接使用Meta API驗證您的認證，以確認問題與認證有關，或與Journey Optimizer B2B edition認證處理有關。
 
 <!--
  1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
@@ -143,7 +143,7 @@ do we have advanced logs? How are they enabled?
 >title="驗證權杖"
 >abstract="在驗證過程中，Meta 回傳以確認和驗證回呼 URL 的權杖。"
 
-Webhook可讓Journey Optimizer B2B Edition接收來自WhatsApp商業帳戶的傳入訊息、同意回應和傳遞通知。 設定Webhook以確保適當的同意管理和訊息追蹤。
+Webhook可讓Journey Optimizer B2B edition接收來自WhatsApp商業帳戶的傳入訊息、同意回應和傳送通知。 設定Webhook以確保適當的同意管理和訊息追蹤。
 
 >[!NOTE]
 >
@@ -228,7 +228,7 @@ Webhook可讓Journey Optimizer B2B Edition接收來自WhatsApp商業帳戶的傳
 
    ![WhatsApp通道設定詳細資料](./assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. （目前不適用於Journey Optimizer B2B Edition）針對&#x200B;**[!UICONTROL WhatsApp執行欄位]**，選取當收件者有多個電話號碼可用時，要作為優先電話號碼使用的設定檔屬性。
+1. （目前不適用於Journey Optimizer B2B edition）針對&#x200B;**[!UICONTROL WhatsApp執行欄位]**，選取當收件者有多個電話號碼可用時，要作為優先電話號碼使用的設定檔屬性。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以儲存，或按一下&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以完成並稍後提交組態。
 

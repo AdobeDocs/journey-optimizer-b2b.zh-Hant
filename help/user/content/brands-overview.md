@@ -1,6 +1,6 @@
 ---
 title: 使用品牌來產生內容並維持一致性
-description: 定義品牌准則，以建立一致的內容 — 在Journey Optimizer B2B Edition中維持視覺識別、訊息一致性和真實的聲音。
+description: 定義品牌准則，以建立一致的內容 — 在Journey Optimizer B2B edition中維持視覺識別、訊息一致性和真實的聲音。
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -47,55 +47,55 @@ ht-degree: 12%
 >
 >此功能目前以公開測試版的形式提供。
 >
->您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B Edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-已定義的品牌可為您的創意團隊提供當他們建立任何視覺或書面內容時使用的&#x200B;_真實來源_。 When these guidelines are compiled and the brand assets are shared, any team member or collaborator can create on-brand content for your product. To enable on-brand content creation in Journey Optimizer B2B Edition, complete these tasks:
+已定義的品牌可為您的創意團隊提供當他們建立任何視覺或書面內容時使用的&#x200B;_真實來源_。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 若要在Journey Optimizer B2B edition中啟用品牌內內容建立，請完成下列工作：
 
-1. Prepare your brand definition.
+1. 準備您的品牌定義。
 
-   * High-level brand characteristics
+   * 高階品牌特性
    * 寫作風格
-   * Visual elements
+   * 視覺元素
 
-1. Assemble this information in one or more PDF files.
+1. 在一個或多個PDF檔案中組合此資訊。
 
-1. Use the PDF file to [create the brand](./brands-manage-create.md#create-and-define-a-brand) in Journey Optimizer B2B Edition.
+1. 使用PDF檔案在Journey Optimizer B2B edition中[建立品牌](./brands-manage-create.md#create-and-define-a-brand)。
 
-1. When it is ready for use, [publish the brand](./brands-manage-create.md#publish-the-brand).
+1. 當它可以使用時，[發佈品牌](./brands-manage-create.md#publish-the-brand)。
 
-1. Use the brand for [email content alignment](./content-evaluation.md#brand-alignment-score).
+1. 使用品牌進行[電子郵件內容對齊](./content-evaluation.md#brand-alignment-score)。
 <!-- 
 1. Use the brand to generate content. 
 -->
 
 >[!BEGINSHADEBOX]
 
-## Brand-related permissions
+## 品牌相關許可權
 
-Product administrators can enable access to the brand management and brand alignment features by assigning the **[!UICONTROL Manage brand kit]** or **[!UICONTROL Enable AI assistant]** resource permissions through the _Permissions_ UI in Adobe Experience Cloud.
+產品管理員可以透過在Adobe Experience Cloud中透過&#x200B;_許可權_ UI指派&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;**[!UICONTROL 啟用AI小幫手]**&#x200B;資源許可權，來啟用品牌管理和品牌對齊功能的存取權。
 
-1. In the Permissions app, go to the **[!UICONTROL Roles]** tab and select the desired [role](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. 在許可權應用程式中，移至&#x200B;**[!UICONTROL 角色]**&#x200B;標籤，並選取所需的[角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}。
 
 1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;以修改權限。
 
-1. Add the **[!UICONTROL AI Assistant]** resource, then select **[!UICONTROL Manage brand kit]** or **[!UICONTROL Enable Ai assistant]**
+1. 新增&#x200B;**[!UICONTROL AI小幫手]**&#x200B;資源，然後選取&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;**[!UICONTROL 啟用AI小幫手]**
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Enable Ai assistant]** permission provides read-only access to the **[!UICONTROL Brands]** library.
+   >**[!UICONTROL 啟用Ai小幫手]**&#x200B;許可權提供&#x200B;**[!UICONTROL 品牌]**&#x200B;資料庫的唯讀存取權。
 
-   ![Add AI Assitant permission for brands access](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
+   ![為品牌存取新增AI助理許可權](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Save]** to apply the changes.
+1. 按一下[儲存]以套用變更。****
 
-   Permissions are automatically updated for any users that are already assigned to the role.
+   已指派給該角色的任何使用者的許可權都會自動更新。
 
-1. To assign this role to new users, select the **[!UICONTROL Users]** tab within the _[!UICONTROL Roles]_ dashboard and click **[!UICONTROL Add User]**.
+1. 若要將此角色指派給新使用者，請選取&#x200B;_[!UICONTROL 角色]_&#x200B;儀表板中的&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
-   * Enter the user name and email address, or choose an existing user from the list.
+   * 輸入使用者名稱和電子郵件地址，或從清單中選擇現有使用者。
 
-     If the user is not yet created, refer to the [Experience Platform documentation](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     如果尚未建立使用者，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}。
 
-   * Click **[!UICONTROL Save]** to apply the changes.
+   * 按一下[儲存]以套用變更。****
 
 >[!ENDSHADEBOX]

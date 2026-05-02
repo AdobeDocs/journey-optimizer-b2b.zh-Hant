@@ -1,6 +1,6 @@
 ---
 title: 內容評估與評分
-description: 透過品牌一致性評分來評估電子郵件內容 — 根據Journey Optimizer B2B Edition中的品牌方針驗證顏色、字型、標誌和撰寫風格。
+description: 透過品牌一致性評分來評估電子郵件內容 — 根據Journey Optimizer B2B edition中的品牌方針驗證顏色、字型、標誌和撰寫風格。
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -15,11 +15,11 @@ ht-degree: 15%
 
 # 內容評估與評分 {#content-scoring}
 
-內容評估與評分可協助您建立、檢閱和管理遵循所選品牌[&#128279;](./brands-manage-create.md#brand-definitions)中定義的准則和一般品質標準的內容。 執行評估可確保電子郵件行銷活動的語氣、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
+內容評估與評分可協助您建立、檢閱和管理遵循所選品牌](./brands-manage-create.md#brand-definitions)中定義的准則[和一般品質標準的內容。 執行評估可確保電子郵件行銷活動的語氣、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
 
 >[!AVAILABILITY]
 >
->您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B Edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
 >
 >如需有關產品管理員如何啟用這些功能的資訊，請參閱[品牌相關許可權](./brands-overview.md#brand-related-permissions)。
 
@@ -93,7 +93,7 @@ ht-degree: 15%
 
 ![全熒幕檢視中的品牌一致性評估詳細資料](./assets/brands-alignment-evaluation-details-full-screen.png){width="700" zoomable="yes"}
 
-您可以變更內容，然後按一下[重新評估分數] **&#x200B;**，執行其他評估並檢查改善的結果。
+您可以變更內容，然後按一下[重新評估分數] ****，執行其他評估並檢查改善的結果。
 
 ## 內容品質分數 {#quality-score}
 
