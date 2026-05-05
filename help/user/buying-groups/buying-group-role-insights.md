@@ -3,9 +3,16 @@ title: 角色分析控制面板
 description: 瞭解「角色分析」儀表板，其可追蹤Journey Optimizer B2B edition中跨購買群組的角色贏取和參與。
 feature: Buying Groups, Dashboards, Engagement
 role: User
-source-git-commit: 3bdf75356c16041e915c36215e68a6c931e4ccb4
+exl-id: 045a217f-a905-4286-804b-2717bb1d5e5d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T21:42:19.942Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: 622
 ht-degree: 1%
 
 ---
@@ -36,7 +43,7 @@ ht-degree: 1%
 
 角色深入分析的![篩選器對話方塊](./assets/roles-insights-filter-dialog.png){width="400"}
 
-針對每個屬性，選取您要用來篩選資料的值，然後按一下[套用]。**&#x200B;**
+針對每個屬性，選取您要用來篩選資料的值，然後按一下[套用]。****
 
 ## [!UICONTROL 一段時間內的角色贏取]
 
@@ -79,11 +86,11 @@ ht-degree: 1%
 
 ## 與資料互動
 
-若要與資料互動，請使用每個圖表右上方的&#x200B;_更多_ (**...**)功能表。
+若要與資料互動，請使用&#x200B;_更多_ (**...**) 功能表。
 
 ### [!UICONTROL 鑽研]
 
-若要依角色&#x200B;_[!UICONTROL 進行]_&#x200B;參與，請選擇&#x200B;**[!UICONTROL 鑽研]**，依角色和解決方案興趣深入分析參與。
+若要依角色&#x200B;]_進行_[!UICONTROL &#x200B;參與，請選擇&#x200B;**[!UICONTROL 鑽研]**，依角色和解決方案興趣深入分析參與。
 
 套用至控制面板的全域篩選器會移轉過來。 按一下左上方的&#x200B;_篩選器_ （![篩選器圖示](../assets/do-not-localize/icon-filter.svg)）圖示至[變更鑽研檢視的屬性篩選器](#filter-the-data)。
 

@@ -5,16 +5,21 @@ feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: addf009e-030a-4310-8534-776a3e62ed48
+autotag-review: '2026-03-27T22:24:19.286Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 1%
+source-wordcount: 1470
+ht-degree: 2%
 
 ---
 
 # 從 CRM 內存取詳細資料頁面
 
-Adobe Journey Optimizer B2B edition可讓銷售與帳戶團隊成員直接從其客戶關係管理(CRM)工具(例如Salesforce或Microsoft Dynamics)存取帳戶與購買群組資訊的詳細頁面。 透過這項整合，銷售代表可快速存取即時帳戶並購買群組深入分析，例如參與記錄、意圖訊號和AI產生的推薦。 這項能力讓銷售團隊能夠更快地進行外聯、更明智地安排優先順序，並且更好地與行銷保持一致。
+Adobe Journey Optimizer B2B edition可讓銷售與帳戶團隊成員直接從其客戶關係管理(CRM)工具（例如Salesforce或Microsoft Dynamics）存取帳戶與購買群組資訊的詳細頁面。 透過這項整合，銷售代表可快速存取即時帳戶並購買群組深入分析，例如參與記錄、意圖訊號和AI產生的推薦。 這項能力讓銷售團隊能夠更快地進行外聯、更明智地安排優先順序，並且更好地與行銷保持一致。
 
 若要讓銷售和帳戶團隊成員能夠從CRM檢視Journey Optimizer B2B edition中的[帳戶詳細資料](account-details.md)和[個人詳細資料](person-details.md)頁面，Salesforce或Dynamics管理員可以從帳戶、連絡人或潛在客戶檢視新增連結。
 
@@ -145,7 +150,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 1. 選取&#x200B;**[!UICONTROL 實體]** > **[!UICONTROL 帳戶]**/**[!UICONTROL 連絡人]**/**[!UICONTROL 潛在客戶]** > **[!UICONTROL 欄位]**。
 1. 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;並設定新欄位。
 
-   連絡人實體![的](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}新欄位
+   連絡人實體](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}的![新欄位
 
 1. 儲存欄位設定。
 1. 從&#x200B;_[!UICONTROL 解決方案]_&#x200B;索引標籤，選取&#x200B;**[!UICONTROL 網頁資源]**。
@@ -199,11 +204,11 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
    ![新增表單屬性](./assets/crm-linking-dynamics-url-form-properties.png){width="500" zoomable="yes"}
 
-1. 找到資源，選取該資源，然後按一下[新增]。**&#x200B;**
+1. 找到資源，選取該資源，然後按一下[新增]。****
 
    ![新增Web資源](./assets/crm-linking-dynamics-url-form-field-libraries.png){width="500" zoomable="yes"}
 
-1. 選取新增的資源後，按一下&#x200B;**[!UICONTROL 事件處理常式]**&#x200B;下的&#x200B;_[!UICONTROL 新增]_。
+1. 選取新增的資源後，按一下&#x200B;_[!UICONTROL 事件處理常式]_&#x200B;下的&#x200B;**[!UICONTROL 新增]**。
 1. 將`setViewInAjoB2b`函式新增至&#x200B;**[!UICONTROL 事件處理常式]**。
 1. 在&#x200B;_[!UICONTROL 事件處理常式]_&#x200B;清單中選取函式後，將&#x200B;**[!UICONTROL Control]**&#x200B;設定為`Form`並將&#x200B;**[!UICONTROL Event]**&#x200B;設定為`OnLoad`。
 
@@ -294,11 +299,11 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
 1. 按一下&#x200B;**[!UICONTROL 新增]**。
 
-1. 找到您建立的JScript Web資源(`new_getFormContext`)，選取它，然後按一下[新增]。**&#x200B;**
+1. 找到您建立的JScript Web資源(`new_getFormContext`)，選取它，然後按一下[新增]。****
 
    ![新增Web資源](./assets/crm-linking-dynamics-web-resources-add-form-property.png){width="500" zoomable="yes"}
 
-1. 選取新增的資源後，按一下&#x200B;**[!UICONTROL 事件處理常式]**&#x200B;下的&#x200B;_[!UICONTROL 新增]_。
+1. 選取新增的資源後，按一下&#x200B;_[!UICONTROL 事件處理常式]_&#x200B;下的&#x200B;**[!UICONTROL 新增]**。
 1. 將`getFormContext`函式新增至&#x200B;**[!UICONTROL 事件處理常式]**。
 1. 在&#x200B;_[!UICONTROL 事件處理常式]_&#x200B;清單中選取函式後，將&#x200B;**[!UICONTROL Control]**&#x200B;設定為`Form`並將&#x200B;**[!UICONTROL Event]**&#x200B;設定為`OnLoad`。
 

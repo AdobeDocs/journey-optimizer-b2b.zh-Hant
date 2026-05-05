@@ -6,9 +6,15 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+autotag-review: '2026-03-30T21:55:06.504Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: 2070
 ht-degree: 7%
 
 ---
@@ -154,7 +160,7 @@ ht-degree: 7%
 
 ### 發佈品牌
 
-當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] **&#x200B;**，讓您的品牌指引可用於內容對齊與產生。
+當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] ****，讓您的品牌指引可用於內容對齊與產生。
 
 已發佈的品牌可從AI [品牌一致性分數](./content-evaluation.md#brand-alignment-score)和[內容產生工具](../ai-assistant/generative-ai-content.md)中的&#x200B;**[!UICONTROL 品牌]**&#x200B;選項存取。
 
@@ -323,4 +329,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [視覺內容](#visual-content)
 
-1. 使用草稿更新時，請按一下[儲存]。**&#x200B;**，然後在準備取代&#x200B;_[即時]_&#x200B;版本時，按一下[發佈]。**&#x200B;**
+1. 使用草稿更新時，請按一下[儲存]。****，然後在準備取代&#x200B;_[即時]_&#x200B;版本時，按一下[發佈]。****

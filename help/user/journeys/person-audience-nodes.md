@@ -4,10 +4,18 @@ description: 使用區段或事件型對象設定個人對象節點，以定義J
 feature: Audiences
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
-source-git-commit: f5170767a6df14874fab5de203264a5a5e3e245a
+exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: '2026-03-30T23:13:05.616Z'
+source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 0%
+source-wordcount: 716
+ht-degree: 1%
 
 ---
 
@@ -19,7 +27,7 @@ _個人對象_&#x200B;節點會指定哪些人員設定檔進入歷程。 當您
 
 * **設定檔對象** — 使用CDP中定義的區段對象。 符合對象資格的所有設定檔都會新增為歷程的成員。 區段的新資格設定檔會在每日[設定檔擷取](#profile-ingestion)任務期間新增到歷程中。 如果設定檔不再符合區段的資格，就會&#x200B;**_不_**&#x200B;從歷程中移除。
 
-* **事件對象** — 使用合格事件來定義對象。 這些事件是在節點設定中定義，且必須使用在管理設定[中設定的](../admin/configure-aep-events.md)XDM事件。 事件型對象會籍支援最多10個事件。 在設定檔採取的第一個相符事件之後，設定檔會立即符合歷程的資格。
+* **事件對象** — 使用合格事件來定義對象。 這些事件是在節點設定中定義，且必須使用在管理設定](../admin/configure-aep-events.md)中設定的[XDM事件。 事件型對象會籍支援最多10個事件。 在設定檔採取的第一個相符事件之後，設定檔會立即符合歷程的資格。
 
   >[!NOTE]
   >

@@ -1,13 +1,19 @@
 ---
 title: 電子郵件範本設計的進階HTML模式
-description: 使用進階HTML模式，直接在Journey Optimizer B2B Edition的電子郵件設計空間中檢視和編輯電子郵件範本內容的原始HTML來源。
+description: 使用進階HTML模式，直接在Journey Optimizer B2B edition的電子郵件設計空間中檢視及編輯電子郵件範本內容的原始HTML來源。
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: 583
 ht-degree: 0%
 
 ---
@@ -49,7 +55,7 @@ We don't have the code editor at this point
 
    ![按一下電子郵件範本設計空間工具列中的HTML圖示](./assets/email-template-advanced-html-mode-toolbar.png){width="750" zoomable="yes"}
 
-   如果您是第一次開啟進階HTML模式（或經過一個月以上），系統會顯示警告訊息。 檢閱資訊，然後按一下[確定] **&#x200B;**&#x200B;以繼續。
+   如果您是第一次開啟進階HTML模式（或經過一個月以上），系統會顯示警告訊息。 檢閱資訊，然後按一下[確定] ****&#x200B;以繼續。
 
    ![檢閱進階HTML模式警告，然後按一下[確定]繼續](./assets/email-template-html-mode-warning.png){width="500"}
 

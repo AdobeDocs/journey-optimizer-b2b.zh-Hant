@@ -4,10 +4,18 @@ description: 為單頁應用程式(SPA)建立網站體驗 — 在Journey Optimiz
 feature: Channels, Personalization
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
-source-git-commit: e50b6830736bf763d3aae6a58595e868bbac36e0
+exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: '2026-03-30T22:02:23.111Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 0%
+source-wordcount: 848
+ht-degree: 2%
 
 ---
 
@@ -21,7 +29,7 @@ ht-degree: 0%
 
 * **沒有頁面重新載入** — 發生內容變更時，不會觸發傳統的頁面載入事件。
 * **虛擬檢視** — 在SPA內需以個別頁面追蹤的不同&#x200B;_檢視_&#x200B;或&#x200B;_熒幕_。
-* **使用者端路由** - JavaScript路由器(例如React路由器、Vue路由器和Angular路由器)會處理導覽而非伺服器要求。
+* **使用者端路由** - JavaScript路由器（例如React路由器、Vue路由器和Angular路由器）會處理導覽而非伺服器要求。
 * **動態DOM** — 頁面元素可在初始頁面載入後建立、修改或移除。
 
 ## 設定SPA支援
@@ -119,7 +127,7 @@ Journey Optimizer B2B edition Web體驗搭配常用的SPA架構運作：
 
 SPA通常會產生動態類別名稱或ID （尤其是使用CSS-in-JS解決方案）。 另外，您也可以使用：
 
-* **資料屬性** — 新增自訂資料屬性（`data-testid`、`data-section`等）至您要鎖定的元素。
+* **資料屬性** — 新增自訂資料屬性（`data-testid`、`data-section`等） 至您要鎖定的元素。
 * **語意HTML** — 目標以HTML結構和語意元素為基礎。
 * **ID屬性** — 儘可能使用穩定識別碼屬性。
 

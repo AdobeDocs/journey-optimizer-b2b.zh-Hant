@@ -4,9 +4,16 @@ description: 在內容製作中存取和使用AEM Assets影像 — 在Journey Op
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: d09181b5-a36a-43de-ba01-36641440bc43
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: da3860b0-d637-47df-bef0-273751180266
+autotag-review: '2026-03-30T22:38:14.175Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: 592
 ht-degree: 2%
 
 ---
@@ -23,7 +30,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->管理員需要將存取Assets的使用者新增至Assets消費者使用者或/和Assets使用者產品設定檔。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>管理員需要將存取Assets的使用者新增至Assets消費者使用者或/和Assets使用者產品設定檔。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## 存取AEM Assets影像
 
@@ -33,7 +40,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->目前，[!DNL Adobe Journey Optimizer B2B Edition]僅支援來自[!DNL Adobe Experience Manager Assets]的影像資產。 必須從[!DNL Adobe Experience Manager Assets]中央存放庫變更資產。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>目前，[!DNL Adobe Journey Optimizer B2B Edition]僅支援來自[!DNL Adobe Experience Manager Assets]的影像資產。 必須從[!DNL Adobe Experience Manager Assets]中央存放庫變更資產。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 變更顯示的存放庫
 

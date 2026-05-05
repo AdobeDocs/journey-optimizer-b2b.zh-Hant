@@ -4,10 +4,17 @@ description: 檢視預設購買群組角色並建立自訂角色 — 在Journey 
 feature: Buying Groups
 role: User
 exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T21:44:30.589Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 3%
+source-wordcount: 314
+ht-degree: 4%
 
 ---
 
@@ -57,6 +64,6 @@ Journey Optimizer B2B edition包含一組預設角色，用於購買群組的角
 
 ## 管理自訂角色
 
-您可以在&#x200B;_[!UICONTROL 角色]_&#x200B;標籤中管理自訂角色，包括編輯角色名稱和說明，以及從角色清單中移除角色。 按一下階段模型名稱旁的&#x200B;_更多_&#x200B;功能表圖示(**...**)，然後選擇&#x200B;**[!UICONTROL 編輯]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**。
+您可以在&#x200B;_[!UICONTROL 角色]_&#x200B;標籤中管理自訂角色，包括編輯角色名稱和說明，以及從角色清單中移除角色。 按一下&#x200B;_更多_&#x200B;功能表圖示(**...**) 在階段模型名稱旁邊，然後選擇&#x200B;**[!UICONTROL 編輯]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**。
 
 ![編輯或刪除自訂角色](./assets/roles-more-menu.png){width="600"}

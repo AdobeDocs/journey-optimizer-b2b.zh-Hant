@@ -3,9 +3,15 @@ title: 外部動作設定
 description: 瞭解開發人員、管理員和行銷人員如何共同實施、設定和使用外部動作，將Journey Optimizer B2B edition與帳戶歷程中的外部服務連結。
 feature: Setup, Integrations
 role: Admin, Developer
-source-git-commit: 6d3967babc1bc868fde0c76ac9068e63156070cd
+exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: 907
 ht-degree: 1%
 
 ---
@@ -39,7 +45,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->回呼函式需要持有人權杖。 請在Adobe Developer Console[&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中為您的IMS組織設定OAuth伺服器對伺服器認證，以擷取此專案。
+>回呼函式需要持有人權杖。 請在Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中為您的IMS組織設定[OAuth伺服器對伺服器認證，以擷取此專案。
 
 服務上線後，將OpenAPI規格的URL和驗證認證提供給負責設定動作的產品管理員。
 
@@ -130,7 +136,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;_上一箭號_&#x200B;以返回清單並將動作保持在&#x200B;_草稿_&#x200B;狀態。
 
-   或者，按一下[啟動]&#x200B;**&#x200B;**&#x200B;將動作組態變更為[啟動]__&#x200B;狀態。 設定的外部動作必須處於作用中狀態，才能用於帳戶歷程。
+   或者，按一下[啟動]****&#x200B;將動作組態變更為[啟動]__&#x200B;狀態。 設定的外部動作必須處於作用中狀態，才能用於帳戶歷程。
 
 ## 將外部節點新增至歷程 {#add-journey-node}
 
