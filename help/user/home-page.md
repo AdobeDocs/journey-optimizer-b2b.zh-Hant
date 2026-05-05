@@ -4,10 +4,15 @@ description: 存取 Journey Optimizer B2B Edition 和導覽個人化首頁：透
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-03-27T22:19:43.813Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
@@ -33,7 +38,7 @@ ht-degree: 93%
 
 ![Journey Optimizer B2B Edition 首頁](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition 具有兩種主要使用者人物誌：_**行銷人員**_&#x200B;和&#x200B;_**管理員**_。 每個人物誌針對不同的成熟度階段 (新手或進階) 均有特定的首頁。 此頁面是根據每個人物誌所需的資訊及後續要採取的行動來提供相關內容。
+Journey Optimizer B2B Edition 具有兩種主要使用者人物誌：_&#x200B;**行銷人員**&#x200B;_&#x200B;和&#x200B;_&#x200B;**管理員**&#x200B;_。 每個人物誌針對不同的成熟度階段 (新手或進階) 均有特定的首頁。 此頁面是根據每個人物誌所需的資訊及後續要採取的行動來提供相關內容。
 
 * **行銷人員 - 新使用者**：新使用者的「_行銷人員_」首頁可協助他們逐漸熟悉 Journey Optimizer B2B 及其功能。 此首頁提供引導式操作示範，讓新行銷人員獲得入門的逐步指導，以便他們了解系統運作細節，並有效率地開發 B2B 行銷策略和行動方案。
 * **行銷人員 - 進階使用者**：進階行銷人員的「_行銷人員_」首頁顯示目前的行動方案進度、建議的後續動作，並提供相關區段的快速存取。

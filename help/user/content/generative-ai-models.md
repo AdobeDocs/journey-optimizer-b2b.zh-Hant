@@ -6,10 +6,14 @@ feature: Generative AI, Brand Identity, Content
 role: User
 level: Beginner, Intermediate
 exl-id: 9f69320e-8603-4343-80e0-052d820ba61f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
@@ -84,7 +88,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 測試連線]**&#x200B;以驗證模型組態。
 
-1. 當連線測試成功時，按一下[儲存]儲存模型組態。****
+1. 當連線測試成功時，按一下[儲存]儲存模型組態。**&#x200B;**
 
    儲存模型會將其新增至產生模型清單，您可在此處啟用它以供行銷人員使用。 您也可以隨時停用或刪除它。
 
