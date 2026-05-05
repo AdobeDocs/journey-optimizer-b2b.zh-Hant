@@ -4,10 +4,24 @@ description: 瞭解如何設定Web通道設定，以定義Journey Optimizer B2B 
 feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
-source-git-commit: 2f9b007df233cf8a233c3646bf691b7cff139f86
+exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T23:15:46.632Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 0%
+source-wordcount: 1075
+ht-degree: 2%
 
 ---
 
@@ -50,17 +64,17 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
      ![選取單頁Web Channel設定的頁面URL](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則[的](#build-a-pages-matching-rule)頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
+   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則[&#128279;](#build-a-pages-matching-rule)的頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以儲存變更。
 
-儲存設定後，設定會處於&#x200B;_草稿_&#x200B;狀態，當行銷人員在歷程中使用網路管道時，即可使用該設定。 只要組態保持草稿狀態，您就可以繼續編輯組態。 您也可以按一下名稱旁的&#x200B;_更多_&#x200B;圖示(**...**)，然後選擇&#x200B;**[!UICONTROL 刪除]**，刪除草稿Web Channel設定。
+儲存設定後，設定會處於&#x200B;_草稿_&#x200B;狀態，當行銷人員在歷程中使用網路管道時，即可使用該設定。 只要組態保持草稿狀態，您就可以繼續編輯組態。 您也可以按一下&#x200B;_更多_&#x200B;圖示(**...**)來刪除草稿Web管道設定 在名稱旁邊，然後選擇&#x200B;**[!UICONTROL 刪除]**。
 
 在歷程中使用Web管道後，它就會移至&#x200B;_作用中_&#x200B;狀態。 在此狀態下，您可以編輯設定的名稱和描述。 您無法變更網頁設定或刪除設定。
 
 ## 頁面比對規則 {#pages-matching-rule}
 
-建立Web組態時，您可以建置符合規則&#x200B;_[!UICONTROL 的]_&#x200B;頁面，以鎖定多個符合相同規則的URL。 這些規則可讓您將相同的內容變更套用至多個頁面。
+建立Web組態時，您可以建置符合規則&#x200B;_的_&#x200B;頁面，以鎖定多個符合相同規則的URL。 這些規則可讓您將相同的內容變更套用至多個頁面。
 
 例如，您可能會想要將變更套用至整個網站的主圖橫幅，或新增顯示在所有產品頁面上的最上層影像。
 
@@ -111,7 +125,7 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
      _[!UICONTROL Or]_&#x200B;是定義多個規則的預設運運算元，可用來新增可比對的多個條件定義。
 
-     _[!UICONTROL 排除]_&#x200B;在符合所定義規則的其中一個頁面不應鎖定為目標時非常有用。 例如，您可以鎖定包含`bodea.com`的所有`lumasecure`頁面，但不包括部落格頁面（例如`bodea.com/blogs/lumasecure/latest-release`）。
+     _[!UICONTROL 排除]_&#x200B;在符合所定義規則的其中一個頁面不應鎖定為目標時非常有用。 例如，您可以鎖定包含`lumasecure`的所有`bodea.com`頁面，但不包括部落格頁面（例如`bodea.com/blogs/lumasecure/latest-release`）。
 
    ![頁面符合排除的規則](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
@@ -123,7 +137,7 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
 您可以複製現有的Web Channel設定並加以變更，以根據現有的Web Channel建立新的Web Channel。 無法修改儲存至程式庫的使用中Web Channel設定。
 
-1. 按一下變體的&#x200B;_更多功能表_&#x200B;圖示(**...**)，然後選擇&#x200B;**[!UICONTROL 複製]**。
+1. 按一下&#x200B;_更多功能表_&#x200B;圖示(**...**) 為變體選擇&#x200B;**[!UICONTROL 複製]**。
 
    ![按一下[更多nenu]圖示以複製現有的Web Channel設定](./assets/config-web-channels-more-menu.png){width="450"}
 

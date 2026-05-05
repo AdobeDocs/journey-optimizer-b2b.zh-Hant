@@ -1,12 +1,23 @@
 ---
 title: 購買群組角色範本
-description: 使用條件式自動指派來建立角色範本，以識別在Journey Optimizer B2B Edition中購買群組的決策者和利害關係人。
+description: 使用條件式自動指派來建立角色範本，以識別在Journey Optimizer B2B edition中購買群組的決策者和利害關係人。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+autotag-review: '2026-03-30T21:37:51.618Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: 1410
 ht-degree: 5%
 
 ---
@@ -128,7 +139,7 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 >
 >**功能淘汰**</br></br>
 >
->在目前的Journey Optimizer B2B Edition版本中，不再支援在Marketo Engage執行個體中根據清單或方案成員資格進行篩選。
+>在目前的Journey Optimizer B2B edition版本中，不再支援在Marketo Engage執行個體中根據清單或方案成員資格進行篩選。
 
 >[!ENDSHADEBOX]
 

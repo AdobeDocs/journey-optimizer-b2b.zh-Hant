@@ -4,9 +4,24 @@ description: 新增自訂CSS至電子郵件和登陸頁面，以實現Journey Op
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+autotag-review: '2026-03-30T22:36:27.982Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: 563
 ht-degree: 0%
 
 ---
@@ -15,7 +30,7 @@ ht-degree: 0%
 
 您可以直接在電子郵件或登入頁面設計空間新增自己的自訂CSS。 使用自訂CSS套用進階和特定的樣式，以擁有更大的彈性並控制內容的外觀。
 
-自訂CSS已使用`<head>`屬性附加至`<style>`標籤內的`data-name="global-custom"`區段。 此結構可確保將自訂樣式全域套用至內容。
+自訂CSS已使用`data-name="global-custom"`屬性附加至`<style>`標籤內的`<head>`區段。 此結構可確保將自訂樣式全域套用至內容。
 
 +++ 實作範例
 
@@ -190,7 +205,7 @@ body {
 
 如果您想要搭配匯入電子郵件或登入頁面設計空間的內容使用自訂CSS，請考慮下列事項：
 
-* 如果您匯入包含CSS的外部HTML內容，則會以<!-- unless converting that content, -->相容性模式[!UICONTROL 填入該內容，且無法使用]CSS樣式[!UICONTROL 區段。]
+* 如果您匯入包含CSS的外部HTML內容，則會以[!UICONTROL 相容性模式]填入該內容，且無法使用[!UICONTROL CSS樣式]區段。<!-- unless converting that content, -->
 
 * 如果您匯入原本使用[!UICONTROL 新增自訂CSS]選項在電子郵件或登入頁面設計空間建立的內容，則套用的CSS會透過相同選項顯示及編輯。
 
@@ -200,7 +215,7 @@ body {
 
 * 請檢查您的CSS是否有效且沒有語法錯誤（例如缺少大括弧、屬性名稱不正確）。
 
-* 檢查您的CSS是否已新增至具有`<style>`屬性的`data-name="global-custom"`標籤。
+* 檢查您的CSS是否已新增至具有`data-name="global-custom"`屬性的`<style>`標籤。
 
 * 檢查`global-custom`樣式標籤是否已將屬性`data-disabled`設定為true，例如：
 

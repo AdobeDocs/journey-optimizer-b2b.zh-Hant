@@ -4,9 +4,23 @@ description: 瞭解如何為B2B行銷設定角色對應。 在Journey Optimizer 
 feature: Setup, Buying Groups
 role: Admin
 exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
-source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T22:59:15.291Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: 914
 ht-degree: 2%
 
 ---
@@ -32,7 +46,7 @@ Then based on what agent informed, users can create a template with those person
 
 許多行銷和銷售團隊使用職稱作為識別帳戶中不同角色的方式。 但聯絡人的標題可能會不一致，且對類似角色使用許多變數。 建立購買群組角色範本時，可能需要您為特定角色定義每個可能的相關職稱。 您可以簡化這些定義，將擁有類似職稱的人員歸入同一個推斷角色下，然後您可以跨不同的角色範本運用這些範本來購買群組。
 
-例如，您可以設定名為&#x200B;_產品管理_&#x200B;的角色，並使用&#x200B;_產品經理_、_Sr的值之職稱屬性來定義它。產品經理_、_資深產品經理_、_PM_、_Sr. PM_、_主體PM_&#x200B;以及&#x200B;_主要產品經理_。 然後，在角色範本中使用此角色，其中&#x200B;_角色上的條件符合產品管理_。 使用已設定的角色，可簡化建立每個角色範本，且不需要符合每個可能職稱的複雜條件。
+例如，您可以設定名為&#x200B;_產品管理_&#x200B;的角色，並使用&#x200B;_產品經理_，_Sr的值的工作職稱屬性來定義它。產品經理_，_資深產品經理_，_PM_，_Sr。PM_、_主體PM_&#x200B;和&#x200B;_主體產品經理_。 然後，在角色範本中使用此角色，其中&#x200B;_角色上的條件符合產品管理_。 使用已設定的角色，可簡化建立每個角色範本，且不需要符合每個可能職稱的複雜條件。
 
 >[!ENDSHADEBOX]
 

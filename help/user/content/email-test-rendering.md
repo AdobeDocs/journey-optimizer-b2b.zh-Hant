@@ -5,20 +5,35 @@ feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+autotag-review: '2026-03-30T22:28:13.343Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: 376
+ht-degree: 2%
 
 ---
 
-# 使用Litmus測試電子郵件呈現
+# 使用 Litmus 測試電子郵件轉譯
 
 若要測試您的電子郵件，您可以利用Journey Optimizer B2B edition的[Litmus](https://www.litmus.com/email-testing){target="_blank"}企業帳戶。 透過這項整合，您可以在常用的電子郵件使用者端中預覽電子郵件呈現。 此工具可協助您確保電子郵件內容看起來不錯，並在每個收件匣中依設計運作。
 
 >[!AVAILABILITY]
 >
->這項整合僅適用於擁有Litmus Enterprise帳戶的Journey Optimizer B2B edition使用者。 如需詳細資訊，請參閱Litmus網站[上的](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}解決方案頁面。
+>這項整合僅適用於擁有Litmus Enterprise帳戶的Journey Optimizer B2B edition使用者。 如需詳細資訊，請參閱Litmus網站[&#128279;](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}上的解決方案頁面。
 
 1. 當您的電子郵件設計完成並準備好進行測試時，請在電子郵件設計空間按一下&#x200B;**[!UICONTROL 模擬內容]**。
 

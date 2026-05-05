@@ -4,9 +4,18 @@ description: 在Journey Orchestration中使用帳戶清單、動態新增/移除
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: '2026-03-27T22:29:03.719Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: 731
 ht-degree: 0%
 
 ---
@@ -19,7 +28,7 @@ ht-degree: 0%
 
 所有帳戶歷程都以&#x200B;[_帳戶對象_&#x200B;節點](../journeys/account-audience-nodes.md)開始。 當您設定此節點使用帳戶清單時，成員帳戶會在歷程上線（發佈）時移動歷程。
 
-1. 選取起始&#x200B;**[!UICONTROL 帳戶對象]**&#x200B;節點的&#x200B;_帳戶清單_&#x200B;選項。
+1. 選取起始&#x200B;_帳戶對象_&#x200B;節點的&#x200B;**[!UICONTROL 帳戶清單]**&#x200B;選項。
 
    ![選取帳戶對象節點的帳戶清單選項](../journeys/assets/node-audience-account-list.png){width="500"}
 
@@ -41,9 +50,9 @@ ht-degree: 0%
 >
 >如果節點執行時帳戶已在清單中，則會忽略動作。
 
-1. 選取&#x200B;__&#x200B;帳戶&#x200B;**[!UICONTROL 上的]**&#x200B;動作選項。
+1. 選取&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;上的_&#x200B;動作選項。
 
-1. 若為帳戶&#x200B;_[!UICONTROL 上的]_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至帳戶清單]**。
+1. 若為帳戶&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至帳戶清單]**。
 
    ![選取[新增至帳戶清單]](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
@@ -63,9 +72,9 @@ ht-degree: 0%
 >
 >如果帳戶不在排定移除的清單中，則會忽略動作。
 
-1. 選取&#x200B;__&#x200B;帳戶&#x200B;**[!UICONTROL 上的]**&#x200B;動作選項。
+1. 選取&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;上的_&#x200B;動作選項。
 
-1. 若為帳戶&#x200B;_[!UICONTROL 上的]_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 從帳戶清單移除]**。
+1. 若為帳戶&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 從帳戶清單移除]**。
 
    ![選取[新增至帳戶清單]](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
@@ -87,7 +96,7 @@ ht-degree: 0%
 
 1. 將濾鏡拖曳至「智慧列示」畫布。
 
-1. 在智慧列示畫布上，設定帳戶&#x200B;**[!UICONTROL 清單值的]**&#x200B;成員。
+1. 在智慧列示畫布上，設定帳戶&#x200B;**清單值的**&#x200B;成員。
 
    按一下向下箭頭以顯示所有帳戶清單，或輸入部分帳戶清單名稱以協助找出您需要的帳戶清單。
 

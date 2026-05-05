@@ -5,9 +5,20 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: 895
 ht-degree: 1%
 
 ---
@@ -25,7 +36,7 @@ ht-degree: 1%
 | 學習概念和持續工作流程 | 身為新手使用者，您可以使用AI Assistant來瞭解Real-Time CDP和Adobe Journey Optimizer B2B edition概念，並且將自己帶入你不熟悉的產品和功能。 <br>身為經驗豐富的使用者，您可以使用AI Assistant解決可能阻礙工作流程的邊緣案例。 | <li>告訴我一些Real-Time CDP的使用案例。 <li>向我說明購買群組的概念。 |
 | 疑難排解 | 使用AI助理瞭解如何偵錯工作流程中可能遇到的基本錯誤。 | <li>此錯誤&lt;ERROR_MESSAGE>代表什麼意思？ <li>我為何刪除不了名為「……」的對象？ |
 | 沙箱衛生 | 使用AI助理來識別任何重複專案或未使用的物件，以便您能夠有效地維護您的沙箱。 | <li>您可以顯示類似的帳戶對象嗎？ <li>是否有任何沒有關聯資料集的結構描述？ |
-| 值分析 | 使用AI助理可以識別您最常用的資料物件，並評估任何績效指標或尋找最有價值的資料物件。 | <li>我們的「……」區段定義中有多少帳戶？ <li>對象何時啟用至Experience Cloud對象目的地？ |
+| 值分析 | 使用AI助理可以識別您最常用的資料物件，並評估任何績效指標或尋找最有價值的資料物件。 | <li>我們的「……」有多少帳戶 區段定義？ <li>對象何時啟用至Experience Cloud對象目的地？ |
 | 搜尋 | 使用AI助理來尋找支援的Experience Platform和Adobe Journey Optimizer B2B edition物件，例如帳戶對象、資料集、目的地、結構描述、來源、帳戶歷程、購買群組範本和解決方案興趣 | <li>列出帳戶歷程中所使用名稱中包含「Luma」的受眾。 <li>「Luma：自訂動作」XDM結構描述中有哪些屬性？ |
 | 影響分析 | 使用AI助理來識別某些工作流程中使用的資料物件，以便您評估任何變更的影響。 | <li>在「B2B Person」結構描述中，哪些帳戶對象使用`workEmail.address`？ <li>`jobTitle`儲存在哪些資料集？ |
 
