@@ -4,20 +4,15 @@ description: 使用條件式自動指派來建立角色範本，以識別在Jour
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-subfeature_v2:
-  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: '2026-03-30T21:37:51.618Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 09e0fead8d6a04b432cb6fd94aaea561b84a0063
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: 1412
 ht-degree: 5%
 
 ---
@@ -74,7 +69,7 @@ ht-degree: 5%
 | 類型 | 條件 |
 | ---- | --------- |
 | [!UICONTROL 個人屬性] | [個人檔案](../admin/field-mapping.md#xdm-business-person-attributes)中的屬性，包括： <li>城市 <li>國家 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域 <li>職稱 <li>姓氏 <li>手機號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>狀態 |
-| [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此帳戶有或沒有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 |
+| [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}帳戶或人員沒有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 |
 | 特殊篩選條件 | <li>清單成員（已棄用） <li>計畫成員（已棄用） |
 | 意圖資料 | <li>類別方法 <li>產品意圖 <li>關鍵字比對方式<br/>（請參閱&#x200B;[_比對方式資料_](../admin/intent-data.md)） |
 
@@ -82,7 +77,7 @@ ht-degree: 5%
 
    * 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
 
-     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單[&#128279;](./default-custom-roles.md#custom-roles)中定義的任何自訂角色。
+     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單](./default-custom-roles.md#custom-roles)中定義的任何[自訂角色。
 
      ![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -110,9 +105,9 @@ ht-degree: 5%
 
      在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
 
-     使用職稱![&#128279;](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的角色範本條件範例
+     使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
 
-   * 如果已設定自訂物件與XDM關聯式結構描述[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定義的人員相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
+   * 如果已設定自訂物件與XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中定義的人員[相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
 
      ![角色範本新增自訂物件條件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -120,7 +115,7 @@ ht-degree: 5%
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] **，並重複步驟1和2來定義角色。**
+1. 針對您想要加入範本的每個其他角色，按一下[新增其他角色] ]**，並重複步驟1和2來定義角色。**[!UICONTROL 
 
    已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -205,4 +200,4 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
