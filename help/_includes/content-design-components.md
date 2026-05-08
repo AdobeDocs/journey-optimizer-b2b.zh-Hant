@@ -1,9 +1,9 @@
 ---
 title: 內容製作 — 元件
 description: 關於使用元件和內容元素進行內容製作的重複使用區段
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 6ff0d61295d46bfc0706e522ff870d99fc48e70d
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 1. 展開&#x200B;**[!UICONTROL 內容]**&#x200B;區段，並視需要新增內容元件至一或多個結構元件。
 
    ![將內容元素拖曳到畫布上並調整設定](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
-&lt;!--
-當我們有每個元素的完整參考時，對內容元素的參考。
 
+   <!--
+   reference to the contents elements when we have a completed reference for each.
    -->
 
 1. 如有需要，您可以在&#x200B;_[!UICONTROL 設定]_&#x200B;或&#x200B;_[!UICONTROL 樣式]_&#x200B;標籤中為每個元件進行其他自訂。
