@@ -124,4 +124,4 @@ ht-degree: 2%
 
    ![Experience Platform — 目的地 — 啟用目的地 — 檢閱](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-啟用後，您可以在[Adobe Target對象](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到對象，並在Adobe Target活動中使用這些對象。
+啟用後，您可以在[Adobe Target對象](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到對象，並在Adobe Target活動中使用這些對象。
