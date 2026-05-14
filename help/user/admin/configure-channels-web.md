@@ -5,10 +5,16 @@ feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -57,7 +63,7 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
      ![選取單頁Web Channel設定的頁面URL](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則](#build-a-pages-matching-rule)的[頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
+   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則[&#128279;](#build-a-pages-matching-rule)的頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以儲存變更。
 
@@ -67,7 +73,7 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
 ## 頁面比對規則 {#pages-matching-rule}
 
-建立Web組態時，您可以建置符合規則&#x200B;]_的_[!UICONTROL &#x200B;頁面，以鎖定多個符合相同規則的URL。 這些規則可讓您將相同的內容變更套用至多個頁面。
+建立Web組態時，您可以建置符合規則&#x200B;_的_&#x200B;頁面，以鎖定多個符合相同規則的URL。 這些規則可讓您將相同的內容變更套用至多個頁面。
 
 例如，您可能會想要將變更套用至整個網站的主圖橫幅，或新增顯示在所有產品頁面上的最上層影像。
 

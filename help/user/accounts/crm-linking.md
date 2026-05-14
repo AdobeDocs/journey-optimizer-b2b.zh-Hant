@@ -5,10 +5,17 @@ feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fd
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: addf009e-030a-4310-8534-776a3e62ed48
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: addf009e-030a-4310-8534-776a3e62ed48
 autotag-review: 2026-03-27T22:24:19.286Z
 TQID: https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -151,7 +158,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 1. 選取&#x200B;**[!UICONTROL 實體]** > **[!UICONTROL 帳戶]**/**[!UICONTROL 連絡人]**/**[!UICONTROL 潛在客戶]** > **[!UICONTROL 欄位]**。
 1. 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;並設定新欄位。
 
-   連絡人實體](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}的![新欄位
+   連絡人實體![&#128279;](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}的新欄位
 
 1. 儲存欄位設定。
 1. 從&#x200B;_[!UICONTROL 解決方案]_&#x200B;索引標籤，選取&#x200B;**[!UICONTROL 網頁資源]**。
@@ -205,7 +212,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
    ![新增表單屬性](./assets/crm-linking-dynamics-url-form-properties.png){width="500" zoomable="yes"}
 
-1. 找到資源，選取該資源，然後按一下[新增]。****
+1. 找到資源，選取該資源，然後按一下[新增]。**&#x200B;**
 
    ![新增Web資源](./assets/crm-linking-dynamics-url-form-field-libraries.png){width="500" zoomable="yes"}
 
@@ -300,7 +307,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
 1. 按一下&#x200B;**[!UICONTROL 新增]**。
 
-1. 找到您建立的JScript Web資源(`new_getFormContext`)，選取它，然後按一下[新增]。****
+1. 找到您建立的JScript Web資源(`new_getFormContext`)，選取它，然後按一下[新增]。**&#x200B;**
 
    ![新增Web資源](./assets/crm-linking-dynamics-web-resources-add-form-property.png){width="500" zoomable="yes"}
 
