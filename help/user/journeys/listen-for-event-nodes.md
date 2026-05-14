@@ -4,21 +4,14 @@ description: 設定帳戶和人員觸發器的事件節點 — 在Journey Optimi
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-  - id: d0031543-532c-4a26-8f90-01af2b91e6d0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: '2026-03-30T23:08:46.228Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: 2026-03-30T23:08:46.228Z
+TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1844
 ht-degree: 12%
@@ -149,7 +142,7 @@ ht-degree: 12%
 
 ### 聆聽體驗事件
 
-管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
+管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
 
 1. 管理員[選取感興趣的事件型別和欄位](../admin/configure-aep-events.md#select-an-event)，以便在歷程中使用。
 
@@ -240,5 +233,5 @@ ht-degree: 12%
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?captions=chi_hant&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

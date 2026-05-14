@@ -4,20 +4,14 @@ description: 透過在Marketo Engage智慧清單中購買群組成員資格並�
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-03-30T21:39:24.495Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: b27e5950-9033-45ac-9f86-eb22e567f615
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: 2026-03-30T21:39:24.495Z
+TQID: https://experienceleague.adobe.com/HGixvYgQPYt-yMoavl8qFwpujaAW5Ejh1Yb1-Pkc8Z8
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 562
 ht-degree: 1%
@@ -43,7 +37,7 @@ ht-degree: 1%
 
 在連線至Journey Optimizer B2B edition的Marketo Engage執行個體中，您可以在智慧清單中使用&#x200B;_[!UICONTROL 購買群組成員]_&#x200B;篩選器，根據您的行銷活動策略來識別這些銷售機會。
 
-1. 在您[在Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}中建立智慧列示後，請選取&#x200B;**[!UICONTROL 智慧列示]**&#x200B;索引標籤以開啟篩選器編輯器。
+1. 在您[在Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}中建立智慧列示後，請選取&#x200B;**[!UICONTROL 智慧列示]**&#x200B;索引標籤以開啟篩選器編輯器。
 
 1. 在右側的篩選器清單中，向下捲動清單並展開&#x200B;**[!UICONTROL 特殊篩選器]**&#x200B;資料夾。
 

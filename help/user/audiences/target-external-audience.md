@@ -4,23 +4,14 @@ description: 透過帳戶歷程啟用外部對象至 [!DNL Adobe Target] 。 個
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: '2026-03-30T19:48:50.374Z'
-source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: 2026-03-30T19:48:50.374Z
+TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 720
 ht-degree: 2%
@@ -44,9 +35,9 @@ ht-degree: 2%
 >
 >當具有人員設定檔的合格帳戶到達已發佈歷程中的&#x200B;_新增到外部客戶對象_&#x200B;節點時，這些設定檔可能需要48小時才能填入外部對象中。
 
-1. 在歷程畫布中選取&#x200B;_採取動作_&#x200B;節點，選擇&#x200B;_&#x200B;**[!UICONTROL 人員]**&#x200B;上的_&#x200B;動作選項。
+1. 在歷程畫布中選取&#x200B;_採取動作_&#x200B;節點，選擇&#x200B;]_**[!UICONTROL 人員]**上的_[!UICONTROL &#x200B;動作選項。
 
-1. 若要對人員&#x200B;_執行_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至外部客戶對象]**。
+1. 若要對人員&#x200B;]_執行_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至外部客戶對象]**。
 
    ![歷程節點 — 對人員採取動作 — 新增到外部客戶對象](./assets/node-add-external-audience.png){width="550" zoomable="yes"}
 
@@ -123,4 +114,4 @@ ht-degree: 2%
 
    ![Experience Platform — 目的地 — 啟用目的地 — 檢閱](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-啟用後，您可以在[Adobe Target對象](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到對象，並在Adobe Target活動中使用這些對象。
+啟用後，您可以在[Adobe Target對象](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到對象，並在Adobe Target活動中使用這些對象。

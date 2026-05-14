@@ -4,21 +4,13 @@ description: 將Experience Manager Assets存放庫連線至Journey Optimizer B2B
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: '2026-03-27T23:16:47.648Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: d09181b5-a36a-43de-ba01-36641440bc43
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: 2026-03-27T23:16:47.648Z
+TQID: https://experienceleague.adobe.com/SCUDOEQRJb1cx-zj1oC2Qac4tPyZZg2l130MO5ds-DQ
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 750
 ht-degree: 1%
@@ -29,13 +21,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer B2B Edition]與[!DNL Adobe Experience Manager Assets as a Cloud Service]整合，允許在您的電子郵件內容中使用資產。 它透過與[!DNL Experience Manager Assets]交換資訊來確保透明度。 設定與[!DNL Adobe Experience Assets]的連線以啟用此功能。
 
-Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都有多個環境和存放庫（[瞭解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 在Adobe Journey Optimizer B2B edition中設定Adobe Experience Manager Assets時，您需設定與每個要用於存取數位資產的存放庫的連線。
+Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都有多個環境和存放庫（[瞭解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 在Adobe Journey Optimizer B2B edition中設定Adobe Experience Manager Assets時，您需設定與每個要用於存取數位資產的存放庫的連線。
 
 {{aem-assets-licensing-note}}
 
 ## 先決條件
 
-* 在AEM Headless Developer Console上針對所需的環境產生服務認證（[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
+* 在AEM Headless Developer Console上針對所需的環境產生服務認證（[深入瞭解](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
 * 取得連線所需的憑證。 最佳做法是確保憑證在到期前至少還有六個月。 憑證每365天過期一次。
 * Adobe Journey Optimizer B2B edition支援一次存取一個數位資產管理來源。 切換之前，請確定Adobe Experience Manager中提供了所需的資產。
 

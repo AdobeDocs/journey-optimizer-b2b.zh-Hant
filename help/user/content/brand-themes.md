@@ -7,21 +7,14 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，可重複使用，品牌一致性，電子郵件設計
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: a509712a-4df0-4095-9c79-78116d8e3311
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-autotag-review: '2026-03-30T21:49:24.359Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+autotag-review: 2026-03-30T21:49:24.359Z
+TQID: https://experienceleague.adobe.com/d3dPmwhMxG9ARxbIzw-lHl1vHbPB1xHazCLEVZbTJAY
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 3107
 ht-degree: 2%
@@ -94,7 +87,7 @@ ht-degree: 2%
 
    當您定義新的主題設定時，畫布上的視覺元素會變更。 如果結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-1. 當您的佈景主題定義完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的佈景主題定義完成時，請按一下[儲存]。****
 
 1. 按一下&#x200B;**[!UICONTROL 關閉]**&#x200B;返回&#x200B;_[!UICONTROL 建立主題]_&#x200B;頁面，然後按&#x200B;**[!UICONTROL 取消]**&#x200B;返回設計頁面。
 
@@ -262,7 +255,7 @@ ht-degree: 2%
 
 顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >
@@ -296,7 +289,7 @@ ht-degree: 2%
 
    顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右邊欄底部的&#x200B;_還原_&#x200B;圖示。 按一下&#x200B;_重做_&#x200B;圖示以重新套用變更。
 
-1. 當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >

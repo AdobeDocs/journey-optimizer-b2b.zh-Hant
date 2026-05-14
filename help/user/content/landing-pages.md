@@ -5,20 +5,14 @@ feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: '2026-03-30T21:57:18.444Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: 2026-03-30T21:57:18.444Z
+TQID: https://experienceleague.adobe.com/vrsWEm-DjB2IuI4ghEBKhQAlbYRgnWgddPCDV4a2mmI
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 2220
 ht-degree: 2%
@@ -254,7 +248,7 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
-1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。**&#x200B;**
+1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。****
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而託管頁面中的內容會更新。
 

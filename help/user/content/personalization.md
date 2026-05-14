@@ -7,22 +7,14 @@ role: User, Developer
 level: Intermediate
 keywords: 運算式，編輯器，開始，個人化
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-autotag-review: '2026-03-30T21:59:25.221Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+autotag-review: 2026-03-30T21:59:25.221Z
+TQID: https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjXb7YE
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 751
 ht-degree: 6%
@@ -54,11 +46,11 @@ ht-degree: 6%
 
 * **系統權杖** — 這些權杖是以系統欄位值為基礎，例如&#x200B;_date_、_time_&#x200B;和&#x200B;_取消訂閱連結_。
 
-* **我的權杖** （為歷程定義時） — 為電子郵件所在的歷程[&#128279;](./personalization-my-tokens.md)定義的自訂權杖。
+* **我的權杖** （為歷程定義時） — 為電子郵件所在的歷程](./personalization-my-tokens.md)定義的[自訂權杖。
 
 >[!NOTE]
 >
->在[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中進一步瞭解XDM結構描述。
+>在[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中進一步瞭解XDM結構描述。
 
 ## Personalization編輯器
 
@@ -82,13 +74,13 @@ ht-degree: 6%
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->
 
-您也可以定義預設後援文字字串，當字串型別的設定檔屬性為空白時就會顯示。 按一下屬性的&#x200B;_更多功能表_ ( **...** )圖示，然後選取&#x200B;**[!UICONTROL 插入後援文字]**。 輸入設定檔的屬性值為空時所應顯示的文字，然後按一下[新增]。**&#x200B;**
+您也可以定義預設後援文字字串，當字串型別的設定檔屬性為空白時就會顯示。 按一下屬性的&#x200B;_更多功能表_ ( **...** )圖示，然後選取&#x200B;**[!UICONTROL 插入後援文字]**。 輸入設定檔的屬性值為空時所應顯示的文字，然後按一下[新增]。****
 
 最佳實務是在將運算式插入內容之前先驗證該運算式。 按一下編輯器底部的&#x200B;**[!UICONTROL 驗證]**，檢查您的語法並確保沒有錯誤。
 
 ![Personalization編輯器驗證碼](./assets/personalization-editor-validated.png){width="500"}
 
-當運算式完成且沒有錯誤時，請按一下[儲存]。**&#x200B;**
+當運算式完成且沒有錯誤時，請按一下[儲存]。****
 
 ### 自訂資料集
 
