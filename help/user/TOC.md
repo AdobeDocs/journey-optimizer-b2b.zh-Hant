@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
+source-git-commit: 8be440c86b32a582891f0f30cae259e23028d336
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 92%
       + [個人對象(Beta)](./journeys/person-audience-nodes.md)
       + [採取動作](./journeys/action-nodes.md)
       + [監聽事件](./journeys/listen-for-event-nodes.md)
-      + [分割與合併路徑](./journeys/split-merge-paths-nodes.md)
+      + [分割和合併路徑](./journeys/split-merge-paths-nodes.md)
       + [等待](./journeys/wait-nodes.md)
       + [外部節點](./journeys/external-nodes.md)
    + [歷程詳細資訊](./journeys/journey-details.md)
@@ -150,7 +150,7 @@ ht-degree: 92%
 + 智慧型儀表板 {#dashboards}
    + [見解儀表板](./dashboards/intelligent-dashboard.md)
    + [參與儀表板](./dashboards/engagement-dashboard.md)
-   + [Web參與儀表板](./dashboards/web-engagement-dashboard.md)
+   + [網頁參與儀表板](./dashboards/web-engagement-dashboard.md)
    + [購買群組儀表板](./dashboards/buying-groups-dashboard.md)
    + [帳戶歷程儀表板](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
@@ -161,10 +161,10 @@ ht-degree: 92%
       + [意圖資料](./admin/intent-data.md)
       + [參與度分數加權](./admin/engagement-score-weighting.md)
       + [外部動作](./admin/configure-external-actions.md)
+      + {hide-from-toc}[設定事件集合的資料串流](./data/aep-event-collection.md)
    + 管道 {#channels}
       + [電子郵件組態](./admin/configure-channels-emails.md)
       + [簡訊設定](./admin/configure-channels-sms.md)
       + [WhatsApp設定](./admin/configure-channels-whatsapp.md)
       + [Web頻道設定(Beta)](./admin/configure-channels-web.md)
       + [登陸頁面設定(Beta)](./admin/landing-page-settings.md)
-      + {hide-from-toc}[設定事件集合的資料串流](./data/aep-event-collection.md)
