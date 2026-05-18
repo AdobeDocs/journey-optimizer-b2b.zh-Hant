@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
 workflow-type: tm+mt
-source-wordcount: 1520
+source-wordcount: 1511
 ht-degree: 44%
 
 ---
@@ -171,10 +171,6 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 ### 複製歷程 {#duplicate-journey}
 
 重複動作類似於原地複製功能，但重複的歷程不會包括任何已建立的歷程內容資產。 您可以複製歷程的詳細資料，或只是流程與路徑結構的簡單&#x200B;_骨架_。
-
->[!NOTE]
->
->此動作目前不適用於個人歷程。
 
 1. 按一下&#x200B;_更多_&#x200B;圖示(**...**) 在歷程名稱旁邊，並選擇&#x200B;**[!UICONTROL 複製]**。
 
