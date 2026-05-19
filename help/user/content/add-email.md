@@ -17,9 +17,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 1372
+source-wordcount: 1387
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 0%
 | [!UICONTROL 主旨列] | 顯示在電子郵件主旨欄位中的文字。 預設值是從您在&#x200B;_[!UICONTROL 建立新電子郵件]_&#x200B;對話方塊中輸入的文字填入。 您可以視需要變更文字。 按一下&#x200B;_個人化_&#x200B;圖示（![個人化圖示](../assets/do-not-localize/icon-personalize.svg)）以在欄位中使用個人化權杖。<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL 品牌化網域] | 如果您在系統中定義了多個[品牌化網域](../admin/configure-channels-emails.md#branding-domains)，請選取要用來傳送電子郵件的品牌化網域。 使用特定品牌網域來傳送看似來自您的品牌而非整個公司的電子郵件。 它可建立與品牌的信任、個人化電子郵件體驗，並提高開啟率和回應率。 |
 | [!UICONTROL 專用IP] | 如果您定義了多個專用IP位址，請選取用於傳送電子郵件的專用IP位址。 當您為方案使用特定的專用IP時，可以更密切地追蹤和監視傳遞能力，並快速回應傳遞量度的任何變更。 如需為連線的Marketo Engage執行個體新增專用IP的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}。 |
-| [!UICONTROL 操作電子郵件] | 如果要將電子郵件指定為可操作，請選取核取方塊。 營運電子郵件會從選擇退出/取消訂閱清單及通訊限制中排除。 只有當收件者無法將電子郵件視為未經請求的商業郵件(SPAM)時，才選取此選項。 |
+| [!UICONTROL 操作電子郵件] | 如果要將電子郵件指定為可操作，請選取核取方塊。 營運電子郵件會從選擇退出/取消訂閱清單及通訊限制中排除。 只有當收件者無法將電子郵件視為未經請求的商業郵件(SPAM)時，才選取此選項。 如需傳送時如何評估電子郵件同意偏好設定的詳細資訊，請參閱[同意偏好設定](./channels-consent-preferences.md)。 |
 | [!UICONTROL 包含網頁檢視] | 選取核取方塊以包含從電子郵件內容產生的網頁連結。 電子郵件訊息的功能比網頁更為有限，因此對JavaScript、擴充式CSS和表單相當實用。 用來產生連結的文字已在[電子郵件通道傳遞設定](../admin/configure-channels-emails.md#delivery-settings)中設定（[!UICONTROL 以網頁檢視HTML]和[!UICONTROL 以網頁文字檢視]）。 |
 | [!UICONTROL 停用開啟追蹤] | 選取當您不想追蹤電子郵件開啟活動時的核取方塊。 停用此功能後，只有在不重複人員開啟電子郵件時，電子郵件開啟活動計數才會增加。 當您設計電子郵件內文內容時，可以[管理電子郵件內容連結追蹤](./email-authoring.md#content-authoring---link-tracking)。 |
 | [!UICONTROL Preheader] | 選取核取方塊以包含預覽文字。 預覽文字是簡短摘要文字，顯示在部分電子郵件使用者端的主旨行後面。 它通常提供電子郵件的簡短摘要，通常是單句話。 在欄位<!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->中輸入摘要文字。 |

@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: 828
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ WhatsApp支援下列訊息型別：
 
 >[!IMPORTANT]
 >
->**WhatsApp同意管理**：根據Meta的原則和適用法規，所有WhatsApp行銷訊息都必須僅傳送給選擇接收通訊的收件者。 WhatsApp收件者可隨時透過回複選擇退出關鍵字來選擇退出。 選擇退出回應會自動接受，而對應的設定檔會從未來的行銷訊息對象中移除。
+>**WhatsApp同意管理**：根據Meta的原則和適用法規，所有WhatsApp行銷訊息都必須僅傳送給選擇接收通訊的收件者。 WhatsApp收件者可隨時透過回複選擇退出關鍵字來選擇退出。 選擇退出回應會自動接受，而對應的設定檔會從未來的行銷訊息對象中移除。 如需傳送時如何評估WhatsApp同意偏好設定的詳細資訊，請參閱[同意偏好設定](./channels-consent-preferences.md)。
 
 會使用您Meta WhatsApp商業帳戶中預先核准的訊息範本傳送WhatsApp訊息。 **範本必須由Meta稽核和核准**，您才能在Journey Optimizer B2B edition中使用它們。 與您的[!DNL Meta Business Manager]帳戶管理員合作，管理並提交範本以供核准。
 
