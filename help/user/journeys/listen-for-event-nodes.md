@@ -16,7 +16,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
 workflow-type: tm+mt
 source-wordcount: 1844
 ht-degree: 12%
@@ -149,7 +149,7 @@ ht-degree: 12%
 
 管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
 
-1. 管理員[選取感興趣的事件型別和欄位](../admin/configure-aep-events.md#select-an-event)，以便在歷程中使用。
+1. 管理員[新增感興趣的事件型別和欄位](../admin/configure-aep-events.md#add-an-event)，以便在歷程中使用。
 
 2. 在歷程中，新增&#x200B;_接聽事件_&#x200B;節點，並為以人物為基礎的事件選取Experience Platform事件型別。
 
