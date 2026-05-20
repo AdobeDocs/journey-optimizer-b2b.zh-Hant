@@ -17,7 +17,7 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
 source-wordcount: 1343
 ht-degree: 3%
@@ -29,6 +29,12 @@ ht-degree: 3%
 使用Adobe Journey Optimizer B2B edition傳送簡訊(SMS)給行動裝置上的客戶。 您可以從簡訊編輯器建立、個人化及預覽文字格式的訊息。
 
 在建立帳戶歷程的SMS訊息之前，請確定[SMS服務提供者已由&#x200B;_[!UICONTROL 系統管理員]_&#x200B;設定設定](../admin/configure-channels-sms.md)。
+
+>[!IMPORTANT]
+>
+>**簡訊同意管理**<br/>
+>
+>根據業界標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 支援並遵循所有標準的選擇加入和選擇退出關鍵字。 此外，也會支援並接受為您的SMS服務提供者帳戶設定的任何自訂關鍵字。 如需傳送時如何評估SMS同意偏好設定的詳細資訊，請參閱[同意偏好設定](./channels-consent-preferences.md)。
 
 ## 在帳戶歷程中新增簡訊動作
 
@@ -51,12 +57,6 @@ ht-degree: 3%
    _歷程圖_&#x200B;開啟，您可以建立訊息並設定用於傳送訊息的SMS屬性。
 
 ### 建立簡訊訊息
-
->[!IMPORTANT]
->
->**簡訊同意管理**<br/>
->
->根據業界標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 支援並遵循所有標準的選擇加入和選擇退出關鍵字。 此外，也會支援並接受為您的SMS服務提供者帳戶設定的任何自訂關鍵字。 如需傳送時如何評估SMS同意偏好設定的詳細資訊，請參閱[同意偏好設定](./channels-consent-preferences.md)。
 
 在&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位中輸入您要傳送的文字。
 

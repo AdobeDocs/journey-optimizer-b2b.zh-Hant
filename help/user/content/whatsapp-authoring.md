@@ -14,7 +14,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 1%
@@ -26,6 +26,7 @@ ht-degree: 1%
 使用Adobe Journey Optimizer B2B edition將WhatsApp訊息傳送至行動裝置上的帳戶成員。 您可以使用WhatsApp編輯器提供的已核准Meta訊息範本，建立、個人化和預覽訊息。<!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 在建立帳戶歷程的WhatsApp訊息之前，請確定您已在&#x200B;_[!UICONTROL 管理員]_&#x200B;設定中設定所需的[WhatsApp通道](../admin/configure-channels-whatsapp.md)。
+
 
 >[!NOTE]
 >
@@ -58,6 +59,10 @@ WhatsApp支援下列訊息型別：
 
 ## 在帳戶歷程中新增WhatsApp動作
 
+>[!IMPORTANT]
+>
+>**WhatsApp同意管理**：根據Meta的原則和適用法規，所有WhatsApp行銷訊息都必須僅傳送給選擇接收通訊的收件者。 WhatsApp收件者可隨時透過回複選擇退出關鍵字來選擇退出。 選擇退出回應會自動接受，而對應的設定檔會從未來的行銷訊息對象中移除。 如需傳送時如何評估WhatsApp同意偏好設定的詳細資訊，請參閱[同意偏好設定](./channels-consent-preferences.md)。
+
 當您[新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點](../journeys/action-nodes.md)並執行下列動作時，您可以在帳戶歷程中設定WhatsApp訊息傳遞：
 
 1. 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
@@ -89,10 +94,6 @@ WhatsApp支援下列訊息型別：
 1. 按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;以移至訊息引數和文字。
 
 ### 選取訊息範本
-
->[!IMPORTANT]
->
->**WhatsApp同意管理**：根據Meta的原則和適用法規，所有WhatsApp行銷訊息都必須僅傳送給選擇接收通訊的收件者。 WhatsApp收件者可隨時透過回複選擇退出關鍵字來選擇退出。 選擇退出回應會自動接受，而對應的設定檔會從未來的行銷訊息對象中移除。 如需傳送時如何評估WhatsApp同意偏好設定的詳細資訊，請參閱[同意偏好設定](./channels-consent-preferences.md)。
 
 會使用您Meta WhatsApp商業帳戶中預先核准的訊息範本傳送WhatsApp訊息。 **範本必須由Meta稽核和核准**，您才能在Journey Optimizer B2B edition中使用它們。 與您的[!DNL Meta Business Manager]帳戶管理員合作，管理並提交範本以供核准。
 
