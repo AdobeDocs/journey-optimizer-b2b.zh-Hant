@@ -4,10 +4,14 @@ description: 使用條件式自動指派來建立角色範本，以識別在Jour
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
 source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
@@ -105,7 +109,7 @@ ht-degree: 4%
 
    * 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
 
-     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單](./default-custom-roles.md#custom-roles)中定義的任何[自訂角色。
+     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單[&#128279;](./default-custom-roles.md#custom-roles)中定義的任何自訂角色。
 
      ![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -135,9 +139,9 @@ ht-degree: 4%
 
      在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
 
-     使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
+     使用職稱![&#128279;](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的角色範本條件範例
 
-   * 如果已設定自訂物件與XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中定義的人員[相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
+   * 如果已設定自訂物件與XDM關聯式結構描述[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定義的人員相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
 
      ![角色範本新增自訂物件條件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
