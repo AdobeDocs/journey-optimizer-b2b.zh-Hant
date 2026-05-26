@@ -1,31 +1,25 @@
 ---
 title: 分割與合併路徑
-description: 在Journey Optimizer B2B edition中建立分割和合併路徑節點，以使用條件邏輯來劃分帳戶和人員、透過購買群組來篩選，以及重新組合路徑。
+description: 在Journey Optimizer B2B edition中依條件、購買群組和事件歷史記錄分割及合併歷程路徑，以劃分帳戶或人員。
 feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
 workflow-type: tm+mt
-source-wordcount: 2744
-ht-degree: 4%
+source-wordcount: 2550
+ht-degree: 3%
 
 ---
 
-# 分割和合併路徑
+# 分割和合併路徑 {#split-paths}
 
 使用分割與合併路徑節點，根據您定義的條件來劃分人員或帳戶。 根據條件建立對象或帳戶清單的路徑，使用區段的動作和事件節點定義每個路徑，然後組合路徑並繼續歷程。
 
@@ -37,13 +31,13 @@ _分割路徑_&#x200B;節點會根據&#x200B;**__**&#x200B;帳戶或人員篩選
 >
 >最多支援25個路徑。
 
-## 依帳戶分割路徑
+## 依帳戶分割路徑 {#split-paths-by-accounts}
 
-_（僅限帳戶歷程）_
+**_（僅限帳戶歷程）_**
 
 依帳戶分割路徑可包含帳戶和人員動作與事件。 這些路徑可以進一步分割。
 
-_&#x200B;**依帳戶節點分割路徑的運作方式**&#x200B;_
+_**依帳戶節點分割路徑的運作方式**_
 
 * 您新增的每個路徑都包含一個能夠向每個邊緣新增節點的結束節點。
 * 可巢狀方式依帳戶節點分割（您可以重複依帳戶分割路徑）。
@@ -53,18 +47,13 @@ _&#x200B;**依帳戶節點分割路徑的運作方式**&#x200B;_
 
 ![歷程節點 — 依帳戶分割路徑](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
-### 帳戶路徑條件
+### 帳戶路徑條件 {#account-path-filters}
 
 | 路徑條件 | 說明 |
 | --------------- | ----------- |
 | [!UICONTROL 帳戶屬性] | 帳戶設定檔中的屬性，包括： <li>年收入 <li>城市 <li>國家 <li>員工規模 <li>行業 <li>名稱 <li>SIC 代碼 <li>狀態 |
-| [!UICONTROL 帳戶屬性] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此帳戶有或沒有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 （請參閱[自訂資料篩選](#custom-data-filtering)。） |
+| [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此帳戶有或沒有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 （請參閱[自訂資料篩選](#custom-data-filtering)。） |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 帳戶已符合購買群組] | 此帳戶符合一或多個購買群組。 您可以針對符合的購買群組，針對下列一或多個限制進行評估： <li>解決方案興趣 <li>購買群組階段 <li>購買群組狀態 <li>參與分數 <li>完整度分數 <li> 購買群組角色中的人員數 |
-| [!UICONTROL 特殊篩選器] > [!UICONTROL 有購買群組] | 帳戶是否擁有購買群組的成員。 您也可以根據下列一或多個條件進行評估： <li>解決方案興趣 <li>購買群組階段 <li>購買群組狀態 <li>參與分數 <li>完整度分數 |
-
->[!NOTE]
->
->_[!UICONTROL 有購買群組]_&#x200B;篩選器已標籤為未來淘汰。 若為新歷程，請使用&#x200B;_[!UICONTROL 帳戶符合購買群組]_&#x200B;篩選器，其中包含所有相同的限制。
 
 ### 依帳戶節點新增分割路徑
 
@@ -90,7 +79,7 @@ _&#x200B;**依帳戶節點分割路徑的運作方式**&#x200B;_
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 若要新增更多路徑，請按一下[新增路徑] **&#x200B;**，並重複先前步驟以新增適用於此路徑的條件。
+1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複先前步驟以新增適用於此路徑的條件。
 
    您也可以根據這些條件來標示每個路徑，或使用預設標籤。
 
@@ -140,7 +129,7 @@ _（帳戶和人員歷程）_
 
 依人員路徑分割只能包含人員動作。 這些路徑無法再次分割並自動聯結。
 
-_&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
+_**依人員節點分割路徑的運作方式**_
 
 * 在&#x200B;_群組節點_&#x200B;分割合併組合中，依人員節點進行分割。 分割路徑會自動合併，以便所有人員能夠前進到下一個步驟，而不會失去其帳戶內容。
 * 依人員節點分割無法巢狀（您無法在此群組節點內的路徑中為人員新增分割路徑）。
@@ -150,17 +139,13 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 ![帳戶歷程節點 — 依人員分割路徑](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### 人員路徑篩選器
+### 人員路徑篩選器 {#people-path-filters}
 
 | 篩選器 | 說明 |
 | ------------ | ----------- |
-| [!UICONTROL 活動歷史記錄] > [!UICONTROL 電子郵件] | 根據條件評估的電子郵件活動，這些條件使用一或多個所選歷程中先前位置的電子郵件訊息： <li>[!UICONTROL 已點按電子郵件中的連結] <li>開啟電子郵件 <li>是已寄送電子郵件 <li>已傳送電子郵件<br>**[!UICONTROL 切換到非使用中篩選&#x200B;]**— 使用此選項來根據缺少活動篩選（某人沒有電子郵件活動）。 |
-| [!UICONTROL 活動歷史記錄] > [!UICONTROL 簡訊訊息] | 根據條件評估的SMS活動使用一或多個從歷程中先前選取的SMS訊息進行： <li>[!UICONTROL 已點按簡訊中的連結] <li>[!UICONTROL 簡訊已退回] <br>**[!UICONTROL 切換到非活動篩選器&#x200B;]**— 使用此選項來根據缺少活動進行篩選（某人沒有簡訊活動）。 |
-| [!UICONTROL 活動歷史記錄] > [!UICONTROL 資料值已變更] | 針對選取的人員屬性，發生值變更。 這些變更型別包括： <li>新值<li>上一個值<li>原因<li>來源<li>活動日期<li>最低 次數<br>**[!UICONTROL 切換到非使用狀態篩選器&#x200B;]**— 使用此選項來根據缺少活動進行篩選（人員沒有資料值變更）。 |
-| [!UICONTROL 活動歷史記錄] > [!UICONTROL 有趣的時刻] | 在相關[!DNL Marketo Engage]執行個體中定義的有趣時刻活動。 限制包括： <li>里程碑<li>電子郵件<li>網頁<br>**[!UICONTROL 切換到非活動篩選器&#x200B;]**— 使用此選項來根據缺少活動進行篩選（某人沒有有趣的時刻）。 |
-| [!UICONTROL 活動歷史記錄] > [!UICONTROL 造訪的網頁] | 由相關[!DNL Marketo Engage]執行個體管理的一或多個網頁的網頁活動。 限制包括： <li>網頁（必填）<li>活動日期<li>用戶端 IP 位址 <li>查詢字串 <li>反向連結 <li>使用者代理 <li>搜尋引擎 <li>搜尋查詢 <li>個人化的 URL <li>權杖 <li>瀏覽器 <li>平台 <li>裝置 <li>最低 次數<br>**[!UICONTROL 切換到非使用狀態篩選器&#x200B;]**— 使用此選項來根據缺少使用狀態進行篩選（某人未造訪網頁）。 |
-| [!UICONTROL 個人屬性] | [個人檔案](../admin/field-mapping.md#xdm-business-person-attributes)中的屬性，包括： <li>城市 <li>國家 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域 <li>職稱 <li>姓氏 <li>手機號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>狀態 |
-| [!UICONTROL 個人屬性] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否擁有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 （請參閱[自訂資料篩選](#custom-data-filtering)） |
+| [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否擁有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 （請參閱[自訂資料篩選](#custom-data-filtering)） |
+| [!UICONTROL 事件歷史記錄] | 根據在歷程進入之前發生的體驗事件分割人員。 展開資料夾以檢視[管理員> XDM事件設定](../admin/configure-aep-events.md)中設定的所有事件型別，並選取一個新增為篩選器。 限制包括來自所選事件的欄位、從人員進入歷程時回溯的回顧時間範圍，以及選擇性的最小次數。 |
+| [!UICONTROL 個人屬性] | [個人檔案](../admin/field-mapping.md#xdm-business-person-attributes)中的屬性，包括： <li>城市 <li>國家 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域 <li>職稱 <li>姓氏 <li>手機號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>州別 |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | （已棄用）人員是否根據下列一或多個條件評估購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除</li><li>角色</li> |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 清單成員] | （已棄用）人員是否為一或多個[!DNL Marketo Engage]清單的成員。 |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 計畫成員] | （已棄用）該人員是否為一個或多個[!DNL Marketo Engage]計畫的成員。 |
@@ -169,9 +154,9 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 | 路徑條件 | 說明 |
 | --------------- | ----------- |
-| 帳戶中的角色 | 此人是否在帳戶中被指派角色。 選擇性限制： <li>角色名稱 |
+| 帳戶]中的[!UICONTROL 角色 | 此人是否在帳戶中被指派角色。 選擇性限制： <li>角色名稱 |
 
-### 依人員節點新增分割路徑
+### 依人員節點新增分割路徑 {#add-a-split-path-by-people-node}
 
 >[!NOTE]
 >
@@ -185,7 +170,7 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 1. 在右側的節點屬性中，選擇&#x200B;**[!UICONTROL 人員]**&#x200B;進行分割。
 
-1. （僅限帳戶歷程）設定用於條件&#x200B;**的**&#x200B;屬性。
+1. （僅限帳戶歷程）設定用於條件&#x200B;]**的**[!UICONTROL &#x200B;屬性。
 
    * 選擇&#x200B;**[!UICONTROL 僅人員屬性]**&#x200B;以使用與人員設定檔相關的條件。
    * 選擇&#x200B;**[!UICONTROL 僅限帳號 — 個人屬性]**&#x200B;以使用帳號中與個人角色成員資格相關的條件。
@@ -206,7 +191,7 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 若要新增更多路徑，請按一下[新增路徑] **&#x200B;**，並重複先前步驟以新增適用於此路徑的條件。
+1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複先前步驟以新增適用於此路徑的條件。
 
    您也可以根據這些條件來標示每個路徑，或使用預設標籤。
 
@@ -224,21 +209,27 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
    當您針對在人員層級上分割對象的每個路徑定義條件時，您可以新增要對人員採取的動作。
 
-### 活動篩選
+### 體驗事件歷史記錄篩選 {#experience-event-history-filtering}
 
-針對依人員分割的路徑，您可以根據與下列專案相關之人員的活動來定義路徑：
+針對依人員分割的路徑，您可以根據人員進入歷程前發生的體驗事件來定義路徑。 在條件編輯器中，展開&#x200B;**[!UICONTROL Event history]**&#x200B;資料夾以檢視管理員所設定的所有事件型別清單。 選取事件型別，將其新增為篩選條件。
 
-* 歷程中先前位置的電子郵件訊息
-* 歷程中先前位置的SMS訊息
-* 個人設定檔中資料值的變更
-* 與電子郵件、網頁或里程碑相關的有趣時刻（在[!DNL Marketo Engage]中追蹤）
-* 造訪網頁（在[!DNL Marketo Engage]中追蹤）
+事件歷程的回顧時間範圍是從人員進入歷程的那一刻開始往後測量。 例如，30天視窗會評估合格事件是否發生在歷程專案之前30天內。
+
+您可以使用所選事件欄位專用的限制來進一步縮小篩選範圍。 選用的活動&#x200B;]**限制的**[!UICONTROL &#x200B;最小次數&#x200B;]**和**[!UICONTROL &#x200B;日期都在定義的回顧期間內評估。 由於事件記錄資料是從Adobe Experience Platform同步的，因此此篩選器在最近發生的事件顯示之前，可能會有短暫的延遲。
+
+>[!NOTE]
+>
+>[!UICONTROL 事件歷史記錄]資料夾中可用的事件由[體驗事件和欄位設定](../admin/configure-aep-events.md)決定。
+
+**範例：**&#x200B;若要路由在進入歷程之前點按行銷電子郵件中連結的人，請從[!UICONTROL 事件歷史記錄]資料夾中選取電子郵件點按事件，設定回溯時段以涵蓋相關時段，並視需要套用任何欄位層級限制（例如特定連結URL）。
+
+![依人員條件分割事件歷程記錄的路徑](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX 「非使用中篩選」]
 
-您可以針對每個&#x200B;_[!UICONTROL 活動歷史記錄]_&#x200B;篩選器，啟用&#x200B;**[!UICONTROL 切換至非活動篩選器]**&#x200B;選項。 此選項會將篩選器變更為缺少該活動型別的評估。 例如，新增&#x200B;_[!UICONTROL 電子郵件]_ > _[!UICONTROL 已開啟電子郵件]_&#x200B;篩選器，為&#x200B;_&#x200B;**未**&#x200B;_&#x200B;在歷程中先前開啟電子郵件的人建立路徑。 啟用非使用狀態選項並指定電子郵件。 最佳實務是使用活動的&#x200B;_[!UICONTROL 日期]_&#x200B;限制來定義非活動的時段。
+針對每個&#x200B;_[!UICONTROL 事件歷史記錄]_&#x200B;篩選器，您可以啟用&#x200B;**[!UICONTROL 切換到非使用狀態篩選器]**&#x200B;選項。 此選項會將篩選器變更為缺少該活動型別的評估。 例如，新增&#x200B;_[!UICONTROL 開啟的直銷電子郵件]_&#x200B;篩選器，以建立&#x200B;_**未**_&#x200B;開啟電子郵件之人員的路徑。 啟用非使用狀態選項並指定電子郵件。
 
-![依人員條件分割購買群組成員資格的路徑](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
+![依未使用人員狀況分割路徑](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -279,39 +270,21 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 >[!ENDSHADEBOX]
 
-## 自訂資料篩選
+## 自訂資料篩選 {#custom-data-filtering}
 
 [!BADGE Beta]{type=Informative tooltip="Beta功能"}
 
 您可以使用關聯式結構描述（以模型為基礎的類別），依帳戶或人員分割路徑。 自訂物件是在&#x200B;_關聯式結構描述_&#x200B;中定義，產品管理員可以在[!DNL Journey Optimizer B2B Edition]中[設定關聯式結構描述欄位](../admin/xdm-field-management.md#relational-schemas)。 條件編輯器中可使用選取的結構描述欄位，用於&#x200B;_依帳戶分割路徑_&#x200B;和&#x200B;_依人員分割路徑_&#x200B;節點。
 
-若為&#x200B;**[!UICONTROL 依帳戶]**&#x200B;分割路徑，請使用搜尋欄位，依&#x200B;_[!UICONTROL 帳戶屬性]_&#x200B;下的自訂物件名稱篩選清單。 新增條件並將值設定為`true`或`false`。
+若要依帳戶&#x200B;]**分割**[!UICONTROL &#x200B;路徑或依人員&#x200B;]**分割**[!UICONTROL &#x200B;路徑，請展開&#x200B;_[!UICONTROL 自訂物件]_。 新增條件並將值設定為`true`或`false`。 按一下&#x200B;**[!UICONTROL 新增限制]**&#x200B;以使用欄位值進行篩選。
 
-關聯式結構描述自訂物件的![個人屬性條件範例](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
+![關聯式結構描述自訂物件的帳戶條件範例](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
 
-針對&#x200B;**[!UICONTROL 依人員]**&#x200B;分割路徑，請使用搜尋欄位，依&#x200B;_[!UICONTROL 人員屬性]_&#x200B;下的自訂物件名稱篩選清單。
-
-關聯式結構描述自訂物件的![個人屬性條件範例](./assets/node-split-paths-people-relational-schema.png){width="600" zoomable="yes"}
-
-<!--
- SPHR-21734
-
-Note: These are currently going under Account Attributes/Person Attributes folder, which is a bug. This will move to Special filters when resolved (? release).
--->
-
-## 合併路徑
+## 合併路徑 {#merge-paths}
 
 新增&#x200B;_合併路徑_&#x200B;節點以在您的歷程中結合不同的帳戶&#x200B;_分割路徑_。
 
-1. 導覽至歷程圖。
-
-1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 分割路徑]**。
-
-1. 按一下分割節點以開啟其右側屬性。
-
-1. 按一下[!UICONTROL 新增路徑]以建立三個路徑。
-
-1. 將動作和事件的組合新增至每個路徑。
+1. 在含有分割節點（具有三個或更多路徑）的歷程地圖中，為每個路徑新增動作和事件組合。
 
 1. 按一下任一路徑的加號( **+** )圖示，然後從顯示的選項中選擇&#x200B;**[!UICONTROL 合併]**。
 
@@ -325,6 +298,6 @@ Note: These are currently going under Account Attributes/Person Attributes folde
 
 1. 如有需要，您可以導覽回合併路徑節點屬性，並清除您要移除之任何路徑的核取方塊，以取消合併路徑。
 
-## 概觀影片
+## 概觀影片 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443267/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
