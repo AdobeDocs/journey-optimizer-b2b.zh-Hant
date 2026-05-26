@@ -5,10 +5,18 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
 source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
@@ -35,7 +43,7 @@ ht-degree: 11%
 1. 在歷程中，行銷人員會以兩種方式之一使用已設定的事件：
 
    * 新增&#x200B;_接聽事件_&#x200B;節點，[選取體驗事件](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)以根據歷程期間的即時事件活動觸發歷程進展。
-   * 新增&#x200B;_依人員_&#x200B;節點分割的路徑，並在&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;資料夾的事件](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上設定[篩選的路徑。
+   * 新增&#x200B;_依人員_&#x200B;節點分割的路徑，並在&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;資料夾的事件[&#128279;](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上設定篩選的路徑。
 
 >[!BEGINSHADEBOX]
 
