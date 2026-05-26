@@ -20,9 +20,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 56fb0ea71e7f85c91d8faa24719888a5f1b9b780
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: 1608
 ht-degree: 11%
 
 ---
@@ -41,10 +41,10 @@ ht-degree: 11%
 
 1. 管理員[在AEP B2B edition設定中新增Journey Optimizer體驗事件和欄位](#add-an-event)。
 
-2. 在歷程中，行銷人員新增&#x200B;_接聽事件_&#x200B;節點，並[選取體驗事件](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)。
+1. 在歷程中，行銷人員會以兩種方式之一使用已設定的事件：
 
-   * 選取要在節點中使用的事件。
-   * 選取要做為限制的欄位。
+   * 新增&#x200B;_接聽事件_&#x200B;節點，[選取體驗事件](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)以根據歷程期間的即時事件活動觸發歷程進展。
+   * 新增&#x200B;_依人員_&#x200B;節點分割的路徑，並在&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;資料夾的事件[&#128279;](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上設定篩選的路徑。
 
 >[!BEGINSHADEBOX]
 
@@ -56,11 +56,13 @@ ht-degree: 11%
 
 * 歷程可以聆聽使用Experience Platform串流功能（例如Web SDK或HTTP API）擷取的體驗事件。
 
-* 您可以在歷程中使用體驗事件進行決策，但不會保留這些事件。 因此，您無法在Journey Optimizer B2B edition中運用體驗事件的歷史記錄。
+* 當事件存在於Journey Optimizer B2B edition資料庫中時，歷史體驗事件資料會開始累計個人資料。 對於首次設定事件型別時已存在的人員，回填會在設定時開始。 對於新的人員，累積會在第一次新增人員時開始（無法回溯取得其先前的歷史記錄）。
+
+* 目前累計的事件歷程記錄沒有刪除機制。 長期保留原則可能會有所變更。
 
 * 當您使用體驗事件並發佈歷程時，可以新增更多欄位，但無法移除先前選取的欄位。
 
-* 您可以在多個歷程中參考體驗事件，或在相同歷程中多次使用體驗事件。
+* 您可以在多個歷程中參考體驗事件，或在相同歷程中多次使用相同事件。
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +86,7 @@ ht-degree: 11%
 
 ![依名稱篩選選取的事件清單](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-### 新增事件
+### 新增事件 {#add-an-event}
 
 若要讓體驗事件可供歷程中的&#x200B;_接聽事件_&#x200B;節點使用，請選取事件和支援的欄位。
 
@@ -126,7 +128,7 @@ ht-degree: 11%
 
 已儲存的事件會顯示在&#x200B;_[!UICONTROL 事件]_&#x200B;索引標籤的清單中。
 
-### 編輯事件
+### 編輯事件 {#edit-an-event}
 
 編輯事件詳細資料以變更欄位。
 
@@ -134,7 +136,9 @@ ht-degree: 11%
 
    ![按一下[更多]功能表圖示](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. 按一下「**[!UICONTROL 編輯欄位]**」，在「_[!UICONTROL 選取欄位]_」對話方塊中新增更多欄位或移除現有的選取專案。
+1. 按一下&#x200B;**[!UICONTROL 編輯欄位]**&#x200B;以開啟&#x200B;_[!UICONTROL 選取欄位]_&#x200B;對話方塊並新增更多欄位。
+
+   您無法移除在使用此事件的歷程發佈後先前選取的欄位。
 
 1. 按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以儲存您的選擇。
 
@@ -170,8 +174,8 @@ ht-degree: 11%
 | 個人來源金鑰 | `personKey.sourceKey` |
 | 電子郵件來源ID | `directMarketing.emailSent.mailingKey.sourceID` |
 | 電子郵件來源型別 | `directMarketing.emailSent.mailingKey.sourceType` |
-| 電子郵件來源執行個體ID | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
-| 電子郵件來源金鑰 | `directMailing.emailSent.mailingKey.sourceKey` |
+| 電子郵件來源執行個體ID | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
+| 電子郵件來源金鑰 | `directMarketing.emailSent.mailingKey.sourceKey` |
 | 郵寄名稱 | `directMarketing.emailSent.mailingName` |
 | 歷程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 節點ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
@@ -182,7 +186,7 @@ ht-degree: 11%
 
 此事件會追蹤電子郵件何時成功傳遞至個人的電子郵件服務。
 
-事件型別： `directMarketing.emailDelivered `
+事件型別： `directMarketing.emailDelivered`
 
 +++欄位
 
@@ -337,7 +341,7 @@ ht-degree: 11%
 
 此事件會追蹤個人何時取消訂閱行銷電子郵件。
 
-事件型別： `directMarketing.emailUnsubscribed `
+事件型別： `directMarketing.emailUnsubscribed`
 
 +++欄位
 
@@ -458,7 +462,7 @@ ht-degree: 11%
 
 此事件會追蹤何時為個人錄製有趣的時刻。
 
-事件型別： `leadOperation.interestingMoment `
+事件型別： `leadOperation.interestingMoment`
 
 +++欄位
 
