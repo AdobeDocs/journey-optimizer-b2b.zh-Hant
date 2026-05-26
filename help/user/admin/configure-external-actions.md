@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -76,9 +76,7 @@ ht-degree: 1%
 
    ![輸入服務URL](./assets/configuration-external-actions-create-url.png){width="500"}
 
-   >[!NOTE]
-   >
-   >您的外部服務必須為即時狀態且可連線，此步驟才能成功。
+   外部服務必須為即時狀態且可連線，此步驟才能成功。 如果發生驗證錯誤，對話方塊會顯示訊息以說明錯誤，並提供解決錯誤的建議。 如需詳細資訊，請參閱&#x200B;[_疑難排解_](#troubleshooting)。
 
 1. 當URL成功解析時，請檢閱&#x200B;**[!UICONTROL 服務詳細資料]**。
 
@@ -127,7 +125,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 傳出欄位]** — 將表格中的每個欄位對應到[XDM欄位](../admin/xdm-field-management.md)。 這些欄位會在要求內文中傳送給外部服務。 服務定義屬性： `invocationPayloadDef.accountFields`， `invocationPayloadDef.fields`。
 
-   ![對應外部動作傳出欄位](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+     ![對應外部動作傳出欄位](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL 傳入欄位]** — 將資料表中的每個欄位對應到[可更新的XDM欄位](../admin/xdm-field-management.md#updatable-fields)。 這些欄位會從外部服務回應填入。 服務定義屬性： `callbackPayloadDef.accountFields`， `callbackPayloadDef.fields`。 建立後可更新。
 
@@ -137,11 +135,50 @@ ht-degree: 1%
 
    * **[!UICONTROL 全域屬性]** — 輸入每個資料列的值，以做為要求內文中的靜態欄位。 服務定義屬性： `invocationPayloadDef.globalAttributes`。
 
-   ![外部動作標頭引數、逾時和全域屬性](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
+     ![外部動作標頭引數、逾時和全域屬性](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
 
 1. 按一下&#x200B;_上一箭號_&#x200B;以返回清單並將動作保持在&#x200B;_草稿_&#x200B;狀態。
 
    或者，按一下[啟動]&#x200B;**&#x200B;**&#x200B;將動作組態變更為[啟動]__&#x200B;狀態。 設定的外部動作必須處於作用中狀態，才能用於帳戶歷程。
+
+### 疑難排解 {#troubleshooting}
+
+當您輸入外部服務的OpenAPI規格URL並按一下&#x200B;**[!UICONTROL 建立]**&#x200B;時，系統會執行服務驗證。 發生錯誤時，對話方塊會顯示訊息以說明錯誤。
+
+![外部動作URL服務驗證錯誤訊息](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>下列許多錯誤需要您與建立並發佈公開顯示Web服務的開發人員合作，才能解決。
+
+#### 驗證錯誤詳細資料
+
+| 顯示的錯誤 | 發生的原因 | 該做什麼 |
+|---|---|---|
+| `This URL is already used by another external action` | 此規格URL已註冊至貴組織中的不同動作。 | 使用不同的規格URL，或刪除已使用此規格URL的現有動作。 |
+| `An action with this name already exists` | 您規格中的`info.title`符合已經存在的動作 | 將規格`info.title`欄位中的標題變更為獨一無二的標題。 |
+| `Duplicate operation ID found in the specification` | 規格中的兩個或多個作業共用相同的`operationId`。 | 為每個作業指定唯一的`operationId`。 |
+| `Field in the specification exceeds the maximum allowed length` | 規格中的文字欄位（例如標題或說明）太長。 | 縮短標幟的欄位。 |
+| `The entity type value is invalid` | 實體型別的Adobe特定`x-`擴充功能具有無法辨識的值 | 將實體型別更正為支援的值。 如需有效選項，請參閱[開發人員檔案](https://developer.adobe.com/journey-optimizer-b2b-apis/)。 |
+| `The provided document is not a valid OpenAPI specification` | 規格無法進行結構剖析。 | 根據OpenAPI 3.0結構描述驗證您的規格並修正任何問題。 |
+| `Required OpenAPI field is missing` | 缺少標準OpenAPI必要欄位（例如`info`或`paths`）。 | 新增缺少的欄位。 |
+| `Required endpoint is missing from the specification` | 未在您的規格中定義Adobe Journey Optimizer B2B edition所需的端點。 | 新增必要的端點。 請參閱需要端點的[開發人員檔案](https://developer.adobe.com/journey-optimizer-b2b-apis/)。 |
+| `Required extension field is missing` | 您的規格中沒有必要的Adobe `x-`擴充功能欄位。 | 依照檔案中的說明，新增缺少的擴充功能欄位。 |
+| `Security schemes are missing from the specification` | 您的規格未在`components`下定義`securitySchemes`。 | 至少定義一個安全性配置。 |
+| `Multiple authentication types are not supported` | 您的規格定義了多個驗證配置。 | 更新您的規格以使用單一驗證型別。 |
+| `The authentication type is not supported` | 不支援您使用的安全性配置型別（例如`oauth2`或`openIdConnect`）。 | 切換到支援的驗證型別。 如需瞭解支援的選項，請參閱開發人員檔案。 |
+| `The OpenAPI version is not supported` | 規格層級的版本不相符 | 更新您的規格以使用OpenAPI 3.0.x。 |
+| `An unexpected error occurred` | 在您的規格中發現未分類的問題。 | 請檢查您的規格是否有任何不尋常的情況，然後再試一次。 如果錯誤持續發生，請聯絡支援人員。 |
+
+<!--
+## Errors you'll see if something goes wrong with the request itself
+
+This error appears below the URL field (not in the alert banner) and means there was a network problem or an unexpected server response — not a problem with your URL or spec.
+
+| What you'll see | Why it happened | What to do |
+|---|---|---|
+| `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
+-->
 
 ## 將外部節點新增至歷程 {#add-journey-node}
 
