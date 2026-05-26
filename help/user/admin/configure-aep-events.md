@@ -3,7 +3,6 @@ title: 選取體驗事件和欄位
 description: 選取Experience Platform事件和欄位，以根據客戶行為在歷程中觸發即時決策。
 feature: Setup, Integrations
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前正在測試版中"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
 product_v2:
@@ -20,9 +19,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
 workflow-type: tm+mt
-source-wordcount: 1608
+source-wordcount: 1605
 ht-degree: 11%
 
 ---
@@ -48,7 +47,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-## 指引和限制
+## 指引和限制 {#guidelines-and-limitations}
 
 選取符合組織目標的事件時，請考量下列事項：
 
@@ -62,11 +61,11 @@ ht-degree: 11%
 
 * 當您使用體驗事件並發佈歷程時，可以新增更多欄位，但無法移除先前選取的欄位。
 
-* 您可以在多個歷程中參考體驗事件，或在相同歷程中多次使用相同事件。
+* 您可在多個歷程中參考體驗事件，或是在相同歷程中多次使用它。
 
 >[!ENDSHADEBOX]
 
-## 管理體驗事件
+## 管理體驗事件 {#manage-experience-events}
 
 1. 在左側導覽列中，選擇&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 組態]**。
 
@@ -80,7 +79,7 @@ ht-degree: 11%
 
    若要存取所選事件的詳細資訊，請按一下事件名稱。
 
-### 篩選事件清單
+### 篩選事件清單 {#filter-the-event-list}
 
 在&#x200B;_[!UICONTROL 搜尋]_&#x200B;欄位中輸入文字，以篩選顯示的事件以符合事件名稱。
 
@@ -89,10 +88,6 @@ ht-degree: 11%
 ### 新增事件 {#add-an-event}
 
 若要讓體驗事件可供歷程中的&#x200B;_接聽事件_&#x200B;節點使用，請選取事件和支援的欄位。
-
->[!NOTE]
->
->在測試版中，您無法從清單中移除事件。 請確定您新增的每個事件都是貴組織打算使用的事件。
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 選取體驗事件]**。
 
@@ -142,19 +137,23 @@ ht-degree: 11%
 
 1. 按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以儲存您的選擇。
 
-### 移除事件
+### 移除事件 {#remove-an-event}
 
->[!NOTE]
->
->對於此功能的Beta版本，您無法從選取的事件清單中移除事件。 已計畫於GA發行版本中移除事件。
+若要防止在歷程中的&#x200B;_接聽事件_&#x200B;節點中使用體驗事件，請移除該事件。 如果處於&#x200B;_已排程_、_即時_&#x200B;或&#x200B;_已完成_&#x200B;狀態的歷程使用事件，則無法移除該事件。
 
-## 事件和欄位
+1. 按一下事件名稱旁的&#x200B;_更多功能表_ ( **...** )圖示，然後選擇&#x200B;**[!UICONTROL 移除]**。
+
+1. 在確認對話方塊中，按一下&#x200B;**[!UICONTROL 移除]**。
+
+   ![確認事件移除](./assets/configurations-xdm-events-remove.png){width="500" zoomable="yes"}
+
+## 事件和欄位 {#events-and-fields}
 
 針對[!DNL Journey Optimizer B2B Edition]，某些人員層級活動會擷取為[!DNL Experience Platform]個體驗事件。 這些事件儲存在使用XDM體驗事件結構描述並包含歷程特定欄位群組的系統資料集中。 您可以在[!UICONTROL Journey Optimizer B2B edition]中使用這些事件，就像任何其他體驗事件一樣。
 
 每個事件會顯示定義的一組欄位，可用於歷程&#x200B;_接聽事件_&#x200B;節點（根據事件進行決策）。 檢閱可用的事件型別及其欄位，以決定要在這些歷程節點中使用的事件和欄位：
 
-### 電子郵件已傳送
+### 電子郵件已傳送 {#email-sent}
 
 此事件會追蹤何時將行銷電子郵件傳送給個人。
 
@@ -182,7 +181,7 @@ ht-degree: 11%
 
 +++
 
-### 電子郵件已傳遞
+### 電子郵件已傳遞 {#email-delivered}
 
 此事件會追蹤電子郵件何時成功傳遞至個人的電子郵件服務。
 
@@ -210,7 +209,7 @@ ht-degree: 11%
 
 +++
 
-### 電子郵件已開啟
+### 電子郵件已開啟 {#email-opened}
 
 此事件會追蹤使用者何時開啟行銷電子郵件。
 
@@ -242,7 +241,7 @@ ht-degree: 11%
 
 +++
 
-### 電子郵件已點按
+### 電子郵件已點按 {#email-clicked}
 
 此事件會追蹤使用者何時點按行銷電子郵件中的連結。
 
@@ -275,7 +274,7 @@ ht-degree: 11%
 
 +++
 
-### 電子郵件已退回
+### 電子郵件已退回 {#email-bounced}
 
 此事件會追蹤傳送給個人的電子郵件何時退回。
 
@@ -306,7 +305,7 @@ ht-degree: 11%
 
 +++
 
-### 電子郵件已退回 (暫時性)
+### 電子郵件已退回 (暫時性) {#email-bounced-soft}
 
 此事件會追蹤傳送給個人的電子郵件何時軟跳出。
 
@@ -337,7 +336,7 @@ ht-degree: 11%
 
 +++
 
-### 電子郵件已取消訂閱
+### 電子郵件已取消訂閱 {#email-unsubscribed}
 
 此事件會追蹤個人何時取消訂閱行銷電子郵件。
 
@@ -365,7 +364,7 @@ ht-degree: 11%
 
 +++
 
-### 造訪網頁
+### 造訪網頁 {#visit-web-page}
 
 此事件型別是將點選標示為頁面檢視的標準方法。
 
@@ -396,7 +395,7 @@ ht-degree: 11%
 
 +++
 
-### 表單已填寫
+### 表單已填寫 {#form-filled-out}
 
 此事件會追蹤某人何時在網頁上填寫表單。
 
@@ -427,7 +426,7 @@ ht-degree: 11%
 
 +++
 
-### 網頁連結已點按
+### 網頁連結已點按 {#web-link-clicked}
 
 事件代表Web SDK已自動記錄連結點選。
 
@@ -458,7 +457,7 @@ ht-degree: 11%
 
 +++
 
-### 有趣的時刻
+### 有趣的時刻 {#interesting-moment}
 
 此事件會追蹤何時為個人錄製有趣的時刻。
 
