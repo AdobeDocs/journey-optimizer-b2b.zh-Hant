@@ -6,29 +6,22 @@ role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
 autotag-review: '2026-05-21T21:07:43.367Z'
 TQID: 'https://experienceleague.adobe.com/u-zKjTHRErQFQCHxuft-gJiiiE5a1oJUIZfziasvcHs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a1947a16cde3ba625027b794cd370a0143238e36
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
 workflow-type: tm+mt
-source-wordcount: 432
+source-wordcount: 449
 ht-degree: 2%
 
 ---
 
 # 歷程概觀儀表板
 
-[帳戶與個人歷程](../journeys/journeys-overview.md)的概述儀表板，提供您作用中歷程的完整快照。 圓形圖和長條圖可分類並量化完成和參與活動，讓您透過關鍵傳送和參與量度，評估電子郵件和簡訊管道的有效性。
+[帳戶或個人歷程](../journeys/journeys-overview.md)的概述儀表板提供您作用中歷程的完整快照。 圓形圖和長條圖可分類並量化完成和參與活動，讓您透過關鍵傳送和參與量度，評估電子郵件和簡訊管道的有效性。 如需電子郵件特定傳遞和參與資料的跨歷程檢視，請參閱[電子郵件效能報表](email-performance-dashboard.md)。
 
 此概覽適用於已發佈的歷程，資料大約需要四個小時才能開始填入圖表和表格。
 

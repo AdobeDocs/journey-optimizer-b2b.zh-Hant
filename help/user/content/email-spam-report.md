@@ -5,30 +5,23 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:30:57.478Z
 TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 378
 ht-degree: 0%
 
 ---
 
 # 檢閱垃圾郵件報告
 
-許多電子郵件收件匣提供者和大部分企業系統都採用垃圾郵件篩選程式。 傳送觸發這些篩選器的電子郵件可能會嚴重影響傳遞能力。 在Journey Optimizer B2B edition中，您可以透過產生垃圾郵件報告來檢查電子郵件內容垃圾郵件評分。 此報表使用[[!DNL SpamAssassin]](https://spamassassin.apache.org/)測試電子郵件，並協助您判斷反垃圾郵件工具是否會將郵件視為垃圾郵件。 您可以使用報告中的資訊來採取改善電子郵件內容分數和傳遞能力的動作。
+許多電子郵件收件匣提供者和大部分企業系統都採用垃圾郵件篩選程式。 傳送觸發這些篩選器的電子郵件可能會嚴重影響傳遞能力。 在Journey Optimizer B2B edition中，您可以透過產生垃圾郵件報告來檢查電子郵件內容垃圾郵件評分。 此報表使用[[!DNL SpamAssassin]](https://spamassassin.apache.org/)測試電子郵件，並協助您判斷反垃圾郵件工具是否會將郵件視為垃圾郵件。 您可以使用報告中的資訊來採取改善電子郵件內容分數和傳遞能力的動作。 在您調整內容後，請在[電子郵件效能報表](../dashboards/email-performance-dashboard.md)中追蹤跳出率和傳遞。
 
 當您檢閱電子郵件設定或編輯內容時，請開啟&#x200B;_[!UICONTROL 模擬]_&#x200B;頁面並產生&#x200B;_垃圾郵件報告_，以檢閱可觸發反垃圾郵件篩選的評分和標幟元素。
 
