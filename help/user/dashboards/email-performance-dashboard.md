@@ -5,12 +5,19 @@ feature: Dashboards, Reporting
 role: User
 autotag-review: '2026-05-21T15:04:51.176Z'
 TQID: 'https://experienceleague.adobe.com/hA63o9-2-atw0kRNFeEu6H449WmZ59CjL3uiVS7nEcA'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
 source-wordcount: 833
@@ -102,7 +109,7 @@ ht-degree: 4%
 **_若要匯出報表資料:_**
 
 1. 在右上角設定您的日期範圍，並視需要套用&#x200B;**[!UICONTROL 歷程]**&#x200B;篩選。
-1. 按一下[電子郵件效能]面板右上角的&#x200B;**...**&#x200B;功能表圖示，然後選擇[檢視更多]]**。**[!UICONTROL 
+1. 按一下[電子郵件效能]面板右上角的&#x200B;**...**&#x200B;功能表圖示，然後選擇[檢視更多]&#x200B;**。**
 1. 按一下功能表中的&#x200B;**[!UICONTROL 下載CSV]**。
 
    ![檢視詳細資料並下載CSV](./assets/email-performance-data-export.png){width="700" zoomable="yes"}
