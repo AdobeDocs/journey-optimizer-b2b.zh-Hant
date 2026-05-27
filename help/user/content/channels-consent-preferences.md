@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cba977f62f3d2a83bcf2487a8ec612b76a655954
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 412
+source-wordcount: 424
 ht-degree: 1%
 
 ---
@@ -45,6 +45,8 @@ Adobe Journey Optimizer B2B edition會讀取儲存在Adobe Experience Platform X
 
 * 全域選擇退出電子郵件的使用者可接收標示為可操作的電子郵件。
 * 不支援訂閱層級的偏好設定。
+
+若要檢閱已傳送電子郵件的取消訂閱活動，請參閱[電子郵件效能報表](../dashboards/email-performance-dashboard.md)。
 
 ## 簡訊 {#sms}
 

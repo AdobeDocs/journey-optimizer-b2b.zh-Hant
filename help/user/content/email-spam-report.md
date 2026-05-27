@@ -19,16 +19,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:30:57.478Z
 TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 378
 ht-degree: 0%
 
 ---
 
 # 檢閱垃圾郵件報告
 
-許多電子郵件收件匣提供者和大部分企業系統都採用垃圾郵件篩選程式。 傳送觸發這些篩選器的電子郵件可能會嚴重影響傳遞能力。 在Journey Optimizer B2B edition中，您可以透過產生垃圾郵件報告來檢查電子郵件內容垃圾郵件評分。 此報表使用[[!DNL SpamAssassin]](https://spamassassin.apache.org/)測試電子郵件，並協助您判斷反垃圾郵件工具是否會將郵件視為垃圾郵件。 您可以使用報告中的資訊來採取改善電子郵件內容分數和傳遞能力的動作。
+許多電子郵件收件匣提供者和大部分企業系統都採用垃圾郵件篩選程式。 傳送觸發這些篩選器的電子郵件可能會嚴重影響傳遞能力。 在Journey Optimizer B2B edition中，您可以透過產生垃圾郵件報告來檢查電子郵件內容垃圾郵件評分。 此報表使用[[!DNL SpamAssassin]](https://spamassassin.apache.org/)測試電子郵件，並協助您判斷反垃圾郵件工具是否會將郵件視為垃圾郵件。 您可以使用報告中的資訊來採取改善電子郵件內容分數和傳遞能力的動作。 在您調整內容後，請在[電子郵件效能報表](../dashboards/email-performance-dashboard.md)中追蹤跳出率和傳遞。
 
 當您檢閱電子郵件設定或編輯內容時，請開啟&#x200B;_[!UICONTROL 模擬]_&#x200B;頁面並產生&#x200B;_垃圾郵件報告_，以檢閱可觸發反垃圾郵件篩選的評分和標幟元素。
 

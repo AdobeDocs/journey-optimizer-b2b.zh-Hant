@@ -17,16 +17,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 1387
+source-wordcount: 1403
 ht-degree: 0%
 
 ---
 
 # 新增電子郵件至您的歷程
 
-使用Adobe Journey Optimizer B2B edition透過帳戶歷程傳送電子郵件訊息給您的客戶。 您可以選擇在電子郵件設計空間建立、個人化和預覽訊息。 或者，您也可以選擇傳送已在連線的Marketo Engage執行個體中定義的電子郵件。
+使用Adobe Journey Optimizer B2B edition透過帳戶歷程傳送電子郵件訊息給您的客戶。 您可以選擇在電子郵件設計空間建立、個人化和預覽訊息。 或者，您也可以選擇傳送已在連線的Marketo Engage執行個體中定義的電子郵件。 在電子郵件在歷程中上線後，在[電子郵件效能報告](../dashboards/email-performance-dashboard.md)中監視傳送、傳遞和參與。
 
 >[!NOTE]
 >

@@ -15,9 +15,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 568
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 當您按一下使用中帳戶歷程的名稱時，會顯示歷程詳細資料。 _[!UICONTROL 總覽]_&#x200B;索引標籤提供有關歷程的有用資訊，包括產生式AI摘要。
 
-此儀表板提供所選帳戶歷程的完整概觀，使用圓形和折線圖詳細說明帳戶進度，該圖表會分類和量化完成、進行中的活動以及一段時間內的中止。 它可協助行銷人員透過關鍵傳送和參與量度來評估電子郵件和簡訊管道的有效性。
+此儀表板提供所選帳戶歷程的完整概觀，使用圓形和折線圖詳細說明帳戶進度，該圖表會分類和量化完成、進行中的活動以及一段時間內的中止。 它可協助行銷人員透過關鍵傳送和參與量度，評估電子郵件和簡訊管道的成效。 如需所有歷程彙總的電子郵件量度，請參閱[電子郵件效能報表](../dashboards/email-performance-dashboard.md)。
 
 此概覽適用於已發佈的帳戶歷程，資料大約需要四個小時才能開始填入圖表和表格。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 電子郵件和簡訊效能
 
-效能表可讓您詳細瞭解電子郵件和簡訊通道的成效。 每個表格都會顯示傳送率和點進率等量度，協助您評估每個通訊接觸點的影響。
+效能表可讓您詳細瞭解電子郵件和簡訊通道的成效。 每個表格都會顯示傳送率和點進率等量度，協助您評估每個通訊接觸點的影響。 下表僅顯示此歷程的電子郵件和簡訊量度。 對於所有歷程的相同電子郵件量度，請使用[電子郵件效能報表](../dashboards/email-performance-dashboard.md)。
 
 **[!UICONTROL 電子郵件效能]**&#x200B;資料表資料行：
 

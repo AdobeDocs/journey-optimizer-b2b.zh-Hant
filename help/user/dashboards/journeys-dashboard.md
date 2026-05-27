@@ -19,16 +19,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a1947a16cde3ba625027b794cd370a0143238e36
+source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
 workflow-type: tm+mt
-source-wordcount: 432
+source-wordcount: 449
 ht-degree: 2%
 
 ---
 
 # 歷程概觀儀表板
 
-[帳戶與個人歷程](../journeys/journeys-overview.md)的概述儀表板，提供您作用中歷程的完整快照。 圓形圖和長條圖可分類並量化完成和參與活動，讓您透過關鍵傳送和參與量度，評估電子郵件和簡訊管道的有效性。
+[帳戶或個人歷程](../journeys/journeys-overview.md)的概述儀表板提供您作用中歷程的完整快照。 圓形圖和長條圖可分類並量化完成和參與活動，讓您透過關鍵傳送和參與量度，評估電子郵件和簡訊管道的有效性。 如需電子郵件特定傳遞和參與資料的跨歷程檢視，請參閱[電子郵件效能報表](email-performance-dashboard.md)。
 
 此概覽適用於已發佈的歷程，資料大約需要四個小時才能開始填入圖表和表格。
 
