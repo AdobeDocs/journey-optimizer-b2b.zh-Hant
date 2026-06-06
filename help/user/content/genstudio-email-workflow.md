@@ -51,7 +51,7 @@ ht-degree: 8%
 
 ## GenStudio內容產生功能
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio/performance-marketing.html){target="_blank"}是一款創造性的AI優先應用程式，可讓行銷團隊根據品牌標準並遵守其企業政策，建立具影響力、個人化的廣告和電子郵件。 透過運用Adobe AI技術，提供一套完整的工具，可簡化內容建立及管理的複雜性，讓內容創作者可專注於創新。
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/tw/products/genstudio/performance-marketing.html){target="_blank"}是一款創造性的AI優先應用程式，可讓行銷團隊根據品牌標準並遵守其企業政策，建立具影響力、個人化的廣告和電子郵件。 透過運用Adobe AI技術，提供一套完整的工具，可簡化內容建立及管理的複雜性，讓內容創作者可專注於創新。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [建立品牌內行銷電子郵件](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -89,7 +89,7 @@ ht-degree: 8%
 
 使用HTML檔案在GenStudio for Performance Marketing中建立範本。
 
-若要進一步瞭解如何將HTML範本上傳至Adobe GenStudio for Performance Marketing，請參閱GenStudio for Performance Marketing檔案中的[新增範本](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template)。
+若要進一步瞭解如何將HTML範本上傳至Adobe GenStudio for Performance Marketing，請參閱GenStudio for Performance Marketing檔案中的[新增範本](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template)。
 
 當您上傳匯出的HTML作為範本時，GenStudio for Performance Marketing會掃描HTML檔案以尋找可識別的欄位。 使用預覽可檢閱您的範本元素，並確認您以識別的欄位名稱正確識別了這些元素。
 
@@ -97,7 +97,7 @@ ht-degree: 8%
 
 在GenStudio for Performance Marketing中，使用範本建立多個電子郵件體驗變數並儲存。
 
-如需有關產生品牌化電子郵件體驗的詳細資訊，請參閱GenStudio for Performance Marketing檔案中的[建立電子郵件體驗](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
+如需有關產生品牌化電子郵件體驗的詳細資訊，請參閱GenStudio for Performance Marketing檔案中的[建立電子郵件體驗](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)。
 
 ## 將產生的電子郵件體驗新增至Journey Optimizer B2B edition
 
