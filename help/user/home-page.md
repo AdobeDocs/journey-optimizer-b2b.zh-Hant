@@ -4,21 +4,16 @@ description: 存取 Journey Optimizer B2B Edition 和導覽個人化首頁：透
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 93%
+source-wordcount: 415
+ht-degree: 83%
 
 ---
 
@@ -30,7 +25,7 @@ ht-degree: 93%
  Requirements?
 -->
 
-若要存取 [!DNL Adobe Journey Optimizer B2B Edition]，請使用 Adobe ID 連線至 Adobe Experience Cloud，然後選取 [!DNL Journey Optimizer B2B Edition]。
+若要存取[!DNL Adobe Journey Optimizer B2B Edition]，請使用您的Adobe ID連線至Adobe Experience Cloud，然後選取[!DNL Journey Optimizer B2B Edition]。
 
 ![Adobe Experience Platform 應用程式](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
@@ -39,9 +34,9 @@ ht-degree: 93%
 
 ![Journey Optimizer B2B Edition 首頁](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition 具有兩種主要使用者人物誌：_&#x200B;**行銷人員**&#x200B;_&#x200B;和&#x200B;_&#x200B;**管理員**&#x200B;_。 每個人物誌針對不同的成熟度階段 (新手或進階) 均有特定的首頁。 此頁面是根據每個人物誌所需的資訊及後續要採取的行動來提供相關內容。
+Journey Optimizer B2B Edition 具有兩種主要使用者人物誌：_**行銷人員**_&#x200B;和&#x200B;_**管理員**_。 每個人物誌針對不同的成熟度階段 (新手或進階) 均有特定的首頁。 此頁面是根據每個人物誌所需的資訊及後續要採取的行動來提供相關內容。
 
-* **行銷人員 - 新使用者**：新使用者的「_行銷人員_」首頁可協助他們逐漸熟悉 Journey Optimizer B2B 及其功能。 此首頁提供引導式操作示範，讓新行銷人員獲得入門的逐步指導，以便他們了解系統運作細節，並有效率地開發 B2B 行銷策略和行動方案。
+* **行銷人員 - 新使用者**：新使用者的「_行銷人員_」首頁可協助他們逐漸熟悉 Journey Optimizer B2B 及其功能。 其中包括新行銷人員的引導式逐步解說，以便他們瞭解系統的細微差別，並有效率地開發B2B行銷策略和方案。
 * **行銷人員 - 進階使用者**：進階行銷人員的「_行銷人員_」首頁顯示目前的行動方案進度、建議的後續動作，並提供相關區段的快速存取。
 * **管理員 - 新使用者**：新管理員的「_管理員_」首頁可協助他們逐漸熟悉 Journey Optimizer B2B Edition 及其功能。 此首頁提供引導式操作示範，讓新管理員獲得逐步入門歷程，以了解系統運作細節並有效率地開發 B2B 行銷策略和行動方案。
 * **管理員 - 進階使用者**：進階管理員的「_管理員_」首頁會顯示目前實例狀態和可操作步驟，以提高管理員的效率和有效性。

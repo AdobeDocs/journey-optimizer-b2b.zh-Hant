@@ -4,23 +4,16 @@ description: 使用視覺化設計工具、HTML匯入或範本建立電子郵件
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 2%
+source-wordcount: 1164
+ht-degree: 3%
 
 ---
 
@@ -30,7 +23,7 @@ ht-degree: 2%
 
 按一下右側面板上&#x200B;_[!UICONTROL 詳細資料]_&#x200B;索引標籤中的&#x200B;**[!UICONTROL 編輯電子郵件內容]**。
 
-![按一下[編輯電子郵件內容] &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![按一下[編輯電子郵件內容] ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 此動作會啟動電子郵件設計工具，您可在其中從下列選項中選擇要如何設計電子郵件：
 
@@ -44,11 +37,11 @@ ht-degree: 2%
 
 >[!TIP]
 >
->使用由generative AI支援的Adobe Journey Optimizer B2B edition中的AI助理，將您的內容提升到新的境界。 AI Assistant可以產生整封電子郵件、鎖定目標文字內容，並針對與對象產生迴響的影像取得AI Assistant建議，協助您最佳化傳送的影響。 [了解更多](./ai-assistant-emails.md)
+>使用由generative AI支援的Adobe Journey Optimizer B2B edition中的AI Assistant來改善您的內容。 AI Assistant可以產生整封電子郵件、鎖定目標文字內容，並針對與對象產生迴響的影像取得AI Assistant建議，協助您最佳化傳送的影響。 [了解更多](./ai-assistant-emails.md)
 
 ## 從頭開始設計您的電子郵件 {#design-from-scratch}
 
-使用視覺內容設計空間來定義電子郵件的結構和內容。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計可重複使用電子郵件內容的形狀。
+使用視覺內容設計空間來定義電子郵件的結構和內容。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計電子郵件內容的版面配置和組織。
 
 1. 從&#x200B;_[!UICONTROL 設計您的範本]_&#x200B;首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
 
@@ -72,7 +65,7 @@ ht-degree: 2%
 >You cannot revert back to the visual design space for this email after switching to the code editor. 
 -->
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容
 
@@ -92,7 +85,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 儲存的範本可能會套用至一或多個元件的治理（內容鎖定）設定。 當您[從受控制的範本](./email-authoring-governance.md)撰寫電子郵件時，視覺化設計空間會提供鎖定元件的相關准則。
+> 儲存的範本可以將治理（內容鎖定）設定套用到一個或多個元件。 當您[從受控制的範本](./email-authoring-governance.md)撰寫電子郵件時，視覺化設計空間會提供鎖定元件的相關准則。
 
 ## 新增結構和內容 {#structure-content}
 
@@ -106,7 +99,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容[&#128279;](./template-content-governance.md)的範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ![存取內文樣式](./assets/email-body-styles.png){width="800" zoomable="yes"}
 
@@ -156,9 +149,9 @@ ht-degree: 2%
 
 * 透過預設縮放選項放大/縮小內容。
 
-* 切換在案頭、行動裝置或純文字/純文字間檢視內容。
+* 在透過案頭、行動裝置或純文字/純文字檢視內容之間切換。
    * 按一下&#x200B;_檢視_&#x200B;圖示，即可跨裝置預覽內容。
-   * 選取其中一個現成可用的裝置，或輸入自訂維度以預覽內容。
+   * 選取其中一個預先定義的裝置，或輸入自訂維度來預覽內容。
 
 ## 更多選項
 
@@ -166,7 +159,7 @@ ht-degree: 2%
 
 ![按一下[更多]以存取範本動作](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL 重設電子郵件]** — 按一下此選項，將電子郵件設計畫布清除為空白並重新啟動內容建置。
+* **[!UICONTROL 重設電子郵件]** — 按一下此選項可清除電子郵件設計畫布，然後重新啟動內容建置。
 * **[!UICONTROL 另存為片段]** — 將電子郵件的全部或部份另存為片段，以便在多個電子郵件或電子郵件範本中重複使用。 您提供片段的名稱和說明，並將其儲存到可用片段清單中。
 * **[!UICONTROL 變更您的設計]** — 返回&#x200B;_設計您的電子郵件_&#x200B;頁面。 從那裡，您可以選擇另一個範本以重新啟動設計流程。 您也可以選擇使用空白畫布（_傳統模式_）或使用[品牌主題](./brand-themes.md) （_主題模式_）從頭開始設計內容。
 * **[!UICONTROL 另存為內容範本]** — 將電子郵件內文另存為電子郵件範本，以便在多個電子郵件或電子郵件範本中重複使用。 您可以提供範本的名稱和說明，並將其儲存至已儲存電子郵件範本的清單。
@@ -180,7 +173,7 @@ ht-degree: 2%
 
 ![類比電子郵件內容以檢查您的設計](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
 
-您可以存取其他工具來驗證和檢閱電子郵件內容：
+若要驗證和檢閱電子郵件內容，請存取其他工具：
 
 * [傳送證明](./email-simulate-content.md#send-proofs)
 * [測試電子郵件使用者端中的轉譯](./email-test-rendering.md)

@@ -4,21 +4,15 @@ description: Journey Optimizer B2B edition中的Audience Agent B2B使用意圖�
 feature: Agentic AI, Audiences
 role: User
 exl-id: c1210912-66ba-4b5f-8f3b-96eb6280c926
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
+autotag-review: '2026-06-05T16:43:42.459Z'
+TQID: 'https://experienceleague.adobe.com/d7KMYbH0NpoYGnBdTCmCpzLgpGIYfNP-YIFCQUjZpIg'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 2500
 ht-degree: 1%
@@ -27,7 +21,7 @@ ht-degree: 1%
 
 # Audience Agent B2B
 
-Audience Agent B2B由[Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator)提供技術支援，可在Journey Optimizer B2B edition中使用。 使用此代理程式可提高探索和擴展受眾的效率和成效，加速建立購買群組和順暢的工作流程以進行歷程啟動：
+Audience Agent B2B由[Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator)提供技術支援，可在Journey Optimizer B2B edition中使用。 使用此代理程式可提高探索和擴展受眾的效率和成效，加速建立購買群組，以及順暢的工作流程來啟動歷程：
 
 * **_依意圖排列目標對象的優先順序_**：根據不同對象的產品意圖推斷角色，並簡化行銷活動規劃，減少對象驗證所花費的時間。
 
@@ -59,7 +53,7 @@ Audience Agent B2B取決於設定的意圖分類法、XDM欄位對應和體驗�
 
 這些提示範例示範您可以使用代理程式的一些方式：
 
-* 顯示趨勢視窗：每個產品的最早和最新帳戶產品意向更新。
+* 顯示趨勢視窗：每個產品帳戶產品意向的最早和最新更新。
 * 針對`<product>`，列出具有產品意向和評分的購買群組。
 * 針對`<product>`，列出角色及其機會量度（獲勝率、會籍率、計數）。
 * 對於`<industry>`中的帳戶，`<product>`的平均帳戶角色涵蓋範圍是多少？
