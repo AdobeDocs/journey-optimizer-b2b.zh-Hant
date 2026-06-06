@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 81%
+ht-degree: 75%
 
 ---
 
@@ -41,7 +41,7 @@ Marketo Engage動作是&#x200B;_以人物為基礎的_&#x200B;動作，可讓您
 >title="外部 Marketo Engage 連線"
 >abstract="產品管理員可以設定與外部 Marketo Engage 執行個體的連線，使其能用於歷程動作。"
 
-完成下列工作，設定與歷程動作搭配使用的外部Marketo Engage執行個體。
+若要設定與歷程動作搭配使用的外部Marketo Engage執行個體，請完成下列工作。
 
 ### 建立Marketo Engage自訂服務
 
@@ -86,6 +86,6 @@ Marketo Engage動作是&#x200B;_以人物為基礎的_&#x200B;動作，可讓您
 >
 >從歷程執行的Marketo Engage動作不適用於連線的Marketo Engage執行個體的REST API限制。
 
-完成整合後，便可從節點屬性中的&#x200B;**動作：**&#x200B;取得Marketo Engage動作。
+完成整合後，便可從節點屬性中的&#x200B;:_&#x200B;**上的**&#x200B;_Actions使用Marketo Engage動作。
 
 ![Marketo動作清單](assets/marketo-actions-list.png){width="800" zoomable="yes"}

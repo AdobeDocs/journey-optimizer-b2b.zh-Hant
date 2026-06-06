@@ -20,21 +20,21 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T22:04:21.575Z
 TQID: https://experienceleague.adobe.com/tdFuPXow263TwebK-OF7bUenVrBuT1MYIG9FYC6gp-o
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1551
+source-wordcount: 1544
 ht-degree: 3%
 
 ---
 
 # 網站體驗
 
-Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站上建立個人化體驗，協助您以有意義的方式與客戶連結。 此功能提供彈性的工具組，可用來增強與自訂內容的互動，並順暢地與其他管道（例如電子郵件和簡訊）整合。
+Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站上建立個人化體驗，協助您以有意義的方式與客戶連結。 此功能提供一組彈性的工具，可用來增強與量身打造內容的互動，並順暢地與其他管道（例如電子郵件和簡訊）整合。
 
 網頁體驗可讓您：
 
 * 為目標網站訪客提供個人化內容修改
-* 根據帳戶屬性自訂網站元素，例如橫幅、文字、影像和按鈕
+* 使用帳戶屬性自訂網站元素，例如橫幅、文字、影像和按鈕
 * 使用URL比對規則鎖定特定頁面，或在多個頁面之間套用變更
 * 追蹤參與並監控網頁個人化工作的影響
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
    * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 檢視行銷活動]_ — 需要檢視Web個人化動作節點的詳細資料。
    * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 核准並發佈行銷活動]_ — 必須發佈具有一或多個Web個人化動作節點的歷程。
 
-* 您已為網頁瀏覽器安裝Adobe Experience Cloud [Visual Editing Helper瀏覽器擴充功能](#install-the-visual-editing-helper-extension)。 若要在Journey Optimizer B2B edition內容設計空間以可靠的方式開啟、編寫及預覽網頁，則此擴充功能為必要功能。
+* 您已為網頁瀏覽器安裝Adobe Experience Cloud [Visual Editing Helper瀏覽器擴充功能](#install-the-visual-editing-helper-extension)。 您必須使用此擴充功能，才能在Journey Optimizer B2B edition內容設計空間中，以可靠的方式開啟、編寫及預覽網頁。
 
   >[!NOTE]
   >
@@ -140,7 +140,7 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
 1. 修改完成後，按一下編輯器上方的左箭頭，返回內容標籤和個人化的Web體驗節點屬性。
 
-   您可以按一下最上方的向左箭頭，返回歷程畫布。
+   按一下頂端的左箭頭以返回歷程畫布。
 
 ## 編輯網站體驗
 
@@ -159,11 +159,11 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
 1. 修改定義完成後，按一下編輯器上方的左箭頭，返回內容標籤和網頁體驗屬性。
 
-   您可以按一下最上方的向左箭頭，返回歷程畫布。
+   按一下頂端的左箭頭以返回歷程畫布。
 
 ## 重新導向至 URL
 
-建立網頁體驗時，您可以將訪客重新導向至另一個現有URL，而不是在內容編輯器中編寫新的變數。 當您想要執行比較兩個不同體驗的內容實驗，而不是只變更頁面中的幾個元素時，此選項很有用。
+建立網頁體驗時，您可以將訪客重新導向至另一個現有URL，而不是在內容編輯器中編寫新的變數。 當您想要執行比較兩個不同體驗的內容實驗，而不是變更頁面內的幾個元素時，此選項很有用。
 
 例如，建立具有兩種處理的網路行銷活動：
 
@@ -187,7 +187,7 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
 1. 選取測試設定檔。
 
-1. 新增測試設定檔，以使用測試設定檔資料檢查網頁。
+1. 若要使用測試設定檔資料檢查網頁，請新增測試設定檔。
 
 <!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
 
@@ -203,15 +203,15 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
 若要啟用Web體驗傳送，必須定義下列設定：
 
-* 在Adobe Experience Platform資料收集中，請務必在Adobe Experience Platform服務底下啟用Adobe Journey Optimizer B2B edition選項，以定義資料串流。
+* 在Adobe Experience Platform資料收集中，確定您已定義資料流。 確認已在Adobe Journey Optimizer服務下啟用Adobe Experience Platform B2B edition選項。
 
   此設定可確保Adobe Experience Platform Edge可正確處理傳入事件。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)
 
 * 在Adobe Experience Platform中，請確定您有一個啟用&#x200B;_[!UICONTROL Active-On-Edge合併原則]_&#x200B;選項的合併原則。
 
-  在「客戶>設定檔>合併原則Experience Platform」功能表下選取原則。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  在Experience Platform的「客戶>設定檔>合併原則」功能表下，選取原則。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B edition傳入頻道會使用此合併原則，以正確地啟用並發佈邊緣上的傳入網路體驗。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B edition傳入頻道使用此合併原則，在邊緣正確地啟用和發佈傳入網路體驗。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 疑難排解
 

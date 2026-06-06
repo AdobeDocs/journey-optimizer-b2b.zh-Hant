@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 415
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Adobe Journey Optimizer B2B edition會讀取儲存在Adobe Experience Platform X
 | --- | --- | --- | --- |
 | `consents.marketing.email.val` | 已選擇加入 | 已選擇退出 | 已選擇加入 |
 
-同意電子郵件時請謹記下列考量事項：
+如需電子郵件同意，請考慮下列事項：
 
 * 全域選擇退出電子郵件的使用者可接收標示為可操作的電子郵件。
 * 不支援訂閱層級的偏好設定。
@@ -58,7 +58,7 @@ Adobe Journey Optimizer B2B edition會讀取儲存在Adobe Experience Platform X
 | `consents.marketing.subscriptions.<senderID>` | 已選擇加入 | 已選擇退出 | 已選擇退出 |
 | `consents.marketing.sms.subscriptions.<senderId>.subscribers.<phoneNumber>` | 已選擇加入 | 已選擇退出 | 已選擇退出 |
 
-針對簡訊同意，請謹記下列考量事項：
+請考慮下列專案以取得簡訊同意：
 
 * 當銷售機會（人員）記錄退出簡訊時，該記錄會完全排除，並且不會傳遞給下游簡訊提供者。
 * 可用時，會評估訂閱層級的同意。 無法取得訂閱層級的同意時，系統會以全域選擇退出作為遞補。
@@ -74,7 +74,7 @@ Adobe Journey Optimizer B2B edition會讀取儲存在Adobe Experience Platform X
 | `consents.marketing.whatsApp.val` | 已選擇加入 | 已選擇退出 | 已選擇退出 |
 | `consents.idSpecific.Phone.<number>.marketing.whatsApp.val` | 已選擇加入 | 已選擇退出 | 已選擇退出 |
 
-在WhatsApp同意時，請謹記下列考量事項：
+如需WhatsApp同意，請考慮下列事項：
 
 * 如果全域WhatsApp屬性值(`consents.marketing.whatsApp.val`)存在，則會用來進行同意評估。
 * 如果全域屬性值不存在，但存在寄件者特定專案，則會使用寄件者特定專案進行同意評估。

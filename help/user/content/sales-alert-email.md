@@ -17,18 +17,18 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:20:15.181Z
 TQID: https://experienceleague.adobe.com/npmmJAOBjGr4QPoK5320jVjN-PDpWZ99aqN1ldljXzk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 531
 ht-degree: 5%
 
 ---
 
 # 銷售警報電子郵件
 
-_銷售警示電子郵件_&#x200B;代表採購群組已移交給銷售人員。 此電子郵件包含購買群組的摘要，以及有關購買群組成員及其活動的資訊。
+_銷售警示電子郵件_&#x200B;表示已將購買群組移轉至「銷售」。 此電子郵件包含購買群組的摘要，以及有關購買群組成員及其活動的資訊。
 
-身為行銷人員，您可以在帳戶歷程中設定銷售警報電子郵件節點，以提醒銷售團隊特定購買群組的歷程已完成。 在節點中，您可以指定銷售團隊的電子郵件地址，或到達一組帳戶的分發別名。
+若要警示您的銷售團隊特定購買群組的歷程已完成，您可以在帳戶歷程中設定銷售警示電子郵件節點。 在節點中，您可以指定銷售團隊的電子郵件地址，或到達一組帳戶的分發別名。
 
 >[!IMPORTANT]
 >

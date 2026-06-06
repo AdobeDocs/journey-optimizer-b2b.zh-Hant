@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1511
-ht-degree: 44%
+source-wordcount: 1512
+ht-degree: 42%
 
 ---
 
@@ -110,7 +110,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ### 歷程狀態
 
-根據您套用的動作，歷程狀態可能會變更。 根據歷程狀態，您可以或無法從標頭右側執行某些動作。
+根據您套用的動作，歷程狀態可能會變更。 根據歷程的狀態，某些動作從標題右側會或不會提供。
 
 | 狀態 | 說明 | 可用的動作 |
 | ------ | ----------- | ----------------- |
@@ -170,7 +170,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ### 複製歷程 {#duplicate-journey}
 
-重複動作類似於原地複製功能，但重複的歷程不會包括任何已建立的歷程內容資產。 您可以複製歷程的詳細資料，或只是流程與路徑結構的簡單&#x200B;_骨架_。
+重複動作類似於原地複製功能，但重複的歷程不會包括任何已建立的歷程內容資產。 您可以複製歷程的詳細資訊，或流程與路徑結構的簡單&#x200B;_結構_。
 
 1. 按一下&#x200B;_更多_&#x200B;圖示(**...**) 在歷程名稱旁邊，並選擇&#x200B;**[!UICONTROL 複製]**。
 
@@ -194,7 +194,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
    * **[!UICONTROL 部分內容重複]** - 使用此類型複製歷程中所有內容，但不包括任何已建立的電子郵件或 SMS 訊息。 參照 Marketo Engage 電子郵件或 SMS 訊息的節點完好無損。
 
-   * **[!UICONTROL 重複但不包含詳細資訊]** - 使用此類型僅複製節點結構和路徑。 所有節點設定和路徑條件均未定義 (預設)，以便您可以根據不同的客群、動作和路徑分段設定來重複使用基本流程。 所有&#x200B;_等待_&#x200B;節點的預設值都是五天。
+   * **[!UICONTROL 複製但不含詳細資料]** — 使用此型別僅複製節點結構和路徑。 所有節點設定和路徑條件均未定義 (預設)，以便您可以根據不同的客群、動作和路徑分段設定來重複使用基本流程。 所有&#x200B;_等待_&#x200B;節點的預設值都是五天。
 
 1. 按一下「**[!UICONTROL 重複]**」。
 

@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: bb44a295784fbdeab2583cf7c759b15c0808d7d5
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 419
 ht-degree: 9%
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 # 歷程重新進入
 
-_僅限帳戶歷程_
+_&#x200B;**僅限帳戶歷程**&#x200B;_
 
 當您啟用帳戶歷程的重新進入時，您可以控制帳戶何時以及多久可重新進入同一個歷程。 使用重新進入設定來設定條件、限制和等待時間，以便帳戶能以可控制的方式符合歷程的資格。
 

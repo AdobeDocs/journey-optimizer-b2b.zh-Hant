@@ -5,6 +5,8 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
+autotag-review: '2026-06-05T16:08:18.792Z'
+TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -15,17 +17,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 895
+source-wordcount: 889
 ht-degree: 1%
 
 ---
 
 # Journey Optimizer B2B edition中AI助理的問題指引
 
-檢閱以下一組在Journey Optimizer B2B edition中查詢AI Assistant的範例問題。 此資訊也包含如何表述您的問題以從AI助理取得最佳回應的提示。
+檢閱以下範例問題，以在Journey Optimizer B2B edition中查詢AI助理。 此資訊也包含如何表述您的問題以從AI助理取得最佳回應的提示。
 
 ## 基於目標的問題
 
@@ -42,13 +44,13 @@ ht-degree: 1%
 
 ## 用詞說明問題
 
-您必須用清楚的語境向AI Assistant提問，才能儘可能獲得準確的回應。 請參閱下列提示清單，以取得如何透過內容提出明確問題的指引：
+為了得到儘可能準確的回應，請將您的問題以清楚和具體的語境表述給AI Assistant。 請參閱下列提示清單，以取得如何透過內容提出明確問題的指引：
 
 * 以簡明的方式陳述您的任務和/或問題。
 * 避免使用含糊不清的語言或過於複雜的語法，以方便理解。
 * 提供有關您任務和/或問題的相關內容，因為內容可協助AI助理產生更相關的回應。
 
-下表提供使用AI助理時您可以遵循的一些最佳實務：
+下表提供使用AI助理時您可以遵循的一些建議：
 
 | 執行 | 範例 |
 | --- | --- |
@@ -68,8 +70,8 @@ ht-degree: 1%
 
 下列清單包含Journey Optimizer B2B edition中的AI助理目前不支援的問題範例：
 
-* 哪些帳戶對象在條件中使用……欄位群組的workEmail.address欄位？ 
-* 在發佈視覺效果中，使用超過10,000、5000-10,000、1000-5000及低於1000的帳戶對象來顯示作用中歷程的數量
+* 哪些帳戶對象在其條件中使用……欄位群組的workEmail.address欄位？ 
+* 在發佈視覺效果中，使用大小超過10,000、5000-10,000、1000-5000及低於1000的帳戶對象來顯示作用中歷程的數量
 * 誰進行了帳戶歷程x的最後一次更新？
 * 有多少進行中歷程會針對解決方案興趣x新增購買群組成員？
 * 針對解決方案興趣x新增購買群組成員？

@@ -22,10 +22,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 73%
+source-wordcount: 1321
+ht-degree: 70%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 73%
 
 ### 取消訂閱訊息傳送
 
-對於非營運行銷電子郵件，取消訂閱文字和連結會附加在底部。 作為產品管理員，您應該設定預設的HTML，以及當行銷人員未將電子郵件標籤為可操作時填入的文字。
+對於非營運行銷電子郵件，取消訂閱文字和連結會附加在底部。 作為產品管理員，請設定預設HTML，以及行銷人員將電子郵件標示為運作時填入的文字。
 
 1. 移至附加的Marketo Engage執行個體中的&#x200B;**[!UICONTROL 管理員]**&#x200B;區域，並選取&#x200B;**[!UICONTROL 電子郵件]**。
 
@@ -89,7 +89,7 @@ ht-degree: 73%
 
 ### 以網頁檢視
 
-電子郵件內容的顯示功能有限（CSS有限，無JavaScript或表單）。 行銷人員可使用&#x200B;_以網頁形式檢視_&#x200B;選項，透過Marketo Munchkin為電子郵件收件者套用Cookie。 作為產品管理員，您應該設定預設的HTML，以及行銷人員選擇此選項時填入的文字。
+電子郵件內容的顯示功能有限（CSS有限，無JavaScript或表單）。 行銷人員可使用&#x200B;_以網頁形式檢視_&#x200B;選項，透過Marketo Munchkin為電子郵件收件者套用Cookie。 作為產品管理員，請設定預設的HTML，以及行銷人員選擇此選項時填入的文字。
 
 1. 移至附加的Marketo Engage執行個體中的&#x200B;**[!UICONTROL 管理員]**&#x200B;區域，並選取&#x200B;**[!UICONTROL 電子郵件]**。
 
@@ -163,7 +163,7 @@ To view this email as a web page, go to the following address:
    ![Marketo Engage電子郵件管理員 — 自訂標頭選項預設設定](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL 嚴格傳輸安全性]** — 將此選項設定為&#x200B;_已啟用_，以確保追蹤連結一律透過HTTPS提供。 僅對追蹤連結由SSL保護的訂閱啟用此功能。
-   * **[!UICONTROL Max-age]** — 此欄位支援必要指示詞，以秒為單位指定瀏覽器應記得僅透過HTTPS存取網域的時間。
+   * **[!UICONTROL Max-age]** — 此欄位支援必要指示詞，以秒為單位指定瀏覽器記憶僅透過HTTPS存取網域的時間。
    * **[!UICONTROL IncludeSubDomains]** — 使用此選項可包含將HSTS原則套用至主機所有子網域的指示詞。
 
    >[!IMPORTANT]

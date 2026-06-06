@@ -21,9 +21,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 3633
+source-wordcount: 3592
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 隨著行銷業的競爭日益激烈，品牌開始尋求有效率的方式，以快速且有效率的方式產生具影響力的內容。 用於[!DNL Adobe Journey Optimizer B2B Edition]中電子郵件製作的AI Assistant是Adobe的AI支援內容產生功能，它徹底改變了行銷人員建立專業且品牌一致的電子郵件內容的方式。 AI Assistant透過進階的創作AI模型和對品牌指引的深入瞭解，自動產生個人化、吸引人且有效的內容。 它會運用您的行銷目標，並針對品牌概述的樣式、版面、色調等將內容最佳化。 AI Assistant可讓電子郵件行銷活動的建立和執行直覺化、簡單且免費。 在工作流程中新增此功能，可以節省您的時間、提高效率並帶來更好的結果。
 
-這項新功能提供以提示為基礎的內容產生功能，適用於完整電子郵件產生或在電子郵件結構元件中定位。 針對影像，您可以產生新的影像資產，或只是從輸入品牌資產的影像目錄中產生建議。 您也可以使用此功能產生最佳主旨行和預先標題，以影響電子郵件開啟率。
+這項新功能提供以提示為基礎的內容產生功能，適用於完整電子郵件產生或在電子郵件結構元件中定位。 針對影像，您可以產生新的影像資產，或從輸入品牌資產的影像目錄中產生建議。 您也可以使用此功能產生最佳主旨行和預先標題，以影響電子郵件開啟率。
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 開始使用此功能之前，請先檢閱[准則和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 [在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-由於Adobe承諾在媒體建立中使用創作AI工具時提高透明度，Adobe針對任何內容或專案套用[內容認證](https://helpx.adobe.com/tw/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}，其中包含Firefly產生的資產（下載或匯出時）。
+Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}套用至Firefly產生的資產，以提高透明度。
 
 下列限制和准則適用於[!DNL Journey Optimizer B2B Edition]中用於產生電子郵件內容的AI助理功能：
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 用於產生內容的輸入和設定
 
-您可以為電子郵件或電子郵件中選取的元件產生完整內容。 當您使用AI助理工具產生您需要的內容時，您可以提供輸入，包括提示和參考內容，以及文字和影像的設定。
+您可以為電子郵件或電子郵件中選取的元件產生完整內容。 當您使用AI助理工具時，可以為文字和影像提供提示、參考內容及設定。
 
 ### 提示
 
@@ -103,10 +103,10 @@ ht-degree: 0%
 
 若要在產生的內容中包含影像，請展開右側面板中的&#x200B;**[!UICONTROL 影像設定]**&#x200B;並設定選項。
 
-預設會停用&#x200B;**[!UICONTROL 使用AI]**&#x200B;產生影像選項。 啟用此功能並設定下列選項，以在建議的內容變化中包含產生的影像：
+系統預設會停用&#x200B;**[!UICONTROL 使用AI]**&#x200B;產生影像選項。 啟用此功能並設定下列選項，以在建議的內容變化中包含產生的影像：
 
 * **[!UICONTROL 產生式模型]**：從現成可用的Adobe提供模型、提供特殊功能的合作夥伴模型，或根據您的品牌資產訓練的已設定自訂模型，進行選取。 如需產生式模型的詳細資訊，請參閱&#x200B;_[品牌對齊的Generative AI模型](generative-ai-models.md)_。
-* **[!UICONTROL 外觀比例]**：選取影像元件時，此設定會決定資產的寬度和高度。 您可以選擇一般比率，例如16:9、4:3、3:2或1:1，或者您可以輸入自訂大小。
+* **[!UICONTROL 外觀比例]**：選取影像元件時，此設定會決定資產的寬度和高度。 從一般比率（例如16:9、4:3、3:2或1:1）中選擇，或輸入自訂大小。
 * **[!UICONTROL 內容型別]**：型別會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
 * **[!UICONTROL 視覺強度]**：調整影像的強度，控制影像的影響。 較低的設定（例如2）可建立更柔和、更克制的外觀，而較高的設定（例如10）則可讓影像更生動、視覺效果更強大。
 * **[!UICONTROL 色彩和色調]**：影像中顏色的整體外觀及其傳達的氣氛或氣氛。
@@ -155,7 +155,7 @@ ht-degree: 0%
 
    如果您需要一些協助來製作有效的提示，請使用[提示程式庫](#prompt-library)。
 
-1. （選用）完成內容指引設定，為產生預覽文字提供額外輸入：
+1. （選用）若要提供產生預覽文字的其他輸入，請完成內容指引設定：
 
    * [**[!UICONTROL 文字設定]**](#text-settings) — 提供產生文字內容的指引。
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供作為內容產生來源的內容資產。
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 1. 捲動「AI輔助程式」面板，並瀏覽產生的變數來決定哪一個最適合。
 
-   您可以[針對產生的變體](#submit-variation-feedback)提交意見反應，方法是按一下&#x200B;_拇指向上_、_拇指向下_&#x200B;或&#x200B;_旗標_&#x200B;圖示，並選擇最能摘要您意見反應的原因。
+   您可以針對產生的變體[提交意見反應](#submit-variation-feedback)，方法是按一下&#x200B;_向上縮圖_、_向下縮圖_&#x200B;或&#x200B;_標幟_&#x200B;圖示，並選擇最能摘要您意見反應的原因。
 
 1. 按一下&#x200B;**[!UICONTROL Refine]**&#x200B;選項以存取其他自訂功能：
 
@@ -200,7 +200,7 @@ ht-degree: 0%
 
    如果您需要一些協助來製作有效的提示，請使用[提示程式庫](#prompt-library)。
 
-1. （選用）完成內容指引設定，為產生預覽文字提供額外輸入：
+1. （選用）若要提供產生預覽文字的其他輸入，請完成內容指引設定：
 
    * [**[!UICONTROL 文字設定]**](#text-settings) — 提供產生文字內容的指引。
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供作為內容產生來源的內容資產。

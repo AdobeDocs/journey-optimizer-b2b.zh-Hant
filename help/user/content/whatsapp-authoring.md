@@ -14,7 +14,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 1%
@@ -91,11 +91,11 @@ WhatsApp支援下列訊息型別：
 
    ![建立WhatsApp — 動作索引標籤](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
-1. 按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;以移至訊息引數和文字。
+1. 按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;以繼續訊息引數和文字。
 
 ### 選取訊息範本
 
-會使用您Meta WhatsApp商業帳戶中預先核准的訊息範本傳送WhatsApp訊息。 **範本必須由Meta稽核和核准**，您才能在Journey Optimizer B2B edition中使用它們。 與您的[!DNL Meta Business Manager]帳戶管理員合作，管理並提交範本以供核准。
+會使用您Meta WhatsApp商業帳戶中預先核准的訊息範本傳送WhatsApp訊息。 **範本必須由Meta稽核和核准**，您才能在Journey Optimizer B2B edition中使用它們。 若要管理和提交範本以供核准，請與您的[!DNL Meta Business Manager]帳戶管理員合作。
 
 1. 針對&#x200B;**[!UICONTROL 選取範本類別]**，請選擇下列其中一項：
 
@@ -109,7 +109,7 @@ WhatsApp支援下列訊息型別：
 
    ![選取的WhatsApp訊息範本已載入預覽視窗中的訊息](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
-   範本是依類別（_行銷_、_公用程式_&#x200B;和&#x200B;_驗證_）和狀態來組織。 只有&#x200B;**_已核准的_**&#x200B;範本可供選取。 如需有關建立WhatsApp範本的詳細資訊，請參閱Meta檔案中的&#x200B;[_為您的WhatsApp商業帳戶建立訊息範本_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)。
+   系統依類別（_行銷_、_公用程式_&#x200B;和&#x200B;_驗證_）和狀態來組織範本。 只有&#x200B;**_已核准的_**&#x200B;範本可供選取。 如需有關建立WhatsApp範本的詳細資訊，請參閱Meta檔案中的&#x200B;[_為您的WhatsApp商業帳戶建立訊息範本_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)。
 
 ### 影像URL
 

@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 1605
 ht-degree: 11%
@@ -125,7 +125,7 @@ ht-degree: 11%
 
 ### 編輯事件 {#edit-an-event}
 
-編輯事件詳細資料以變更欄位。
+若要變更欄位，請編輯事件詳細資訊。
 
 1. 按一下事件名稱，或按一下&#x200B;_更多功能表_ ( **...** )圖示並選擇&#x200B;**[!UICONTROL 編輯]**。
 
@@ -151,7 +151,7 @@ ht-degree: 11%
 
 針對[!DNL Journey Optimizer B2B Edition]，某些人員層級活動會擷取為[!DNL Experience Platform]個體驗事件。 這些事件儲存在使用XDM體驗事件結構描述並包含歷程特定欄位群組的系統資料集中。 您可以在[!UICONTROL Journey Optimizer B2B edition]中使用這些事件，就像任何其他體驗事件一樣。
 
-每個事件會顯示定義的一組欄位，可用於歷程&#x200B;_接聽事件_&#x200B;節點（根據事件進行決策）。 檢閱可用的事件型別及其欄位，以決定要在這些歷程節點中使用的事件和欄位：
+每個事件會顯示定義的一組欄位，可用於歷程&#x200B;_接聽事件_&#x200B;節點（根據事件進行決策）。 若要決定要在這些歷程節點中使用的事件和欄位，請檢閱可用的事件型別及其欄位：
 
 ### 電子郵件已傳送 {#email-sent}
 

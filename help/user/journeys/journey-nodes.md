@@ -16,23 +16,23 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 134
-ht-degree: 14%
+source-wordcount: 133
+ht-degree: 15%
 
 ---
 
 # 歷程節點
 
-建立歷程（帳戶歷程或個人歷程）後，新增對象並使用節點建置歷程。 歷程地圖提供畫布，您可以在其中建立多步驟B2B行銷使用案例。
+建立歷程（帳戶歷程或個人歷程）後，新增對象並使用節點建構歷程。 歷程地圖提供您可建置多步驟B2B行銷使用案例的畫布。
 
 受眾節點會自動成為歷程中的第一個節點：
 
 * [帳戶客群](./account-audience-nodes.md)
 * [個人對象](./person-audience-nodes.md) (Beta)
 
-將不同的動作、事件和協調流程節點視為多步驟、跨管道的情境，藉此建立您的歷程。 歷程的每個節點代表邏輯路徑上的一個步驟。 使用下列節點型別來建構帳戶歷程：
+將不同的動作、事件和協調流程節點視為多步驟、跨頻道情境，藉此建構您的歷程。 歷程的每個節點代表邏輯路徑上的一個步驟。 使用下列節點型別來建構帳戶歷程：
 
 * [採取動作](./action-nodes.md)
 * [監聽事件](./listen-for-event-nodes.md)

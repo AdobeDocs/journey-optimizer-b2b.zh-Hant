@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: 277
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 ## 設定帳戶對象節點的對象
 
-1. 按一下&#x200B;**[!UICONTROL 帳戶對象]**&#x200B;節點。 此動作會在右側顯示節點屬性。
+1. 按一下&#x200B;**[!UICONTROL 帳戶對象]**&#x200B;節點。 此動作會在右側面板中顯示節點屬性。
 
    ![帳戶對象歷程節點](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 

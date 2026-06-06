@@ -15,9 +15,9 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:35:16.900Z
 TQID: https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 273
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 內容設計工具可以在建立電子郵件範本時啟用[治理（_內容鎖定_）](./template-content-governance.md)。 治理功能可讓他們指定在帳戶歷程中使用時無法變更的設計部分。 當您[選取已儲存的範本](./email-authoring.md#select-a-template)來製作電子郵件時，視覺設計空間會載入範本，以便您能將其用作電子郵件的基礎。
 
-如果範本已啟用治理，右側的「屬性」面板中會顯示警報。 您可以開啟畫布頂端的&#x200B;**[!UICONTROL 反白可編輯區域]**，以檢視哪些元件和內容元素可以在您的歷程中使用。
+如果範本已啟用治理，右側的「屬性」面板中會顯示警報。 選取畫布頂端的&#x200B;**[!UICONTROL 反白可編輯區域]**，以檢視哪些元件和內容元素可以在您的歷程中使用。
 
 ![檢視控管範本中的可編輯區域](./assets/email-designer-governed-highlight.png){width="800" zoomable="yes"}
 

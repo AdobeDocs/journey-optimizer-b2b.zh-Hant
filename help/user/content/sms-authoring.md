@@ -17,9 +17,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1306
 ht-degree: 3%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 3%
 
 1. 按一下標籤旁的加號( **+** )以新增標籤。
 
-   如果您想要新增具有遞補字元的權杖（預設會顯示在該欄位不適用於潛在客戶的情況下出現），請按一下&#x200B;_更多_&#x200B;圖示( **...** )，然後選擇&#x200B;**[!UICONTROL 插入具有遞補文字]**。
+   如果您想要新增具有遞補文字的Token，請按一下&#x200B;_更多_&#x200B;圖示( **...** )並選擇&#x200B;**[!UICONTROL 插入具有遞補文字]**。 若該欄位不可用於銷售機會，則後援為預設值。
 
    ![按一下省略符號即可使用權杖的遞補](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
@@ -108,7 +108,7 @@ ht-degree: 3%
 
      >[!NOTE]
      >
-     >當您允許追蹤但停用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;時，目的地URL在重新導向後不會包含`mkt_tok`查詢字串引數。 Marketo Engage登陸頁面和Munchkin會使用此引數，以確保追蹤人員活動（例如當人員取消訂閱電子郵件時）。 除非引數造成網站上的問題，否則請勿停用此選項。<br/>
+     >當您允許追蹤但停用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;時，目的地URL在重新導向後不會包含`mkt_tok`查詢字串引數。Marketo Engage登陸頁面和Munchkin會使用此引數，以確保追蹤人員活動（例如當人員取消訂閱電子郵件時）。除非引數造成您網站上的問題，否則請勿停用此選項。<br/>
      >如需有關在網站上使用Munchkin追蹤代碼的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
 
    ![新增SMS訊息的連結對話方塊](./assets/sms-add-link-dialog.png){width="470"}
@@ -175,9 +175,9 @@ ht-degree: 3%
 
 ## 簡訊同意管理
 
-讓收件者能夠取消訂閱來自品牌的通訊，並遵守此選擇為法律要求。 若未遵守這些法規，您的品牌將面臨法律風險。 此功能也可協助您避免傳送未經請求的通訊給您的收件者，這可能會將您的訊息標示為垃圾訊息，並損害您的聲譽。
+讓收件者能夠取消訂閱來自品牌的通訊，並遵守此選擇為法律要求。 若未遵守這些法規，您的品牌將面臨法律風險。 此功能可協助您避免傳送未經請求的通訊給您的收件者，這可能會造成他們將您的訊息標示為垃圾訊息，並損害您的聲譽。
 
-提供此選項時，簡訊收件者可使用選擇加入和選擇退出關鍵字進行回覆。 支援並接受所有標準的選擇加入和選擇退出關鍵字，以及使用SMS服務提供者設定的所有自訂關鍵字。 取消訂閱後，設定檔會自動從未來行銷訊息的對象中移除。
+提供此選項時，簡訊收件者可使用選擇加入和選擇退出關鍵字進行回覆。 支援並接受所有標準選擇加入和選擇退出關鍵字，以及透過SMS服務提供者設定的任何自訂關鍵字。 取消訂閱後，設定檔會自動從未來行銷訊息的對象中移除。
 
 Journey Optimizer B2B edition可讓您使用下列邏輯，管理簡訊訊息中的選擇退出：
 

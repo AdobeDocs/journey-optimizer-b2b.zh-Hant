@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1014
-ht-degree: 89%
+source-wordcount: 1015
+ht-degree: 83%
 
 ---
 
@@ -29,15 +29,15 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
 
 * 它以您自己的電子郵件超連結品牌來取代一般連結。
 * 帳戶潛在客戶按一下連結時，會透過此自訂網域重新導向，以便在對電子郵件篩選器顯示合法性的情況下允許效能追蹤。
-* 如果您有多個品牌，您可以設定其他品牌網域，以支援不同的業務單位或品牌。
+* 若要支援不同的業務單位或品牌，如果您有多個品牌，可以設定額外的品牌領域名稱。
 
 >[!BEGINSHADEBOX]
 
 **追蹤連結的唯一CNAME**
 
-電子郵件追蹤連結必須是新連結，且對於附加的Marketo Engage例項而言必須是唯一的。 如果您有用於追蹤連結的現有CNAME指向既存的（生產） Marketo Engage執行個體，則未經修改便無法重複使用。
+電子郵件追蹤連結必須是新連結，且對於附加的Marketo Engage例項而言必須是唯一的。 如果您有用於追蹤連結的現有CNAME指向既有（生產） Marketo Engage執行個體，則需要修改這些CNAME才能重複使用。
 
-您可以在生產Marketo Engage執行個體和附加的執行個體之間共用傳迴路徑網域品牌，但這是後端變更。 開啟支援票證，並提供您的Marketo Engage前置詞(Munchkin ID)和新的Journey Optimizer B2B edition前置詞(Munchkin ID)，申請共用傳迴路徑網域名稱。
+您可以在生產Marketo Engage執行個體和附加的執行個體之間共用傳迴路徑網域品牌，但此變更是後端變更。 開啟支援票證，並提供您的Marketo Engage前置詞(Munchkin ID)和新的Journey Optimizer B2B edition前置詞(Munchkin ID)，申請共用傳迴路徑網域名稱。
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
 >
 >在UI中編輯或新增網域之前，您必須將[對應的CNAME對應至Adobe提供的Marketo Engage網域](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}。
 >
->新增網域時，系統會檢查預先存在的SSL，這些SSL可能在之前已手動建立。 如果您遇到此驗證，請在不選取SSL建立的情況下建立您的網域，然後將其作為單獨的程式進行連線。
+>新增網域時，系統會檢查之前手動建立的預先存在SSL。 如果您遇到此驗證，請在不選取SSL建立的情況下建立您的網域，然後將其作為單獨的程式進行連線。
 
 ## 存取Marketo Engage中的品牌化網域
 

@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 861
 ht-degree: 5%
 
 ---
@@ -69,7 +69,7 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域
 * [帳戶對象節點](./account-audience-nodes.md)
 * [個人受眾節點](./person-audience-nodes.md)
 
-建立帳戶歷程並新增對象後，請使用節點建立歷程。 歷程地圖提供畫布，您可以在其中使用下列節點型別建置您的多步驟B2B行銷使用案例，以建構帳戶歷程：
+建立帳戶歷程並新增對象後，請使用節點設計歷程。 歷程地圖提供畫布，您可以在其中使用下列節點型別建置您的多步驟B2B行銷使用案例，以建構帳戶歷程：
 
 * [採取動作](./action-nodes.md)
 * [監聽事件](./listen-for-event-nodes.md)
@@ -100,7 +100,7 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域
 
 1. 在右側的節點屬性中，按一下&#x200B;_刪除_ （ ![刪除圖示](../assets/do-not-localize/icon-delete.svg) ）圖示。
 
-1. 在設定對話方塊中，按一下&#x200B;**[!UICONTROL 刪除]**。
+1. 在確認對話框中，按一下「**[!UICONTROL 刪除]**」。
 
 ## 新增和刪除路徑
 

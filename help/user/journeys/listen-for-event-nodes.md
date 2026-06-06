@@ -16,16 +16,16 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1879
+source-wordcount: 1880
 ht-degree: 11%
 
 ---
 
 # 監聽事件
 
-新增&#x200B;_接聽事件_&#x200B;節點，以便在事件發生時，將您的對象移至歷程的下一個步驟。
+若要在事件發生時將您的對象移至歷程的下一個步驟，請新增&#x200B;_接聽事件_&#x200B;節點。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;， vertical-align=&quot;middle&quot;} [觀看概觀影片](#overview-video)
 
@@ -68,7 +68,7 @@ ht-degree: 11%
 
 >[!TIP]
 >
->若要根據使用者在進入歷程&#x200B;_之前_&#x200B;發生的體驗事件（例如先前的電子郵件點按或網頁互動）路由傳送使用者，請在[依使用者分割路徑](./split-merge-paths-nodes.md#experience-event-history-filtering)節點中使用[!UICONTROL 事件歷史記錄]篩選器。
+>體驗事件可在&#x200B;_前_&#x200B;個人進入歷程時發生（例如先前的電子郵件點按或網路互動）。 若要根據這些事件路由人員，請在[依人員分割路徑](./split-merge-paths-nodes.md#experience-event-history-filtering)節點中使用[!UICONTROL 事件歷史記錄]篩選器。
 
 ### 事件和限制
 
@@ -139,7 +139,7 @@ ht-degree: 11%
 
      ![聆聽體驗活動](./assets/node-listen-events-people-me-event-edit-dialog.png){width="700" zoomable="yes"}
 
-     您可以視需要重複此動作以包含其他欄位限制。
+     若要視需要包含其他欄位限制，請重複此動作。
 
    * 如有需要，請選取&#x200B;**[!UICONTROL 篩選器]**&#x200B;索引標籤以[為事件新增篩選器](#add-a-filter-to-the-people-event)。
 
@@ -211,7 +211,7 @@ ht-degree: 11%
 
    ![依人員接聽「事件」節點 — 選取「篩選器」索引標籤以編輯事件](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
 
-1. 新增一或多個篩選器，以鎖定事件的目標對象。
+1. 若要鎖定事件的目標人物，請新增一或多個篩選器。
 
    * 從左側導覽拖放任何[人員篩選器](#people-event-filters)，並完成相符定義。
 
@@ -219,7 +219,7 @@ ht-degree: 11%
      >
      >如果您在Experience Platform的帳戶對象結構描述中定義了自訂人員欄位，則這些欄位也可在&#x200B;**[!UICONTROL 屬性]**&#x200B;下取得，以便在篩選器中作為人員屬性使用。
 
-   * 在上方套用&#x200B;**[!UICONTROL 篩選邏輯]**，微調您的篩選。 您選擇符合所有篩選器或任何篩選器。
+   * 在上方套用&#x200B;**[!UICONTROL 篩選邏輯]**，以縮小篩選範圍。 您可以選擇比對所有篩選器或任何篩選器。
 
      ![事件定義中使用的人員篩選器](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 

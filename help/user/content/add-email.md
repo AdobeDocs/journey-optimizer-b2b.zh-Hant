@@ -17,9 +17,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1399
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 0%
 
    * 選擇&#x200B;**[!UICONTROL 從Adobe Marketo Engage選取電子郵件]**&#x200B;以使用Marketo Engage中預先編寫的電子郵件之一，並將其作為歷程的一部分傳送。
 
-     如果您在連線的Market Engage執行個體中有多個工作區可用，請選取工作區。 然後，選取您要為歷程節點傳送的已核准電子郵件。
+     如果在已連線的Marketo Engage執行個體中有多個工作區可供使用，請選取工作區。 然後，選取您要為歷程節點傳送的已核准電子郵件。
 
      ![選取Marketo Engage電子郵件](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
@@ -138,7 +138,7 @@ ht-degree: 0%
      >
      >行銷樣式的電子郵件訊息必須包含選擇退出連結，異動訊息不需要此連結。
 
-   * `Text version of HTML is empty`：別忘了定義您的電子郵件內文的文字版本，此文字版本會在HTML內容無法顯示時使用。
+   * `Text version of HTML is empty`：定義電子郵件內文的文字版本，當HTML內容無法顯示時就會使用此版本。
 
    * `Empty link is present in email body`：檢查您電子郵件中的所有連結是否正確。
 
