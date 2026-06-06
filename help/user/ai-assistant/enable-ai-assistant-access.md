@@ -60,7 +60,7 @@ ht-degree: 6%
 
 若要瞭解如何為組織和使用者設定AI助理的存取權，請觀看以下影片。
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475930/?captions=chi_hant&learn=on)
 
 ## 後續步驟
 
