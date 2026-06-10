@@ -17,9 +17,9 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
 workflow-type: tm+mt
-source-wordcount: 3057
+source-wordcount: 3064
 ht-degree: 6%
 
 ---
@@ -165,7 +165,7 @@ ht-degree: 6%
         <th style="width: 20%;">元件</th>
     </tr>
     <tr>
-        <td><img width="160px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="字型顏色工具"></td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="字型顏色工具"></td>
         <td>將字型顏色套用至選取的文字。 從選擇器中選擇顏色，並使用顏色滑桿和顏色欄位來選取顏色。 或者，您可以輸入已知的RGB、HSL、HSB或十六進位值。 </td>
         <td><li>按鈕 <li>文字</td>
     </tr>
@@ -182,8 +182,8 @@ ht-degree: 6%
         <th style="width: 20%;">元件</th>
     </tr>
     <tr>
-        <td><img width="120px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="插入連結工具"></td>
-        <td>為選取的文字或元素建立可點按的連結（外部URL或登陸頁面）。</td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="插入連結工具"></td>
+        <td>為選取的文字或元素建立可點按的連結。 <li>電子郵件內容 — 指定外部URL或登陸頁面。<li>登陸頁面內容 — 指定外部連結。</td>
         <td><li>按鈕 <li>文字 <li>影像 </td>
     </tr>
 </table>
@@ -200,7 +200,7 @@ ht-degree: 6%
     </tr>
     <tr>
         <td><img width="80px" src="../assets/do-not-localize/toolbar-button-remove-link.png" alt="移除連結工具"></td>
-        <td> 移除所選文字或元素的可點按連結（外部URL或登陸頁面）。</td>
+        <td> 移除所選文字或元素的可點按連結。</td>
         <td><li>按鈕 <li>文字 <li>影像 </td>
     </tr>
 </table>
@@ -312,7 +312,7 @@ ht-degree: 6%
 
    * **登陸頁面** — 選擇此型別，在<!-- Journey Optimizer B2B Edition (_Beta_) or -->連線的Marketo Engage執行個體中選取已發佈的登陸頁面。
 
-     針對&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;選項，請選取已發佈的登陸頁面。 按一下&#x200B;_選取頁面_&#x200B;圖示（![顯示連結圖示](/help/assets/do-not-localize/icon-landing-page-select.svg)）和[選取已發佈的登陸頁面](./landing-pages.md#link-to-a-landing-page)。
+     針對&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;選項，請選取已發佈的登陸頁面。 按一下&#x200B;_選取頁面_&#x200B;圖示（![顯示連結圖示](../assets/do-not-localize/icon-landing-page-select.svg)）和[選取已發佈的登陸頁面](./landing-pages.md#link-to-a-landing-page)。
 
      ![定義按鈕元件登入頁面的連結](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -628,7 +628,7 @@ ht-degree: 6%
 
    * **登陸頁面** — 選擇此型別，在<!-- Journey Optimizer B2B Edition (_Beta_) or -->連線的Marketo Engage執行個體中選取已發佈的登陸頁面。
 
-     針對&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;選項，請選取已發佈的登陸頁面。 按一下&#x200B;_選取頁面_&#x200B;圖示（![顯示連結圖示](/help/assets/do-not-localize/icon-landing-page-select.svg)）和[選取已發佈的登陸頁面](./landing-pages.md#link-to-a-landing-page)。
+     針對&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;選項，請選取已發佈的登陸頁面。 按一下&#x200B;_選取頁面_&#x200B;圖示（![顯示連結圖示](../assets/do-not-localize/icon-landing-page-select.svg)）和[選取已發佈的登陸頁面](./landing-pages.md#link-to-a-landing-page)。
 
      ![定義按鈕元件登入頁面的連結](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -756,7 +756,7 @@ ht-degree: 6%
 
 +++
 
-### 表單（登陸頁面）
+### 表單（僅限登陸頁面） {#form}
 
 [!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Beta功能"}
 
@@ -778,7 +778,7 @@ ht-degree: 6%
 
      >[!TIP]
      >
-     >如果您希望使用表單下載檔案，您可以指定託管檔案的URL。 透過此設定，提交按鈕可作為下載按鈕運作。
+     >如果您想要使用表單下載檔案，您可以指定託管檔案的URL。 透過此設定，提交按鈕可作為下載按鈕運作。
 
      ![變更後續追蹤設定](../../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 

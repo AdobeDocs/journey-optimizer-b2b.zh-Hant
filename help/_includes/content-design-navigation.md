@@ -1,7 +1,7 @@
 ---
 title: 內容製作 — 導覽
 description: 重複使用關於使用導覽樹進行內容製作的區段
-source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
      若要微調內距，請選取&#x200B;**[!UICONTROL 每一邊不同的內距]**。 按一下&#x200B;_鎖定_&#x200B;圖示以中斷同步處理。
 
-   * 擴充&#x200B;**[!UICONTROL 進階]**&#x200B;區段以定義資料行的內嵌樣式。
+   * 展開&#x200B;**[!UICONTROL 進階]**&#x200B;區段以定義資料行的內嵌樣式。
 
    ![變更所選資料行的樣式](../assets/content-design-shared/content-design-layers-column-styles.png){width="700" zoomable="yes"}
 

@@ -2,7 +2,6 @@
 title: 登陸頁面內容的AI助理
 description: 使用AI助理產生登陸頁面內容 — 使用您的參考資產建立頁面文字和影像，以及在Journey Optimizer B2B edition中購買群組角色目標定位。
 feature: Generative AI, Landing Pages, Content
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 topic: Artificial Intelligence
 role: User
 level: Beginner
@@ -23,10 +22,10 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 2700
-ht-degree: 1%
+source-wordcount: 2690
+ht-degree: 0%
 
 ---
 
@@ -140,7 +139,7 @@ ht-degree: 1%
 
 請依照下列步驟，透過調整現有的登陸頁面範本，使用AI助理產生完整的登陸頁面：
 
-1. 在[建立登入頁面](./landing-pages.md#create-a-landing-page)之後，按一下&#x200B;**[!UICONTROL 編輯登入頁面]**。
+1. 在[建立登入頁面](./landing-pages-create-publish.md#create-landing-page)之後，按一下&#x200B;**[!UICONTROL 編輯登入頁面]**。
 
 1. 選取範本。
 

@@ -17,7 +17,7 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:17:40.055Z
 TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 1538
 ht-degree: 0%
@@ -90,7 +90,7 @@ _[!UICONTROL 設計您的範本]_&#x200B;頁面會開啟，並提供多個建立
 
    當您按一下清單外部時，選取的主題會套用樣式。 您可以在顏色變體之間切換。
 
-1. [將結構和內容](./email-authoring.md#add-structure-and-content)新增到範本。
+1. [將結構和內容](./email-authoring.md#structure-content)新增到範本。
 
    如果有套用的主題，新增的元件會自動繼承主題中定義的樣式。
 

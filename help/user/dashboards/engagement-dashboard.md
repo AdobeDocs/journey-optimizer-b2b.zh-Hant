@@ -18,7 +18,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:44:41.871Z
 TQID: https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7b884e313f584252aecc25ee813dfb6c7f5d8f15
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 6%
@@ -57,7 +57,7 @@ ht-degree: 6%
 
 ![依日期範圍篩選顯示的資料](./assets/engagement-date-filter.png){width="380"}
 
-對於&#x200B;**[!UICONTROL 自訂]**&#x200B;範圍，您可以使用行事曆工具來指定開始和結束日期。 結束日期預設為當天。
+若為&#x200B;**[!UICONTROL 自訂]**&#x200B;範圍，請按一下&#x200B;_行事曆_ （ ![行事曆圖示](../assets/do-not-localize/icon-calendar.svg) ）圖示以指定開始和結束日期。 結束日期預設為當天。
 
 ![依屬性篩選顯示的資料](./assets/engagement-date-filter-custom.png){width="380"}
 
