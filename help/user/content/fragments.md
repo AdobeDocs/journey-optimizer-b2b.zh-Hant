@@ -6,12 +6,19 @@ role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
 autotag-review: '2026-05-27T16:13:50.677Z'
 TQID: 'https://experienceleague.adobe.com/Jvf48iWEQ2aOznKw2QEy33-X-q8cMfUQkbPAjgmgZqw'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 2748
@@ -123,7 +130,7 @@ ht-degree: 2%
 
 1. 隨時按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存草稿片段。
 
-1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下[發佈]。****
+1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下[發佈]。**&#x200B;**
 
 ## 檢視片段詳細資訊
 
@@ -286,7 +293,7 @@ ht-degree: 2%
 
 在視覺內容編輯器中建立/編輯電子郵件或電子郵件範本時，您可以選擇將內容的所有或部分儲存為片段，以便重複使用。
 
-1. 當您將某些內容儲存為片段時，請按一下[其他] ****，然後選擇[另存為片段] ]**。**[!UICONTROL 
+1. 當您將某些內容儲存為片段時，請按一下[其他] **&#x200B;**，然後選擇[另存為片段] **。**
 
 1. 選取要包含在片段中的不同元素。
 
@@ -310,9 +317,9 @@ ht-degree: 2%
 
 1. 導覽至&#x200B;**[!UICONTROL 帳戶歷程]**&#x200B;並開啟現有歷程或建立新歷程。
 
-1. 建立[_[!UICONTROL 傳送電子郵件&#x200B;]_節點](./add-email.md#add-an-email-action-node-in-a-journey)。
+1. 建立[_[!UICONTROL 傳送電子郵件&#x200B;]_&#x200B;節點](./add-email.md#add-an-email-action-node-in-a-journey)。
 
-1. 建立或編輯節點](./email-authoring.md)的[電子郵件內容。
+1. 建立或編輯節點[&#128279;](./email-authoring.md)的電子郵件內容。
 
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表拖放專案，以提供片段的&#x200B;_結構_。
 
@@ -342,7 +349,7 @@ ht-degree: 2%
 
 1. 從左側導覽列按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 範本]**。
 
-1. 建立新範本，或開啟現有的電子郵件範本，然後按一下[編輯電子郵件範本]。****
+1. 建立新範本，或開啟現有的電子郵件範本，然後按一下[編輯電子郵件範本]。**&#x200B;**
 
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表拖放專案，以提供片段的&#x200B;_結構_。
 
