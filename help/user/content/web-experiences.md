@@ -49,7 +49,7 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
 * 產品管理員已設定一或多個網路通道，以定義要納入網路體驗的URL （頁面）。 如需詳細資訊，請參閱[網路通道設定](../admin/configure-channels-web.md)。
 
-* 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
+* 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
 
 * 您擁有必要的[許可權](../admin/user-management.md#b2b-product-permissions)，才能在歷程中建立和管理網頁體驗：
    * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 管理行銷活動]_ — 需要新增或更新Web個人化動作節點。
@@ -208,13 +208,13 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
 * 在Adobe Experience Platform資料收集中，確定您已定義資料流。 確認已在Adobe Journey Optimizer服務下啟用Adobe Experience Platform B2B edition選項。
 
-  此設定可確保Adobe Experience Platform Edge可正確處理傳入事件。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+  此設定可確保Adobe Experience Platform Edge可正確處理傳入事件。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)
 
 * 在Adobe Experience Platform中，請確定您有一個啟用&#x200B;_[!UICONTROL Active-On-Edge合併原則]_&#x200B;選項的合併原則。
 
-  在Experience Platform的「客戶>設定檔>合併原則」功能表下，選取原則。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  在Experience Platform的「客戶>設定檔>合併原則」功能表下，選取原則。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B edition傳入頻道使用此合併原則，在邊緣正確地啟用和發佈傳入網路體驗。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B edition傳入頻道使用此合併原則，在邊緣正確地啟用和發佈傳入網路體驗。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 疑難排解
 

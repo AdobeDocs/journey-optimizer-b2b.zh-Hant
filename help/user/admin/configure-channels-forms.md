@@ -90,7 +90,7 @@ Journey Optimizer B2B edition中的Forms管道設定需要下列[許可權](../a
 
    >[!NOTE]
    >
-   >目前只能選取已啟用設定檔和未啟用設定檔的[Adobe Experience Platform資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)。 一次可以選取一個資料集。 系統資料集無法用來儲存表單資料。
+   >目前只能選取已啟用設定檔和未啟用設定檔的[Adobe Experience Platform資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)。 一次可以選取一個資料集。 系統資料集無法用來儲存表單資料。
 
    選取資料集的核取方塊，然後按一下&#x200B;**[!UICONTROL 選取]**。
 
