@@ -1,10 +1,10 @@
 ---
 title: 程式碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 2%
+source-wordcount: '2343'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。 確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 整合僅限於來自&#x200B;_傳遞層_&#x200B;的存放庫。 如果您使用&#x200B;_作者階層_&#x200B;且想要轉換它，請連絡Adobe Experience Manager支援。<br/>
+>AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。整合僅限於來自&#x200B;_傳遞層級_&#x200B;的存放庫。如果您使用&#x200B;_作者階層_&#x200B;並想要轉換它，請連絡Adobe Experience Manager支援。<br/>
 >根據您的合約和設定，在設計視覺內容時，可以直接從Adobe Experience Manager Assets B2B edition存取Adobe Journey Optimizer as a Cloud Service 。
 
 ## 內容製作 — 元件 — 結構步驟 {#structures-step}
@@ -141,7 +141,7 @@ HTML元件的![對齊樣式](../assets/content-design-shared/content-components-
 
 在已選取&#x200B;_[!UICONTROL 樣式]_&#x200B;標籤的右側面板上，展開&#x200B;**[!UICONTROL 邊界]**&#x200B;區段，並設定結構元件內邊界間距的選項。 此樣式會復寫CSS `margin`引數，該引數會控制元件邊框之外的空間，將元件與其他元件分開。 它會在元件周圍建立間隙，以影響其定位和周圍內容的版面。
 
-根據您的設計需求設定邊界值（畫素）。 您可以單獨設定元件所有側、上邊框、左右邊或每一側的邊界：
+根據您的設計需求設定邊界值（畫素）。 您可以單獨設定元件所有側、上下側、左右側或每一側的邊界：
 
 * **所有邊** — 若要設定一個值以套用至所有邊，請清除每個邊的&#x200B;**[!UICONTROL 不同邊界]**&#x200B;核取方塊。 按一下向上和向下箭頭圖示，以增加或減少畫素數量。
 
@@ -161,7 +161,7 @@ HTML元件的![對齊樣式](../assets/content-design-shared/content-components-
 
 在已選取&#x200B;_[!UICONTROL 樣式]_&#x200B;標籤的右側面板上，展開&#x200B;**[!UICONTROL 內距]**&#x200B;區段，並設定結構元件內距的選項。 此樣式會復寫CSS `padding`引數，該引數是元件內容與其邊框之間的空間。 內距提供內部間距，可用來控制內容與元件邊框之間的距離。
 
-根據您的設計需求，設定以畫素為單位的填補值。 您可以單獨設定元件所有側、上邊框、左右邊或每一側的邊框間距：
+根據您的設計需求，設定以畫素為單位的填補值。 您可以單獨設定元件所有側、上下側、左右側或兩側的內距：
 
 * **所有邊** — 若要設定一個值以套用至所有邊，請清除&#x200B;**[!UICONTROL 每個邊不同的內距]**&#x200B;核取方塊。 按一下向上和向下箭頭圖示，以增加或減少畫素數量。
 

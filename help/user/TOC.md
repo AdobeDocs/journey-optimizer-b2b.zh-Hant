@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
+source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 92%
+source-wordcount: '449'
+ht-degree: 89%
 
 ---
 
@@ -76,6 +76,7 @@ ht-degree: 92%
    + [鎖定外部對象](./audiences/target-external-audience.md)
    + [LinkedIn帳戶比對的對象](./data/linkedin-account-matched-audiences.md)
    + [預設XDM欄位](./admin/field-mapping.md)
+   + [測試設定檔](./audiences/test-profiles.md)
 + 帳戶 {#accounts}
    + 購買群組 {#buying-groups}
       + [概觀](./buying-groups/buying-groups-overview.md)
@@ -121,16 +122,17 @@ ht-degree: 92%
          + [進階HTML編輯](./content/email-template-advanced-html.md)
          + [將影像轉換為範本](./content/email-template-image-convert.md)
       + 登陸頁面範本 (Beta) {#landing-page-templates}
-         + {hide-from-toc}[概觀](./content/landing-page-templates.md)
+         + [概觀](./content/landing-page-templates.md)
          + [設計登陸頁面範本](./content/landing-page-template-design.md)
    + 片段 {#visual-fragments}
       + [概觀](./content/fragments.md)
       + [片段編寫](./content/fragment-authoring.md)
-   + Forms (Beta) {#forms}
+   + 表單 {#forms}
       + [概觀](./content/forms.md)
       + [表單設計](./content/form-design.md)
-   + 登陸頁面 (Beta) {#landing-pages}
+   + 登陸頁面 {#landing-pages}
       + [概觀](./content/landing-pages.md)
+      + [建立並發佈](./content/landing-pages-create-publish.md)
       + [登陸頁面設計](./content/landing-page-design.md)
       + [登陸頁面內容的AI助理](./content/ai-assistant-landing-pages.md)
    + 內容設計工具 {#content-design}
@@ -170,4 +172,5 @@ ht-degree: 92%
       + [簡訊設定](./admin/configure-channels-sms.md)
       + [WhatsApp設定](./admin/configure-channels-whatsapp.md)
       + [Web頻道設定(Beta)](./admin/configure-channels-web.md)
-      + [登陸頁面設定(Beta)](./admin/landing-page-settings.md)
+      + [登陸頁面設定](./admin/configure-channels-landing-pages.md)
+      + [Forms設定](./admin/configure-channels-forms.md)

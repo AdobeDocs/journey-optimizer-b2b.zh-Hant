@@ -3,32 +3,24 @@ title: 登陸頁面設計
 description: 使用視覺化工具設計登入頁面 — 為Journey Optimizer B2B edition中的帳戶歷程新增內容元件、表單、自訂CSS、個人化和裝置預覽。
 feature: Landing Pages, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:18:56.836Z
 TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 5%
+source-wordcount: 411
+ht-degree: 2%
 
 ---
 
 # 登陸頁面設計
 
-在您[建立登入頁面](./landing-pages.md#create-a-landing-page)之後，請使用視覺設計空間來編寫頁面中的結構和內容元件。
+在您[建立登入頁面](./landing-pages-create-publish.md#create-landing-page)之後，請使用視覺設計空間來編寫頁面中的結構和內容元件。
 
 ## 新增結構和內容 {#structure-content-landing-page}
 
@@ -64,9 +56,21 @@ ht-degree: 5%
 
 {{$include /help/_includes/content-design-links.md}}
 
+![按一下「編輯」圖示以存取連結追蹤](./assets/landing-page-link-tracking.png){width="400"}
+
+使用&#x200B;**[!UICONTROL 追蹤型別]**&#x200B;控制連結的追蹤：
+
+* **[!UICONTROL 已追蹤]** — 啟用連結URL上的追蹤。
+<!-- 
+* External Opt-out - Considers the link URL as an opt-out or unsubscription URL.
+
+* Mirror page - Considers the link URL as a mirror page URL.
+-->
+* **[!UICONTROL Never]** — 從未啟用連結URL的追蹤。
+
 ### 儲存您的工作
 
-隨時按一下「儲存」**&#x200B;**&#x200B;以儲存草稿登陸頁面。
+隨時按一下「儲存」****&#x200B;以儲存草稿登陸頁面。
 
 您可以繼續編輯草稿頁面。 當您準備好顯示頁面，並可在電子郵件或簡訊訊息中供連結使用時，即可發佈頁面。
 
@@ -84,7 +88,7 @@ ht-degree: 5%
 
 從視覺設計空間頂端的&#x200B;_[!UICONTROL 更多……]_&#x200B;功能表，您可以執行下列動作：
 
-![按一下[更多]以存取範本動作](./assets/landing-page-designer-more-menu.png){width="500"}
+![按一下[更多]以存取登入頁面動作](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL 重設登陸頁面]** — 按一下此選項，將視覺化設計畫布清除為空白並重新啟動建立頁面內容。
 * **[!UICONTROL 變更您的設計]** — 返回&#x200B;_[!UICONTROL 建立您的主要登陸頁面]_&#x200B;首頁。 從那裡，您可以選擇另一個範本以重新啟動設計程式，或選擇在空白畫布中從頭開始設計頁面。

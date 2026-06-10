@@ -4,23 +4,16 @@ description: 使用視覺化設計工具、HTML匯入或範本建立電子郵件
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
-source-wordcount: 1164
-ht-degree: 3%
+source-wordcount: 1381
+ht-degree: 2%
 
 ---
 
@@ -30,7 +23,7 @@ ht-degree: 3%
 
 按一下右側面板上&#x200B;_[!UICONTROL 詳細資料]_&#x200B;索引標籤中的&#x200B;**[!UICONTROL 編輯電子郵件內容]**。
 
-![按一下[編輯電子郵件內容] &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![按一下[編輯電子郵件內容] ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 此動作會啟動電子郵件設計工具，您可在其中從下列選項中選擇要如何設計電子郵件：
 
@@ -58,7 +51,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 手動樣式]** — 選擇此選項可在&#x200B;_手動模式_&#x200B;中建立電子郵件。 在此模式中，您可以手動設定新增至空白畫布的所有結構和內容元件的樣式。
 
-1. [將結構和內容](./email-authoring.md#add-structure-and-content)新增到範本。
+1. [將結構和內容](./email-authoring.md#structure-content)新增到範本。
 
 1. [檢閱和更新連結](#preview-and-edit-linked-urls)。
 
@@ -72,7 +65,7 @@ ht-degree: 3%
 >You cannot revert back to the visual design space for this email after switching to the code editor. 
 -->
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容
 
@@ -106,7 +99,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容[&#128279;](./template-content-governance.md)的範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ![存取內文樣式](./assets/email-body-styles.png){width="800" zoomable="yes"}
 
@@ -141,6 +134,20 @@ ht-degree: 3%
 ### 編輯連結的URL追蹤
 
 {{$include /help/_includes/content-design-links.md}}
+
+![按一下「編輯」圖示以存取連結追蹤](./assets/email-link-tracking.png){width="400"}
+
+電子郵件傳遞系統（透過Marketo Engage）會在傳送時，以唯一的追蹤重新導向，自動包裝HTML電子郵件中的所有URL。 使用&#x200B;**[!UICONTROL 追蹤型別]**&#x200B;控制連結的追蹤：
+
+* **[!UICONTROL 不含Token的追蹤]** — 系統會註冊點選，但會追蹤使用者下一個在網頁上執行的動作。 這在某些技術案例中可能很重要，例如處理可能無法正確處理mkt_tok的協力廠商系統時。 不過，後續的網路追蹤會受到限制。
+
+* **[!UICONTROL 使用mkt-tok追蹤]** — 使用追蹤token (mkt_tok)透過Munchkin追蹤後續的網路活動。 當收件者按一下連結時，會在活動記錄中註冊&#x200B;_按一下電子郵件_&#x200B;事件、安全地追蹤其活動，並套用Cookie以監視未來的網站互動。
+
+* **[!UICONTROL 不要追蹤]** — 系統不會追蹤與連結相關聯的活動。 當目的地頁面不支援URL引數並且可能導致連結中斷時，這項功能會很有用。
+
+  >[!NOTE]
+  >
+  >如果電子郵件是在365天前傳送的，而且過去180天內沒有人點按任何連結，則系統會從資料庫中刪減指向URL的路由。 此移除會導致連結中斷。 如果您想要讓連結永久存在，應停用追蹤。
 
 ### 套用深色模式樣式
 
