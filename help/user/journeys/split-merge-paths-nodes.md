@@ -18,9 +18,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 06b214f486571275d723e7a67fdf352263990b79
 workflow-type: tm+mt
-source-wordcount: 2542
+source-wordcount: 2541
 ht-degree: 3%
 
 ---
@@ -152,7 +152,7 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 | [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否擁有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 （請參閱[自訂資料篩選](#custom-data-filtering)） |
 | [!UICONTROL 事件歷史記錄] | 根據在歷程進入之前發生的體驗事件分割人員。 展開資料夾以檢視[管理員> XDM事件設定](../admin/configure-aep-events.md)中設定的所有事件型別，並選取一個新增為篩選器。 限制包括來自所選事件的欄位、從人員進入歷程時回溯的回顧時間範圍，以及選擇性的最小次數。 |
 | [!UICONTROL 個人屬性] | [個人檔案](../admin/field-mapping.md#xdm-business-person-attributes)中的屬性，包括： <li>城市 <li>國家 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域 <li>職稱 <li>姓氏 <li>手機號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>州別 |
-| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | （已棄用）人員是否根據下列一或多個條件評估購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除</li><li>角色</li> |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除</li><li>角色</li> |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 清單成員] | （已棄用）人員是否為一或多個[!DNL Marketo Engage]清單的成員。 |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 計畫成員] | （已棄用）該人員是否為一個或多個[!DNL Marketo Engage]計畫的成員。 |
 
