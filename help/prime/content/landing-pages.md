@@ -1,21 +1,10 @@
 ---
 title: 登陸頁面
-description: 建立、設計和發佈帳戶歷程的登入頁面 — 從頭開始建立、匯入HTML、新增表單、個人化內容，以及從Journey Optimizer B2B edition中的電子郵件連結。
-feature: Landing Pages, Content
-role: User
-exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-autotag-review: '2026-05-27T16:16:24.088Z'
-TQID: 'https://experienceleague.adobe.com/zAr9SwPBHxU50gD1ZRdJQo3M-qL-BEO6R1UYq7hSG-8'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072f
+description: 建立、設計和發佈個人歷程的登陸頁面 — 從頭開始建立、匯入HTML、新增表單、個人化內容，以及從Journey Optimizer B2B Prime中的電子郵件連結。
 source-git-commit: a2443f98ec7a8a5c1d4be2450042e2375f6150b7
 workflow-type: tm+mt
-source-wordcount: 1637
-ht-degree: 2%
+source-wordcount: '1461'
+ht-degree: 6%
 
 ---
 
@@ -29,34 +18,35 @@ ht-degree: 2%
 * 在傳送通訊之前收集同意，並在選擇加入或選擇退出時傳送確認電子郵件。
 * 使用登入頁面上的表單來擷取或更新設定檔資料（漸進式設定檔、偏好設定、註冊和類似案例）。
 * 將人們引導至專為您的歷程協調設計的行銷活動特定資訊。
-* 將使用者重新導向至專用網路表單，而不需在Journey Optimizer B2B edition外部建立外部頁面。
+* 將使用者重新導向至專用網路表單，而不需在Journey Optimizer B2B Prime外部建立外部頁面。
 
-## 登陸頁面工作流程
+<!-- 
+## Landing page workflow
 
-若要在歷程對象成員按一下特定連結時，將他們導向至已定義的網頁，請在Journey Optimizer B2B edition中建立登陸頁面：
+To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
 
-1. [建立頁面](./landing-pages-create-publish.md) — 選取預設集、設定主要頁面，並新增任何必要的子頁面。
-1. [設計登入頁面內容](./landing-page-design.md) — 使用拖放視覺化設計元件來建置頁面內容。
-1. [測試並發佈登入頁面](./landing-pages-create-publish.md) — 預覽頁面、測試表單行為，然後發佈使其上線。
-1. [從您的歷程連結至頁面](#link-to-a-landing-page) — 將登入頁面URL新增至電子郵件、簡訊或歷程動作，讓收件者可以存取。
 
-例如，您可以建立並設計登入頁面，將使用者導向至線上資訊。 頁面可能包含他們可以選擇加入或選擇退出接收您通訊的表單。 或者，也可以是訂閱電子報等週期性通訊的良機。
+1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
+1. [Design the landing page content](./landing-page-design.md) - Build the page content using drag-and-drop visual design components.
+1. [Test and publish the landing page](./landing-pages-create-publish.md) - Preview the page, test form behavior, and then publish to make it live.
+1. [Link to the page from your journey](#link-to-a-landing-page) - Add the landing page URL to an email, SMS, or journey action so that recipients can reach it.
 
-您可以在視覺設計空間中建立、個人化和預覽登入頁面。
 
+For example, you can create and design landing pages to direct your users to online information. The page could include a form where they can opt in or opt out from receiving your communications. Or it could be an opportunity to subscribe to a recurring communications, such as a newsletter. 
+
+You can create, personalize, and preview landing pages in the visual design space.
+-->
 ## 存取及管理登入頁面
 
-若要存取Journey Optimizer B2B edition中的登入頁面，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 登入頁面]**。 此動作會顯示執行個體中建立的所有登入頁面清單。
-
-![存取登入頁面程式庫](./assets/landing-pages-list.png){width="800" zoomable="yes"}
+若要存取Journey Optimizer B2B Prime中的登入頁面，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 登入頁面]**。 此動作會顯示執行個體中建立的所有登入頁面清單。
 
 此清單是根據&#x200B;_[!UICONTROL 已修改]_&#x200B;欄排序，最近更新的專案位於頂端。 按一下欄標題，在升序和降序之間變更。
 
 ### 篩選登入頁面清單
 
-若要依名稱搜尋登入頁面，請在搜尋列中輸入文字字串以尋找相符專案。 按一下&#x200B;_篩選器_&#x200B;圖示（![顯示或隱藏篩選器圖示](../assets/do-not-localize/icon-filter.svg)）以顯示可用的篩選器選項，並變更設定以根據您指定的條件篩選顯示的專案。
+若要依名稱搜尋登入頁面，請在搜尋列中輸入文字字串以尋找相符專案。 按一下&#x200B;_篩選器_&#x200B;圖示<!-- ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) -->以顯示可用的篩選器選項，並變更設定以根據您指定的條件篩選顯示的專案。
 
-![篩選顯示的登入頁面](./assets/landing-pages-list-filtered.png){width="700" zoomable="yes"}
+![篩選顯示的登入頁面](./assets/landing-pages-list-filtered.png){width="800" zoomable="yes"}
 
 <!-- 
 This is going away? ### Customize the column display
@@ -75,10 +65,42 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 | 狀態 | 說明 |
 | -------------------- | ----------- |
 | 草稿 | 建立登入頁面時，其狀態為草稿。 當您定義或編輯視覺內容時，它會保持此狀態，直到您將其發佈為託管頁面為止。 可用的動作： <br/><ul><li>編輯名稱或說明<li>編輯連結網址<li>在視覺設計空間編輯<li>發佈<li>重複<li>刪除 |
-| 發佈日期 | 當您發佈登入頁面時，此頁面託管於Journey Optimizer B2B edition例項，且可在電子郵件或簡訊內容中用於連結。 可用的動作： <br/><ul><li>編輯名稱或說明<li>編輯連結網址<li>在電子郵件或簡訊內容中新增連結<li>建立草稿版本<li>重複<li>刪除 |
+| 發佈日期 | 發佈登入頁面時，該頁面會託管於Journey Optimizer B2B Prime例項，且可在電子郵件或簡訊內容中用於連結。 可用的動作： <br/><ul><li>編輯名稱或說明<li>編輯連結網址<li>在電子郵件或簡訊內容中新增連結<li>建立草稿版本<li>重複<li>刪除 |
 | 已與草稿一起發佈 | 當您從已發佈的登陸頁面建立草稿時，已發佈的版本會保留，而且草稿內容可以在視覺設計空間中進行修改。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且託管頁面中的內容會更新。 可用的動作： <br/><ul><li>編輯名稱或說明<li>編輯連結網址<li>在電子郵件或簡訊內容中新增連結<li>在視覺化設計空間中編輯草稿版本<li>發佈草稿版本<li>重複<li>刪除（刪除兩個版本）<li>捨棄草稿（返回已發佈狀態） |
 
-![登陸頁面狀態生命週期](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+<!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
+
+## 建立登陸頁面 {#create-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_lp_create"
+>title="定義和設定您的登陸頁面"
+>abstract="若要建立登陸頁面，您需要選取一個預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前進行測試。"
+
+待定
+
+## 設定主要頁面 {#configure-primary-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_lp_primary_page"
+>title="定義您的主要頁面設定"
+>abstract="定義主要頁面，當收件者按一下登入頁面連結（例如從電子郵件或網站）時，就會立即顯示。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_lp_access_settings"
+>title="定義您的登陸頁面 URL"
+>abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL的第一個部分會要求您先前將登陸頁面子網域設定為您所選預設集的一部分。"
+
+待定
+
+## 測試登陸頁面 {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_preview_lp_profiles"
+>title="預覽和測試您的登陸頁面"
+>abstract="定義登入頁面設定和內容後，請使用測試設定檔來預覽頁面。"
+
+待定
 
 ## 編輯登入頁面
 
@@ -98,17 +120,19 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 修改任何詳細資訊，例如名稱和說明。
 
-   ![具有草稿狀態的登陸頁面詳細資料](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
+   <!-- ![Details for landing page with Draft status](./assets/landing-page-draft-details.png){width="700" zoomable="yes"} -->
 
 1. 若要變更視覺化設計空間中的內容，請按一下&#x200B;**[!UICONTROL 編輯登陸頁面]**。
 
-   視需要使用視覺化設計工具：
+   <!-- 
+   Use the visual design tools as needed:
 
-   * [新增結構和內容](./landing-page-design.md#structure-content-landing-page)
-   * [新增Assets](./landing-page-design.md#add-assets)
-   * [導覽圖層、設定和樣式](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [將內容個人化](./landing-page-design.md#personalize-content)
-   * [編輯連結的URL追蹤](./landing-page-design.md#edit-linked-url-tracking)
+   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
+   * [Add Assets](./landing-page-design.md#add-assets)
+   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
+   * [Personalize content](./landing-page-design.md#personalize-content)
+   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
+   -->
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
@@ -128,15 +152,17 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    在對話方塊中按一下&#x200B;**[!UICONTROL 建立草稿版本]**，在視覺化設計空間開啟草稿版本。
 
-   ![建立草稿版本對話方塊](./assets/landing-page-create-draft-version.png){width="300"}
+   <!-- 
+   ![Create draft version dialog](./assets/landing-page-create-draft-version.png){width="300"} 
 
-   視需要使用視覺化設計工具：
+   Use the visual design tools as needed:
 
-   * [新增結構和內容](./landing-page-design.md#structure-content-landing-page)
-   * [新增Assets](./landing-page-design.md#add-assets)
-   * [導覽圖層、設定和樣式](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [將內容個人化](./landing-page-design.md#personalize-content)
-   * [編輯連結的URL追蹤](./landing-page-design.md#edit-linked-url-tracking)
+   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
+   * [Add Assets](./landing-page-design.md#add-assets)
+   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
+   * [Personalize content](./landing-page-design.md#personalize-content)
+   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
+   -->
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
@@ -148,17 +174,23 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 當您開啟登入頁面時，會顯示草稿版本。 預覽空間頂端的索引標籤可讓您在已發佈版本和草稿版本之間切換顯示。 草稿動作和詳細資訊會顯示在右側。
 
-![預覽和詳細資訊登陸頁面草稿版本](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
+<!-- ![Preview and details for the landing page draft version](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"} -->
 
 若要更新內容：
 
-1. 按一下右上方的&#x200B;**[!UICONTROL 編輯登陸頁面]**。 視需要使用視覺化設計工具：
+1. 按一下右上方的&#x200B;**[!UICONTROL 編輯登陸頁面]**。
 
-   * [新增結構和內容](./landing-page-design.md#structure-content-landing-page)
-   * [新增Assets](./landing-page-design.md#add-assets)
-   * [導覽圖層、設定和樣式](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [將內容個人化](./landing-page-design.md#personalize-content)
-   * [編輯連結的URL追蹤](./landing-page-design.md#edit-linked-url-tracking)
+   <!--
+
+   Use the visual design tools as needed:
+
+   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
+   * [Add Assets](./landing-page-design.md#add-assets)
+   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
+   * [Personalize content](./landing-page-design.md#personalize-content)
+   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
+
+   -->
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
@@ -175,11 +207,11 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 * 從&#x200B;_[!UICONTROL 登陸頁面]_&#x200B;清單頁面，按一下&#x200B;_更多_&#x200B;圖示(**...**) 在登入頁面名稱旁邊，並選擇&#x200B;**[!UICONTROL 複製]**。
 * 在登入頁面詳細資訊頁面的右上方，按一下&#x200B;**[!UICONTROL ...更多]**&#x200B;並選擇&#x200B;**[!UICONTROL 複製]**。
 
-![複製登入頁面](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
+<!-- ![Duplicate the landing page](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"} -->
 
 在對話方塊中，輸入有用的名稱（唯一）和說明（選擇性）。 按一下&#x200B;**[!UICONTROL 複製]**&#x200B;以完成動作。
 
-![輸入重複登陸頁面的名稱和說明](./assets/landing-page-duplicate-dialog.png){width="350"}
+<!-- ![Enter a name and description for the duplicated landing page](./assets/landing-page-duplicate-dialog.png){width="350"} -->
 
 然後，重複的（新）頁面會出現在&#x200B;_登陸頁面_&#x200B;清單中。
 
@@ -192,11 +224,11 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 此動作會開啟確認對話方塊。 您可以按一下&#x200B;**[!UICONTROL 取消]**，或按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;確認刪除，以中止程式。
 
-![刪除登陸頁面對話方塊](./assets/landing-page-delete-dialog.png){width="400"}
+<!-- ![Delete landing page dialog](./assets/landing-page-delete-dialog.png){width="400"} -->
 
 ## 連結至登入頁面
 
-作為建立電子郵件、片段和頁面內容的行銷人員或Designer，您可以內嵌連結至在Journey Optimizer B2B edition例項中建立的已發佈（即時）登陸頁面。
+作為產生電子郵件、片段和頁面內容的行銷人員或創意人員，您可以內嵌連結至在Journey Optimizer B2B Prime例項中建立的已發佈（即時）登陸頁面。
 
 1. 當您在片段、電子郵件、登入頁面或範本的視覺設計空間工作時，請為連結選取文字片段、按鈕元件或影像元件。
 
@@ -204,13 +236,13 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 針對&#x200B;**[!UICONTROL Type]**&#x200B;選項，請選擇&#x200B;**[!UICONTROL 登陸頁面]**。
 
-   登陸頁面的![連結選項](../../assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+   <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"} -->
 
-1. 針對&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;選項，按一下&#x200B;_選取頁面_&#x200B;圖示（![顯示連結圖示](../assets/do-not-localize/icon-landing-page-select.svg) ）。
+1. 針對&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;選項，按一下&#x200B;_選取頁面_&#x200B;圖示<!-- ( ![Show links icon](/help/assets/do-not-localize/icon-landing-page-select.svg) ) -->。
 
 1. 在「選取登陸頁面」對話方塊中，將&#x200B;**[!UICONTROL 登陸頁面來源]**&#x200B;設定為&#x200B;**[!UICONTROL Journey Optimizer B2B edition]**，從已發佈頁面的清單中選取登陸頁面的核取方塊，然後按一下「選取&#x200B;**[!UICONTROL 」]**。
 
-   登陸頁面的![連結選項](../../assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+   <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"} -->
 
 1. 針對&#x200B;**[!UICONTROL Target]**&#x200B;選項，選擇連結目標行為：
 
