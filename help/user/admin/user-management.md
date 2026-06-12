@@ -6,26 +6,21 @@ roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 2267
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
 # 使用者存取和許可權
 
-布建完成並繫結沙箱後，請完成下列步驟，為團隊和使用者提供Adobe Journey Optimizer B2B edition存取權。
+布建完成並繫結沙箱後，請使用下列步驟為團隊和使用者提供對Adobe Journey Optimizer B2B edition的存取權。
 
 1. [在Admin Console中建立Marketo Engage產品設定檔](#marketo-engage-profile) （僅限新的Marketo Engage執行個體）。
 1. 在Admin Console中[新增使用者群組](#add-user-group)。
@@ -74,7 +69,7 @@ ht-degree: 82%
 
 新增使用者至Marketo Engage產品設定檔時，他們隨後會新增至Marketo Engage訂閱預設工作區中的&#x200B;_標準使用者_&#x200B;角色。 此角色會授予他們該工作區中Marketo Engage的所有標準許可權。 目前，所有Journey Optimizer B2B edition使用者都必須是Marketo Engage使用者。 Marketo Engage管理員可以更新&#x200B;_標準使用者_&#x200B;角色的許可權，或將使用者移至其他具有更嚴格許可權的Marketo Engage使用者角色，以限制存取權。
 
-如需有關在Marketo Engage中管理這些許可權的詳細資訊，請參閱Marketo Engage檔案中的[管理使用者角色和許可權](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
+如需有關在Marketo Engage中管理這些許可權的詳細資訊，請參閱Marketo Engage檔案中的[管理使用者角色和許可權](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -90,7 +85,7 @@ ht-degree: 82%
 
 1. 輸入產品設定檔名稱，例如&#x200B;_B2B使用者_。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[下一步]****，然後按一下[儲存]****。
 
 ## 為設定檔新增使用者群組 {#add-user-group}
 
@@ -167,7 +162,7 @@ ht-degree: 82%
 
 Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 許可權也可讓您管理與特定角色相關聯的沙箱和使用者。
 
-如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 ### B2B產品許可權 {#b2b-product-permissions}
 
