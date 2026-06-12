@@ -36,6 +36,7 @@ For example, you can create and design landing pages to direct your users to onl
 
 You can create, personalize, and preview landing pages in the visual design space.
 -->
+
 ## 存取及管理登入頁面
 
 若要存取Journey Optimizer B2B Prime中的登入頁面，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 登入頁面]**。 此動作會顯示執行個體中建立的所有登入頁面清單。
@@ -194,7 +195,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
-1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。****
+1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。**&#x200B;**
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而託管頁面中的內容會更新。
 
