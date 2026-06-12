@@ -96,7 +96,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
    * 人員屬性
    * 歷程成員資格等特殊篩選器
 
-1. 若要儲存變更，請按一下[完成]。****
+1. 若要儲存變更，請按一下[完成]。**&#x200B;**
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
@@ -108,7 +108,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 1. 在對話方塊中，新增篩選器以符合您要取消資格的成員。
 
-1. 若要儲存變更，請按一下[完成]。****
+1. 若要儲存變更，請按一下[完成]。**&#x200B;**
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
@@ -133,7 +133,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
    * 人員屬性
    * 歷程成員資格等特殊篩選器
 
-1. 若要儲存變更，請按一下[完成]。****
+1. 若要儲存變更，請按一下[完成]。**&#x200B;**
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
