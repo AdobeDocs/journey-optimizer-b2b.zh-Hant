@@ -18,7 +18,7 @@ ht-degree: 10%
 
 ## 先決條件
 
-若要使用網路表單，您必須在Adobe Experience Platform中定義一或多個&#x200B;_&#x200B;**HTTP API串流連線**&#x200B;_。 請確定您要使用的每個連線都符合下列需求：
+若要使用網路表單，您必須在Adobe Experience Platform中定義一或多個&#x200B;_**HTTP API串流連線**_。 請確定您要使用的每個連線都符合下列需求：
 
 * 資料型別必須設定為XDM （非原始資料）
 * 必須停用驗證（未驗證的連線）
@@ -90,7 +90,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    >[!NOTE]
    >
-   >目前只能選取已啟用設定檔和未啟用設定檔的[Adobe Experience Platform資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)。 一次可以選取一個資料集。 系統資料集無法用來儲存表單資料。
+   >目前只能選取已啟用設定檔和未啟用設定檔的[Adobe Experience Platform資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)。 一次可以選取一個資料集。 系統資料集無法用來儲存表單資料。
 
    選取資料集的核取方塊，然後按一下&#x200B;**[!UICONTROL 選取]**。
 
