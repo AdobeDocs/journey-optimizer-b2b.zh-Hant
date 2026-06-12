@@ -6,9 +6,14 @@ roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
 source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
@@ -85,7 +90,7 @@ ht-degree: 81%
 
 1. 輸入產品設定檔名稱，例如&#x200B;_B2B使用者_。
 
-1. 按一下[下一步]****，然後按一下[儲存]****。
+1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
 
 ## 為設定檔新增使用者群組 {#add-user-group}
 
