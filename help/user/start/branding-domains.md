@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 83%
+source-wordcount: 1013
+ht-degree: 80%
 
 ---
 
@@ -144,7 +144,7 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
 
 >[!NOTE]
 >
->如果您想要刪除主要品牌領域（在一或多個工作區中），您必須先選取不同的品牌領域作為每個工作區的主要品牌領域。
+>如果您想要刪除主要品牌領域（在一或多個工作區中），請先選取不同的品牌領域作為每個工作區的主要品牌領域。
 >
 >刪除網域&#x200B;**_不會_**&#x200B;刪除SSL憑證。 此護欄可防止使用者發生導致網站沒有SSL憑證的錯誤。 如果您確實要移除SSL憑證，請聯絡Adobe支援。
 

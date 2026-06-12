@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 1003
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -70,7 +70,7 @@ Journey Optimizer B2B edition設定包括搭配B2B來源使用的Experience Plat
 
 ### 執行指令碼
 
-設定好環境值後，請使用[!DNL Postman]介面執行指令碼以建立名稱空間和結構描述。 選取自動產生器公用程式的根資料夾，然後從頂端標題選取&#x200B;**[!DNL Run]**。
+設定好環境值後，請使用[!DNL Postman]介面執行指令碼以建立名稱空間和結構描述。 選取自動產生器公用程式的根資料夾，然後在頂端標題中選取&#x200B;**[!DNL Run]**。
 
 ![Postman UI中名稱空間和結構描述產生器的根資料夾](./assets/namespaces-schemas-postman-root-folder.png){width="500" zoomable="yes"}
 

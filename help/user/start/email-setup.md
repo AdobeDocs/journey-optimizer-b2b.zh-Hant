@@ -22,7 +22,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 1321
 ht-degree: 70%
@@ -35,7 +35,7 @@ ht-degree: 70%
 
 ## 電子郵件設定
 
-若要為附加的Marketo Engage執行個體設定電子郵件預設值，請變更設定值以反映行銷組織的使用情況。
+若要為附加的Marketo Engage執行個體設定電子郵件預設值，請變更設定值以反映行銷團隊的使用情況。
 
 ### 從電子郵件和標籤
 

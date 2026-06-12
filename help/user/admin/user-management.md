@@ -16,16 +16,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 2267
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
 # 使用者存取和許可權
 
-布建完成並繫結沙箱後，請完成下列步驟，為團隊和使用者提供Adobe Journey Optimizer B2B edition存取權。
+布建完成並繫結沙箱後，請使用下列步驟為團隊和使用者提供對Adobe Journey Optimizer B2B edition的存取權。
 
 1. [在Admin Console中建立Marketo Engage產品設定檔](#marketo-engage-profile) （僅限新的Marketo Engage執行個體）。
 1. 在Admin Console中[新增使用者群組](#add-user-group)。

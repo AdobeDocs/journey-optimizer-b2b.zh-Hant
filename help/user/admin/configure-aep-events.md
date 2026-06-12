@@ -19,9 +19,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1605
+source-wordcount: 1603
 ht-degree: 11%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 11%
 
 1. 在事件詳細資訊頁面中，按一下&#x200B;**[!UICONTROL 儲存]**。
 
-已儲存的事件會顯示在&#x200B;_[!UICONTROL 事件]_&#x200B;索引標籤的清單中。
+_[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件。
 
 ### 編輯事件 {#edit-an-event}
 
