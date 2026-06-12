@@ -2,9 +2,15 @@
 title: 電子郵件範本
 description: 瞭解如何在Journey Optimizer B2B Prime中存取和管理電子郵件範本，包括如何使用資料夾整理範本。
 badgeBeta: label="Beta" type="informative" tooltip="此功能屬於有限測試版的一部分。"
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+autotag-review: '2026-06-12T22:56:19.345Z'
+TQID: 'https://experienceleague.adobe.com/TTr-0Pm7Jb0LLCHt6hZb8mkXdeC7PUqteYVDuyanfs0'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: 485
 ht-degree: 1%
 
 ---
@@ -55,7 +61,7 @@ ht-degree: 1%
 
 ### 編輯範本
 
-按一下範本名稱以開啟詳細資料頁面，然後按一下[編輯電子郵件範本]。**&#x200B;** 您也可以按一下範本清單中的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示(⋯)，然後選取&#x200B;**[!UICONTROL 編輯]**。
+按一下範本名稱以開啟詳細資料頁面，然後按一下[編輯電子郵件範本]。**** 您也可以按一下範本清單中的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示(⋯)，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
 ### 複製範本
 

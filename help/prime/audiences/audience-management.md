@@ -1,9 +1,15 @@
 ---
 title: Audience Management
 description: 對象的預留位置頁面。
-source-git-commit: 6d91218d904406a7b398e3e998fde47e8d670fee
+autotag-review: '2026-06-12T22:47:10.727Z'
+TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: 442
 ht-degree: 4%
 
 ---
@@ -96,7 +102,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
    * 人員屬性
    * 歷程成員資格等特殊篩選器
 
-1. 若要儲存變更，請按一下[完成]。**&#x200B;**
+1. 若要儲存變更，請按一下[完成]。****
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
@@ -108,7 +114,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 1. 在對話方塊中，新增篩選器以符合您要取消資格的成員。
 
-1. 若要儲存變更，請按一下[完成]。**&#x200B;**
+1. 若要儲存變更，請按一下[完成]。****
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
@@ -133,7 +139,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
    * 人員屬性
    * 歷程成員資格等特殊篩選器
 
-1. 若要儲存變更，請按一下[完成]。**&#x200B;**
+1. 若要儲存變更，請按一下[完成]。****
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 

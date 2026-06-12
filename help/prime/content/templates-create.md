@@ -1,11 +1,17 @@
 ---
 title: 建立電子郵件範本
-description: 瞭解如何在Journey Optimizer B2B Prime中建立電子郵件範本 — 從草稿開始設計、將歷程中的電子郵件儲存為範本，或將設計影像轉換為電子郵件範本。
+description: 瞭解如何在Journey Optimizer B2B Prime中建立電子郵件範本 — 新建、將歷程中的電子郵件儲存為範本，或將設計影像轉換為電子郵件範本。
 badgeBeta: label="Beta" type="informative" tooltip="此功能屬於有限測試版的一部分。"
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+autotag-review: '2026-06-12T22:55:41.432Z'
+TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 0%
+source-wordcount: 875
+ht-degree: 1%
 
 ---
 
@@ -14,42 +20,55 @@ ht-degree: 0%
 
 您可以在[!DNL Journey Optimizer B2B Edition Prime]中以三種方式建立電子郵件範本：
 
-* **從草稿開始設計** — 使用視覺化電子郵件設計空間在範本程式庫中建立新範本。
+* **建立新範本** — 使用視覺化電子郵件設計空間在範本程式庫中建立範本。
 * **從歷程儲存電子郵件** — 將您在歷程中編寫的電子郵件儲存為可重複使用的範本。
 * **轉換影像** — 上傳設計影像並使用創作AI將其轉換為可編輯的電子郵件範本。
 
->[!NOTE]
->
->在這個Beta版本中，僅支援電子郵件範本。
-
-## 從頭開始設計範本 {#design-from-scratch}
+## 建立新範本 {#build-new}
 
 1. 導覽至&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 範本]**。
 1. 按一下&#x200B;**[!UICONTROL 建立範本]**。
 1. 輸入&#x200B;**[!UICONTROL 範本名稱]**&#x200B;和選用的&#x200B;**[!UICONTROL 描述]**。
-1. 可選擇新增標籤以將範本分類。
+1. 設定範本的&#x200B;**[!UICONTROL 管道]** （型別）。
+
+   >[!NOTE]
+   >
+   >在這個Beta版本中，僅支援電子郵件範本。
+
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以開啟電子郵件設計空間。
-1. 使用結構和內容元件設計電子郵件版面。 如需可用工具的完整參考資料，請參閱[電子郵件製作](email-authoring.md)。
-1. 選擇性地設定[內容鎖定](template-content-locking.md)以限制範本作者在歷程中使用它時可以編輯的部分。
+
+1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;以存取內容設計空間。
+
+   如需內容設計的詳細資訊，請參閱[電子郵件製作](email-authoring.md)。
+
+1. 選擇性地啟用&#x200B;**[!UICONTROL 治理]**&#x200B;並設定[內容鎖定](template-content-governance.md)，以限制套用範本時範本作者可以編輯的部分。
+
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-## 將歷程電子郵件儲存為範本 {#save-as-template}
+## 將電子郵件儲存為範本 {#save-as-template}
 
-當您在歷程中設計要重複使用的電子郵件時，請將其從電子郵件設計空間直接儲存到範本程式庫。
+開啟要重複使用的電子郵件內容時，請從電子郵件內容頁面將其直接儲存至範本程式庫。
 
-1. 在電子郵件設計空間中，開啟編輯器頂端的&#x200B;**[!UICONTROL 儲存]**&#x200B;下拉式清單。
+1. 按一下頁面頂端的&#x200B;**[!UICONTROL 內容範本]**。
 1. 選取&#x200B;**[!UICONTROL 另存為內容範本]**。
-1. 輸入&#x200B;**[!UICONTROL 範本名稱]**&#x200B;和選用的&#x200B;**[!UICONTROL 描述]**。
-1. 選擇性地新增標籤並設定[內容鎖定](template-content-locking.md)。
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 輸入&#x200B;**[!UICONTROL Name]**&#x200B;和選用的&#x200B;**[!UICONTROL 描述]**。
+1. 選擇性地新增&#x200B;**[!UICONTROL 標籤]**。
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-原始歷程電子郵件不受影響。 已儲存的範本可在範本庫中供沙箱中的所有使用者使用。
+原始歷程電子郵件不受影響。 已儲存的範本可在範本庫中供沙箱中的所有使用者使用。 您可以更新建立的範本以最佳化重複使用：
+
+* 編輯文字並新增[個人化](email-authoring.md#personalization)權杖。
+* 更新或取代影像並新增連結。
+* 設定[內容鎖定](template-content-governance.md)。
 
 ## 將影像轉換為範本 {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime]可以使用產生AI將靜態影像（例如來自Figma或Photoshop的模型）轉換為可編輯的電子郵件範本。 如此一來，您就不需要從設計檔案手動重建版面。
+[!DNL Journey Optimizer B2B Edition Prime]可以使用產生AI將靜態影像（例如來自Figma或Photoshop的模型）轉換為可編輯的電子郵件範本。 如此一來，您就不需要手動從設計檔案重新建置版面，因此非常適合從其他平台移轉現有電子郵件設計。 此功能僅適用於電子郵件內容範本。
 
-### 需求
+>[!BEGINSHADEBOX]
+
+### 先決條件
 
 開始之前：
 
@@ -65,34 +84,57 @@ ht-degree: 0%
 >
 >影像不得包含個人識別資訊(PII)或敏感資料。
 
-### 轉換影像
+>[!ENDSHADEBOX]
+
+### 建立範本
 
 1. 導覽至&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 範本]**。
-1. 按一下標頭中的&#x200B;**[!UICONTROL 將影像轉換為範本]**。
+1. 按一下&#x200B;**[!UICONTROL 建立範本]**。
 1. 輸入&#x200B;**[!UICONTROL 範本名稱]**&#x200B;和選用的&#x200B;**[!UICONTROL 描述]**。
-1. 選擇性地選取&#x200B;**[!UICONTROL 品牌佈景主題]**，以將您品牌的顏色、字型和間距套用至產生的輸出。
-1. 使用拖放或檔案瀏覽器上傳影像。
-1. 確認影像未包含任何個人資料。
-1. 檢閱並接受Adobe Generative AI使用者指南（僅限第一次）。
-1. 按一下&#x200B;**[!UICONTROL 轉換]**。
+1. 將&#x200B;**[!UICONTROL 頻道]**&#x200B;設定為電子郵件。
 
-   轉換通常會在五分鐘內完成。 複雜或大型影像最多可能需要10分鐘。 您可以巡覽到別處 — 程式會在背景中繼續。
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-1. 轉換完成後，按一下範本名稱以預覽及編輯產生的內容。
+### 產生範本內容
 
->[!NOTE]
->
->結果不會自動顯示。 重新整理頁面或返回範本程式庫以檢視完成的範本。
+1. 在&#x200B;**[!UICONTROL 將影像轉換為範本]**&#x200B;區段中：
 
-### 轉換後編輯
+   * 選擇性地選取&#x200B;**[!UICONTROL 品牌佈景主題]**，以將您品牌的顏色、字型和間距套用至產生的輸出。
+   * 選取確認核取方塊，確認影像未包含任何個人識別資訊(PII)或其他敏感資料。
+   * 按一下&#x200B;**[!UICONTROL 上傳影像]**&#x200B;並選取您的影像檔案。
 
-轉換後的範本會在電子郵件設計空間中開啟為完全可編輯的電子郵件。 使用標準設計工具可以：
+   >[!CAUTION]
+   >
+   >上傳影像會刪除電子郵件中目前的任何內容，並將其取代為產生的範本。
+
+1. 出現提示時，請檢閱並接受Adobe Generative AI使用者指南。
+
+1. 按一下&#x200B;**[!UICONTROL 開啟]**&#x200B;以開始轉換程式。
+
+   轉換通常會在約五分鐘內完成。 複雜或大型影像最多可能需要10分鐘。 轉換在背景執行 — 您可以離開並在轉換完成時自動儲存草稿範本。
+
+1. 重新整理頁面以檢視完成的範本。
+
+   >[!NOTE]
+   >
+   >結果不會自動顯示。 重新整理頁面或返回範本程式庫以檢視完成的範本。
+
+1. 可選擇使用&#x200B;**[!UICONTROL 影像至範本轉換工具意見反應]**&#x200B;區段，與Adobe共用建議。
+
+1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**，在電子郵件設計空間開啟轉換的範本以進行編輯。
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+### 編輯轉換的內容
+
+轉換後的範本內容會在設計空間中開啟為可完全編輯的電子郵件範本。 使用標準內容設計工具來：
 
 * 編輯文字並新增[個人化](email-authoring.md#personalization)權杖。
 * 更新或取代影像並新增連結。
 * 調整顏色、字型和間距。
 * 新增、移除或重新排列內容元件。
-* 設定[內容鎖定](template-content-locking.md)。
+* 啟用治理並設定[內容鎖定](template-content-governance.md)。
 
 >[!IMPORTANT]
 >
