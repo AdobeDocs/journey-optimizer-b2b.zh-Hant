@@ -3,17 +3,11 @@ title: 新增歷程節點
 description: 個人歷程節點的預留位置頁面。
 autotag-review: '2026-06-12T23:02:52.147Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
 source-wordcount: 1137
 ht-degree: 2%
@@ -48,7 +42,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 | **[!UICONTROL 傳送電子郵件]** | <li>建立電子郵件 <li>傳送時間最佳化（選擇性） |
 | **[!UICONTROL 變更資料值]** | <li>選取人員屬性 <li>設定新值 |
 
-### 新增動作節點
+### 新增動作節點 {#add-an-action-node}
 
 1. 導覽至歷程圖。
 
@@ -120,7 +114,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
 
-_&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
+_**依人員節點分割路徑的運作方式**_
 
 * 每個路徑的評估方式都是從上到下。 如果人員符合第一個和第二個路徑，則他們只會沿著第一個路徑前進。
 * 此節點支援&#x200B;_其他人_&#x200B;路徑的定義，您可以在此為不符合其中一個已定義區段/路徑的人員新增動作或事件。
@@ -162,7 +156,7 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 若要新增更多路徑，請按一下[新增路徑] **&#x200B;**，並重複上述步驟以新增適用於路徑的條件。
+1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複上述步驟以新增適用於路徑的條件。
 
    您也可以根據這些條件來標示每個路徑，或使用預設標籤。
 

@@ -3,19 +3,11 @@ title: 登陸頁面設定
 description: 預留位置
 autotag-review: '2026-06-12T22:45:35.906Z'
 TQID: 'https://experienceleague.adobe.com/wLeiKuegGFhAA73dOrwF9lmsZrDWhUiZXWSzwMpQwxk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a96755d6-1f54-4f3f-a971-d31f83705ab7id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: fc507317f18b7672905292f01315418e1d431575
 workflow-type: tm+mt
 source-wordcount: 971
 ht-degree: 8%
@@ -249,7 +241,9 @@ _To add a landing page subdomain:_
 
    與所選子網域對應的設定隨即顯示。
 
-1. 您可以核取&#x200B;**[!UICONTROL 與登陸頁面子網域相同]**&#x200B;選項，以選取&#x200B;**[!UICONTROL 追蹤URL]**&#x200B;的登陸頁面子網域。<!-- [Learn more about tracking](../email/message-tracking.md) -->
+1. 您可以核取&#x200B;**[!UICONTROL 與登陸頁面子網域相同]**&#x200B;選項，以選取&#x200B;**[!UICONTROL 追蹤URL]**&#x200B;的登陸頁面子網域。
+
+   <!-- [Learn more about tracking](../email/message-tracking.md) -->
 
    <!-- ![Landing page preset with subdomain settings](./assets/config-channels-landing-pages-preset-subdomain-settings.png){width="500" zoomable="yes"} -->
 

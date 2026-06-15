@@ -3,22 +3,14 @@ title: Forms設定
 description: 預留位置
 autotag-review: '2026-06-12T22:44:42.084Z'
 TQID: 'https://experienceleague.adobe.com/aJKRaYBEdieyIUsuszVy4g2LANEVLQP9aQfhhrKOhx0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ce49389601416e7acefb9f948c052a1d840d8854
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 10%
+source-wordcount: 541
+ht-degree: 12%
 
 ---
 
@@ -32,7 +24,7 @@ ht-degree: 10%
 
 ## 先決條件
 
-若要使用網路表單，您必須在Adobe Experience Platform中定義一或多個&#x200B;_&#x200B;**HTTP API串流連線**&#x200B;_。 請確定您要使用的每個連線都符合下列需求：
+若要使用網路表單，您必須在Adobe Experience Platform中定義一或多個&#x200B;_**HTTP API串流連線**_。 請確定您要使用的每個連線都符合下列需求：
 
 * 資料型別必須設定為XDM （非原始資料）
 * 必須停用驗證（未驗證的連線）
@@ -65,7 +57,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
    * _目標連線_ — 資料儲存或使用的位置。
    * _Source流程_ — 將資料從來源連線移入Experience Platform的管道。 它會處理對應、轉換和驗證。
 
-## 建立表單預設集
+## 建立表單預設集 {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -96,7 +88,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    此連線是串流端點，用於在Web檢視器提交表單時傳送資料。 如果需要的串流連線未出現在清單中，請驗證是否符合要求。
 
-1. 按一下「_選取資料集_<!-- ( ![Select dataset icon](../assets/do-not-localize/icon-select-data.svg) ) -->」圖示，將資料集連結至表單。
+1. 按一下「_選取資料集_」（![選取資料集圖示](../../user/assets/do-not-localize/icon-select-data.svg)）圖示，將資料集與表單連結。
 
    資料集是儲存及反映表單回應的位置。 您可以輸入文字字串來搜尋特定資料集，或從清單中選取它。
 
@@ -104,7 +96,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    >[!NOTE]
    >
-   >目前只能選取已啟用設定檔和未啟用設定檔的[Adobe Experience Platform資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)。 一次可以選取一個資料集。 系統資料集無法用來儲存表單資料。
+   >目前只能選取已啟用設定檔和未啟用設定檔的[Adobe Experience Platform資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)。 您可以一次選取一個資料集。 系統資料集無法用來儲存表單資料。
 
    選取資料集的核取方塊，然後按一下&#x200B;**[!UICONTROL 選取]**。
 
