@@ -3,10 +3,16 @@ title: 登陸頁面
 description: 建立、設計和發佈個人歷程的登陸頁面 — 從頭開始建立、匯入HTML、新增表單、個人化內容，以及從Journey Optimizer B2B Prime中的電子郵件連結。
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
 workflow-type: tm+mt
 source-wordcount: 2180
@@ -119,7 +125,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    每個登入頁面最多可新增兩個子頁面。
 
-設定並設計主要頁面和任何子頁面後，請在發佈登陸頁面](#test-landing-page)之前[對其進行測試。
+設定並設計主要頁面和任何子頁面後，請在發佈登陸頁面[&#128279;](#test-landing-page)之前對其進行測試。
 
 >[!CAUTION]
 >
@@ -183,7 +189,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 從&#x200B;_[!UICONTROL 模擬]_&#x200B;畫面選取測試設定檔。
 
-   如果未列出您需要的設定檔，請按一下[管理測試設定檔] ]**，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**[!UICONTROL 
+   如果未列出您需要的設定檔，請按一下[管理測試設定檔] **，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**
 
    +++新增測試設定檔
 
@@ -259,7 +265,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
-1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。****
+1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。**&#x200B;**
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而託管頁面中的內容會更新。
 
