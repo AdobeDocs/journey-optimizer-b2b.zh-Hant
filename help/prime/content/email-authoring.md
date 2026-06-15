@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
-source-wordcount: 2775
+source-wordcount: 2789
 ht-degree: 1%
 
 ---
@@ -34,17 +34,15 @@ ht-degree: 1%
 
 此動作會啟動電子郵件設計空間，您可在其中從下列選項中選擇要如何設計電子郵件：
 
-* [使用視覺化設計介面，從草稿開始設計電子郵件](#design-your-email-from-scratch)。 在空白畫布上使用拖放功能，透過元件建置電子郵件配置元件。 此方法最適合建立新範本或一次性電子郵件。
+* [使用視覺化設計介面，從草稿開始設計電子郵件](#build-from-scratch)。 在空白畫布上使用拖放功能，透過元件建置電子郵件配置元件。 此方法最適合建立新範本或一次性電子郵件。
 
-* [將HTML](#html)匯入程式碼編輯器或與視覺畫布並排工作。
+* 將HTML匯入程式碼編輯器或與視覺畫布並排工作。 Beta藍圖提供完整版的HTML匯入工作流程，並上傳.html和.zip。
 
-  <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
-
-* [從內建或自訂電子郵件範本清單中選取現有的範本](#select-a-template)。 此方法最適合用於可重複的電子郵件使用案例。
+* [從內建或自訂電子郵件範本清單中選取現有的範本](#create-from-template)。 此方法最適合用於可重複的電子郵件使用案例。
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assitant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
-## 電子郵件設計工具
+## 電子郵件設計工具 {#email-design-tools}
 
 * **頂端工具列：**&#x200B;儲存、返回、切換到程式碼編輯器、預覽控制項。
 * **左側欄：**&#x200B;結構（欄配置）、內容（文字、按鈕、影像、分隔線、社交、HTML）、片段、範本、導覽樹狀結構（電子郵件的DOM樣式階層）。
@@ -140,7 +138,7 @@ ht-degree: 1%
 
 範本是可重複使用的電子郵件配置。 它們可加快電子郵件建立速度、強制執行品牌一致性，並讓團隊合作更輕鬆。
 
-### 範本型別
+### 範本型別 {#template-types}
 
 * **範例範本（現成可用）。** 約20個現成的範本，涵蓋常見的使用案例（帳戶式外聯、活動邀請、培養、產品公告）。 可供每位客戶立即使用。
 * **儲存的範本（自訂）。** 您的團隊建立的範本 — 可在&#x200B;**[!UICONTROL 內容管理]** → **[!UICONTROL 範本]**&#x200B;下從頭建立，或使用「另存為範本」選項從現有電子郵件儲存。
@@ -214,7 +212,7 @@ ht-degree: 1%
 
 Prime使用Handlebars語法進行個人化。 Token在傳送時會取代為每個收件者設定檔資料的值。
 
-### 您可以在這裡進行個人化
+### 您可以在這裡進行個人化 {#where-you-can-personalize}
 
 * **主旨列** — 最常見的個人化點。
 * **Preheader** — 設定於視覺畫布內；支援設定檔屬性Token。

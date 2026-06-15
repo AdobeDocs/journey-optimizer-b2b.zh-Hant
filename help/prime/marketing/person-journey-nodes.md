@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
 source-wordcount: 1137
 ht-degree: 2%
@@ -48,7 +48,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 | **[!UICONTROL 傳送電子郵件]** | <li>建立電子郵件 <li>傳送時間最佳化（選擇性） |
 | **[!UICONTROL 變更資料值]** | <li>選取人員屬性 <li>設定新值 |
 
-### 新增動作節點
+### 新增動作節點 {#add-an-action-node}
 
 1. 導覽至歷程圖。
 

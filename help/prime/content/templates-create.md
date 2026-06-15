@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 1%
@@ -41,7 +41,8 @@ ht-degree: 1%
    >
    >在這個Beta版本中，僅支援電子郵件範本。
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以開啟電子郵件設計空間。
 
 1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;以存取內容設計空間。
@@ -99,7 +100,8 @@ ht-degree: 1%
 1. 輸入&#x200B;**[!UICONTROL 範本名稱]**&#x200B;和選用的&#x200B;**[!UICONTROL 描述]**。
 1. 將&#x200B;**[!UICONTROL 頻道]**&#x200B;設定為電子郵件。
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!--  Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
 ### 產生範本內容
