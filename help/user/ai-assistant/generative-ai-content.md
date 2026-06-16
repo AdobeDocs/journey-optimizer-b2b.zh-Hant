@@ -8,27 +8,16 @@ role: User
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 autotag-review: '2026-06-05T16:07:36.688Z'
 TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 2476
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -37,17 +26,17 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="產生 AI 內容"
->abstract="製作版面之後，請在[!DNL Journey Optimizer B2B Edition]中使用產生式AI工具來增強您的內容。 此功能會根據您的提示微調內容，以簡化個人化和內容改善。"
+>abstract="完成版面設計後，您可以在 [!DNL Journey Optimizer B2B Edition] 中使用生成式 AI 工具來提升您的內容。 此功能會根據您的提示對內容進行微調，從而簡化個人化和內容改善的流程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="參考內容"
->abstract="使用&#x200B;_參考內容_&#x200B;上傳或選取資產檔案，該檔案為[!DNL Journey Optimizer B2B Edition]中的產生AI提供內容。 這可確保提供增強產生內容品質和相關性的資料。"
+>abstract="使用&#x200B;_參考內容_&#x200B;來上傳或選取資產檔案，為 [!DNL Journey Optimizer B2B Edition] 中的生成式 AI 提供相關內容。 這可確保有充足的素材來提高所產生內容的品質和相關性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
 >title="Adobe 生成式 AI 條款"
->abstract="若要存取此功能，您必須接受Adobe Experience Cloud Generative AI使用者准則。 審閱此功能之任何輸出的準確性，並確保該輸出適合您的使用案例。"
+>abstract="若要存取此功能，您必須接受 Adobe Experience Cloud 生成式 AI 使用者準則。 審閱此功能之任何輸出的準確性，並確保該輸出適合您的使用案例。"
 >additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
 
 由Microsoft Azure OpenAI和Adobe Firefly提供技術支援的[!DNL Adobe Journey Optimizer B2B Edition]內容創作AI，可提供文字和影像的主動式內容變化建議。 透過實驗不同的主要標題和影像，最佳化您的內容影響力。
@@ -69,7 +58,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 ## 一般准則和限制 {#general-guidelines-and-limitations}
 
-您對Generative AI功能的使用須遵守[Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 由於Adobe承諾在使用創作AI工具建立媒體時保持透明度，因此Adobe會在下載或匯出內容或專案時，針對包含[!DNL Firefly]產生的資產的任何內容或專案套用[內容認證](https://helpx.adobe.com/tw/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}。
+您對Generative AI功能的使用須遵守[Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 由於Adobe承諾在使用創作AI工具建立媒體時保持透明度，因此Adobe會在下載或匯出內容或專案時，針對包含[!DNL Firefly]產生的資產的任何內容或專案套用[內容認證](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}。
 
 檢閱針對[!DNL Journey Optimizer B2B Edition]中的內容使用創作AI的一般准則：
 
