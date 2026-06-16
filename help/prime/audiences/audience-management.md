@@ -3,25 +3,18 @@ title: Audience Management
 description: 對象的預留位置頁面。
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c844cb4fb520f802c18a9988461c39106000b778
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 4%
+source-wordcount: 474
+ht-degree: 3%
 
 ---
 
 # 客群管理
-
-對象如何在AJO B2B Prime中玩？
 
 從行銷管理中心，按一下右側導覽中的&#x200B;**[!UICONTROL 人員清單]**。
 
@@ -74,9 +67,9 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## 建立人員清單
 
 
-若要建立新的動態或靜態清單：
+若要建立動態或靜態清單：
 
-1. 按一下&#x200B;_[!UICONTROL 人員清單]_&#x200B;頁面右上角的&#x200B;**建立清單**。
+1. 按一下&#x200B;_[!UICONTROL 人員清單]_&#x200B;頁面右上角的&#x200B;**[!UICONTROL 建立清單]**。
 1. 選取一個方案作為清單的&#x200B;**[!UICONTROL 父項]**。
 1. 輸入清單&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]** （選擇性）。
 1. 選擇然後列出&#x200B;**[!UICONTROL 型別]**：
@@ -94,6 +87,10 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 靜態清單成員資格是由參照人員屬性和活動的簡單篩選器所定義。 除非您手動讓成員符合資格或取消成員資格，否則成員資格不會變更。
 
+>[!NOTE]
+>
+>當您新增或移除清單中的成員時，靜態清單篩選定義只會套用一次。 定義的篩選器之後將無法使用。 如果您想要使用篩選器維持一致的對象定義，請改用動態清單。
+
 ### 新增成員
 
 1. 開啟靜態清單，然後按一下右上方的&#x200B;**[!UICONTROL 新增人員]**。
@@ -107,7 +104,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
    * 人員屬性
    * 歷程成員資格等特殊篩選器
 
-1. 若要儲存變更，請按一下[完成]。**&#x200B;**
+1. 若要儲存變更，請按一下[完成]。****
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
@@ -119,7 +116,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 1. 在對話方塊中，新增篩選器以符合您要取消資格的成員。
 
-1. 若要儲存變更，請按一下[完成]。**&#x200B;**
+1. 若要儲存變更，請按一下[完成]。****
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
@@ -144,7 +141,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
    * 人員屬性
    * 歷程成員資格等特殊篩選器
 
-1. 若要儲存變更，請按一下[完成]。**&#x200B;**
+1. 若要儲存變更，請按一下[完成]。****
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
