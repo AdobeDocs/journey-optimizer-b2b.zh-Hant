@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 2476
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -37,17 +37,17 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="產生 AI 內容"
->abstract="製作版面之後，請在[!DNL Journey Optimizer B2B Edition]中使用產生式AI工具來增強您的內容。 此功能會根據您的提示微調內容，以簡化個人化和內容改善。"
+>abstract="完成版面設計後，您可以在 [!DNL Journey Optimizer B2B Edition] 中使用生成式 AI 工具來提升您的內容。 此功能會根據您的提示對內容進行微調，從而簡化個人化和內容改善的流程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="參考內容"
->abstract="使用&#x200B;_參考內容_&#x200B;上傳或選取資產檔案，該檔案為[!DNL Journey Optimizer B2B Edition]中的產生AI提供內容。 這可確保提供增強產生內容品質和相關性的資料。"
+>abstract="使用&#x200B;_參考內容_&#x200B;來上傳或選取資產檔案，為 [!DNL Journey Optimizer B2B Edition] 中的生成式 AI 提供相關內容。 這可確保有充足的素材來提高所產生內容的品質和相關性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
 >title="Adobe 生成式 AI 條款"
->abstract="若要存取此功能，您必須接受Adobe Experience Cloud Generative AI使用者准則。 審閱此功能之任何輸出的準確性，並確保該輸出適合您的使用案例。"
+>abstract="若要存取此功能，您必須接受 Adobe Experience Cloud 生成式 AI 使用者準則。 審閱此功能之任何輸出的準確性，並確保該輸出適合您的使用案例。"
 >additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
 
 由Microsoft Azure OpenAI和Adobe Firefly提供技術支援的[!DNL Adobe Journey Optimizer B2B Edition]內容創作AI，可提供文字和影像的主動式內容變化建議。 透過實驗不同的主要標題和影像，最佳化您的內容影響力。
