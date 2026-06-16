@@ -3,10 +3,16 @@ title: 分割和合併路徑節點
 description: 預留位置
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
 workflow-type: tm+mt
 source-wordcount: 569
@@ -27,7 +33,7 @@ ht-degree: 0%
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
 
-_**依人員節點分割路徑的運作方式**_
+_&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 * 每個路徑的評估方式都是從上到下。 如果人員符合第一個和第二個路徑，則他們只會沿著第一個路徑前進。
 * 此節點支援&#x200B;_其他人_&#x200B;路徑的定義，您可以在此為不符合其中一個已定義區段/路徑的人員新增動作或事件。
@@ -69,7 +75,7 @@ _**依人員節點分割路徑的運作方式**_
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複上述步驟以新增適用於路徑的條件。
+1. 若要新增更多路徑，請按一下[新增路徑] **&#x200B;**，並重複上述步驟以新增適用於路徑的條件。
 
    您也可以根據這些條件來標示每個路徑，或使用預設標籤。
 
