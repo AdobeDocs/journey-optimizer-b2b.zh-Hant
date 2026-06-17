@@ -14,9 +14,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: 197
 ht-degree: 0%
 
 ---
@@ -25,19 +25,23 @@ ht-degree: 0%
 
 _個人對象_&#x200B;節點會指定哪些人員設定檔進入歷程。 當您[建立個人歷程](./person-journeys.md)時，歷程一律以定義其輸入的個人對象節點開始。 「人員」對象節點可以有下列兩種對象輸入型別之一：靜態人員清單或動態人員清單。
 
-如果您需要的人員歷程清單不存在，請[建立人員清單](../audiences/audience-management.md#create-a-people-list)，然後設定Peson對象節點。
+如果您需要的人員歷程清單不存在，請[建立人員清單](../audiences/people-lists.md#create-a-people-list)，然後設定Peson對象節點。
 
-## 設定個人對象節點的對象
+## 設定對象
 
 1. 按一下&#x200B;**[!UICONTROL 個人對象]**&#x200B;節點。
 
    此動作會在右側顯示節點屬性。
 
-   <!-- ![Person audience journey node](./assets/person-journey-person-audience-node.png){width="700" zoomable="yes"} -->
+   ![個人受眾歷程節點](./assets/person-audience-node-properties.png){width="500" zoomable="yes"}
 
-1. 在右側的節點屬性面板中，對「人員」對象歷程節點使用下列其中一個輸入選項：
+1. 對個人對象使用下列其中一個對象設定選項：
 
    * **[!UICONTROL 動態清單]** — 使用以規則為基礎的動態人員清單。 清單規則會在歷程執行階段進行評估，以符合歷程成員的資格。 之後不符合動態清單資格的人不會從歷程中移除。
 
-   * **[!UICONTROL 靜態清單]** — 使用靜態人員清單作為歷程的成員。 目前清單成員資格會在歷程執行階段進行評估，以符合歷程成員的資格。 之後從靜態清單中移除的人員不會從歷程中移除。
+   * **[!UICONTROL 事件對象]** — 使用事件對象，根據合格事件定義歷程對象。 使用個人資料篩選定義對象成員，並使用事件條件觸發歷程專案。
+
+## 定義事件對象
+
+當資訊來自PM時新增。
 

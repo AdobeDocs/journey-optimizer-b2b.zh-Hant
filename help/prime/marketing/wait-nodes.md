@@ -1,6 +1,6 @@
 ---
 title: 等待節點
-description: 預留位置
+description: 在Journey Optimizer B2B edition Prime中設定等待節點 — 依持續時間、日期或進階日與時間排程暫停歷程進度。
 autotag-review: '2026-06-12T23:04:57.946Z'
 TQID: 'https://experienceleague.adobe.com/XTJRC-qc9xKVYuwAGgDpA97sPJinNGe7OCvATFfwXFU'
 product_v2:
@@ -12,10 +12,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
+source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 1%
+source-wordcount: 690
+ht-degree: 0%
 
 ---
 
@@ -28,30 +28,30 @@ ht-degree: 1%
 * 您要前進到歷程中下一個節點的特定日期
 * 相對持續時間（分鐘數、小時數、天數、周數或月數）
 
-## 新增等待節點
+## 新增等待節點 {#add-wait-node}
 
-1. 導覽至歷程圖。
+1. 導覽至歷程畫布。
 
 1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 等待]**。
 
-<!-- ![Add journey node - wait](./assets/add-node-wait.png){width="440"} -->
+   ![按一下歷程路徑上的新增圖示](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. 若要設定在歷程繼續前往路徑中的下一個節點之前的等待時間，請使用右側的節點屬性來設定&#x200B;**[!UICONTROL 型別]**。
 
    * **[!UICONTROL 持續時間]** — 定義從進入到結束等待節點之間要經過的特定天數、小時數或分鐘數。
    * **[!UICONTROL 日期]** — 指定結束的日期和時間。
 
-<!-- ![Journey node - wait](./assets/node-wait.png){width="500"} -->
+   ![歷程節點 — 等待](./assets/wait-node.png){width="500"}
 
-## 進階等待設定
+## 進階等待設定 {#advanced-wait-settings}
 
 啟用&#x200B;**[!UICONTROL 必須於]**&#x200B;結束的選項以設定&#x200B;_進階等待步驟_，並確保您的郵件會在最佳時機送達人員和帳戶成員。 此設定可讓您精確控制人員或帳戶何時結束等待步驟並進入歷程中的下一個節點。 您可以排程在一星期中的特定時間和特定日期發生的動作，而不是從輸入到結束的固定小時數或天數。
 
 透過&#x200B;_進階等待步驟_，您可以定義&#x200B;**_何時_**&#x200B;人員或帳戶離開，而不只是等待多久。
 
-<!-- ![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"} -->
+![歷程節點 — 進階等待步驟](./assets/wait-node-advanced.png){width="500"}
 
-### 等待型別
+### 等待型別 {#wait-types}
 
 | 等待型別 | 說明 | 設定 |
 | --------- | ----------- | ------------- |
@@ -60,7 +60,7 @@ ht-degree: 1%
 | **天範圍或組合** | 保留至某個範圍（例如星期一至星期五）內的任何一天，或指定日期的任何一天 | 選取您的目標日期。 如果未指定時間，則在下一個相符日期的午夜結束（針對選取的時區）。 |
 | **時間+日組合** | 結合兩者以精確排程（例如星期二上午10:00） | 選取目標天數並設定目標時間。 在次日/時間發生（針對所選時區）時結束。 |
 
-### 常見案例
+### 常見案例 {#common-scenarios}
 
 以下案例說明如何將典型範例套用至等待節點設定：
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 +++
 
-### 登入和退出範例
+### 登入和退出範例 {#entry-exit-examples}
 
 | 等待設定 | 客戶/潛在客戶進入 | 帳戶/銷售機會退出 |
 | ------------------ | ------------------- | ------------------ |

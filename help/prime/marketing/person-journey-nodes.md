@@ -13,16 +13,16 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 356
+source-wordcount: 358
 ht-degree: 2%
 
 ---
 
 # 個人歷程節點
 
-建立人員歷程後，新增對象並使用節點建置歷程。 歷程地圖提供畫布，您可以在其中建立多步驟B2B行銷使用案例。
+建立人員歷程後，新增對象並使用節點建置歷程。 歷程畫布提供視覺化設計空間，讓您在其中建立多步驟B2B行銷使用案例。
 
 _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節點。 選取對象後，結合不同的動作、事件和決策節點作為多步驟、跨管道的情境，藉此建立您的歷程。 歷程的每個節點代表邏輯路徑上的一個步驟。
 
