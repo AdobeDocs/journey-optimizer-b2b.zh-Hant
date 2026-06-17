@@ -4,19 +4,14 @@ description: 設定帳戶和人員觸發器的事件節點 — 在Journey Optimi
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1880
 ht-degree: 11%
@@ -50,7 +45,7 @@ ht-degree: 11%
 
 ### 新增帳戶事件
 
-1. 導覽至歷程圖。
+1. 導覽至歷程畫布。
 
 1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 接聽事件]**。
 
@@ -102,7 +97,7 @@ ht-degree: 11%
 
 ### 新增人員事件
 
-1. 導覽至歷程圖。
+1. 導覽至歷程畫布。
 
 1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 接聽事件]**。
 
@@ -118,7 +113,7 @@ ht-degree: 11%
 
 如果您在連線的Marketo Engage執行個體中有網頁，您可以根據這些網頁的造訪/未造訪以及/未填寫的Marketo Engage表單來觸發事件。
 
-1. 在歷程地圖中選取&#x200B;**[!UICONTROL 接聽事件]**&#x200B;節點。
+1. 在歷程畫布中選取&#x200B;**[!UICONTROL 接聽事件]**&#x200B;節點。
 
 1. 在右側的節點屬性中，選擇事件型別的&#x200B;**[!UICONTROL 人員]**。
 
@@ -147,11 +142,11 @@ ht-degree: 11%
 
 1. 如有需要，請設定&#x200B;**[!UICONTROL 逾時]**&#x200B;選項，以限制接聽事件的時段（請參閱[將逾時新增至事件節點](#add-a-timeout-to-an-event-node)）。
 
-1. 在歷程地圖中，新增下一個節點，以便在事件發生時執行。
+1. 在歷程畫布中，新增下一個節點，以在事件發生時執行。
 
 ### 聆聽體驗事件 {#listen-for-an-experience-event}
 
-管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
+管理員可以選取[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。 在歷程中使用體驗事件的程式分為兩個步驟：
 
 1. 管理員[新增感興趣的事件型別和欄位](../admin/configure-aep-events.md#add-an-event)，以便在歷程中使用。
 
@@ -163,7 +158,7 @@ ht-degree: 11%
 
 若要在歷程中包含體驗事件(_T):_
 
-1. 在歷程地圖中選取&#x200B;**[!UICONTROL 接聽事件]**&#x200B;節點。
+1. 在歷程畫布中選取&#x200B;**[!UICONTROL 接聽事件]**&#x200B;節點。
 
 1. （僅限帳戶歷程）在右側的節點屬性中，選擇&#x200B;**[!UICONTROL 人員]**&#x200B;作為事件型別。
 
@@ -197,7 +192,7 @@ ht-degree: 11%
 
 1. 如有需要，請設定&#x200B;**[!UICONTROL 逾時]**&#x200B;選項，以限制接聽事件的時段（請參閱[將逾時新增至事件節點](#add-a-timeout-to-an-event-node)）。
 
-1. 在歷程地圖中，新增下一個節點，以便在事件發生時執行。
+1. 在歷程畫布中，新增下一個節點，以在事件發生時執行。
 
 1. 完成您歷程的其餘節點，並[發佈它](./journeys-overview.md)。
 
@@ -242,5 +237,5 @@ ht-degree: 11%
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?captions=chi_hant&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

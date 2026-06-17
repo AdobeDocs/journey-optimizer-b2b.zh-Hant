@@ -3,19 +3,14 @@ title: 人員歷程
 description: 在Journey Optimizer B2B edition Prime中建立、發佈和管理人員歷程 — 瀏覽歷程清單、設計多步驟流程以及複製或刪除歷程。
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 1426
-ht-degree: 21%
+source-wordcount: 1422
+ht-degree: 19%
 
 ---
 
@@ -30,7 +25,7 @@ ht-degree: 21%
 建立新的人員歷程&#x200B;:_(_T)
 
 1. 建立人員歷程。
-1. 在歷程地圖中新增節點並定義歷程流程。
+1. 新增節點並在歷程畫布中定義歷程流程。
 1. [發佈此歷程](#publish-a-journey)。
 
 ## 存取和瀏覽個人歷程 {#access-and-browse-person-journeys}
@@ -55,7 +50,7 @@ ht-degree: 21%
 
 歷程清單頁面包含下列欄：
 
-* [!UICONTROL 名稱] （按一下名稱以開啟歷程地圖進行編輯）
+* [!UICONTROL 名稱] （按一下名稱以開啟歷程畫布進行編輯）
 * [!UICONTROL 狀態]
 * [!UICONTROL 建立日期]
 * [!UICONTROL 建立者]
@@ -74,11 +69,11 @@ ht-degree: 21%
 
 | 狀態 | 說明 | 可用的動作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 未發佈且可以編輯的歷程。 | [發佈](#publish-a-journey)，[重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
-| _&#x200B;**已上線**&#x200B;_ | 當您發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | [重複](#duplicate-a-journey)，[關閉新專案](#close-to-new-entries)，[中止](#abort-a-journey) |
-| _&#x200B;**對新進客戶關閉**&#x200B;_ | 當您在歷程標題中按一下&#x200B;**[!UICONTROL 關閉新專案]**&#x200B;時，歷程狀態會從&#x200B;_即時_&#x200B;變更為&#x200B;_已關閉新專案_。 | [重複](#duplicate-a-journey)，[中止](#abort-a-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。 中止的歷程無法重新啟動。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 當歷程中的所有個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉新專案_&#x200B;變更為&#x200B;_已完成_。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
+| _**草稿**_ | 未發佈且可以編輯的歷程。 | [發佈](#publish-a-journey)，[重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
+| _**已上線**_ | 當您發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | [重複](#duplicate-a-journey)，[關閉新專案](#close-to-new-entries)，[中止](#abort-a-journey) |
+| _**對新進客戶關閉**_ | 當您在歷程標題中按一下&#x200B;**[!UICONTROL 關閉新專案]**&#x200B;時，歷程狀態會從&#x200B;_即時_&#x200B;變更為&#x200B;_已關閉新專案_。 | [重複](#duplicate-a-journey)，[中止](#abort-a-journey) |
+| _**已中止**_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。 中止的歷程無法重新啟動。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
+| _**已完成**_ | 當歷程中的所有個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉新專案_&#x200B;變更為&#x200B;_已完成_。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
 
 ## 建立個人歷程 {#create-a-person-journey}
 
@@ -98,20 +93,20 @@ ht-degree: 21%
 
 ### 歷程標題 {#journey-header}
 
-每個歷程地圖的標題包含歷程名稱、狀態和排程。
+每個歷程畫布的標題包含歷程名稱、狀態和排程。
 
 ![個人歷程標題](./assets/person-journey-header.png){width="600" zoomable="yes"}
 
 * 按一下「_編輯_」圖示（「![編輯」圖示](../../assets/do-not-localize/icon-react-edit.svg)）以變更歷程名稱或說明資訊。
 * 按一下&#x200B;**[!UICONTROL 歷程設定]**&#x200B;以變更歷程開始和週期。
-* 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;以套用歷程動作，或啟用/停用流量控制和重新進入。
+* 按一下&#x200B;**[!UICONTROL ...超過]**&#x200B;套用歷程動作，或啟用/停用流量控制和重新進入。
 * 如果所有錯誤都已解決且您想要啟動歷程，請按一下&#x200B;**[!UICONTROL 發佈]**。
 
 ### 歷程設計 {#journey-design}
 
-_歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此處新增及設定歷程節點。 按一下節點，在版面右側的面板中開啟其屬性，並根據您的設計進行設定。 個人歷程一律以[_[!UICONTROL 個人對象&#x200B;]_&#x200B;節點](./person-audience-node.md)開始，您可以在其中定義歷程的輸入。
+_歷程畫布_&#x200B;是歷程工作區的中央區域。 您可以在此處新增及設定歷程節點。 按一下節點，在版面右側的面板中開啟其屬性，並根據您的設計進行設定。 個人歷程一律以[_[!UICONTROL 個人對象&#x200B;]_節點](./person-audience-node.md)開始，您可以在其中定義歷程的輸入。
 
-建立人員歷程並定義人員對象後，請使用節點建置歷程。 歷程地圖提供畫布，您可以在其中使用下列節點型別建置您的多步驟B2B行銷使用案例，以建構歷程：
+建立人員歷程並定義人員對象後，請使用節點建置歷程。 歷程畫布提供視覺化設計空間，您可在其中使用下列節點型別建置您的多步驟B2B行銷使用案例，以建構歷程：
 
 * [採取動作](./action-nodes.md)
 * [監聽事件](./listen-for-event-nodes.md)
@@ -134,7 +129,7 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此處新
 
 1. 從&#x200B;_[!UICONTROL 個人歷程]_&#x200B;清單開啟草稿歷程。
 
-1. 在歷程地圖的右上方，按一下&#x200B;**[!UICONTROL 發佈]**。
+1. 在歷程畫布的右上方，按一下&#x200B;**[!UICONTROL 發佈]**。
 
 1. 在&#x200B;_[!UICONTROL 檢閱歷程設定]_&#x200B;對話方塊中，設定歷程開始選項。
 
@@ -147,7 +142,7 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此處新
 
 1. 如有需要，請指定歷程的&#x200B;**[!UICONTROL 結束日期]**。
 
-   ![檢閱歷程設定對話方塊](./assets/journey-settings.png){width="400" zoomable="no"}
+   ![檢閱歷程設定對話方塊](./assets/journey-publish-review-settings.png){width="400" zoomable="no"}
 
    從開始日期算起，最多可以為三年。 需要此欄位才能發佈。
 
@@ -161,7 +156,7 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此處新
 
 1. 從&#x200B;_[!UICONTROL 個人歷程]_&#x200B;清單開啟歷程。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 「更多...」]**&#x200B;選單，然後選擇「**[!UICONTROL 中止]**」。
+1. 按一下&#x200B;**[!UICONTROL ...在右上角顯示更多]**，然後選擇&#x200B;**[!UICONTROL 中止]**。
 
    ![即時人員歷程標題](./assets/person-journey-live-header.png){width="600" zoomable="yes"}
 
@@ -173,7 +168,7 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此處新
 
 1. 從&#x200B;_[!UICONTROL 個人歷程]_&#x200B;清單開啟歷程。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 「更多...」]**&#x200B;選單，然後選擇「**[!UICONTROL 對新進客戶關閉]**」。
+1. 按一下&#x200B;**[!UICONTROL ...在右上角顯示更多]**，並選擇&#x200B;**[!UICONTROL 關閉新專案]**。
 
 1. 在確認對話框中，按一下「**[!UICONTROL 對新進客戶關閉]**」。
 
@@ -185,9 +180,9 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此處新
 
    ![草稿人員歷程更多功能表](./assets/person-journey-draft-more-menu.png){width="400"}
 
-   根據歷程的狀態，您還可以從歷程詳細資訊或歷程地圖存取重複的動作：
+   根據歷程的狀態，您還可以從歷程詳細資訊或歷程畫布存取重複動作：
 
-   * 若要草稿歷程，請按一下右上方的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選擇&#x200B;**[!UICONTROL 複製]**。
+   * 如需草稿歷程，請按一下&#x200B;**[!UICONTROL ...在右上角顯示更多]**，並選擇&#x200B;**[!UICONTROL 複製]**。
    * 對於所有其他歷程狀態，請按一下右上角的「**[!UICONTROL 重複]**」。
 
 1. 在對話方塊中，選取重複歷程的&#x200B;**[!UICONTROL Parent]**&#x200B;程式。
@@ -220,7 +215,7 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此處新
 
    根據歷程的狀態，您也可以從歷程標題存取刪除動作：
 
-   * 如需草稿歷程，請按一下右上方的&#x200B;**[!UICONTROL 更多……]**，然後選擇&#x200B;**[!UICONTROL 刪除]**。
+   * 如需草稿歷程，請按一下&#x200B;**[!UICONTROL ...在右上角顯示更多]**，然後選擇&#x200B;**[!UICONTROL 刪除]**。
    * 對於其他歷程狀態，例如「_已完成_」或者「_已中止_」，按一下右上角的「**[!UICONTROL 刪除]**」。
 
 1. 在確認對話框中，按一下「**[!UICONTROL 刪除]**」。
