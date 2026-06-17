@@ -3,10 +3,15 @@ title: 人員清單
 description: 瞭解如何在Journey Optimizer B2B Prime中建立和管理人員清單，包括具有規則型資格的動態清單和具有固定成員資格的靜態清單。
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
 workflow-type: tm+mt
 source-wordcount: 856
@@ -127,7 +132,7 @@ So far, activating to a destination is the only thing that they are used for tha
    * 人員屬性
    * 歷程成員資格等特殊篩選器
 
-1. 若要儲存變更，請按一下[完成]。****
+1. 若要儲存變更，請按一下[完成]。**&#x200B;**
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
@@ -139,7 +144,7 @@ So far, activating to a destination is the only thing that they are used for tha
 
 1. 在對話方塊中，新增篩選器以符合您要取消資格的成員。
 
-1. 若要儲存變更，請按一下[完成]。****
+1. 若要儲存變更，請按一下[完成]。**&#x200B;**
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
@@ -191,7 +196,7 @@ So far, activating to a destination is the only thing that they are used for tha
    * 人員屬性
    * 歷程成員資格等特殊篩選器
 
-1. 若要儲存變更，請按一下[完成]。****
+1. 若要儲存變更，請按一下[完成]。**&#x200B;**
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 

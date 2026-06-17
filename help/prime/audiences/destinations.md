@@ -3,10 +3,17 @@ title: 目標
 description: 瞭解如何在Journey Optimizer B2B Prime中連線目的地並啟用靜態人員清單，以將受眾資料匯出至廣告、電子郵件和其他行銷平台。
 autotag-review: '2026-06-17T18:30:02.442Z'
 TQID: 'https://experienceleague.adobe.com/xO1p-VvIfv1KB77g0l2-fFRHQ0w2hy97vnG1QHpMw8c'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
 workflow-type: tm+mt
 source-wordcount: 289
@@ -64,7 +71,7 @@ Destination activations reflect the membership state of the static list at the t
    >
    >此時，**不要**&#x200B;輸入&#x200B;_[!UICONTROL 目的地詳細資料]_。 只需要連線。
 
-1. 檢閱資料控管和行銷動作設定，然後按一下[儲存]。****
+1. 檢閱資料控管和行銷動作設定，然後按一下[儲存]。**&#x200B;**
 
 連線的目的地會顯示在&#x200B;_[!UICONTROL 瀏覽]_&#x200B;索引標籤上的清單中，並可用於靜態清單啟用。
 
