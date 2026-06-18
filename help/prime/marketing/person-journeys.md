@@ -12,7 +12,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 19%
@@ -128,7 +128,7 @@ _歷程畫布_&#x200B;是歷程工作區的中央區域。 您可以在此處新
 
 歷程清單頁面包含Journey Optimizer B2B Prime執行個體中的所有個人歷程。 您可以從清單頁面套用許多動作至歷程。
 
-#### 發佈歷程 {#publish-a-journey}
+#### 發佈歷程 {#publish}
 
 如果沒有封鎖程式錯誤，您可以發佈歷程。 發佈後，歷程狀態會變更為「_已上線_」。 如果歷程發生錯誤，**[!UICONTROL 發佈]**&#x200B;按鈕會變暗並顯示訊息`Resolve errors before publishing`。
 
