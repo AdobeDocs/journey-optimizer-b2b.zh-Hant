@@ -1,6 +1,6 @@
 ---
 title: 設定
-description: Prime設定的預留位置頁面。
+description: 完成您的Journey Optimizer B2B Prime執行個體的初始設定工作，包括使用者存取設定和電子郵件傳遞能力基礎架構。
 autotag-review: '2026-06-12T23:06:52.179Z'
 TQID: 'https://experienceleague.adobe.com/D8qXM-F4anA8IVYmdlaclUoxgTwqQptN36xYFpsuvHY'
 product_v2:
@@ -14,13 +14,92 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
 workflow-type: tm+mt
-source-wordcount: 9
-ht-degree: 44%
+source-wordcount: 190
+ht-degree: 55%
 
 ---
 
 # 設定
 
-新增注意事項
+完成這些工作以啟用您布建的Journey B2B Prime執行個體中的功能。
+
+## 啟用使用者存取
+
+布建完成後，沙箱已繫結且初始設定任務已完成，請為團隊和使用者設定Journey Optimizer B2B edition和Marketo Engage存取權。
+
+<table>
+<thead>
+<tr>
+<th colspan="2">任務</th>
+<th>詳細資訊和指示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>為使用者提供產品存取和許可權</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>在Adobe Admin Console中建立Marketo Engage產品設定檔（僅限新的Marketo Engage執行個體）</td>
+<td><a href="./user-management.md#create-profile">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>為設定檔新增使用者群組</td>
+<td><a href="./user-management.md#add-user-group">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>設定B2B使用者角色</td>
+<td><a href="./user-management.md#edit-roles-for-product-permissions">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>將使用者或群組新增至角色</td>
+<td><a href="./user-management.md#add-users-to-a-role">了解更多</a></td>
+</tr>
+</tbody>
+</table>
+
+## 電子郵件傳遞能力
+
+行銷人員從歷程傳送電子郵件之前，請先設定組織的傳送基礎架構，包括子網域委派、電子郵件驗證和頻道設定。
+
+<table>
+<thead>
+<tr>
+<th colspan="2">任務</th>
+<th>詳細資訊和指示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>設定電子郵件傳遞能力與通道設定</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>將子網域委派至Adobe</td>
+<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">已完全委派</a>或<a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>為子網域設定DMARC</td>
+<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>檢閱和指派IP集區</td>
+<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">了解更多</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td>建立電子郵件通道設定</td>
+<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">了解更多</a></td>
+</tr>
+</tbody>
+</table>
+

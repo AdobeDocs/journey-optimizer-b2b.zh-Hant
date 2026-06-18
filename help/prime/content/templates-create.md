@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
+source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 880
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 建立新範本 {#build-new}
 
-1. 導覽至&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 範本]**。
+1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 內容管理]**&#x200B;並選取&#x200B;**[!UICONTROL 範本]**。
 1. 按一下&#x200B;**[!UICONTROL 建立範本]**。
 1. 輸入&#x200B;**[!UICONTROL 範本名稱]**&#x200B;和選用的&#x200B;**[!UICONTROL 描述]**。
 1. 設定範本的&#x200B;**[!UICONTROL 管道]** （型別）。

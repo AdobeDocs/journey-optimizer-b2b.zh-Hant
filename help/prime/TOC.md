@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime檔案
 user-guide-description: 瞭解Adobe Journey Optimizer B2B edition Prime以及如何將其用於？
 hide: true
-source-git-commit: f471a870b1e54b4588317d495eb7f7625051ac65
+source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 39%
+source-wordcount: '131'
+ht-degree: 42%
 
 ---
 
@@ -30,17 +30,19 @@ ht-degree: 39%
       + [等待](./marketing/wait-nodes.md)
       + [分割和合併路徑](./marketing/split-merge-paths-nodes.md)
       + [下一個最佳路徑](./marketing/next-best-path.md)
-   + [電子郵件傳送時間最佳化](./marketing/email-send-time-optimization.md)
+   + 電子郵件頻道 {#email-channel}
+      + [概觀](./marketing/email-channel.md)
+      + [電子郵件傳送時間最佳化](./marketing/email-send-time-optimization.md)
+      + [電子郵件製作](./content/email-authoring.md)
+      + [深色模式設計](./content/email-dark-mode.md)
+   + [WhatsApp 頻道](./content/whatsapp-authoring.md)
 + 客群 {#audiences}
    + [人員清單](./audiences/people-lists.md)
    + [目標](./audiences/destinations.md)
    + [動態對象資格](./audiences/dynamic-audience-qualification.md)
    + [事件型對象](./audiences/event-based-audiences.md)
 + 內容 {#content}
-   + 電子郵件 {#emails}
-      + [電子郵件製作](./content/email-authoring.md)
-      + [深色模式設計](./content/email-dark-mode.md)
-   + [WhatsApp訊息](./content/whatsapp-authoring.md)
+   + [資產](./content/digital-asset-management.md)
    + 範本 {#templates}
       + [概觀](./content/templates.md)
       + [建立範本](./content/templates-create.md)
