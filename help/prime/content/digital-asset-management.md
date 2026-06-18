@@ -16,7 +16,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 85f61c8fa8eda07dfe8ea1e83f3c261c9159976f
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 495
 ht-degree: 3%
@@ -93,3 +93,4 @@ ht-degree: 3%
 上傳完成後，系統會自動產生說明、指定標籤和關鍵字，並擷取視覺屬性，例如主旨和設定。 不需要手動標籤。 在此程式完成之前，新影像會以&#x200B;_[!UICONTROL 處理]_&#x200B;狀態顯示。
 
 ![處理狀態中的新影像資產](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+<!-- -->

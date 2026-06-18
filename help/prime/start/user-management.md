@@ -1,7 +1,7 @@
 ---
 title: 使用者存取與許可權
 description: 在Adobe Admin Console中管理使用者存取權：建立Journey Optimizer B2B edition Prime的使用者群組、指派產品設定檔，以及設定角色型許可權。
-source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 70%
@@ -305,3 +305,4 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 您的自訂角色已設定，且指派群組中的使用者現在可以存取您選取的Journey Optimizer B2B edition功能。
+<!-- -->
