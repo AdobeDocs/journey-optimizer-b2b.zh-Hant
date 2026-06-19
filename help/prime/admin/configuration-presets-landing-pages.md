@@ -3,22 +3,14 @@ title: 登陸頁面設定
 description: 預留位置
 autotag-review: '2026-06-12T22:45:35.906Z'
 TQID: 'https://experienceleague.adobe.com/wLeiKuegGFhAA73dOrwF9lmsZrDWhUiZXWSzwMpQwxk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a96755d6-1f54-4f3f-a971-d31f83705ab7id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: fc507317f18b7672905292f01315418e1d431575
 workflow-type: tm+mt
 source-wordcount: 971
-ht-degree: 8%
+ht-degree: 21%
 
 ---
 
@@ -44,8 +36,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain"
->title="建立一個登陸頁面預設集"
->abstract="若要建立登陸頁面預設集，請確定您至少有一個已設定的登陸頁面子網域，以從子網域名稱清單中選擇。"
+>title="建立登陸頁面預設集"
+>abstract="若要建立登陸頁面預設集，請確定您至少已設定一個登陸頁面子網域，以便從子網域名稱清單中進行選擇。"
 
 若要檢閱設定的登入頁面子網域，請移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**。 在導覽窗格中的&#x200B;_[!UICONTROL 登陸頁面]_&#x200B;下方，選取&#x200B;**[!UICONTROL 登陸頁面子網域]**。
 
@@ -119,7 +111,7 @@ To use a subdomain that is already delegated to Adobe:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_lp_subdomain_dns"
 >title="產生相符的 DNS 記錄"
->abstract="若要設定新的登陸頁面子網域，您需要複製Journey Optimizer B2B介面中顯示的Adobe名稱伺服器資訊，並將其貼到您的網域託管解決方案中，以產生相符的DNS記錄。 檢查成功後，子網域即準備好用來建立登陸頁面預設集。"
+>abstract="若要設定新的登陸頁面子網域，您需要複製 Journey Optimizer B2B 介面中顯示的 Adobe 名稱伺服器資訊，並將其貼到您的網域託管解決方案中，以產生相符的 DNS 記錄。 檢查成功後，即可使用該子網域來建立登陸頁面預設集。"
 
 1. 按一下&#x200B;**[!UICONTROL 設定登陸頁面子網域]**。
 
@@ -218,8 +210,8 @@ _To add a landing page subdomain:_
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain_header"
->title="建立一個登陸頁面預設集"
->abstract="若要建立登陸頁面並透過Journey Optimizer B2B edition運用，您必須建立包含要使用之子網域的登陸頁面預設集。"
+>title="建立登陸頁面預設集"
+>abstract="為了建立登陸頁面並透過 Journey Optimizer B2B Edition 加以利用，您必須建立一個包含要使用的子網域的登陸頁面預設集。"
 
 行銷人員建立登陸頁面時，必須選取登陸頁面預設集，才能建立登陸頁面並透過[!DNL Journey Optimizer B2B Edition]運用。 預設集包含用於登陸頁面的子網域。
 
@@ -231,7 +223,7 @@ _To add a landing page subdomain:_
 
 按一下任何預設集名稱，以存取登陸頁面預設集詳細資訊。
 
-### 建立一個登陸頁面預設集 {#lp-create-preset}
+### 建立登陸頁面預設集 {#lp-create-preset}
 
 1. 按一下&#x200B;**[!UICONTROL 建立登陸頁面預設集]**。
 

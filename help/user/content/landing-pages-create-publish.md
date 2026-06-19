@@ -5,23 +5,16 @@ feature: Landing Pages, Content
 role: User
 autotag-review: '2026-05-27T16:10:09.537Z'
 TQID: 'https://experienceleague.adobe.com/e-tguY-9v6CPOehYL7vI22fzQBk3L0h1EOpa-e54q7A'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -84,12 +77,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_primary_page"
 >title="定義您的主要頁面設定"
->abstract="定義主要頁面，當收件者按一下登入頁面連結（例如從電子郵件或網站）時，就會立即顯示。"
+>abstract="定義主要頁面，當收件者從電子郵件或網站等內容中按一下登陸頁面連結時，就會立即顯示該頁面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
 >title="定義您的登陸頁面 URL"
->abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL的第一個部分會要求您先前將登陸頁面子網域設定為您所選預設集的一部分。"
+>abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL 的第一部分需要您預先設定一個登陸頁面子網域作為您所選預設集的一部分。"
 
 1. 根據您的需求變更&#x200B;**[!UICONTROL 頁面名稱]**，預設為&#x200B;_主要頁面_。
 
@@ -159,7 +152,7 @@ _自行編碼_&#x200B;可讓您撰寫或貼上原始HTML，以直接在設計空
 
 1. 輸入或貼上原始 HTML 程式碼。
 
-如果您想要清除頁面內容並從新設計開始，請從[選項]功能表選取[變更設計]。**&#x200B;**
+如果您想要清除頁面內容並從新設計開始，請從[選項]功能表選取[變更設計]。****
 
 ### 匯入HTML {#import-html}
 
@@ -246,7 +239,7 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_lp_profiles"
 >title="預覽和測試您的登陸頁面"
->abstract="定義登入頁面設定和內容後，請使用測試設定檔來預覽頁面。"
+>abstract="在您定義登陸頁面設定和內容後，請使用測試輪廓來預覽該頁面。"
 
 定義登入頁面設定和內容時，您可以使用測試設定檔來預覽頁面。 如果您已插入[個人化內容](./personalization.md)，您可以使用測試設定檔資料檢查此內容在登入頁面中的顯示方式。
 
@@ -264,7 +257,7 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
    ![針對選取的設定檔模擬登陸頁面內容](./assets/landing-page-simulate.png){width="700" zoomable="yes"}
 
-   如果未列出您需要的設定檔，請按一下[管理測試設定檔] **，使用已知的[測試設定檔](../audiences/test-profiles.md)電子郵件地址，並將其新增至清單。**
+   如果未列出您需要的設定檔，請按一下[管理測試設定檔] ]**，使用已知的[測試設定檔](../audiences/test-profiles.md)電子郵件地址，並將其新增至清單。**[!UICONTROL 
 
    +++新增測試設定檔
 

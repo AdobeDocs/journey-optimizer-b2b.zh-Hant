@@ -3,20 +3,14 @@ title: 登陸頁面
 description: 建立、設計和發佈個人歷程的登陸頁面 — 從頭開始建立、匯入HTML、新增表單、個人化內容，以及從Journey Optimizer B2B Prime中的電子郵件連結。
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
 workflow-type: tm+mt
 source-wordcount: 2180
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -125,7 +119,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    每個登入頁面最多可新增兩個子頁面。
 
-設定並設計主要頁面和任何子頁面後，請在發佈登陸頁面[&#128279;](#test-landing-page)之前對其進行測試。
+設定並設計主要頁面和任何子頁面後，請在發佈登陸頁面](#test-landing-page)之前[對其進行測試。
 
 >[!CAUTION]
 >
@@ -136,12 +130,12 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_primary_page"
 >title="定義您的主要頁面設定"
->abstract="定義主要頁面，當收件者按一下登入頁面連結（例如從電子郵件或網站）時，就會立即顯示。"
+>abstract="定義主要頁面，當收件者從電子郵件或網站等內容中按一下登陸頁面連結時，就會立即顯示該頁面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_access_settings"
 >title="定義您的登陸頁面 URL"
->abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL的第一個部分會要求您先前將登陸頁面子網域設定為您所選預設集的一部分。"
+>abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL 的第一部分需要您預先設定一個登陸頁面子網域作為您所選預設集的一部分。"
 
 主要頁面是收件者按一下登入頁面連結（例如從電子郵件或網站）時立即顯示的頁面。
 
@@ -173,7 +167,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_preview_lp_profiles"
 >title="預覽和測試您的登陸頁面"
->abstract="定義登入頁面設定和內容後，請使用測試設定檔來預覽頁面。"
+>abstract="在您定義登陸頁面設定和內容後，請使用測試輪廓來預覽該頁面。"
 
 定義登入頁面設定和內容時，您可以使用測試設定檔來預覽頁面。 如果您已插入[個人化內容](email-authoring.md#personalization)，您可以使用測試設定檔資料檢查此內容在登入頁面中的顯示方式。
 
@@ -189,7 +183,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 從&#x200B;_[!UICONTROL 模擬]_&#x200B;畫面選取測試設定檔。
 
-   如果未列出您需要的設定檔，請按一下[管理測試設定檔] **，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**
+   如果未列出您需要的設定檔，請按一下[管理測試設定檔] ]**，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**[!UICONTROL 
 
    +++新增測試設定檔
 
@@ -265,7 +259,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
-1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。**&#x200B;**
+1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。****
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而託管頁面中的內容會更新。
 
