@@ -1,5 +1,5 @@
 ---
-title: 電子郵件製作
+title: 電子郵件內容
 description: 使用Journey Optimizer B2B Prime中的電子郵件設計工具，包括電子郵件範本、片段、個人化、深色模式和驗證。
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
@@ -15,22 +15,22 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
-source-wordcount: 2753
+source-wordcount: 2738
 ht-degree: 1%
 
 ---
 
-# 電子郵件製作
+# 電子郵件內容製作
 
 在[!DNL Adobe Journey Optimizer B2B Prime]中，電子郵件設計空間提供視覺畫布，行銷人員可在其中撰寫電子郵件。 左側和頂端面板中的電子郵件設計工具（結構、內容元件、範本、片段等）支援透過拖放從頭開始建立。 您也可以選擇從範本開始、貼上原始HTML，或從可重複使用的視覺片段組合訊息。
 
 >[!IMPORTANT]
 >
->如需子網域的管理員設定、驗證、IP集區和電子郵件通道設定，請參閱[電子郵件傳遞能力與通道設定](../admin/configuration-email-deliverability.md)。
+>如需子網域的管理員設定、驗證、IP集區和電子郵件通道設定，請參閱[電子郵件傳遞能力](../start/email-deliverability.md)和[電子郵件通道設定](../admin/email-channel-configuration.md)。
 
-在[!DNL Journey Optimizer B2B Prime]中，每個電子郵件都與歷程中的&#x200B;_[!UICONTROL 傳送電子郵件]_&#x200B;動作相關聯。 從歷程設計到電子郵件定義的完整工作流程發生在一個連續的體驗中。 當您[新增&#x200B;_傳送電子郵件_&#x200B;節點](../marketing/action-nodes.md#add-an-action-node)至個人歷程時，請按一下&#x200B;**[!UICONTROL 建立電子郵件]**&#x200B;以開始電子郵件內容設計程式。
+在[!DNL Adobe Journey Optimizer B2B Prime]中，每個電子郵件都與歷程中的&#x200B;_[!UICONTROL 傳送電子郵件]_&#x200B;動作相關聯。 從歷程設計到電子郵件定義的完整工作流程發生在一個連續的體驗中。 當您[新增&#x200B;_傳送電子郵件_&#x200B;節點](../marketing/action-nodes.md#add-an-action-node)至個人歷程時，請按一下&#x200B;**[!UICONTROL 建立電子郵件]**&#x200B;以開始電子郵件內容設計程式。
 
 此動作會啟動電子郵件設計空間，您可在其中從下列選項中選擇要如何設計電子郵件：
 
@@ -65,16 +65,13 @@ ht-degree: 1%
 
 ## 從歷程建立電子郵件 {#email-from-journey}
 
-1. 按一下「**[!UICONTROL 編輯電子郵件]**」按鈕以繼續執行電子郵件設定步驟。
-1. 在下一個畫面中，從&#x200B;**[!UICONTROL 電子郵件設定]**&#x200B;下拉式清單中選取先前建立的頻道設定。 僅列出作用中的組態。
-1. 輸入動作的標籤（顯示在歷程畫布上）以及內部電子郵件名稱。
-1. 輸入「主旨」行。
-1. 可選擇切換此電子郵件節點的&#x200B;**[!UICONTROL 啟用URL追蹤]**。
-1. 按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;以開啟電子郵件設計空間。
+若要將&#x200B;_[!UICONTROL 傳送電子郵件]_&#x200B;動作新增至個人歷程、建立電子郵件，以及在&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤上設定頻道設定，請參閱[新增電子郵件至歷程](../marketing/email-channel.md)。
+
+在&#x200B;**[!UICONTROL 屬性]**、**[!UICONTROL 動作]**&#x200B;和&#x200B;**[!UICONTROL 內容]**&#x200B;索引標籤上設定電子郵件之後，請使用此主題中的區段來設計電子郵件設計空間中的電子郵件內文。
 
 ### 「編輯內容」畫面 {#edit-content-screen}
 
-在此畫面中，您確認寄件者詳細資料（繼承自通道設定）、設定主旨行，並開啟電子郵件設計空間以創作內文。 已在電子郵件設計空間中設定預覽文字（請參閱[設定預覽文字](#preheader)）。
+從&#x200B;**[!UICONTROL 內容]**&#x200B;索引標籤，您確認寄件者詳細資料（繼承自[電子郵件通道設定](../admin/email-channel-configuration.md)）、設定主旨列，並開啟電子郵件設計空間以編寫內文。 已在電子郵件設計空間中設定預覽文字（請參閱[設定預覽文字](#preheader)）。
 
 * **從名稱，從電子郵件，密件副本：**&#x200B;繼承自通道設定。 此畫面為唯讀。
 * 需要&#x200B;**主旨列：**。 支援Personalization。
@@ -295,10 +292,10 @@ Prime可在電子郵件設計空間中使用您現有的Marketo Design Studio資
 
 | 警報 | 其含義 | 如何解決 |
 | ----- | ------------- | -------------- |
-| **主旨列遺失** | 主旨行欄位是空的。 | 開啟電子郵件，並在「編輯內容」畫面中輸入主旨行。 允許Personalization權杖，但欄位不得為空白。 |
+| **主旨列遺失** | 主旨行欄位是空的。 | 開啟電子郵件並在&#x200B;**[!UICONTROL Content]**&#x200B;索引標籤上輸入主旨列。 允許Personalization權杖，但欄位不得為空白。 |
 | **電子郵件內文是空的** | 電子郵件設計空間中的畫布沒有內容。 | 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;以開啟電子郵件設計空間。 將至少一個結構和一個內容元件拖曳到畫布上，然後按一下「儲存」。 |
-| 未選取&#x200B;**頻道設定** | 尚未為電子郵件節點選擇電子郵件設定。 | 在電子郵件屬性畫面上，從&#x200B;**[!UICONTROL 電子郵件設定]**&#x200B;下拉式清單中選取使用中的通道設定。 |
-| **管道設定已刪除** | 先前選取的管道設定已刪除或不再有效。 | 開啟電子郵件屬性並選取其他使用中的通道設定。 如果沒有可用的專案，管理員必須建立或重新啟用一個專案。 |
+| 未選取&#x200B;**頻道設定** | 尚未為電子郵件節點選擇電子郵件通道設定。 | 在&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤上，選取使用中的&#x200B;**[!UICONTROL 電子郵件通道設定]**。 |
+| **管道設定已刪除** | 先前選取的管道設定已刪除或不再有效。 | 在&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤上，選取其他作用中的&#x200B;**[!UICONTROL 電子郵件通道設定]**。 如果沒有可用的專案，系統管理員必須在[電子郵件通道設定](../admin/email-channel-configuration.md)中建立或重新啟用一個專案。 |
 | **電子郵件大小超過100 KB** | 總電子郵件大小（HTML、內嵌CSS、編碼內容）大於100 KB ISP最佳實務上限。 | 縮小電子郵件大小：以Marketo Design Studio中的外部託管影像取代大型內嵌影像、移除未使用的內嵌CSS、簡化巢狀結構。 |
 | **未解析的個人化權杖** | Handlebars權杖參照沒有遞補的設定檔屬性，而且某些收件者可能遺漏屬性。 | 依照[Personalization](#personalization)所述，使用Handlebars `default`協助程式新增遞補。 或者，將歷程對象限製為保證屬性的設定檔。 |
 | **未載入影像** | 影像元件會參照無法再使用的資產。 | 按一下影像，開啟資產選擇器，然後從Marketo Design Studio中重新選取資產。 |

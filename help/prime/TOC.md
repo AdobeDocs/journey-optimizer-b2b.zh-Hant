@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime檔案
 user-guide-description: 瞭解Adobe Journey Optimizer B2B edition Prime以及如何將其用於？
 hide: true
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 42%
 + 開始使用 {#start}
    + [設定檢查清單](./start/setup-prime.md)
    + [使用者管理](./start/user-management.md)
+   + [電子郵件傳遞能力](./start/email-deliverability.md)
 + [首頁和深入分析](./home-insights/home-insights.md)
 + [專員](./agents/agents.md)
 + 行銷管理 {#marketing-management}
@@ -33,7 +34,7 @@ ht-degree: 42%
    + 電子郵件頻道 {#email-channel}
       + [概觀](./marketing/email-channel.md)
       + [電子郵件傳送時間最佳化](./marketing/email-send-time-optimization.md)
-      + [電子郵件製作](./content/email-authoring.md)
+      + [內容製作](./content/email-authoring.md)
       + [深色模式設計](./content/email-dark-mode.md)
    + [WhatsApp 頻道](./content/whatsapp-authoring.md)
 + 客群 {#audiences}
@@ -54,9 +55,9 @@ ht-degree: 42%
 + 管理 {#admin}
    + {hide-from-toc}[管理](./admin/admin.md)
    + 管道 {#channels}
-      + [電子郵件傳遞能力與通道設定](./admin/configuration-email-deliverability.md)
-      + [簡訊頻道設定](./admin/configuration-channels-sms.md)
-      + [Web頻道設定](./admin/configuration-channels-web.md)
+      + [電子郵件通道設定](./admin/email-channel-configuration.md)
+      + {hide-from-toc}[簡訊通道設定](./admin/configuration-channels-sms.md)
+      + {hide-from-toc}[Web通道設定](./admin/configuration-channels-web.md)
       + [WhatsApp頻道設定](./admin/configuration-channels-whatsapp.md)
       + [登陸頁面設定](./admin/configuration-presets-landing-pages.md)
       + [表單預設集設定](./admin/configuration-presets-forms.md)

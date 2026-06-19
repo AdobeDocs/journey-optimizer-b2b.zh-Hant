@@ -1,6 +1,7 @@
 ---
 title: 設定檢查清單
 description: 完成您的Journey Optimizer B2B Prime執行個體的初始設定工作，包括使用者存取設定和電子郵件傳遞能力基礎架構。
+badgeBeta: label="Beta" type="informative" tooltip="此功能屬於有限測試版的一部分。"
 autotag-review: '2026-06-12T23:06:52.179Z'
 TQID: 'https://experienceleague.adobe.com/D8qXM-F4anA8IVYmdlaclUoxgTwqQptN36xYFpsuvHY'
 product_v2:
@@ -14,9 +15,9 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: de83abd4ca48e2dfda8a1900f7c8074232bb9d8e
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
-source-wordcount: 218
+source-wordcount: 228
 ht-degree: 11%
 
 ---
@@ -83,21 +84,21 @@ ht-degree: 11%
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="任務的核取方塊"/></td>
 <td>將子網域委派給Adobe （完全委派或CNAME）</td>
-<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">已完全委派</a> <br/> <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
+<td><a href="./email-deliverability.md#delegate-fully-delegated">已完全委派</a> <br/> <a href="./email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="任務的核取方塊"/></td>
 <td>為子網域設定DMARC</td>
-<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">設定DMARC</a></td>
+<td><a href="./email-deliverability.md#configure-dmarc">設定DMARC</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="任務的核取方塊"/></td>
 <td>檢閱和指派IP集區</td>
-<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">檢閱IP集區</a></td>
+<td><a href="./email-deliverability.md#review-ip-pool">檢閱IP集區</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="任務的核取方塊"/></td>
 <td>建立電子郵件通道設定</td>
-<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">設定電子郵件管道</a></td>
+<td><a href="../admin/email-channel-configuration.md#create-email-channel-configuration">設定電子郵件管道</a></td>
 </tr>
 </tbody>
