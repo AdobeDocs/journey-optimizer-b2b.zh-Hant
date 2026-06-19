@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -84,12 +84,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_primary_page"
 >title="定義您的主要頁面設定"
->abstract="定義主要頁面，當收件者按一下登入頁面連結（例如從電子郵件或網站）時，就會立即顯示。"
+>abstract="定義主要頁面，當收件者從電子郵件或網站等內容中按一下登陸頁面連結時，就會立即顯示該頁面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
 >title="定義您的登陸頁面 URL"
->abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL的第一個部分會要求您先前將登陸頁面子網域設定為您所選預設集的一部分。"
+>abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL 的第一部分需要您預先設定一個登陸頁面子網域作為您所選預設集的一部分。"
 
 1. 根據您的需求變更&#x200B;**[!UICONTROL 頁面名稱]**，預設為&#x200B;_主要頁面_。
 
@@ -246,7 +246,7 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_lp_profiles"
 >title="預覽和測試您的登陸頁面"
->abstract="定義登入頁面設定和內容後，請使用測試設定檔來預覽頁面。"
+>abstract="在您定義登陸頁面設定和內容後，請使用測試輪廓來預覽該頁面。"
 
 定義登入頁面設定和內容時，您可以使用測試設定檔來預覽頁面。 如果您已插入[個人化內容](./personalization.md)，您可以使用測試設定檔資料檢查此內容在登入頁面中的顯示方式。
 

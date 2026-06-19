@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: aee98a6556736490878bac00607952fa0f3b0480
 workflow-type: tm+mt
 source-wordcount: 2504
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 1%
 >id="ajo-b2b_lp_form_preset"
 >title="選取預設集"
 >abstract="選擇預先定義的預設集，其中包含要使用的連線，以及表單預先定義的資料集。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="建立表單預設集"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="建立表單預設集"
 
 您可以在Journey Optimizer B2B edition中建立表單，方法是按一下&#x200B;_[!UICONTROL Forms]_&#x200B;清單頁面右上角的&#x200B;**[!UICONTROL 建立表單]**。
 
