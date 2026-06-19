@@ -14,7 +14,7 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
 source-wordcount: 190
 ht-degree: 55%
@@ -42,22 +42,22 @@ ht-degree: 55%
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>在Adobe Admin Console中建立Marketo Engage產品設定檔（僅限新的Marketo Engage執行個體）</td>
 <td><a href="./user-management.md#create-profile">了解更多</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>為設定檔新增使用者群組</td>
 <td><a href="./user-management.md#add-user-group">了解更多</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>設定B2B使用者角色</td>
 <td><a href="./user-management.md#edit-roles-for-product-permissions">了解更多</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>將使用者或群組新增至角色</td>
 <td><a href="./user-management.md#add-users-to-a-role">了解更多</a></td>
 </tr>
@@ -81,26 +81,25 @@ ht-degree: 55%
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>將子網域委派至Adobe</td>
 <td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">已完全委派</a>或<a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>為子網域設定DMARC</td>
 <td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">了解更多</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>檢閱和指派IP集區</td>
 <td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">了解更多</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>建立電子郵件通道設定</td>
 <td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">了解更多</a></td>
 </tr>
 </tbody>
 </table>
-<!-- -->
 

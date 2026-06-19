@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 2789
+source-wordcount: 2753
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ Prime可在電子郵件設計空間中使用您現有的Marketo Design Studio資
 
 >[!IMPORTANT]
 >
->Prime中的資產可用性是根據Marketo Design Studio中&#x200B;**資產的一次性復本**&#x200B;而定。 在初始複製後重新上傳或修改Marketo中的資產將&#x200B;**不會**&#x200B;反映在Prime中。 此版本也不支援直接將影像上傳至Prime。 Prime內的原生數位資產管理（包括上傳、資料夾導覽、搜尋和影像編輯）是Beta範圍的一部分。
+>Prime中的資產可用性是根據Marketo Design Studio中&#x200B;**資產的一次性復本**&#x200B;而定。 在初始複製後修改Marketo Engage中的資產&#x200B;**不會**&#x200B;反映在[!DNL Journey Optimizer B2B Prime]中。
 
 ### 支援的檔案類型 {#asset-file-types}
 

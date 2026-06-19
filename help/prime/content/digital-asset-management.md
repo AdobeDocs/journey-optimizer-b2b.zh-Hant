@@ -3,7 +3,7 @@ title: 資產
 description: 從Journey Optimizer B2B edition管理電子郵件、範本和視覺片段的影像資產。
 feature: Assets, Content
 role: User
-badge: label="Beta" type="Informative"
+badgeBeta: label="Beta" type="informative" tooltip="此功能屬於有限測試版的一部分。"
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
 product_v2:
@@ -16,22 +16,26 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 495
-ht-degree: 3%
+source-wordcount: 524
+ht-degree: 5%
 
 ---
 
 # 資產
 
-在[!DNL Adobe Journey Optimizer B2B Prime]中，資產通常是設計內容以支援歷程時使用的影像。 您可以在電子郵件、電子郵件範本以及資產選擇器的視覺片段中，或在視覺化設計空間內的簡單拖放介面中使用這些影像。
+在[!DNL Adobe Journey Optimizer B2B Prime]中，資產通常是設計內容以支援歷程時使用的影像。 您可以在資產選擇器的[電子郵件](email-authoring.md)、[電子郵件範本](templates.md)和[視覺化片段](email-authoring.md#visual-fragments)中使用這些影像，或在視覺化設計空間中使用簡單的拖放介面。
 
 支援的檔案格式：JPG、JPEG、GIF、PNG、EPS、SVG 以及 RGB
 
-
-&#x200B;>>
-您尚無法從外部系統（例如Marketo Engage DAM）匯入資產，也無法存取預先填入的資產資料庫。 預計未來版本將包括從現有系統匯入資產、資料夾支援和擴充的資產管理功能。
+>[!NOTE]
+>
+>在此Beta版本中，您可以直接從電子郵件畫布中的Marketo Engage資產庫一次性副本選擇影像和資產。 在初始複製後修改Marketo Engage中的資產&#x200B;**不會**&#x200B;反映在[!DNL Journey Optimizer B2B Prime]中。
+>
+>您可以從&#x200B;_[!UICONTROL Assets]_&#x200B;資料庫或內容設計空間上傳其他影像資產。 這些上傳的資產只能在[!DNL Journey Optimizer B2B Prime]執行個體中使用。
+>
+>無法從外部系統匯入資產，也無法存取預先填入的資產庫。 預計未來版本將包括從現有系統匯入資產、資料夾支援和擴充的資產管理功能。
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
 
@@ -39,17 +43,13 @@ ht-degree: 3%
 
 在左側導覽列中，展開&#x200B;**[!UICONTROL 內容管理]**&#x200B;並選取&#x200B;**[!UICONTROL Assets]**。
 
->[!NOTE]
->
->在此Beta版本中，您可以直接從電子郵件畫布中的Marketo Engage資產庫一次性副本選擇影像和資產。 您也可以從&#x200B;_[!UICONTROL Assets]_&#x200B;資料庫或內容設計空間上傳其他影像資產。 這些上傳的資產只能在[!DNL Adobe Journey Optimizer B2B Prime]執行個體中使用。
-
-![Assets資料庫](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
+![Assets資料庫清單檢視顯示可排序的中繼資料欄](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-第一次存取&#x200B;_[!UICONTROL Assets]_&#x200B;資料庫時，請檢閱&#x200B;_[!UICONTROL 創作AI使用條款]_&#x200B;並按一下&#x200B;**[!UICONTROL 同意並繼續]**。
+第一次存取&#x200B;_[!UICONTROL Assets]_&#x200B;資料庫時，請檢閱[_[!UICONTROL 創作AI使用條款&#x200B;]_](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)，並確認您的合約。
 
-![Assets資料庫](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
+![Assets資料庫中的Generative AI使用條款協定對話方塊](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
 >[!ENDSHADEBOX]
 
@@ -72,11 +72,9 @@ ht-degree: 3%
 
 ## 檢視資產詳細資訊 {#view-details}
 
-選取要開啟其詳細資料檢視的資產。 詳細資料檢視會顯示AI產生的說明、標籤和關鍵字，以及其他中繼資料欄位。 上傳資產時，會自動產生此資訊。
+在清單或資產庫檢視中選取任何資產，以在右側開啟其詳細資料檢視，其中顯示AI產生的說明、標籤、關鍵字和其他中繼資料欄位。 上傳資產時，會自動產生此資訊。 選取&#x200B;**[!UICONTROL AI中繼資料]**&#x200B;標籤以檢閱產生的說明、標籤和中繼資料。
 
-在清單或資產庫檢視中選取任何資產，以在右側開啟其詳細資料檢視。 選取AI中繼資料標籤以檢視AI產生的說明、標籤和中繼資料。
-
-![從Assets資料庫中的搜尋結果中選取的影像](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
+![資產詳細資料檢視，顯示AI產生的中繼資料和標籤](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
 
 ## 上傳資產 {#upload}
 
@@ -93,4 +91,3 @@ ht-degree: 3%
 上傳完成後，系統會自動產生說明、指定標籤和關鍵字，並擷取視覺屬性，例如主旨和設定。 不需要手動標籤。 在此程式完成之前，新影像會以&#x200B;_[!UICONTROL 處理]_&#x200B;狀態顯示。
 
 ![處理狀態中的新影像資產](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
-<!-- -->
