@@ -3,21 +3,13 @@ title: 電子郵件製作
 description: 使用Journey Optimizer B2B Prime中的電子郵件設計工具，包括電子郵件範本、片段、個人化、深色模式和驗證。
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 2789
+source-wordcount: 2753
 ht-degree: 1%
 
 ---
@@ -89,7 +81,7 @@ ht-degree: 1%
 ### 逐步進行：從頭開始建立電子郵件 {#build-from-scratch}
 
 1. 從歷程電子郵件節點，按一下&#x200B;**[!UICONTROL 編輯內容]** → **[!UICONTROL 編輯電子郵件內文]**。
-1. 在[建立您的電子郵件]畫面上，按一下[從草稿開始設計] **&#x200B;**。
+1. 在[建立您的電子郵件]畫面上，按一下[從草稿開始設計] ****。
 1. 按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以開啟空白畫布。
 1. 從左側邊欄，將&#x200B;**[!UICONTROL 結構]** （1欄、1:1、2:2、n:n欄）拖曳到畫布上。
 1. 將&#x200B;**[!UICONTROL Content]**&#x200B;元件拖曳至結構的欄：文字、按鈕、影像、分隔線、社交、HTML。
@@ -260,7 +252,7 @@ Prime可在電子郵件設計空間中使用您現有的Marketo Design Studio資
 
 >[!IMPORTANT]
 >
->Prime中的資產可用性是根據Marketo Design Studio中&#x200B;**資產的一次性復本**&#x200B;而定。 在初始複製後重新上傳或修改Marketo中的資產將&#x200B;**不會**&#x200B;反映在Prime中。 此版本也不支援直接將影像上傳至Prime。 Prime內的原生數位資產管理（包括上傳、資料夾導覽、搜尋和影像編輯）是Beta範圍的一部分。
+>Prime中的資產可用性是根據Marketo Design Studio中&#x200B;**資產的一次性復本**&#x200B;而定。 在初始複製後修改Marketo Engage中的資產&#x200B;**不會**&#x200B;反映在[!DNL Journey Optimizer B2B Prime]中。
 
 ### 支援的檔案類型 {#asset-file-types}
 

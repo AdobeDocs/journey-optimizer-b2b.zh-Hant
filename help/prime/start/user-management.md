@@ -1,7 +1,7 @@
 ---
 title: 使用者存取與許可權
 description: 在Adobe Admin Console中管理使用者存取權：建立Journey Optimizer B2B edition Prime的使用者群組、指派產品設定檔，以及設定角色型許可權。
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 70%
@@ -67,7 +67,7 @@ ht-degree: 70%
 
 1. 輸入產品設定檔名稱，例如&#x200B;_B2B使用者_。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[下一步]****，然後按一下[儲存]****。
 
 ### 新增使用者群組 {#add-user-group}
 
@@ -120,7 +120,7 @@ ht-degree: 70%
 
      ![Admin Console — 新增新群組的使用者設定檔](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
 
-   * 輸入名字和姓氏，然後按一下[儲存]。**&#x200B;**
+   * 輸入名字和姓氏，然後按一下[儲存]。****
 
 1. 將每位使用者新增至群組：
 
@@ -144,7 +144,7 @@ ht-degree: 70%
 
 Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 許可權也可讓您管理與特定角色相關聯的沙箱和使用者。
 
-如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 1. 移至[experience.adobe.com](https://experience.adobe.com/)。
 
@@ -305,4 +305,3 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 您的自訂角色已設定，且指派群組中的使用者現在可以存取您選取的Journey Optimizer B2B edition功能。
-<!-- -->

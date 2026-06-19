@@ -3,18 +3,11 @@ title: 設定
 description: 完成您的Journey Optimizer B2B Prime執行個體的初始設定工作，包括使用者存取設定和電子郵件傳遞能力基礎架構。
 autotag-review: '2026-06-12T23:06:52.179Z'
 TQID: 'https://experienceleague.adobe.com/D8qXM-F4anA8IVYmdlaclUoxgTwqQptN36xYFpsuvHY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ceid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
 source-wordcount: 190
 ht-degree: 55%
@@ -42,22 +35,22 @@ ht-degree: 55%
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>在Adobe Admin Console中建立Marketo Engage產品設定檔（僅限新的Marketo Engage執行個體）</td>
 <td><a href="./user-management.md#create-profile">了解更多</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>為設定檔新增使用者群組</td>
 <td><a href="./user-management.md#add-user-group">了解更多</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>設定B2B使用者角色</td>
 <td><a href="./user-management.md#edit-roles-for-product-permissions">了解更多</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>將使用者或群組新增至角色</td>
 <td><a href="./user-management.md#add-users-to-a-role">了解更多</a></td>
 </tr>
@@ -81,26 +74,25 @@ ht-degree: 55%
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>將子網域委派至Adobe</td>
 <td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">已完全委派</a>或<a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>為子網域設定DMARC</td>
 <td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">了解更多</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>檢閱和指派IP集區</td>
 <td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">了解更多</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>建立電子郵件通道設定</td>
 <td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">了解更多</a></td>
 </tr>
 </tbody>
 </table>
-<!-- -->
 
