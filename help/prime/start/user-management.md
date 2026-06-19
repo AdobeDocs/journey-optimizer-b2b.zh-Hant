@@ -1,9 +1,9 @@
 ---
 title: 使用者存取與許可權
 description: 在Adobe Admin Console中管理使用者存取權：建立Journey Optimizer B2B edition Prime的使用者群組、指派產品設定檔，以及設定角色型許可權。
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: f1449f734b5d93dc9bd4d7b4c1292a50cbc338b7
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1719'
 ht-degree: 70%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 70%
 
 1. [在Admin Console中建立Adobe Journey Optimizer B2B edition產品設定檔](#create-profile) （僅限一次性/初始設定）。
 1. 在Admin Console中[新增使用者群組](#add-user-group)。
-1. 在Adobe Experience Platform許可權中[編輯內建角色](#edit-roles-for-product-permissions)或[建立具有Journey Optimizer B2B edition許可權的自訂角色](#create-a-custom-role)。
+1. 在Adobe Experience Platform許可權中[編輯內建角色](#edit-role-permissions)或[建立具有Journey Optimizer B2B edition許可權的自訂角色](#create-a-custom-role)。
 1. [新增使用者](#add-users-to-a-role)或[群組](#add-user-groups-to-a-role)至Adobe Experience Platform中的角色。
 
 ## 設定產品設定檔 {#config-profile}
 
 作為管理員，您可以在Adobe Admin Console中完成這些工作，這是管理您的Adobe產品授權和使用者的中心位置。 在Admin Console中，您可以在單一位置而非在各種個別解決方案中建立和管理使用者。 若要瞭解其功能的詳細資訊，請參閱[Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)頁面。
 
-### 存取Admin Console
+### 存取Admin Console {#admin-console}
 
 在使用Admin Console管理團隊中的使用者之前，您需要確保您可以存取Admin Console並擁有適當的許可權。
 
@@ -67,7 +67,7 @@ ht-degree: 70%
 
 1. 輸入產品設定檔名稱，例如&#x200B;_B2B使用者_。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[下一步]****，然後按一下[儲存]****。
 
 ### 新增使用者群組 {#add-user-group}
 
@@ -120,7 +120,7 @@ ht-degree: 70%
 
      ![Admin Console — 新增新群組的使用者設定檔](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
 
-   * 輸入名字和姓氏，然後按一下[儲存]。**&#x200B;**
+   * 輸入名字和姓氏，然後按一下[儲存]。****
 
 1. 將每位使用者新增至群組：
 
@@ -138,13 +138,13 @@ ht-degree: 70%
 
    * 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以取得使用者變更。
 
-## 編輯產品許可權的角色 {#edit-roles-for-product-permissions}
+## 指派產品許可權 {#assign-product-permissions}
 
-許可權是統一許可權，可讓您定義指派給產品設定檔的授權。 每個許可權都會分組在功能底下，例如歷程或購買群組，代表Journey Optimizer B2B edition中的功能。
+許可權是統一許可權，可讓您定義指派給產品設定檔的授權。 每個許可權都會分組在功能下，例如歷程或購買群組，代表[!DNL Journey Optimizer B2B Prime]中的功能。
 
 Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 許可權也可讓您管理與特定角色相關聯的沙箱和使用者。
 
-如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 1. 移至[experience.adobe.com](https://experience.adobe.com/)。
 
