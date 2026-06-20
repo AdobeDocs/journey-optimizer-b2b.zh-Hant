@@ -6,10 +6,16 @@ feature: Content Design Tools
 role: User
 autotag-review: '2026-06-19T21:52:30.119Z'
 TQID: 'https://experienceleague.adobe.com/HlZVkbD1SkW94xTSLv-rMoKYWG6E79wBGfIH3oGQTNI'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
 source-wordcount: 2840
@@ -289,7 +295,7 @@ ht-degree: 7%
 
 當您輸入按鈕標籤文字並設定格式時，按鈕會調整大小以符合內容。
 
-與工具列](../../user/content/assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的![按鈕元件
+與工具列![&#128279;](../../user/content/assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的按鈕元件
 
 #### 設定連結選項 {#button-set-link-options}
 
@@ -497,7 +503,7 @@ ht-degree: 7%
 
    ![開啟程式碼編輯器以新增HTML](../../user/content/assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
 
    ![編輯HTML對話方塊](../../user/content/assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
