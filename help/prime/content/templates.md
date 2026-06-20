@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 492
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 # 電子郵件範本
 
-[!DNL Journey Optimizer B2B Edition Prime]中的電子郵件範本可讓內容專家獨立建立可重複使用的電子郵件版面配置，讓行銷團隊可以跨帳戶歷程套用範本，而不需每次都重新建置設計。
+[!DNL Adobe Journey Optimizer B2B Prime]中的電子郵件範本可讓內容專家獨立建立可重複使用的電子郵件版面配置，讓行銷團隊可以跨帳戶歷程套用範本，而不需每次都重新建置設計。
 
 >[!NOTE]
 >
@@ -87,4 +87,4 @@ ht-degree: 1%
 
 ## 在電子郵件中使用範本 {#use-in-journey}
 
-在歷程中製作電子郵件時，**[!UICONTROL 選取設計範本]**&#x200B;區段可讓您從儲存的範本或範例範本中進行選擇。 按一下範本縮圖以預覽，然後按一下&#x200B;**[!UICONTROL 使用此範本]**&#x200B;以套用它。 如需完整工作流程，請參閱[電子郵件製作](email-authoring.md#templates)。
+在歷程中製作電子郵件時，**[!UICONTROL 選取設計範本]**&#x200B;區段可讓您從儲存的範本或範例範本中進行選擇。 按一下範本縮圖以預覽，然後按一下&#x200B;**[!UICONTROL 使用此範本]**&#x200B;以套用它。 如需範本選取在整個電子郵件工作流程中的位置，請參閱[電子郵件內容製作](./email-authoring.md)。

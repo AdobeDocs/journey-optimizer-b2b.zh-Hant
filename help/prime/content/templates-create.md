@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 880
+source-wordcount: 885
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 # 建立電子郵件範本
 
-您可以在[!DNL Journey Optimizer B2B Edition Prime]中以三種方式建立電子郵件範本：
+您可以在[!DNL Adobe Journey Optimizer B2B Prime]中以三種方式建立電子郵件範本：
 
 * **建立新範本** — 使用視覺化電子郵件設計空間在範本程式庫中建立範本。
 * **從歷程儲存電子郵件** — 將您在歷程中編寫的電子郵件儲存為可重複使用的範本。
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;以存取內容設計空間。
 
-   如需內容設計的詳細資訊，請參閱[電子郵件製作](email-authoring.md)。
+   如需內容設計的詳細資訊，請參閱[電子郵件編寫](email-authoring.md)。
 
 1. 選擇性地啟用&#x200B;**[!UICONTROL 治理]**&#x200B;並設定[內容鎖定](template-content-governance.md)，以限制套用範本時範本作者可以編輯的部分。
 
@@ -65,13 +65,13 @@ ht-degree: 1%
 
 原始歷程電子郵件不受影響。 已儲存的範本可在範本庫中供沙箱中的所有使用者使用。 您可以更新建立的範本以最佳化重複使用：
 
-* 編輯文字並新增[個人化](email-authoring.md#personalization)權杖。
+* 編輯文字並新增[個人化](email-authoring.md#personalize-content)權杖。
 * 更新或取代影像並新增連結。
 * 設定[內容鎖定](template-content-governance.md)。
 
 ## 將影像轉換為範本 {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime]可以使用產生AI將靜態影像（例如來自Figma或Photoshop的模型）轉換為可編輯的電子郵件範本。 如此一來，您就不需要手動從設計檔案重新建置版面，因此非常適合從其他平台移轉現有電子郵件設計。 此功能僅適用於電子郵件內容範本。
+[!DNL Adobe Journey Optimizer B2B Prime]可以使用產生AI將靜態影像（例如來自Figma或Photoshop的模型）轉換為可編輯的電子郵件範本。 如此一來，您就不需要手動從設計檔案重新建置版面，因此非常適合從其他平台移轉現有電子郵件設計。 此功能僅適用於電子郵件內容範本。
 
 >[!BEGINSHADEBOX]
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 ### 建立範本
 
-1. 導覽至&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 範本]**。
+1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 內容管理]**&#x200B;並選取&#x200B;**[!UICONTROL 範本]**。
 1. 按一下&#x200B;**[!UICONTROL 建立範本]**。
 1. 輸入&#x200B;**[!UICONTROL 範本名稱]**&#x200B;和選用的&#x200B;**[!UICONTROL 描述]**。
 1. 將&#x200B;**[!UICONTROL 頻道]**&#x200B;設定為電子郵件。
@@ -138,7 +138,7 @@ ht-degree: 1%
 
 轉換後的範本內容會在設計空間中開啟為可完全編輯的電子郵件範本。 使用標準內容設計工具來：
 
-* 編輯文字並新增[個人化](email-authoring.md#personalization)權杖。
+* 編輯文字並新增[個人化](email-authoring.md#personalize-content)權杖。
 * 更新或取代影像並新增連結。
 * 調整顏色、字型和間距。
 * 新增、移除或重新排列內容元件。
