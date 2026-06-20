@@ -1,21 +1,17 @@
 ---
 title: 表單
 description: 建立並管理適用於企業資料收集的可重複使用表單 — 設計欄位、設定感謝頁面、發佈並追蹤Journey Optimizer B2B Prime的使用情況。
-autotag-review: '2026-06-12T22:53:03.357Z'
+autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dcid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2281
-ht-degree: 1%
+source-wordcount: 2261
+ht-degree: 2%
 
 ---
 
@@ -31,7 +27,7 @@ ht-degree: 1%
 >
 
 <!-- 
->Form creation in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
+>Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
@@ -40,7 +36,7 @@ ht-degree: 1%
 
 ## 存取及管理表單 {#view-forms}
 
-若要存取Journey Optimizer B2B edition中的表單，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL Forms]**。 此動作會開啟一個清單頁面，其中顯示執行個體中建立的所有表單。
+若要在[!DNL Journey Optimizer B2B Prime]中存取表單，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL Forms]**。 此動作會開啟一個清單頁面，其中顯示執行個體中建立的所有表單。
 
 <!-- ![Access the forms library](./assets/forms-list.png){width="800" zoomable="yes"} -->
 
@@ -74,7 +70,7 @@ ht-degree: 1%
 
 ## 建立表單 {#create-forms}
 
-在Journey Optimizer B2B edition中開始建立可重複使用的表單前，請先考量以下幾點：
+在[!DNL Journey Optimizer B2B Prime]中開始建立可重複使用的表單前，請先考慮以下幾個事項：
 
 * 決定您需要哪些表格。
 
@@ -105,10 +101,10 @@ ht-degree: 1%
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
-您可以在Journey Optimizer B2B edition中建立表單，方法是按一下&#x200B;_[!UICONTROL Forms]_&#x200B;清單頁面右上角的&#x200B;**[!UICONTROL 建立表單]**。
+您可以在[!DNL Journey Optimizer B2B Prime]中建立表單，方法是按一下&#x200B;_[!UICONTROL Forms]_&#x200B;清單頁面右上角的&#x200B;**[!UICONTROL 建立表單]**。
 
 1. 在&#x200B;_[!UICONTROL 建立表單]_&#x200B;對話方塊中，輸入有用的&#x200B;**[!UICONTROL 名稱]** （必要）和&#x200B;**[!UICONTROL 描述]** （選用）。
 
@@ -156,7 +152,7 @@ Add to context help when available
 
 * **[!UICONTROL 停留在頁面]** — 選擇此選項可在提交表單時讓訪客停留在相同頁面。
 
-* **[!UICONTROL 登陸頁面]** — 選擇此選項可選取任何Journey Optimizer B2B edition登陸頁面作為後續追蹤。
+* **[!UICONTROL 登陸頁面]** — 選擇此選項可選取任何[!DNL Journey Optimizer B2B Prime]登陸頁面作為後續追蹤。
 
 * **[!UICONTROL 外部URL]** — 選擇此選項可指定任何URL作為後續頁面。 訪客提交表單後，瀏覽器會載入指定的URL。
 
@@ -188,7 +184,7 @@ Add to context help when available
 
 ## 檢視參考使用的表單
 
-在右側的「_[!UICONTROL 摘要]_」面板中，按一下「**[!UICONTROL 使用者]**」標籤，以檢視Journey Optimizer B2B edition、各登入頁面及登入頁面範本中目前表單使用位置的詳細資訊。
+在右側的「_[!UICONTROL 摘要]_」面板中，按一下「**[!UICONTROL 使用者]**」標籤，以檢視[!DNL Journey Optimizer B2B Prime]中、所有登入頁面及登入頁面範本目前使用表單的詳細資訊。
 
 >[!IMPORTANT]
 >

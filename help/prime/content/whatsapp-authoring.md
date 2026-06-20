@@ -3,34 +3,27 @@ title: WhatsApp製作
 description: 在Journey Optimizer B2B Prime中使用已核准的Meta範本、個人化權杖和傳送設定，為個人歷程建立WhatsApp訊息。
 autotag-review: '2026-06-17T03:12:08.373Z'
 TQID: 'https://experienceleague.adobe.com/HijiC-uJ1rz5yl6bzsZRuFLJb7VWE38f-aqAGWLd2rQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 21a905201c3fc49f2e825dea2a0f0cc76f7b285f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 803
 ht-degree: 1%
 
 ---
 
 # WhatsApp製作
 
-使用Journey Optimizer B2B Prime將WhatsApp訊息傳送給行動裝置上的使用者。 您可以使用WhatsApp編輯器提供的已核准Meta訊息範本，建立、個人化和預覽訊息。
+使用[!DNL Adobe Journey Optimizer B2B Prime]將WhatsApp訊息傳送給行動裝置上的使用者。 您可以使用WhatsApp編輯器提供的已核准Meta訊息範本，建立、個人化和預覽訊息。
 
 在為個人歷程建立WhatsApp訊息之前，請確定您已在&#x200B;_[!UICONTROL 管理員]_&#x200B;設定中設定[WhatsApp頻道](../admin/configuration-channels-whatsapp.md)。
 
 >[!NOTE]
 >
->Journey Optimizer B2B Prime僅支援&#x200B;_傳出_&#x200B;個WhatsApp訊息元素。
+>[!DNL Journey Optimizer B2B Prime]只支援&#x200B;_傳出_&#x200B;個WhatsApp訊息元素。
 
 +++ 支援的訊息元素和call-to-action選項
 
@@ -91,7 +84,7 @@ ht-degree: 1%
 
 ### 選取訊息範本 {#select-message-template}
 
-會使用您Meta WhatsApp商業帳戶中預先核准的訊息範本傳送WhatsApp訊息。 **範本必須由Meta**&#x200B;稽核及核准，您才能在Journey Optimizer B2B Prime中使用它們。 若要管理和提交範本以供核准，請與您的[!DNL Meta Business Manager]帳戶管理員合作。
+會使用您Meta WhatsApp商業帳戶中預先核准的訊息範本傳送WhatsApp訊息。 **範本必須由Meta**&#x200B;稽核及核准，您才能在[!DNL Journey Optimizer B2B Prime]中使用它們。 若要管理和提交範本以供核准，請與您的[!DNL Meta Business Manager]帳戶管理員合作。
 
 1. 針對&#x200B;**[!UICONTROL 選取範本類別]**，請選擇下列其中一項：
 

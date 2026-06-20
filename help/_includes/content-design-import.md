@@ -1,9 +1,9 @@
 ---
 title: 內容製作 — 匯入HTML
 description: 重複使用有關從HTML內容製作匯入的區段
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '139'
 ht-degree: 17%
 
 ---
@@ -21,6 +21,6 @@ ht-degree: 17%
 
 若要匯入包含HTML內容的檔案(_T):_
 
-1. 從&#x200B;_[!UICONTROL 設計您的範本]_&#x200B;首頁，選取&#x200B;**[!UICONTROL 匯入HTML]**&#x200B;選項。
+1. 從設計首頁選取&#x200B;**[!UICONTROL 匯入HTML]**&#x200B;選項。
 
 1. 拖放包含 HTML 內容的 HTML 或 .zip 檔案，然後按一下「**[!UICONTROL 匯入]**」。

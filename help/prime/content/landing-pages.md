@@ -3,19 +3,13 @@ title: 登陸頁面
 description: 建立、設計和發佈個人歷程的登陸頁面 — 從頭開始建立、匯入HTML、新增表單、個人化內容，以及從Journey Optimizer B2B Prime中的電子郵件連結。
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2180
+source-wordcount: 2164
 ht-degree: 7%
 
 ---
@@ -30,12 +24,12 @@ ht-degree: 7%
 * 在傳送通訊之前收集同意，並在選擇加入或選擇退出時傳送確認電子郵件。
 * 使用登入頁面上的表單來擷取或更新設定檔資料（漸進式設定檔、偏好設定、註冊和類似案例）。
 * 將人們引導至專為您的歷程協調設計的行銷活動特定資訊。
-* 將使用者重新導向至專用網路表單，而不需在Journey Optimizer B2B Prime外部建立外部頁面。
+* 將使用者重新導向至專用網路表單，而不需在[!DNL Journey Optimizer B2B Prime]外部建立外部頁面。
 
 <!-- 
 ## Landing page workflow
 
-To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
+To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Journey Optimizer B2B Prime]: 
 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
@@ -51,7 +45,7 @@ You can create, personalize, and preview landing pages in the visual design spac
 
 ## 存取及管理登入頁面 {#access-manage-landing-pages}
 
-若要存取Journey Optimizer B2B Prime中的登入頁面，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 登入頁面]**。 此動作會顯示執行個體中建立的所有登入頁面清單。
+若要存取[!DNL Journey Optimizer B2B Prime]中的登入頁面，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 登入頁面]**。 此動作會顯示執行個體中建立的所有登入頁面清單。
 
 此清單是根據&#x200B;_[!UICONTROL 已修改]_&#x200B;欄排序，最近更新的專案位於頂端。 按一下欄標題，在升序和降序之間變更。
 
@@ -78,7 +72,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 | 狀態 | 說明 |
 | -------------------- | ----------- |
 | 草稿 | 建立登入頁面時，其狀態為草稿。 當您定義或編輯視覺內容時，它會保持此狀態，直到您將其發佈為託管頁面為止。 可用的動作： <br/><ul><li>編輯名稱或說明</li><li>編輯連結網址</li><li>在視覺設計空間編輯</li><li>發佈</li><li>重複</li><li>刪除</li></ul> |
-| 發佈日期 | 發佈登入頁面時，該頁面會託管於Journey Optimizer B2B Prime例項，且可在電子郵件或簡訊內容中用於連結。 可用的動作： <br/><ul><li>編輯名稱或說明</li><li>編輯連結網址</li><li>在電子郵件或簡訊內容中新增連結</li><li>建立草稿版本</li><li>重複</li><li>刪除</li></ul> |
+| 發佈日期 | 當您發佈登入頁面時，此頁面託管於[!DNL Journey Optimizer B2B Prime]執行個體，且可在電子郵件或簡訊內容中用於連結。 可用的動作： <br/><ul><li>編輯名稱或說明</li><li>編輯連結網址</li><li>在電子郵件或簡訊內容中新增連結</li><li>建立草稿版本</li><li>重複</li><li>刪除</li></ul> |
 | 已與草稿一起發佈 | 當您從已發佈的登陸頁面建立草稿時，已發佈的版本會保留，而且草稿內容可以在視覺設計空間中進行修改。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且託管頁面中的內容會更新。 可用的動作： <br/><ul><li>編輯名稱或說明</li><li>編輯連結網址</li><li>在電子郵件或簡訊內容中新增連結</li><li>在視覺化設計空間中編輯草稿版本</li><li>發佈草稿版本</li><li>重複</li><li>刪除（刪除兩個版本）</li><li>捨棄草稿（返回已發佈狀態）</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
@@ -125,7 +119,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    每個登入頁面最多可新增兩個子頁面。
 
-設定並設計主要頁面和任何子頁面後，請在發佈登陸頁面[&#128279;](#test-landing-page)之前對其進行測試。
+設定並設計主要頁面和任何子頁面後，請在發佈登陸頁面](#test-landing-page)之前[對其進行測試。
 
 >[!CAUTION]
 >
@@ -175,7 +169,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >title="預覽和測試您的登陸頁面"
 >abstract="在您定義登陸頁面設定和內容後，請使用測試輪廓來預覽該頁面。"
 
-定義登入頁面設定和內容時，您可以使用測試設定檔來預覽頁面。 如果您已插入[個人化內容](email-authoring.md#personalization)，您可以使用測試設定檔資料檢查此內容在登入頁面中的顯示方式。
+定義登入頁面設定和內容時，您可以使用測試設定檔來預覽頁面。 如果您已插入[個人化內容](email-authoring.md#personalize-content)，您可以使用測試設定檔資料檢查此內容在登入頁面中的顯示方式。
 
 >[!PREREQUISITES]
 >
@@ -189,7 +183,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 從&#x200B;_[!UICONTROL 模擬]_&#x200B;畫面選取測試設定檔。
 
-   如果未列出您需要的設定檔，請按一下[管理測試設定檔] **，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**
+   如果未列出您需要的設定檔，請按一下[管理測試設定檔] ]**，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**[!UICONTROL 
 
    +++新增測試設定檔
 
@@ -265,7 +259,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
-1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。**&#x200B;**
+1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。****
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而託管頁面中的內容會更新。
 
@@ -299,7 +293,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 ## 連結至登入頁面 {#link-to-landing-page}
 
-作為產生電子郵件、片段和頁面內容的行銷人員或創意人員，您可以內嵌連結至在Journey Optimizer B2B Prime例項中建立的已發佈（即時）登陸頁面。
+作為產生電子郵件、片段和頁面內容的行銷人員或創意人員，您可以內嵌連結至在您的[!DNL Journey Optimizer B2B Prime]執行個體中建立的已發佈（即時）登陸頁面。
 
 1. 當您在片段、電子郵件、登入頁面或範本的視覺設計空間工作時，請為連結選取文字片段、按鈕元件或影像元件。
 

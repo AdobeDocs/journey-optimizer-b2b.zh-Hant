@@ -1,25 +1,19 @@
 ---
 title: 資產
-description: 從Journey Optimizer B2B edition管理電子郵件、範本和視覺片段的影像資產。
+description: 從Journey Optimizer B2B Prime管理電子郵件、範本和視覺片段的影像資產。
 feature: Assets, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能屬於有限測試版的一部分。"
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 524
-ht-degree: 5%
+source-wordcount: 786
+ht-degree: 18%
 
 ---
 
@@ -84,10 +78,36 @@ ht-degree: 5%
 
    ![上傳影像資產](./assets/dam-upload-assets-dialog.png){width="450"}
 
-   或者，您可以按一下[從電腦中選取檔案]&#x200B;**&#x200B;**，使用本機檔案系統來尋找及選取檔案。
+   或者，您可以按一下[從電腦中選取檔案]****，使用本機檔案系統來尋找及選取檔案。
 
 1. 按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以確認並上傳檔案到存放庫。
 
 上傳完成後，系統會自動產生說明、指定標籤和關鍵字，並擷取視覺屬性，例如主旨和設定。 不需要手動標籤。 在此程式完成之前，新影像會以&#x200B;_[!UICONTROL 處理]_&#x200B;狀態顯示。
 
 ![處理狀態中的新影像資產](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+
+## 使用資產編寫內容 {#assets-authoring}
+
+在製作電子郵件、電子郵件範本及視覺片段時使用資產。 視覺內容編輯器可讓您存取&#x200B;_Assets_&#x200B;資料庫中的影像。 您也可以上傳影像資產，將其置於內部資產存放庫中。
+
+您可以在編輯影像元件設定或直接在畫布上選擇影像資產：
+
+* **_空白元件_** — 將影像元件新增至畫布時，該元件為空白，可讓您輕鬆選擇或匯入影像檔案。
+
+  ![選擇來源，以便選取空白影像元件的影像檔案](./assets/dam-assets-image-component-empty.png){width="500"}
+
+* **_影像元件工具列_** — 當您在畫布中選取影像元件時，工具列可讓您輕鬆選擇來源並選取影像檔案。
+
+  ![使用工具列來選擇來源，以便選取影像元件的影像檔案](./assets/dam-assets-image-toolbar-settings.png){width="500"}
+
+* **_影像元件設定_** — 當您在畫布中選取影像元件時，您可以在右側面板中檢視及編輯設定。 若要新增或變更元件中顯示的影像檔案，請選擇來源類型並選取一個影像檔案。
+
+  ![在右側面板中編輯影像元件設定](./assets/dam-assets-image-settings.png){width="350"}
+
+按一下「**[!UICONTROL 選取資產]**」以開啟資產選擇器，您可在此從[!DNL Journey Optimizer B2B Prime]資產存放庫中選擇影像。
+
+![選取影像資產](./assets/dam-assets-internal-image-selected.png){width="700" zoomable="yes"}
+
+您可以使用搜尋和篩選器來找到所需的影像資產。 選取資產並按一下「**[!UICONTROL 選取]**」，以便用作影像元件。
+
+您也可以在結構元件的背景設定中選擇影像資產。
