@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
+source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
 workflow-type: tm+mt
-source-wordcount: 2192
+source-wordcount: 2209
 ht-degree: 1%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 1%
 
 ### 新增結構和內容元件 {#components}
 
-<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+將[結構元件](./structure-components.md)和[內容元件](./content-components.md)新增至畫布，建置您的電子郵件配置。
 
 從左側面板的&#x200B;**[!UICONTROL 結構]**&#x200B;和&#x200B;**[!UICONTROL 內容]**&#x200B;區段中拖曳專案，然後在右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;索引標籤中設定每個元件。
 
@@ -221,7 +221,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 
 ### 導覽圖層、設定和樣式 {#navigation-layers}
 
-使用導覽樹狀結構來選取元件和欄，然後在右側面板中調整其設定和樣式。<!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
+使用導覽樹狀結構來選取元件和欄，然後在右側面板中調整其設定和樣式。 請參閱[導覽樹狀結構](./structure-components.md#navigation-tree)。
 
 ### 將內容個人化 {#personalize-content}
 
