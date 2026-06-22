@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 1656
+source-wordcount: 1633
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 5%
 >title="關於結構元件"
 >abstract="結構元件是指設計範本結構時可以使用的版面配置元素。"
 
-使用視覺設計空間中的&#x200B;_結構元件_&#x200B;來定義內容的結構。 透過使用簡單的拖放動作新增和移動結構元素，您可以快速定義內容配置的形狀。 每個結構元件橫跨水準空間，您可以棧疊它們以垂直建置版面。 將每個元件分成欄，組成您需要的每個內容區塊，然後在其內新增[內容元件](./content-components.md)以填入版面。
+使用視覺設計空間中的&#x200B;_結構元件_&#x200B;來定義內容的結構。 透過使用簡單的拖放動作新增和移動結構元素，您可以快速定義內容配置的形狀。 每個結構元件橫跨水準空間，您可以棧疊它們以垂直建置版面。<!-- Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout. -->
 
 ## 結構程式庫 {#structure-library}
 

@@ -16,9 +16,9 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: 2820
 ht-degree: 7%
 
 ---
@@ -45,7 +45,9 @@ ht-degree: 7%
 >title="關於內容元件"
 >abstract="內容元件是指設計範本時可以使用的空白內容預留位置。"
 
-當您設計電子郵件、登入頁面、範本及視覺化片段的內容時，請使用[!UICONTROL 內容元件]來新增視覺化設計元素。 您可以視需要在定義配置的一或多個[結構元件](./structure-components.md)內新增任意數目的內容元件。
+當您設計電子郵件、登入頁面、範本及視覺化片段的內容時，請使用[!UICONTROL 內容元件]來新增視覺化設計元素。
+
+<!-- You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout. -->
 
 ## 內容庫
 
