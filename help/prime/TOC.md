@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime檔案
 user-guide-description: 瞭解Adobe Journey Optimizer B2B edition Prime以及如何將其用於？
 hide: true
-source-git-commit: 68ce728130c78df150ba3041859dcb593a9a709b
+source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 47%
+source-wordcount: '141'
+ht-degree: 48%
 
 ---
 
@@ -53,6 +53,7 @@ ht-degree: 47%
    + [個人化](./content/personalization-expressions.md)
    + 內容設計工具 {#content-design}
       + [結構元件](./content/structure-components.md)
+      + [內容元件](./content/content-components.md)
       + [自訂 CSS](./content/design-custom-css.md)
 + {hide-from-toc}[銷售限定詞](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc}[Brand Concierge](./brand-concierge/brand-concierge.md)
@@ -69,11 +70,6 @@ ht-degree: 47%
 <!--
    + Business rules
    + Program types
-
-   + Content design tools {#content-design}
-      + [Structure components](./content/structure-components.md)
-      + [Content components](./content/content-components.md)
-      + [Custom CSS](./content/design-custom-css.md)
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)

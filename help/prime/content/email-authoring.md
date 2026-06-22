@@ -4,21 +4,13 @@ description: 瞭解如何使用視覺畫布、拖放工具、HTML匯入和可重
 badgeBeta: label="Beta" type="informative" tooltip="此功能屬於有限測試版的一部分。"
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
 workflow-type: tm+mt
-source-wordcount: 2192
+source-wordcount: 2209
 ht-degree: 1%
 
 ---
@@ -90,7 +82,7 @@ ht-degree: 1%
 
 1. [測試電子郵件](#check-and-test-the-email)。
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容 {#import-html-content}
 
@@ -136,7 +128,7 @@ ht-degree: 1%
 
 ### 新增結構和內容元件 {#components}
 
-<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+將[結構元件](./structure-components.md)和[內容元件](./content-components.md)新增至畫布，建置您的電子郵件配置。
 
 從左側面板的&#x200B;**[!UICONTROL 結構]**&#x200B;和&#x200B;**[!UICONTROL 內容]**&#x200B;區段中拖曳專案，然後在右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;索引標籤中設定每個元件。
 
@@ -148,7 +140,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容[&#128279;](./template-content-governance.md)的範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ### 新增片段 {#visual-fragments}
 
@@ -221,7 +213,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 
 ### 導覽圖層、設定和樣式 {#navigation-layers}
 
-使用導覽樹狀結構來選取元件和欄，然後在右側面板中調整其設定和樣式。<!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
+使用導覽樹狀結構來選取元件和欄，然後在右側面板中調整其設定和樣式。 請參閱[導覽樹狀結構](./structure-components.md#navigation-tree)。
 
 ### 將內容個人化 {#personalize-content}
 
