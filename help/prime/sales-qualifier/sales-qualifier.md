@@ -1,6 +1,7 @@
 ---
 title: 銷售限定詞
 description: Journey Optimizer B2B Prime的銷售限定詞可提供AI潛在客戶限定詞、傳出工作流程、CRM整合、工作和BDR的設定檔設定。
+badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-06-22T18:49:11.199Z'
 TQID: 'https://experienceleague.adobe.com/pfm5edN0IqvzhCaQIVC43i0Mwckmc6UVkUAC5eGrF4Y'
 product_v2:
@@ -20,9 +21,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a3ed5ce067dab46abccd3dbe584e073449394393
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
-source-wordcount: 4575
+source-wordcount: 4585
 ht-degree: 1%
 
 ---

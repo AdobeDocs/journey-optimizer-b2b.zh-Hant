@@ -1,6 +1,7 @@
 ---
 title: 分割和合併路徑節點
 description: 瞭解如何在個人歷程中使用分割和合併路徑節點，以根據定義的條件將人們分割為不同的路徑，然後在下游的共同點將其重新統一。
+badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
 product_v2:
@@ -13,10 +14,10 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
-source-wordcount: 658
-ht-degree: 0%
+source-wordcount: 668
+ht-degree: 2%
 
 ---
 
