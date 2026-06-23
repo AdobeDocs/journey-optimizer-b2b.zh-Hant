@@ -1,20 +1,16 @@
 ---
 title: 人員歷程
 description: 在Journey Optimizer B2B edition Prime中建立、發佈和管理人員歷程 — 瀏覽歷程清單、設計多步驟流程以及複製或刪除歷程。
+badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: 1432
 ht-degree: 19%
 
 ---
@@ -74,11 +70,11 @@ ht-degree: 19%
 
 | 狀態 | 說明 | 可用的動作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 未發佈且可以編輯的歷程。 | [發佈](#publish-a-journey)，[重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
-| _&#x200B;**已上線**&#x200B;_ | 當您發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | [重複](#duplicate-a-journey)，[關閉新專案](#close-to-new-entries)，[中止](#abort-a-journey) |
-| _&#x200B;**對新進客戶關閉**&#x200B;_ | 當您在歷程標題中按一下&#x200B;**[!UICONTROL 關閉新專案]**&#x200B;時，歷程狀態會從&#x200B;_即時_&#x200B;變更為&#x200B;_已關閉新專案_。 | [重複](#duplicate-a-journey)，[中止](#abort-a-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。 中止的歷程無法重新啟動。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 當歷程中的所有個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉新專案_&#x200B;變更為&#x200B;_已完成_。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
+| _**草稿**_ | 未發佈且可以編輯的歷程。 | [發佈](#publish-a-journey)，[重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
+| _**已上線**_ | 當您發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | [重複](#duplicate-a-journey)，[關閉新專案](#close-to-new-entries)，[中止](#abort-a-journey) |
+| _**對新進客戶關閉**_ | 當您在歷程標題中按一下&#x200B;**[!UICONTROL 關閉新專案]**&#x200B;時，歷程狀態會從&#x200B;_即時_&#x200B;變更為&#x200B;_已關閉新專案_。 | [重複](#duplicate-a-journey)，[中止](#abort-a-journey) |
+| _**已中止**_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。 中止的歷程無法重新啟動。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
+| _**已完成**_ | 當歷程中的所有個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉新專案_&#x200B;變更為&#x200B;_已完成_。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
 
 ## 建立個人歷程 {#create-a-person-journey}
 
@@ -109,7 +105,7 @@ ht-degree: 19%
 
 ### 歷程設計 {#journey-design}
 
-_歷程畫布_&#x200B;是歷程工作區的中央區域。 您可以在此處新增及設定歷程節點。 按一下節點，在版面右側的面板中開啟其屬性，並根據您的設計進行設定。 個人歷程一律以[_[!UICONTROL 個人對象&#x200B;]_&#x200B;節點](./person-audience-node.md)開始，您可以在其中定義歷程的輸入。
+_歷程畫布_&#x200B;是歷程工作區的中央區域。 您可以在此處新增及設定歷程節點。 按一下節點，在版面右側的面板中開啟其屬性，並根據您的設計進行設定。 個人歷程一律以[_[!UICONTROL 個人對象&#x200B;]_節點](./person-audience-node.md)開始，您可以在其中定義歷程的輸入。
 
 建立人員歷程並定義人員對象後，請使用節點建置歷程。 歷程畫布提供視覺化設計空間，您可在其中使用下列節點型別建置您的多步驟B2B行銷使用案例，以建構歷程：
 
