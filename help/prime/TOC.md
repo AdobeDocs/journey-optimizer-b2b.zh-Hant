@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Prime檔案
 user-guide-description: 瞭解Adobe Journey Optimizer B2B Prime以及如何將其用於？
 hide: true
-source-git-commit: 6bfe5d2e2fbcfcf8004922acfa4b7181d5a0ab8e
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 51%
+ht-degree: 53%
 
 ---
 
@@ -17,10 +17,11 @@ ht-degree: 51%
    + [設定檢查清單](./start/setup-prime.md)
    + [使用者管理](./start/user-management.md)
    + [電子郵件傳遞能力](./start/email-deliverability.md)
-+ [首頁和深入分析](./home-insights/home-insights.md)
-+ [專員](./agents/agents.md)
++ [首頁](./home-insights/home-page.md)
++ [聊天介面](./agents/chat-interface.md)
++ [銷售限定詞](./sales-qualifier/sales-qualifier.md)
 + 行銷管理 {#marketing-management}
-   + {hide-from-toc}[概觀](./marketing/marketing-management.md)
+   + [概觀](./marketing/marketing-management.md)
    + [方案](./marketing/programs.md)
    + [個人歷程](./marketing/person-journeys.md)
    + 歷程節點 {#journey-nodes}
@@ -55,7 +56,6 @@ ht-degree: 51%
       + [結構元件](./content/structure-components.md)
       + [內容元件](./content/content-components.md)
       + [自訂 CSS](./content/design-custom-css.md)
-+ {hide-from-toc}[銷售限定詞](./sales-qualifier/sales-qualifier.md)
 + 管理 {#admin}
    + 管道 {#channels}
       + [電子郵件通道設定](./admin/email-channel-configuration.md)

@@ -1,61 +1,57 @@
 ---
 title: 行銷管理
-description: 行銷管理的預留位置頁面。
+description: 使用Journey Optimizer B2B Prime中的行銷管理，從聊天面板、工作區和方案樹中規劃方案、建立歷程、管理人員清單及建立內容。
+badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-06-12T23:01:12.635Z'
 TQID: 'https://experienceleague.adobe.com/ph-XPVXSAg3GcPQo-VA-LfNma38N2XlfJEyfoo3gGYM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 1%
+source-wordcount: 414
+ht-degree: 3%
 
 ---
 
 # 行銷管理
 
-行銷中心
+在左側導覽中選取&#x200B;_行銷管理_&#x200B;圖示（擴音器）以開啟您的中央工作區，以進行規劃、組織和啟用行銷。 從這裡，您可以管理[程式](./programs.md)、建置[歷程](./person-journeys.md)、維護[人員清單](../audiences/people-lists.md)，以及建立[內容](../content/digital-asset-management.md) — 全都集中在一處。
 
-程式和資料夾
-人員歷程
-帳戶歷程（稍後）
-仲裁主控台
+Marketing Management使用三區式版面：左側是聊天面板、中央是工作區，而右側是方案樹狀結構。
 
-## 歷程中心
+![行銷管理工作區](./assets/marketing-home-page.png){width="800" zoomable="yes"}
 
-Journey Hub是AI驅動的集中式起點，可跨Journey Optimizer B2B Prime執行所有歷程/方案型功能。 其設計可加速初次使用者的成功，同時逐步釋放進階智慧、量度和控制力，讓回訪和進階使用者順利上線。
+## 聊天面板 {#chat-panel}
 
-中樞的作用如下：
+聊天面板會與您的工作一起執行，因此您可以要求[AI小幫手](../agents/chat-interface.md)在內容中執行動作。 面板標題包含下列控制項：
 
-* 建立歷程、方案和行銷活動的引導式起點
+| 控制 | 說明 |
+|---------|-------------|
+| **新交談** | 開始全新的交談。 |
+| **交談記錄** | 瀏覽並重新開啟過去的交談。 |
+| **交換面板** | 將聊天面板切換到另一側。 |
+| **摺疊** | 隱藏面板以最大化工作區空間。 |
 
-* 歷程健康狀態、效能和AI深入分析的可見度圖層
+輸入內容會顯示&#x200B;_詢問任何事情，或輸入/以詢問技能……_&#x200B;當您在工作區中選取資產時，輸入內容會感知（例如，_詢問「[資產名稱]」……_），因此您的問題會直接套用至您正在檢視的內容。
 
-* 仲裁、最佳化和建議的控制中心
+## 工作區 {#workspace}
 
-### 集線器結構（高階）
+中心工作區是開啟資產以供檢視和編輯的地方。
 
-1. AI助理 — 提示型區域和&#x200B;_快速入門_
-1. 右邊的Adaptive Library面板
-   * 個人化資料庫
-   * 推動使用者進行仲裁和最佳化
-1. 作用中歷程的報告
+未選取任何專案時，工作區會顯示歡迎狀態 — **歡迎回來。 收入不會自行產生。**  — 提示從程式樹狀結構選取資料夾或資產。
 
-### 空白和錯誤狀態
+- **最近存取** — [歷程](./person-journeys.md)、[程式](./programs.md)以及您最近接觸的資料夾清單，每個資料夾都有相對時間戳記。 按一下任一列以重新開啟。
+- **資產檢視** — 一旦您從程式樹狀結構選取某些專案，其詳細資訊就會在工作區中開啟。
+- **詳細目錄頁面** — 選取資料夾或程式會顯示其內容的詳細目錄表（[程式](./programs.md)、[歷程](./person-journeys.md)、[人員清單](../audiences/people-lists.md)、電子郵件等）。 詳細目錄表格支援調整欄大小、顯示/隱藏欄、排序和搜尋。 例如，選取人員清單會開啟其成員詳細目錄。
 
-* 無歷程 — 提示快速入門
+## 程式樹狀結構 {#program-tree}
 
-* 低資料 — 說明缺少什麼
+右側面板會顯示行銷相關資產的導覽樹狀結構。 它提供您能使用的功能工具：
 
-* AI無法使用 — 提供說明的體面遞補
+- 最上方的&#x200B;**建立程式**&#x200B;按鈕（請參閱[程式](./programs.md)）。
+- 依名稱搜尋資產的&#x200B;**搜尋**&#x200B;方塊。
+- 根位於&#x200B;_行銷活動/預設_&#x200B;的階層資料夾樹狀結構，包含資料夾、[方案](./programs.md)和[歷程](./person-journeys.md)。 展開資料夾以深入研究；每一列上的&#x200B;**...**&#x200B;功能表會顯示每個資產的動作。
 
-
-
+在方案樹中選取專案以在中心工作區中開啟詳細資訊。
