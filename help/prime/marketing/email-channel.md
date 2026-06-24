@@ -20,7 +20,7 @@ role_v2:
 source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
 source-wordcount: 1037
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 1. （選用）選取&#x200B;**[!UICONTROL 最佳化HTML大小]**&#x200B;核取方塊，在發佈程式期間縮小電子郵件HTML的大小。
 
-   這有助於防止使用者端（例如Gmail）截斷超過100 KB的郵件。 如需詳細資訊，請參閱&#x200B;[_最佳化電子郵件HTML大小_](#optimize-html-size)。
+   這樣可以避免在 Gmail 一類用戶端中發生電子郵件內容截斷的狀況，因為用戶端會截斷超過 100 KB 大小的郵件。 如需詳細資訊，請參閱&#x200B;[_最佳化電子郵件HTML大小_](#optimize-html-size)。
 
 1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;以存取視覺化設計工具並開始[建立您的內容](../content/email-authoring.md)。
 
@@ -140,12 +140,12 @@ ht-degree: 1%
 * 偵測到空連結
 * 電子郵件超過100 K
 
-## 最佳化電子郵件HTML大小 {#optimize-html-size}
+## 最佳化電子郵件 HTML 大小 {#optimize-html-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
->title="縮小HTML大小"
->abstract="啟用此選項可移除不必要的空白字元、縮排及不必要的註解，以在發佈期間壓縮電子郵件HTML。 這有助於防止使用者端（例如Gmail）截斷超過100 KB的郵件。"
+>title="縮減 HTML 大小"
+>abstract="啟用此選項可移除不必要的空白字元、縮排及非必要的註解，以便在發佈時壓縮電子郵件 HTML。 這樣可以避免在 Gmail 一類用戶端中發生電子郵件內容截斷的狀況，因為用戶端會截斷超過 100 KB 大小的郵件。"
 
 [!DNL Journey Optimizer B2B Prime]可讓您移除不必要的空白字元、縮排及不必要的註解，在發佈程式期間壓縮電子郵件HTML版本。 保持HTML小型化可協助您：
 
