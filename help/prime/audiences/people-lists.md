@@ -1,6 +1,7 @@
 ---
 title: 人員清單
-description: 瞭解如何在Journey Optimizer B2B Prime中建立和管理人員清單，包括具有規則型資格的動態清單和具有固定成員資格的靜態清單。
+description: 在Journey Optimizer B2B Prime中建立和管理人員清單，用於歷程鎖定目標、動態規則型會籍和靜態清單目的地啟用。
+badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
 product_v2:
@@ -12,10 +13,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
+source-git-commit: 1fa72c956678cddcecd1b50a13c42ef9eada05fc
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 2%
+source-wordcount: 862
+ht-degree: 3%
 
 ---
 
