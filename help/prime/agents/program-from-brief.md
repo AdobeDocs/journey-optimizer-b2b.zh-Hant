@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b92782904da5c01c3dc1b3fb44ef02729723015a
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: 1119
 ht-degree: 3%
 
 ---
@@ -158,7 +158,7 @@ AI助理會在建置之前要求任何遺漏的專案。
 | **非同步清單成員資格** | 靜態（從條件）清單會在數分鐘內填入 — 非即時 |
 | **錯誤處理** | 報告工具失敗時會有確切的錯誤；助理會提示確認輸入並重試 |
 | **名稱衝突** | 未自動解析 — 將要求不同的名稱 |
-| **領域** | 僅限Journey Optimizer B2B Prime；Marketo使用者應使用個別的方案建立/方案規劃技能 |
+| **領域** | 僅限Journey Optimizer B2B Prime；[!DNL Marketo Engage]名使用者應使用個別的方案建立/方案規劃技能 |
 
 
 ## QA檢查
