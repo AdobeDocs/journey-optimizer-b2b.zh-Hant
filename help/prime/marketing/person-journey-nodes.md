@@ -3,17 +3,11 @@ title: 個人歷程節點
 description: 瞭解Journey Optimizer B2B edition Prime中的個人歷程節點 — 受眾、動作、事件、等待、路徑分割和AI驅動的下一個最佳路徑路由。
 autotag-review: '2026-06-16T21:21:16.531Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 0%
@@ -22,14 +16,14 @@ ht-degree: 0%
 
 # 個人歷程節點
 
-建立人員歷程後，使用畫布中的工具來新增對象，並使用節點建置歷程。 歷程畫布提供視覺化設計空間，讓您在其中建立多步驟B2B行銷使用案例。
+建立[個人歷程](./person-journeys.md)後，使用畫布中的工具新增對象，並使用節點建置歷程。 歷程畫布提供視覺化設計空間，讓您在其中建立多步驟B2B行銷使用案例。
 
 _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節點。 選取對象後，結合不同的動作、事件和決策節點作為多步驟、跨管道的情境，藉此建立您的歷程。 歷程的每個節點代表邏輯路徑上的一個步驟。
 
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hant) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 個人受眾節點
 
@@ -39,7 +33,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 動作節點
 
@@ -49,7 +43,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 事件節點
 
@@ -59,7 +53,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 等待節點
 
@@ -69,7 +63,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 分割和合併路徑節點
 
@@ -79,7 +73,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hant) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 下一個最佳路徑節點
 
