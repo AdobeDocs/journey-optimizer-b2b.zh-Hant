@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 641
 ht-degree: 4%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 4%
 當您新增自訂權杖至電子郵件時，會顯示為`{{my.TokenName}}`。 例如，您可能會建立`{{my.EventDate}}`或`{{my.WebinarSpeaker}}`個Token，以管理與即將舉辦的網路研討會相關的電子郵件內容。
 
 除了專屬於程式或資料夾的&#x200B;_My Token_&#x200B;之外，您也可以使用任何標準（內建）Token來進行個人化。
+
+>[!NOTE]
+>
+>_我的Token_&#x200B;目前未在此Beta版本的Personalization編輯器中啟用。
 
 ## 存取權杖
 

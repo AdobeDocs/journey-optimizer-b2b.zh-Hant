@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 1910
+source-wordcount: 1918
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 1%
 1. [在每個子網域上設定DMARC、SPF和DKIM記錄](#dmarc-spf-dkim)。
 1. [確認用於傳送子網域電子郵件的IP集區](#ip-pools)。
 1. [建立一個或多個電子郵件通道設定](../admin/email-channel-configuration.md#create-email-channel-configuration)，以繫結子網域、IP集區和寄件者身分識別。
+
+![電子郵件傳遞能力設定（適用於Journey Optimizer B2B Prime）](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
 
 >[!TIP]
 >
