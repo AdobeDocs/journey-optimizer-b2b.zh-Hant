@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 332
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 在[!DNL Adobe Journey Optimizer B2B Prime]中，_事件型對象_&#x200B;可讓您在[!DNL Marketo Engage]活動發生時，近乎即時地將對象成員新增到即時[個人歷程](../marketing/person-journeys.md)。 您可以在歷程畫布的「對象」節點設定事件型對象：
 
-* 選取一或多個Marketo活動（標準或自訂）作為符合資格的事件。
+* 選取一或多個[!DNL Marketo Engage]活動（標準或自訂）作為符合資格的事件。
 * 選擇性地新增人員設定檔篩選器（例如產業、地區或生命週期階段），以縮小可輸入的人員範圍。
 * 選擇性地定義活動屬性限制（例如特定表單、URL或程式），以縮小每個活動符合條件的發生次數。
 

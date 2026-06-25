@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 257
+source-wordcount: 259
 ht-degree: 20%
 
 ---
@@ -91,7 +91,8 @@ AI 助理
 撰寫電子郵件和WhatsApp訊息、管理範本和資產、建立登陸頁面和表單，以及套用個人化。
 
 [電子郵件製作](./content/email-authoring.md)
-[範本](./content/templates.md)
+[個範本](./content/templates.md)
+[登陸頁面](./content/landing-pages.md)
 :::
 
 ::::

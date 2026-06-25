@@ -15,16 +15,16 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: 225
 ht-degree: 4%
 
 ---
 
 # 個人受眾節點
 
-_個人對象_&#x200B;節點會指定哪些人員設定檔進入歷程。 當您[建立個人歷程](./person-journeys.md)時，歷程一律以定義其輸入的個人對象節點開始。 「人員」對象節點可以有下列兩種對象輸入型別之一：靜態人員清單或動態人員清單。
+_個人對象_&#x200B;節點會指定哪些人員設定檔進入歷程。 當您[建立個人歷程](./person-journeys.md)時，歷程一律以定義其輸入的個人對象節點開始。 「人員」對象節點可以有下列兩種對象輸入型別之一：動態人員清單或事件觸發器。
 
 如果您需要的人員歷程動態人員清單不存在，請[建立人員清單](../audiences/people-lists.md#create-a-people-list)，然後設定人員對象節點。
 
