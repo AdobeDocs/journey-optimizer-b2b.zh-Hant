@@ -3,10 +3,18 @@ title: 電子郵件內容的深色模式
 description: 瞭解Journey Optimizer B2B Prime中的深色模式電子郵件設計。 在電子郵件使用者端之間預覽呈現、自訂設定和測試。
 autotag-review: '2026-06-12T22:52:18.591Z'
 TQID: 'https://experienceleague.adobe.com/RelbNk1wrLqx3G6UGmOFu-AXJUudJgXPAt9DVmyQ-6c'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: f01b5556-e951-40ba-8625-2e3001864f2bid: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1478
@@ -28,7 +36,7 @@ ht-degree: 7%
 
 _深色模式_&#x200B;可讓支援的電子郵件使用者端或應用程式針對文字、按鈕和其他視覺元素，顯示背景較暗且顏色較淺的電子郵件。 這種顯示器可減輕眼睛疲勞、節省電池壽命，並改善低光環境的可讀性，提供更舒適的觀賞體驗。 隨著主要作業系統和應用程式呈上升趨勢，這是現代電子郵件設計的重要考量，能確保內容清晰易懂，而且視覺上吸引所有使用者。
 
-當您在[!DNL Journey Optimizer B2B Prime]視覺化設計空間中[建立您的電子郵件內容](./email-authoring.md)時，您可以切換至&#x200B;_**[!UICONTROL 深色模式]**_&#x200B;檢視。 在此檢視中，您也可以定義特定的自訂設定，以便在啟用電子郵件使用者端的深色模式時支援這些使用者端。
+當您在[!DNL Journey Optimizer B2B Prime]視覺化設計空間中[建立您的電子郵件內容](./email-authoring.md)時，您可以切換至&#x200B;_&#x200B;**[!UICONTROL 深色模式]**&#x200B;_&#x200B;檢視。 在此檢視中，您也可以定義特定的自訂設定，以便在啟用電子郵件使用者端的深色模式時支援這些使用者端。
 
 ## 電子郵件使用者端注意事項 {#email-client-considerations}
 
