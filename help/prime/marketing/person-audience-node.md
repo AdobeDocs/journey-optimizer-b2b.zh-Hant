@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 4%
@@ -34,7 +34,7 @@ _個人對象_&#x200B;節點會指定哪些人員設定檔進入歷程。 當您
 
    此動作會在右側顯示節點屬性。
 
-   ![個人受眾歷程節點](./assets/person-audience-node-properties.png){width="500" zoomable="yes"}
+   ![個人受眾歷程節點](./assets/person-audience-node-properties.png){width="600" zoomable="yes"}
 
 1. 對個人對象使用下列其中一個對象設定選項：
 

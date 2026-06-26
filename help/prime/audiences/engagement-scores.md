@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1548
 ht-degree: 6%
@@ -157,9 +157,7 @@ _[!UICONTROL 個人參與分數]_&#x200B;篩選器會出現在&#x200B;**[!UICONT
 
 1. 在聊天輸入欄位中，輸入正斜線指令，然後輸入您的目的。 例如：
 
-   ```text
-   /engagement-configuration Configure activity weights for the person engagement score model
-   ```
+   `/engagement-configuration Configure activity weights for the person engagement score model`
 
    當您輸入`/`時，AI助理會顯示可用的斜線指令和技能清單。 參與設定命令直接路由到「參與分數加權」頁面。
 

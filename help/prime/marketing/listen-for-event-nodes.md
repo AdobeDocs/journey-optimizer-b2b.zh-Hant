@@ -14,10 +14,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
+source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 8%
+source-wordcount: 357
+ht-degree: 5%
 
 ---
 
@@ -27,11 +27,17 @@ ht-degree: 8%
 
 ## 事件觸發程式 {#event-triggers}
 
-從PM取得清單
+您可以針對[!DNL Marketo Engage]個活動建置觸發程式，例如：
+
+* 填寫表單 — 當使用者在您的登陸頁面上提交[!DNL Marketo Engage]表單時引發。
+* 造訪網頁 — 潛在客戶檢視追蹤的網頁時引發（您可以指定確切URL或使用萬用字元）。
+* 點按連結 — 當行銷電子郵件中的追蹤連結被點按時引發。
+* 資料值變更 — 在個人記錄上更新特定欄位（例如銷售機會狀態、分數或產業）時引發。
+* 已要求Campaign — 通常用於API或webhook整合，此觸發器會在其他方案或網站服務呼叫促銷活動時啟動促銷活動。
+* 分數已變更 — 當個人的潛在客戶分數超過特定臨界值而增加或減少時引發。
+* 行動推播已點選 — 當推播通知在裝置上互動時，會在行動行銷智慧行銷活動中觸發。
 
 ## 事件篩選器 {#event-filters}
-
-從PM取得更新清單
 
 | 篩選器 | 說明 |
 | ------- | ----------- |
