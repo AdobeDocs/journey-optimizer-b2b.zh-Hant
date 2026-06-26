@@ -3,21 +3,14 @@ title: 接聽事件節點
 description: 在Journey Optimizer B2B edition Prime中設定監聽事件節點 — 設定事件觸發器、套用選用篩選器，並在活動或資料變更發生時提升人員。
 autotag-review: '2026-06-12T23:00:36.531Z'
 TQID: 'https://experienceleague.adobe.com/SBEfrrIKSCnO5x1tGXQTz1EZryH0IKhQx4tuqVn78FI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d0031543-532c-4a26-8f90-01af2b91e6d0
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d0031543-532c-4a26-8f90-01af2b91e6d0id: ba367494-9862-4596-bd6f-299c7e10a46bid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 8%
+source-wordcount: 357
+ht-degree: 5%
 
 ---
 
@@ -27,11 +20,17 @@ ht-degree: 8%
 
 ## 事件觸發程式 {#event-triggers}
 
-從PM取得清單
+您可以針對[!DNL Marketo Engage]個活動建置觸發程式，例如：
+
+* 填寫表單 — 當使用者在您的登陸頁面上提交[!DNL Marketo Engage]表單時引發。
+* 造訪網頁 — 潛在客戶檢視追蹤的網頁時引發（您可以指定確切URL或使用萬用字元）。
+* 點按連結 — 當行銷電子郵件中的追蹤連結被點按時引發。
+* 資料值變更 — 在個人記錄上更新特定欄位（例如銷售機會狀態、分數或產業）時引發。
+* 已要求Campaign — 通常用於API或webhook整合，此觸發器會在其他方案或網站服務呼叫促銷活動時啟動促銷活動。
+* 分數已變更 — 當個人的潛在客戶分數超過特定臨界值而增加或減少時引發。
+* 行動推播已點選 — 當推播通知在裝置上互動時，會在行動行銷智慧行銷活動中觸發。
 
 ## 事件篩選器 {#event-filters}
-
-從PM取得更新清單
 
 | 篩選器 | 說明 |
 | ------- | ----------- |
