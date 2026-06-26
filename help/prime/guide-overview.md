@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
-source-wordcount: 259
-ht-degree: 20%
+source-wordcount: 494
+ht-degree: 12%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 20%
 完成初始設定和設定，然後瞭解如何導覽應用程式並使用首頁。
 
 [管理員設定](./start/setup-prime.md)
+
 [首頁](./home-insights/home-page.md)
 :::
 
@@ -48,6 +49,7 @@ AI 助理
 使用自然語言來規劃方案、建立歷程、管理對象，以及建立具有人工智慧(Agentic AI)技能的內容。
 
 [聊天介面](./agents/chat-interface.md)
+
 [可用技能](./agents/skills.md)
 :::
 
@@ -68,7 +70,8 @@ AI 助理
 
 將行銷活動組織到方案中，使用多管道內容設計人員歷程，並使用自訂權杖進行個人化。
 
-[行銷總覽](./marketing/marketing-management.md)
+[行銷概觀](./marketing/marketing-management.md)
+
 [個人歷程](./marketing/person-journeys.md)
 :::
 
@@ -80,7 +83,8 @@ AI 助理
 建立及維護人員清單、定義事件型對象，以及追蹤與角色型評分的互動。
 
 [人員清單](./audiences/people-lists.md)
-[參與分數](./audiences/engagement-scores.md)
+
+[參與度分數](./audiences/engagement-scores.md)
 :::
 
 :::
@@ -91,7 +95,9 @@ AI 助理
 撰寫電子郵件和WhatsApp訊息、管理範本和資產、建立登陸頁面和表單，以及套用個人化。
 
 [電子郵件製作](./content/email-authoring.md)
-[個範本](./content/templates.md)
+
+[範本](./content/templates.md)
+
 [登陸頁面](./content/landing-pages.md)
 :::
 

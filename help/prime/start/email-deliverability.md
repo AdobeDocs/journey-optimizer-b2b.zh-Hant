@@ -15,7 +15,7 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
 source-wordcount: 1920
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ## 目前限制 {#limitations}
 
-* 子網域委派的&#x200B;**自訂委派方法**&#x200B;尚無法使用 — 請使用「完全委派」或CNAME。 GA版本的目標為自訂委派。
+* 子網域委派的&#x200B;**自訂委派方法**&#x200B;尚無法使用。 使用完全委派或CNAME。 GA版本的目標為自訂委派。
 * 在Beta中無法使用&#x200B;**專用IP集區**。 共用IP集區是唯一的選項。 GA提供專屬的IP，包括IP熱身計畫和PTR記錄管理。
 
 ## 重要概念 {#key-concepts}
