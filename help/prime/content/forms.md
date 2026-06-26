@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -354,3 +354,4 @@ Forms是專為重複使用而設計，可在您設計[登陸頁面](./landing-pa
 當您在登入頁面設計空間上選取表單時，可以從右側的內容工具列和屬性面板中取得這些動作。
 
 <!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
+

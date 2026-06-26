@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 4%
@@ -41,3 +41,4 @@ _個人對象_&#x200B;節點會指定哪些人員設定檔進入歷程。 當您
    * **[!UICONTROL 動態清單]** — 使用以規則為基礎的動態人員清單。 清單規則會在歷程執行階段進行評估，以符合歷程成員的資格。 之後不符合動態清單資格的人不會從歷程中移除。 請參閱&#x200B;_[動態清單](../audiences/people-lists.md#dynamic-lists)_。
 
    * **[!UICONTROL 事件對象]** — 使用事件對象，根據合格事件定義歷程對象。 使用個人資料篩選定義對象成員，並使用事件條件觸發歷程專案。 請參閱&#x200B;_[事件型對象](../audiences/event-based-audiences.md)_。
+

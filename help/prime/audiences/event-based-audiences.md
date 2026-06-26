@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
 workflow-type: tm+mt
 source-wordcount: 332
 ht-degree: 3%
@@ -66,3 +66,4 @@ ht-degree: 3%
    如果您新增篩選器，則人員必須至少滿足一個已設定的活動條件和已設定的篩選器。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
