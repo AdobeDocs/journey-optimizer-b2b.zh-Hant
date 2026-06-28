@@ -1,7 +1,7 @@
 ---
 title: 內容製作 — 新增表單
 description: 重複使用關於在登入頁面和範本中新增表單的區段
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
      >
      >如果您想要使用表單下載檔案，您可以指定託管檔案的URL。 透過此設定，提交按鈕可作為下載按鈕運作。
 
-   ![變更後續追蹤設定](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+     ![變更後續追蹤設定](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 1. 如果您要依裝置型別限制表單顯示，請變更&#x200B;**[!UICONTROL 顯示選項]**&#x200B;設定：
 
