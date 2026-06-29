@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
 workflow-type: tm+mt
 source-wordcount: 1634
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_fragment"
 >title="關於結構元件"
->abstract="結構元件是可用於設計片段結構的佈局元素。"
+>abstract="結構元件是指設計片段結構時可以使用的版面配置元素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_template"
