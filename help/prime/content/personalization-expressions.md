@@ -6,29 +6,23 @@ feature: Content Design Tools
 role: User
 autotag-review: '2026-06-20T00:27:51.436Z'
 TQID: 'https://experienceleague.adobe.com/ctl7dFJmmm1A4HtB-g2nTx37f4-A8GTUfWhLhdIq7DM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
 source-wordcount: 1015
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
-# Personalization編輯器
+# 個人化編輯器
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_personalization_editor"
 >title="關於個人化編輯器"
->abstract="個人化編輯器可讓您選取、排列、自訂和驗證設定檔屬性，以建立個人化內容。"
+>abstract="個人化編輯器可讓您選取、排列、自訂和驗證輪廓屬性，以建立個人化內容。"
 
 個人化編輯器是[!DNL Journey Optimizer B2B Prime]中個人化的核心。 無論您身在何處，在電子郵件、WhatsApp訊息、登入頁面及URL欄位中，都有需要動態內容的使用時機。
 
@@ -81,7 +75,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_perso_editor_autocomplete"
 >title="自動完成"
->abstract="啟用此選項後，可允許系統在您輸入時自動建議並完成程式碼。 此功能僅適用於HTML和文字格式，並支援設定檔屬性。 如果透過切換進行停用，編輯器將提供原生 HTML 程式碼自動完成。"
+>abstract="啟用此選項後，可允許系統在您輸入時自動建議並完成程式碼。 此功能僅適用於 HTML 和文字格式，並支援輪廓屬性。 如果透過切換按鈕進行停用，編輯器將改為提供原生 HTML 程式碼自動完成功能。"
 
 中央工作區是您建置個人化語法的位置。 若要使用屬性來個人化您的訊息，請在左側導覽窗格中找出該屬性，然後按一下`+`按鈕，將該屬性加入運算式中。
 
@@ -109,7 +103,7 @@ ht-degree: 8%
 
 1. **[!UICONTROL 尋找]** / **[!UICONTROL 尋找並取代]**：搜尋您的運算式並自動取代部分程式碼。
 1. **[!UICONTROL 還原]** / **[!UICONTROL 重做]**：還原/重做上一個操作。
-1. **[!UICONTROL 自動完成]**：在您輸入時自動建議並完成程式碼。 此功能僅適用於HTML和文字格式，並支援設定檔屬性。 如果透過切換進行停用，編輯器將提供原生 HTML 程式碼自動完成。
+1. **[!UICONTROL 自動完成]**：在您輸入時自動建議並完成程式碼。 此功能僅適用於 HTML 和文字格式，並支援輪廓屬性。 如果透過切換按鈕進行停用，編輯器將改為提供原生 HTML 程式碼自動完成功能。
 
    <!-- ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"} -->
 
