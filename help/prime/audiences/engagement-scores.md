@@ -19,16 +19,16 @@ role_v2:
 source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1548
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
-# 個人參與分數 {#engagement-scores}
+# 人員參與度分數 {#engagement-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_person_engagement_score"
->title="個人參與分數"
->abstract="個人參與分數會根據個別潛在客戶最近的活動，反映其參與程度。"
+>title="人員參與度分數"
+>abstract="人員參與度分數會根據個別銷售線索的最近活動，反映其參與程度。"
 
 個人參與分數是反映個別潛在客戶參與程度的數字。 分數是根據個人所執行的活動，而每個活動型別都包含加權值。 分數會在您的執行個體（租使用者）中標準化，以啟用一致的比較，並允許可操作的深入分析。
 

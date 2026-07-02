@@ -17,7 +17,7 @@ role_v2:
 source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
 workflow-type: tm+mt
 source-wordcount: 489
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
->title="Scoring Studio"
->abstract="透過AI Assistant聊天介面使用Scoring Studio技能來建立、設定和發佈自訂銷售機會評分模型。"
+>title="評分工作室"
+>abstract="透過 AI 助理聊天介面，使用「評分工作室」技能來建立、設定和發佈自訂銷售線索評分模型。"
 
 [!DNL Adobe Journey Optimizer B2B Prime]中的&#x200B;[_評分工作室_&#x200B;技能](./skills.md#scoring-signals)提供AI原生潛在客戶評分解決方案，可讓您建立、設定和發佈潛在客戶評分模型。 Studio結合代理程式驅動的工作流程與視覺化UI — 您可以透過[AI助理聊天介面](./chat-interface.md)中的自然語言提示或直接與UI控制項互動來建立評分模型。
 
