@@ -28,13 +28,13 @@ ht-degree: 10%
 
 # 選取體驗事件和欄位
 
-管理員可以在體驗事件聯合結構描述中，選取特定的Adobe Experience Platform (AEP) [體驗事件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相關欄位。 選取後，使用者可以設定決策規則來監聽這些Experience事件，以根據近乎即時的事件資料啟用動態且鎖定的行銷活動動作。
+管理員可以在體驗事件聯合結構描述中，選取特定的Adobe Experience Platform (AEP) [體驗事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相關欄位。 選取後，使用者可以設定決策規則來監聽這些Experience事件，以根據近乎即時的事件資料啟用動態且鎖定的行銷活動動作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->在Journey Optimizer B2B edition中使用體驗事件和欄位需要已啟用設定檔的體驗事件結構。 如需詳細資訊，請參閱Experience Platform教學課程中的[啟用即時客戶設定檔](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
+>在Journey Optimizer B2B edition中使用體驗事件和欄位需要已啟用設定檔的體驗事件結構。 如需詳細資訊，請參閱Experience Platform教學課程中的[啟用即時客戶設定檔](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
 
 在歷程中使用AEP體驗事件有兩個步驟：
 
