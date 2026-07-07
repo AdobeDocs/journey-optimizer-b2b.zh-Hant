@@ -4,19 +4,11 @@ description: 在Journey Optimizer B2B edition Prime中使用加權活動和30天
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1548
 ht-degree: 8%
@@ -151,7 +143,7 @@ _[!UICONTROL 個人參與分數]_&#x200B;篩選器會出現在&#x200B;**[!UICONT
 
 在[!DNL Journey Optimizer B2B Prime]中，您可以直接從[AI助理聊天介面](../agents/chat-interface.md)設定參與分數加權。
 
-如需參與分數模型、加權頻帶和活動權重的背景，請參閱[設定自訂參與分數加權](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
+如需參與分數模型、加權頻帶和活動權重的背景，請參閱[設定自訂參與分數加權](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
 
 1. 從畫面左側開啟&#x200B;**[!UICONTROL AI小幫手]**&#x200B;聊天面板（聊天圖示）。
 
@@ -222,3 +214,4 @@ _[!UICONTROL 個人參與分數]_&#x200B;篩選器會出現在&#x200B;**[!UICONT
 1. 按一下右上角的&#x200B;**[!UICONTROL 啟動]**。
 
 1. 在對話方塊中確認。
+
