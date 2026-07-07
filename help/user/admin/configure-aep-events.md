@@ -19,16 +19,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
 workflow-type: tm+mt
-source-wordcount: 1603
-ht-degree: 11%
+source-wordcount: 1632
+ht-degree: 10%
 
 ---
 
 # 選取體驗事件和欄位
 
-管理員可以在體驗事件聯合結構描述中選取特定的[AEP Experience Event](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相關欄位。 選取後，使用者可以設定決策規則來監聽這些Experience事件，以根據近乎即時的事件資料啟用動態且鎖定的行銷活動動作。
+管理員可以在體驗事件聯合結構描述中，選取特定的Adobe Experience Platform (AEP) [體驗事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相關欄位。 選取後，使用者可以設定決策規則來監聽這些Experience事件，以根據近乎即時的事件資料啟用動態且鎖定的行銷活動動作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
@@ -66,6 +66,10 @@ ht-degree: 11%
 >[!ENDSHADEBOX]
 
 ## 管理體驗事件 {#manage-experience-events}
+
+>[!NOTE]
+>
+>為&#x200B;_[!UICONTROL Standard]_、[!UICONTROL Relational]或[!UICONTROL Events]選取XDM欄位時，僅支援基本資料型別（字串、整數、雙精度浮點數和布林值）。 不允許陣列和物件。
 
 1. 在左側導覽列中，選擇&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 組態]**。
 
