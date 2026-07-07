@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
+source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 10%
@@ -63,13 +63,13 @@ ht-degree: 10%
 
 * 您可在多個歷程中參考體驗事件，或是在相同歷程中多次使用它。
 
+>[!NOTE]
+>
+>為&#x200B;_[!UICONTROL Standard]_、_[!UICONTROL Relational]_&#x200B;或&#x200B;_[!UICONTROL Events]_&#x200B;選取XDM欄位時，僅支援基本資料型別（字串、整數、雙精度浮點數和布林值）。 不允許陣列和物件。
+
 >[!ENDSHADEBOX]
 
 ## 管理體驗事件 {#manage-experience-events}
-
->[!NOTE]
->
->為&#x200B;_[!UICONTROL Standard]_、[!UICONTROL Relational]或[!UICONTROL Events]選取XDM欄位時，僅支援基本資料型別（字串、整數、雙精度浮點數和布林值）。 不允許陣列和物件。
 
 1. 在左側導覽列中，選擇&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 組態]**。
 
