@@ -1,7 +1,7 @@
 ---
 title: 內容製作 — 新增表單
 description: 重複使用關於在登入頁面和範本中新增表單的區段
-source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >若要新增表單，使其佔據電子郵件內的整個水準版面配置，請新增1:1欄結構，然後將表單拖放至其中。
+   >若要新增表單，使其佔據頁面內的整個水準版面，請新增1:1欄結構，然後將表單拖放至其中。
 
 1. 按一下元件工具列中的&#x200B;_表單_&#x200B;圖示，或使用右側的&#x200B;**[!UICONTROL 內嵌表單]**&#x200B;屬性來選取已發佈的表單。
 
