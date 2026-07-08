@@ -7,32 +7,31 @@ role: User
 level: Beginner, Intermediate
 autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 712
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # 管理電子郵件開啟追蹤
 
-貴組織負責根據適用的管轄區指引和法律，決定您自己的規範遵循義務，但您可以使用下列[!DNL Journey Optimizer B2B Edition]功能支援您的規範遵循工作。
-
 您可以停用個別電子郵件的開啟追蹤，或在Adobe Experience Platform中擷取每個人的追蹤偏好設定，並使用分割路徑將人們路由至追蹤和非追蹤電子郵件變體。
+
+>[!BEGINSHADEBOX &quot;CNIL關於電子郵件追蹤畫素的指南&quot;]
+
+在2026年4月14日，*國家資訊與自由委員會* (CNIL)發佈了關於在電子郵件中使用追蹤畫素的[建議](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)。 此指引澄清何時需要同意，並強調正確同意實務對於電子郵件畫素追蹤的重要性。 此政策可能會影響任何實體傳送電子郵件給法國訂閱者的傳送實務。
+
+電子郵件追蹤畫素是內嵌在電子郵件HTML中的1x1透明影像。 收件者的電子郵件使用者端載入該影像時，畫素會偵測伺服器並記錄時間戳記、裝置型別、電子郵件使用者端等資料，有時還會偵測大致位置的IP位址。 然後，該記錄會繫結至收件者的記錄，讓行銷人員知道電子郵件是否已開啟。
+
+此處說明的[!UICONTROL Journey Optimizer B2B edition]產品功能是建置區塊，只要設定及運作正確，即可支援相容的實作。 每位客戶都有責任決定及遵守其適用法律所規範的義務。
+
+>[!ENDSHADEBOX]
 
 ## 停用單一電子郵件的追蹤 {#disable-tracking-single-email}
 
@@ -70,7 +69,7 @@ ht-degree: 0%
 
 1. 輸入欄位名稱和顯示名稱、設定型別、將其指派給欄位群組，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-1. 按一下[儲存]儲存結構描述變更。**&#x200B;**
+1. 按一下[儲存]儲存結構描述變更。****
 
    ![將emailTracking欄位新增至AEP結構描述同意欄位群組](./assets/email-tracking-xdm-field-aep-schema.png){width="800" zoomable="yes"}
 
@@ -98,7 +97,7 @@ ht-degree: 0%
 
 ### 設定追蹤和非追蹤電子郵件變體 {#configure-tracking-and-non-tracking-email-variants}
 
-將[_[!UICONTROL 傳送電子郵件&#x200B;]_&#x200B;動作節點](./add-email.md)新增至每個路徑，讓每個人都能收到符合其追蹤偏好設定的電子郵件變體。
+將[_[!UICONTROL 傳送電子郵件&#x200B;]_動作節點](./add-email.md)新增至每個路徑，讓每個人都能收到符合其追蹤偏好設定的電子郵件變體。
 
 1. 在啟用追蹤的路徑上，新增&#x200B;**[!UICONTROL 傳送電子郵件]**&#x200B;動作，然後照常選取或建立電子郵件，保留&#x200B;**[!UICONTROL 停用開啟追蹤]**&#x200B;在電子郵件屬性中清除。
 

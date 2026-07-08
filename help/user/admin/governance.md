@@ -1,35 +1,45 @@
 ---
-title: 治理功能
+title: 治理和隱私權功能
 description: 瞭解目前可在Journey Optimizer B2B edition中使用的治理功能。
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: 697
 ht-degree: 0%
 
 ---
 
-# 治理功能
+# 治理和隱私權功能
 
-Journey Optimizer B2B edition是一款整合的Adobe Experience Platform應用程式。 它採用多種工具和服務，根據您的業務實務、法律義務和開發流程，控制您收集的體驗資料。 以下各節提供這些治理功能的摘要。
+[!DNL Journey Optimizer B2B Edition]是整合的Adobe Experience Platform應用程式。 它採用多種工具和服務，根據您的業務實務、法律義務和開發流程，控制您收集的體驗資料。 以下各節提供這些治理功能的摘要。
 
-## 隱私權 — GDPR
+## 隱私權
 
-Journey Optimizer B2B edition使用Privacy Service和Marketo Engage隱私權代理人服務所提供的現有Marketo GDPR控管功能。
+有各種法規適用於持有上述地區或國家（歐盟、加州、泰國、巴西、紐西蘭）資料主體資料的[!DNL Journey Optimizer B2B Edition]客戶。 本頁上的資訊不是法律建議，也不保證您遵守適用法律。
+
+### GDPR
+
+一般資料保護規範(GDPR)是歐盟(EU)的隱私權法律，其可為歐盟國家協調並現代化[資料保護要求](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"}。
+
+[!DNL Journey Optimizer B2B Edition]使用Privacy Service和Marketo Engage隱私權代理人服務所提供的現有Marketo GDPR控管功能。
+
+### CNIL
+
+在2026年4月14日，全國資訊與自由委員會(CNIL) [發佈了一項建議](https://cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf)，說明電子郵件中追蹤畫素的使用方式。 此指引澄清何時需要同意，並強調正確同意實務對於電子郵件畫素追蹤的重要性。 此政策會影響任何傳送電子郵件給法國訂閱者的實體。
+
+CNIL提供三個月的時間，從建議之日起公司通知電子郵件收件者是否有追蹤畫素、其目的，以及收件者是否有權選擇退出。 在此轉換期間，Marketo Engage使用者應通知其收件者畫素追蹤的相關資訊，並視需要提供選擇退出。 預計CNIL將在2026年7月14日之後開始執行活動。
+
+隨著CNIL和其他監管機構釐清追蹤畫素和相關問題的指引，Adobe將繼續監控更新，並通知您技術能力正在發生變化。
+
+[!DNL Journey Optimizer B2B Edition]提供協助您在電子郵件層級管理開啟追蹤的控制項。 根據適用的CNIL指引和其他法律，使用者有責任決定自己的合規義務。 如需使用這些功能管理電子郵件開啟追蹤的詳細資訊，請參閱&#x200B;[_管理電子郵件追蹤_](../content/email-tracking-manage.md)。
 
 ## 角色型存取控制(RBAC)
 
