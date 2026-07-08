@@ -21,18 +21,26 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 712
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # 管理電子郵件開啟追蹤
 
-貴組織負責根據適用的管轄區指引和法律，決定您自己的規範遵循義務，但您可以使用下列[!DNL Journey Optimizer B2B Edition]功能支援您的規範遵循工作。
-
 您可以停用個別電子郵件的開啟追蹤，或在Adobe Experience Platform中擷取每個人的追蹤偏好設定，並使用分割路徑將人們路由至追蹤和非追蹤電子郵件變體。
+
+>[!BEGINSHADEBOX &quot;CNIL關於電子郵件追蹤畫素的指南&quot;]
+
+在2026年4月14日，*國家資訊與自由委員會* (CNIL)發佈了關於在電子郵件中使用追蹤畫素的[建議](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)。 此指引澄清何時需要同意，並強調正確同意實務對於電子郵件畫素追蹤的重要性。 此政策可能會影響任何實體傳送電子郵件給法國訂閱者的傳送實務。
+
+電子郵件追蹤畫素是內嵌在電子郵件HTML中的1x1透明影像。 收件者的電子郵件使用者端載入該影像時，畫素會偵測伺服器並記錄時間戳記、裝置型別、電子郵件使用者端等資料，有時還會偵測大致位置的IP位址。 然後，該記錄會繫結至收件者的記錄，讓行銷人員知道電子郵件是否已開啟。
+
+此處說明的[!UICONTROL Journey Optimizer B2B edition]產品功能是建置區塊，只要設定及運作正確，即可支援相容的實作。 每位客戶都有責任決定及遵守其適用法律所規範的義務。
+
+>[!ENDSHADEBOX]
 
 ## 停用單一電子郵件的追蹤 {#disable-tracking-single-email}
 
