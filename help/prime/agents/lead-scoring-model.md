@@ -4,17 +4,11 @@ description: 使用AI Assistant聊天介面中的評分工作室技能，在Jour
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-06-25T21:20:26.754Z'
 TQID: 'https://experienceleague.adobe.com/-D5EaJ-3GQ5iwaE6hChscZGEdflKmZ3tdp6VUNuPjWk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
 ht-degree: 7%
@@ -61,11 +55,11 @@ ht-degree: 7%
 * **活動或屬性** — 要評分的特定專案
 * **訊號引數** — 訊號的可調整設定
 
-您可以完全透過使用自然語言的代理程式來建置和設定模型，或直接與UI控制項互動。
+您可以使用自然語言完全透過AI Assistant建置和設定模型，或直接與UI控制項互動。
 
 ## 發佈評分模型 {#publish-model}
 
-模型完成後，請指示代理程式將其發佈。 發佈程式會自動處理以下內容：
+模型完成後，指示AI Assistant進行發佈。 發佈程式會自動處理以下內容：
 
 | 步驟 | 發生什麼情況 |
 |---|---|
