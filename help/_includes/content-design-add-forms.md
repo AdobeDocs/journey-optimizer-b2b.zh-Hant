@@ -1,18 +1,18 @@
 ---
 title: 內容製作 — 新增表單
 description: 重複使用關於在登入頁面和範本中新增表單的區段
-source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # 內容製作 — 新增表單
 
-表單是可重複使用的元件，可被Adobe Journey Optimizer B2B edition中的多個登入頁面和登入頁面範本參照。 這是欄位區塊和提交按鈕，可以預先建立並快速插入，讓頁面設計更快更一致。
+表單是可重複使用的元件，可供多個登入頁面和登入頁面範本參考。 這是欄位區塊和提交按鈕，可以預先建立並快速插入，讓頁面設計更快更一致。
 
-下列範例概述在設計頁面時新增表單的步驟。
+下列範例概述在設計登入頁面時新增表單的步驟。
 
 1. 在&#x200B;**[!UICONTROL 內容]**&#x200B;區段下，拖曳&#x200B;**[!UICONTROL 表單]**&#x200B;專案並將其放到頁面設計空間的結構元件中。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 停留在頁面]** — 選擇此選項可在提交表單時讓訪客停留在相同頁面。
 
-   * **[!UICONTROL 登陸頁面]** — 選擇此選項可選取任何Journey Optimizer B2B edition或Marketo Engage登陸頁面作為後續追蹤。
+   * **[!UICONTROL 登陸頁面]** — 選擇此選項以選取任何其他登陸頁面作為後續追蹤。
 
    * **[!UICONTROL 外部URL]** — 選擇此選項可指定任何URL作為後續頁面。 訪客提交表單後，瀏覽器會載入指定的URL。
 

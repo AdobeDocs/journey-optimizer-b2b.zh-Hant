@@ -1,6 +1,7 @@
 ---
 title: 表單
 description: 建立並管理適用於企業資料收集的可重複使用表單 — 設計欄位、設定感謝頁面、發佈並追蹤Journey Optimizer B2B Prime的使用情況。
+badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
 product_v2:
@@ -17,9 +18,9 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: 2261
+source-wordcount: 2446
 ht-degree: 2%
 
 ---
@@ -32,7 +33,7 @@ ht-degree: 2%
 
 >[!PREREQUISITES]
 >
->在行銷團隊建立並使用表單來擷取資訊之前，管理員必須定義一或多個表單預設集。 如需詳細資訊，請參閱&#x200B;[_Forms設定_](../admin/configuration-presets-forms.md)
+>在行銷團隊建立並使用表單來擷取資訊之前，管理員必須定義一或多個表單預設集。 如需詳細資訊，請參閱&#x200B;[_Forms設定_](../admin/configuration-presets-forms.md)。
 
 <!-- 
 >Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
@@ -46,7 +47,7 @@ ht-degree: 2%
 
 若要在[!DNL Journey Optimizer B2B Prime]中存取表單，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL Forms]**。 此動作會開啟一個清單頁面，其中顯示執行個體中建立的所有表單。
 
-<!-- ![Access the forms library](./assets/forms-list.png){width="800" zoomable="yes"} -->
+![存取表單庫](./assets/forms-list.png){width="800" zoomable="yes"}
 
 系統依&#x200B;_[!UICONTROL 已修改]_&#x200B;欄排序表格，預設會在頂端顯示最近更新的表格。 按一下欄標題，在升序和降序之間變更。
 
@@ -60,13 +61,13 @@ ht-degree: 2%
 | 發佈日期 | 當您發佈表單時，該表單將可用於登入頁面或登入頁面範本。 無法在視覺化設計空間中修改發佈的表單內容。 可用的動作： <br/><ul><li>編輯名稱、說明或感謝頁面<li>新增至登入頁面或登入頁面範本<li>建立草稿版本<li>重複<li>刪除（若未使用）<li>內嵌程式碼 |
 | 已與草稿一起發佈 | 當您從已發佈的表單建立草稿時，已發佈的版本仍可用於登入頁面或範本。 可以在視覺設計空間中修改草稿內容。 如果您發佈草稿版本，草稿版本會取代目前發佈的版本，且使用中的登入頁面或登入頁面範本中的內容會更新。 可用的動作： <br/><ul><li>編輯名稱、說明或感謝頁面<li>新增至登入頁面或登入頁面範本<li>在視覺化設計空間中編輯草稿版本<li>發佈草稿版本<li>重複<li>刪除（若未使用）<li>內嵌程式碼 |
 
-<!-- ![Form status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
+![表單狀態生命週期](../../user/content/assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ### 篩選表單清單 {#filter-list}
 
 若要依名稱搜尋表單，請在搜尋列中輸入文字字串以尋找相符專案。 按一下&#x200B;_篩選器_&#x200B;圖示（![顯示或隱藏篩選器圖示](../../user/assets/do-not-localize/icon-filter.svg)）以顯示可用的篩選器選項，並變更設定以根據您指定的條件篩選顯示的專案。
 
-<!-- ![Filter the displayed forms](./assets/forms-list-filtered.png){width="700" zoomable="yes"} -->
+![篩選顯示的表單](../../user/content/assets/forms-list-filtered.png){width="700" zoomable="yes"}
 
 ### 自訂欄顯示 {#column-display}
 
@@ -74,7 +75,7 @@ ht-degree: 2%
 
 在對話方塊中，選取要顯示的資料行，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-<!-- ![Columns to display in the Forms list](./assets/forms-customize-table-dialog.png){width="300"} -->
+在Forms清單中顯示![欄](../../user/content/assets/forms-customize-table-dialog.png){width="300"}
 
 ## 建立表單 {#create-forms}
 
@@ -106,11 +107,7 @@ ht-degree: 2%
 >id="ajo-b2b-prime_lp_form_preset"
 >title="選取預設集"
 >abstract="選擇預先定義的預設集，其中包含要使用的連線，以及表單預先定義的資料集。"
-
-<!--
-Add to context help when available
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
--->
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="建立表單預設集"
 
 您可以在[!DNL Journey Optimizer B2B Prime]中建立表單，方法是按一下&#x200B;_[!UICONTROL Forms]_&#x200B;清單頁面右上角的&#x200B;**[!UICONTROL 建立表單]**。
 
@@ -123,7 +120,7 @@ Add to context help when available
    * 允許使用Alpha、數值和特殊字元
    * 保留的字元是&#x200B;**_不允許_**： `\ / : * ? " < > |`
 
-   <!-- ![Create form dialog](./assets/forms-create-dialog.png){width="400"} -->
+   ![建立表單對話方塊](../../user/content/assets/forms-create-dialog.png){width="400"}
 
 1. 針對&#x200B;**[!UICONTROL 預設集]**，按一下&#x200B;_選取資料_ （![選取資料圖示](../../user/assets/do-not-localize/icon-select-data.svg) ）圖示，將已設定的表單預設集與表單連結。
 
@@ -133,21 +130,17 @@ Add to context help when available
 
    表單詳細資訊頁面隨即開啟，其中包含預設的基本表單定義。
 
-   <!-- ![Default form content](./assets/form-new-default-content.png){width="700" zoomable="yes"} -->
+   ![預設表單內容](../../user/content/assets/form-new-default-content.png){width="700" zoomable="yes"}
 
 ### 變更預設表單設計 {#design}
 
 視需要使用視覺化設計工具來變更表單內容：
 
-<!-- 
-
-* [Add fields](./form-design.md#add-field)
-* [Change field styling](./form-design.md#field-styling)
-* [Reorder fields](./form-design.md#field-reorder)
-* [Change submit button text and styling](./form-design.md#submit-button)
-* [Change the form styling](./form-design.md#form-styling)
-
--->
+* [新增欄位](./form-design.md#add-field)
+* [變更欄位樣式](./form-design.md#field-styling)
+* [重新排序欄位](./form-design.md#field-reorder)
+* [變更提交按鈕文字和樣式](./form-design.md#submit-button)
+* [變更表單樣式](./form-design.md#form-styling)
 
 按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;以儲存您的表單內容設計變更，並移至表單詳細資料。
 
@@ -167,7 +160,7 @@ Add to context help when available
 
 當您準備好讓表單可用於登入頁面或登入頁面範本時，請按一下&#x200B;**[!UICONTROL 發佈]**。
 
-<!-- ![Publish form dialog](./assets/form-publish-dialog.png){width="400"} -->
+![發佈表單對話方塊](../../user/content/assets/form-publish-dialog.png){width="400"}
 
 此動作會開啟確認對話方塊。 您可以按一下&#x200B;**[!UICONTROL 取消]**，或按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;進行確認，以中止發佈程式。
 
@@ -179,13 +172,13 @@ Add to context help when available
 >
 >如果登入頁面或登入頁面範本正在使用已發佈的表單，則無法編輯內容或變更感謝頁面。 如果您想要變更表單，可以建立草稿版本。
 
-<!-- ![View details for a published form](./assets/form-details-published.png){width="600" zoomable="yes"} -->
+![檢視已發佈表單的詳細資料](../../user/content/assets/form-details-published.png){width="600" zoomable="yes"}
 
 按一下&#x200B;**[!UICONTROL 編輯表單]**&#x200B;以開啟視覺化設計空間中的表單。
 
 隨時按一下左上方的&#x200B;_上一步_&#x200B;箭頭以結束檢視，此箭頭會返回&#x200B;_[!UICONTROL Forms]_&#x200B;清單頁面。
 
-## 檢視參考使用的表單
+## 檢視參考使用的表單 {#used-by}
 
 在右側的「_[!UICONTROL 摘要]_」面板中，按一下「**[!UICONTROL 使用者]**」標籤，以檢視[!DNL Journey Optimizer B2B Prime]中、所有登入頁面及登入頁面範本目前使用表單的詳細資訊。
 
@@ -193,7 +186,7 @@ Add to context help when available
 >
 >無法刪除任何登入頁面或登入頁面範本目前正在使用的任何表單。
 
-<!-- ![Used by references for the form](./assets/form-used-by-published.png){width="600" zoomable="yes"} -->
+![由表單](../../user/content/assets/form-used-by-published.png){width="600" zoomable="yes"}的參考使用
 
 根據類別顯示參考： _登陸頁面_&#x200B;或&#x200B;_登陸頁面範本_。 按一下連結以開啟使用表單的對應頁面或範本。
 
@@ -208,11 +201,11 @@ Add to context help when available
 
 此動作會開啟確認對話方塊。 您可以按一下&#x200B;**[!UICONTROL 取消]**，或按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;確認刪除，以中止程式。
 
-<!-- ![Delete form dialog](./assets/form-delete-dialog.png){width="400"} -->
+![刪除表單對話方塊](../../user/content/assets/form-delete-dialog.png){width="400"}
 
 如果表單目前正在使用中，動作會開啟資訊對話方塊，提醒您無法刪除表單。 按一下&#x200B;**[!UICONTROL 確定]**，這會中止刪除動作。
 
-<!-- ![Delete form dialog - cannot delete in-use form](./assets/form-delete-dialog-in-use.png){width="400"} -->
+![刪除表單對話方塊 — 無法刪除使用中的表單](../../user/content/assets/form-delete-dialog-in-use.png){width="400"}
 
 ## 複製表單 {#duplicate-forms}
 
@@ -223,11 +216,11 @@ Add to context help when available
 * 在表單詳細資料頁面的右上方，按一下&#x200B;**[!UICONTROL ...更多]**&#x200B;並選擇&#x200B;**[!UICONTROL 複製]**。
 * 從&#x200B;_[!UICONTROL Forms]_&#x200B;清單頁面，按一下&#x200B;_更多_ (**...**) 圖示並選取&#x200B;**[!UICONTROL 複製]**。
 
-<!-- ![Duplicate the form](./assets/form-list-page-duplicate.png){width="450"} -->
+![複製表單](../../user/content/assets/form-list-page-duplicate.png){width="450"}
 
 在對話方塊中，輸入有用的名稱（唯一）和說明。 按一下&#x200B;**[!UICONTROL 複製]**&#x200B;以完成動作。
 
-<!-- ![Name and description for the duplicate form](./assets/form-duplicate-dialog.png){width="400"} -->
+![重複表單的名稱和描述](../../user/content/assets/form-duplicate-dialog.png){width="400"}
 
 編輯重複表單以視需要變更名稱，並變更表單以供預期使用。
 
@@ -249,19 +242,17 @@ Add to context help when available
 
 1. 修改任何詳細資訊，例如名稱和說明。
 
-   <!-- ![Details for form with Draft status](./assets/form-details-draft.png){width="600" zoomable="yes"} -->
+   具有草稿狀態的表單的![詳細資料](../../user/content/assets/form-details-draft.png){width="600" zoomable="yes"}
 
 1. 若要變更視覺化設計空間中的表單，請按一下&#x200B;**[!UICONTROL 編輯表單]**。
 
-   <!--
-   Use the visual design tools as needed:
+   視需要使用視覺化設計工具：
 
-   * [Add fields](./form-design.md#add-field)
-   * [Change field styling](./form-design.md#field-styling)
-   * [Reorder fields](./form-design.md#field-reorder)
-   * [Change submit button text and styling](./form-design.md#submit-button)
-   * [Change the form styling](./form-design.md#form-styling)
-   -->
+   * [新增欄位](./form-design.md#add-field)
+   * [變更欄位樣式](./form-design.md#field-styling)
+   * [重新排序欄位](./form-design.md#field-reorder)
+   * [變更提交按鈕文字和樣式](./form-design.md#submit-button)
+   * [變更表單樣式](./form-design.md#form-styling)
 
    按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;以返回表單詳細資料。
 
@@ -277,17 +268,15 @@ Add to context help when available
 
 1. 在對話方塊中按一下&#x200B;**[!UICONTROL 建立草稿版本]**，在視覺化設計空間開啟草稿版本。
 
-   <!-- ![Create draft version dialog](./assets/form-published-edit-create-draft-dialog.png){width="400"} -->
+   ![建立草稿版本對話方塊](../../user/content/assets/form-published-edit-create-draft-dialog.png){width="400"}
 
 1. 視需要使用視覺化設計工具來更新表單內容：
 
-   <!--
-   * [Add fields](./form-design.md#add-field)
-   * [Change field styling](./form-design.md#field-styling)
-   * [Reorder fields](./form-design.md#field-reorder)
-   * [Change submit button text and styling](./form-design.md#submit-button)
-   * [Change the form styling](./form-design.md#form-styling)
-   -->
+   * [新增欄位](./form-design.md#add-field)
+   * [變更欄位樣式](./form-design.md#field-styling)
+   * [重新排序欄位](./form-design.md#field-reorder)
+   * [變更提交按鈕文字和樣式](./form-design.md#submit-button)
+   * [變更表單樣式](./form-design.md#form-styling)
 
    按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;以返回表單詳細資料。
 
@@ -302,17 +291,15 @@ Add to context help when available
 
    將會顯示草稿版本表單內容的預覽，表單詳細資訊會顯示在右側。
 
-   <!-- ![Edit the form draft version](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"} -->
+   ![編輯表單草稿版本](../../user/content/assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
 1. 按一下右側&#x200B;_[!UICONTROL 摘要]_&#x200B;窗格中的&#x200B;**[!UICONTROL 編輯表單]**，並視需要使用視覺化設計工具：
 
-   <!--
-   * [Add fields](./form-design.md#add-field)
-   * [Change field styling](./form-design.md#field-styling)
-   * [Reorder fields](./form-design.md#field-reorder)
-   * [Change submit button text and styling](./form-design.md#submit-button)
-   * [Change the form styling](./form-design.md#form-styling)
-   -->
+   * [新增欄位](./form-design.md#add-field)
+   * [變更欄位樣式](./form-design.md#field-styling)
+   * [重新排序欄位](./form-design.md#field-reorder)
+   * [變更提交按鈕文字和樣式](./form-design.md#submit-button)
+   * [變更表單樣式](./form-design.md#form-styling)
 
    按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;以返回表單詳細資料。
 
@@ -337,8 +324,8 @@ Forms是專為重複使用而設計，可在您設計[登陸頁面](./landing-pa
 * **[!UICONTROL 刪除]** — 此動作會從目前頁面或範本內容移除表單（表單來源不受影響）。
 * **[!UICONTROL 複製]** — 此動作會複製編輯器中的表單，並維持相同的維度。
 * **[!UICONTROL 檢視HTML]** — 此動作會針對表單開啟含有HTML的快顯視窗。 您可以編輯HTML，或複製它以用於其他網頁內容。
-* **[!UICONTROL 編輯表單]** — 此動作會開啟新的瀏覽器索引標籤，其中包含表單編輯器頁面和詳細資料。
+* **[!UICONTROL 編輯表單]** — 此動作會開啟新的瀏覽器索引標籤，其中包含表單編輯器頁面和詳細資訊。
 
 當您在登入頁面設計空間上選取表單時，可以從右側的內容工具列和屬性面板中取得這些動作。
 
-<!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
+![套用動作至選取的表單](../../user/content/assets/form-actions-page-authoring.png){width="600" zoomable="yes"}
