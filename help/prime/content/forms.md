@@ -107,7 +107,7 @@ ht-degree: 2%
 >id="ajo-b2b-prime_lp_form_preset"
 >title="選取預設集"
 >abstract="選擇預先定義的預設集，其中包含要使用的連線，以及表單預先定義的資料集。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="建立表單預設集"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="建立表單預設集"
 
 您可以在[!DNL Journey Optimizer B2B Prime]中建立表單，方法是按一下&#x200B;_[!UICONTROL Forms]_&#x200B;清單頁面右上角的&#x200B;**[!UICONTROL 建立表單]**。
 
