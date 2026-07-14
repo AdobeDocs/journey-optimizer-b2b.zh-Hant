@@ -14,9 +14,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 415cfd2d9bdeee87364fa8935bc8a2a8259174ba
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1601
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 ## 存取及管理登入頁面 {#access-manage-landing-pages}
 
-若要存取[!DNL Journey Optimizer B2B Prime]中的登入頁面，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 登入頁面]**。 此動作會顯示執行個體中建立的所有登入頁面清單。
+若要存取[!DNL Journey Optimizer B2B Prime]中的登入頁面，請移至左側導覽並展開&#x200B;**[!UICONTROL 內容管理]**。 然後選取&#x200B;**[!UICONTROL 登陸頁面]**。 此動作會顯示執行個體中建立的所有登入頁面清單。
 
 ![存取登入頁面程式庫](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
