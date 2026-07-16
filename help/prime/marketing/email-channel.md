@@ -17,9 +17,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
+source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: 1060
 ht-degree: 7%
 
 ---
@@ -103,7 +103,9 @@ ht-degree: 7%
 
      管理員在[電子郵件通道設定](../admin/email-channel-configuration.md)中建立設定。
 
-   * **[!UICONTROL 商業規則]** - （選擇性）選取規則集，將上限規則套用至您的電子郵件動作。
+   * **[!UICONTROL 商業規則]** - （選擇性）選取規則集，將上限或無訊息時數規則套用至您的電子郵件動作。
+
+     如需有關商業規則以及如何定義及啟用通道通訊規則集的詳細資訊，請參閱&#x200B;[_商業規則_](../admin/business-rules.md)。
 
    * **[!UICONTROL 動作追蹤]** — 選取您要追蹤電子郵件之動作的核取方塊。
 
