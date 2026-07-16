@@ -6,20 +6,14 @@ role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能屬於有限測試版的一部分。"
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 18%
+source-wordcount: 747
+ht-degree: 19%
 
 ---
 
@@ -29,13 +23,16 @@ ht-degree: 18%
 
 支援的檔案格式：JPG、JPEG、GIF、PNG、EPS、SVG 以及 RGB
 
+<!--
 >[!NOTE]
 >
->在此Beta版本中，您可以直接從電子郵件畫布中的Marketo Engage資產庫一次性副本選擇影像和資產。 在初始複製後修改Marketo Engage中的資產&#x200B;**不會**&#x200B;反映在[!DNL Journey Optimizer B2B Prime]中。
->
->您可以從&#x200B;_[!UICONTROL Assets]_&#x200B;資料庫或內容設計空間上傳其他影像資產。 這些上傳的資產只能在[!DNL Journey Optimizer B2B Prime]執行個體中使用。
->
->無法從外部系統匯入資產，也無法存取預先填入的資產庫。 預計未來版本將包括從現有系統匯入資產、資料夾支援和擴充的資產管理功能。
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
+-->
+
+>>
+您可以從&#x200B;_[!UICONTROL Assets]_&#x200B;資料庫或內容設計空間上傳其他影像資產。 這些上傳的資產只能在[!DNL Journey Optimizer B2B Prime]執行個體中使用。
+>>
+無法從外部系統匯入資產，也無法存取預先填入的資產庫。 預計未來版本將包括從現有系統匯入資產、資料夾支援和擴充的資產管理功能。
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
 
@@ -84,7 +81,7 @@ ht-degree: 18%
 
    ![上傳影像資產](./assets/dam-upload-assets-dialog.png){width="450"}
 
-   或者，您可以按一下[從電腦中選取檔案]&#x200B;**&#x200B;**，使用本機檔案系統來尋找及選取檔案。
+   或者，您可以按一下[從電腦中選取檔案]****，使用本機檔案系統來尋找及選取檔案。
 
 1. 按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以確認並上傳檔案到存放庫。
 

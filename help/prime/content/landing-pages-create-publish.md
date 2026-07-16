@@ -6,20 +6,14 @@ feature: Landing Pages, Content Design Tools
 role: User
 autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 10%
+source-wordcount: 1562
+ht-degree: 11%
 
 ---
 
@@ -87,7 +81,7 @@ ht-degree: 10%
 
    每個登入頁面最多可新增兩個子頁面。
 
-在您設定並設計主要頁面及任何子頁面後，請先測試您的登入頁面[&#128279;](#test-landing-page)，然後再發佈。
+在您設定並設計主要頁面及任何子頁面後，請先測試您的登入頁面](#test-landing-page)，然後再發佈。[
 
 >[!CAUTION]
 >
@@ -158,11 +152,26 @@ ht-degree: 10%
 
 1. [測試登入頁面](#test-landing-page)。
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ### 匯入HTML {#import-html}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+匯入的內容可以是：
+
+* 包含內建樣式表的HTML檔案
+* 包含HTML檔案、樣式表(.css)和影像的.zip檔案
+
+  >[!NOTE]
+  >
+  >.zip 檔案結構沒有限制。 不過，參照必須是相對參照，而且符合.zip資料夾的樹狀結構。 影像一律會上傳至[資產存放庫](./digital-asset-management.md)。
+
+若要匯入包含HTML內容的檔案(_T):_
+
+1. 從設計首頁選取&#x200B;**[!UICONTROL 匯入HTML]**&#x200B;選項。
+
+1. 拖放包含 HTML 內容的 HTML 或 .zip 檔案，然後按一下「**[!UICONTROL 匯入]**」。
 
 ![將HTML內容匯入zip檔](../../user/content/assets/templates-import-zip-file.png){width="500"}
 
@@ -170,7 +179,7 @@ ht-degree: 10%
 >
 >在HTML檔案中使用`<table>`標籤做為第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
 
-您可以視需要利用視覺化設計空間個人化匯入的內容。
+您可以視需要使用視覺化設計工具個人化匯入的內容。
 
 ## 檢查警報 {#check-alerts}
 
@@ -217,7 +226,7 @@ ht-degree: 10%
 
    ![針對選取的設定檔模擬登陸頁面內容](../../user/content/assets/landing-page-simulate.png){width="700" zoomable="yes"}
 
-   如果未列出您需要的設定檔，請按一下[管理測試設定檔] **，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**
+   如果未列出您需要的設定檔，請按一下[管理測試設定檔] ]**，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**[!UICONTROL 
 
    +++新增測試設定檔
 

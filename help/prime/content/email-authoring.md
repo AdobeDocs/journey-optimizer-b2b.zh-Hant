@@ -4,22 +4,14 @@ description: 瞭解如何使用視覺畫布、拖放工具、HTML匯入和可重
 badgeBeta: label="Beta" type="informative" tooltip="此功能屬於有限測試版的一部分。"
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 2209
-ht-degree: 1%
+source-wordcount: 2300
+ht-degree: 2%
 
 ---
 
@@ -90,11 +82,26 @@ ht-degree: 1%
 
 1. [測試電子郵件](#check-and-test-the-email)。
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容 {#import-html-content}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+匯入的內容可以是：
+
+* 包含內建樣式表的HTML檔案
+* 包含HTML檔案、樣式表(.css)和影像的.zip檔案
+
+  >[!NOTE]
+  >
+  >.zip 檔案結構沒有限制。 不過，參照必須是相對參照，而且符合.zip資料夾的樹狀結構。 影像一律會上傳至[資產存放庫](./digital-asset-management.md)。
+
+若要匯入包含HTML內容的檔案(_T):_
+
+1. 從設計首頁選取&#x200B;**[!UICONTROL 匯入HTML]**&#x200B;選項。
+
+1. 拖放包含 HTML 內容的 HTML 或 .zip 檔案，然後按一下「**[!UICONTROL 匯入]**」。
 
 ![將html內容匯入zip檔](../../user/content/assets/email-import-zip-file.png){width="500"}
 
@@ -148,7 +155,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容[&#128279;](./template-content-governance.md)的範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ### 新增片段 {#visual-fragments}
 
