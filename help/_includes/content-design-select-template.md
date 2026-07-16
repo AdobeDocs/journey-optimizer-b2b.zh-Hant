@@ -3,7 +3,7 @@ title: 內容製作 — 選取電子郵件範本
 description: 重複使用關於選取電子郵件範本以進行內容製作的區段
 source-git-commit: 985b0ac83f21e5ec0bf8d49d3d94deb5035789be
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * **儲存的範本**。 使用您使用&#x200B;_[!UICONTROL 範本]_&#x200B;功能表從頭建立或使用&#x200B;_[!UICONTROL 另存為內容範本]_&#x200B;選項從歷程中的電子郵件儲存的已儲存自訂範本。
 
-使用&#x200B;_[!UICONTROL 選取設計範本]_&#x200B;區段來開始從範本建立您的內容。 您可以使用範例範本或儲存的Journey Optimizer B2B Edition執行個體自訂電子郵件範本。
+使用&#x200B;_[!UICONTROL 選取設計範本]_&#x200B;區段來開始從範本建立您的內容。 您可以使用範例範本或儲存的Journey Optimizer B2B edition執行個體自訂電子郵件範本。
 
 >[!BEGINTABS]
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!TAB 範例範本]
 
-Adobe Journey Optimizer B2B Edition提供&#x200B;_現成可用的電子郵件範本_&#x200B;選項，可用來建立電子郵件和電子郵件範本。
+Adobe Journey Optimizer B2B edition提供&#x200B;_現成可用的電子郵件範本_&#x200B;選項，可用來建立電子郵件和電子郵件範本。
 
 ![選擇Adobe提供的範本](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
 
