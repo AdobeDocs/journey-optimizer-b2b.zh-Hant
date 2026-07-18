@@ -13,9 +13,9 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1433
 ht-degree: 19%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 19%
 
 * 按一下「_編輯_」圖示（「![編輯」圖示](../../assets/do-not-localize/icon-react-edit.svg)）以變更歷程名稱或說明資訊。
 * 按一下&#x200B;**[!UICONTROL 歷程設定]**&#x200B;以變更歷程開始和週期。
-* 按一下&#x200B;**[!UICONTROL ...超過]**&#x200B;套用歷程動作，或啟用/停用流量控制和重新進入。
+* 按一下&#x200B;**[!UICONTROL ...更多]**&#x200B;以套用歷程動作，或啟用/停用[歷程流量控制](./journey-traffic-control.md)並重新進入。
 * 如果所有錯誤都已解決且您想要啟動歷程，請按一下&#x200B;**[!UICONTROL 發佈]**。
 
 ### 歷程設計 {#journey-design}
