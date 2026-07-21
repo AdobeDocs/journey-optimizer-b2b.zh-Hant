@@ -4,11 +4,16 @@ description: 設定帳戶和人員觸發器的事件節點 — 在Journey Optimi
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
 source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
@@ -251,7 +256,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 您可以在&#x200B;_[!UICONTROL 編輯事件]_&#x200B;對話方塊中使用B2B個人資料屬性中的變更來觸發個人歷程中的節點。
 
-1. 從**2}觸發器&#x200B;]_清單，將[!UICONTROL 人員設定檔變更]**拖放至事件相符產生器空間。_[!UICONTROL 
+1. 從&#x200B;**2&rbrace;觸發器&#x200B;_清單，將[!UICONTROL 人員設定檔變更]**&#x200B;拖放至事件相符產生器空間。_
 
 1. 按一下&#x200B;**[!UICONTROL 新增限制]**，然後選取您要用於事件觸發器的屬性變更。
 
@@ -269,7 +274,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 ## 事件篩選器 {#filters-people-event}
 
-當您在帳戶歷程](#people-events)中定義[個人事件，或在個人歷程](#person-journeys)中定義[個人事件時，您可以包含篩選功能，以根據各種條件限制相符的事件觸發器：
+當您在帳戶歷程[&#128279;](#people-events)中定義[個人事件，或在個人歷程](#person-journeys)中定義個人事件時，您可以包含篩選功能，以根據各種條件限制相符的事件觸發器：
 
 | 篩選器 | 說明 |
 | ------------ | ----------- |
