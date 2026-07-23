@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Prime檔案
 user-guide-description: 瞭解Adobe Journey Optimizer B2B Prime以及如何將其用於？
 hide: true
-source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
+source-git-commit: 120afb1109e550fc65c2fc5a01680f2d7d2e2345
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 54%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 54%
   + [從簡介建立計畫](./agents/program-from-brief.md)
   + [建立方案的對象](./agents/audience-creation.md)
   + [建立自訂評分模型](./agents/lead-scoring-model.md)
++ [AI決策](./agents/ai-decisioning.md)
 + 行銷管理 {#marketing-management}
   + [概觀](./marketing/marketing-management.md)
   + 方案 {#programs}
