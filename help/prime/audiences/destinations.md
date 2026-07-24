@@ -1,6 +1,7 @@
 ---
 title: 目標
-description: 瞭解如何在Journey Optimizer B2B Prime中連線目的地並啟用靜態人員清單，以將受眾資料匯出至廣告、電子郵件和其他行銷平台。
+description: 瞭解所需的許可權、支援的目的地，以及如何在Journey Optimizer B2B Prime中連線目的地，以將靜態人員清單啟用至廣告和社交平台。
+badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-06-17T18:30:02.442Z'
 TQID: 'https://experienceleague.adobe.com/xO1p-VvIfv1KB77g0l2-fFRHQ0w2hy97vnG1QHpMw8c'
 product_v2:
@@ -14,113 +15,96 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 2%
+source-wordcount: 655
+ht-degree: 8%
 
 ---
 
 # 目標
 
-目的地是預先建立的整合，可讓您將人員清單資料從[!DNL Adobe Journey Optimizer B2B Prime]匯出至外部行銷平台，例如廣告網路、電子郵件服務提供者及CRM系統。 在[!DNL Journey Optimizer B2B Prime]中，您對目的地啟用[靜態人員清單](./people-lists.md#static-list) （由Marketo Engage人員記錄組成），以便這些對象可用於下游管道中的目標定位和參與。
+目的地是預先建立的整合，可讓您從[!DNL Journey Optimizer B2B Prime]將[靜態人物清單](./people-lists.md#static-lists)傳送至外部廣告或社交平台，例如LinkedIn促銷活動對象、Google客戶比對對象或Facebook自訂對象。 啟用靜態清單至目的地可保持成員資格同步：當在清單中新增或移除人員時，目標對象會相應新增或移除人員，延伸至對象摘要的任何促銷活動時，也會移除人員。
 
-<!-- 
-Does not align w/AEP info for Beta
+有兩種方式可將人員啟用至連線的目的地：
 
-Activating a static list to a destination follows a three-step process:
+* **從靜態清單** — 直接從&#x200B;**_[!UICONTROL 人員清單]_**&#x200B;索引標籤啟動現有的靜態清單。 請參閱[啟用至目的地](./people-lists.md#static-list-activate)。
+* **從個人歷程** — 將&#x200B;**_[!UICONTROL 啟用至目的地]_**&#x200B;動作新增至歷程路徑，讓到達該節點的任何人新增至清單並傳送至目的地。 請參閱&#x200B;[_新增動作節點_](../marketing/action-nodes.md#add-an-action-node)。
 
-1. **Connect** — Authenticate and configure a connection to a destination platform.
-1. **Map** — Select the static list and map its people attributes to the fields required by the destination.
-1. **Schedule** — Define when and how often the list data is exported to the destination.
+>[!BEGINSHADEBOX]
 
-Destination activations reflect the membership state of the static list at the time of each synch.
+## 必要權限 {#required-permissions}
 
-## Destination types {#destination-types}
+完整目的地功能需要啟用下列[!DNL Adobe Experience Platform]許可權。
 
-[!DNL Journey Optimizer B2B Prime] supports the following destination types for activating static people lists:
+| 類別 | 權限 | 必要 |
+|--- |--- |--- |
+| 沙箱 | 沙箱存取&#x200B;_（預設為啟用）_ | 是 |
+| 儀表板 | 檢視標準儀表板 | 是 |
+| 儀表板 | 管理標準儀表板 | 是 |
+| 目標 | 檢視目的地 | 是 |
+| 目標 | 管理目的地 | 是 |
+| 目標 | 啟用目的地 | 是 |
+| 目標 | 啟用區段而不進行對應 | 是 |
+| 目標 | 管理和啟用資料集目的地 | 是 |
+| 目標 | 目的地製作 | 是 |
+| 資料治理 | 檢視資料使用原則 | 是 |
+| 資料治理 | 管理資料使用原則 | 是 |
+| 資料擷取 | 檢視來源 | 是 |
+| 資料擷取 | 管理來源 | 是 |
+| 輪廓管理 | 檢視設定檔設定 | 是 |
+| 輪廓管理 | 管理設定檔設定 | 是 |
 
-| Type | Description |
-|--- |--- |
-| Streaming | Real-time API-based connections that push audience membership updates to the destination as they occur. |
-| File-based (batch) | Scheduled exports that deliver audience data as structured files to cloud storage or SFTP locations, which the destination platform then ingests. |
+>[!ENDSHADEBOX]
 
--->
+## 支援的目的地 {#supported-destinations}
 
-## 連線到目的地 {#connect-destination}
+目的地必須存在於目的地目錄中，您才能啟用靜態清單。 在左側導覽列中，展開&#x200B;**[!UICONTROL 連線]**&#x200B;並選取&#x200B;**[!UICONTROL 目的地]**。 [!DNL Journey Optimizer B2B Prime]目前支援下列目的地：
 
-1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 連線]**&#x200B;並選取&#x200B;**[!UICONTROL 目的地]**。
+* **[!UICONTROL Google Customer Match]** (Advertising)
+* **[!UICONTROL Facebook自訂對象]** （社交）
+* **[!UICONTROL LinkedIn相符對象]** （社交）
 
-1. 在&#x200B;_[!UICONTROL 目錄]_&#x200B;索引標籤中，找出外部目的地型別聯結器。
+![存取可用的聯結器型別](./assets/destinations-catalog.png){width="800" zoomable="yes"}
 
-   >[!TIP]
-   >
-   >您可以在搜尋方塊中輸入名稱（例如`LinkedIn`）來快速尋找聯結器。
+>[!NOTE]
+>
+>此目錄不是完整的[!DNL Adobe Experience Platform]目的地目錄。 如果您直接從[!DNL Experience Platform]存取目的地，您會看到較大型的目錄，但目前在[!DNL Journey Optimizer B2B Prime]中只能啟用這些目的地。 未來版本計畫推出其他目的地。
 
-   ![存取可用的聯結器型別](./assets/destinations-catalog.png){width="800" zoomable="yes"}
+## 設定目的地 {#set-up-destination}
+
+每個支援的目的地卡片都會顯示&#x200B;**[!UICONTROL 設定新的目的地]**。 設定目的地是啟用的先決條件。
 
 1. 在聯結器卡中，按一下&#x200B;**[!UICONTROL 設定新的目的地]**。
 
-1. 選取&#x200B;**[!UICONTROL 新帳戶]**&#x200B;並輸入您的帳戶認證。
+1. 選取&#x200B;**[!UICONTROL 現有帳戶]**&#x200B;或&#x200B;**[!UICONTROL 新帳戶]**，然後輸入帳戶詳細資料，例如帳戶名稱和描述。
 
    ![連線新的目的地帳戶](./assets/destinations-configure-new.png){width="500"}
 
 1. 按一下&#x200B;**[!UICONTROL 連線到目的地]**。
 
+   OAuth流程可讓您登入對應的帳戶：LinkedIn、Google或Facebook。
+
    >[!IMPORTANT]
    >
    >此時，**不要**&#x200B;輸入&#x200B;_[!UICONTROL 目的地詳細資料]_。 只需要連線。
 
+1. 完成人員屬性與目的地所需欄位之間的任何所需欄位對應。
+
 1. 檢閱資料控管和行銷動作設定，然後按一下[儲存]。**&#x200B;**
 
-連線的目的地會顯示在&#x200B;_[!UICONTROL 瀏覽]_&#x200B;索引標籤上的清單中，並可用於靜態清單啟用。
+如需完整的設定步驟，請參閱[!DNL Experience Platform]檔案中的[建立新的目的地連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
 
-## 對目的地啟用靜態清單 {#activate}
+設定後，目的地可供您在[!DNL Journey Optimizer B2B Prime]中選取目的地的所有地方啟動。
 
->[!NOTE]
+## 啟用與同步 {#activation-sync}
+
+啟用由靜態清單成員資格驅動，在清單和目的地對象之間具有雙向同步：
+
+* 將人員新增至靜態清單會在24小時內將其啟用至目的地，新增至目的地對象，接著新增至對象摘要的任何促銷活動。
+* 從靜態清單中移除人員，會導致其從目的地停用，並會從目的地對象和任何連線的行銷活動中移除。
+* 同一份清單可一次啟用至多個目的地；所有目的地的成員資格都會同步。
+
+>[!TIP]
 >
->只有[靜態人員清單](./people-lists.md#static-list)可在[!DNL Journey Optimizer B2B Prime]中啟用至目的地。 [動態清單](./people-lists.md#dynamic-lists)不符合目的地啟用的資格。
-
-1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 行銷管理]**。
-
-1. 在&#x200B;**[!UICONTROL 行銷]**&#x200B;資源清單的右側，選取&#x200B;**[!UICONTROL 人員清單]**。
-
-   ![存取人員清單以管理您的對象](./assets/people-lists.png){width="800" zoomable="yes"}
-
-1. 選取&#x200B;**[!UICONTROL 靜態清單]**&#x200B;索引標籤。
-
-1. 找出您要啟用至目的地的靜態清單。
-
-1. 按一下靜態清單名稱旁的&#x200B;_啟動_ （ ![啟動圖示](../../assets/do-not-localize/icon-falco-activate-dest.svg) ）圖示。
-
-1. 選取已設定之目的地連線的核取方塊。
-
-   ![可供啟用的已設定目的地](./assets/static-list-activate-destination-select.png){width="700" zoomable="yes"}
-
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
-
-<!--
-
-This method not working for Beta
-
-1. On the _[!UICONTROL Browse]_ tab, locate the destination you want to use for the activation and click the name to open it.
-
-1. Select the **[!UICONTROL Activation data]** tab.
-
-1. Click **[!UICONTROL Activate people lists]**.
-
-1. Select the static people list you want to export and click **[!UICONTROL Next]**.
-
-1. Map the people list attributes to the required fields of the destination schema and click **[!UICONTROL Next]**.
-
-1. Set the export schedule:
-
-   * **[!UICONTROL Frequency]** — Choose how often the list is exported (for example, daily or weekly).
-   * **[!UICONTROL Start date]** — Set when the first export should run.
-
-1. Review the activation summary and click **[!UICONTROL Finish]**.
-
-The activation is created and the static list data is exported to the destination according to the defined schedule.
-
--->
-
+>若要針對區段執行LinkedIn行銷活動，請針對您的LinkedIn相符對象目的地啟用這些人員的靜態清單。 清單中的所有人都會新增至LinkedIn中的相符對象，行銷活動可鎖定這些人，且對象會在清單變更時自動保持最新狀態。

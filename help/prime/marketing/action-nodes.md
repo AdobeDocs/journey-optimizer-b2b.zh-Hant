@@ -1,6 +1,6 @@
 ---
 title: 執行動作節點
-description: 預留位置
+description: 在Journey Optimizer B2B edition Prime中設定「採取動作」節點，以新增、移除或更新人員、清單、程式和目標，或是在他們到達人員歷程中的節點時傳送訊息。
 autotag-review: '2026-06-12T22:58:21.806Z'
 TQID: 'https://experienceleague.adobe.com/uR-WvNz3gA6V7yyN3RRXH-MggrmGb1qvu1CBhMZRuAc'
 product_v2:
@@ -13,10 +13,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 2%
+source-wordcount: 1125
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 | 動作 | 限制 |
 | ------ | ----------- |
-| **[!UICONTROL 啟用到目的地]** | <li>選取或建立靜態清單 <li>如果清單沒有啟用的目的地，請啟用清單 |
+| **[!UICONTROL 啟用到目的地]** | <li>選取或建立靜態清單 <li>如果清單沒有已啟用的目的地，請將清單啟用至一或多個目的地 |
 | **[!UICONTROL 新增人員至歷程]** | <li>選取已排程或即時歷程 <li>未套用目標歷程的對象條件 |
 | **[!UICONTROL 新增至清單]** | <li>建立新的靜態清單或選取現有的清單 |
 | **[!UICONTROL 新增至Marketo清單]** | <li>在Marketo Engage中選取靜態清單 |
@@ -54,15 +54,44 @@ ht-degree: 2%
 
 +++針對目的地啟用
 
-使用此動作直接從您的歷程啟用人員到Experience Platform目的地。 選取目的地並輸入對象名稱，以識別目的地中已啟用的對象。
+使用此動作將人員新增至靜態清單，並直接從您的歷程將該清單啟動至目的地。 您可以使用現有的靜態清單，或建立專為歷程使用的清單。
+
+>[!PREREQUISITES]
+>
+>設定&#x200B;_啟用至目的地_&#x200B;歷程節點之前，您必須先為您的[!DNL Journey Optimizer B2B Prime]沙箱設定一或多個[已設定的目的地](../audiences/destinations.md)。
 
 ![採取動作 — 啟用到目的地](./assets/person-action-node-activate-to-destination.png){width="450"}
+
+在&#x200B;**[!UICONTROL 新增至清單]**&#x200B;下，選擇下列其中一個選項：
+
+* **[!UICONTROL 建立]** — 建立新的靜態清單並新增人員。 此清單立即可在&#x200B;**[!UICONTROL 人員清單]**&#x200B;下取得。
+
+  為清單選取父計畫，並輸入&#x200B;**[!UICONTROL 名稱]** （必要）和&#x200B;**[!UICONTROL 描述]** （選用）。 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以新增節點的清單。
+
+  ![建立要用於歷程節點](./assets/person-action-node-destination-create-list.png){width="375"}的靜態清單
+
+* **[!UICONTROL 選取]** — 選取您要新增到達節點之人員的現有靜態清單。
+
+  選取現有靜態清單的核取方塊，然後按一下[儲存]。**&#x200B;**
+
+  ![選取要用於歷程節點](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}的靜態清單
+
+到達節點的任何人都會新增至所選的靜態清單，但動作要等到清單啟動至目的地之後才會完成：
+
+* 如果選取的清單已經啟動，則其目的地會顯示在&#x200B;**[!UICONTROL 目的地]**&#x200B;下方，而且動作已就緒。
+* 否則，會顯示&#x200B;_至少需要一個目的地_&#x200B;訊息。 按一下&#x200B;**[!UICONTROL 啟用清單至目的地]**，選取目的地，然後按一下&#x200B;**[!UICONTROL 儲存]**。 在確認對話方塊中按一下&#x200B;**[!UICONTROL 啟動]**。
+
+![可供啟用的已設定目的地](../audiences/assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+
+啟用完成時，目的地會顯示在&#x200B;**[!UICONTROL 目的地]**&#x200B;下方，而且動作已就緒。 如有需要，您可以啟用其他目的地的清單。
+
+到達節點的任何人都會新增至所選的靜態清單（這會在所選目的地啟動），因此他們都會新增至該目的地對象，進而新增至對象摘要的任何促銷活動。
 
 +++
 
 +++[!UICONTROL 新增人員至歷程]
 
-使用此動作將人員新增到其他排程或即時歷程。 透過此動作新增的人員會立即新增至目標歷程的對象中；不會套用歷程的對象條件。
+使用此動作將人員新增到其他排程或即時歷程。 透過此動作新增的人員會立即新增至目標歷程的對象中；目標歷程的對象條件不會套用。
 
 ![採取動作 — 將人員新增至歷程](./assets/person-action-node-add-to-journey.png){width="450"}
 
@@ -77,7 +106,7 @@ ht-degree: 2%
 選擇下列其中一個選項：
 
 * **[!UICONTROL 建立]** — 建立新的靜態清單資產並新增人員。 清單可立即供Journey Optimizer B2B Prime中的其他資產使用。
-* **[!UICONTROL 選取]** — 選取您想要新增到達節點之人員的現有靜態清單資產。
+* **[!UICONTROL 選取]** — 選取您要新增到達節點之人員的現有靜態清單資產。
 
 +++
 
@@ -155,9 +184,9 @@ ht-degree: 2%
 
 ![採取動作 — 傳送電子郵件](./assets/person-action-node-send-email.png){width="450"}
 
-您可以建立電子郵件、編輯現有電子郵件，或使用AI個人化電子郵件。 如需有關建立和編輯電子郵件的資訊，請參閱[電子郵件頻道](../marketing/email-channel.md)。
+您可以建立電子郵件、編輯現有電子郵件，或使用AI個人化電子郵件。 如需有關建立和編輯電子郵件的資訊，請參閱[電子郵件頻道](./email-channel.md)。
 
-您可以使用[傳送時間最佳化](../marketing/email-send-time-optimization.md)，透過預測每個設定檔最有可能參與的時間來個人化電子郵件傳遞時間。
+您可以使用[傳送時間最佳化](./email-send-time-optimization.md)，透過預測每個設定檔最有可能參與的時間來個人化電子郵件傳遞時間。
 
 +++
 
