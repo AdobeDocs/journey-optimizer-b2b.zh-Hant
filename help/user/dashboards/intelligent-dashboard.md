@@ -4,21 +4,14 @@ description: 存取AI支援的深入分析，瞭解如何在Journey Optimizer B2
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:43:58.948Z
 TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
 source-wordcount: 1682
 ht-degree: 16%
@@ -27,7 +20,7 @@ ht-degree: 16%
 
 # 智慧儀表板
 
-智慧型儀表板提供購買群組和帳戶量度的全方位檢視，協助您更有效地監控和制定行銷策略。
+智慧型儀表板提供[購買群組](../buying-groups/buying-groups-overview.md)和帳戶量度的完整檢視，協助您更有效地監控和策略化行銷工作。
 
 若要存取&#x200B;_智慧型儀表板_，請在左側導覽中選取&#x200B;**[!UICONTROL 儀表板]**&#x200B;專案。
 
@@ -132,9 +125,9 @@ _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群
 
   ![購買群組意向資料](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
-   * 詳細資訊快顯視窗會顯示類別名稱，其意圖層級位於頂端。
-   * 每一列的資料會以欄的形式組織：產品名稱、產品意圖強度，以及依意圖強度排名的前幾個關鍵字。
-   * 類別、產品和關鍵字的排序順序為高到低。 如果每種型別的一或多個具有相同的意圖強度，則排序會使用字母順序。
+  * 詳細資訊快顯視窗會顯示類別名稱，其意圖層級位於頂端。
+  * 每一列的資料會以欄的形式組織：產品名稱、產品意圖強度，以及依意圖強度排名的前幾個關鍵字。
+  * 類別、產品和關鍵字的排序順序為高到低。 如果每種型別的一或多個具有相同的意圖強度，則排序會使用字母順序。
 
   {{intent-data-note}}
 
@@ -226,9 +219,9 @@ _[!UICONTROL 帳戶醒目提示]_&#x200B;區段已組織為兩列，以顯示貴
 
   ![帳戶意圖資料](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
-   * 詳細資訊快顯視窗會顯示類別名稱，其意圖層級位於頂端。
-   * 每一列的資料會以欄的形式組織：產品名稱、產品意圖強度，以及依意圖強度排名的前幾個關鍵字。
-   * 類別、產品和關鍵字的排序順序為高到低。 如果每種型別的一或多個具有相同的意圖強度，則排序會使用字母順序。
+  * 詳細資訊快顯視窗會顯示類別名稱，其意圖層級位於頂端。
+  * 每一列的資料會以欄的形式組織：產品名稱、產品意圖強度，以及依意圖強度排名的前幾個關鍵字。
+  * 類別、產品和關鍵字的排序順序為高到低。 如果每種型別的一或多個具有相同的意圖強度，則排序會使用字母順序。
 
   {{intent-data-note}}
 <!--
