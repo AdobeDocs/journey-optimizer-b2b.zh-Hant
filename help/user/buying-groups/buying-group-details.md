@@ -1,6 +1,6 @@
 ---
 title: 購買群組詳細資訊
-description: 透過Journey Optimizer B2B edition的AI見解檢視購買群組詳細資訊、管理成員角色、追蹤參與分數和分析意圖資料。
+description: 透過Journey Optimizer B2B edition中的AI支援見解檢視購買群組詳細資訊、管理成員角色、追蹤參與分數和分析意圖資料。
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:46:01.279Z
 TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: 788
+source-wordcount: 789
 ht-degree: 4%
 
 ---

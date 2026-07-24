@@ -1,9 +1,9 @@
 ---
 title: 程式碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2355'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->為您的Journey Optimizer B2B edition執行個體設定意圖資料時，即會包含該資料。 它還需要一個或多個已發佈的歷程&#x200B;**或**&#x200B;建立的購買群組。 如需有關意圖偵測模型以及如何提交關鍵字、產品和類別的詳細資訊，請參閱[意圖資料](../user/admin/intent-data.md)。
+>為您的Journey Optimizer B2B edition執行個體設定意圖資料時，即會包含該資料。 它還需要一個或多個已發佈的歷程&#x200B;**或**&#x200B;建立的購買群組。 如需有關意圖偵測模型以及如何提交關鍵字、產品和類別的詳細資訊，請參閱[意圖資料](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)。
 
 ## AEM Assets授權注意事項 {#aem-assets-licensing-note}
 
@@ -185,13 +185,13 @@ HTML元件的![對齊樣式](../assets/content-design-shared/content-components-
 
 * **[!UICONTROL 寬度]** — 使用切換功能以畫素或百分比設定寬度。
 
-   * 若為百分比寬度，請使用滑桿來設定百分比值。 百分比會根據包含區塊的內容方塊來決定元素大小，其中不包含邊框間距和邊框。 例如，值50會將元素寬度設定為其所包含區塊內容寬度的50%。
+  * 若為百分比寬度，請使用滑桿來設定百分比值。 百分比會根據包含區塊的內容方塊來決定元素大小，其中不包含邊框間距和邊框。 例如，值50會將元素寬度設定為其所包含區塊內容寬度的50%。
 
-     使用百分比的![寬度樣式](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
+    使用百分比的![寬度樣式](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
 
-   * 針對以畫素為基礎的寬度，按一下向上和向下箭頭圖示，以增加或減少畫素數量。 空白值(Auto)是預設值，會根據元素內容調整元素寬度。
+  * 針對以畫素為基礎的寬度，按一下向上和向下箭頭圖示，以增加或減少畫素數量。 空白值(Auto)是預設值，會根據元素內容調整元素寬度。
 
-     使用畫素的![寬度樣式](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
+    使用畫素的![寬度樣式](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
 
 ## 內容元件 — 文字樣式 {#styles-text}
 

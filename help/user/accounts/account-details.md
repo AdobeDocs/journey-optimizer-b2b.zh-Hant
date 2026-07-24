@@ -1,6 +1,6 @@
 ---
 title: 帳戶詳細資料
-description: 在Journey Optimizer B2B edition中使用AI摘要、意圖偵測、聯絡人涵蓋範圍分析和電子郵件通訊來檢視帳戶深入分析。
+description: 在Journey Optimizer B2B edition中使用AI產生的摘要、意圖偵測、聯絡人涵蓋範圍分析和電子郵件通訊來檢視帳戶深入分析。
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
@@ -15,10 +15,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: 641
-ht-degree: 5%
+source-wordcount: 642
+ht-degree: 6%
 
 ---
 
@@ -71,7 +71,7 @@ _[!UICONTROL 連絡人涵蓋範圍]_&#x200B;區段會顯示帳戶中具有與解
 * 帳戶
 * 職稱
 * 購買群組
-* 個人參與分數
+* 人員參與度分數
 * 上次活動
 * 詳細資料
 
