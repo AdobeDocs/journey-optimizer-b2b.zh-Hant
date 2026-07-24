@@ -16,13 +16,13 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->為您的Journey Optimizer B2B edition執行個體設定意圖資料時，即會包含該資料。 它還需要一個或多個已發佈的歷程&#x200B;**或**&#x200B;建立的購買群組。 如需有關意圖偵測模型以及如何提交關鍵字、產品和類別的詳細資訊，請參閱[意圖資料](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)。
+>為您的Journey Optimizer B2B edition執行個體設定意圖資料時，即會包含該資料。 它還需要一個或多個已發佈的歷程&#x200B;**或**&#x200B;建立的購買群組。 如需有關意圖偵測模型以及如何提交關鍵字、產品和類別的詳細資訊，請參閱[意圖資料](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)。
 
 ## AEM Assets授權注意事項 {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。整合僅限於來自&#x200B;_傳遞層級_&#x200B;的存放庫。如果您使用&#x200B;_作者階層_&#x200B;並想要轉換它，請連絡Adobe Experience Manager支援。<br/>
+>AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。整合僅限於來自&#x200B;_傳遞層級_&#x200B;的存放庫。如果您使用&#x200B;_作者階層_&#x200B;並想要轉換它，請連絡Adobe Experience Manager支援。<br/>
 >根據您的合約和設定，在設計視覺內容時，可以直接從Adobe Experience Manager Assets B2B edition存取Adobe Journey Optimizer as a Cloud Service 。
 
 ## 內容製作 — 元件 — 結構步驟 {#structures-step}
