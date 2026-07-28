@@ -6,12 +6,19 @@ role: User, Developer
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-07-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0004f8fba0c3d4ae89063418e4d3ef8fea22b0c3
 workflow-type: tm+mt
 source-wordcount: 1074
@@ -143,7 +150,7 @@ _指令碼產生器_&#x200B;是AI支援的助理，可在[!DNL Adobe Journey Opt
 
 按一下&#x200B;**[!UICONTROL 驗證]**&#x200B;以根據[!DNL Journey Optimizer B2B Edition]結構描述檢查產生的Handlebars。 儲存時驗證會再次執行，這樣損壞的個人化就不會發佈到即時電子郵件。
 
-當您滿意結果時，請按一下[儲存]，將指令碼直接插入電子郵件中所選的位置。****
+當您滿意結果時，請按一下[儲存]，將指令碼直接插入電子郵件中所選的位置。**&#x200B;**
 
 <!--
 ### Save reusable conversion profiles {#save-reusable-conversion-profiles}
