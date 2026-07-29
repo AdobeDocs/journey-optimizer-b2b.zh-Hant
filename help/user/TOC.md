@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
+source-git-commit: 32756215b4df116f3a70b494820ad91a4feeb46a
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 85%
 
 ---
@@ -14,165 +14,166 @@ ht-degree: 85%
 + [Adobe Journey Optimizer B2B Ultimate檔案](guide-overview.md)
 + [發行說明](./release-notes/release-notes.md)
 + 開始使用 {#get-started}
-   + [Journey Optimizer B2B Edition 概觀](about-journey-optimizer-b2b-edition.md)
-   + 環境設定 {#admin-setup}
-      + [設定檢查清單](./setup-ultimate.md)
-      + [名稱空間和結構描述](./data/namespaces-schemas.md)
-      + [XDM欄位選擇](./admin/xdm-field-management.md)
-      + [體驗事件和欄位](./admin/configure-aep-events.md)
-      + [品牌化網域](./start/branding-domains.md)
-      + [電子郵件追蹤和傳遞](./start/email-protocols.md)
-      + [電子郵件設定](./start/email-setup.md)
-      + [Marketo Engage歷程動作](./admin/marketo-actions-connect.md)
-      + [使用者管理](./admin/user-management.md)
-   + [使用者上線](./start/get-started.md)
-   + [登入和首頁](home-page.md)
+  + [Journey Optimizer B2B Edition 概觀](about-journey-optimizer-b2b-edition.md)
+  + 環境設定 {#admin-setup}
+    + [設定檢查清單](./setup-ultimate.md)
+    + [名稱空間和結構描述](./data/namespaces-schemas.md)
+    + [XDM欄位選擇](./admin/xdm-field-management.md)
+    + [體驗事件和欄位](./admin/configure-aep-events.md)
+    + [品牌化網域](./start/branding-domains.md)
+    + [電子郵件追蹤和傳遞](./start/email-protocols.md)
+    + [電子郵件設定](./start/email-setup.md)
+    + [Marketo Engage歷程動作](./admin/marketo-actions-connect.md)
+    + [使用者管理](./admin/user-management.md)
+  + [使用者上線](./start/get-started.md)
+  + [登入和首頁](home-page.md)
 + AI 助理 {#ai-assistant}
-   + [概觀](./ai-assistant/ai-assistant-overview.md)
-   + [啟用 AI 助理存取權](./ai-assistant/enable-ai-assistant-access.md)
-   + [問題指引](./ai-assistant/question-guidance.md)
-   + [使用 AI 助理](./ai-assistant/use-ai-assistant.md)
-   + [製作內容的生成式 AI](./ai-assistant/generative-ai-content.md)
-   + 專員 {#ai-agents}
-      + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-      + [Journey Agent B2B](./agents/journey-agent.md)
-      + [銷售限定詞](./agents/sales-qualifier.md)
+  + [概觀](./ai-assistant/ai-assistant-overview.md)
+  + [啟用 AI 助理存取權](./ai-assistant/enable-ai-assistant-access.md)
+  + [問題指引](./ai-assistant/question-guidance.md)
+  + [使用 AI 助理](./ai-assistant/use-ai-assistant.md)
+  + [製作內容的生成式 AI](./ai-assistant/generative-ai-content.md)
+  + 專員 {#ai-agents}
+    + [Audience Agent B2B](./agents/audience-agent-b2b.md)
+    + [Journey Agent B2B](./agents/journey-agent.md)
+    + [銷售限定詞](./agents/sales-qualifier.md)
 + 歷程管理 {#journeys}
-   + [帳戶和個人歷程](./journeys/journeys-overview.md)
-   + [建立並發佈歷程](./journeys/create-publish-journey.md)
-   + [歷程重新進入](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[歷程節點](./journeys/journey-nodes.md)
-   + 歷程節點 {#journey-nodes}
-      + [帳戶客群](./journeys/account-audience-nodes.md)
-      + [個人對象(Beta)](./journeys/person-audience-nodes.md)
-      + [採取動作](./journeys/action-nodes.md)
-      + [監聽事件](./journeys/listen-for-event-nodes.md)
-      + [分割和合併路徑](./journeys/split-merge-paths-nodes.md)
-      + [變體分割路徑(Beta)](./journeys/variant-split-paths-nodes.md)
-      + [下一個最佳路徑](./journeys/next-best-path-node.md)
-      + [等待](./journeys/wait-nodes.md)
-      + [外部節點](./journeys/external-nodes.md)
-   + [歷程詳細資訊](./journeys/journey-details.md)
+  + [帳戶和個人歷程](./journeys/journeys-overview.md)
+  + [建立並發佈歷程](./journeys/create-publish-journey.md)
+  + [歷程重新進入](./journeys/journey-re-entry.md)
+  + {hide-from-toc}[歷程節點](./journeys/journey-nodes.md)
+  + 歷程節點 {#journey-nodes}
+    + [帳戶客群](./journeys/account-audience-nodes.md)
+    + [個人對象(Beta)](./journeys/person-audience-nodes.md)
+    + [採取動作](./journeys/action-nodes.md)
+    + [監聽事件](./journeys/listen-for-event-nodes.md)
+    + [分割和合併路徑](./journeys/split-merge-paths-nodes.md)
+    + [變體分割路徑(Beta)](./journeys/variant-split-paths-nodes.md)
+    + [下一個最佳路徑](./journeys/next-best-path-node.md)
+    + [等待](./journeys/wait-nodes.md)
+    + [外部節點](./journeys/external-nodes.md)
+  + [歷程詳細資訊](./journeys/journey-details.md)
 + 歷程內容 {#journey-content}
-   + [簡訊頻道](./content/sms-authoring.md)
-   + [WhatsApp 頻道](./content/whatsapp-authoring.md)
-   + 電子郵件頻道 {#email-channel}
-      + [新增電子郵件](./content/add-email.md)
-      + [傳送時間最佳化](./content/email-send-time-optimization.md)
-      + [電子郵件製作](./content/email-authoring.md)
-      + [電子郵件編寫的 AI 助理](./content/ai-assistant-emails.md)
-      + [GenStudio 工作流程](./content/genstudio-email-workflow.md)
-      + [電子郵件設計的深色模式](./content/email-dark-mode.md)
-      + [控管型範本](./content/email-authoring-governance.md)
-      + [銷售警報電子郵件](./content/sales-alert-email.md)
-      + [電子郵件重複資料刪除](./content/email-deduplication.md)
-      + [電子郵件追蹤](./content/email-tracking-manage.md)
-   + 網路頻道(Beta) {#web-channel}
-      + [概觀](./content/web-experiences.md)
-      + [網站體驗設計](./content/web-experience-design.md)
-      + [單頁應用程式](./content/web-single-page-applications.md)
-   + [自訂個人化權杖](./content/personalization-my-tokens.md)
-   + [同意偏好設定](./content/channels-consent-preferences.md)
+  + [簡訊頻道](./content/sms-authoring.md)
+  + [WhatsApp 頻道](./content/whatsapp-authoring.md)
+  + 電子郵件頻道 {#email-channel}
+    + [新增電子郵件](./content/add-email.md)
+    + [傳送時間最佳化](./content/email-send-time-optimization.md)
+    + [電子郵件製作](./content/email-authoring.md)
+    + [電子郵件編寫的 AI 助理](./content/ai-assistant-emails.md)
+    + [GenStudio 工作流程](./content/genstudio-email-workflow.md)
+    + [電子郵件設計的深色模式](./content/email-dark-mode.md)
+    + [控管型範本](./content/email-authoring-governance.md)
+    + [銷售警報電子郵件](./content/sales-alert-email.md)
+    + [電子郵件重複資料刪除](./content/email-deduplication.md)
+    + [電子郵件追蹤](./content/email-tracking-manage.md)
+  + 網路頻道(Beta) {#web-channel}
+    + [概觀](./content/web-experiences.md)
+    + [網站體驗設計](./content/web-experience-design.md)
+    + [單頁應用程式](./content/web-single-page-applications.md)
+  + [自訂個人化權杖](./content/personalization-my-tokens.md)
+  + [同意偏好設定](./content/channels-consent-preferences.md)
 + 客群 {#audiences}
-   + [Experience Platform對象](./audiences/account-audience-overview.md)
-   + [鎖定外部對象](./audiences/target-external-audience.md)
-   + [LinkedIn帳戶比對的對象](./data/linkedin-account-matched-audiences.md)
-   + [預設XDM欄位](./admin/field-mapping.md)
-   + [測試設定檔](./audiences/test-profiles.md)
+  + [Experience Platform對象](./audiences/account-audience-overview.md)
+  + [鎖定外部對象](./audiences/target-external-audience.md)
+  + [LinkedIn帳戶比對的對象](./data/linkedin-account-matched-audiences.md)
+  + [預設XDM欄位](./admin/field-mapping.md)
+  + [測試設定檔](./audiences/test-profiles.md)
 + 帳戶 {#accounts}
-   + 購買群組 {#buying-groups}
-      + [概觀](./buying-groups/buying-groups-overview.md)
-      + [解決方案興趣](./buying-groups/solution-interests.md)
-      + [角色範本](./buying-groups/buying-groups-role-templates.md)
-      + [預設和自訂角色](./buying-groups/default-custom-roles.md)
-      + [角色洞察](./buying-groups/buying-group-role-insights.md)
-      + 購買群組評分 {#scoring}
-         + [參與度分數](./buying-groups/engagement-scores.md)
-         + [完整性分數](./buying-groups/completeness-scores.md)
-      + [購買群組階段](./buying-groups/buying-group-stages.md)
-      + [建立購買群組](./buying-groups/buying-groups-create.md)
-      + [匯出帳戶](./audiences/account-list-export.md)
-      + [Marketo Engage 中的購買群組篩選器](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
-      + [In-CRM Insights](./buying-groups/incrm-insights.md)
-   + 帳戶清單 {#account-lists}
-      + [概觀](./accounts/account-lists.md)
-      + [用於歷程和方案中](./accounts/account-lists-journeys.md)
-   + 銷售體驗 {#sales-experience}
-      + [帳戶詳細資料](./accounts/account-details.md)
-      + [購買群組詳細資料](./buying-groups/buying-group-details.md)
-      + [人員詳細資料](./accounts/person-details.md)
-      + [CRM 連結](./accounts/crm-linking.md)
+  + 購買群組 {#buying-groups}
+    + [概觀](./buying-groups/buying-groups-overview.md)
+    + [解決方案興趣](./buying-groups/solution-interests.md)
+    + [角色範本](./buying-groups/buying-groups-role-templates.md)
+    + [預設和自訂角色](./buying-groups/default-custom-roles.md)
+    + [角色洞察](./buying-groups/buying-group-role-insights.md)
+    + 購買群組評分 {#scoring}
+      + [參與度分數](./buying-groups/engagement-scores.md)
+      + [完整性分數](./buying-groups/completeness-scores.md)
+    + [購買群組階段](./buying-groups/buying-group-stages.md)
+    + [建立購買群組](./buying-groups/buying-groups-create.md)
+    + [匯出帳戶](./audiences/account-list-export.md)
+    + [Marketo Engage 中的購買群組篩選器](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+    + [In-CRM Insights](./buying-groups/incrm-insights.md)
+  + 帳戶清單 {#account-lists}
+    + [概觀](./accounts/account-lists.md)
+    + [用於歷程和方案中](./accounts/account-lists-journeys.md)
+  + 銷售體驗 {#sales-experience}
+    + [帳戶詳細資料](./accounts/account-details.md)
+    + [購買群組詳細資料](./buying-groups/buying-group-details.md)
+    + [人員詳細資料](./accounts/person-details.md)
+    + [CRM 連結](./accounts/crm-linking.md)
 + 內容管理 {#content-management}
-   + 電子郵件 {#emails}
-      + [使用電子郵件內容](./content/emails-list.md)
-      + 預覽和驗證 {#preview}
-         + [模擬內容](./content/email-simulate-content.md)
-         + [測試電子郵件呈現效果](./content/email-test-rendering.md)
-         + [垃圾郵件報告](./content/email-spam-report.md)
-      + [電子郵件共同作業](./content/email-collaboration-tools.md)
-   + 資產 {#assets}
-      + [概觀](./content/assets-overview.md)
-      + 內部資產 {#internal-dam}
-         + [使用內部資產](./content/internal-image-assets.md)
-         + [使用 Adobe Express 編輯影像](./content/image-edit-adobe-express.md)
-      + [Experience Manager 影像資產](./content/aem-assets.md)
-   + 範本 {#templates}
-      + [內容治理](./content/template-content-governance.md)
-      + 電子郵件範本 {#email-templates}
-         + [概觀](./content/email-templates.md)
-         + [電子郵件範本編寫](./content/email-template-authoring.md)
-         + [進階HTML編輯](./content/email-template-advanced-html.md)
-         + [將影像轉換為範本](./content/email-template-image-convert.md)
-      + 登陸頁面範本 (Beta) {#landing-page-templates}
-         + [概觀](./content/landing-page-templates.md)
-         + [設計登陸頁面範本](./content/landing-page-template-design.md)
-   + 片段 {#visual-fragments}
-      + [概觀](./content/fragments.md)
-      + [片段編寫](./content/fragment-authoring.md)
-   + 表單 {#forms}
-      + [概觀](./content/forms.md)
-      + [表單設計](./content/form-design.md)
-   + 登陸頁面 {#landing-pages}
-      + [概觀](./content/landing-pages.md)
-      + [建立並發佈](./content/landing-pages-create-publish.md)
-      + [登陸頁面設計](./content/landing-page-design.md)
-      + [登陸頁面內容的AI助理](./content/ai-assistant-landing-pages.md)
-   + 內容設計工具 {#content-design}
-      + [結構元件](./content/structure-components.md)
-      + [內容元件](./content/content-components.md)
-      + [自訂 CSS](./content/design-custom-css.md)
-   + 品牌 (Beta) {#brands}
-      + [概觀](./content/brands-overview.md)
-      + [管理和建立](./content/brands-manage-create.md)
-      + [Generative AI模型](./content/generative-ai-models.md)
-   + [品牌主題](./content/brand-themes.md)
-   + [內容評估](./content/content-evaluation.md)
-   + [條件式內容](./content/conditional-content.md)
-   + [內容協助工具](./content/accessible-content.md)
-   + 個人化 {#personalization}
-      + [概觀](./content/personalization.md)
-      + [個人化語法](./content/personalization-syntax.md)
-      + [協助程式函式清單](./content/personalization-helper-functions.md)
+  + 電子郵件 {#emails}
+    + [使用電子郵件內容](./content/emails-list.md)
+    + 預覽和驗證 {#preview}
+      + [模擬內容](./content/email-simulate-content.md)
+      + [測試電子郵件呈現效果](./content/email-test-rendering.md)
+      + [垃圾郵件報告](./content/email-spam-report.md)
+    + [電子郵件共同作業](./content/email-collaboration-tools.md)
+  + 資產 {#assets}
+    + [概觀](./content/assets-overview.md)
+    + 內部資產 {#internal-dam}
+      + [使用內部資產](./content/internal-image-assets.md)
+      + [使用 Adobe Express 編輯影像](./content/image-edit-adobe-express.md)
+    + [Experience Manager 影像資產](./content/aem-assets.md)
+  + 範本 {#templates}
+    + [內容治理](./content/template-content-governance.md)
+    + 電子郵件範本 {#email-templates}
+      + [概觀](./content/email-templates.md)
+      + [電子郵件範本編寫](./content/email-template-authoring.md)
+      + [進階HTML編輯](./content/email-template-advanced-html.md)
+      + [將影像轉換為範本](./content/email-template-image-convert.md)
+    + 登陸頁面範本 (Beta) {#landing-page-templates}
+      + [概觀](./content/landing-page-templates.md)
+      + [設計登陸頁面範本](./content/landing-page-template-design.md)
+  + 片段 {#visual-fragments}
+    + [概觀](./content/fragments.md)
+    + [片段編寫](./content/fragment-authoring.md)
+  + 表單 {#forms}
+    + [概觀](./content/forms.md)
+    + [表單設計](./content/form-design.md)
+  + 登陸頁面 {#landing-pages}
+    + [概觀](./content/landing-pages.md)
+    + [建立並發佈](./content/landing-pages-create-publish.md)
+    + [登陸頁面設計](./content/landing-page-design.md)
+    + [登陸頁面內容的AI助理](./content/ai-assistant-landing-pages.md)
+  + 內容設計工具 {#content-design}
+    + [結構元件](./content/structure-components.md)
+    + [內容元件](./content/content-components.md)
+    + [自訂 CSS](./content/design-custom-css.md)
+  + 品牌 (Beta) {#brands}
+    + [概觀](./content/brands-overview.md)
+    + [管理和建立](./content/brands-manage-create.md)
+    + [Generative AI模型](./content/generative-ai-models.md)
+  + [品牌主題](./content/brand-themes.md)
+  + [內容評估](./content/content-evaluation.md)
+  + [條件式內容](./content/conditional-content.md)
+  + [內容協助工具](./content/accessible-content.md)
+  + 個人化 {#personalization}
+    + [概觀](./content/personalization.md)
+    + [個人化語法](./content/personalization-syntax.md)
+    + [協助程式函式清單](./content/personalization-helper-functions.md)
+    + [指令碼產生器(Beta)](./content/script-builder.md)
 + 智慧型儀表板 {#dashboards}
-   + [見解儀表板](./dashboards/intelligent-dashboard.md)
-   + [參與儀表板](./dashboards/engagement-dashboard.md)
-   + [網頁參與儀表板](./dashboards/web-engagement-dashboard.md)
-   + [以電子郵件傳送效能報表](./dashboards/email-performance-dashboard.md)
-   + [購買群組儀表板](./dashboards/buying-groups-dashboard.md)
-   + [歷程儀表板](./dashboards/journeys-dashboard.md)
+  + [見解儀表板](./dashboards/intelligent-dashboard.md)
+  + [參與儀表板](./dashboards/engagement-dashboard.md)
+  + [網頁參與儀表板](./dashboards/web-engagement-dashboard.md)
+  + [以電子郵件傳送效能報表](./dashboards/email-performance-dashboard.md)
+  + [購買群組儀表板](./dashboards/buying-groups-dashboard.md)
+  + [歷程儀表板](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
-   + [治理和隱私權](./admin/governance.md)
-   + [人物誌對應](./admin/persona-mapping.md)
-   + 設定 {#configurations}
-      + [AEM Assets 存放庫](./admin/configure-aem-repositories.md)
-      + [意圖資料](./admin/intent-data.md)
-      + [參與度分數加權](./admin/engagement-score-weighting.md)
-      + [外部動作](./admin/configure-external-actions.md)
-      + {hide-from-toc}[設定事件集合的資料串流](./data/aep-event-collection.md)
-   + 管道 {#channels}
-      + [電子郵件組態](./admin/configure-channels-emails.md)
-      + [簡訊設定](./admin/configure-channels-sms.md)
-      + [WhatsApp設定](./admin/configure-channels-whatsapp.md)
-      + [Web頻道設定(Beta)](./admin/configure-channels-web.md)
-      + [登陸頁面設定](./admin/configure-channels-landing-pages.md)
-      + [Forms設定](./admin/configure-channels-forms.md)
+  + [治理和隱私權](./admin/governance.md)
+  + [人物誌對應](./admin/persona-mapping.md)
+  + 設定 {#configurations}
+    + [AEM Assets 存放庫](./admin/configure-aem-repositories.md)
+    + [意圖資料](./admin/intent-data.md)
+    + [參與度分數加權](./admin/engagement-score-weighting.md)
+    + [外部動作](./admin/configure-external-actions.md)
+    + {hide-from-toc}[設定事件集合的資料串流](./data/aep-event-collection.md)
+  + 管道 {#channels}
+    + [電子郵件組態](./admin/configure-channels-emails.md)
+    + [簡訊設定](./admin/configure-channels-sms.md)
+    + [WhatsApp設定](./admin/configure-channels-whatsapp.md)
+    + [Web頻道設定(Beta)](./admin/configure-channels-web.md)
+    + [登陸頁面設定](./admin/configure-channels-landing-pages.md)
+    + [Forms設定](./admin/configure-channels-forms.md)
