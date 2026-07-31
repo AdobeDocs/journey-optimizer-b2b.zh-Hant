@@ -1,25 +1,17 @@
 ---
 title: 使用者存取與許可權
 description: 在Adobe Admin Console中管理使用者存取權：建立Journey Optimizer B2B Prime的使用者群組、指派產品設定檔，以及設定角色型許可權。
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
+badgeBeta: label="Beta" type="informative" tooltip="此功能屬於有限測試版的一部分。"
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-  - id: bd42eee1-e206-4826-91ea-88dc726d858e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b5c78cc54f46f47809b80bb6df1066f0f35c52e8
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: f6df9def-cdf7-4728-9ec8-3f65716828c7id: bd42eee1-e206-4826-91ea-88dc726d858e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: a2fcdae381cba44c7f1458be3e851628e7e11b26
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 58%
+source-wordcount: 2294
+ht-degree: 44%
 
 ---
 
@@ -36,7 +28,7 @@ ht-degree: 58%
 
 ## 設定產品設定檔 {#config-profile}
 
-作為管理員，您可以在Adobe Admin Console中完成這些工作，這是管理您的Adobe產品授權和使用者的中心位置。 在Admin Console中，您可以在單一位置而非在各種個別解決方案中建立和管理使用者。 若要瞭解其功能的詳細資訊，請參閱[Admin Console概觀](https://helpx.adobe.com/tw/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)頁面。
+作為管理員，您可以在Adobe Admin Console中完成這些工作，這是管理您的Adobe產品授權和使用者的中心位置。 在Admin Console中，您可以在單一位置而非在各種個別解決方案中建立和管理使用者。 若要瞭解其功能的詳細資訊，請參閱[Admin Console概觀](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)頁面。
 
 ### 存取Admin Console {#admin-console}
 
@@ -72,7 +64,7 @@ ht-degree: 58%
 
 在授與使用者Adobe解決方案的存取權時，您不一定要授與他們完整的存取權。 產品設定檔使每個解決方案都可以擁有自己的一組使用者許可權。 使用Admin Console指派產品設定檔。
 
-如需有關使用產品設定檔取得使用者許可權的詳細資訊，請參閱Admin Console檔案中的&#x200B;[_管理企業使用者的產品設定檔_](https://helpx.adobe.com/tw/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"}。
+如需有關使用產品設定檔取得使用者許可權的詳細資訊，請參閱Admin Console檔案中的&#x200B;[_管理企業使用者的產品設定檔_](https://helpx.adobe.com/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"}。
 
 ![管理員角色需求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系統管理員或[!DNL Experience Platform]產品管理員可以從[https://adminconsole.adobe.com](https://adminconsole.adobe.com)執行下列步驟。
 
@@ -84,13 +76,13 @@ ht-degree: 58%
 
 1. 輸入產品設定檔名稱，例如&#x200B;_B2B使用者_。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[下一步]****，然後按一下[儲存]****。
 
 ### 新增使用者群組 {#add-user-group}
 
 使用者群組是獲授一組共用許可權的使用者集合。 您可以在使用者群組中新增或移除使用者。 當群組內的使用者變更時，群組許可權會維持不變。
 
-如需有關如何使用使用者群組來管理許可權的詳細資訊，請參閱Admin Console檔案中的[管理使用者群組](https://helpx.adobe.com/tw/business/enterprise/manage-users/user-groups.html){target="_blank"}。
+如需有關如何使用使用者群組來管理許可權的詳細資訊，請參閱Admin Console檔案中的[管理使用者群組](https://helpx.adobe.com/business/enterprise/manage-users/user-groups.html){target="_blank"}。
 
 ![系統管理員角色需求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系統管理員可以從[https://adminconsole.adobe.com](https://adminconsole.adobe.com)執行下列步驟。
 
@@ -125,7 +117,7 @@ ht-degree: 58%
 
 ### 將使用者新增至新群組 {#add-users}
 
-如需使用者管理的相關資訊，請參閱Admin Console檔案中的&#x200B;[_Adobe Admin Console使用者_](https://helpx.adobe.com/tw/business/enterprise/manage-users/users.html){target="_blank"}。
+如需使用者管理的相關資訊，請參閱Admin Console檔案中的&#x200B;[_Adobe Admin Console使用者_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"}。
 
 ![管理員角色需求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系統管理員或產品管理員可以從[https://adminconsole.adobe.com](https://adminconsole.adobe.com)執行下列步驟。 產品管理員只能新增其組織中已存在的使用者。
 
@@ -137,7 +129,7 @@ ht-degree: 58%
 
      ![Admin Console — 新增新群組的使用者設定檔](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
 
-   * 輸入名字和姓氏，然後按一下[儲存]。**&#x200B;**
+   * 輸入名字和姓氏，然後按一下[儲存]。****
 
 1. 將每位使用者新增至群組：
 
@@ -157,11 +149,11 @@ ht-degree: 58%
 
 ## 指派產品許可權 {#assign-product-permissions}
 
-許可權是統一許可權，可讓您定義指派給產品設定檔的授權。 每個許可權都會分組在功能下，例如歷程或購買群組，代表[!DNL Journey Optimizer B2B Prime]中的功能。
+許可權是統一許可權，可讓您定義指派給產品設定檔的授權。 每個許可權都會分組在功能下，例如人員歷程或內容，代表[!DNL Journey Optimizer B2B Prime]中的功能。
 
 Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 許可權也可讓您管理與特定角色相關聯的沙箱和使用者。
 
-如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 1. 移至[experience.adobe.com](https://experience.adobe.com/)。
 
@@ -173,22 +165,51 @@ Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以�
 
    ![Experience Platform — 存取許可權](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-<!--
+### 權限 {#permissions}
 
-### B2B product permissions {#b2b-product-permissions}
+下列許可權可控制[!DNL Journey Optimizer B2B Prime]中管道設定、內容管理和人員歷程功能的存取權：
 
-The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
-
-| Category | Description | Permissions |
+| 類別 | 權限 | 說明 |
 | -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments <li>Manage B2B Emails |
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups <li>Manage B2B Solution Interests <li>Manage B2B Role Templates <li>Manage B2B Stages <li>View B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards | Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>View B2B Engagement Dashboard |
-| B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys |
-| Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
+| B2B通道設定 | 檢視B2B電子郵件設定 | 檢視電子郵件設定（子網域、PTR記錄、IP集區、隱藏清單、種子清單、IP熱身計畫）。 |
+| | 管理B2B電子郵件設定 | 設定電子郵件設定（子網域、PTR記錄、IP集區、隱藏清單、種子清單、IP熱身計畫）。 使用者傳送電子郵件前，必須先完成這些設定。 |
+| | 管理B2B通道設定 | 存取左側導覽中的&#x200B;_管道_&#x200B;功能表專案以及所有管道設定作業。 |
+| | 管理B2B WhatsApp預設集 | 建立、檢視和刪除WhatsApp訊息預設集和相關的SMS設定。 |
+| B2B歷程 | 管理B2B個人歷程 | 存取&#x200B;_個人歷程_&#x200B;清單和所有個人歷程作業。 |
+| B2B Assets | 檢視內容範本 | 檢視內容範本清單和詳細資訊。 |
+| | 管理B2B範本 | 建立、編輯和刪除內容範本。 |
+| | 檢視B2B片段 | 檢視內容片段清單和詳細資訊。 |
+| | 管理B2B片段 | 建立、編輯和刪除內容片段。 |
+| | 發佈B2B片段 | 發佈內容片段，以用於範本、電子郵件和登入頁面。 |
+| | 檢視B2B Assets | 檢視Assets程式庫和資產檔案的詳細資訊。 |
+| | 管理B2B Assets | 建立、編輯和刪除資產檔案。 |
+| | 檢視B2B電子郵件 | 檢視電子郵件訊息。 |
+| | 管理B2B電子郵件 | 建立、編輯和刪除電子郵件訊息。 |
+| | 管理B2B訊息匯出 | 匯出電子郵件區段下的訊息報表。 |
+| Journey Optimizer資料庫 | 管理B2B程式庫專案 | 新增和刪除程式庫中儲存的運算式。 |
+| 資料治理 | 管理B2B刪除使用標籤 | 檢視、建立和刪除套用至資料集和結構描述的資料使用標籤(DULE)。 |
+| 沙箱管理 | 管理B2B套件 | 建立、匯出、匯入、複製和刪除沙箱套件。 |
+
+若要在[!DNL Journey Optimizer B2B Prime]中提供外部目的地的支援，需要下列許可權：
+
+| 類別 | 權限 | 說明 |
+| -------- | ----------- | ---------- |
+| 儀表板 | 檢視標準儀表板 | 對&#x200B;_設定檔_、_目的地_&#x200B;和&#x200B;_區段_&#x200B;儀表板的僅限檢視存取權。 也可讓您存取左側導覽中的&#x200B;_儀表板_，以及&#x200B;_儀表板_&#x200B;詳細目錄和整合標籤。 |
+| | 管理標準儀表板 | 新增尚未在Data Warehouse的自訂屬性。 |
+| 目標 | 檢視目的地 | 僅供檢視的存取權，可檢視&#x200B;_目錄_&#x200B;索引標籤中的可用目的地以及&#x200B;_瀏覽_&#x200B;索引標籤中的已驗證目的地。 |
+| | 管理目的地 | 檢視、建立及刪除目的地連線和目的地帳戶。 |
+| | 啟用目的地 | 啟用作用中目的地的資料。 若要存取此函式，也需要&#x200B;_檢視目的地_&#x200B;或&#x200B;_管理目的地_。 |
+| | 啟用區段而不進行對應 | 啟用現有目的地的對象，不顯示對應步驟。 使用者可以在啟動工作流程中新增和移除對象，但無法新增或移除對應的屬性或身分。 存取此函式也需要&#x200B;_檢視目的地_&#x200B;許可權。 |
+| | 管理和啟用資料集目的地 | 檢視、建立、編輯和停用資料集匯出流程，以及啟用作用中資料集的資料。 存取此函式也需要&#x200B;_檢視目的地_&#x200B;許可權。 |
+| | 目的地製作 | 能夠使用Adobe Experience Platform Destination SDK編寫目的地。 |
+| 資料治理 | 檢視資料使用原則 | 屬於您組織的資料使用原則的僅限檢視存取權。 |
+| | 管理資料使用原則 | 檢視、建立、編輯和刪除資料使用原則。 |
+| 資料擷取 | 檢視來源 | 對&#x200B;_目錄_&#x200B;索引標籤中的可用來源以及&#x200B;_瀏覽_&#x200B;索引標籤中的已驗證來源的僅檢視存取權。 |
+| | 管理來源 | 檢視、建立、編輯和停用來源。 |
+| 輪廓管理 | 檢視設定檔設定 | 僅供檢視即可存取所有設定檔設定。 |
+| | 管理設定檔設定 | 檢視並編輯所有設定檔設定。 |
+
+<!--
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
@@ -267,7 +288,7 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
 ### 將使用者群組新增至角色 {#add-user-groups-to-a-role}
 
-如需使用者管理的相關資訊，請參閱Admin Console檔案中的&#x200B;[_Adobe Admin Console使用者_](https://helpx.adobe.com/tw/business/enterprise/manage-users/users.html){target="_blank"}。
+如需使用者管理的相關資訊，請參閱Admin Console檔案中的&#x200B;[_Adobe Admin Console使用者_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"}。
 
 ![管理員角色需求](../../assets/do-not-localize/icon-admin-user.svg){width="30"}系統管理員或Experience Platform管理員可以執行下列步驟。
 
@@ -305,11 +326,11 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
 1. 新增B2B產品許可權：
 
-   <!-- To determine which product capabilities that you want for the role, refer to the list of [B2B product permissions](#b2b-product-permissions). -->
+   若要決定您想要用於角色的產品功能，請參閱[產品許可權](#permissions)清單。
 
    在左側的&#x200B;_[!UICONTROL 資源]_&#x200B;清單中，找到B2B專案，然後按一下&#x200B;_新增_ (**+**)圖示以新增您想要為角色啟用的每個屬性。
 
-   您可以在搜尋工具中輸入&#x200B;_B2B_，以篩選B2B產品許可權的清單。
+   您可以在搜尋工具中輸入&#x200B;_B2B_，以篩選許多B2B產品許可權的清單。
 
    ![Experience Platform - B2B許可權](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
