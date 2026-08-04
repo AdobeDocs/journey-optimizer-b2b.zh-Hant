@@ -4,11 +4,17 @@ description: 新增電子郵件動作節點至帳戶歷程 — 建立新電子�
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
@@ -32,9 +38,9 @@ ht-degree: 0%
 
 當您[新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點](../journeys/action-nodes.md)並執行下列動作時，您可以在歷程中設定電子郵件傳遞：
 
-1. 針對&#x200B;]_目標上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
+1. 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
 
-1. 針對人員&#x200B;]_的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
+1. 針對人員&#x200B;_的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送電子郵件]**。
 
 1. 針對&#x200B;_[!UICONTROL 電子郵件來源]_，選擇您要如何取得要傳送的電子郵件。
 
@@ -42,7 +48,7 @@ ht-degree: 0%
 
    * 選擇&#x200B;**[!UICONTROL 建立新電子郵件]**，在Journey Optimizer B2B edition中以原生方式編寫電子郵件。
 
-     此選項可讓您在Journey Optimizer B2B edition中以原生方式管理電子郵件內容。 按一下[建立電子郵件]**[!UICONTROL 以開啟[建立新電子郵件]_對話方塊_。]**&#x200B;您可以建立新的電子郵件內容資產或複製現有的電子郵件內容資產。
+     此選項可讓您在Journey Optimizer B2B edition中以原生方式管理電子郵件內容。 按一下[建立電子郵件]&#x200B;**[!UICONTROL 以開啟[建立新電子郵件]_對話方塊_。]**&#x200B;您可以建立新的電子郵件內容資產或複製現有的電子郵件內容資產。
 
      +++新電子郵件
 
@@ -84,7 +90,7 @@ ht-degree: 0%
 
         在電子郵件內容頁面的&#x200B;_[!UICONTROL 電子郵件屬性]_&#x200B;區段中，_[!UICONTROL 寄件者電子郵件]_&#x200B;與&#x200B;_[!UICONTROL 回覆地址]_&#x200B;欄位已設定。 您可以輸入&#x200B;_[!UICONTROL From name]_&#x200B;和&#x200B;_[!UICONTROL Description]_ （選擇性）欄位的值。
 
-     1. 如有需要，請按一下[編輯電子郵件] ****&#x200B;來修改電子郵件[設定](#define-the-email-settings)和[內容](./email-authoring.md)。
+     1. 如有需要，請按一下[編輯電子郵件] **&#x200B;**&#x200B;來修改電子郵件[設定](#define-the-email-settings)和[內容](./email-authoring.md)。
 
      +++
 

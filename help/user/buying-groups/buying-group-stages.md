@@ -4,11 +4,17 @@ description: 建立具有進入、成功和失敗階段的自訂購買群組階�
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d9b663ab-b785-4c49-8fc3-d3dda520c908
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
@@ -78,9 +84,9 @@ ht-degree: 2%
 
    重複此步驟，直到您具備模型所需的階段為止。
 
-   為模型](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定義的![階段
+   為模型![&#128279;](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定義的階段
 
-1. 在您滿意已定義的階段後，請按一下[儲存]。****
+1. 在您滿意已定義的階段後，請按一下[儲存]。**&#x200B;**
 
    >[!IMPORTANT]
    >
@@ -98,7 +104,7 @@ ht-degree: 2%
 
    此動作會開啟&#x200B;_[!UICONTROL 編輯階段規則]_&#x200B;對話方塊，您可以在其中定義流程的邏輯。
 
-   當您設定選項時，有一些內建的護欄和傳訊功能，可協助您避免流程中出現邏輯錯誤。 您可以按一下[取消]__&#x200B;關閉對話方塊並返回[階段]]_索引標籤頁，而不進行任何變更。_[!UICONTROL 
+   當您設定選項時，有一些內建的護欄和傳訊功能，可協助您避免流程中出現邏輯錯誤。 您可以按一下[取消]__&#x200B;關閉對話方塊並返回[階段]_索引標籤頁，而不進行任何變更。_
 
 1. 在&#x200B;_[!UICONTROL 選取階段]_&#x200B;區段中，指定流程的開始和結束階段：
 
@@ -153,7 +159,7 @@ ht-degree: 2%
 
    * 捲動至底部，然後按一下&#x200B;**[!UICONTROL 新增階段]**，視需要為模型定義新的階段。
 
-1. 在您滿意已定義的階段後，請按一下[儲存]。****
+1. 在您滿意已定義的階段後，請按一下[儲存]。**&#x200B;**
 
    您也可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;關閉對話方塊，並返回模型詳細資訊頁面，而不做任何變更。
 
@@ -165,7 +171,7 @@ ht-degree: 2%
 
    請參閱[設定工作流程和轉換規則](#configure-the-workflow-and-transition-rules)，以取得有關這些選項以及它們如何影響模型流程的詳細資訊。
 
-1. 當您對已定義的轉換規則感到滿意時，請按一下[儲存]。****
+1. 當您對已定義的轉換規則感到滿意時，請按一下[儲存]。**&#x200B;**
 
    您也可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;關閉對話方塊，並返回模型詳細資訊頁面，而不做任何變更。
 
@@ -286,7 +292,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 在右側的節點屬性中，選擇&#x200B;**[!UICONTROL 人員]**&#x200B;進行分割。
 
-   保留用於條件&#x200B;]_的_[!UICONTROL &#x200B;屬性的預設值&#x200B;**[!UICONTROL 僅保留為]**&#x200B;人員屬性。
+   保留用於條件&#x200B;_的_&#x200B;屬性的預設值&#x200B;**[!UICONTROL 僅保留為]**&#x200B;人員屬性。
 
 1. 若要定義適用於&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下&#x200B;**[!UICONTROL 套用條件]**。
 
@@ -330,7 +336,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 若要更新購買群組階段，請定義動作。
 
-   * 若要在帳戶&#x200B;]**上執行**[!UICONTROL &#x200B;動作，請選取&#x200B;**[!UICONTROL 更新購買群組階段]**。
+   * 若要在帳戶&#x200B;**上執行**&#x200B;動作，請選取&#x200B;**[!UICONTROL 更新購買群組階段]**。
 
    * 針對&#x200B;**[!UICONTROL 選取方案興趣]**，選取與購買群組階段模型相關聯的方案。
 

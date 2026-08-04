@@ -4,11 +4,19 @@ description: 在Journey Optimizer B2B edition中，使用自訂篩選器建立�
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
@@ -23,7 +31,7 @@ ht-degree: 2%
 在Journey Optimizer B2B edition中，帳戶清單是行銷人員可用於目標歷程協調的具名帳戶集合。 帳戶清單可依據您定義的條件（例如產業、地點或公司規模）來鎖定已命名的帳戶。 帳戶清單有兩種型別：
 
 * **靜態** — 使用靜態帳戶清單時，清單只有在您新增帳戶時才會變更。 您可以套用篩選器集來根據目前的帳戶資料填入清單，以手動新增帳戶，或是透過帳戶歷程新增和移除帳戶。
-* **動態** — 使用動態帳戶清單，您可以定義自動組織清單的篩選器集。 系統會使用此篩選器集，根據帳戶資訊中的變更來新增和移除帳戶。 此清單管理類似於Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}中的[對象細分。
+* **動態** — 使用動態帳戶清單，您可以定義自動組織清單的篩選器集。 系統會使用此篩選器集，根據帳戶資訊中的變更來新增和移除帳戶。 此清單管理類似於Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}中的對象細分。
 
 當帳戶清單處於&#x200B;_即時_ （已發佈）狀態時，它可用於[帳戶歷程和Marketo Engage程式](./account-lists-journeys.md)。
 
