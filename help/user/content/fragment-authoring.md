@@ -6,23 +6,15 @@ role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
 autotag-review: '2026-05-27T16:13:22.974Z'
 TQID: 'https://experienceleague.adobe.com/WqMj4DVOmUd3s-r-n9bSyRjXSGS8sDWMFNh5wfOiE2Y'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e1663313-7961-4100-bea9-fa9f4edf8493
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: 393
 ht-degree: 6%
 
 ---
@@ -55,15 +47,15 @@ ht-degree: 6%
 
 ## 啟用片段自訂
 
-當作者將片段新增至[電子郵件](./email-authoring.md#content-authoring---use-visual-fragments)或[電子郵件範本](./email-template-authoring.md#content-authoring---use-visual-fragments)時，依預設會鎖定片段內容。 對已發佈片段所做的任何變更都會自動傳播至使用該片段的所有內容資產。 當您將片段中元件的引數指定為可編輯時，電子郵件或範本作者可以指定特定於其需求的自訂欄位值。 此自訂標幟僅限影像、文字和按鈕視覺元件使用。
+當作者將片段新增到[電子郵件](./email-authoring.md#add-fragments)或[電子郵件範本](./email-template-authoring.md#add-fragments)時，系統依預設會鎖定片段內容。 對已發佈片段所做的任何變更都會自動傳播至使用該片段的所有內容資產。 當您將片段中元件的引數指定為可編輯時，電子郵件或範本作者可以指定特定於其需求的自訂欄位值。 此自訂標幟僅限影像、文字和按鈕視覺元件使用。
 
-例如，如果您設計包含可點按按鈕的可重複使用橫幅，您可以將按鈕的URL引數指定為可編輯。 之後，電子郵件作者便可使用與其電子郵件促銷活動更為專屬的URL。 透過這些可自訂欄位，行銷人員可以管理和個人化可重複使用的內容，而無需建立全新的內容區塊或中斷來自原始片段的繼承更新。
+例如，如果您設計包含可點按按鈕的可重複使用橫幅，您可以將按鈕的URL引數指定為可編輯。 之後，電子郵件作者便可使用與其電子郵件促銷活動更為專屬的URL。 透過這些可自訂欄位，行銷團隊可以管理和個人化可重複使用的內容，而無需建立全新的內容區塊或中斷來自原始片段的繼承更新。
 
 1. 在視覺內容編輯器中，選取您要啟用自訂的影像、文字或按鈕元素。
 
 1. 在右側的元件詳細資訊中，選取&#x200B;**[!UICONTROL 可編輯欄位]**&#x200B;索引標籤。
 
-1. 按一下&#x200B;**[!UICONTROL 啟用版本]**&#x200B;選項切換並設定可編輯的欄位。
+1. 按一下&#x200B;**[!UICONTROL 啟用編輯]**&#x200B;選項切換並設定可編輯的欄位。
 
    ![啟用片段影像元件的可編輯欄位](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 

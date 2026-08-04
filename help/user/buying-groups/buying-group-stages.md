@@ -4,22 +4,16 @@ description: 建立具有進入、成功和失敗階段的自訂購買群組階�
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2326
 ht-degree: 2%
 
 ---
@@ -28,7 +22,7 @@ ht-degree: 2%
 
 購買群組階段的設計目的，是為了追蹤購買群組將機會轉換為客戶時的進度。 使用此功能來追蹤購買群組進度，並識別購買群組的下一個最佳動作。
 
-定義單一暫存模型內的階段，定義多個階段以及它們之間的轉換流程。 一個或多個階段被指定進入生命週期。 模型也允許非線性漸層，您可以在此指定從一個階段到另一個階段的轉變，例如從階段A到階段B、C或D。必須指定一個階段作為成功階段，例如購買或簽署的合約。 您可以選擇將另一個階段指定為失敗階段，例如拒絕的合約或向其他廠商購買競爭解決方案。 透過[智慧型儀表板](../dashboards/intelligent-dashboard.md)監視這些階段，顯示購買群組在完成銷售機會或將機會轉換為客戶方面的進度。
+定義單一暫存模型內的階段，定義多個階段以及它們之間的轉換流程。 一個或多個階段被指定進入生命週期。 此模型允許非線性進展，例如從階段A到階段B、C或D。必須將一個階段指定為成功階段，例如購買或簽署的合約。 將另一個階段指定為失敗階段（例如拒絕的合約或向其他廠商購買競爭解決方案）是可選的。 透過[智慧型儀表板](../dashboards/intelligent-dashboard.md)監視這些階段，顯示購買群組在完成銷售機會或將機會轉換為客戶方面的進度。
 
 ![購買群組階段範例](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -42,7 +36,7 @@ ht-degree: 2%
 * 定義轉換流程
 * 指定專案階段和目的地階段
 
-僅支援一個模型，因此您的行銷和銷售團隊務必先為您的組織規劃最佳模型，然後再在Journey Optimizer B2B edition中建立並發佈。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+僅支援一個模型；若要規劃最佳模型，請先與行銷和銷售團隊合作，再在Journey Optimizer B2B edition中建立和發佈模型。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 當您建立購買群組階段模型時，模型會自動顯示為&#x200B;_草稿_&#x200B;狀態，且無法刪除或重新命名。 當您定義階段並設定階段之間的轉換流程時，它會保持此狀態。 當模型處於已發佈（_即時_）狀態時，無法變更。
 
@@ -84,9 +78,9 @@ ht-degree: 2%
 
    重複此步驟，直到您具備模型所需的階段為止。
 
-   為模型![&#128279;](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定義的階段
+   為模型](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定義的![階段
 
-1. 在您滿意已定義的階段後，請按一下[儲存]。**&#x200B;**
+1. 在您滿意已定義的階段後，請按一下[儲存]。****
 
    >[!IMPORTANT]
    >
@@ -94,7 +88,7 @@ ht-degree: 2%
 
 ### 設定工作流程和轉變規則
 
-儲存階段後，它會帶您回到模型工作區。 _[!UICONTROL 允許傳輸至]_&#x200B;資料行是空的，這表示尚未定義模型階段的轉換規則。
+儲存階段後，您會返回模型工作區。 _[!UICONTROL 允許傳輸至]_&#x200B;資料行是空的，這表示尚未定義模型階段的轉換規則。
 
 ![尚未定義轉換規則](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
 
@@ -104,7 +98,7 @@ ht-degree: 2%
 
    此動作會開啟&#x200B;_[!UICONTROL 編輯階段規則]_&#x200B;對話方塊，您可以在其中定義流程的邏輯。
 
-   當您設定選項時，有一些內建的護欄和傳訊功能，可協助您避免流程中出現邏輯錯誤。 您可以按一下[取消]__&#x200B;關閉對話方塊並返回[階段]_索引標籤頁，而不進行任何變更。_
+   當您設定選項時，有一些內建的護欄和傳訊功能，可協助您避免流程中出現邏輯錯誤。 您可以按一下[取消]__&#x200B;關閉對話方塊並返回[階段]]_索引標籤頁，而不進行任何變更。_[!UICONTROL 
 
 1. 在&#x200B;_[!UICONTROL 選取階段]_&#x200B;區段中，指定流程的開始和結束階段：
 
@@ -118,11 +112,11 @@ ht-degree: 2%
 
 1. 針對每個非目的地階段，定義一或多個進入流程（轉換）的階段。
 
-   所有非目的地階段都必須至少選取一個&#x200B;**[!UICONTROL 允許傳輸至]**&#x200B;階段。 否則，模型邏輯無效，帳戶可能會在該階段卡住&#x200B;__，無法取得成功或失敗。
+   所有非目的地階段都必須至少選取一個&#x200B;**[!UICONTROL 允許傳輸至]**&#x200B;階段。 否則，模型邏輯無效，帳戶可能會保留在該階段，無法晉升為成功或失敗。
 
    ![設定非目的地階段之間的轉換](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
-   您可以選擇從失敗階段指定轉變。 例如，您可以將名為&#x200B;_無回應_&#x200B;的階段指定為失敗階段。 但也指定名為&#x200B;_Resurgence_&#x200B;的階段作為可能的轉換，以識別休眠帳戶重新啟動的情況。
+   您可以選擇從失敗階段指定轉變。 例如，將名為&#x200B;_無回應_&#x200B;的階段指定為失敗階段。 但也指定名為&#x200B;_Resurgence_&#x200B;的階段作為可能的轉換，以識別休眠帳戶重新啟動的情況。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -159,7 +153,7 @@ ht-degree: 2%
 
    * 捲動至底部，然後按一下&#x200B;**[!UICONTROL 新增階段]**，視需要為模型定義新的階段。
 
-1. 在您滿意已定義的階段後，請按一下[儲存]。**&#x200B;**
+1. 在您滿意已定義的階段後，請按一下[儲存]。****
 
    您也可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;關閉對話方塊，並返回模型詳細資訊頁面，而不做任何變更。
 
@@ -171,7 +165,7 @@ ht-degree: 2%
 
    請參閱[設定工作流程和轉換規則](#configure-the-workflow-and-transition-rules)，以取得有關這些選項以及它們如何影響模型流程的詳細資訊。
 
-1. 當您對已定義的轉換規則感到滿意時，請按一下[儲存]。**&#x200B;**
+1. 當您對已定義的轉換規則感到滿意時，請按一下[儲存]。****
 
    您也可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;關閉對話方塊，並返回模型詳細資訊頁面，而不做任何變更。
 
@@ -227,7 +221,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 選取&#x200B;_[!UICONTROL 方案興趣]_&#x200B;標籤。
 
-1. 使用下列其中一種方法開啟解決方案興趣，以開啟您要編輯之解決方案興趣的屬性：
+1. 使用下列其中一種方法，開啟您要編輯之解決方案感興趣的屬性：
 
    * 按一下解決方案興趣名稱。
    * 按一下省略符號(**...**) 並選取&#x200B;**[!UICONTROL 編輯]**。
@@ -246,7 +240,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### 分割路徑
 
-使用[分割路徑節點](../journeys/journey-nodes.md#split-paths)，您可以根據購買群組階段，在帳戶層級或人員層級進行篩選。 例如，透過購買群組成員來分割路徑時，新增購買群組階段作為路徑條件。
+使用[分割路徑節點](../journeys/split-merge-paths-nodes.md#split-paths)，您可以根據購買群組階段，在帳戶層級或人員層級進行篩選。 例如，透過購買群組成員來分割路徑時，新增購買群組階段作為路徑條件。
 
 >[!BEGINTABS]
 
@@ -264,7 +258,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    ![分割路徑節點 — 新增條件](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. 在條件編輯器中，新增購買群組篩選器以定義分割路徑。
+1. 若要定義分割路徑，請在條件編輯器中新增購買群組篩選器。
 
    * 在左側，展開底部的&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 有購買群組]**&#x200B;屬性拖曳至篩選器工作區。
 
@@ -292,13 +286,13 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 在右側的節點屬性中，選擇&#x200B;**[!UICONTROL 人員]**&#x200B;進行分割。
 
-   保留用於條件&#x200B;_的_&#x200B;屬性的預設值&#x200B;**[!UICONTROL 僅保留為]**&#x200B;人員屬性。
+   保留用於條件&#x200B;]_的_[!UICONTROL &#x200B;屬性的預設值&#x200B;**[!UICONTROL 僅保留為]**&#x200B;人員屬性。
 
 1. 若要定義適用於&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下&#x200B;**[!UICONTROL 套用條件]**。
 
    ![分割路徑節點 — 新增條件](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. 在條件編輯器中，新增購買群組篩選器以定義分割路徑。
+1. 若要定義分割路徑，請在條件編輯器中新增購買群組篩選器。
 
    * 在左側，展開底部的&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 購買群組成員]**&#x200B;屬性拖曳至篩選器工作區。
 
@@ -320,7 +314,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### 更新購買群組階段帳戶動作
 
-使用[帳戶動作節點](../journeys/journey-nodes.md#add-an-account-action)，您可以更新購買群組階段。 定義此節點包括選取解決方案興趣，以及定義購買群組的新階段。
+使用[帳戶動作節點](../journeys/action-nodes.md#add-an-account-based-action)，您可以更新購買群組階段。 定義此節點包括選取解決方案興趣，以及定義購買群組的新階段。
 
 >[!NOTE]
 >
@@ -334,9 +328,9 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 在右側的節點屬性中，選擇動作的&#x200B;**[!UICONTROL 帳戶]**。
 
-1. 定義動作以更新購買群組階段。
+1. 若要更新購買群組階段，請定義動作。
 
-   * 若要在帳戶&#x200B;**上執行**&#x200B;動作，請選取&#x200B;**[!UICONTROL 更新購買群組階段]**。
+   * 若要在帳戶&#x200B;]**上執行**[!UICONTROL &#x200B;動作，請選取&#x200B;**[!UICONTROL 更新購買群組階段]**。
 
    * 針對&#x200B;**[!UICONTROL 選取方案興趣]**，選取與購買群組階段模型相關聯的方案。
 
@@ -380,4 +374,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3448705/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

@@ -6,32 +6,23 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2672
+source-wordcount: 2626
 ht-degree: 0%
 
 ---
 
 # 登陸頁面內容的AI助理 {#generative-full-content}
 
-在[!DNL Adobe Journey Optimizer B2B Edition]中登陸頁面內容的AI助理使用Adobe的AI支援內容產生功能，並革新行銷人員建立專業且品牌一致的登陸頁面內容的方式。 AI Assistant透過進階的創作AI模型和對品牌指引的深入瞭解，自動產生個人化、吸引人且有效的內容。 它會運用您的行銷目標，並針對品牌概述的樣式、版面、色調等將內容最佳化。 AI Assistant讓行銷活動和方案的建立及執行更直覺、簡單且更輕鬆。 在工作流程中新增此功能，可以節省您的時間、提高效率並帶來更好的結果。
+在[!DNL Adobe Journey Optimizer B2B Edition]中登陸頁面內容的AI助理使用Adobe的AI支援內容產生功能，並革新行銷人員建立專業且品牌一致的登陸頁面內容的方式。 AI Assistant透過進階的創作AI模型和對品牌指引的深入瞭解，自動產生個人化、吸引人且有效的內容。 它會運用您的行銷目標，並針對品牌概述的樣式、版面、色調等將內容最佳化。 AI Assistant讓行銷活動和方案的建立和執行更直覺、簡單而有效。 在工作流程中新增此功能，可以節省您的時間、提高效率並帶來更好的結果。
 
 您可以為登入頁面產生完整的內容體驗，包括文字和影像。 這項強大的功能可協助您建立吸引人、具品牌感的內容，與您的受眾連結。
 
@@ -45,9 +36,9 @@ ht-degree: 0%
 
 ## 指引和限制
 
-開始使用此功能之前，請先檢閱[准則和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 [在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 如需詳細資訊，請聯絡您的 Adobe 代表。
+開始使用此功能之前，請先檢閱[准則和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 [在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-由於Adobe承諾在媒體建立中使用創作AI工具時提高透明度，Adobe針對任何內容或專案套用[內容認證](https://helpx.adobe.com/tw/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}，其中包含Firefly產生的資產（下載或匯出時）。
+為了提高generative AI的透明度，Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}套用至Firefly產生的資產。
 
 下列限制和准則適用於[!DNL Journey Optimizer B2B Edition]中用於產生登陸頁面內容的AI助理功能：
 
@@ -59,11 +50,11 @@ ht-degree: 0%
 
 ## 用於產生內容的輸入和設定
 
-您可以為登入頁面或頁面中選取的元件產生完整內容。 當您使用AI助理工具產生您需要的內容時，您可以提供輸入，包括提示和參考內容，以及文字和影像的設定。
+您可以為登入頁面或頁面中選取的元件產生完整內容。 使用AI助理時，為文字和影像提供輸入、提示、參考內容及設定。
 
 ### 提示
 
-為產生式AI模型使用定義良好的提示，以精確解釋。 您提供的行銷目標/提示強烈會影響產生內容的品質。
+為產生式AI模型使用定義良好的提示，以精確解釋。 您提供的行銷目標/提示會影響產生內容的品質。
 
 ![提示欄位](./assets/gen-ai-prompt.png){width="320"}
 
@@ -77,7 +68,7 @@ ht-degree: 0%
 
 ![AI助理 — 存取提示程式庫](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-選取最能反映您預期目標的提示，然後按一下&#x200B;**[!UICONTROL 嘗試此提示]**。 在&#x200B;_[!UICONTROL 提示]_&#x200B;欄位中，將任何預留位置（例如`[Key Feature/Information]`）取代為指定您的品牌、方案、行銷活動及使用案例所需的值。
+選取最能反映您預期目標的提示，然後按一下&#x200B;**[!UICONTROL 嘗試此提示]**。 在&#x200B;_[!UICONTROL 提示]_&#x200B;欄位中，將預留位置（例如`[Key Feature/Information]`）取代為您的品牌、方案、行銷活動和使用案例詳細資料。
 
 >[!ENDSHADEBOX]
 
@@ -89,7 +80,7 @@ ht-degree: 0%
 * **[!UICONTROL 行銷歷程階段]** — 選擇[購買群組階段](../buying-groups/buying-group-stages.md)，以用於訊息的目標定位。
 * **[!UICONTROL 通訊策略]** — 為您的產生的文字選擇最合適的通訊樣式。
 * **[!UICONTROL 語言]** — 選擇您產生內容的語言。
-* **[!UICONTROL 音調]** — 此音調應該會與您的對象產生共鳴。 例如，您可以將訊息調整為提供豐富資訊、流暢有趣或具說服力。
+* **[!UICONTROL 音調]** — 與您的對象產生共鳴的音調。 例如，您可以將訊息調整為提供豐富資訊、流暢有趣或具說服力。
 
 ![文字設定面板，顯示購買群組、行銷歷程階段、通訊策略、語言和音調選項](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
@@ -99,10 +90,10 @@ ht-degree: 0%
 
 若要在產生的內容中包含影像，請展開右側面板中的&#x200B;**[!UICONTROL 影像設定]**&#x200B;並設定選項。
 
-預設會停用&#x200B;**[!UICONTROL 使用AI]**&#x200B;產生影像選項。 啟用此功能並設定下列選項，以在建議的內容變化中包含產生的影像：
+系統預設會停用&#x200B;**[!UICONTROL 使用AI]**&#x200B;產生影像選項。 啟用此功能並設定下列選項，以在建議的內容變化中包含產生的影像：
 
 * **[!UICONTROL 產生式模型]**：從現成可用的Adobe提供模型、提供特殊功能的合作夥伴模型，或根據您的品牌資產訓練的已設定自訂模型，進行選取。 如需產生式模型的詳細資訊，請參閱&#x200B;_[品牌對齊的Generative AI模型](generative-ai-models.md)_。
-* **[!UICONTROL 外觀比例]**：選取影像元件時，此設定會決定資產的寬度和高度。 您可以選擇一般比率，例如16:9、4:3、3:2或1:1，或者您可以輸入自訂大小。
+* **[!UICONTROL 外觀比例]**：選取影像元件時，此設定會決定資產的寬度和高度。 從16:9、4:3、3:2或1:1等常見比率中選擇，或輸入自訂大小。
 * **[!UICONTROL 內容型別]**：型別會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
 * **[!UICONTROL 視覺強度]**：調整影像的強度，控制影像的影響。 較低的設定（例如2）可建立更柔和、更克制的外觀，而較高的設定（例如10）則可讓影像更生動、視覺效果更強大。
 * **[!UICONTROL 色彩和色調]**：影像中顏色的整體外觀及其傳達的氣氛或氣氛。
@@ -137,7 +128,7 @@ ht-degree: 0%
 
 >[!TAB 整頁]
 
-請依照下列步驟，透過調整現有的登陸頁面範本，使用AI助理產生完整的登陸頁面：
+若要透過修訂現有範本來產生完整的登入頁面，請遵循下列步驟：
 
 1. 在[建立登入頁面](./landing-pages-create-publish.md#create-landing-page)之後，按一下&#x200B;**[!UICONTROL 編輯登入頁面]**。
 
@@ -145,7 +136,7 @@ ht-degree: 0%
 
    完整內容產生需要範本。 它可以是Adobe提供的標準範本，或是儲存的範本。 您也可以使用&#x200B;_[!UICONTROL 匯入HTML]_&#x200B;選項來匯入範本。
 
-   如需使用登入頁面範本的詳細資訊，請參閱&#x200B;_[選取已儲存或範例範本](./landing-pages.md#select-a-saved-or-sample-template)_。
+   如需使用登入頁面範本的詳細資訊，請參閱&#x200B;_[選取範本](./landing-pages-create-publish.md#select-template)_。
 
 1. 在右側面板的外部邊欄上，選取&#x200B;_AI助理_ （![內容切換的AI助理](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ）圖示。
 
@@ -155,11 +146,11 @@ ht-degree: 0%
 
 1. (Beta)選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;來定義您的[可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;來定義您的[可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中，輸入要產生的專案說明。
 
-   如果您需要一些協助來製作有效的提示，請使用[提示程式庫](#prompt-library)。
+   如果您需要一些協助來製作有效的提示，請使用[提示程式庫](#prompts)。
 
    ![AI小幫手 — 產生登陸頁面內容的提示程式庫](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
@@ -167,19 +158,19 @@ ht-degree: 0%
    >
    >如果您不熟悉如何提示產生的內容，請檢閱&#x200B;_[提示最佳實務](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_。
 
-1. 完成內容指導設定以量身打造產生的內容：
+1. 若要量身打造產生的內容，請完成內容指引設定：
 
    * [**[!UICONTROL 文字設定]**](#text-settings) — 提供產生文字內容的指引。
    * [**[!UICONTROL 影像設定]**](#image-settings) — 如果您想要在產生的內容中包含影像，請啟用影像產生並提供指引。
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供作為內容產生來源的內容資產。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
 1. 在AI助理面板中向下捲動，並瀏覽產生的變數以確定哪一個最適合。
 
    * 按一下&#x200B;_全熒幕_ （ ![全熒幕圖示](../assets/do-not-localize/icon-full-screen.svg) ）圖示以開啟&#x200B;_[!UICONTROL 產生登陸頁面]_&#x200B;對話方塊
 
-   * 如有需要，請使用[精簡動作](#refine-a-variation)微調變數，以確保符合您的確切需求。
+   * 如有需要，請使用[細分動作](#refine-a-variation)微調變數，以確保它符合您的確切需求。
 
    * 按一下&#x200B;_Thumbs Up_、_Thumbs Down_&#x200B;或&#x200B;_Flag_&#x200B;圖示，針對產生的變體[提交意見反應](#submit-variation-feedback)，並選擇最能總結您意見反應的原因。
 
@@ -189,7 +180,7 @@ ht-degree: 0%
 
 >[!TAB 僅限文字]
 
-請依照下列步驟，使用AI助理來調整或增強現有登入頁面的文字內容：
+若要調整或增強現有登入頁面的文字內容，請執行下列步驟：
 
 1. 在登入頁面設計空間中，選取&#x200B;_文字_&#x200B;元件以鎖定特定內容。
 
@@ -201,27 +192,27 @@ ht-degree: 0%
 
 1. (Beta)選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中，輸入要產生的專案說明。
 
    ![AI小幫手 — 文字設定](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   如果您需要一些協助來製作有效的提示，請使用[提示程式庫](#prompt-library)。
+   如果您需要一些協助來製作有效的提示，請使用[提示程式庫](#prompts)。
 
-1. 完成內容指導設定以量身打造產生的內容：
+1. 若要量身打造產生的內容，請完成內容指引設定：
 
    * [**[!UICONTROL 文字設定]**](#text-settings) — 提供產生文字內容的指引。
 
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供做為內容產生來源的內容資產。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
 1. 在AI助理面板中向下捲動，並瀏覽產生的變數以確定哪一個最適合。
 
    * 按一下&#x200B;_全熒幕_ （ ![全熒幕圖示](../assets/do-not-localize/icon-full-screen.svg) ）圖示以開啟&#x200B;_[!UICONTROL 產生文字]_&#x200B;對話方塊
 
-   * 如有需要，請使用[精簡動作](#refine-a-variation)微調變數，以確保符合您的確切需求。
+   * 如有需要，請使用[細分動作](#refine-a-variation)微調變數，以確保它符合您的確切需求。
 
    * 按一下&#x200B;_Thumbs Up_、_Thumbs Down_&#x200B;或&#x200B;_Flag_&#x200B;圖示，針對產生的變體[提交意見反應](#submit-variation-feedback)，並選擇最能總結您意見反應的原因。
 
@@ -231,7 +222,7 @@ ht-degree: 0%
 
 >[!TAB 僅限影像]
 
-請依照下列步驟，使用AI助理來調整或增強現有登陸頁面的影像內容：
+若要調整或增強現有登入頁面的影像內容，請執行下列步驟：
 
 1. 在登入頁面設計空間中，選取&#x200B;_Image_&#x200B;元件以鎖定特定內容。
 
@@ -243,21 +234,21 @@ ht-degree: 0%
 
 1. (Beta)選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中輸入您想要的描述。
 
    ![AI小幫手 — 文字設定](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   如果您需要一些協助來製作有效的提示，請使用[提示程式庫](#prompt-library)。
+   如果您需要一些協助來製作有效的提示，請使用[提示程式庫](#prompts)。
 
-1. 完成內容指導設定以量身打造產生的內容：
+1. 若要量身打造產生的內容，請完成內容指引設定：
 
    * [**[!UICONTROL 影像設定]**](#image-settings) — 如果您想要在產生的內容中包含影像，請啟用影像產生並提供指引。
 
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供做為內容產生來源的內容資產。
 
-1. 當您對提示和設定感到滿意時，請按一下[產生]。**&#x200B;**
+1. 當您對提示和設定感到滿意時，請按一下[產生]。****
 
    AI Assistant會處理要求，並根據提示和其他輸入產生最適合的影像。
 
@@ -269,13 +260,13 @@ ht-degree: 0%
 
    此對話方塊提供額外的空間來比較變化、調整影像和參考內容設定（如果需要），以及重新產生變化。
 
-   您可以選取變數並按一下&#x200B;**[!UICONTROL 產生類似專案]**&#x200B;以產生與所選變數類似的其他影像。 或者，按一下[在Adobe Express中編輯] **&#x200B;**，自行變更影像。 如需使用Adobe Express調整影像的詳細資訊，請參閱[Adobe Express中的快速動作](./image-edit-adobe-express.md#quick-actions-in-adobe-express)。
+   您可以選取變數並按一下&#x200B;**[!UICONTROL 產生類似專案]**&#x200B;以產生與所選變數類似的其他影像。 或者，按一下[在Adobe Express中編輯] ****，自行變更影像。 如需使用Adobe Express調整影像的詳細資訊，請參閱[Adobe Express中的快速動作](./image-edit-adobe-express.md#quick-actions-in-adobe-express)。
 
    ![文字變化與細分選項的AI Assistant預覽](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
 
    您也可以[針對產生的變化，提交意見反應](#submit-variation-feedback)。
 
-1. 反白顯示您想要的影像，然後按一下「選取&#x200B;**&#x200B;**」以選取的專案取代影像或預留位置，並返回登陸頁面設計空間。
+1. 反白顯示您想要的影像，然後按一下「選取&#x200B;****」以選取的專案取代影像或預留位置，並返回登陸頁面設計空間。
 
    您可以使用畫布上的編輯和格式化工具來更改影像，以及右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;選項。
 
@@ -301,7 +292,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 精心設計]** - AI助理可以協助您展開特定主題，提供其他詳細資訊，以增進瞭解及參與。
 
-* **[!UICONTROL 摘要]** — 冗長的資訊可能會使頁面檢視器超載。 使用AI Assistant將要點濃縮為清晰、簡潔的摘要，以吸引注意並鼓勵他們進一步閱讀。
+* **[!UICONTROL 摘要]** — 冗長的資訊可能會使頁面檢視器超載。 使用AI Assistant將要點濃縮為清晰、簡明的摘要，以吸引注意並鼓勵收件者進一步閱讀。
 
 * **[!UICONTROL 重新寫字]** — 重新寫入郵件，同時保留其意義。 此選項可協助您產生替代用語、改善流量或調整詞句，而不變更核心訊息。
 

@@ -4,20 +4,14 @@ description: 透過Journey Optimizer B2B edition中的AI支援見解檢視購買
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:46:01.279Z
 TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 789
 ht-degree: 4%
@@ -26,7 +20,7 @@ ht-degree: 4%
 
 # 購買群組詳細資料
 
-當您在Journey Optimizer B2B edition的任何位置按一下購買群組名稱時，都會顯示購買群組的詳細資訊。 此概觀提供有關購買群組的實用資訊，包括創作AI摘要。 您也可以針對與帳戶關聯的連絡人執行[動作](#buying-group-actions)。
+當您在Journey Optimizer B2B edition的任何位置按一下購買群組名稱時，都會顯示購買群組的詳細資訊。 此概觀提供有關購買群組的實用資訊，包括創作AI摘要。 您也可以針對與帳戶關聯的連絡人執行[動作](#members-tab)。
 
 ![存取購買群組詳細資料](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
@@ -67,7 +61,7 @@ ht-degree: 4%
 
 ### 意圖資料
 
-在Journey Optimizer B2B edition中，意圖偵測模型會根據購買群組的活動，預測具有足夠高信賴度的感興趣解決方案/產品。 購買群組的意向可解譯為對產品感興趣的可能性。
+在Journey Optimizer B2B edition中，意圖偵測模型會根據購買群組的活動，預測具有足夠信賴度的感興趣解決方案/產品。 購買群組的意向可解譯為對產品感興趣的可能性。
 
 {{intent-data-note}}
 

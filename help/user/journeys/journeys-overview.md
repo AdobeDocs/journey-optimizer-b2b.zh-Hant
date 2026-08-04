@@ -4,21 +4,16 @@ description: 透過歷程簡化需求產生 — 在Journey Optimizer B2B edition
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1512
+source-wordcount: 1504
 ht-degree: 42%
 
 ---
@@ -33,7 +28,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
   ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看帳戶歷程概觀影片](#overview-video)
 
-* **個人歷程** - (Beta)使用Experience Platform對象和資料來協調銷售機會型行銷。 個人歷程的行銷作業不依賴Marketo Engage或Adobe Campaign/B2C工具鏈的因應措施，因此可搭配B2B使用案例運作。
+* **個人歷程** - (Beta)使用Experience Platform受眾和資料來協調銷售機會型行銷。 在個人歷程中，您的行銷作業不依賴Marketo Engage或Adobe Campaign/B2C工具鏈的因應措施，因此可支援B2B使用案例。
 
   如果搭配帳戶歷程及購買群組使用，個人歷程可讓行銷人員對購買歷程套用完整的協調流程。
 
@@ -41,17 +36,17 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
   有些限制可能會封鎖某些使用案例，或導致建立個人歷程的困難。 許多問題都是初始Beta版計畫實作的結果，將於未來解決。
 
-   * 事件不能與設定檔屬性結合以縮小對象定義。
-   * 符合歷程設定檔資格的事件內容無法用於個人化或協調。
-   * 歷程目前不能同時具有事件和設定檔區段輸入條件。
-   * 事件接聽程式無法接聽多個事件。
-   * 等待節點目前沒有完整的一套一週中的某天或當天時間的退出條件選項。
-   * 電子郵件編輯器錯誤地引用了僅可用於帳戶歷程的功能和屬性
-   * 尚未提供自訂歷程權杖（_我的權杖_）的支援。
-   * 任一歷程型別目前都無法新增及移除人員歷程節點。
-   * 事件歷史記錄無法用於協調或個人化。
-   * 相關物件（例如帳戶、購買群組、商機和自訂物件）無法用於協調或個人化。
-   * 目前不支援Web、SMS和廣告平台管道。
+  * 事件不能與設定檔屬性結合以縮小對象定義。
+  * 符合歷程設定檔資格的事件內容無法用於個人化或協調。
+  * 歷程目前不能同時具有事件和設定檔區段輸入條件。
+  * 事件接聽程式無法接聽多個事件。
+  * 等待節點目前沒有完整的一套一週中的某天或當天時間的退出條件選項。
+  * 電子郵件編輯器錯誤地引用了僅可用於帳戶歷程的功能和屬性
+  * 尚未提供自訂歷程權杖（_我的權杖_）的支援。
+  * 任一歷程型別目前都無法新增及移除人員歷程節點。
+  * 事件歷史記錄無法用於協調或個人化。
+  * 相關物件（帳戶、購買群組、商機和自訂物件）無法用於協調或個人化。
+  * 目前不支援Web、SMS和廣告平台管道。
 
   +++
 
@@ -114,11 +109,11 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 | 狀態 | 說明 | 可用的動作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 未發佈且可以編輯的歷程。 | <li>[發佈](./create-publish-journey.md#publish-a-journey)<li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
-| _&#x200B;**已上線**&#x200B;_ | 發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | <li>[複製](#duplicate-journey)<li>[對新進客戶關閉](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**對新進客戶關閉**&#x200B;_ | 當您在頂端導覽區域按一下「_對新進客戶關閉_」，此歷程狀態會從「_已上線_」變更為「[!UICONTROL 對新進客戶關閉]」。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。 中止的歷程無法重新啟動。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 當歷程中的所有帳戶或個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉的新專案_&#x200B;變更為&#x200B;_已完成_。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**草稿**_ | 未發佈且可以編輯的歷程。 | <li>[發佈](./create-publish-journey.md#publish-a-journey)<li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**已上線**_ | 發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | <li>[複製](#duplicate-journey)<li>[對新進客戶關閉](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**對新進客戶關閉**_ | 當您在頂端導覽區域按一下「_對新進客戶關閉_」，此歷程狀態會從「_已上線_」變更為「[!UICONTROL 對新進客戶關閉]」。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。 中止的歷程無法重新啟動。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**已完成**_ | 當歷程中的所有帳戶或個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉的新專案_&#x200B;變更為&#x200B;_已完成_。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
 
 ## 歷程圖
 
@@ -156,7 +151,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ### 對新進客戶關閉
 
-如果您關閉已上線的歷程，則目前在歷程中的帳戶會繼續在該歷程中的路徑，且不再允許後續客群進入歷程。 已關閉的歷程無法重新啟動。 您可以重複已關閉的歷程。
+如果您關閉已上線的歷程，則目前在歷程中的帳戶會繼續在該歷程中的路徑，且不再允許後續進入歷程。 已關閉的歷程無法重新啟動。 您可以重複已關閉的歷程。
 
 >[!IMPORTANT]
 >
@@ -200,7 +195,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
    重複的歷程會在歷程地圖中開啟，您可以在其中設定詳細資訊，並視需要建立歷程內容。
 
-### 刪除歷程
+### 刪除歷程 {#delete-journey}
 
 使用刪除動作永久刪除歷程。 您不能刪除已上線或已排程的歷程。
 
@@ -216,7 +211,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ## 審閱帳戶進度
 
-對於處於&#x200B;_即時_、_已關閉新專案_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;狀態的已發佈帳戶歷程，您可以開啟歷程對應，以檢閱歷程節點的帳戶進展。 地圖上的每個節點皆會顯示到達該節點的帳戶數量，而對於上線歷程，則是顯示目前位於該節點的帳戶數量。
+針對&#x200B;_即時_、_已關閉新專案_、_已中止_&#x200B;或&#x200B;_已完成_&#x200B;狀態的已發佈帳戶歷程，請開啟歷程地圖以檢閱歷程節點的帳戶進度。 地圖上的每個節點皆會顯示到達該節點的帳戶數量；對於已上線的歷程，還會顯示目前位於該節點的帳戶數量。
 
 ![歷程節點帳戶進度資訊](./assets/node-account-progression-observability.png){width="400"}
 
@@ -226,4 +221,4 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ## 帳戶歷程概觀影片 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443218/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

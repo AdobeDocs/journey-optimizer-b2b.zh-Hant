@@ -4,20 +4,13 @@ description: 在Journey Optimizer B2B Prime中使用衍生角色來鎖定人員�
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-06-23T22:01:21.605Z'
 TQID: 'https://experienceleague.adobe.com/OZ4GDkaqg9a5Aikic-m-f0MtHSpc3BO0h41fTAL1Rww'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 650
+source-wordcount: 639
 ht-degree: 2%
 
 ---
@@ -27,9 +20,9 @@ ht-degree: 2%
 角色分類將原始客戶資料轉換為語意購買者瞭解AI可用於產生內容，並推動每個管道和歷程的個人化決策。 此統一的設定檔可讓：
 
 * _歷程分支_ — 依角色、參與深度和角色分割路徑路由銷售機會
-* _歷程仲裁_ — 決定目前哪個Nurture銷售機會屬於哪個，避免並行程式間的訊息衝突
-* _內容個人化_ — 角色特定敘述的內容（「適用於高階主管」與「適用於從業人員」）
-* _銷售限定詞內容_ - BDR會取得單熒幕簡介，顯示「此人是誰、他們關心什麼、他們在購買者歷程中的位置」
+* _歷程仲裁_ — 決定潛在客戶目前屬於哪個Nurture歷程，避免並行程式間的訊息衝突
+* _內容個人化_ — 角色特定敘述的內容（「適用於高階主管」或「適用於從業人員」）
+* _銷售限定詞內容_ — 業務開發代表(BDR)會收到單熒幕摘要，其中顯示個人身分、興趣及其在購買者歷程中的目前階段
 
 ## 預設角色 {#default-ersonas}
 
@@ -49,17 +42,17 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->在「一般可用性」版本中，您將能夠根據組織的需求編輯這些預設角色中的任何一個。 它也會支援自訂角色定義和對應。
+>在即將發行的「一般可用性」版本中，您可以根據組織的需求編輯這些預設角色中的任何一個。 它也會支援自訂角色定義和對應。
 
 ## 依衍生角色篩選 {#derived-persona-filter}
 
-Journey Optimizer B2B Prime會針對已定義的角色評估記錄的屬性，以衍生每個人員記錄的角色。 定義人員清單的對象或在人員歷程中分段時，您可以使用推斷的結果（_衍生角色_）作為篩選器。
+[!DNL Journey Optimizer B2B Prime]會根據定義的角色評估記錄屬性，以衍生每個人員記錄的角色。 定義人員清單的對象或在人員歷程中分段時，您可以使用推斷的結果（_衍生角色_）作為篩選器。
 
 _[!UICONTROL 衍生角色]_&#x200B;篩選器會顯示在&#x200B;**[!UICONTROL 人員屬性]**&#x200B;類別下的篩選器面板中。
 
 ### 人員清單 {#people-lists}
 
-當您從[靜態人員清單](./people-lists.md#static-list)新增或移除成員時，或當您定義[動態人員清單](./people-lists.md#dynamic-lists)的成員資格規則時，您可以依「衍生角色」篩選，以鎖定其屬性符合特定設定角色的所有人員。
+管理[靜態人員清單](./people-lists.md#static-lists)中的成員，或定義[動態人員清單](./people-lists.md#dynamic-lists)的規則時，您可以依&#x200B;_衍生角色_&#x200B;篩選，以鎖定其屬性符合特定設定角色的所有人員。
 
 ![人員清單的衍生角色篩選](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 

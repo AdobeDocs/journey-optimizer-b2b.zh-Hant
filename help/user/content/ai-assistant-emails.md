@@ -4,33 +4,23 @@ description: 使用AI Assistant產生電子郵件內容 — 建立郵件內容�
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3592
+source-wordcount: 3582
 ht-degree: 0%
 
 ---
 
 # 電子郵件內容的AI助理
 
-隨著行銷業的競爭日益激烈，品牌開始尋求有效率的方式，以快速且有效率的方式產生具影響力的內容。 用於[!DNL Adobe Journey Optimizer B2B Edition]中電子郵件製作的AI Assistant是Adobe的AI支援內容產生功能，它徹底改變了行銷人員建立專業且品牌一致的電子郵件內容的方式。 AI Assistant透過進階的創作AI模型和對品牌指引的深入瞭解，自動產生個人化、吸引人且有效的內容。 它會運用您的行銷目標，並針對品牌概述的樣式、版面、色調等將內容最佳化。 AI Assistant可讓電子郵件行銷活動的建立和執行直覺化、簡單且免費。 在工作流程中新增此功能，可以節省您的時間、提高效率並帶來更好的結果。
+隨著行銷業的競爭日益激烈，品牌開始尋求有效率的方式，以快速且有效率的方式產生具影響力的內容。 用於[!DNL Adobe Journey Optimizer B2B Edition]中電子郵件製作的AI Assistant是Adobe的AI支援內容產生功能，它徹底改變了行銷人員建立專業且品牌一致的電子郵件內容的方式。 AI Assistant透過進階的創作AI模型和對品牌指引的深入瞭解，自動產生個人化、吸引人且有效的內容。 它會運用您的行銷目標，並針對品牌概述的樣式、版面、色調等將內容最佳化。 AI Assistant可讓電子郵件行銷活動的建立和執行變得直觀、簡單而有效。 在工作流程中新增此功能，可以節省您的時間、提高效率並帶來更好的結果。
 
 這項新功能提供以提示為基礎的內容產生功能，適用於完整電子郵件產生或在電子郵件結構元件中定位。 針對影像，您可以產生新的影像資產，或從輸入品牌資產的影像目錄中產生建議。 您也可以使用此功能產生最佳主旨行和預先標題，以影響電子郵件開啟率。
 
@@ -40,9 +30,9 @@ ht-degree: 0%
 
 ## 指引和限制
 
-開始使用此功能之前，請先檢閱[准則和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 [在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}。 如需詳細資訊，請聯絡您的 Adobe 代表。
+開始使用此功能之前，請先檢閱[准則和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 [在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}套用至Firefly產生的資產，以提高透明度。
+Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}套用至Firefly產生的資產，以提高透明度。
 
 下列限制和准則適用於[!DNL Journey Optimizer B2B Edition]中用於產生電子郵件內容的AI助理功能：
 
@@ -58,7 +48,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 ### 提示
 
-為產生式AI模型使用定義良好的提示，以精確解釋。 您提供的行銷目標/提示強烈會影響產生內容的品質。
+為產生式AI模型使用定義良好的提示，以精確解釋。 您提供的行銷目標/提示會影響產生內容的品質。
 
 ![提示欄位](./assets/gen-ai-prompt.png){width="320"}
 
@@ -72,7 +62,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 ![AI助理 — 存取提示程式庫](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-選取最能反映您預期目標的提示，然後按一下&#x200B;**[!UICONTROL 嘗試此提示]**。 在&#x200B;_[!UICONTROL 提示]_&#x200B;欄位中，將任何預留位置（例如`[Key Feature/Information]`）取代為指定您的品牌、方案、行銷活動及使用案例所需的值。
+選取最能反映您預期目標的提示，然後按一下&#x200B;**[!UICONTROL 嘗試此提示]**。 在&#x200B;_[!UICONTROL 提示]_&#x200B;欄位中，將任何預留位置（例如`[Key Feature/Information]`）取代為指定您的品牌、方案、行銷活動及使用案例的值。
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +70,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 展開右側面板中的&#x200B;**[!UICONTROL 文字設定]**，並設定產生文字的選項。
 
-* **[!UICONTROL 購買群組]** — 選擇[購買群組角色](../buying-groups/buying-groups-role-templates.md)，以用於設定您的訊息目標。 [!DNL Journey Optimizer B2B Edition]提供五個現成可用的標準B2B購買群組角色。 每個購買團體角色都有不同的傳訊焦點：
+* **[!UICONTROL 購買群組]** — 選擇[購買群組角色](../buying-groups/buying-groups-role-templates.md)，以用於設定您的訊息目標。 [!DNL Journey Optimizer B2B Edition]提供五個預先設定的標準B2B購買群組角色。 每個購買團體角色都有不同的傳訊焦點：
 
   | 角色 | 訊息焦點 |
   | ---- | --------------- |
@@ -93,7 +83,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 * **[!UICONTROL 行銷歷程階段]** — 選擇[購買群組階段](../buying-groups/buying-group-stages.md)，以用於訊息的目標定位。
 * **[!UICONTROL 通訊策略]** — 為您的產生的文字選擇最合適的通訊樣式。
 * **[!UICONTROL 語言]** — 選擇您產生內容的語言。
-* **[!UICONTROL 音調]** — 此音調應該會與您的對象產生共鳴。 例如，您可以將訊息調整為提供豐富資訊、流暢有趣或具說服力。
+* **[!UICONTROL 音調]** — 與您的對象產生共鳴的音調。 例如，您可以將訊息調整為提供豐富資訊、流暢有趣或具說服力。
 
 ![文字設定面板，顯示購買群組、行銷歷程階段、通訊策略、語言和音調選項](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
@@ -106,7 +96,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 系統預設會停用&#x200B;**[!UICONTROL 使用AI]**&#x200B;產生影像選項。 啟用此功能並設定下列選項，以在建議的內容變化中包含產生的影像：
 
 * **[!UICONTROL 產生式模型]**：從現成可用的Adobe提供模型、提供特殊功能的合作夥伴模型，或根據您的品牌資產訓練的已設定自訂模型，進行選取。 如需產生式模型的詳細資訊，請參閱&#x200B;_[品牌對齊的Generative AI模型](generative-ai-models.md)_。
-* **[!UICONTROL 外觀比例]**：選取影像元件時，此設定會決定資產的寬度和高度。 從一般比率（例如16:9、4:3、3:2或1:1）中選擇，或輸入自訂大小。
+* **[!UICONTROL 外觀比例]**：選取影像元件時，此設定會決定資產的寬度和高度。 從常見比例（如16:9、4:3、3:2或1:1）中選擇，或輸入自訂比例。
 * **[!UICONTROL 內容型別]**：型別會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
 * **[!UICONTROL 視覺強度]**：調整影像的強度，控制影像的影響。 較低的設定（例如2）可建立更柔和、更克制的外觀，而較高的設定（例如10）則可讓影像更生動、視覺效果更強大。
 * **[!UICONTROL 色彩和色調]**：影像中顏色的整體外觀及其傳達的氣氛或氣氛。
@@ -160,7 +150,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
    * [**[!UICONTROL 文字設定]**](#text-settings) — 提供產生文字內容的指引。
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供作為內容產生來源的內容資產。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
    產生的變體會顯示在對話方塊中。
 
@@ -188,7 +178,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 >[!TAB 產生預覽文字]
 
-電子郵件預告是在收件匣中檢視電子郵件時，主旨行之後的簡短摘要文字。 這是電子郵件的選用元素，但也是改善參與度的絕佳機會。 下列步驟說明使用AI Assistant為您的電子郵件產生最佳化預覽文字的工作順序：
+電子郵件預告是在收件匣中檢視電子郵件時，主旨行之後的簡短摘要文字。 這是電子郵件的選用元素，但也是改善參與度的有效機會。 下列步驟說明使用AI Assistant為您的電子郵件產生最佳化預覽文字的工作順序：
 
 1. 在已選取&#x200B;_詳細資料_&#x200B;索引標籤的&#x200B;_摘要_&#x200B;面板中，向下捲動並選取&#x200B;**[!UICONTROL 預覽標題]**&#x200B;核取方塊。
 
@@ -205,7 +195,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
    * [**[!UICONTROL 文字設定]**](#text-settings) — 提供產生文字內容的指引。
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供作為內容產生來源的內容資產。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
    產生的變體會顯示在對話方塊中。
 
@@ -213,7 +203,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 1. 捲動「AI輔助程式」面板，並瀏覽產生的變數來決定哪一個最適合。
 
-   您可以[針對產生的變體](#submit-variation-feedback)提交意見反應，方法是按一下&#x200B;_拇指向上_、_拇指向下_&#x200B;或&#x200B;_旗標_&#x200B;圖示，並選擇最能摘要您意見反應的原因。
+   您可以針對產生的變體[提交意見反應](#submit-variation-feedback)，方法是按一下&#x200B;_向上縮圖_、_向下縮圖_&#x200B;或&#x200B;_標幟_&#x200B;圖示，並選擇最能摘要您意見反應的原因。
 
 1. 按一下&#x200B;**[!UICONTROL Refine]**&#x200B;選項以存取其他自訂功能：
 
@@ -235,7 +225,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 ## 使用AI助理產生電子郵件內文內容 {#generative-ai-email-design}
 
-在您[建立並個人化您的電子郵件](./email-authoring.md)後，請在[!DNL Journey Optimizer B2B Edition]中使用由創作AI支援的AI小幫手，將您的電子郵件內文內容提升到新的層級。
+在您[建立並個人化您的電子郵件](./email-authoring.md)之後，請在[!DNL Journey Optimizer B2B Edition]中使用由創作AI支援的AI助理來改善您的電子郵件內文內容。
 
 在電子郵件設計空間，AI Assistant可以產生完整的電子郵件內文、目標文字內容，以及可引起觀眾共鳴的影像，協助您最佳化傳送的影響。 這種電子郵件行銷活動最佳化是為了產生更好的參與度而設計。 選取&#x200B;_AI小幫手_ （![AI小幫手功能表切換](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ）以顯示目前內容選取可用的內容產生工具。
 
@@ -247,7 +237,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 >[!TAB 產生完整電子郵件]
 
-請依照下列步驟，透過修訂現有的電子郵件範本，使用AI助理產生完整的電子郵件：
+若要使用AI Assistant來縮小現有電子郵件範本，以進行完整的電子郵件產生，請遵循下列步驟：
 
 1. 在[建立電子郵件](./add-email.md)之後，按一下&#x200B;**[!UICONTROL 編輯電子郵件內容]**。
 
@@ -265,7 +255,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;來定義您的[可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;來定義您的[可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中，輸入要產生的專案說明。
 
@@ -275,13 +265,13 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
    >
    >如果您不熟悉如何提示產生的內容，請檢閱&#x200B;_[提示最佳實務](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_。
 
-1. 完成內容指導設定以量身打造產生的內容：
+1. 若要量身打造產生的內容，請完成內容指引設定：
 
    * [**[!UICONTROL 文字設定]**](#text-settings) — 提供產生文字內容的指引。
    * [**[!UICONTROL 影像設定]**](#image-settings) — 如果您想要在產生的內容中包含影像，請啟用影像產生並提供指引。
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供作為內容產生來源的內容資產。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
    產生的變數會顯示在右側面板中。
 
@@ -289,7 +279,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
    此對話方塊提供額外的空間，用於比較變數、調整文字和參考內容設定（如有需要），以及重新產生變數。
 
-   您也可以套用細分動作來微調變化，並針對產生的變化提交意見反應。 請參閱&#x200B;_[預覽和內容細分](#preview-and-content-refinement)_，以取得有關變數細分和回饋的詳細資訊。
+   您也可以套用細分動作來微調變化，並針對產生的變化提交意見反應。 請參閱&#x200B;_[預覽和內容細分](#refine-finalize)_，以取得有關變數細分和回饋的詳細資訊。
 
    ![電子郵件變數和細分選項的AI助理預覽](./assets/email-designer-ai-assistant-full-refine.png){width="700" zoomable="yes"}
 
@@ -299,7 +289,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 >[!TAB 僅限文字]
 
-請依照下列步驟使用AI助理來調整或增強現有電子郵件的文字內容：
+若要使用AI助理來調整或增強現有電子郵件的文字內容，請執行下列步驟：
 
 1. 在電子郵件設計空間中，選取&#x200B;_文字_&#x200B;元件以定位特定內容。
 
@@ -309,7 +299,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中，輸入要產生的專案說明。
 
@@ -317,13 +307,13 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
    如果您需要一些協助來製作有效的提示，請使用[提示程式庫](#prompt-library)。
 
-1. 完成內容指導設定以量身打造產生的內容：
+1. 若要量身打造產生的內容，請完成內容指引設定：
 
    * [**[!UICONTROL 文字設定]**](#text-settings) — 提供產生文字內容的指引。
 
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供做為內容產生來源的內容資產。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
 1. 瀏覽產生的變化，或按一下&#x200B;_全熒幕_ （ ![全熒幕圖示](../assets/do-not-localize/icon-full-screen.svg) ）圖示以開啟&#x200B;_[!UICONTROL 產生文字]_&#x200B;對話方塊。
 
@@ -339,7 +329,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 >[!TAB 僅限影像]
 
-請依照下列步驟，使用AI助理來調整或增強現有電子郵件的影像內容：
+若要使用AI助理來調整或增強現有電子郵件的影像內容，請執行下列步驟：
 
 1. 在電子郵件設計空間中，選取&#x200B;_Image_&#x200B;元件以鎖定特定內容。
 
@@ -349,7 +339,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中輸入您想要的描述。
 
@@ -357,13 +347,13 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
    如果您需要一些協助來製作有效的提示，請使用[提示程式庫](#prompt-library)。
 
-1. 完成內容指導設定以量身打造產生的內容：
+1. 若要量身打造產生的內容，請完成內容指引設定：
 
    * [**[!UICONTROL 影像設定]**](#image-settings) — 如果您想要在產生的內容中包含影像，請啟用影像產生並使用指引設定。
 
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供做為內容產生來源的內容資產。
 
-1. 當您對提示和設定感到滿意時，請按一下[產生]。**&#x200B;**
+1. 當您對提示和設定感到滿意時，請按一下[產生]。****
 
    AI Assistant會處理要求，並根據提示和其他輸入產生最適合的影像。
 
@@ -375,13 +365,13 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
    此對話方塊提供額外的空間來比較變化、調整影像和參考內容設定（如果需要），以及重新產生變化。
 
-   您可以選取變數並按一下&#x200B;**[!UICONTROL 產生類似專案]**&#x200B;以產生與所選變數類似的其他影像。 或者，按一下[在Adobe Express中編輯] **&#x200B;**，自行變更影像。 如需使用Adobe Express調整影像的詳細資訊，請參閱[Adobe Express中的快速動作](./image-edit-adobe-express.md#quick-actions-in-adobe-express)。
+   您可以選取變數並按一下&#x200B;**[!UICONTROL 產生類似專案]**&#x200B;以產生與所選變數類似的其他影像。 或者，按一下[在Adobe Express中編輯] ****，自行變更影像。 如需使用Adobe Express調整影像的詳細資訊，請參閱[Adobe Express中的快速動作](./image-edit-adobe-express.md#quick-actions-in-adobe-express)。
 
    ![文字變化與細分選項的AI Assistant預覽](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
 
    您也可以[針對產生的變化，提交意見反應](#submit-variation-feedback)。
 
-1. 反白顯示您想要的影像，然後按一下[選取&#x200B;**&#x200B;**]以選取的專案取代影像或預留位置，並返回電子郵件設計空間。
+1. 反白顯示您想要的影像，然後按一下[選取&#x200B;****]以選取的專案取代影像或預留位置，並返回電子郵件設計空間。
 
    您可以使用畫布上的編輯和格式化工具來更改影像，以及右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;選項。
 
@@ -407,7 +397,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 * **[!UICONTROL 精心設計]** - AI助理可以協助您展開特定主題，提供其他詳細資訊，以增進瞭解及參與。
 
-* **[!UICONTROL 摘要]** — 冗長的資訊可能會使頁面檢視器超載。 使用AI Assistant將要點濃縮為清晰、簡潔的摘要，以吸引注意並鼓勵他們進一步閱讀。
+* **[!UICONTROL 摘要]** — 冗長的資訊可能會使讀者超載。 使用AI Assistant將要點濃縮為清晰、簡潔的摘要，以吸引注意並鼓勵他們進一步閱讀。
 
 * **[!UICONTROL 重新寫字]** — 重新寫入郵件，同時保留其意義。 此選項可協助您產生替代用語、改善流量或調整詞句，而不變更核心訊息。
 
@@ -425,7 +415,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 ### 提交變數回饋
 
-按一下&#x200B;_Thumbs Up_、_Thumbs Down_&#x200B;或&#x200B;_Flag_&#x200B;圖示，為產生的變體提供意見回饋，並選擇最能摘要您的意見回饋的原因。
+按一下&#x200B;_Thumbs Up_、_Thumbs Down_&#x200B;或&#x200B;_Flag_&#x200B;圖示，並選擇最能摘要您意見的原因，以提供產生之變體的意見回饋。
 
 ![AI Assistant — 預覽產生的變數](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 

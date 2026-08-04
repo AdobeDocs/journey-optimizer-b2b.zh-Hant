@@ -4,22 +4,16 @@ description: 在Journey Optimizer B2B edition中新增按鈕、文字、影像�
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3074
 ht-degree: 6%
 
 ---
@@ -207,7 +201,7 @@ ht-degree: 6%
 
 +++
 
-### 功能工具
+### 功能工具 {#functional-tools}
 
 | 工具 | 名稱 | 使用情況 |
 | ---- | ---- | ----- |
@@ -221,7 +215,7 @@ ht-degree: 6%
 
 1. 在視覺設計空間中，使用現有範本或將所需的結構元件新增至空白畫布以定義版面。
 
-1. 在&#x200B;**[!UICONTROL 元件]**&#x200B;資料庫中，抓取您所選內容元件的&#x200B;_拖曳控點_ ![拖曳控點](../../assets/do-not-localize/icon-drag-handle.svg)，然後將其拖放到結構元件上。
+1. 在&#x200B;**[!UICONTROL 元件]**&#x200B;程式庫中，選取您所選內容元件的&#x200B;_拖曳控點_ ![拖曳控點](../../assets/do-not-localize/icon-drag-handle.svg)，然後將其拖放到結構元件上。
 
    您可以將多個元件新增到單一結構元件和結構元件的每個欄中。
 
@@ -233,7 +227,7 @@ ht-degree: 6%
 
    ![定義內容元件的設定和樣式](./assets/content-components-settings-styles.png){width="600" zoomable="yes"}
 
-使用設計時，您也可以[移除](#remove-a-content-component)或[複製](#duplicate-a-content-component)元件。
+使用設計時，您也可以使用[功能工具](#functional-tools)區段中的&#x200B;**刪除**&#x200B;和&#x200B;**複製**&#x200B;工具，移除或複製元件。
 
 ## 內容元件設定和樣式
 
@@ -296,7 +290,7 @@ ht-degree: 6%
 
 當您輸入按鈕標籤文字並設定格式時，按鈕會調整大小以符合內容。
 
-與工具列![&#128279;](./assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的按鈕元件
+與工具列](./assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的![按鈕元件
 
 #### 設定連結選項
 
@@ -320,7 +314,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -438,7 +432,7 @@ ht-degree: 6%
 
 ### 分隔線
 
-新增&#x200B;_分隔線_&#x200B;元件，在內容區段之間納入線性分隔。
+若要在內容的區段之間合併線性劃分，請新增&#x200B;_分隔線_&#x200B;元件。
 
 +++背景
 
@@ -456,13 +450,13 @@ ht-degree: 6%
 
 * **[!UICONTROL 寬度]** — 使用切換功能以畫素或百分比設定寬度。
 
-   * 若為百分比寬度，請使用滑桿來設定百分比值。 百分比會根據包含區塊的內容方塊來決定元素大小，其中不包含邊框間距和邊框。 例如，值50會將元素寬度設定為其所包含區塊內容寬度的50%。
+  * 若為百分比寬度，請使用滑桿來設定百分比值。 百分比會根據包含區塊的內容方塊來決定元素大小，其中不包含邊框間距和邊框。 例如，值50會將元素寬度設定為其所包含區塊內容寬度的50%。
 
   ![定義分隔線元件](./assets/component-divider-line-options.png){width="250"}的線條樣式
 
-   * 針對以畫素為基礎的寬度，按一下向上和向下箭頭圖示，以增加或減少畫素數量。 空白值(Auto)是預設值，會根據元素內容調整元素寬度。
+  * 針對以畫素為基礎的寬度，按一下向上和向下箭頭圖示，以增加或減少畫素數量。 空白值(Auto)是預設值，會根據元素內容調整元素寬度。
 
-* **[!UICONTROL 樣式]** — 從標準CSS `line-style`值清單中選擇值，例如&#x200B;_實線_、_點線_&#x200B;和&#x200B;_虛線_。
+* **[!UICONTROL 樣式]** — 從標準CSS `line-style`值清單中選擇一個值，例如&#x200B;_實線_、_點線_&#x200B;和&#x200B;_虛線_。
 
 +++
 
@@ -502,9 +496,9 @@ ht-degree: 6%
 
 1. 在畫布上選取元件，然後按一下工具列中的「_顯示原始程式碼_」圖示。
 
-   [開啟程式碼編輯器以新增HTML](./assets/content-components-html-show-code.png){width="450"}
+   [若要新增HTML，請開啟程式碼編輯器](./assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
 
    [編輯HTML對話方塊](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
@@ -564,7 +558,7 @@ ht-degree: 6%
 
 選擇[資產來源型別](./assets-overview.md)並選取影像檔：
 
-* **[!UICONTROL Marketo Engage Assets]** — 選擇此型別以從Journey Optimizer B2B edition資料庫或連線的Market Engage執行個體瀏覽及選取影像資產。
+* **[!UICONTROL Marketo Engage Assets]** — 選擇此型別以瀏覽並選取Journey Optimizer B2B edition資料庫或連線的Marketo Engage執行個體的影像資產。
 
   ![瀏覽可用的影像資產](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
@@ -572,31 +566,31 @@ ht-degree: 6%
 
   有多種工具可協助您找到所需的資產：
 
-   * 按一下左上方的&#x200B;_篩選器_&#x200B;圖示，以根據您的條件篩選顯示的專案。
+  * 按一下左上方的&#x200B;_篩選器_&#x200B;圖示，以根據您的條件篩選顯示的專案。
 
-   * 在&#x200B;_搜尋_&#x200B;欄位中輸入文字，以篩選顯示的專案以符合資產名稱。
+  * 在&#x200B;_搜尋_&#x200B;欄位中輸入文字，以篩選顯示的專案以符合資產名稱。
 
-     ![使用篩選和搜尋欄位來尋找您需要的資產](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+    ![使用篩選和搜尋欄位來尋找您需要的資產](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
 * **[!UICONTROL Experience Manager Assets]** — 選擇此型別以瀏覽並從[已設定的Experience Manage Assets存放庫](../admin/configure-aem-repositories.md)中選取影像資產。
 
   在&#x200B;_[!UICONTROL 選取Assets]_&#x200B;對話方塊中，使用可用的工具選擇影像，以找出您需要的資產，然後按一下&#x200B;**[!UICONTROL 選取]**：
 
-   * 變更右上角的&#x200B;**[!UICONTROL 存放庫]**。
+  * 變更右上角的&#x200B;**[!UICONTROL 存放庫]**。
 
-   * 按一下右上角的「**[!UICONTROL 管理資產]**」，在其他瀏覽器分頁中開啟Assets存放庫，並使用AEM Assets管理工具。
+  * 按一下右上角的「**[!UICONTROL 管理資產]**」，在其他瀏覽器分頁中開啟Assets存放庫，並使用AEM Assets管理工具。
 
-   * 按一下右上角的&#x200B;_檢視型別_&#x200B;選擇器，將顯示變更為&#x200B;**[!UICONTROL 清單檢視]**、**[!UICONTROL 格線檢視]**、**[!UICONTROL 相簿檢視]**&#x200B;或&#x200B;**[!UICONTROL 瀑布檢視]**。
+  * 按一下右上角的&#x200B;_檢視型別_&#x200B;選擇器，將顯示變更為&#x200B;**[!UICONTROL 清單檢視]**、**[!UICONTROL 格線檢視]**、**[!UICONTROL 相簿檢視]**&#x200B;或&#x200B;**[!UICONTROL 瀑布檢視]**。
 
-   * 按一下&#x200B;_排序順序_&#x200B;圖示，以變更升序與降序之間的排序順序。
+  * 按一下&#x200B;_排序順序_&#x200B;圖示，以變更升序與降序之間的排序順序。
 
-     ![使用選取Assets對話方塊中的工具來尋找及選取影像資產](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+    ![使用選取Assets對話方塊中的工具來尋找及選取影像資產](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
 
-   * 按一下&#x200B;**[!UICONTROL 排序依據]**&#x200B;功能表箭頭，將排序條件變更為&#x200B;**[!UICONTROL 名稱]**、**[!UICONTROL 大小]**&#x200B;或&#x200B;**[!UICONTROL 已修改]**。
+  * 按一下&#x200B;**[!UICONTROL 排序依據]**&#x200B;功能表箭頭，將排序條件變更為&#x200B;**[!UICONTROL 名稱]**、**[!UICONTROL 大小]**&#x200B;或&#x200B;**[!UICONTROL 已修改]**。
 
-   * 按一下左上方的&#x200B;_篩選器_&#x200B;圖示，以根據您的條件篩選顯示的專案。
+  * 按一下左上方的&#x200B;_篩選器_&#x200B;圖示，以根據您的條件篩選顯示的專案。
 
-   * 在&#x200B;_搜尋_&#x200B;欄位中輸入文字，以篩選顯示的專案以符合資產名稱。
+  * 在&#x200B;_搜尋_&#x200B;欄位中輸入文字，以篩選顯示的專案以符合資產名稱。
 
   ![使用篩選和搜尋欄位來尋找資產](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
@@ -636,7 +630,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -705,7 +699,7 @@ ht-degree: 6%
 在選取了社群媒體型別後，設定該型別的選項：
 
 * **[!UICONTROL URL]** — 輸入您要連結至社群媒體圖形或圖示的社群媒體URL。
-* **[!UICONTROL Source]** — 如果您想使用自己的影像，而不是預設影像，請選擇和影像資產。 您可以從已連線的Marketo Engage資產存放庫或Experience Manager Assets存放庫（如果已設定）中選取影像，或從您的系統匯入影像檔案。 如需選取和匯入影像資產的詳細資訊，請參閱[影像元件資訊](#add-the-image-asset)。
+* **[!UICONTROL Source]** — 如果您想使用自己的影像，而不是預設影像，請選擇影像資產。 您可以從已連線的Marketo Engage資產存放庫或Experience Manager Assets存放庫（如果已設定）中選取影像，或從您的系統匯入影像檔案。 如需選取和匯入影像資產的詳細資訊，請參閱[影像元件資訊](#add-the-image-asset)。
 * **[!UICONTROL 替代文字]** — 為顯示的影像輸入替代文字。
 
   ![所選社群媒體型別的設定](./assets/content-components-social-settings-for-type.png){width="250"}

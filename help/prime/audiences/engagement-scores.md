@@ -4,21 +4,13 @@ description: 在Journey Optimizer B2B edition Prime中使用加權活動和30天
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: 1533
 ht-degree: 8%
 
 ---
@@ -30,7 +22,7 @@ ht-degree: 8%
 >title="人員參與度分數"
 >abstract="人員參與度分數會根據個別銷售線索的最近活動，反映其參與程度。"
 
-個人參與分數是反映個別潛在客戶參與程度的數字。 分數是根據個人所執行的活動，而每個活動型別都包含加權值。 分數會在您的執行個體（租使用者）中標準化，以啟用一致的比較，並允許可操作的深入分析。
+個人參與分數是反映個別潛在客戶參與程度的數字。 評分是根據個人執行的活動，其中每種活動型別都包含加權值。 分數會在您的執行個體（租使用者）中標準化，以啟用一致的比較，並允許可操作的深入分析。
 
 分數計算每天執行。 人員在過去30天內執行的任何參與加權活動都會影響分數。 有了此30天滾動期間，舊版活動會過期，而分數會隨著時間而降低（分數衰減）。 顯示的分數會四捨五入（例如，75.89999的分數會顯示為76）。
 
@@ -38,7 +30,7 @@ ht-degree: 8%
 
 ![個人參與分數報告資料](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-人員參與分數是屬性，您可以在人員清單和人員歷程的分割路徑節點中，將其用作[篩選條件](#engagement-score-filter)。
+人員參與分數是屬性，您可以在人員清單和人員歷程分割路徑節點中，用作[篩選條件](#engagement-score-filter)。
 
 ## 用於參與計分的活動 {#activities}
 
@@ -89,11 +81,11 @@ ht-degree: 8%
 
 1. 計算原始參與分數，方法是加總每個活動型別的每日活動，乘以相關的加權，然後在回顧期間的所有天數中加總結果。
 
-1. 套用&#x200B;_乘冪轉換_ （平方根）以降低離群值的影響來穩定變異。
+1. 若要透過減少離群值的影響來穩定變數，請套用&#x200B;_乘冪轉換_ （平方根）。
 
    此轉換可減少偏斜度並使資料中的圖案更加線性。
 
-1. 套用&#x200B;_縮放標準化_&#x200B;轉換，以確保分數使用0到100的完整範圍。
+1. 若要確保分數使用0到100的完整範圍，請套用&#x200B;_縮放標準化_&#x200B;轉換。
 
 ## 依參與分數篩選 {#engagement-score-filter}
 
@@ -103,7 +95,7 @@ _[!UICONTROL 個人參與分數]_&#x200B;篩選器會出現在&#x200B;**[!UICONT
 
 ### 人員清單 {#people-lists}
 
-當您從[靜態人員清單](./people-lists.md#static-list)新增或移除成員時，或當您為[動態人員清單](./people-lists.md#dynamic-lists)定義成員資格規則時，您可以依人員參與分數篩選，以鎖定其屬性符合您評分條件的所有人員。
+管理[靜態人員清單](./people-lists.md#static-lists)中的成員，或定義[動態人員清單](./people-lists.md#dynamic-lists)的規則時，您可以依人員參與分數篩選，以符合條件的目標人員。
 
 ![人員清單的人員參與分數篩選](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
@@ -151,7 +143,7 @@ _[!UICONTROL 個人參與分數]_&#x200B;篩選器會出現在&#x200B;**[!UICONT
 
 在[!DNL Journey Optimizer B2B Prime]中，您可以直接從[AI助理聊天介面](../agents/chat-interface.md)設定參與分數加權。
 
-如需參與分數模型、加權頻帶和活動權重的背景，請參閱[設定自訂參與分數加權](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
+如需參與分數模型、加權頻帶和活動權重的背景，請參閱[設定自訂參與分數加權](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
 
 1. 從畫面左側開啟&#x200B;**[!UICONTROL AI小幫手]**&#x200B;聊天面板（聊天圖示）。
 
@@ -211,7 +203,7 @@ _[!UICONTROL 個人參與分數]_&#x200B;篩選器會出現在&#x200B;**[!UICONT
 
 >[!NOTE]
 >
->若要編輯活動或封存的模型，您可以複製它以建立新的草稿模型，然後編輯並啟動複製專案。 您無法就地編輯作用中的模型。
+>若要編輯活動或封存的模型，請複製它以建立新的草稿模型，然後編輯並啟動副本。 您無法就地編輯作用中的模型。
 
 ### 啟動草稿模型 {#activate-weighting-model}
 

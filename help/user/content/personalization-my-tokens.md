@@ -6,28 +6,22 @@ role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
 autotag-review: '2026-05-27T16:17:44.938Z'
 TQID: 'https://experienceleague.adobe.com/Jhx5DqeSOi5oTIyBNXw04RagSUFiNx-OPig-vTdFWfU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: 606
 ht-degree: 2%
 
 ---
 
 # 電子郵件個人化的自訂權杖
 
-內容個人化使用代號做為產生內容成品時填入的預留位置或變數。 標準個人化權杖適用於電子郵件、登陸頁面、片段和範本。 您也可以使用帳戶歷程專屬的值來定義一組自訂權杖。 這組自訂權杖稱為&#x200B;_我的權杖_，這些自訂權杖中的任何一個都適用於[撰寫歷程電子郵件](./email-authoring.md#content-authoring---personalization)時的個人化。
+內容個人化使用代號做為產生內容成品時填入的預留位置或變數。 標準個人化權杖適用於電子郵件、登陸頁面、片段和範本。 您也可以使用帳戶歷程專屬的值來定義一組自訂權杖。 這組自訂權杖稱為&#x200B;_我的權杖_，在[編寫歷程電子郵件](./email-authoring.md#personalize-content)時，這些自訂權杖中的任何一個都可用於個人化。
 
 除了帳戶歷程專屬的&#x200B;_My Token_&#x200B;之外，您還可以使用任何標準（內建）Token進行電子郵件個人化。
 
@@ -35,7 +29,7 @@ ht-degree: 2%
 
 _我的Token_&#x200B;是您為處於草稿狀態的帳戶歷程建立或修改的自訂變數。 此自訂權杖集目前支援文字和數字權杖定義。
 
-當您新增自訂權杖至電子郵件時，會顯示為`{{my.TokenName}}`。 例如，您可能會建立`{{my.EventDate}}`或`{{my.WebinarSpeaker}}`個Token，以管理與即將舉辦的網路研討會相關的電子郵件內容。
+當您新增自訂權杖至電子郵件時，會顯示為`{{my.TokenName}}`。 例如，您已建立`{{my.EventDate}}`或`{{my.WebinarSpeaker}}`個Token以管理與即將舉辦的網路研討會相關的電子郵件內容。
 
 若要存取帳戶歷程的自訂權杖(_T):_
 
@@ -61,7 +55,7 @@ _我的Token_&#x200B;是您為處於草稿狀態的帳戶歷程建立或修改�
 
    ![輸入文字Token的名稱和值](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   Token名稱中不能使用空格或特殊字元。 您可以使用&#x200B;_駝峰式大小寫_ （例如`EventType`）來使用容易辨識的多字名稱。
+   Token名稱中不能使用空格或特殊字元。 您可以使用駝峰式大小寫（例如`EventType`）來使用容易辨識的多字名稱。
 
    如果您正在定義&#x200B;_Number_&#x200B;代號，則值只能包含數字字元。 您可以使用十進位值。
 

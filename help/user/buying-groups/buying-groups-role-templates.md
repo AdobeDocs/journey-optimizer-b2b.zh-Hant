@@ -4,20 +4,16 @@ description: 使用條件式自動指派來建立角色範本，以識別在Jour
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1571
-ht-degree: 4%
+source-wordcount: 1577
+ht-degree: 5%
 
 ---
 
@@ -49,7 +45,7 @@ ht-degree: 4%
 >
 >* [個人資料欄位對應](../admin/field-mapping.md#xdm-business-person-attributes)個人屬性篩選器
 >* 如果您在角色條件中使用意圖篩選器，則[意圖資料](../admin/intent-data.md)
->* 如果您需要超過六個預設值的角色，請[自訂購買群組角色](./default-custom-roles.md#custom-roles) （選擇性）
+>* 如果您需要超過六個預設值的角色，請[自訂購買群組角色](./default-custom-roles.md#create-a-custom-role) （選擇性）
 
 ## 存取和瀏覽角色範本 {#access-and-browse-role-templates}
 
@@ -70,7 +66,7 @@ ht-degree: 4%
    * [!UICONTROL 發佈日期]
    * [!UICONTROL 發佈者]
 
-   清單依預設會依&#x200B;_[!UICONTROL 上次更新]_&#x200B;排序。 所有角色範本的狀態都是`Draft`或`Live`。
+   依預設，系統會依&#x200B;_[!UICONTROL 上次更新]_&#x200B;來排序清單。 所有角色範本的狀態都是`Draft`或`Live`。
 
 1. 若要依名稱篩選清單，請使用清單頂端的搜尋欄位。
 
@@ -98,7 +94,7 @@ ht-degree: 4%
 
 | 類型 | 條件 |
 | ---- | --------- |
-| [!UICONTROL 個人屬性] | [個人檔案](../admin/field-mapping.md#xdm-business-person-attributes)中的屬性，包括： <li>城市 <li>國家/地區 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域 <li>職稱 <li>姓氏 <li>手機號碼 <li>個人參與分數 <li>電話號碼 <li>郵遞區號 <li>狀態 |
+| [!UICONTROL 個人屬性] | [個人檔案](../admin/field-mapping.md#xdm-business-person-attributes)中的屬性，包括： <li>城市 <li>國家/地區 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域 <li>職稱 <li>姓氏 <li>手機號碼 <li>人員參與度分數 <li>電話號碼 <li>郵遞區號 <li>狀態 |
 | [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}帳戶或人員沒有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 |
 | 特殊篩選條件 | <li>清單成員（已棄用） <li>計畫成員（已棄用） |
 | 意圖資料 | <li>類別方法 <li>產品意圖 <li>關鍵字比對方式<br/>（請參閱&#x200B;[_比對方式資料_](../admin/intent-data.md)） |
@@ -109,7 +105,7 @@ ht-degree: 4%
 
    * 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
 
-     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單[&#128279;](./default-custom-roles.md#custom-roles)中定義的任何自訂角色。
+     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單](./default-custom-roles.md#create-a-custom-role)中定義的任何[自訂角色。
 
      ![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -139,9 +135,9 @@ ht-degree: 4%
 
      在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
 
-     使用職稱![&#128279;](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的角色範本條件範例
+     使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
 
-   * 如果已設定自訂物件與XDM關聯式結構描述[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定義的人員相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
+   * 如果已設定自訂物件與XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中定義的人員[相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
 
      ![角色範本新增自訂物件條件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -161,7 +157,7 @@ ht-degree: 4%
 
 在Marketo Engage中，_智慧行銷活動_&#x200B;會檢查方案成員資格，以確保潛在客戶不會收到重複的電子郵件，而且不會同時成為多個電子郵件串流的成員。 在Journey Optimizer B2B中，您可以檢查Marketo Engage清單成員資格，作為您角色範本的條件，以協助消除購買群組成員資格和歷程活動中的重複專案。
 
-若要使用清單成員資格做為角色條件，請展開&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 清單成員]**&#x200B;條件拖曳到篩選器空間。 然後完成篩選器定義，以評估一或多個Marketo Engage清單中的成員資格。
+若要使用清單成員資格做為角色條件，請展開&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 清單成員]**&#x200B;條件拖曳到篩選器空間。 若要評估一或多個Marketo Engage清單中的成員資格，請完成篩選器定義。
 
 Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 <br/>
@@ -178,7 +174,7 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 依預設，角色的完整性定義為指派給角色的一個成員。 使用購買群組完整性來指示銷售整備時，請使用這些設定來調整分數與關閉商機所需的成員數量。
 
-例如，若要完成您的解決方案&#x200B;_X_&#x200B;的交易，必須識別並參與多個行銷決策者，因為一個組織的多個行銷團隊都會使用該解決方案。 在此情況下，您至少要有兩個行銷決策者，才能增加臨界值以計算&#x200B;_完整_&#x200B;購買群組。
+例如，若要完成您的解決方案&#x200B;_X_&#x200B;的交易，必須識別並吸引多個行銷決策者，因為一個組織的多個行銷團隊都使用該解決方案。 在此情況下，您至少要有兩個行銷決策者，才能增加臨界值以計算&#x200B;_完整_&#x200B;購買群組。
 
 若需有關完整性評分和計算的詳細資訊，請參閱[完整性分數](./completeness-scores.md)。
 
@@ -198,7 +194,7 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 如果範本已可供使用，請按一下右上方的&#x200B;**[!UICONTROL 發佈]**。
 
-發佈範本會將狀態設定為&#x200B;_即時_，並使其可與解決方案興趣產生關聯。 至少必須有一個已定義的角色才能發佈角色範本。
+若要讓範本可與解決方案興趣產生關聯，請發佈範本以設定狀態為&#x200B;_即時_。 至少必須有一個已定義的角色才能發佈角色範本。
 
 發佈之後，**[!UICONTROL 角色範本]**&#x200B;標籤上的範本狀態為&#x200B;_即時_，而且您可以在[建立感興趣的解決方案](./solution-interests.md)時選取它。
 
@@ -206,7 +202,7 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 當角色範本處於&#x200B;_草稿_&#x200B;狀態時，您可以繼續編輯定義的角色。 您所做的任何變更都會自動儲存。
 
-變更角色卡片標題設定，例如購買群組角色、加權、自動指派或完整性評分要求。
+變更角色卡片標題設定，例如角色、加權、自動指派或完整性要求。
 
 ![變更購買群組角色屬性](./assets/roles-template-role-properties.png){width="600"}
 
@@ -240,4 +236,4 @@ Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-c
 
 ## 概觀影片 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
