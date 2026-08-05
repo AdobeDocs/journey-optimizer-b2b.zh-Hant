@@ -16,9 +16,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1298
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 0%
 
 ## 存取參與分數加權模型
 
-開啟&#x200B;_[!UICONTROL 參與分數加權]_&#x200B;清單以檢視作用中、草稿和已封存的模型：
+若要檢視作用中、草稿和封存的模型，請開啟&#x200B;_[!UICONTROL 參與分數加權]_&#x200B;清單：
 
 1. 在左側導覽列中，選擇&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 組態]**。
 
 1. 在中間面板上按一下&#x200B;**[!UICONTROL 參與分數加權]**&#x200B;以顯示評分模型清單。
 
-   從這個頁面，您可以[建立（複製）](#create-an-engagement-score-model)、[啟用](#activate-a-score-model)和[編輯](#change-the-engagement-weighting-settings)參與分數模型。
+   從這個頁面，您可以[建立（複製）](#create-a-custom-engagement-scoring-model)、[啟用](#activate-a-score-model)和[編輯](#change-the-engagement-weighting-settings)參與分數模型。
 
    ![存取定義的參與分數模型](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ### 變更參與加權設定
 
-權重設定會定義您可以指派給模型中每個活動的範圍。 您可以變更頻帶，以反映組織評估參與度的策略。 例如，如果您想要將較高的值指派給一般活動，您可以將&#x200B;_一般_&#x200B;加權範圍調整為65的值。 或者，您可以新增加權範圍，以擷取介於&#x200B;_一般_&#x200B;和&#x200B;_重要_&#x200B;之間的活動。 在此情況下，您可以新增頻帶，並將其標示為&#x200B;_重大_，並指派權重頻帶值為75。
+權重設定會定義您可以指派給模型中每個活動的範圍。 若要反映貴組織評估參與度的策略，請變更範圍。 例如，如果您想要將較高的值指派給一般活動，請將&#x200B;_一般_&#x200B;加權範圍調整為65的值。 或者，您可以新增加權範圍，以擷取介於&#x200B;_一般_&#x200B;和&#x200B;_重要_&#x200B;之間的活動。 在此情況下，請新增頻帶，將其標示為&#x200B;_重大_，並指派權重頻帶值為75。
 
 1. 在分數模型詳細資訊頁面中，按一下頂端的&#x200B;**[!UICONTROL 參與權重設定]**。
 
@@ -161,7 +161,7 @@ Experience Platform事件的預設模型包含Experience Platform追蹤活動。
 
 當您啟動草繪分數模型時，它會取代目前啟動的模型。 目前作用中的模型會自動封存。
 
-1. 開啟草稿分數模型以檢視詳細資訊頁面。
+1. 若要檢視詳細資訊頁面，請開啟草稿分數模型。
 
 1. 按一下&#x200B;**[!UICONTROL 啟動]**。
 

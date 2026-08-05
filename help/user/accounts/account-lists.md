@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1339
 ht-degree: 2%
 
 ---
@@ -87,17 +87,17 @@ ht-degree: 2%
 
 對於靜態清單，您可以繼續發佈空白帳戶清單，並透過帳戶歷程新增帳戶。 您也可以在發佈之前套用篩選器集，以手動新增帳戶。
 
-對於動態帳戶清單，您必須先新增要用來自動管理清單的篩選器集，然後才能發佈。
+若要自動管理動態帳戶清單的清單，請在發佈前新增篩選器集。
 
 >[!BEGINTABS]
 
 >[!TAB 靜態帳戶清單]
 
-建立靜態帳戶清單後，您可以套用篩選器集來填入清單。 您也可以套用篩選器集，在靜態帳戶清單發佈後新增帳戶（_即時_）。
+建立靜態帳戶清單後，您可以套用篩選器集來填入清單。 若要在靜態帳戶清單發佈後新增帳戶(_Live_)，請套用篩選器集。
 
 >[!NOTE]
 >
->如果您希望帳戶清單一開始是空的，請勿選取任何篩選器，而只需發佈帳戶清單即可。 當您計畫透過帳戶歷程動作新增成員時，最好從空白清單開始（請參閱[採取動作節點 — 新增至帳戶](#take-an-action-node---add-to-account)）。
+>如果您希望帳戶清單一開始是空的，請勿選取任何篩選器並發佈帳戶清單。 當您計畫透過帳戶歷程動作新增成員時，最好從空白清單開始（請參閱[採取動作節點 — 新增至帳戶](../journeys/action-nodes.md#account-action-constraints)）。
 
 1. 按一下&#x200B;**[!UICONTROL 新增帳戶]**。
 
@@ -105,7 +105,7 @@ ht-degree: 2%
 
    您可以在空白清單頁面或右上角存取此函式。
 
-1. 在&#x200B;_[!UICONTROL 依篩選器新增帳戶]_&#x200B;對話方塊中，使用&#x200B;**[!UICONTROL 帳戶篩選器]**&#x200B;功能表新增要用來建構篩選器集的屬性和活動：
+1. 在&#x200B;_[!UICONTROL 依篩選器新增帳戶]_&#x200B;對話方塊中，使用&#x200B;**[!UICONTROL 帳戶篩選器]**&#x200B;功能表新增所需的屬性和活動以建構篩選器集：
 
    這些篩選器會巢狀內嵌至類別資料夾中。 您可以展開每個資料夾，並捲動瀏覽可用篩選器的清單。 或者，使用頂端的&#x200B;_搜尋_&#x200B;工具來尋找您需要的篩選器。
 
@@ -121,13 +121,13 @@ ht-degree: 2%
 
 1. 篩選器集和邏輯完成時，按一下&#x200B;**[!UICONTROL 填入帳戶]**。
 
-   根據要評估和填入的帳戶數量（資料庫的大小和您選取的篩選條件），填入程式可能需要一些時間。 將帳戶填入您的清單最多可能需要兩個小時的時間。
+   填入程式需要時間，取決於要評估和填入的帳戶數量（資料庫的大小以及您選取的篩選條件）。 將帳戶填入您的清單最多可能需要兩個小時的時間。
 
 您可以繼續發佈清單，使其可用於帳戶歷程中的新增和移除動作。
 
 >[!TAB 動態帳戶清單]
 
-建立動態帳戶清單之後，您定義用來管理清單的篩選器集（新增/移除帳戶），當清單為&#x200B;_即時_ （已發佈）。 您無法透過帳戶歷程新增/移除帳戶，但已發佈的動態帳戶清單可用於起始帳戶對象節點。
+建立動態帳戶清單之後，您定義用來管理清單的篩選器集（新增/移除帳戶），當清單為&#x200B;_即時_ （已發佈）。 您無法透過帳戶歷程新增/移除帳戶，但已發佈的動態帳戶清單適用於起始帳戶對象節點。
 
 1. 按一下&#x200B;**[!UICONTROL 選取篩選器]**。
 
@@ -149,7 +149,7 @@ ht-degree: 2%
 
 1. 篩選器集和邏輯完成時，按一下&#x200B;**[!UICONTROL 完成]**。
 
-   如果您滿意篩選器集，可以繼續進行[發佈清單](#publish-an-account-list)，使其可用於帳戶歷程中的起始[帳戶對象節點](#account-audience-node)。
+   如果您滿意篩選器集，可以繼續進行[發佈清單](#publish-an-account-list)，使其可用於帳戶歷程中的起始[帳戶對象節點](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)。
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ ht-degree: 2%
 
    ![確認發佈靜態帳戶清單](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-靜態帳戶清單的狀態變更為&#x200B;_[!UICONTROL 即時]_，且可用於[帳戶歷程](#account-list-usage-in-account-journeys)中使用。
+靜態帳戶清單的狀態變更為&#x200B;_[!UICONTROL 即時]_，且可用於[帳戶歷程](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)中使用。
 
 >[!TAB 動態帳戶清單]
 
@@ -189,7 +189,7 @@ ht-degree: 2%
 
    ![確認發佈動態帳戶清單](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-動態帳戶清單的狀態變更為&#x200B;_[!UICONTROL 即時]_，且可用於[帳戶歷程](#account-list-usage-in-account-journeys)中使用。
+動態帳戶清單的狀態變更為&#x200B;_[!UICONTROL 即時]_，且可用於[帳戶歷程](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)中使用。
 
 >[!ENDTABS]
 

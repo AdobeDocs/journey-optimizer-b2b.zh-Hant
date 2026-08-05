@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: 1077
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
      ![選取單頁Web Channel設定的頁面URL](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則[&#128279;](#build-a-pages-matching-rule)的頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
+   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則[&#128279;](#build-a-rule)的頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以儲存變更。
 
@@ -75,7 +75,7 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
 建立Web組態時，您可以建置符合規則&#x200B;_的_&#x200B;頁面，以鎖定多個符合相同規則的URL。 這些規則可讓您將相同的內容變更套用至多個頁面。
 
-例如，您可能會想要將變更套用至整個網站的主圖橫幅，或新增顯示在所有產品頁面上的最上層影像。
+例如，將變更套用至整個網站的主圖橫幅，或新增顯示在所有產品頁面上的最上方影像。
 
 ### 建立規則
 
@@ -122,9 +122,9 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
    * 在不同的規則之間使用&#x200B;**[!UICONTROL Or]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**&#x200B;運運算元。
 
-     _[!UICONTROL Or]_&#x200B;是定義多個規則的預設運運算元，可用來新增可比對的多個條件定義。
+     _[!UICONTROL Or]_ [!UICONTROL Or]運運算元是定義多個規則的預設運運算元，可用來新增可比對的多個條件定義。
 
-     _[!UICONTROL 排除]_&#x200B;在符合所定義規則的其中一個頁面不應鎖定為目標時非常有用。 例如，您可以鎖定包含`lumasecure`的所有`bodea.com`頁面，但不包括部落格頁面（例如`bodea.com/blogs/lumasecure/latest-release`）。
+     _[!UICONTROL 排除]_ [!UICONTROL 排除]運運算元在符合所定義規則的其中一個頁面不應鎖定為目標時很有用。 例如，您可以鎖定包含`lumasecure`的所有`bodea.com`頁面，但排除部落格頁面（例如`bodea.com/blogs/lumasecure/latest-release`）。
 
    ![頁面符合排除的規則](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
 1. 按一下複製的Web Channel名稱以編輯引數。
 
-   * 變更名稱和說明，以符合規則中的用途或專案。
+   * 若要符合規則中的用途或專案，請變更名稱和說明。
    * 如有需要，請變更單一頁面URL。
    * 如有需要，請根據您的需求變更頁面比對規則。
 

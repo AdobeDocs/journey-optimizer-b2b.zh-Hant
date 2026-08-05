@@ -18,10 +18,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1603
-ht-degree: 7%
+source-wordcount: 1625
+ht-degree: 6%
 
 ---
 
@@ -40,14 +40,14 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
 >title="關於結構元件"
->abstract="CStructure 元件是指設計片段結構時可以使用的版面配置元素。"
+>abstract="結構元件是指設計片段結構時可以使用的版面配置元素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="關於結構元件"
 >abstract="結構元件是指設計範本結構時可以使用的版面配置元素。"
 
-使用視覺設計空間中的&#x200B;_結構元件_&#x200B;來定義內容的結構。 透過使用簡單的拖放動作新增和移動結構元素，您可以快速定義內容配置的形狀。 每個結構元件橫跨水準空間，您可以棧疊它們以垂直建置版面。 將每個元件劃分為欄，以組成您所需的每個內容區塊。
+使用視覺設計空間中的&#x200B;_結構元件_&#x200B;來定義內容的結構。 透過使用簡單的拖放動作新增和移動結構元素，您可以快速定義內容配置的結構。 每個結構元件橫跨水準空間，您可以棧疊它們以垂直建置版面。 若要形成所需的每個內容區塊，請將每個元件劃分為不同欄。
 
 ## 結構程式庫
 
@@ -55,14 +55,14 @@ ht-degree: 7%
 
 | 圖示 | 元件。 | 說明 |
 | ----- | ----------- | ----------- |
-| ![1:1欄圖示](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1欄] | 填滿空格寬度的單一欄容器。 |
-| ![1:2欄圖示](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2資料行剩餘] | 使用1:2比率填滿空間寬度的雙欄容器。 第一（左）欄佔據三分之一的寬度，第二（右）欄佔據其餘的三分之二。 |
-| ![1:3欄圖示](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3資料行剩餘] | 使用1:3比率填滿空間寬度的雙欄容器。 第一（左）欄佔據四分之一的寬度，第二（右）欄佔據其餘四分之三。 |
-| ![2:1欄圖示](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1資料行靠右] | 使用2:1比率填滿空間寬度的雙欄容器。 第一（左）欄佔據寬度的三分之二，而第二（右）欄則佔據其餘的三分之一。 |
-| ![2:2欄圖示](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2欄] | 使用2:2比率填滿空間寬度的雙欄容器。 左欄和右欄的寬度相等。 |
-| ![3:1欄圖示](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1欄位在右側] | 使用3:1比率填滿空間寬度的雙欄容器。 第一（左）欄佔據寬度的四分之三(75%)，第二（右）欄佔據剩餘的四分之一(25%)。 |
-| ![3:3欄圖示](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3欄] | 使用3:3比率填滿空間寬度的三欄容器。 三欄的寬度相等。 |
-| ![4:4欄圖示](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4欄] | 使用4:4比率填滿空間寬度的四欄容器。 所有四欄的寬度相等。 |
+| ![1:1欄圖示](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1資料行] | 填滿空格寬度的單一欄容器。 |
+| ![1:2欄圖示](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2資料行左側] | 一種兩欄式容器，使用1:2的比率來填滿空間的寬度。 第一（左）欄佔據三分之一的寬度，第二（右）欄佔據其餘的三分之二。 |
+| ![1:3資料行圖示](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3資料行靠左] | 一種兩欄式容器，使用1:3的比率來填滿空間的寬度。 第一（左）欄佔據四分之一的寬度，第二（右）欄佔據其餘四分之三。 |
+| ![2:1欄圖示](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1資料行靠右] | 一種兩欄式容器，使用2:1的比率來填滿空間的寬度。 第一（左）欄佔據寬度的三分之二，而第二（右）欄則佔據其餘的三分之一。 |
+| ![2:2欄圖示](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2資料行] | 一種兩欄式容器，使用2:2的比率來填滿空間的寬度。 左欄和右欄的寬度相等。 |
+| ![3:1欄圖示](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1資料行靠右] | 兩欄式容器，使用3:1的比率來填滿空間的寬度。 第一（左）欄佔據寬度的四分之三(75%)，第二（右）欄佔據剩餘的四分之一(25%)。 |
+| ![3:3資料行圖示](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3資料行] | 三欄式容器，使用3:3的比率來填滿空間的寬度。 三欄的寬度相等。 |
+| ![4:4欄圖示](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4資料行] | 四欄式容器，使用4:4的比率來填滿空間的寬度。 所有四欄的寬度相等。 |
 | ![n:n欄圖示](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n欄] | 可自訂的欄結構，會根據您定義的欄填滿空間。 您可以設定欄數（介於2到10之間），並個別設定每欄的寬度。 [了解更多](#change-nn-columns) |
 
 ## 新增結構元件
@@ -86,7 +86,7 @@ ht-degree: 7%
 
 ### 元件設定
 
-新增元件後，會在視覺設計空間選取元件，其屬性會顯示在右側面板中。 預設會顯示&#x200B;_[!UICONTROL 設定]_&#x200B;標籤。 您也可以隨時選取結構元件以變更設定。
+新增元件後，會在視覺設計空間選取元件，其屬性會顯示在右側面板中。 系統預設會顯示&#x200B;_[!UICONTROL 設定]_&#x200B;標籤。 您也可以隨時選取結構元件以變更設定。
 
 #### 顯示選項
 
@@ -127,9 +127,9 @@ ht-degree: 7%
 
 ![背景檢色器](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL 背景影像]
+#### [!UICONTROL 背景影像] {#background-image}
 
-移動切換選取器以啟用背景影像設定。
+若要啟用背景影像設定，請移動切換選取器。
 
 ![背景影像設定](./assets/structure-components-background-image-settings.png){width="250"}
 
@@ -159,7 +159,7 @@ ht-degree: 7%
 
 ### 其他樣式
 
-您可以套用其他結構元件樣式，以調整其在電子郵件訊息或登入頁面中的顯示。
+若要調整其在電子郵件訊息或登入頁面中的顯示，您可以套用其他結構元件樣式。
 
 +++邊框
 
@@ -209,7 +209,7 @@ ht-degree: 7%
 
 ### 欄樣式
 
-在畫布中選取欄後，您可以設定樣式以套用至該欄。
+若要設定套用到該欄的樣式，請在畫布中選取該欄。
 
 +++背景
 
@@ -217,7 +217,7 @@ ht-degree: 7%
 
   ![背景檢色器](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-* **[!UICONTROL 背景影像]** — 移動切換選擇器以啟用背景影像設定。
+* **[!UICONTROL 背景影像]** — 若要啟用背景影像設定，請移動切換選取器。
 
   ![背景影像設定](./assets/structure-components-background-image-settings.png){width="250"}
 

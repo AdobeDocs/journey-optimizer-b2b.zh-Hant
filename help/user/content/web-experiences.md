@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1544
 ht-degree: 3%
@@ -52,9 +52,9 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 * 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
 
 * 您擁有必要的[許可權](../admin/user-management.md#b2b-product-permissions)，才能在歷程中建立和管理網頁體驗：
-   * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 管理行銷活動]_ — 需要新增或更新Web個人化動作節點。
-   * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 檢視行銷活動]_ — 需要檢視Web個人化動作節點的詳細資料。
-   * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 核准並發佈行銷活動]_ — 必須發佈具有一或多個Web個人化動作節點的歷程。
+  * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 管理行銷活動]_ — 需要新增或更新Web個人化動作節點。
+  * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 檢視行銷活動]_ — 需要檢視Web個人化動作節點的詳細資料。
+  * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 核准並發佈行銷活動]_ — 必須發佈具有一或多個Web個人化動作節點的歷程。
 
 * 您已為網頁瀏覽器安裝Adobe Experience Cloud [Visual Editing Helper瀏覽器擴充功能](#install-the-visual-editing-helper-extension)。 您必須使用此擴充功能，才能在Journey Optimizer B2B edition內容設計空間中，以可靠的方式開啟、編寫及預覽網頁。
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
 1. 在右側面板中，根據您想要定義和管理它的方式設定Web體驗屬性。
 
-   * **[!UICONTROL 視覺化編輯器]** — 在[視覺化與非視覺化編輯器](./web-experience-design.md#web-design-tools)之間切換，以進行網頁體驗修改設計。
+   * **[!UICONTROL 視覺化編輯器]** — 在[視覺化與非視覺化編輯器](./web-experience-design.md#web-experience-editors)之間切換，以進行網頁體驗修改設計。
    * **[!UICONTROL 訪客重新導向]** — 啟用此選項以[將訪客重新導向至另一個現有的URL](#redirect-to-url)，而不是在內容標籤中編寫新的變數。
 
    ![切換視覺化編輯器的屬性及重新導向URL](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}

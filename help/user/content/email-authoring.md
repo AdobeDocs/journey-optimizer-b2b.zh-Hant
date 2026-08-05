@@ -17,9 +17,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1381
+source-wordcount: 1380
 ht-degree: 2%
 
 ---
@@ -44,11 +44,11 @@ ht-degree: 2%
 
 >[!TIP]
 >
->使用由generative AI支援的Adobe Journey Optimizer B2B edition中的AI Assistant來改善您的內容。 AI Assistant可以產生整封電子郵件、鎖定目標文字內容，並針對與對象產生迴響的影像取得AI Assistant建議，協助您最佳化傳送的影響。 [了解更多](./ai-assistant-emails.md)
+>使用由generative AI提供技術支援的Adobe Journey Optimizer B2B edition中的AI助理以改善您的內容。 AI Assistant可以產生整個電子郵件和目標文字內容，並提供影像建議，引起觀眾的共鳴，進而協助您最佳化傳送的影響。 [了解更多](./ai-assistant-emails.md)
 
 ## 從頭開始設計您的電子郵件 {#design-from-scratch}
 
-使用視覺內容設計空間來定義電子郵件的結構和內容。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計電子郵件內容的版面配置和組織。
+使用視覺內容設計空間來定義電子郵件的結構和內容。 透過簡單的拖放動作來新增和移動結構元件，您可以快速設計電子郵件內容的版面配置和組織。
 
 1. 從&#x200B;_[!UICONTROL 設計您的範本]_&#x200B;首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 1. [將結構和內容](./email-authoring.md#structure-content)新增到範本。
 
-1. [檢閱和更新連結](#preview-and-edit-linked-urls)。
+1. [檢閱和更新連結](#edit-linked-url-tracking)。
 
 1. [測試電子郵件](#check-and-test-the-email)。
 
@@ -146,11 +146,11 @@ ht-degree: 2%
 
 電子郵件傳遞系統（透過Marketo Engage）會在傳送時，以唯一的追蹤重新導向，自動包裝HTML電子郵件中的所有URL。 使用&#x200B;**[!UICONTROL 追蹤型別]**&#x200B;控制連結的追蹤：
 
-* **[!UICONTROL 不含Token的追蹤]** — 系統會註冊點選，但會追蹤使用者下一個在網頁上執行的動作。 這在某些技術案例中可能很重要，例如處理可能無法正確處理mkt_tok的協力廠商系統時。 不過，後續的網路追蹤會受到限制。
+* **[!UICONTROL 不含Token的追蹤]** — 系統會註冊點選，但不會追蹤使用者下一個在網頁上執行的動作。 在某些技術案例中，例如處理無法正確處理mkt_tok的協力廠商系統時，此行為很重要。 不過，後續的網路追蹤會受到限制。
 
 * **[!UICONTROL 使用mkt-tok追蹤]** — 使用追蹤token (mkt_tok)透過Munchkin追蹤後續的網路活動。 當收件者按一下連結時，會在活動記錄中註冊&#x200B;_按一下電子郵件_&#x200B;事件、安全地追蹤其活動，並套用Cookie以監視未來的網站互動。
 
-* **[!UICONTROL 不要追蹤]** — 系統不會追蹤與連結相關聯的活動。 當目的地頁面不支援URL引數並且可能導致連結中斷時，這項功能會很有用。
+* **[!UICONTROL 不要追蹤]** — 系統不會追蹤與連結相關聯的活動。 當目的地頁面不支援URL引數並導致連結中斷時，此選項會很有用。
 
   >[!NOTE]
   >
@@ -171,8 +171,8 @@ ht-degree: 2%
 * 透過預設縮放選項放大/縮小內容。
 
 * 在透過案頭、行動裝置或純文字/純文字檢視內容之間切換。
-   * 按一下&#x200B;_檢視_&#x200B;圖示，即可跨裝置預覽內容。
-   * 選取其中一個預先定義的裝置，或輸入自訂維度來預覽內容。
+  * 按一下&#x200B;_檢視_&#x200B;圖示，即可跨裝置預覽內容。
+  * 選取其中一個預先定義的裝置，或輸入自訂維度來預覽內容。
 
 ## 更多選項
 

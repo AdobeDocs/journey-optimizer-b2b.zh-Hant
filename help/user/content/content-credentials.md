@@ -15,16 +15,16 @@ subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad794b50f6c6f3b59e853e99f7983136ee098e18
+source-git-commit: edb796d131c2b058215b73519b845125432d84f8
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: 916
 ht-degree: 0%
 
 ---
 
 # Content Credentials
 
-行銷組織更關注內容透明度、AI揭露和防止資產竄改。 Adobe的Content Authenticity Initiative (CAI)建立符合[內容來源與真偽聯盟](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA)技術標準的工具。 _Content Credentials_，加密且容易篡改的中繼資料，可協助檢視者瞭解內容歷程，並確保品牌資產的完整性。 此資訊包括：
+行銷組織更關注內容透明度、AI揭露和防止資產竄改。 Adobe的Content Authenticity Initiative (CAI)建立符合[內容來源與真偽聯盟](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA)技術標準的工具。 _Content Credentials_&#x200B;是一組加密的、顯示篡改的中繼資料，可協助檢視者瞭解內容歷程，並確保品牌資產的完整性。 此資訊包括：
 
 * 簽發者或簽署者 — 關於簽發數位簽名以證明或簽署資產的實體或公司的資訊。
 * 問題日期 — Content Credential套用至資產的日期。
@@ -49,7 +49,7 @@ Content Credentials會與影像檔案一起儲存。 使用產生AI產生或編�
 當您將影像納入電子郵件或WhatsApp訊息中時，也會持續儲存傳送影像的Content Credentials：
 
 * **電子郵件** — 當您使用&#x200B;_傳送電子郵件_&#x200B;歷程動作時，請將影像從&#x200B;_Assets_&#x200B;資料庫新增至您的電子郵件內容。 在傳送電子郵件時，收件者可以從訊息下載影像，且Content Credentials是完整的。
-* **WhatsApp** — 將影像新增至Meta業務帳戶中的WhatsApp訊息範本。 您可以直接從自己的系統新增，或從&#x200B;_Assets_&#x200B;資料庫下載影像檔案。 使用範本進行&#x200B;_傳送WhatsApp_&#x200B;歷程動作。 傳送WhatsApp訊息時，收件者可以從訊息下載影像，且Content Credentials完好無損。
+* **WhatsApp** — 將影像新增至Meta商業帳戶中的WhatsApp訊息範本。 您可以直接從自己的系統新增，或從&#x200B;_Assets_&#x200B;資料庫下載影像檔案。 使用範本進行&#x200B;_傳送WhatsApp_&#x200B;歷程動作。 傳送WhatsApp訊息時，收件者可以從訊息下載影像，且Content Credentials完好無損。
 
 >[!ENDSHADEBOX]
 

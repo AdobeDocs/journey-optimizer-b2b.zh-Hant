@@ -17,9 +17,9 @@ topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2326
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 購買群組階段的設計目的，是為了追蹤購買群組將機會轉換為客戶時的進度。 使用此功能來追蹤購買群組進度，並識別購買群組的下一個最佳動作。
 
-定義單一暫存模型內的階段，定義多個階段以及它們之間的轉換流程。 一個或多個階段被指定進入生命週期。 模型也允許非線性漸層，您可以在此指定從一個階段到另一個階段的轉變，例如從階段A到階段B、C或D。必須指定一個階段作為成功階段，例如購買或簽署的合約。 您可以選擇將另一個階段指定為失敗階段，例如拒絕的合約或向其他廠商購買競爭解決方案。 透過[智慧型儀表板](../dashboards/intelligent-dashboard.md)監視這些階段，顯示購買群組在完成銷售機會或將機會轉換為客戶方面的進度。
+定義單一暫存模型內的階段，定義多個階段以及它們之間的轉換流程。 一個或多個階段被指定進入生命週期。 此模型允許非線性進展，例如從階段A到階段B、C或D。必須將一個階段指定為成功階段，例如購買或簽署的合約。 將另一個階段指定為失敗階段（例如拒絕的合約或向其他廠商購買競爭解決方案）是可選的。 透過[智慧型儀表板](../dashboards/intelligent-dashboard.md)監視這些階段，顯示購買群組在完成銷售機會或將機會轉換為客戶方面的進度。
 
 ![購買群組階段範例](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 * 定義轉換流程
 * 指定專案階段和目的地階段
 
-僅支援一個模型，因此您的行銷和銷售團隊務必先為您的組織規劃最佳模型，然後再在Journey Optimizer B2B edition中建立並發佈。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+僅支援一個模型；若要規劃最佳模型，請先與行銷和銷售團隊合作，再在Journey Optimizer B2B edition中建立和發佈模型。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 當您建立購買群組階段模型時，模型會自動顯示為&#x200B;_草稿_&#x200B;狀態，且無法刪除或重新命名。 當您定義階段並設定階段之間的轉換流程時，它會保持此狀態。 當模型處於已發佈（_即時_）狀態時，無法變更。
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 ### 設定工作流程和轉變規則
 
-儲存階段後，它會帶您回到模型工作區。 _[!UICONTROL 允許傳輸至]_&#x200B;資料行是空的，這表示尚未定義模型階段的轉換規則。
+儲存階段後，您會返回模型工作區。 _[!UICONTROL 允許傳輸至]_&#x200B;資料行是空的，這表示尚未定義模型階段的轉換規則。
 
 ![尚未定義轉換規則](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
 
@@ -118,11 +118,11 @@ ht-degree: 2%
 
 1. 針對每個非目的地階段，定義一或多個進入流程（轉換）的階段。
 
-   所有非目的地階段都必須至少選取一個&#x200B;**[!UICONTROL 允許傳輸至]**&#x200B;階段。 否則，模型邏輯無效，帳戶可能會在該階段卡住&#x200B;__，無法取得成功或失敗。
+   所有非目的地階段都必須至少選取一個&#x200B;**[!UICONTROL 允許傳輸至]**&#x200B;階段。 否則，模型邏輯無效，帳戶可能會保留在該階段，無法晉升為成功或失敗。
 
    ![設定非目的地階段之間的轉換](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
-   您可以選擇從失敗階段指定轉變。 例如，您可以將名為&#x200B;_無回應_&#x200B;的階段指定為失敗階段。 但也指定名為&#x200B;_Resurgence_&#x200B;的階段作為可能的轉換，以識別休眠帳戶重新啟動的情況。
+   您可以選擇從失敗階段指定轉變。 例如，將名為&#x200B;_無回應_&#x200B;的階段指定為失敗階段。 但也指定名為&#x200B;_Resurgence_&#x200B;的階段作為可能的轉換，以識別休眠帳戶重新啟動的情況。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -227,7 +227,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 選取&#x200B;_[!UICONTROL 方案興趣]_&#x200B;標籤。
 
-1. 使用下列其中一種方法開啟解決方案興趣，以開啟您要編輯之解決方案興趣的屬性：
+1. 使用下列其中一種方法，開啟您要編輯之解決方案感興趣的屬性：
 
    * 按一下解決方案興趣名稱。
    * 按一下省略符號(**...**) 並選取&#x200B;**[!UICONTROL 編輯]**。
@@ -246,7 +246,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### 分割路徑
 
-使用[分割路徑節點](../journeys/journey-nodes.md#split-paths)，您可以根據購買群組階段，在帳戶層級或人員層級進行篩選。 例如，透過購買群組成員來分割路徑時，新增購買群組階段作為路徑條件。
+使用[分割路徑節點](../journeys/split-merge-paths-nodes.md#split-paths)，您可以根據購買群組階段，在帳戶層級或人員層級進行篩選。 例如，透過購買群組成員來分割路徑時，新增購買群組階段作為路徑條件。
 
 >[!BEGINTABS]
 
@@ -264,7 +264,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    ![分割路徑節點 — 新增條件](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. 在條件編輯器中，新增購買群組篩選器以定義分割路徑。
+1. 若要定義分割路徑，請在條件編輯器中新增購買群組篩選器。
 
    * 在左側，展開底部的&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 有購買群組]**&#x200B;屬性拖曳至篩選器工作區。
 
@@ -298,7 +298,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    ![分割路徑節點 — 新增條件](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. 在條件編輯器中，新增購買群組篩選器以定義分割路徑。
+1. 若要定義分割路徑，請在條件編輯器中新增購買群組篩選器。
 
    * 在左側，展開底部的&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 購買群組成員]**&#x200B;屬性拖曳至篩選器工作區。
 
@@ -320,7 +320,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### 更新購買群組階段帳戶動作
 
-使用[帳戶動作節點](../journeys/journey-nodes.md#add-an-account-action)，您可以更新購買群組階段。 定義此節點包括選取解決方案興趣，以及定義購買群組的新階段。
+使用[帳戶動作節點](../journeys/action-nodes.md#add-an-account-based-action)，您可以更新購買群組階段。 定義此節點包括選取解決方案興趣，以及定義購買群組的新階段。
 
 >[!NOTE]
 >
@@ -334,7 +334,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 在右側的節點屬性中，選擇動作的&#x200B;**[!UICONTROL 帳戶]**。
 
-1. 定義動作以更新購買群組階段。
+1. 若要更新購買群組階段，請定義動作。
 
    * 若要在帳戶&#x200B;**上執行**&#x200B;動作，請選取&#x200B;**[!UICONTROL 更新購買群組階段]**。
 

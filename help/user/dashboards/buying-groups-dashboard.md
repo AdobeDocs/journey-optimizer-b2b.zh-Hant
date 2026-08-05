@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:45:21.856Z
 TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 594
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 3%
 * **資料移交**：行銷人員會識別&#x200B;_就緒_&#x200B;目標資料，並以CSV格式讓銷售人員能夠存取。 
 * **銷售同意**：銷售人員手動檢閱並將&#x200B;_就緒_&#x200B;目標合併到他們的管道中。
 
-若要存取此儀表板，請展開左側導覽中的&#x200B;**[!UICONTROL 帳戶]**，然後選取&#x200B;**[!UICONTROL 購買群組]**。 選取&#x200B;**[!UICONTROL 概觀]**&#x200B;標籤（如果預設未顯示）。
+若要存取此儀表板，請展開左側導覽中的&#x200B;**[!UICONTROL 帳戶]**，然後選取&#x200B;**[!UICONTROL 購買群組]**。 如果系統預設未顯示&#x200B;**[!UICONTROL 概觀]**&#x200B;標籤，請選取該標籤。
 
 ![購買群組總覽](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
@@ -51,7 +51,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ## 購買群組完成分數分佈
 
-此視覺效果會根據完成分數說明購買群組的分佈，並歸類到四個不同的分數區間。 中央數字代表購買群組的總數，並提供整體進度的快速快照。 分段顏色可指出每個分數範圍內購買群組的比例，讓您一眼即可評估完成趨勢。
+此視覺效果會根據完成分數說明購買群組的分佈，並歸類到四個不同的分數區間。 中央數字代表購買群組的總數，並提供整體進度的摘要。 分段顏色可指出每個分數範圍內購買群組的比例，讓您一眼即可評估完成趨勢。
 
 若要檢視詳細資訊，請按一下右上角的&#x200B;**...**&#x200B;功能表圖示。
 
@@ -84,7 +84,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ![依屬性篩選顯示的資料](./assets/buying-group-overview-filters.png){width="500"}
 
-請針對您想要用來篩選資料的每個屬性選取多個值，然後按一下[套用]。**&#x200B;**
+選取您想要用來篩選資料的每個屬性值，並按一下[套用]。**&#x200B;**
 
 ## 與資料互動
 
@@ -100,7 +100,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 您可以按一下&#x200B;_更多_ (**...**) 功能表右上方，並選擇&#x200B;**[!UICONTROL 檢視更多]**&#x200B;到[檢視延伸資料](#view-more)。
 
-### [!UICONTROL 檢視更多]
+### [!UICONTROL 檢視更多] {#view-more}
 
 選擇&#x200B;**[!UICONTROL 檢視更多]**&#x200B;以檢視擴充的資料和深入分析。
 

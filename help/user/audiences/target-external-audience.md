@@ -21,10 +21,10 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T19:48:50.374Z
 TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 3%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 2%
 
 您可以透過帳戶歷程在[!DNL Adobe Target]中啟用及個人化外部對象的體驗。 使用此整合來達成進階和量身打造的個人化，以提升參與度，並維持[!DNL Target]和[!DNL Journey Optimizer B2B Edition]的跨平台一致性。 這種一致性確保團隊在整個B2B購買者歷程中，針對購買群組調整並個人化網路管道。
 
-透過Adobe Target啟用外部對象有兩個步驟的工作流程：
+透過Adobe Target啟用外部對象時，需要兩個步驟的工作流程：
 
 1. [從歷程新增至外部客戶對象](#add-to-customer-external-audience-from-a-journey)。
 2. [啟用外部對象](#activate-the-external-audience-to-target-as-a-destination)至[!DNL Target]，作為Experience Platform中的目的地。
 
 ## 從歷程新增至客戶外部對象
 
-在您的歷程中，[新增&#x200B;_採取動作_&#x200B;節點](../journeys/action-nodes.md)以執行&#x200B;_[!UICONTROL 新增至外部客戶對象]_&#x200B;動作。 動作通常是您因某種觸發器（例如事件或之前的動作）而想要發生的動作。 歷程會在具有人員設定檔的合格帳戶到達節點時執行動作。
+在您的歷程中，[新增&#x200B;_採取動作_&#x200B;節點](../journeys/action-nodes.md)以執行&#x200B;_[!UICONTROL 新增至外部客戶對象]_&#x200B;動作。 動作通常是觸發器的結果，例如事件或先前的動作。 歷程會在具有人員設定檔的合格帳戶到達節點時執行動作。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 1. 從右側的節點屬性中，設定外部對象。
 
-   * 如果已經建立一或多個外部對象，您可以選擇&#x200B;**[!UICONTROL 選取現有]**&#x200B;和[選取您要使用的對象](#choose-an-external-audience)。
+   * 如果已經建立一或多個外部對象，您可以選擇&#x200B;**[!UICONTROL 選取現有]**&#x200B;和[選取您要使用的對象](#select-an-external-audience)。
 
    * 如果您要[建立對象](#create-an-external-audience)以用於節點，請選擇&#x200B;**[!UICONTROL 新建]**。
 
@@ -124,4 +124,4 @@ ht-degree: 2%
 
    ![Experience Platform — 目的地 — 啟用目的地 — 檢閱](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-啟用後，您可以在[Adobe Target對象](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到對象，並在Adobe Target活動中使用這些對象。
+啟用後，您可以在[Adobe Target Audiences](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到對象，並在Adobe Target活動中使用。

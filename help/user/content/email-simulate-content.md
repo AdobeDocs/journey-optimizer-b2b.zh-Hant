@@ -18,9 +18,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: 574
 ht-degree: 7%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="檢查您內容的呈現方式"
->abstract="定義內容後，您可以預覽，檢查在使用的管道中呈現是正確的。"
+>abstract="定義內容後，您可以預覽內容，並檢查其在您使用的管道中是否正確呈現。"
 
 使用&#x200B;_模擬內容_&#x200B;功能來預覽電子郵件內容，並將測試傳遞傳送給特定收件者。 必須定義必要的電子郵件欄位，包括&#x200B;_[!UICONTROL 寄件者姓名]_、_[!UICONTROL 寄件者地址]_、_[!UICONTROL 回覆地址]_&#x200B;和&#x200B;_[!UICONTROL 主旨列]_，才能存取預覽和測試功能。
 
 >[!IMPORTANT]
 >
->發生錯誤時，您無法預覽電子郵件。 檢查&#x200B;_警示_&#x200B;以確定沒有任何錯誤會封鎖預覽功能。 警告不會阻止預覽，但您應在發佈觸發電子郵件傳送的歷程之前解決這些問題。
+>發生錯誤時，您無法預覽電子郵件。 若要確保沒有錯誤封鎖預覽功能，請檢查&#x200B;_警示_。 警告不會封鎖預覽，但會在您發佈觸發電子郵件傳送的歷程之前解決這些問題。
 
 ## 顯示電子郵件預覽
 
-您可以從[電子郵件設計空間](./email-authoring.md)，或是&#x200B;_[!UICONTROL 摘要]_&#x200B;存取演算預覽，當您[從電子郵件清單](./emails-list.md#edit-emails)開啟電子郵件時。
+您可以從[電子郵件設計空間](./email-authoring.md)，或是&#x200B;_[!UICONTROL 摘要]_&#x200B;存取演算預覽，當您[從電子郵件清單](./emails-list.md#open-and-edit-emails)開啟電子郵件時。
 
 1. 按一下頂端的&#x200B;**[!UICONTROL 模擬內容]**。
 
@@ -100,7 +100,7 @@ ht-degree: 7%
 
 1. 在&#x200B;_[!UICONTROL 新增測試人員]_&#x200B;對話方塊中，輸入連絡人的完整電子郵件地址。
 
-   若要新增多個連絡人，請輸入多個位址（以逗號分隔）。
+   若要新增多個連絡人，請輸入多個地址，並以逗號分隔。
 
 1. 針對您想要新增至測試設定檔清單的每個相符連絡人，選取核取方塊。
 

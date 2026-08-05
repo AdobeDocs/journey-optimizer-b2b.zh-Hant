@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
+source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 10%
@@ -42,7 +42,7 @@ ht-degree: 10%
 
 1. 在歷程中，行銷人員會以兩種方式之一使用已設定的事件：
 
-   * 新增&#x200B;_接聽事件_&#x200B;節點，[選取體驗事件](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)以根據歷程期間的即時事件活動觸發歷程進展。
+   * 新增&#x200B;_接聽事件_&#x200B;節點，[選取體驗事件](../journeys/listen-for-event-nodes.md#experience-events-account-people)以根據歷程期間的即時事件活動觸發歷程進展。
    * 新增&#x200B;_依人員_&#x200B;節點分割的路徑，並在&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;資料夾的事件[&#128279;](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上設定篩選的路徑。
 
 >[!BEGINSHADEBOX]

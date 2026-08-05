@@ -15,16 +15,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 640
 ht-degree: 6%
 
 ---
 
 # 帳戶詳細資料
 
-當您在Journey Optimizer B2B edition的任何位置按一下帳戶名稱時，都會顯示&#x200B;_帳戶詳細資料_&#x200B;頁面。 此頁面提供帳戶的實用資訊，包括產生式AI摘要。 您也可以針對與帳戶關聯的連絡人執行[動作](#account-actions)。
+當您在Journey Optimizer B2B edition的任何位置按一下帳戶名稱時，都會顯示&#x200B;_帳戶詳細資料_&#x200B;頁面。 此頁面提供有關帳戶的資訊，包括產生式AI摘要。 您也可以針對與帳戶關聯的連絡人執行[動作](#send-email)。
 
 ![存取帳戶詳細資料](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -63,7 +63,7 @@ ht-degree: 6%
 
 ![帳戶連絡人服務範圍](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-_[!UICONTROL 連絡人涵蓋範圍]_&#x200B;區段會顯示帳戶中具有與解決方案相關的特定角色的連絡人數目。 角色和解決方案興趣的指派是以購買群組角色範本為基礎。 按一下儲存格以顯示下列詳細資訊：
+_[!UICONTROL 連絡人涵蓋範圍]_&#x200B;區段會顯示與解決方案相關的特定角色的帳戶連絡人數目。 角色和解決方案興趣的指派是以購買群組角色範本為基礎。 按一下儲存格以顯示下列詳細資訊：
 
 * 描述，格式如下： _x個人擁有z方案興趣的y角色_
 * 欄
@@ -91,7 +91,7 @@ _[!UICONTROL 連絡人重疊]_&#x200B;區段顯示來自帳戶的連絡人，這
 * 帳戶
 * 解決方案興趣
 
-按一下連絡人名稱旁的&#x200B;_資訊_ （![資訊圖示](../assets/do-not-localize/icon-info.svg)）以顯示包含下列詳細資訊的表格：
+按一下連絡人名稱旁的&#x200B;_資訊_ （![資訊圖示](../assets/do-not-localize/icon-info.svg) ）圖示，以顯示包含下列詳細資訊的表格：
 
 * 購買群組（按一下名稱以開啟[購買群組詳細資料](../buying-groups/buying-group-details.md)）
 * 角色
