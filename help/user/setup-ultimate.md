@@ -21,10 +21,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 848
-ht-degree: 74%
+source-wordcount: 847
+ht-degree: 73%
 
 ---
 
@@ -156,7 +156,7 @@ Adobe Journey Optimizer B2B edition是以Adobe Experience Platform為建置基�
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
-<td>設定新的CNAME以追蹤DNS記錄中的連結</td>
+<td>在 DNS 記錄中設定用於追蹤連結的新 CNAME</td>
 <td><a href="./start/email-protocols.md#create-dns-records-for-landing-pages-and-email">了解更多</a></td>
 </tr>
 <tr>
@@ -282,12 +282,12 @@ Adobe Journey Optimizer B2B edition是以Adobe Experience Platform為建置基�
 <td><a href="./admin/configure-channels-sms.md">了解更多</a></td>
 </tr>
 <tr>
-<td colspan="2">Journey Optimizer B2B edition的<strong>登陸頁面</strong> (Beta)管道設定。</td>
+<td colspan="2">Journey Optimizer B2B edition的<strong>登陸頁面</strong>管道設定。</td>
 <td></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
-<td>完成登入頁面設定，以支援製作及發佈這些頁面的行銷人員</td>
+<td>完成登陸頁面設定，以支援製作及發佈這些頁面的行銷人員</td>
 <td><a href="./admin/configure-channels-landing-pages.md">了解更多</a></td>
 </tr>
 <tr>

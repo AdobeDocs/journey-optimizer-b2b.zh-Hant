@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 5552
+source-wordcount: 5580
 ht-degree: 62%
 
 ---
@@ -38,8 +38,9 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
+| 功能 | 個人歷程 | （舊稱Beta，為全面可用而提早部署）您現在可以建立歷程，利用Experience Platform受眾和資料策劃以潛在客戶為基礎的行銷。 [了解更多](../journeys/journeys-overview.md) |
 | 功能 | 個人清單 | 現在提供靜態和動態人員清單，讓您可依定義的條件（例如人口統計屬性和體驗事件歷史記錄）鎖定設定檔。 |
-| 功能 | _變數分割路徑_&#x200B;歷程節點 | （先前為帳戶歷程的測試版）行銷人員現在可以根據定義的百分比，將帳戶或人員指派至不同的歷程路徑，以測試帳戶或人員歷程中的變數。 |
+| 功能 | _變數分割路徑_&#x200B;歷程節點 | （先前稱為帳戶歷程的Beta）行銷人員現在可以根據定義的百分比，將帳戶或人員指派至不同的歷程路徑，藉此測試帳戶或人員歷程中的變數。 |
 | 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 |
 | 增強功能 | 監聽事件觸發器和篩選器 — 帳戶歷程 | 帳戶歷程現在支援&#x200B;_接聽事件_&#x200B;節點中的多個觸發器和篩選器。 |
 | 增強功能 | 外部分割路徑節點 — 個人歷程 | 個人歷程現在支援&#x200B;_外部分割路徑_&#x200B;節點。 |

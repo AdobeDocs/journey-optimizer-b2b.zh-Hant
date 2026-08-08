@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 136
-ht-degree: 16%
+source-wordcount: 135
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 受眾節點會自動成為歷程中的第一個節點：
 
 * [帳戶客群](./account-audience-nodes.md)
-* [個人對象](./person-audience-nodes.md) (Beta)
+* [人員客群](./person-audience-nodes.md)
 
 將不同的動作、事件和協調流程節點視為多步驟、跨頻道情境，藉此建構您的歷程。 歷程的每個節點代表邏輯路徑上的一個步驟。 使用下列節點型別來建構帳戶歷程：
 
