@@ -4,22 +4,17 @@ description: 透過歷程簡化需求產生 — 在Journey Optimizer B2B edition
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 1504
-ht-degree: 42%
+source-wordcount: 1312
+ht-degree: 46%
 
 ---
 
@@ -33,27 +28,9 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
   ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看帳戶歷程概觀影片](#overview-video)
 
-* **個人歷程** - (Beta)使用Experience Platform受眾和資料來協調銷售機會型行銷。 在個人歷程中，您的行銷作業不依賴Marketo Engage或Adobe Campaign/B2C工具鏈的因應措施，因此可支援B2B使用案例。
+* **個人歷程** — 使用Experience Platform受眾和資料來協調銷售機會型行銷。 在個人歷程中，您的行銷作業不依賴Marketo Engage或Adobe Campaign/B2C工具鏈的因應措施，因此可支援B2B使用案例。
 
   如果搭配帳戶歷程及購買群組使用，個人歷程可讓行銷人員對購買歷程套用完整的協調流程。
-
-  +++個人歷程的目前限制
-
-  有些限制可能會封鎖某些使用案例，或導致建立個人歷程的困難。 許多問題都是初始Beta版計畫實作的結果，將於未來解決。
-
-  * 事件不能與設定檔屬性結合以縮小對象定義。
-  * 符合歷程設定檔資格的事件內容無法用於個人化或協調。
-  * 歷程目前不能同時具有事件和設定檔區段輸入條件。
-  * 事件接聽程式無法接聽多個事件。
-  * 等待節點目前沒有完整的一套一週中的某天或當天時間的退出條件選項。
-  * 電子郵件編輯器錯誤地引用了僅可用於帳戶歷程的功能和屬性
-  * 尚未提供自訂歷程權杖（_我的權杖_）的支援。
-  * 任一歷程型別目前都無法新增及移除人員歷程節點。
-  * 事件歷史記錄無法用於協調或個人化。
-  * 相關物件（帳戶、購買群組、商機和自訂物件）無法用於協調或個人化。
-  * 目前不支援Web、SMS和廣告平台管道。
-
-  +++
 
 ## 開始使用歷程
 
@@ -75,9 +52,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ![篩選帳戶歷程清單](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
->[!TAB 個人歷程(Beta)]
-
-[!BADGE Beta]{type=Informative tooltip="提供測試版功能"}
+>[!TAB 個人歷程]
 
 在左側導覽列中，展開&#x200B;**[!UICONTROL 歷程管理]**，然後按一下&#x200B;**[!UICONTROL 個人歷程]**。
 
@@ -114,11 +89,11 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 | 狀態 | 說明 | 可用的動作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 未發佈且可以編輯的歷程。 | <li>[發佈](./create-publish-journey.md#publish-a-journey)<li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
-| _&#x200B;**已上線**&#x200B;_ | 發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | <li>[複製](#duplicate-journey)<li>[對新進客戶關閉](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**對新進客戶關閉**&#x200B;_ | 當您在頂端導覽區域按一下「_對新進客戶關閉_」，此歷程狀態會從「_已上線_」變更為「[!UICONTROL 對新進客戶關閉]」。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。 中止的歷程無法重新啟動。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 當歷程中的所有帳戶或個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉的新專案_&#x200B;變更為&#x200B;_已完成_。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**草稿**_ | 未發佈且可以編輯的歷程。 | <li>[發佈](./create-publish-journey.md#publish-a-journey)<li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**已上線**_ | 發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | <li>[複製](#duplicate-journey)<li>[對新進客戶關閉](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**對新進客戶關閉**_ | 當您在頂端導覽區域按一下「_對新進客戶關閉_」，此歷程狀態會從「_已上線_」變更為「[!UICONTROL 對新進客戶關閉]」。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**已中止**_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。 中止的歷程無法重新啟動。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
+| _**已完成**_ | 當歷程中的所有帳戶或個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉的新專案_&#x200B;變更為&#x200B;_已完成_。 | <li>[複製](#duplicate-journey) <li>[刪除](#delete-journey) |
 
 ## 歷程圖
 
@@ -194,7 +169,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
    * **[!UICONTROL 部分內容重複]** - 使用此類型複製歷程中所有內容，但不包括任何已建立的電子郵件或 SMS 訊息。 參照 Marketo Engage 電子郵件或 SMS 訊息的節點完好無損。
 
-   * **[!UICONTROL 複製但不含詳細資料]** — 使用此型別僅複製節點結構和路徑。 所有節點設定和路徑條件均未定義 (預設)，以便您可以根據不同的客群、動作和路徑分段設定來重複使用基本流程。 所有&#x200B;_等待_&#x200B;節點的預設值都是五天。
+   * **[!UICONTROL 複製但不含詳細資料]** — 使用此型別僅複製節點結構和路徑。 所有節點設定和路徑條件皆未定義（預設），因此您可以對不同對象、動作和路徑分段設定再次使用基本流程。 所有&#x200B;_等待_&#x200B;節點的預設值都是五天。
 
 1. 按一下「**[!UICONTROL 重複]**」。
 
@@ -226,4 +201,4 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ## 帳戶歷程概觀影片 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443218/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
