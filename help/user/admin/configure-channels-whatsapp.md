@@ -4,17 +4,11 @@ description: 透過Meta的Cloud API連線您的WhatsApp商業帳戶，以啟用J
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-subfeature_v2:
-  - id: a7692144-1dc6-426f-b00f-fe187797f61d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2: id: a7692144-1dc6-426f-b00f-fe187797f61d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
@@ -64,7 +58,7 @@ Adobe Journey Optimizer B2B edition會透過Meta的Cloud API傳送WhatsApp訊息
 1. [新增 WhatsApp Webhook](#configure-webhooks)
 1. [建立WhatsApp通道設定](#create-channel-configuration)
 
-### 建立WhatsApp API認證
+### 建立 WhatsApp API 認證
 
 >[!NOTE]
 >
@@ -97,9 +91,9 @@ Adobe Journey Optimizer B2B edition會透過Meta的Cloud API傳送WhatsApp訊息
    電話號碼設定會自動填入：
 
    * **品質評等** — 反映客戶對過去24小時內傳送之訊息的回饋。
-      * 綠色：高品質
-      * 黃色：Medium品質
-      * 紅色：低品質
+     * 綠色：高品質
+     * 黃色：Medium品質
+     * 紅色：低品質
 
      如需詳細資訊，請參閱Meta檔案中的&#x200B;[_品質評等_](https://www.facebook.com/business/help/766346674749731#)。
 

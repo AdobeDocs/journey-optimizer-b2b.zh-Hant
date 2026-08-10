@@ -7,17 +7,11 @@ role: User
 level: Beginner, Intermediate
 keywords: 深色模式，電子郵件，顏色，設計
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: 2026-03-30T22:06:55.168Z
 TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
@@ -43,7 +37,7 @@ _深色模式_&#x200B;可讓支援的電子郵件使用者端或應用程式針�
 
 ![淺色和深色模式概念圖，以淺色和深色主題顯示內容轉譯](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-當您在[!DNL Journey Optimizer B2B Edition]視覺化設計空間中[建立您的電子郵件內容](./email-authoring.md)時，您可以切換至&#x200B;_&#x200B;**[!UICONTROL 深色模式]**&#x200B;_&#x200B;檢視。 在此檢視中，您也可以定義特定的自訂設定，以便在啟用電子郵件使用者端的深色模式時支援這些使用者端。
+當您在[!DNL Journey Optimizer B2B Edition]視覺化設計空間中[建立您的電子郵件內容](./email-authoring.md)時，您可以切換至&#x200B;_**[!UICONTROL 深色模式]**_&#x200B;檢視。 在此檢視中，您也可以定義特定的自訂設定，以便在啟用電子郵件使用者端的深色模式時支援這些使用者端。
 
 ## 電子郵件使用者端注意事項 {#email-client-considerations}
 

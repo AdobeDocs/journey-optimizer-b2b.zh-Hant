@@ -3,14 +3,9 @@ title: WhatsApp頻道設定
 description: 透過Meta的Cloud API連線您的WhatsApp商業帳戶，以啟用Journey Optimizer B2B Prime個人歷程中的WhatsApp傳訊。
 autotag-review: '2026-06-12T22:42:51.072Z'
 TQID: 'https://experienceleague.adobe.com/eXXIyzNkDD-54QcqkT2xR8qVB5pLyUByCc0NwBViV-Q'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 source-git-commit: 21a905201c3fc49f2e825dea2a0f0cc76f7b285f
 workflow-type: tm+mt
 source-wordcount: 1487
@@ -92,9 +87,9 @@ Journey Optimizer B2B Prime會透過Meta的Cloud API傳送WhatsApp訊息。 在�
    電話號碼設定會自動填入：
 
    * **品質評等** — 反映客戶對過去24小時內傳送之訊息的回饋。
-      * 綠色：高品質
-      * 黃色：Medium品質
-      * 紅色：低品質
+     * 綠色：高品質
+     * 黃色：Medium品質
+     * 紅色：低品質
 
      如需詳細資訊，請參閱Meta檔案中的&#x200B;[_品質評等_](https://www.facebook.com/business/help/766346674749731#)。
 

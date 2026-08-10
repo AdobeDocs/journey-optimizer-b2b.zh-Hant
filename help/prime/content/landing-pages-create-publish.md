@@ -6,16 +6,10 @@ feature: Landing Pages, Content Design Tools
 role: User
 autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
 source-wordcount: 1562
@@ -87,7 +81,7 @@ ht-degree: 11%
 
    每個登入頁面最多可新增兩個子頁面。
 
-在您設定並設計主要頁面及任何子頁面後，請先測試您的登入頁面[&#128279;](#test-landing-page)，然後再發佈。
+在您設定並設計主要頁面及任何子頁面後，請先測試您的登入頁面](#test-landing-page)，然後再發佈。[
 
 >[!CAUTION]
 >
@@ -158,7 +152,7 @@ ht-degree: 11%
 
 1. [測試登入頁面](#test-landing-page)。
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ### 匯入HTML {#import-html}
 
@@ -199,15 +193,15 @@ ht-degree: 11%
 
 * **_警告_**&#x200B;參考建議與最佳實務的警告，例如：
 
-   * `Placeholder links are present in the landing page body`：別忘了以有效連結取代預留位置。
+  * `Placeholder links are present in the landing page body`：別忘了以有效連結取代預留位置。
 
-   * `Text version of HTML is empty`：別忘了定義頁面內文的文字版本，當HTML內容無法顯示時會使用此版本。
+  * `Text version of HTML is empty`：別忘了定義頁面內文的文字版本，當HTML內容無法顯示時會使用此版本。
 
-   * `Empty link is present in page body`：檢查頁面中的所有連結是否正確。
+  * `Empty link is present in page body`：檢查頁面中的所有連結是否正確。
 
 * **_錯誤_**&#x200B;會阻止您測試或啟用歷程，只要這些錯誤尚未解決，例如：
 
-   * `The landing page content is empty`：頁面內容是必要的。
+  * `The landing page content is empty`：頁面內容是必要的。
 
 ## 測試登陸頁面 {#test-landing-page}
 
@@ -232,7 +226,7 @@ ht-degree: 11%
 
    ![針對選取的設定檔模擬登陸頁面內容](../../user/content/assets/landing-page-simulate.png){width="700" zoomable="yes"}
 
-   如果未列出您需要的設定檔，請按一下[管理測試設定檔] **，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**
+   如果未列出您需要的設定檔，請按一下[管理測試設定檔] ]**，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**[!UICONTROL 
 
    +++新增測試設定檔
 

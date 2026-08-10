@@ -4,17 +4,11 @@ description: 在Journey Optimizer B2B edition中，根據個人化電子郵件�
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:10:29.308Z
 TQID: https://experienceleague.adobe.com/B-As12oHe15O9i3ZCfSz0Og4BRvYyF3BXnXFoVqRWf8
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -28,7 +22,7 @@ ht-degree: 12%
 
 條件內容可讓您根據條件規則調整電子郵件和片段內容。 這些規則是使用設定檔屬性或內容事件定義的。 您可以在規則產生器中建立條件式規則，並將規則儲存起來，以便在您的帳戶歷程中重複使用。
 
-若要新增條件式內容至您的片段與電子郵件訊息，Adobe Journey Optimizer可讓您套用儲存在&#x200B;_條件_&#x200B;資料庫中的條件式規則。 當您為帳戶歷程[&#128279;](./email-authoring.md)或[視覺片段](./fragment-authoring.md)編寫電子郵件內容時，在視覺設計空間內套用條件規則。
+若要新增條件式內容至您的片段與電子郵件訊息，Adobe Journey Optimizer可讓您套用儲存在&#x200B;_條件_&#x200B;資料庫中的條件式規則。 當您為帳戶歷程](./email-authoring.md)或[視覺片段](./fragment-authoring.md)編寫[電子郵件內容時，在視覺設計空間內套用條件規則。
 
 ## 新增條件式內容 {#email-fragment-content}
 
@@ -64,7 +58,7 @@ ht-degree: 12%
 
    ![條件資料庫存取條件詳細資料](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則[&#128279;](#create-condition)。
+   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則](#create-condition)。[
 
 1. 選取條件式規則，然後按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以將其與變體關聯。
 
@@ -118,10 +112,10 @@ ht-degree: 12%
 
 | 條件型別 | 篩選器 | 說明 |
 | -------------- | ------- | ----------- |
-| **帳戶** | 帳戶屬性 | 帳戶設定檔中的屬性，包括： <li>年收入</li><li>城市</li><li>國家</li><li>員工規模</li><li>行業</li><li>名稱</li><li>SIC 代碼</li><li>狀態</li> |
+| **帳戶** | 帳戶屬性 | 帳戶設定檔中的屬性，包括： <li>年收入</li><li>城市</li><li>國家/地區</li><li>員工規模</li><li>行業</li><li>名稱</li><li>SIC 代碼</li><li>狀態</li> |
 | | [!UICONTROL 特殊篩選器] > [!UICONTROL 有購買群組] | 帳戶是否擁有購買群組的成員。 篩選條件也可依據下列一或多個條件進行評估： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li> |
 | **人員** | [!UICONTROL 活動歷史記錄] > [!UICONTROL 電子郵件] | 與歷程相關聯的電子郵件活動： <li>[!UICONTROL 已點按電子郵件中的連結]</li><li>已開啟的電子郵件</li><li>是已寄送電子郵件</li><li>已寄送電子郵件</li> 會使用歷程中先前選取的電子郵件訊息評估這些條件。 |
-|  | [!UICONTROL 個人屬性] | 個人設定檔中的屬性，包括： <li>城市</li><li>國家</li><li>出生日期</li><li>電子郵件地址</li><li>電子郵件無效</li><li>電子郵件中止</li><li>名字</li><li>推斷的州別區域</li><li>職稱</li><li>姓氏</li><li>手機號碼</li><li>電話號碼</li><li>郵遞區號</li><li>狀態</li><li>已取消訂閱</li><li>取消訂閱的原因</li> |
+|  | [!UICONTROL 個人屬性] | 個人設定檔中的屬性，包括： <li>城市</li><li>國家/地區</li><li>出生日期</li><li>電子郵件地址</li><li>電子郵件無效</li><li>電子郵件中止</li><li>名字</li><li>推斷的州別區域</li><li>職稱</li><li>姓氏</li><li>手機號碼</li><li>電話號碼</li><li>郵遞區號</li><li>狀態</li><li>已取消訂閱</li><li>取消訂閱的原因</li> |
 | | [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除</li><li>角色</li> |
 
 ### 建立條件式規則 {#create-condition}
