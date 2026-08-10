@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 4902
+source-wordcount: 4937
 ht-degree: 6%
 
 ---
@@ -1175,7 +1175,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfQuarter {#truncate-quarter}
 
-使用`truncateToStartOfQuarter`函式將日期時間截斷為其季度的第一天（例如1月1日、4月1日、7月1日、10月1日），網址為00:00。
+使用`truncateToStartOfQuarter`函式可將日期時間截斷為其季度的第一天（例如1月1日、4月1日、7月1日、10月1日），截斷時間為00:00。
 
 +++語法
 
@@ -1192,7 +1192,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfWeek {#truncate-week}
 
-`truncateToStartOfWeek`函式將指定日期時間設定為一週的開始（星期一00:00），以修改該日期。
+`truncateToStartOfWeek`函式將指定日期時間設定為一週的開始（星期一的00:00），以修改指定的日期時間。
 
 +++語法
 
@@ -1209,7 +1209,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfYear {#truncate-year}
 
-使用`truncateToStartOfYear`函式將指定日期時間截斷為00:00一年的第一天（1月1日），以修改該日期。
+使用`truncateToStartOfYear`函式來修改指定的日期時間，方法是在00:00將日期時間截斷為一年的第一天（1月1日）。
 
 +++語法
 
