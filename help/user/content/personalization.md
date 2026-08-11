@@ -24,7 +24,7 @@ TQID: https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjX
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 751
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="aj-b2b_personalization"
 >title="個人化內容體驗"
->abstract="使用 **Adobe Journey Optimizer B2B Edition**，利用手邊關於各個特定接收者的資料與資訊，調整給其的訊息。 可以是使用者的名字、產業、職稱等。"
+>abstract="使用 **Adobe Journey Optimizer B2B Edition**，利用手邊關於各個特定接收者的資料與資訊，調整給其的訊息。 可以是他們的名字、產業、職稱等。"
 
-[!DNL Adobe Journey Optimizer B2B Edition]個人化功能可讓您利用所擁有的資料與資訊，將電子郵件訊息調整至每個特定收件者。 可以是使用者的名字、產業、職稱等。
+[!DNL Adobe Journey Optimizer B2B Edition]個人化功能可讓您利用所擁有的資料與資訊，將電子郵件訊息調整至每個特定收件者。 可以是他們的名字、產業、職稱等。
 
 使用&#x200B;_個人化編輯器_，您可以選取、排列、自訂及驗證所有資料，為您的內容建立自訂的個人化。 使用各種工具（例如協助程式功能）來量身打造訊息。 編輯器使用以&#x200B;_Handlebars_&#x200B;為基礎的內嵌個人化語法，其中運算式是以雙大括弧`{{}}`括住的內容所建構。
 
@@ -59,7 +59,7 @@ ht-degree: 6%
 >
 >在[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中進一步瞭解XDM結構描述。
 
-## Personalization編輯器
+## 個人化編輯器
 
 您必須在電子郵件內容中定義個人化的每個內容中，都可使用個人化編輯器。 在編輯器中，您可以選取、排列、自訂及驗證所有資料，為您的內容建立自訂個人化。
 

@@ -211,13 +211,13 @@ ht-degree: 7%
 
      ![關於品牌 — 指導原則 — 增加核心價值](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
-      * **[!UICONTROL 值]** — 輸入核心品牌值的名稱。
+     * **[!UICONTROL 值]** — 輸入核心品牌值的名稱。
 
-      * **[!UICONTROL 描述]** — 說明這個值對您品牌的意義。
+     * **[!UICONTROL 描述]** — 說明這個值對您品牌的意義。
 
-      * **[!UICONTROL 行為]** — 概述實際中反映此值的動作或態度。
+     * **[!UICONTROL 行為]** — 概述實際中反映此值的動作或態度。
 
-      * **[!UICONTROL 表現]** — 提供這個值在真實世界品牌中如何表示的範例。
+     * **[!UICONTROL 表現]** — 提供這個值在真實世界品牌中如何表示的範例。
 
    * 若要變更或刪除核心值，請按一下&#x200B;_編輯_ （ ![編輯圖示](../assets/do-not-localize/icon-edit.svg) ）圖示，以更新或刪除核心品牌值。
 
@@ -241,7 +241,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="寫作風格一致性分數"
->abstract="寫作風格區段會定義語言、格式及結構的標準，以確保內容清晰且一致。 一致性分數從高至低評分，會顯示您的內容對這些準則的遵循程度，並醒目提示需要改善的區域。"
+>abstract="「寫作風格」部分會定義語言、格式及結構的標準，以確保內容清晰且一致。 一致性分數從高至低評分，會顯示您的內容對這些準則的遵循程度，並醒目提示需要改善的區域。"
 
 _[!UICONTROL 撰寫樣式]_&#x200B;定義概述撰寫內容的標準，並詳細說明應如何使用語言、格式和結構來維持所有資料的清晰度、一致性和一致性。
 
@@ -285,7 +285,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="視覺內容一致性分數"
->abstract="視覺內容一致性分數表示您的內容與設定之品牌準則的符合程度。 從高至低的評分可協助您總覽評估一致性。 探索不同的類別可找出需要改善的區域，並找出可能不符合品牌的元素。"
+>abstract="視覺內容一致性分數表示您的內容與設定之品牌準則的符合程度。 從高至低的評分可協助您一目了然地評估一致性。 探索不同的類別可找出需要改善的區域，並找出可能不符合品牌的元素。"
 
 _[!UICONTROL 視覺內容]_&#x200B;定義概述影像和設計標準，並詳細說明維持統一一致的品牌外觀所需的規格。
 

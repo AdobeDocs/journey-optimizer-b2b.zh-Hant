@@ -92,9 +92,9 @@ Journey Optimizer B2B Prime會透過Meta的Cloud API傳送WhatsApp訊息。 在�
    電話號碼設定會自動填入：
 
    * **品質評等** — 反映客戶對過去24小時內傳送之訊息的回饋。
-      * 綠色：高品質
-      * 黃色：Medium品質
-      * 紅色：低品質
+     * 綠色：高品質
+     * 黃色：Medium品質
+     * 紅色：低品質
 
      如需詳細資訊，請參閱Meta檔案中的&#x200B;[_品質評等_](https://www.facebook.com/business/help/766346674749731#)。
 

@@ -55,7 +55,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
 >title="品牌選取項目"
->abstract="選取您的品牌以確保您的內容製作符合其特定的準則、標準和識別，從而維持一致性和品牌完整性。"
+>abstract="選取您的品牌，以確保您的內容製作符合其特定的準則、標準和品牌識別，從而維持一致性和品牌完整性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"

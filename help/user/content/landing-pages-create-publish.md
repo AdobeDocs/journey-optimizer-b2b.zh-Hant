@@ -231,15 +231,15 @@ Adobe Journey Optimizer B2B edition提供一系列&#x200B;_立即可用的_&#x20
 
 * **_警告_**&#x200B;參考建議與最佳實務的警告，例如：
 
-   * `Placeholder links are present in the landing page body`：別忘了以有效連結取代預留位置。
+  * `Placeholder links are present in the landing page body`：別忘了以有效連結取代預留位置。
 
-   * `Text version of HTML is empty`：別忘了定義頁面內文的文字版本，當HTML內容無法顯示時會使用此版本。
+  * `Text version of HTML is empty`：別忘了定義頁面內文的文字版本，當HTML內容無法顯示時會使用此版本。
 
-   * `Empty link is present in page body`：檢查頁面中的所有連結是否正確。
+  * `Empty link is present in page body`：檢查頁面中的所有連結是否正確。
 
 * **_錯誤_**&#x200B;會阻止您測試或啟用歷程/行銷活動，只要這些錯誤尚未解決，例如：
 
-   * `The landing page content is empty`：頁面內容是必要的。
+  * `The landing page content is empty`：頁面內容是必要的。
 
 ## 測試登陸頁面 {#test-landing-page}
 

@@ -61,9 +61,9 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
 * 每個串流連線都會自動產生資源，例如：
 
-   * _Source連線_ — 資料來源。
-   * _目標連線_ — 資料儲存或使用的位置。
-   * _Source流程_ — 將資料從來源連線移入Experience Platform的管道。 它會處理對應、轉換和驗證。
+  * _Source連線_ — 資料來源。
+  * _目標連線_ — 資料儲存或使用的位置。
+  * _Source流程_ — 將資料從來源連線移入Experience Platform的管道。 它會處理對應、轉換和驗證。
 
 ## 建立表單預設集 {#create-preset}
 

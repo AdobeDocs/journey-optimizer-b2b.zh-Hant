@@ -31,6 +31,6 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_subdomain_datastream_id"
 >title="子網域資料流 ID"
->abstract="提供資料流以使用 Experience Platform Web SDK 來啟用登陸頁面資料收集。 "
+>abstract="提供資料流以使用 Experience Platform Web SDK 來啟用登陸頁面資料彙集。 "
 
 內容即將推出。
