@@ -6,20 +6,15 @@ roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 171518509dc161d236663cde399b3fcc02408f18
 workflow-type: tm+mt
-source-wordcount: 2267
-ht-degree: 81%
+source-wordcount: 2348
+ht-degree: 77%
 
 ---
 
@@ -74,7 +69,7 @@ ht-degree: 81%
 
 新增使用者至Marketo Engage產品設定檔時，他們隨後會新增至Marketo Engage訂閱預設工作區中的&#x200B;_標準使用者_&#x200B;角色。 此角色會授予他們該工作區中Marketo Engage的所有標準許可權。 目前，所有Journey Optimizer B2B edition使用者都必須是Marketo Engage使用者。 Marketo Engage管理員可以更新&#x200B;_標準使用者_&#x200B;角色的許可權，或將使用者移至其他具有更嚴格許可權的Marketo Engage使用者角色，以限制存取權。
 
-如需有關在Marketo Engage中管理這些許可權的詳細資訊，請參閱Marketo Engage檔案中的[管理使用者角色和許可權](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
+如需有關在Marketo Engage中管理這些許可權的詳細資訊，請參閱Marketo Engage檔案中的[管理使用者角色和許可權](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -90,11 +85,11 @@ ht-degree: 81%
 
 1. 輸入產品設定檔名稱，例如&#x200B;_B2B使用者_。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[下一步]****，然後按一下[儲存]****。
 
 ## 為設定檔新增使用者群組 {#add-user-group}
 
-使用者群組是獲授一組共用許可權的使用者集合。 您可以在使用者群組中新增或移除使用者。 當群組內的使用者變更時，群組許可權會維持不變。
+使用者群組是獲授一組共用許可權的使用者集合。 您可以在使用者群組中新增或移除使用者。 當群組內的使用者變更時，群組權限會維持不變。
 
 >[!TIP]
 >
@@ -167,7 +162,7 @@ ht-degree: 81%
 
 Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 許可權也可讓您管理與特定角色相關聯的沙箱和使用者。
 
-如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 ### B2B產品許可權 {#b2b-product-permissions}
 
@@ -177,11 +172,11 @@ Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以�
 | -------- | ----------- | ---------- |
 | B2B帳戶清單 | 設定、管理、檢視和發佈B2B帳戶清單的許可權。 這些許可權包括帳戶清單中的新增、移除、匯入和刪除帳戶等動作。 | <li>管理B2B帳戶清單 |
 | B2B管理設定 | 設定、管理和檢視B2B管理設定的許可權。 這些許可權包括數位資產管理連線、資產存放庫和事件。 | <li>管理B2B管理設定 |
-| B2B Assets | 設定、管理和檢視B2B資產的許可權。 這些許可權包括電子郵件、簡訊、登陸頁面、片段、範本和影像。 | <li>管理B2B Assets <li>管理B2B範本 <li>管理B2B片段 <li>管理B2B電子郵件 |
+| B2B Assets | 設定、管理和檢視B2B資產的許可權。 這些許可權包括電子郵件、登入頁面、表單、片段、範本和影像。 | <li>管理B2B Assets <li>管理B2B範本 <li>管理B2B片段 <li>管理B2B電子郵件 <li>檢視B2B範本 <li>檢視B2B片段 <li>發佈B2B片段 <li>檢視B2B Assets <li>檢視B2B電子郵件 <li>管理B2B訊息匯出 <li>檢視B2B登陸頁面 <li>管理B2B登陸頁面 <li>發佈B2B登陸頁面 <li>檢視B2B Forms <li>管理B2B Forms <li>發佈B2B Forms |
 | B2B購買群組 | 設定、管理和檢視B2B購買群組的許可權。 這些許可權包括解決方案興趣、角色範本和購買群組狀態。 | <li>管理B2B購買群組 <li>管理B2B解決方案興趣 <li>管理B2B角色範本 <li>管理B2B階段 <li>檢視B2B購買群組 |
-| B2B通道設定 | 設定、管理和檢視B2B通道設定的許可權。 這些許可權包括通訊限制、API憑證和安全性設定的設定。 | <li>管理B2B通道設定 |
-| B2B儀表板 | 設定和檢視B2B儀表板的許可權。 這些許可權包括帳戶參與度、購買群組階段、飆升的帳戶和聯絡人涵蓋範圍。 | <li>檢視B2B參與儀表板 |
-| B2B歷程 | 設定、管理、檢視和發佈B2B歷程的許可權。 這些許可權包括帳戶和人員動作、事件接聽程式以及分割路徑。 | <li>管理B2B帳戶歷程 |
+| B2B通道設定 | 設定、管理和檢視B2B管道設定的許可權。 這些許可權包括通訊限制、API憑證和安全性設定的設定。 | <li>管理B2B管道設定 <li>檢視B2B電子郵件設定 <li>管理B2B電子郵件設定 <li>管理B2B WhatsApp預設集 <li>管理B2B登陸頁面設定 <li>檢視B2B Forms預設集 <li>管理B2B Forms預設集 <li>發佈B2B Forms預設集 <li>作者B2B Web體驗 <li>管理B2B WhatsApp設定 |
+| B2B儀表板 | 設定和檢視B2B儀表板的許可權。 這些許可權包括帳戶參與度、購買群組階段、激增帳戶和聯絡人涵蓋範圍。 | <li>檢視B2B參與儀表板 |
+| B2B歷程 | 設定、管理、檢視和發佈B2B歷程的許可權。 這些許可權包括帳戶和人員動作、事件接聽程式以及分割路徑。 | <li>管理B2B帳戶歷程 <li>管理B2B個人歷程 |
 | Journey Optimizer規則 | 存取及設定頻率規則（通訊限制）。 這些許可權應該僅限於產品管理員。 | <li>檢影片率規則 <li>管理頻率規則 |
 
 ### B2B內建角色 {#b2b-built-in-roles}
@@ -190,9 +185,9 @@ Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以�
 
 | 角色 | 權限 |
 | ---- | ----------- |
-| B2B Journey Manager | <li>管理B2B歷程 <li>管理B2B購買群組 <li>管理B2B帳戶清單 <li>檢視B2B參與儀表板 <li>檢視B2B見解控制面板 |
+| B2B Journey Manager | <li>管理B2B歷程 <li>管理B2B購買群組 <li>管理B2B帳戶清單 <li>檢視B2B參與儀表板 <li>檢視B2B洞察儀表板 |
 | B2B頻道管理員 | <li>管理B2B Assets <li>管理B2B範本 <li>管理B2B片段 |
-| B2B系統管理員 | <li>管理B2B通道設定 <li>管理B2B管理設定 |
+| B2B系統管理員 | <li>管理B2B管道設定 <li>管理B2B管理設定 |
 | B2B銷售使用者 | <li>檢視B2B參與儀表板 <li>檢視B2B購買群組 <li>存取In-CRM Insights |
 
 ### 編輯角色許可權 {#edit-role-permissions}
@@ -305,13 +300,13 @@ Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以�
 
    * 在左側的&#x200B;_[!UICONTROL 資源]_&#x200B;清單中，找到&#x200B;**[!UICONTROL 設定檔管理]**&#x200B;專案，然後按一下&#x200B;_新增_ (**+**)圖示以新增屬性。
 
-   * 針對屬性，新增下列許可權：
-      * [!UICONTROL 檢視區段]
-      * [!UICONTROL 管理區段]
-      * [!UICONTROL 檢視設定檔]
-      * [!UICONTROL 管理設定檔]
-      * [!UICONTROL 檢視B2B設定檔]
-      * [!UICONTROL 管理B2B設定檔]
+   * 針對屬性，新增下列權限：
+     * [!UICONTROL 檢視區段]
+     * [!UICONTROL 管理區段]
+     * [!UICONTROL 檢視設定檔]
+     * [!UICONTROL 管理設定檔]
+     * [!UICONTROL 檢視B2B設定檔]
+     * [!UICONTROL 管理B2B設定檔]
 
    ![Experience Platform — 新增新角色的設定檔](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 
