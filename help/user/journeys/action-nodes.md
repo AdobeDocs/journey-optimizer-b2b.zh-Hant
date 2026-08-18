@@ -4,12 +4,18 @@ description: 設定帳戶和人員動作的動作節點 — 傳送電子郵件�
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
 workflow-type: tm+mt
@@ -80,7 +86,7 @@ ht-degree: 3%
 
 新增啟動至目的地節點(_T):_
 
-1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;]**上的**[!UICONTROL &#x200B;動作設定為&#x200B;**[!UICONTROL 啟用到目的地]**。
+1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;**上的**&#x200B;動作設定為&#x200B;**[!UICONTROL 啟用到目的地]**。
 
 1. 按一下&#x200B;**[!UICONTROL 選取目的地]**。
 
@@ -96,7 +102,7 @@ ht-degree: 3%
 
 新增從目的地節點&#x200B;:_停用的(_T)
 
-1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;]**上的**[!UICONTROL &#x200B;動作設定為&#x200B;**[!UICONTROL 從目的地]**&#x200B;停用。
+1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;**上的**&#x200B;動作設定為&#x200B;**[!UICONTROL 從目的地]**&#x200B;停用。
 
    ![歷程節點 — 對帳戶採取動作 — 從目的地功能表停用](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
 
@@ -264,7 +270,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 +++[!UICONTROL 傳送電子郵件]
 
-使用此動作傳送電子郵件。 在您[建立節點的電子郵件](../content/add-email.md#add-an-email-action-node-in-a-journey)之後，您可以在電子郵件設計空間設計、個人化和預覽電子郵件訊息（請參閱[電子郵件編寫](../content/email-authoring.md)）。 您也可以從Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}傳送[電子郵件。 選取Marketo Engage工作區，然後選取要傳送的電子郵件。
+使用此動作傳送電子郵件。 在您[建立節點的電子郵件](../content/add-email.md#add-an-email-action-node-in-a-journey)之後，您可以在電子郵件設計空間設計、個人化和預覽電子郵件訊息（請參閱[電子郵件編寫](../content/email-authoring.md)）。 您也可以從Marketo Engage[&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}傳送電子郵件。 選取Marketo Engage工作區，然後選取要傳送的電子郵件。
 
 ![採取動作 — 傳送電子郵件](./assets/node-action-send-email-from-marketo.png){width="300"}
 
