@@ -21,7 +21,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: eb57eab88e264ec8ebd0975cced6c4241fcce23b
 workflow-type: tm+mt
 source-wordcount: 3582
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 這項新功能提供以提示為基礎的內容產生功能，適用於完整電子郵件產生或在電子郵件結構元件中定位。 針對影像，您可以產生新的影像資產，或從輸入品牌資產的影像目錄中產生建議。 您也可以使用此功能產生最佳主旨行和預先標題，以影響電子郵件開啟率。
 
->[!IMPORTANT]
+>[!PREREQUISITES]
 >
 >若要在Adobe Journey Optimizer B2B edition中存取這些功能，您必須擁有&#x200B;_[!UICONTROL AI小幫手]_ > _[!UICONTROL 產生內容]_&#x200B;許可權。 如需產品管理員如何授與功能許可權的詳細資訊，請參閱[編輯產品許可權的角色](../admin/user-management.md#edit-roles-for-product-permissions)。
 

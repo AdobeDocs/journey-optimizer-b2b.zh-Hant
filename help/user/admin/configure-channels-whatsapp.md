@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+source-git-commit: eec5558d6065501576a91097182201726020213c
 workflow-type: tm+mt
-source-wordcount: 1491
-ht-degree: 13%
+source-wordcount: 1515
+ht-degree: 9%
 
 ---
 
@@ -34,13 +34,13 @@ Adobe Journey Optimizer B2B edition會透過Meta的Cloud API傳送WhatsApp訊息
 在設定WhatsApp頻道之前，請確定您符合下列條件：
 
 * [Meta Business Manager帳戶](https://business.facebook.com/)
-* [具有已驗證寄件者姓名與電話號碼的WhatsApp商業帳戶](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [具有已驗證寄件者姓名與電話號碼的WhatsApp商業帳戶](https://developers.facebook.com/documentation/business-messaging/whatsapp/whatsapp-business-accounts)
 * [具有適當許可權的Meta使用者授權權杖](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-* [您的WhatsApp商業帳戶中的已核准訊息範本](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [您的WhatsApp商業帳戶中的已核准訊息範本](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/overview)
 
 >[!IMPORTANT]
 >
->您使用WhatsApp訊息服務時，必須遵守Meta的條款與條件。 透過Journey Optimizer B2B edition存取WhatsApp傳訊，即表示您確認已檢閱並同意遵守[Meta WhatsApp商業政策](https://www.whatsapp.com/legal/business-policy/)。
+>您使用WhatsApp訊息服務時，必須遵守Meta的條款與條件。 透過Journey Optimizer B2B edition存取WhatsApp傳訊，即表示您確認已檢閱並同意遵守[Meta WhatsApp商業政策](https://whatsappbusiness.com/policy/)。
 
 ## 限制 {#limitations}
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer B2B edition會透過Meta的Cloud API傳送WhatsApp訊息
 
 * 尚不支援自動化或預先定義的回應訊息。
 
-* 自2025年4月起，Meta暫停傳送所有行銷範本訊息給擁有美國電話號碼（由+1撥號代碼和美國區碼組成的號碼）的WhatsApp使用者。 [進一步瞭解Meta檔案](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)
+* 自2025年4月起，Meta已暫停向美國電話號碼（+1撥號代碼和美國區碼）的WhatsApp使用者傳送行銷範本訊息。 [進一步瞭解Meta檔案](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)
 
 * 原生整合功能不允許整合入第三方企業服務提供者 (BSP)。
 
@@ -115,14 +115,16 @@ Adobe Journey Optimizer B2B edition會透過Meta的Cloud API傳送WhatsApp訊息
 
 如果您在設定WhatsApp API認證時遇到HTTP 500錯誤，請遵循下列疑難排解步驟：
 
-1. 驗證您的Adobe權益 — 確認您的組織已布建&#x200B;_cjm_ whatsapp_權益。 若沒有此權益，便無法設定WhatsApp頻道。
+1. 驗證您的Adobe權益 — 確認您的組織已布建&#x200B;_cjm_ whatsapp_權益。
+
+   若沒有此權益，便無法設定WhatsApp頻道。
 
 1. 驗證企業帳戶欄位 — 確保所有必要欄位正確無誤：
 
    * API權杖 — 必須是具有適當許可權的有效[Meta存取權杖](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)。
    * Business帳戶ID — 必須與您的[Meta Business帳戶ID](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)完全相符。
 
-1. 從外部測試認證 — 直接使用Meta API驗證您的認證，以確認問題與認證有關，或與Journey Optimizer B2B edition認證處理有關。
+1. 從外部測試憑證 — 若要確認問題是否與憑證或Journey Optimizer B2B edition憑證處理有關，請使用Meta API驗證您的憑證。
 
 <!--
  1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
@@ -138,7 +140,7 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="傳入關鍵字類別"
->abstract="<b>選擇加入</b>：當使用者訂閱時，傳送您定義的自動回覆。 <br/><b>選擇退出</b>：當使用者取消訂閱時，傳送您定義的自動回覆。 <br/><b>說明</b>：當使用者要求說明或支援時，傳送您定義的自動回覆。 <br/><b>預設</b>：找不到關鍵字相符項目時，傳送您的備用自動回覆。"
+>abstract="<b>選擇加入</b>：傳送訂閱的自動回應。 <br/><b>選擇退出</b>：針對取消訂閱傳送自動回應。 <br/><b>說明</b>：傳送說明要求的自動回應。 <br/><b>預設</b>：針對不符的關鍵字傳送遞補自動回應。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
@@ -155,11 +157,21 @@ do we have advanced logs? How are they enabled?
 >title="驗證權杖"
 >abstract="在驗證過程中，Meta 回傳以確認和驗證回呼 URL 的權杖。"
 
+>[!BEGINSHADEBOX]
+
+![AEP許可權圖示](../../assets/do-not-localize/icon_permissions-outline.svg)這些步驟需要您在Experience Platform中指派的使用者角色的下列[許可權](./user-management.md#b2b-product-permissions)：
+
+* **[!UICONTROL B2B通道設定]** - `Manage B2B Channels`
+* **[!UICONTROL B2B通道設定]** - `Manage B2B WhatsApp Settings`
+* **[!UICONTROL B2B通道設定]** - `Manage B2B WhatsApp Presets`
+
+>[!ENDSHADEBOX]
+
 Webhook可讓Journey Optimizer B2B edition接收來自WhatsApp商業帳戶的傳入訊息、同意回應和傳送通知。 設定Webhook以確保適當的同意管理和訊息追蹤。
 
 >[!NOTE]
 >
->若沒有指定的選擇加入或選擇退出關鍵字，則不會啟用標準同意訊息。
+>標準同意訊息需要指定的選擇加入或選擇退出關鍵字。
 
 成功建立WhatsApp API認證時，您可以設定Webhook。
 
@@ -174,8 +186,8 @@ Webhook可讓Journey Optimizer B2B edition接收來自WhatsApp商業帳戶的傳
 1. 針對&#x200B;**[!UICONTROL 傳入關鍵字類別]**，請選擇類別以定義關鍵字與回複訊息：
 
    * **[!UICONTROL 選擇加入]** — 使用者必須主動同意接收WhatsApp訊息，通常透過您網站或應用程式上的表單進行管理。
-   * **[!UICONTROL 選擇退出]** — 設定您的Webhook聆聽`Stop`或`No Message`之類的片語，以自動將使用者標示為選擇退出。
-   * **[!UICONTROL 說明]** — 允許自動系統偵測使用者傳送`HELP` （或類似的關鍵字，如`Unknown`）的時間，並自動回覆特定的資訊，例如服務指示。
+   * **[!UICONTROL 選擇退出]** — 若要自動將使用者標示為選擇退出，請設定您的webhook以聆聽`Stop`或`No Message`之類的片語。
+   * **[!UICONTROL 說明]** — 允許自動化系統偵測使用者何時傳送`HELP` （或類似的關鍵字，例如`Unknown`），並以自動化方式回覆特定資訊，例如服務指示。
    * **[!UICONTROL 預設]** — 處理不符合明確定義之關鍵字的傳入訊息。 它可當作遞補類別，以便在Adobe Experience Platform資料集中啟用追蹤事件（例如開啟和傳送報告）。
 
    當您選取關鍵字類別時，會填入預設關鍵字。
@@ -209,6 +221,16 @@ Webhook可讓Journey Optimizer B2B edition接收來自WhatsApp商業帳戶的傳
 1. 在[開發人員專用Meta入口網站](https://developers.facebook.com/)中，瀏覽至您的WhatsApp應用程式設定，並使用您複製的值設定webhook。
 
 ### 建立管道設定 {#create-channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+![AEP許可權圖示](../../assets/do-not-localize/icon_permissions-outline.svg)這些步驟需要您在Experience Platform中指派的使用者角色的下列[許可權](./user-management.md#b2b-product-permissions)：
+
+* **[!UICONTROL B2B通道設定]** - `Manage B2B Channels`
+* **[!UICONTROL B2B通道設定]** - `Manage B2B WhatsApp Settings`
+* **[!UICONTROL B2B通道設定]** - `Manage B2B WhatsApp Presets`
+
+>[!ENDSHADEBOX]
 
 管道設定會定義從歷程動作節點傳送WhatsApp訊息時使用的傳送設定。
 
