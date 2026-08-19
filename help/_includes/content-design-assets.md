@@ -24,4 +24,4 @@ ht-degree: 4%
 
   ![從來源資料庫中選取資產](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-如需有關使用來源型別中的資產的詳細資訊，請參閱[使用資產進行內容製作](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring)。
+如需有關使用來源型別中的資產的詳細資訊，請參閱[使用資產進行內容製作](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring)。
