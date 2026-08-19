@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
 source-wordcount: 1380
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 此動作會啟動電子郵件設計工具，您可在其中從下列選項中選擇要如何設計電子郵件：
 
-* [使用視覺化設計介面，從草稿開始設計電子郵件](#design-your-email-from-scratch)。
+* [使用視覺化設計介面，從草稿開始設計電子郵件](#design-from-scratch)。
 
 * 從檔案或 .zip 資料夾[匯入現有 HTML 內容](#import-existing-html-content)。
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 1. [檢閱和更新連結](#edit-linked-url-tracking)。
 
-1. [測試電子郵件](#check-and-test-the-email)。
+1. [測試電子郵件](#email-testing)。
 
 <!--
  If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
