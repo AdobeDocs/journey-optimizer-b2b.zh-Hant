@@ -17,16 +17,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2319
 ht-degree: 3%
 
 ---
 
 # 採取動作
 
-若要執行動作，例如傳送電子郵件、變更分數、指派給購買群組等等，您可以在歷程中新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點。 動作通常是您因某種觸發器（例如事件或之前的動作）而想要發生的動作。
+若要執行動作，例如傳送電子郵件、變更分數或指派給購買群組，您可以在歷程中新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點。 動作通常是您因某種觸發器（例如事件或之前的動作）而想要發生的動作。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
@@ -42,6 +42,7 @@ ht-degree: 3%
 | [!UICONTROL 啟用到目的地] | 選取目的地 |
 | [!UICONTROL 新增帳戶至（其他）歷程] | 選取即時帳戶歷程 |
 | [!UICONTROL 新增至帳戶清單] | 選取上線的靜態帳戶清單 |
+| 從目的地[!UICONTROL 停用] | 選取現有的虛擬對象<br/>選取目的地 |
 | [!UICONTROL 從歷程移除帳戶] | 選取即時帳戶歷程 |
 | [!UICONTROL 從帳戶清單移除] | 選取即時靜態帳戶清單 |
 | [!UICONTROL 傳送銷售警示] | 選取感興趣的解決方案<br/>傳送電子郵件至 |
@@ -71,13 +72,19 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-### 啟用至LinkedIn目的地
+### 從目的地啟用或停用 {#activate-deactivate-destination}
 
 使用&#x200B;_對目的地啟用_&#x200B;動作，直接從您的歷程對Experience Platform目的地啟用帳戶。 此動作可讓您根據購買群組篩選器、參與分數和其他條件，將合格帳戶推送至支援目的地上的相符受眾。
 
-從2025.10版開始，**_LinkedIn_**&#x200B;是第一個支援的目的地型別。 針對LinkedIn目的地使用動作，可消除多系統移交並減少延遲，進而簡化行銷活動的執行作業。 例如，身為行銷人員，您可以在關鍵購買角色遺失時，自動對LinkedIn啟用高意圖帳戶以重新進行目標定位，或根據閒置篩選器重新與休眠帳戶互動。
+您可以將此動作與相同歷程中稍後的&#x200B;_從目的地_&#x200B;停用動作配對，以便在帳戶轉換或不再符合資格後停止鎖定帳戶。
 
-如需在LinkedIn目的地使用帳戶相符對象的詳細資訊，請參閱[LinkedIn帳戶相符對象](../data/linkedin-account-matched-audiences.md)。
+>[!NOTE]
+>
+>從2025.10版開始，**_LinkedIn_**&#x200B;是第一個支援的目的地型別。 針對LinkedIn目的地使用動作，可消除多系統移交並減少延遲，進而簡化行銷活動的執行作業。 例如，身為行銷人員，您可以在關鍵購買角色遺失時，自動對LinkedIn啟用高意圖帳戶以重新進行目標定位，或根據閒置篩選器重新與休眠帳戶互動。
+>
+>如需在LinkedIn目的地使用帳戶相符對象的詳細資訊，請參閱[LinkedIn帳戶相符對象](../data/linkedin-account-matched-audiences.md)。
+
+新增啟動至目的地節點(_T):_
 
 1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;**上的**&#x200B;動作設定為&#x200B;**[!UICONTROL 啟用到目的地]**。
 
@@ -93,11 +100,23 @@ ht-degree: 3%
 
    ![歷程節點 — 對帳戶採取動作 — 啟用到目的地 — 完成的設定](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
+新增從目的地節點&#x200B;:_停用的(_T)
+
+1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;**上的**&#x200B;動作設定為&#x200B;**[!UICONTROL 從目的地]**&#x200B;停用。
+
+   ![歷程節點 — 對帳戶採取動作 — 從目的地功能表停用](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
+
+1. 在「**[!UICONTROL 虛擬對象]**」下，按一下「**[!UICONTROL 選取現有的虛擬對象]**」，然後選擇您要從目的地移除其帳戶的虛擬對象。
+
+1. 在「**[!UICONTROL 從目的地]**&#x200B;停用」下，按一下「**[!UICONTROL 選取目的地]**」，然後選擇要移除帳戶的目的地。
+
+   在您設定&#x200B;_從目的地_&#x200B;節點停用後，它會顯示選取的虛擬對象和目的地。
+
 >[!ENDSHADEBOX]
 
 ## 人員動作 {#people-actions}
 
-在帳戶或個人歷程中，當您想要將變更套用至節點路徑上的所有人員時，對人員使用動作。 對於帳戶歷程，您可以在&#x200B;_依人員分割路徑_&#x200B;或&#x200B;_依帳戶分割路徑_&#x200B;內使用此節點型別。
+在帳戶或個人歷程中，當您想要將變更套用至節點路徑上的所有人員時，對人員使用動作。 對於帳戶歷程，您可以在&#x200B;_依人員分割路徑_&#x200B;或&#x200B;_依帳戶分割路徑_&#x200B;節點內使用此節點型別。
 
 ### 動作和限制 {#people-action-constraints}
 
@@ -287,7 +306,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 >[!NOTE]
 >
->_[!UICONTROL 更新人員設定檔]_&#x200B;取代目前Journey Optimizer B2B edition版本中的&#x200B;_[!UICONTROL 變更資料值]_&#x200B;動作。<br/>
+>_[!UICONTROL 更新人員設定檔]_&#x200B;動作會取代目前Journey Optimizer B2B edition版本中的&#x200B;_[!UICONTROL 變更資料值]_&#x200B;動作。<br/>
 >
 >管理員可以更新&#x200B;_[!UICONTROL XDM設定]_ > [!UICONTROL 標準類別]中的欄位，以設定XDM個別設定檔的可用屬性。 如需詳細資訊，請參閱[標準結構描述](../admin/xdm-field-management.md#standard-schemas)。
 
@@ -295,7 +314,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 ### Marketo Engage動作
 
-Marketo Engage以人物為基礎的動作，旨在協調Journey Optimizer B2B edition中以帳戶為基礎的行銷策劃，與Marketo Engage中以銷售機會為基礎的行銷工作。 使用這些動作來協調清單成員資格並請求行銷活動。
+[!DNL Marketo Engage]以人物為基礎的動作，是專為協調您在[!DNL Journey Optimizer B2B Edition]中的Account-Based Marketing協調流程與您在Marketo Engage中的潛在客戶基礎行銷工作所設計。 使用這些動作來協調清單成員資格並請求行銷活動。
 
 >[!NOTE]
 >
