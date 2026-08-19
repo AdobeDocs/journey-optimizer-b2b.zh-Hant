@@ -4,20 +4,13 @@ description: 使用視覺化設計工具、HTML匯入或範本建立電子郵件
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
 source-wordcount: 1380
 ht-degree: 2%
@@ -30,11 +23,11 @@ ht-degree: 2%
 
 按一下右側面板上&#x200B;_[!UICONTROL 詳細資料]_&#x200B;索引標籤中的&#x200B;**[!UICONTROL 編輯電子郵件內容]**。
 
-![按一下[編輯電子郵件內容] &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![按一下[編輯電子郵件內容] ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 此動作會啟動電子郵件設計工具，您可在其中從下列選項中選擇要如何設計電子郵件：
 
-* [使用視覺化設計介面，從草稿開始設計電子郵件](#design-your-email-from-scratch)。
+* [使用視覺化設計介面，從草稿開始設計電子郵件](#design-from-scratch)。
 
 * 從檔案或 .zip 資料夾[匯入現有 HTML 內容](#import-existing-html-content)。
 
@@ -62,7 +55,7 @@ ht-degree: 2%
 
 1. [檢閱和更新連結](#edit-linked-url-tracking)。
 
-1. [測試電子郵件](#check-and-test-the-email)。
+1. [測試電子郵件](#email-testing)。
 
 <!--
  If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
@@ -72,7 +65,7 @@ ht-degree: 2%
 >You cannot revert back to the visual design space for this email after switching to the code editor. 
 -->
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容
 
@@ -106,7 +99,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容[&#128279;](./template-content-governance.md)的範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ![存取內文樣式](./assets/email-body-styles.png){width="800" zoomable="yes"}
 

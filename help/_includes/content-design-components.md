@@ -1,10 +1,10 @@
 ---
 title: 內容製作 — 元件
 description: 關於使用元件和內容元素進行內容製作的重複使用區段
-source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 2%
+source-wordcount: '373'
+ht-degree: 1%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 2%
 
    每個欄大小不能小於結構元件總寬度的10%。 只能移除空白欄。
 
-   如需使用和格式化這些元件的詳細資訊，請參閱&#x200B;_[結構元件](../user/content/structure-components.md)_。
+   如需使用和格式化這些元件的詳細資訊，請參閱&#x200B;_[結構元件](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/structure-components)_。
 
 1. 展開&#x200B;**[!UICONTROL 內容]**&#x200B;區段，並視需要新增內容元件至一或多個結構元件。
 
    ![將內容元素拖曳到畫布上並調整設定](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
-   * [容器](../user/content/content-components.md#container)
-   * [按鈕](../user/content/content-components.md#button)
-   * [文字](../user/content/content-components.md#text)
-   * [分隔線](../user/content/content-components.md#divider)
-   * [影像](../user/content/content-components.md#image)
-   * [社交](../user/content/content-components.md#social)
-   * [表單](../user/content/content-components.md#form) （僅登入頁面）
+   * [容器](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#container)
+   * [按鈕](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#button)
+   * [文字](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#text)
+   * [分隔線](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#divider)
+   * [影像](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#image)
+   * [社交](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#social)
+   * [表單](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#form) （僅登入頁面）
 
 1. 如有需要，您可以在&#x200B;_[!UICONTROL 設定]_&#x200B;或&#x200B;_[!UICONTROL 樣式]_&#x200B;標籤中為每個元件進行其他自訂。
 
@@ -42,4 +42,4 @@ ht-degree: 2%
 
 1. 若要新增條件式內容並根據條件式規則將內容調整至目標設定檔，請選取內容元件，然後按一下元件工具列中的「**[!UICONTROL 啟用條件式內容]**」圖示。
 
-   如需詳細資訊，請參閱&#x200B;[_條件式內容_](../user/content/conditional-content.md)。
+   如需詳細資訊，請參閱&#x200B;[_條件式內容_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components)。
