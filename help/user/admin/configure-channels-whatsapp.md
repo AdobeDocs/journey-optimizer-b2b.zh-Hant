@@ -19,7 +19,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: eec5558d6065501576a91097182201726020213c
 workflow-type: tm+mt
 source-wordcount: 1515
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -140,7 +140,7 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="傳入關鍵字類別"
->abstract="<b>選擇加入</b>：傳送訂閱的自動回應。 <br/><b>選擇退出</b>：針對取消訂閱傳送自動回應。 <br/><b>說明</b>：傳送說明要求的自動回應。 <br/><b>預設</b>：針對不符的關鍵字傳送遞補自動回應。"
+>abstract="<b>選擇加入</b>：傳送訂閱自動回覆。 <br/><b>選擇退出</b>：傳送取消訂閱自動回覆。 <br/><b>說明</b>：傳送說明請求自動回覆。 <br/><b>預設</b>：傳送關鍵字無相符項目的備用自動回覆。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
