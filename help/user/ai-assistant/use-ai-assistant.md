@@ -7,12 +7,19 @@ level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 autotag-review: '2026-06-05T16:09:10.773Z'
 TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
 source-wordcount: 954
@@ -98,7 +105,7 @@ AI Assistant提供可證實初始回應的檔案連結。 它也會在回應中�
 
 ### 營運見解來源
 
-收到作業性深入分析問題的回應之後，請按一下[顯示來源] ]**，然後選取[檢視來源查詢]****。**[!UICONTROL 
+收到作業性深入分析問題的回應之後，請按一下[顯示來源] **，然後選取[檢視來源查詢]**&#x200B;**。**
 
 您可以使用AI助理提供的SQL查詢來驗證與操作深入分析問題相關的每個回應。 在查詢操作深入分析問題時，AI助理會提供SQL查詢。 您可以使用它來驗證計算答案所花費的程式。 此來源查詢僅供驗證之用，查詢服務不支援。
 

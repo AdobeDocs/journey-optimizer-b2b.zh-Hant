@@ -7,12 +7,20 @@ level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 autotag-review: '2026-06-05T16:05:30.499Z'
 TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
 source-wordcount: 1385
@@ -22,7 +30,7 @@ ht-degree: 8%
 
 # Journey Optimizer B2B edition中的AI功能
 
-Adobe Journey Optimizer B2B edition中的聊天介面是由與Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中的[AI助理相同的技術基礎所提供。 這是一種對話式體驗，可用來加速Journey Optimizer B2B edition的工作流程。 您可以使用聊天介面進一步瞭解產品功能、疑難排解問題，或搜尋資訊並找到Journey Optimizer B2B edition的營運深入分析。 您也可以使用此介面來叫用[Journey Agent](../agents/journey-agent.md)和[Audience Agent](../agents/audience-agent-b2b.md)。
+Adobe Journey Optimizer B2B edition中的聊天介面是由與Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中的AI助理相同的技術基礎所提供。 這是一種對話式體驗，可用來加速Journey Optimizer B2B edition的工作流程。 您可以使用聊天介面進一步瞭解產品功能、疑難排解問題，或搜尋資訊並找到Journey Optimizer B2B edition的營運深入分析。 您也可以使用此介面來叫用[Journey Agent](../agents/journey-agent.md)和[Audience Agent](../agents/audience-agent-b2b.md)。
 
 >[!IMPORTANT]
 >
@@ -48,7 +56,7 @@ Sales Qualifier是AI驅動的應用程式，可搭配Journey Optimizer B2B editi
 
 ## Journey Optimizer B2B edition中的AI助理功能
 
-為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料&#x200B;_**知識圖表**_&#x200B;的內部表示法，可提供特定答案的概念、資料和中繼資料的完整集合。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
+為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料&#x200B;_&#x200B;**知識圖表**&#x200B;_&#x200B;的內部表示法，可提供特定答案的概念、資料和中繼資料的完整集合。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
 
 * Adobe Experience League檔案。
 * 運算成品，例如結構描述、欄位、對象和歷程。
