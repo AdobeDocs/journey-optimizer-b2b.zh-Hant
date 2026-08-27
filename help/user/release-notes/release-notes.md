@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
+source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
 workflow-type: tm+mt
-source-wordcount: 5599
-ht-degree: 62%
+source-wordcount: 5628
+ht-degree: 61%
 
 ---
 
@@ -41,6 +41,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 個人歷程 | （舊稱Beta，為全面可用而提早部署）您現在可以建立歷程，利用Experience Platform受眾和資料策劃以潛在客戶為基礎的行銷。 [了解更多](../journeys/journeys-overview.md) |
 | 功能 | 人員清單 | 現在提供靜態和動態人員清單，讓您可依定義的條件（例如人口統計屬性和體驗事件歷史記錄）鎖定設定檔。 |
 | 功能 | _變體分割路徑_&#x200B;歷程節點 | （先前稱為帳戶歷程的Beta）行銷人員現在可以根據定義的百分比，將帳戶或人員指派至不同的歷程路徑，藉此測試帳戶或人員歷程中的變數。 [了解更多](../journeys/variant-split-paths-nodes.md) |
+| 功能 | C2PA中繼資料 | 使用產生式AI工具產生或編輯的影像現在會自動使用C2PA中繼資料簽署，協助您符合內容透明度和AI揭露要求。 [了解更多](../content/c2pa-metadata.md) |
 | 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 |
 | 增強功能 | 監聽事件觸發器和篩選器 — 帳戶歷程 | 帳戶歷程現在支援&#x200B;_接聽事件_&#x200B;節點中的多個觸發器和篩選器。 |
 | 增強功能 | 外部分割路徑節點 — 個人歷程 | 個人歷程現在支援&#x200B;_外部分割路徑_&#x200B;節點。 |
