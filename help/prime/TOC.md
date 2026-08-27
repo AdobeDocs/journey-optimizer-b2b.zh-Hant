@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Prime檔案
 user-guide-description: 瞭解Adobe Journey Optimizer B2B Prime以及如何將其用於？
 hide: true
-source-git-commit: c1e8e03ccd6f2d132ca1bc1a27c0d9ea18dcdcac
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 54%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 54%
     + [表單預設集設定](./admin/configuration-presets-forms.md)
   + [業務規則](./admin/business-rules.md)
   + [計畫型別](./admin/program-types.md)
-+ [銷售限定詞](./sales-qualifier/sales-qualifier.md)
+
 <!--
    + [Persona mapping](./admin/persona-mapping.md)
 
