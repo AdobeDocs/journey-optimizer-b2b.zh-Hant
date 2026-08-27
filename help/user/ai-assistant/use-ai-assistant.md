@@ -20,22 +20,22 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 970
+source-wordcount: 954
 ht-degree: 1%
 
 ---
 
-# 在Journey Optimizer B2B edition中使用AI助理
+# 使用聊天介面
 
-在Journey Optimizer B2B edition中，AI Assistant是使用者介面功能，可用於瞭解產品概念、快速導覽並瞭解產品功能，以及取得您環境的營運見解。 Adobe Experience Cloud的數項產品也提供此功能。
+在Journey Optimizer B2B edition中，AI Assistant提供聊天介面，可用於瞭解產品概念、快速導覽並瞭解產品功能，以及取得您環境的營運見解。 Adobe Experience Cloud的數項產品也提供此功能。
 
 >[!IMPORTANT]
 >
->您必須先取得Adobe Experience Cloud Generative AI使用者指南的合約，才能使用AI助理。 如需有關本合約及使用方法的詳細資訊，請參閱[Adobe Experience Cloud Generative AI使用者指導方針](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
+>您必須先取得Adobe Experience Cloud Generative AI使用者指南的合約，才能使用AI助理。 如需有關本合約及使用方法的詳細資訊，請參閱[Adobe Experience Cloud Generative AI使用者指導方針](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)。
 
-若要存取AI助理，請按一下標題中的圖示。 AI助理會在右側的面板中開啟。
+若要存取聊天介面，請按一下標題中的圖示。
 
 ![按一下圖示以存取AI助理](./assets/ai-assistant-icon-displayed.png){width="420"}
 
@@ -55,7 +55,7 @@ AI Assistant介面隨即顯示，立即為您提供開始使用的資訊。 您�
 * 如何在歷程中傳送電子郵件？
 * 如何個人化我的電子郵件內容？
 
-若要詢問產品問題，請在面板底部的欄位中輸入，然後按Enter鍵。 例如，當您需要瞭解如何在歷程中使用購買群組時。 在此情況下，請輸入&#x200B;_如何在歷程中使用購買群組？_ 在您提交問題後，AI Assistant會查詢其知識庫，並在幾秒鐘內產生答案。
+若要詢問產品問題，請在面板底部的欄位中輸入，然後按Enter鍵。 例如，當您需要瞭解如何在歷程中使用購買群組時。 在此情況下，請輸入&#x200B;_如何在歷程中使用購買群組？_ 在您提交問題之後，AI Assistant會查詢其知識庫，並在數秒內產生答案。
 
 ![在文字方塊中輸入問題](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -67,7 +67,7 @@ AI Assistant介面隨即顯示，立即為您提供開始使用的資訊。 您�
 
 ## 提出營運見解問題
 
-營運見解問題與組織沙箱中的歷程物件有關。 您可以詢問有關營運成品的問題，例如帳戶對象、歷程、解決方案興趣和購買群組範本。 營運見解問題或提示的一些範例包括：
+營運見解問題與組織沙箱中的歷程物件有關。 您可以詢問有關操作成品的問題，例如受眾、歷程、解決方案興趣和購買群組範本。 營運見解問題或提示的一些範例包括：
 
 * Adobe Journey Optimizer B2B edition中有多少個即時歷程？
 * 提供所有已排程歷程的清單
@@ -93,7 +93,7 @@ AI Assistant介面隨即顯示，立即為您提供開始使用的資訊。 您�
 
 ## 驗證回應
 
-AI Assistant包含可用來驗證回應的工具。
+聊天介麵包含可用來驗證回應的工具。
 
 ### 產品知識來源
 

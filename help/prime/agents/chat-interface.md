@@ -14,9 +14,9 @@ subfeature_v2:
   - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: 878
+source-wordcount: 955
 ht-degree: 1%
 
 ---
@@ -38,6 +38,16 @@ ht-degree: 1%
 
 * 新增訊息並按&#x200B;**Enter**&#x200B;以傳送（**Shift+Enter**&#x200B;插入新行）。
 * 使用&#x200B;_附加_&#x200B;圖示附加檔案（支援的格式： `.txt`、`.md`、`.csv`、`.json`、`.xlsx`、`.docx`、`.pdf`）。 使用CSV和試算表上傳功能來開始匯入銷售機會。
+
+>[!BEGINSHADEBOX]
+
+## 銷售限定詞
+
+Sales Qualifier是AI驅動的應用程式，可搭配Journey Optimizer B2B Prime使用。 它會實作Account Qualification Agent，並旨在簡化業務開發代表(BDR)的工作流程。 Sales Qualifier可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
+
+如需詳細資訊，請參閱[Sales Qualifier檔案](https://experienceleague.adobe.com/zh-hant/docs/sales-qualifier/using/home){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## 詢問AI助理
 

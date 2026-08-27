@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
+source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 87%
+source-wordcount: '458'
+ht-degree: 86%
 
 ---
 
@@ -27,16 +27,15 @@ ht-degree: 87%
     + [使用者管理](./admin/user-management.md)
   + [使用者上線](./start/get-started.md)
   + [登入和首頁](home-page.md)
-+ AI 助理 {#ai-assistant}
++ AI功能 {#ai-assistant}
   + [概觀](./ai-assistant/ai-assistant-overview.md)
   + [啟用 AI 助理存取權](./ai-assistant/enable-ai-assistant-access.md)
   + [問題指引](./ai-assistant/question-guidance.md)
-  + [使用 AI 助理](./ai-assistant/use-ai-assistant.md)
+  + [聊天介面](./ai-assistant/use-ai-assistant.md)
   + [製作內容的生成式 AI](./ai-assistant/generative-ai-content.md)
   + 專員 {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
     + [Journey Agent B2B](./agents/journey-agent.md)
-    + [銷售限定詞](./agents/sales-qualifier.md)
 + 歷程管理 {#journeys}
   + [帳戶和個人歷程](./journeys/journeys-overview.md)
   + [建立並發佈歷程](./journeys/create-publish-journey.md)

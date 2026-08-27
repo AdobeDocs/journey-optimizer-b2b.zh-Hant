@@ -1,5 +1,5 @@
 ---
-title: Journey Optimizer B2B edition中的AI助理
+title: Journey Optimizer B2B edition中的AI功能
 description: 透過 AI 助理加快工作流程：取得 Journey Optimizer B2B Edition 的產品知識、疑難排解說明和運作洞察。
 feature: AI Assistant
 role: User, Admin
@@ -21,20 +21,20 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 1300
+source-wordcount: 1385
 ht-degree: 8%
 
 ---
 
-# Journey Optimizer B2B edition中的AI助理
+# Journey Optimizer B2B edition中的AI功能
 
-Journey Optimizer B2B edition中的AI助理是與Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中的AI助理相同的技術基礎所建立。 這是一種對話式體驗，可用來加速Adobe Journey Optimizer B2B edition的工作流程。 您可以使用AI Assistant進一步瞭解產品功能、疑難排解問題，或透過資訊進行搜尋，並找到Journey Optimizer B2B edition的營運深入分析。
+Adobe Journey Optimizer B2B edition中的聊天介面是由與Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中的AI助理相同的技術基礎所提供。 這是一種對話式體驗，可用來加速Journey Optimizer B2B edition的工作流程。 您可以使用聊天介面進一步瞭解產品功能、疑難排解問題，或搜尋資訊並找到Journey Optimizer B2B edition的營運深入分析。 您也可以使用此介面來叫用[Journey Agent](../agents/journey-agent.md)和[Audience Agent](../agents/audience-agent-b2b.md)。
 
 >[!IMPORTANT]
 >
->您必須先與[使用者准則](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}達成協定，才能在Journey Optimizer B2B edition中使用AI小幫手。 本合約也包含公開測試版合約，當您以測試版容量推出其他AI Assistant功能時，便可使用此功能。
+>您必須先與[使用者准則](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}達成協定，才能在Journey Optimizer B2B edition中使用AI小幫手。 此合約也包含公開測試版合約，以便於您在其他AI Assistant功能推出時使用這些功能。
 
 +++檢視使用者合約介面
 
@@ -44,11 +44,21 @@ Journey Optimizer B2B edition中的AI助理是與Adobe Experience Platform[&#128
 
 +++
 
+>[!BEGINSHADEBOX]
+
+## 銷售限定詞
+
+Sales Qualifier是AI驅動的應用程式，可搭配Journey Optimizer B2B edition使用。 它會實作Account Qualification Agent，並旨在簡化業務開發代表(BDR)的工作流程。 Sales Qualifier可跨管道自動執行潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
+
+如需詳細資訊，請參閱[Sales Qualifier檔案](https://experienceleague.adobe.com/zh-hant/docs/sales-qualifier/using/home){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 ## Journey Optimizer B2B edition中的AI助理功能
 
-為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料的內部表示法，也稱為&#x200B;_&#x200B;**_知識圖表_**&#x200B;_，是特定答案的概念、資料和中繼資料的完整集合。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
+為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料&#x200B;_&#x200B;**知識圖表**&#x200B;_&#x200B;的內部表示法，可提供特定答案的概念、資料和中繼資料的完整集合。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
 
-* Experience League檔案。
+* Adobe Experience League檔案。
 * 運算成品，例如結構描述、欄位、對象和歷程。
 
 在提交「AI助理員」查詢之前，請先考慮您需要的查詢型別：
@@ -88,7 +98,7 @@ _營運深入分析_&#x200B;參考由AI助理產生的中繼資料物件（屬�
 
 {style="table-layout:fixed"}
 
-若是操作見解問題，答案可能不會反映UI的目前狀態。 支援這些問題的資料每24小時更新一次。 例如，使用者白天在Real-Time CDP中所做的變更會在夜間與資料存放區同步，然後早上就可供使用者提問。 登入沙箱以查詢與物件相關的特定資料。
+若是操作見解問題，答案可能不會反映UI的目前狀態。 支援這些問題的資料每24小時更新一次。 例如，使用者白天在Real-Time CDP中所做的變更會在夜間與資料存放區同步，然後早上就可供使用者提問。 若要查詢與物件相關的特定資料，請登入沙箱。
 
 ### 功能範圍
 
@@ -108,9 +118,9 @@ Journey Optimizer B2B edition中的AI助理會優先處理隱私權、安全性�
 
 * 您必須有明確的許可權才能與AI助理互動。
 
-   * 管理員可以使用[許可權UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/browse){target="_blank"}來設定許可權。
+  * 管理員可以使用[許可權UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}和[Admin Console](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/browse){target="_blank"}來設定許可權。
 
-   * 許可權很細微，您的沙箱管理員可以設定哪些使用者可以提出不同的問題類別（使用AI Assistant的產品知識型問題或操作深入分析的問題）。
+  * 許可權很細微，您的沙箱管理員可以設定哪些使用者可以提出不同的問題類別（使用AI Assistant的產品知識型問題或操作深入分析的問題）。
 
 * 您可以檢視先前與AI助理互動的30天記錄。
 
@@ -132,7 +142,7 @@ AI Assistant可以解決Adobe產品知識查詢，並可回答與您的營運成
 
 **AI助理可以提供客戶資料的相關資訊嗎？**
 
-否。 AI Assistant無法存取客戶資料，因此不會檢視或使用。
+否。 AI Assistant無法存取客戶資料，因此無法存取或使用。
 
 **我的個人資訊是否用於AI助理的訓練資料？**
 
