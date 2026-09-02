@@ -6,25 +6,15 @@ role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1207
 ht-degree: 3%
 
 ---
@@ -41,13 +31,13 @@ ht-degree: 3%
 >
 >根據業界標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 支援並遵循所有標準的選擇加入和選擇退出關鍵字。 此外，也會支援並接受為您的SMS服務提供者帳戶設定的任何自訂關鍵字。 如需傳送時如何評估SMS同意偏好設定的詳細資訊，請參閱[同意偏好設定](./channels-consent-preferences.md)。
 
-## 在帳戶歷程中新增簡訊動作
+## 在帳戶歷程中新增簡訊動作 {#add-action}
 
 當您新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點並執行下列動作時，可以在帳戶歷程中設定文字訊息傳遞：
 
-1. 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
+1. 針對&#x200B;]_目標上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
 
-1. 針對人員&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送簡訊]**。
+1. 針對人員&#x200B;]_上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 傳送簡訊]**。
 
    ![採取動作 — 傳送簡訊](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
@@ -61,7 +51,7 @@ ht-degree: 3%
 
    _歷程圖_&#x200B;開啟，您可以建立訊息並設定用於傳送訊息的SMS屬性。
 
-### 建立簡訊訊息
+### 建立簡訊訊息 {#create-message}
 
 在&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位中輸入您要傳送的文字。
 
@@ -69,7 +59,7 @@ ht-degree: 3%
 
 ![撰寫簡訊](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-#### 個人化簡訊
+#### 個人化簡訊 {#personalize}
 
 1. 將游標放在訊息中要新增個人化權杖的位置。
 
@@ -91,36 +81,39 @@ ht-degree: 3%
 
    您可以視需要繼續編輯含有代號的訊息。
 
-#### 新增連結(URL)至文字訊息
+#### 新增連結(URL)至文字訊息 {#add-links}
 
 1. 輸入訊息文字後，請按一下文字訊息方塊右側的&#x200B;_連結_&#x200B;圖示（ ![連結圖示](../assets/do-not-localize/icon-link.svg)）。
 
 1. 輸入連結的&#x200B;**[!UICONTROL URL]**。
 
+
+1. 在對話方塊中，選擇要連結的URL型別：
+
+   * **[!UICONTROL 登陸頁面]** — 選擇此選項可選取任何已發佈的登陸頁面。
+
+   * **[!UICONTROL 外部URL]** — 此型別是您在文字方塊中輸入的任何外部URL。
+
 <!--
-1. In the dialog, choose the type of URLs to link:
 
-   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
+1. If you choose to use a Marketo Engage landing page, set the tracking options.
 
-   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. 
+   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
+
+   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
+
+      >[!NOTE] 
+      >
+      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+
 -->
 
-1. 如果您選擇使用Marketo Engage登陸頁面，請設定追蹤選項。
-
-   * **[!UICONTROL 啟用追蹤]** — 選取此核取方塊以啟用追蹤，這需要&#x200B;_縮短_ URL。 對於登入頁面，此維度會使用Marketo Engage子網域作為縮短的URL。 畫面會顯示縮短的URL格式範例。 實際URL會在SMS傳送給收件者時建立。
-
-   * **[!UICONTROL 包含mkt_tok]** — 選取此核取方塊以追蹤使用者的活動。</br>
-
-     >[!NOTE]
-     >
-     >當您允許追蹤但停用&#x200B;_[!UICONTROL 包含mkt_tok]_&#x200B;時，目的地URL在重新導向後不會包含`mkt_tok`查詢字串引數。Marketo Engage登陸頁面和Munchkin會使用此引數，以確保追蹤人員活動（例如當人員取消訂閱電子郵件時）。除非引數造成您網站上的問題，否則請勿停用此選項。<br/>
-     >如需有關在網站上使用Munchkin追蹤代碼的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}。
-
-   ![新增SMS訊息的連結對話方塊](./assets/sms-add-link-dialog.png){width="470"}
+![新增SMS訊息的連結對話方塊](./assets/sms-add-link-dialog.png){width="470"}
 
 1. 連結選項完成時，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以儲存變更，並將URL連結新增至SMS訊息。
 
-### 設定簡訊屬性
+### 設定簡訊屬性 {#sms-properties}
 
 1. 在&#x200B;_[!UICONTROL SMS屬性]_&#x200B;區段中，為您的訊息輸入&#x200B;**[!UICONTROL 名稱]** （必要，最多100個字元）和&#x200B;**[!UICONTROL 描述]** （選用，最多300個字元）。
 
@@ -146,7 +139,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="檢查您內容的呈現方式"
->abstract="定義內容後，您可以預覽，檢查在使用的管道中呈現是正確的。"
+>abstract="定義內容後，您可以預覽並檢查內容在您使用的管道中的呈現效果。"
 
 定義訊息內容時，您可以使用測試設定檔來模擬（預覽）其內容。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
@@ -160,7 +153,7 @@ ht-degree: 3%
 
 1. 使用&#x200B;_模擬內容_&#x200B;頁面來管理測試設定檔所使用的銷售機會。
 
-   在顯示的清單中，您可以從Marketo Engage銷售機會資料庫搜尋並新增任何銷售機會（一次最多10個銷售機會）。
+   在顯示的清單中，您可以搜尋並新增任何銷售機會（一次最多10個銷售機會）。
 
    若要搜尋，請輸入整個電子郵件地址，然後按&#x200B;_Enter_。 隨即顯示對應的潛在客戶設定檔以供選取。
 
@@ -178,9 +171,9 @@ ht-degree: 3%
 
 1. 若要結束&#x200B;_[!UICONTROL 模擬內容]_&#x200B;頁面並返回SMS編寫工作區，請按一下右上方的&#x200B;**[!UICONTROL 關閉]**。
 
-## 簡訊同意管理
+## 簡訊同意管理 {#consent-management}
 
-讓收件者能夠取消訂閱來自品牌的通訊，並遵守此選擇為法律要求。 若未遵守這些法規，您的品牌將面臨法律風險。 此功能可協助您避免傳送未經請求的通訊給您的收件者，這可能會造成他們將您的訊息標示為垃圾訊息，並損害您的聲譽。
+法律規定必須讓收件者能夠取消訂閱來自品牌的通訊，並遵守此選擇。 若未遵守這些法規，您的品牌將面臨法律風險。 此功能可協助您避免傳送未經請求的通訊給收件者。 這可防止他們將您的訊息標示為垃圾訊息，並損害您的聲譽。
 
 提供此選項時，簡訊收件者可使用選擇加入和選擇退出關鍵字進行回覆。 支援並接受所有標準選擇加入和選擇退出關鍵字，以及透過SMS服務提供者設定的任何自訂關鍵字。 取消訂閱後，設定檔會自動從未來行銷訊息的對象中移除。
 

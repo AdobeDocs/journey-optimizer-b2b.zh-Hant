@@ -4,36 +4,25 @@ description: 設定電子郵件傳遞通訊協定：設定 DNS、SPF、DKIM、DM
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 2333
-ht-degree: 81%
+source-wordcount: 2303
+ht-degree: 79%
 
 ---
 
 # 電子郵件追蹤和傳遞的設定
 
-Adobe Journey Optimizer B2B edition利用附加的Marketo Engage例項中的電子郵件通道功能和事件追蹤。 有些組織會使用限制性的防火牆或Proxy伺服器設定。 為確保電子郵件傳送對這些組織如預期般運作，系統管理員必須將特定網域和IP位址範圍新增至允許清單。
+Adobe Journey Optimizer B2B edition利用附加的Marketo Engage例項中的電子郵件通道功能和事件追蹤。 有些組織會使用限制性的防火牆或Proxy伺服器設定。 為確保電子郵件傳送對這些組織如預期般運作，系統管理員必須將特定網域和IP位址範圍新增到允許清單。
 
->[!NOTE]
->
->如果貴組織已使用連線的Marketo Engage執行個體來執行行銷作業，這些通訊協定和設定即已就緒。
-
-請確定已將下列網域（包括星號）新增至允許清單，以啟用所有Marketo Engage資源和Web通訊端：
+務必將下列網域 (包括星號) 新增至允許清單中，以啟用所有 Marketo Engage 資源和 Web 通訊端：
 
 * `*.experience.adobe.com`
 * `*.adobe.net`
@@ -47,7 +36,7 @@ Adobe Journey Optimizer B2B edition利用附加的Marketo Engage例項中的電�
 1. [設定 SPF 和 DKIM](#set-up-spf-and-dkim)
 1. [設定 DMARC](#set-up-dmarc)
 1. [設定您的網域的 MX 記錄](#set-up-mx-records-for-your-domain)
-1. [新增傳出IP位址以允許清單](#outbound-ip-addresses)
+1. [將對外連線 IP 位址新增至允許清單](#outbound-ip-addresses)
 
 >[!NOTE]
 >
@@ -55,11 +44,11 @@ Adobe Journey Optimizer B2B edition利用附加的Marketo Engage例項中的電�
 
 ## 建立登入頁面和電子郵件的DNS記錄
 
-透過連接 CNAME 記錄，行銷人員可以託管擁有一致品牌形象的電子郵件、登陸頁面和部落格的網頁版，從而提高流量和轉換率。 強烈建議您將 CNAME 新增至根網域主機，以便 Marketo Engage 託管以行銷為主的 Web 資產。
+設定CNAME記錄，讓行銷人員透過一致的品牌管理電子郵件、登陸頁面和部落格的網頁版本，以改善流量和轉換。 強烈建議您將 CNAME 新增至根網域主機，以便 Marketo Engage 託管以行銷為主的 Web 資產。
 
 若要計畫和實作兩個CNAME記錄，請以管理員身分與您的行銷團隊合作。 第一個是用於登入頁面URL，讓登入頁面以可反映您網域的URL顯示，而非以Adobe Marketo Engage （實際主機）顯示。 第二個用於透過Marketo Engage傳送的電子郵件中所包含的追蹤連結。
 
-### 新增登入頁面的CNAME
+### 新增ㄉ陸頁面的 CNAME
 
 將登入頁面CNAME新增至您的DNS記錄，這樣`[YourLandingPageCNAME]`會指向指派給登入頁面的唯一帳戶字串。 登入您的網域註冊機構的網站，然後輸入登陸頁面CNAME和帳戶字串。 此專案通常涉及三個欄位：
 
@@ -83,7 +72,7 @@ Adobe Journey Optimizer B2B edition利用附加的Marketo Engage例項中的電�
 
 ### 佈建 SSL 憑證
 
-聯絡 [Adobe 支援](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support){target="_blank"}，開始 SSL 憑證的佈建流程。
+聯絡 [Adobe 支援](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}，開始 SSL 憑證的佈建流程。
 
 此流程可能需要最多三個工作天才能完成。
 
@@ -106,7 +95,7 @@ Adobe Journey Optimizer B2B edition利用附加的Marketo Engage例項中的電�
    include: mktomail.com
    ```
 
-   將 `CompanyDomain` 換成您的網站主網域 (例如 `company.com/`)，並將 `CorpIP` 換成您公司電子郵件伺服器的 IP 位址 (例如 `255.255.255.255`)。 如果您打算透過 Marketo Engage 從多個網域傳送電子郵件，請在每個網域新增這一行 (限一行)。
+   將 `CompanyDomain` 換成您的網站主網域 (例如 `company.com/`)，並將 `CorpIP` 換成您公司電子郵件伺服器的 IP 位址 (例如 `255.255.255.255`)。 如果您打算透過 Marketo Engage 從多個網域傳送電子郵件，請為每個網域新增這一行（寫在同一行）。
 
 1. 針對 DKIM，建立每個網域的 DNS 資源記錄。
 
@@ -120,7 +109,7 @@ Adobe Journey Optimizer B2B edition利用附加的Marketo Engage例項中的電�
 
 ## 設定 DMARC
 
-DMARC (網域型訊息驗證、報告和合規) 是一種驗證通訊協定，可以協助組織保護其網域，避免未經授權者存取。 此通訊協定擴展現有的驗證通訊協定 (例如 SPF 和 DKIM)，當收件者的網域驗證失敗時，通知收件者伺服器應採取什麼行動。 DMARC是選用專案，但強烈建議使用，因為它有助於保護您的品牌和聲譽。 Google 和 Yahoo 等主要供應商從 2024 年 2 月開始要求大量郵件的寄件者使用 DMARC。
+DMARC (網域型訊息驗證、報告和合規) 是一種驗證通訊協定，可以協助組織保護其網域，避免未經授權者存取。 此通訊協定擴展現有的驗證通訊協定 (例如 SPF 和 DKIM)，當收件者的網域驗證失敗時，通知收件者伺服器應採取什麼行動。 DMARC是選用專案，但建議使用，因為它有助於保護您的品牌和聲譽。 Google 和 Yahoo 等主要供應商從 2024 年 2 月開始要求大量郵件的寄件者使用 DMARC。
 
 要讓 DMARC 正常運作，您必須至少擁有以下其中一項 DNS TXT 記錄：
 
@@ -137,7 +126,7 @@ DMARC (網域型訊息驗證、報告和合規) 是一種驗證通訊協定，�
 
 如果您收到DMARC報表，請執行以下操作：
 
-1. 使用 `p=none` 並分析您收到的回饋意見和報告。 報告告知接收者不要對未通過驗證的郵件採取任何動作，並把電子郵件報告傳送給寄件者。
+1. 使用 `p=none` 並分析您收到的回饋意見和報告。 報告會告訴接收者，對於驗證失敗的訊息不執行任何動作，並向寄件者傳送電子郵件報告。
 
    * 如果合法郵件驗證失敗，請檢查並修復 SPF/DKIM 的問題。
 
@@ -151,7 +140,7 @@ DMARC (網域型訊息驗證、報告和合規) 是一種驗證通訊協定，�
 
 1. 如果您對`p=quarantine`層級的訊息行為感到滿意，您可以將原則調整為(`p=reject`)。
 
-   拒絕原則會要求接收者拒絕 (退回) 來自未通過驗證的網域之任何電子郵件。 啟用此原則後，只有百分百通過您的網域驗證的電子郵件才有機會進入收件匣。
+   拒絕原則會要求接收者拒絕 (退回) 該網域中任何未通過驗證的電子郵件。 啟用此原則後，只有百分百通過您的網域驗證的電子郵件才有機會進入收件匣。
 
    >[!CAUTION]
    >
@@ -185,7 +174,7 @@ DMARC 記錄有多個組成部分，稱為 _DMARC 標記_。 每個標記都有�
 | `pct` | 選用 | 指定需要篩選的訊息之百分比。 | `pct=20` | `100` |
 | `rua` | 選用 (建議) | 指定彙總報告要傳送到哪裡。 | `rua=mailto:aggrep@example.com` | - |
 | `ruf` | 選用 (建議) | 指定鑑識報告要傳送到哪裡。 | `ruf=mailto:authfail@example.com` | - |
-| `sp` | 選用 | 指定父網域的子網域 DMARC 原則。 | `sp=reject` | - |
+| `sp` | 選用 | 指定上層網域之子網域的 DMARC 原則。 | `sp=reject` | - |
 | `adkim` | 選用 | 指定嚴格 (`s`) 或寬鬆的 (`r`) 比對。 寬鬆比對代表該網域用於 DKIM 簽章，並且可以是 `From:` 位址的子網域。 嚴格比對代表 DKIM 簽章中使用的網域必須與 `From:` 位址使用的位址完全相符。 | `adkim=r` | `r` |
 | `aspf` | 選用 | 可以是嚴格 (`s`) 或寬鬆 (`r`)。 寬鬆模式表示 Return-Path 網域可以是 `From:` 位址的子網域。 嚴格模式表示 Return-Path 網域必須與 `From:` 位址完全相符。 | `aspf=r` | `r` |
 
@@ -199,9 +188,9 @@ DMARC 有兩種比對類型：
 
   DKIM校準會驗證寄件者是否獲得授權從網域傳送郵件，並驗證在電子郵件傳輸期間是否未變更任何內容。 實施與 DKIM 比對的 DMARC：
 
-   * 為您的郵件的 MAIL FROM 網域設定 DKIM。 使用 Marketo Engage 文件中的[說明](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}。
+  * 為您的郵件的 MAIL FROM 網域設定 DKIM。 使用 Marketo Engage 文件中的[說明](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}。
 
-   * 為 DKIM MAIL FROM 網域設定 DMARC。
+  * 為 DKIM MAIL FROM 網域設定 DMARC。
 
   >[!NOTE]
   >
@@ -209,12 +198,12 @@ DMARC 有兩種比對類型：
 
 * **SPF** (寄件者原則框架) 比對：`From:` 標頭中的網域必須與 Return-Path: 標頭中的網域相符。 如果兩個 DNS 網域相同，則 SPF 匹配正確 (比對符合) 並給予通過。 實施與 SPF 比對的 DMARC：
 
-   * 設定具品牌識別的 Return-Path 網域。
+  * 設定具品牌識別的 Return-Path 網域。
 
-      * 設定適當的 SPF 記錄。
-      * 將 MX 記錄變更為指向傳送郵件之資料中心的預設 MX
+    * 設定適當的 SPF 記錄。
+    * 若要指向郵件傳送來源資料中心的預設MX，請變更MX記錄。
 
-   * 設定具品牌識別的 Return-Path 網域之 DMARC。
+  * 設定具品牌識別的 Return-Path 網域之 DMARC。
 
   >[!NOTE]
   >
@@ -222,45 +211,45 @@ DMARC 有兩種比對類型：
 
 ### 專用 IP 和共用集區
 
-如果您使用專用 IP 透過 Marketo Engage 傳送郵件，但尚未實施具品牌識別的 return-path (或不確定是否已實施)，請透過 [Adobe 支援](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support){target="_blank"}開啟服務單。
+如果您使用專用 IP 透過 Marketo Engage 傳送郵件，但尚未實施具品牌識別的 return-path (或不確定是否已實施)，請透過 [Adobe 支援](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}開啟服務單。
 
 >[!BEGINSHADEBOX]
 
 **將專用IP移轉至Journey Optimizer B2B edition**
 
-如果您有專用IP，則必須在與現有Journey Optimizer執行個體相同的區域中建立新的Marketo Engage B2B edition執行個體。 如果新執行個體在不同區域，則無法共用現有IP。 如果區域相符，請開啟具有[Adobe支援](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support){target="_blank"}的票證，並要求將您現有的IP和繫結群組與新的執行個體共用。 提供您的Marketo Engage首碼(Munchkin ID)和新的Journey Optimizer B2B edition首碼(Munchkin ID)。
+如果您有專用IP，則必須在與現有Journey Optimizer執行個體相同的區域中建立新的Marketo Engage B2B edition執行個體。 如果新執行個體在不同區域，則無法共用現有IP。 如果區域相符，請開啟具有[Adobe支援](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}的票證，並要求將您現有的IP和繫結群組與新的執行個體共用。 提供您的Marketo Engage首碼(Munchkin ID)和新的Journey Optimizer B2B edition首碼(Munchkin ID)。
 
-透過此請求，Adobe會複製與您現有Marketo Engage執行個體相同的IP、繫結群組和已設定的Return-Path網域。 在您的Marketo Engage和Journey Optimizer B2B edition執行個體之間共用IP時，IP會同時使用。
+透過此請求，Adobe會複製與您現有Marketo Engage執行個體相同的IP、繫結群組和已設定的Return-Path網域。 在Marketo Engage和Journey Optimizer B2B edition執行個體之間共用IP時，兩個執行個體會同時使用它們。
 
 >[!ENDSHADEBOX]
 
-受信任的 IP 是指一個共用 IP 集區，其中 IP 保留給每月發送量少於 75k 而且不符合條件使用專用 IP 的低流量使用者使用。 這些使用者亦必須滿足最佳實務要求。
+信任的IP是共用IP集區，保留給每月傳送少於75,000且不符合專用IP要求的低容量使用者。 這些使用者亦必須滿足最佳做法要求。
 
 * 如果您使用共用的 IP 集區透過 Marketo Engage 傳送郵件，只要[申請受信任的 IP 發送範圍方案](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}，即可確認自己是否有資格使用受信任的 IP。 從 Marketo Engage 受信任 IP 發送時包含具品牌識別的 return-path。 如果此方案獲得批准，請聯絡 Adobe 支援部門來設定具品牌識別的 return-path。
 
-* 如果您每月發送超過 100,000 則訊息，並希望使用共用 IP 透過 Marketo Engage 發送電子郵件，請聯絡 Adobe 帳戶團隊 (您的帳戶經理) 購買專用 IP。
+* 如果您每月發送超過 100,000 則訊息，並希望使用共用 IP 透過 Marketo Engage 發送電子郵件，請聯絡 Adobe 帳戶團隊 (您的客戶經理) 購買專用 IP。
 
 共用IP集區的客戶不需要任何其他設定。 您仍會使用與之前相同的IP集區和相同的預設傳迴路徑網域。
 
 ## 設定您的網域的 MX 記錄
 
-MX 記錄可讓您在寄送電子郵件的網域上接收郵件，以便處理回覆與自動回覆。 如果您從公司網域發送，則可能已經設定完成。 如果沒有，您通常可以將其設定為對應到您的公司網域 MX 記錄。
+MX 記錄可讓您在寄送電子郵件的網域上接收郵件，以便處理回覆與自動回覆。 如果您從公司網域發送，則可能已經設定完成。 如果沒有，請將其設定為對應到您的公司網域MX記錄。
 
 ## 對外連線 IP 地址
 
-Marketo Engage會代表您對網際網路伺服器進行輸出連線。 您的IT組織和某些合作夥伴/廠商可能會使用允許清單來限制對伺服器的存取。 若是如此，請提供Marketo Engage輸出IP位址區塊，以新增至其允許清單。
+Marketo Engage會代表您對網際網路伺服器進行輸出連線。 您的IT組織和某些合作夥伴/廠商會使用允許清單來限制對伺服器的存取。 若是如此，請提供Marketo Engage輸出IP位址區塊，以新增至其允許清單。
 
 <!--
-Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
 -->
 
 ## 對外連線 IP 地址區塊
 
-以下清單涵蓋所有發出對外連線的 Marketo Engage 伺服器。 請參閱這些清單來設定 IP 允許清單、伺服器、防火牆、存取控制清單、安全性群組或第三方服務，以接收來自 Marketo Engage 的對外連線。
+以下清單涵蓋所有發出對外連線的 Marketo Engage 伺服器。 請參閱這些清單來設定 IP 允許清單、伺服器、防火牆、存取控制清單、安全性群組或第三方服務，以接收 Marketo Engage 發出的連線。
 
 | IP 區塊 (CIDR 標記法) | 個人 IP 地址 |
 | ------------------------ | --------------------- |

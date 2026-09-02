@@ -5,22 +5,16 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 574
+source-wordcount: 568
 ht-degree: 7%
 
 ---
@@ -38,7 +32,7 @@ ht-degree: 7%
 >
 >發生錯誤時，您無法預覽電子郵件。 若要確保沒有錯誤封鎖預覽功能，請檢查&#x200B;_警示_。 警告不會封鎖預覽，但會在您發佈觸發電子郵件傳送的歷程之前解決這些問題。
 
-## 顯示電子郵件預覽
+## 顯示電子郵件預覽 {#display-preview}
 
 您可以從[電子郵件設計空間](./email-authoring.md)，或是&#x200B;_[!UICONTROL 摘要]_&#x200B;存取演算預覽，當您[從電子郵件清單](./emails-list.md#open-and-edit-emails)開啟電子郵件時。
 
@@ -56,13 +50,13 @@ ht-degree: 7%
 
    ![選取個人設定檔以呈現模擬](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   如果左側的&#x200B;_[!UICONTROL 人員]_&#x200B;清單是空的，請使用連線的Marketo Engage執行個體的連絡人[新增人員](#add-people-to-the-profiles-list)。
+   如果左側的&#x200B;_[!UICONTROL 人員]_&#x200B;清單是空的，請[使用連絡人新增人員](#add-people)。
 
    >[!TIP]
    >
    >您也可以使用[Litmus測試轉譯整合](./email-test-rendering.md)來檢查常見案頭、行動及網頁型使用者端中的電子郵件轉譯。
 
-## 調整顯示選項
+## 調整顯示選項 {#display-options}
 
 使用顯示工具根據裝置型別或縮放等級來變更預覽：
 
@@ -72,7 +66,7 @@ ht-degree: 7%
 
 ![調整預覽顯示](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
 
-## 發送校訂
+## 發送校訂 {#send-proofs}
 
 校樣是已傳送的測試訊息，可讓您和您的團隊成員在將電子郵件傳送給對象成員之前先檢閱該電子郵件。 校樣的收件者可以檢查訊息呈現、內容、個人化設定和配置。 您可以使用選取的測試設定檔傳送校樣。
 
@@ -82,7 +76,7 @@ ht-degree: 7%
 
 1. 在&#x200B;_傳送校樣_&#x200B;頁面中，輸入第一個收件者的電子郵件地址。
 
-1. 對於您想要加入檢閱的每個其他收件者，請按一下[新增收件者]，然後在[傳送至] **[!UICONTROL 欄位中輸入其電子郵件地址。]**&#x200B;**&#x200B;**
+1. 對於您想要加入檢閱的每個其他收件者，請按一下[新增收件者]，然後在[傳送至] **[!UICONTROL 欄位中輸入其電子郵件地址。]******
 
    您最多可以為校樣傳遞新增10個收件者。
 
@@ -92,7 +86,7 @@ ht-degree: 7%
 
 1. 按一下&#x200B;**[!UICONTROL 傳送證明]**。
 
-## 將人員新增至設定檔清單
+## 將人員新增至設定檔清單 {#add-people}
 
 1. 按一下&#x200B;_[!UICONTROL 人員]_&#x200B;清單頂端的&#x200B;**[!UICONTROL 新增人員]**。
 
@@ -100,7 +94,7 @@ ht-degree: 7%
 
 1. 在&#x200B;_[!UICONTROL 新增測試人員]_&#x200B;對話方塊中，輸入連絡人的完整電子郵件地址。
 
-   若要新增多個連絡人，請輸入多個地址，並以逗號分隔。
+   若要新增多個連絡人，請輸入以逗號分隔的地址。
 
 1. 針對您想要新增至測試設定檔清單的每個相符連絡人，選取核取方塊。
 
