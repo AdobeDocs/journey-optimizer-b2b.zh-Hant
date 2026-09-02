@@ -4,23 +4,17 @@ description: 在Journey Optimizer B2B edition中新增按鈕、文字、影像�
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 3074
-ht-degree: 6%
+source-wordcount: 2658
+ht-degree: 8%
 
 ---
 
@@ -296,7 +290,7 @@ ht-degree: 6%
 
 當您輸入按鈕標籤文字並設定格式時，按鈕會調整大小以符合內容。
 
-與工具列![&#128279;](./assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的按鈕元件
+與工具列](./assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的![按鈕元件
 
 #### 設定連結選項
 
@@ -320,7 +314,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -504,7 +498,7 @@ ht-degree: 6%
 
    [若要新增HTML，請開啟程式碼編輯器](./assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
 
    [編輯HTML對話方塊](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
@@ -564,51 +558,23 @@ ht-degree: 6%
 
 選擇[資產來源型別](./assets-overview.md)並選取影像檔：
 
-* **[!UICONTROL Marketo Engage Assets]** — 選擇此型別以瀏覽並選取Journey Optimizer B2B edition資料庫或連線的Marketo Engage執行個體的影像資產。
++++[!UICONTROL 選取資產]
 
-  ![瀏覽可用的影像資產](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+{{internal-dam}}
 
-  從對話方塊中，您可以從選取的存放庫中選擇影像。 按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以新增資產。
++++
 
-  有多種工具可協助您找到所需的資產：
++++[!UICONTROL 匯入媒體]
 
-  * 按一下左上方的&#x200B;_篩選器_&#x200B;圖示，以根據您的條件篩選顯示的專案。
+{{image-upload}}
 
-  * 在&#x200B;_搜尋_&#x200B;欄位中輸入文字，以篩選顯示的專案以符合資產名稱。
++++
 
-    ![使用篩選和搜尋欄位來尋找您需要的資產](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
++++[!UICONTROL Experience Manager Assets]
 
-* **[!UICONTROL Experience Manager Assets]** — 選擇此型別以瀏覽並從[已設定的Experience Manage Assets存放庫](../admin/configure-aem-repositories.md)中選取影像資產。
+{{aem-assets-dam}}
 
-  在&#x200B;_[!UICONTROL 選取Assets]_&#x200B;對話方塊中，使用可用的工具選擇影像，以找出您需要的資產，然後按一下&#x200B;**[!UICONTROL 選取]**：
-
-  * 變更右上角的&#x200B;**[!UICONTROL 存放庫]**。
-
-  * 按一下右上角的「**[!UICONTROL 管理資產]**」，在其他瀏覽器分頁中開啟Assets存放庫，並使用AEM Assets管理工具。
-
-  * 按一下右上角的&#x200B;_檢視型別_&#x200B;選擇器，將顯示變更為&#x200B;**[!UICONTROL 清單檢視]**、**[!UICONTROL 格線檢視]**、**[!UICONTROL 相簿檢視]**&#x200B;或&#x200B;**[!UICONTROL 瀑布檢視]**。
-
-  * 按一下&#x200B;_排序順序_&#x200B;圖示，以變更升序與降序之間的排序順序。
-
-    ![使用選取Assets對話方塊中的工具來尋找及選取影像資產](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
-
-  * 按一下&#x200B;**[!UICONTROL 排序依據]**&#x200B;功能表箭頭，將排序條件變更為&#x200B;**[!UICONTROL 名稱]**、**[!UICONTROL 大小]**&#x200B;或&#x200B;**[!UICONTROL 已修改]**。
-
-  * 按一下左上方的&#x200B;_篩選器_&#x200B;圖示，以根據您的條件篩選顯示的專案。
-
-  * 在&#x200B;_搜尋_&#x200B;欄位中輸入文字，以篩選顯示的專案以符合資產名稱。
-
-  ![使用篩選和搜尋欄位來尋找資產](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
-
-* **[!UICONTROL 匯入媒體]** — 選擇此型別，從您的系統選取檔案，並將其匯入Journey Optimizer B2B edition資產庫。
-
-  在&#x200B;_[!UICONTROL 上傳影像]_&#x200B;對話方塊中，將檔案從您的系統拖放至檔案方塊。 檔案大小上限為100 MB。
-
-  ![將影像檔案匯入](./assets/email-designer-image-upload.png){width="450"}
-
-  所選影像的檔案名稱會顯示在對話方塊中。 資產檔案名稱必須是唯一的（跨資料夾），如果已存在同名的檔案，則會顯示訊息。 名稱最多可包含100個字元，且不能包含特殊字元（例如`;`、`:`、`\`和`|`）。
-
-  按一下&#x200B;**[!UICONTROL 匯入]**。
++++
 
 您可以在右側面板中為影像新增影像標題和替代文字。
 
@@ -636,7 +602,7 @@ ht-degree: 6%
 
    按鈕大小會根據設定的文字和樣式進行調整。
 
-1. 對於&#x200B;**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
+1. 對於**[!UICONTROL Target**]，請選擇如何從電子郵件或頁面重新導向連結的目的地：
 
    * _[!UICONTROL 無]_ — 使用預設瀏覽器或使用者端行為（預設）開啟連結。
    * _[!UICONTROL 空白]_ — 在新視窗或索引標籤中開啟連結。
@@ -705,7 +671,7 @@ ht-degree: 6%
 在選取了社群媒體型別後，設定該型別的選項：
 
 * **[!UICONTROL URL]** — 輸入您要連結至社群媒體圖形或圖示的社群媒體URL。
-* **[!UICONTROL Source]** — 如果您想使用自己的影像，而不是預設影像，請選擇影像資產。 您可以從已連線的Marketo Engage資產存放庫或Experience Manager Assets存放庫（如果已設定）中選取影像，或從您的系統匯入影像檔案。 如需選取和匯入影像資產的詳細資訊，請參閱[影像元件資訊](#add-the-image-asset)。
+* **[!UICONTROL Source]** — 如果您想使用自己的影像，而不是預設影像，請選取影像資產，或從您的系統匯入影像檔案。 如需選取和匯入影像資產的詳細資訊，請參閱[影像元件資訊](#add-the-image-asset)。
 * **[!UICONTROL 替代文字]** — 為顯示的影像輸入替代文字。
 
   ![所選社群媒體型別的設定](./assets/content-components-social-settings-for-type.png){width="250"}
@@ -758,8 +724,6 @@ ht-degree: 6%
 
 ### 表單（僅限登陸頁面） {#form}
 
-[!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Beta功能"}
-
 使用&#x200B;_表單_&#x200B;元件，將已發佈的表單新增至登入頁面或登入頁面範本。 如需建立和發佈表單的詳細資訊，請參閱[Forms](./forms.md)。
 
 1. 按一下元件工具列中的&#x200B;_表單_&#x200B;工具，或使用右側的&#x200B;**[!UICONTROL 內嵌表單]**&#x200B;屬性來選取已發佈的表單。
@@ -772,7 +736,7 @@ ht-degree: 6%
 
    * **[!UICONTROL 停留在頁面]** — 選擇此選項可在提交表單時讓訪客停留在相同頁面。
 
-   * **[!UICONTROL 登陸頁面]** — 選擇此選項可選取任何Journey Optimizer B2B edition或Marketo Engage登陸頁面作為後續追蹤。
+   * **[!UICONTROL 登陸頁面]** — 選擇此選項可選取任何Journey Optimizer B2B edition登陸頁面作為後續追蹤。
 
    * **[!UICONTROL 外部URL]** — 選擇此選項可指定任何URL作為後續頁面。 訪客提交表單後，瀏覽器會載入指定的URL。
 

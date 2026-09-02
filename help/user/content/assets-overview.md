@@ -4,22 +4,17 @@ description: 從Journey Optimizer B2B edition和AEM Assets管理電子郵件、�
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:17:01.501Z
 TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 61%
+source-wordcount: 848
+ht-degree: 62%
 
 ---
 
@@ -35,7 +30,7 @@ ht-degree: 61%
 
 ### 內部資產
 
-預設會隨每[!DNL Journey Optimizer B2B Edition]個訂閱提供內部資產存放庫。 這表示您可以存取任何儲存在已連線[!DNL Adobe Marketo Engage]資產檔案系統中的影像資產。 您可以使用此存放庫做為您的本機資產庫，包含上傳和下載資產功能。 您也可以在歷程內容中使用這些資產。
+預設會隨每[!DNL Journey Optimizer B2B Edition]個訂閱提供內部資產存放庫。 您可以使用此存放庫做為您的本機資產庫，包含上傳和下載資產功能。 您也可以在歷程內容中使用這些資產。
 
 您可以[使用Adobe Express](./image-edit-adobe-express.md)編輯這些資產，並將其移至資料夾中以組織這些資產，以便在您的電子郵件、範本和片段中使用。
 
@@ -45,7 +40,7 @@ ht-degree: 61%
 
 利用 [!DNL Adobe Experience Manager Assets] 將行銷與創意工作流程結合在一起。 該服務與 [!DNL Journey Optimizer B2B Edition] 原生整合，因此您可以輕鬆存取 Assets as a Cloud Service 來探索及使用數位資產。 其提供您存取 Assets 存放庫的權限，讓您可以取用資產並填入訊息中。
 
-[!DNL Adobe Journey Optimizer B2B Edition] 可以連接到 [!DNL Adobe Experience Manager Assets as a Cloud Service] 以進行集中式資產管理，進一步擴展您的創意系統，並統一數位資產以實現傳遞體驗。 [!DNL Adobe Experience Manager Assets as a Cloud Service] 提供一套易於使用的雲端解決方案，能提高數位資產管理與 Dynamic Media 作業的效率。 其與進階功能包括人工智慧和機器學習無縫整合。
+[!DNL Adobe Journey Optimizer B2B Edition] 可以連接到 [!DNL Adobe Experience Manager Assets as a Cloud Service] 以進行集中式資產管理，進一步擴展您的創意系統，並統一數位資產以實現傳遞體驗。 [!DNL Adobe Experience Manager Assets as a Cloud Service] 提供一套易於使用的雲端解決方案，能提高數位資產管理與 Dynamic Media 作業的效率。 其無縫整合了進階功能，包括人工智慧和機器學習。
 
 請參閱 [Adobe Experience Manager as a Cloud Service 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}以了解更多。
 
@@ -55,11 +50,11 @@ ht-degree: 61%
 
 目前，您僅可在 Adobe Journey Optimizer B2B Edition 中使用來自 Adobe Experience Manager Assets 的影像。
 
-## 使用資產編寫內容
+## 使用資產進行內容製作
 
 在製作電子郵件、電子郵件範本及視覺片段時使用資產。 視覺化內容編輯器可讓您存取已連接的資產存放庫中的影像。 如果您也有Experience Manager Assets as a Cloud Service的訂閱，您可以從任一來源選擇影像資產。 您也可以上傳影像資產，將其置於內部資產存放庫中。
 
-您可以在編輯影像元件的設定時，或直接在版面上選擇影像來源。
+您可以在編輯影像元件的設定時，或直接在畫布上選擇影像來源：
 
 * **_影像元件設定_** — 當您在畫布中選取影像元件時，您可以在右側面板中檢視及編輯設定。 若要新增或變更元件中顯示的影像檔案，請選擇來源類型並選取一個影像檔案。
 
