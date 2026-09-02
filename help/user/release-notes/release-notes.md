@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
 source-wordcount: 5635
 ht-degree: 61%
@@ -254,7 +254,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 從 CRM 內存取詳細資料頁面 | 您現在可以在客戶關係管理 (CRM) 工具 (例如 Salesforce 或 Microsoft Dynamics) 中，設定帳戶、聯絡人和潛在客戶連接至 Journey Optimizer B2B Edition 詳細資料頁面的直接連結。 [了解更多](../accounts/crm-linking.md) |
 | 功能 | 內容設計的自訂 CSS 支援 | 現在，您在設計空間中製作電子郵件和登陸頁面內容時可以新增自訂 CSS。 [了解更多](../content/design-custom-css.md) |
 | 功能 | 意圖關鍵字對應設定 | 若要啟動及管理意圖偵測模型，管理員現在可以上傳試算表來定義意圖資料對應類別。 [了解更多](../admin/intent-data.md) |
-| 增強功能 | 模擬電子郵件摘要中的內容 | 現在，您從電子郵件清單中開啟電子郵件時，可以直接從電子郵件摘要 (詳細資料與屬性) 存取&#x200B;_模擬內容_&#x200B;工具。 此存取權是在電子郵件設計空間以外的權限。 [了解更多](../content/email-simulate-content.md#display-the-email-preview) |
+| 增強功能 | 模擬電子郵件摘要中的內容 | 現在，您從電子郵件清單中開啟電子郵件時，可以直接從電子郵件摘要 (詳細資料與屬性) 存取&#x200B;_模擬內容_&#x200B;工具。 此存取權是在電子郵件設計空間以外的權限。 [了解更多](../content/email-simulate-content.md#display-preview) |
 | 增強功能 | 角色範本清單的總計數顯示 | _[!UICONTROL 角色範本]_&#x200B;清單頁面已有改進，現在於搜尋列旁會顯示總計數。 |
 
 ## 2025.5 發行說明 {#rel-2025-5}
