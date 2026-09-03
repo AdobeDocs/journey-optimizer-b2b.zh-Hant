@@ -3,23 +3,16 @@ title: Journey Optimizer B2B Edition 發行說明
 description: 了解 Adobe Journey Optimizer B2B Edition 的最新功能、增強功能及錯誤修正。 隨時掌握新功能和產品改良的最新資訊。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -139,7 +132,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B edition中定義品牌，為創意團隊建立任何視覺或書面內容時提供可使用的真實來源。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 [了解更多](../content/brands-overview.md) |
 | 功能 | 用於產生電子郵件內容的品牌 | 您可以定義品牌指引，並使用此資訊產生電子郵件內容。 透過此功能，電子郵件內容會符合您特定品牌的文字撰寫指南、樣式和語調。 [了解更多](../content/ai-assistant-emails.md) |
 | 增強功能 | 歷程&#x200B;_等待_&#x200B;節點 — 進階設定 | 對於歷程中的&#x200B;_等待_&#x200B;節點，行銷人員現在可以指定退出日期和時間，並選取時區。 此增強功能可讓您更妥善地控制歷程協調和行銷活動時間。 [了解更多](../journeys/wait-nodes.md#advanced-wait-settings) |
-| 增強功能 | 購買群組成員篩選器 — 已移除 | 針對由人員&#x200B;_節點分割的_&#x200B;路徑，_[!UICONTROL 購買群組成員]_&#x200B;篩選器現在包含&#x200B;_已移除_&#x200B;限制。 選取時，篩選器可包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;_的_&#x200B;成員篩選器中使用此新限制。 |
+| 增強功能 | 購買群組成員篩選器 — 已移除 | 針對由人員&#x200B;_節點分割的_&#x200B;路徑，_[!UICONTROL 購買群組成員]_&#x200B;篩選器現在包含&#x200B;_已移除_&#x200B;限制。 選取時，篩選器可包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;]_的_[!UICONTROL &#x200B;成員篩選器中使用此新限制。 |
 | 增強功能 | 電子郵件設計 — 多級專案符號 | 電子郵件內容設計空間工具現在支援子專案符號（專案符號層級）。 |
 
 >[!NOTE]
@@ -154,7 +147,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | ----- | ------ | ----------- |
 | 歷程建置代理 | 新增和更新 | 歷程建置代理會即時分析、構想並共同建立歷程，讓行銷人員可更快速地啟動、提高參與度並推動更高的轉換率。 [了解更多](../agents/journey-agent.md) |
 | Audience 代理 | 新版 | Audience 代理會使用結構化和非結構化資料，進行自動識別並建置購買群組。 此功能可協助行銷人員更快速且更準確地鎖定合適的人員。 [了解更多](../agents/audience-agent-b2b.md) |
-| 銷售限定詞 | 新版 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驅動附加應用程式，其中包含Account Qualification Agent，旨在簡化業務開發代表(BDR)的工作流程。 它可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/sales-qualifier/using/home){target="_blank"} |
+| 銷售限定詞 | 新版 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驅動附加應用程式，其中包含Account Qualification Agent，旨在簡化業務開發代表(BDR)的工作流程。 它可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 [了解更多](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 發行說明 {#rel-2025-10}
 
@@ -162,7 +155,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 針對歷程目的地啟用 | 使用新的「_針對目的地啟用_」公司帳戶動作，來直接針對公司進行啟用，而非個人。 （僅限此發行版本的LinkedIn公司使用。） [了解更多](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| 功能 | 針對歷程目的地啟用 | 使用新的「_針對目的地啟用_」公司帳戶動作，來直接針對公司進行啟用，而非個人。 （僅限此發行版本的LinkedIn公司使用。） [了解更多](../journeys/action-nodes.md#activate-deactivate-destination) |
 | 功能 | 品牌主題 | 透過品牌主題，非技術使用者現在可以藉由在標準範本上方新增自訂樣式，建立符合特定品牌和設計語言的可重複使用內容。 [了解更多](../content/brand-themes.md) |
 | 功能 | 電子郵件範本 - 將影像轉換為 HTML | 您現在可以使用儲存為 JPG 或 PNG 影像檔案的設計檔案，並自動產生電子郵件範本。 [了解更多](../content/email-template-image-convert.md) |
 | 功能 | 人物誌對應 | 將帳戶成員和已建立的人物誌透過屬性對應進行連結。 [了解更多](../admin/persona-mapping.md) |
@@ -280,7 +273,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | ---- | ---- | ----------- |
 | 功能 | 帳戶清單 | 現在您可以建立靜態或動態帳戶清單，根據您定義的標準 (例如產業、地點或公司規模) 選定已命名帳戶。 <a href="../accounts/account-lists.md">了解更多</a> |
 | 功能 | 帳戶清單歷程協調 | 使用歷程動作節點來新增和移除靜態帳戶清單的帳戶。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解更多</a> |
-| 增強功能 | 在 Marketo Engage 中篩選歷程會籍 | 使用 Adobe Journey Optimizer B2B Edition 帳戶清單作為歷程客群，然後使用 Marketo Engage 智慧清單中的「_帳戶清單成員_」篩選器。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解更多</a> |
+| 增強功能 | 在 Marketo Engage 中篩選歷程會籍 | 使用 Adobe Journey Optimizer B2B Edition 帳戶清單作為歷程客群，然後使用 Marketo Engage 智慧清單中的「_帳戶清單成員_」篩選器。 |
 | 功能 | 閒置狀態篩選器 | 根據 Marketo Engage 行銷活動和方案 (包括電子郵件閒置狀態、有趣時刻、資料值變更以及造訪過的網頁) 中的閒置狀態來協調歷程。 |
 | 增強功能 | 造訪過的網頁篩選器 | 根據所造訪過與 Marketo Engage 行銷活動和方案相關之網頁的活動來協調歷程。 |
 | 增強功能 | 電子郵件清單 | 檢視使用中和草稿狀態的電子郵件全域清單，以便在相關帳戶歷程中搜尋、檢閱與更新這些電子郵件。 <a href="../content/emails-list.md">了解更多</a> |
