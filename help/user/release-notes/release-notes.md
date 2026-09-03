@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
 source-wordcount: 5633
 ht-degree: 61%
@@ -328,7 +328,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | Adobe Express 影像編輯 | 使用 Adobe Express 快速動作對影像進行簡易編輯 (例如裁切和調整大小)，使內容看起來更精美。 <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">了解更多</a>  <p>為了提供更完整的設計工具組，此整合可在 Journey Optimizer B2B Edition 中啟用完整的 Adobe Express 授權。 透過此設定，您可以在本機資產工作區內存取完整的 Adobe Express 使用者介面。 <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">了解更多</a> |
 | 功能 | 購買群組角色的意圖篩選器 | 當您提交意圖關鍵字時，意圖偵測模型會根據某個商機的活動，以足夠高的可信度預測您感興趣的解決方案/產品。 <a href="../admin/intent-data.md">了解更多</a> <p>此意圖資料可用於定義購買群組角色條件<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解更多</a> |
 | 增強功能 | 歷程的 Marketo Engage 事件支援 | _接聽事件_&#x200B;歷程節點現在支援人員層級的兩個Marketo Engage事件： _造訪網頁_&#x200B;和&#x200B;_填寫表單_。 <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">了解更多</a> |
-| 增強功能 | Marketo Engage 智慧清單的購買群組篩選器 | 在 Marketo Engage 中檢視並建立具有購買群組篩選器的智慧清單。 這些新增的篩選器可讓您透過 Journey Optimizer B2B Edition 內的帳戶歷程，排除和納入 Marketo Engage 行銷活動和方案中的購買群組成員。 <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">了解更多</a> |
+| 增強功能 | Marketo Engage 智慧清單的購買群組篩選器 | 在 Marketo Engage 中檢視並建立具有購買群組篩選器的智慧清單。 這些新增的篩選器可讓您透過 Journey Optimizer B2B Edition 內的帳戶歷程，排除和納入 Marketo Engage 行銷活動和方案中的購買群組成員。 _已棄用的功能_ |
 | 增強功能 | 歷程和角色的 Marketo Engage 清單成員資格篩選器 | 在 Journey Optimizer B2B 中，選擇 Marketo Engage 清單成員資格做為&#x200B;_根據人員分割路徑_&#x200B;節點的條件，以協助消除歷程活動中的重複項目。 <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">了解更多</a> <p> 針對購買群組角色範本，使用清單成員資格做為角色條件。 <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">了解更多</a> |
 | 增強功能 | 參與度概觀儀表板 | 此儀表板已更新，可提供參與度的完整檢視。 它會透過快照圓形圖表和隨時間變化的趨勢揭露折線圖，展示帳戶和個人互動的即時量度。 <a href="../dashboards/engagement-dashboard.md">了解更多</a> |
 

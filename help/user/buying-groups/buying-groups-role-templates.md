@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: 1432
 ht-degree: 5%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 5%
 
 | 類型 | 條件 |
 | ---- | --------- |
-| [!UICONTROL 個人屬性] | [個人檔案](../admin/field-mapping.md#xdm-business-person-attributes)中的屬性，包括： <li>城市 <li>國家/地區 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域 <li>職稱 <li>姓氏 <li>手機號碼 <li>人員參與度分數 <li>電話號碼 <li>郵遞區號 <li>狀態 |
+| [!UICONTROL 個人屬性] | [個人檔案](../admin/field-mapping.md#xdm-business-person-attributes)中的屬性，包括： <li>城市 <li>國家 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域 <li>職稱 <li>姓氏 <li>手機號碼 <li>人員參與度分數 <li>電話號碼 <li>郵遞區號 <li>狀態 |
 | [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}帳戶或人員沒有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 |
 | 特殊篩選條件 | <li>清單成員（已棄用） <li>計畫成員（已棄用） |
 | 意圖資料 | <li>類別方法 <li>產品意圖 <li>關鍵字比對方式<br/>（請參閱&#x200B;[_比對方式資料_](../admin/intent-data.md)） |
@@ -156,23 +156,6 @@ ht-degree: 5%
    已定義多個角色的![角色範本](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
    您的變更會自動儲存為&#x200B;_草稿_&#x200B;狀態。 如果您尚未準備好發佈角色範本，請按一下頁面頂端的向左（後退）箭頭，並返回&#x200B;_[!UICONTROL 角色範本]_&#x200B;清單。
-
->[!BEGINSHADEBOX 「Marketo Engage清單成員資格」]
-
-在Marketo Engage中，_智慧行銷活動_&#x200B;會檢查方案成員資格，以確保潛在客戶不會收到重複的電子郵件，而且不會同時成為多個電子郵件串流的成員。 在Journey Optimizer B2B中，您可以檢查Marketo Engage清單成員資格，作為您角色範本的條件，以協助消除購買群組成員資格和歷程活動中的重複專案。
-
-若要使用清單成員資格做為角色條件，請展開&#x200B;**[!UICONTROL 特殊篩選器]**，並將&#x200B;**[!UICONTROL 清單成員]**&#x200B;條件拖曳到篩選器空間。 若要評估一或多個Marketo Engage清單中的成員資格，請完成篩選器定義。
-
-Marketo Engage清單成員資格的![角色範本條件](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**功能淘汰**
->
->在目前的Journey Optimizer B2B edition版本中，不再支援在Marketo Engage執行個體中根據清單或方案成員資格進行篩選。
-
->[!ENDSHADEBOX]
 
 ### 變更完整度分數設定 {#change-the-completeness-score-settings}
 

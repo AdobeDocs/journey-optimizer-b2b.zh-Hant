@@ -17,10 +17,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T21:43:47.624Z
 TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
-ht-degree: 31%
+source-wordcount: 1229
+ht-degree: 30%
 
 ---
 
@@ -116,10 +116,6 @@ ht-degree: 31%
 | [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
 -->
 
->[!NOTE]
->
->參與分數活動會記錄在個人的Marketo Engage活動記錄中。 您可以在連線的Marketo Engage執行個體中存取此記錄檔。 如需詳細資訊，請參閱Marketo Engage檔案中的[尋找人員](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}的活動記錄。
-
 ## 角色範本加權 {#engagement-score-weighting}
 
 >[!CONTEXTUALHELP]
@@ -131,7 +127,7 @@ ht-degree: 31%
 
 ![為角色範本中每個角色設定權重](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-每個權重層級會轉譯為一個值，用於計算參與度分數：
+每個加權層級都會對應到一個值，用於計算參與度分數：
 
 * [!UICONTROL 不重要] = 20
 * [!UICONTROL 輕微] = 40

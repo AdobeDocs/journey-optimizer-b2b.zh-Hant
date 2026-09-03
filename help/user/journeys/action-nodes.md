@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 2193
+source-wordcount: 2184
 ht-degree: 3%
 
 ---
@@ -125,7 +125,6 @@ ht-degree: 3%
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 將人員新增至（其他）歷程] | <li>帳戶歷程（對人員的動作） <li>人員歷程 | <li>選取上線的人員歷程 |
 | | [!UICONTROL 新增至外部客戶對象] | <li>帳戶歷程 <li>人員歷程 | <li>選取外部客戶客群 |
 | | [!UICONTROL 指派給購買群組] | <li>帳戶歷程 | <li>選取解決方案興趣 <li>選取角色 |
-| | [!UICONTROL 變更分數] | <li>帳戶歷程 | <li>評分名稱 <li>分數變更 |
 | | [!UICONTROL 個人有趣的時刻] | <li>帳戶歷程 <li>人員歷程 | <li>類型 <li>說明 |
 | | [!UICONTROL 個人化網頁體驗] (Beta) | <li>帳戶歷程 | <li>建立/編輯網站體驗 |
 | | [!UICONTROL 從購買群組中移除] | <li>帳戶歷程 | <li>選取解決方案興趣 |

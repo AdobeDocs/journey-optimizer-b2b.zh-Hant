@@ -1,10 +1,10 @@
 ---
 title: 程式碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 2%
+source-wordcount: '2318'
+ht-degree: 0%
 
 ---
 
@@ -264,16 +264,3 @@ HTML元件的![對齊樣式](../assets/content-design-shared/content-components-
 所選影像的檔案名稱會顯示在對話方塊中。 資產檔案名稱必須是唯一的（跨資料夾），如果已存在同名的檔案，則會顯示訊息。 名稱最多可包含100個字元，且不能包含特殊字元（例如`;`、`:`、`\`和`|`）。
 
 按一下&#x200B;**[!UICONTROL 匯入]**。
-
-## 參與分數活動 — Marketo {#engagement-activities-me}
-
-| 活動名稱 | 說明 | 每日最大頻率計數 | 預設模型活動權重 |
-| --- | --- | --- | --- |
-| [!UICONTROL 出席活動] | 成員參加一項活動 | 20 | 60 |
-| [!UICONTROL 電子郵件已點按] | 成員點按電子郵件中的連結 | 20 | 30 |
-| [!UICONTROL 電子郵件已開啟] | 成員開啟電子郵件 | 20 | 30 |
-| [!UICONTROL 表單已填寫] | 成員在網頁上填寫並提交表單 | 20 | 40 |
-| [!UICONTROL 精彩時刻] | 成員有一個精彩時刻 | 20 | 60 |
-| [!UICONTROL 連結點選次數] | 成員點按網頁上的連結 | 20 | 40 |
-| [!UICONTROL 頁面檢視次數] | 成員檢視網頁 | 20 | 40 |
-| [!UICONTROL 登入事件] | 為事件註冊的成員 | 20 | 60 |

@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1339
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
@@ -33,13 +33,9 @@ ht-degree: 2%
 * **靜態** — 使用靜態帳戶清單時，清單只有在您新增帳戶時才會變更。 您可以套用篩選器集來根據目前的帳戶資料填入清單，以手動新增帳戶，或是透過帳戶歷程新增和移除帳戶。
 * **動態** — 使用動態帳戶清單，您可以定義自動組織清單的篩選器集。 系統會使用此篩選器集，根據帳戶資訊中的變更來新增和移除帳戶。 此清單管理類似於Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}中的對象細分。
 
-當帳戶清單處於&#x200B;_即時_ （已發佈）狀態時，它可用於[帳戶歷程和Marketo Engage程式](./account-lists-journeys.md)。
+當帳戶清單處於&#x200B;_即時_ （已發佈）狀態時，它可用於[帳戶歷程](./account-lists-journeys.md)中使用。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"}[觀看概觀影片](#overview-video)
-
->[!NOTE]
->
->帳戶清單會利用Marketo Engage中的帳戶資料來建立帳戶區段和清單。 這表示，如果Adobe Experience Platform的科目節段未主動同步至Marketo Engage，Journey Optimizer B2B edition科目清單中可能無法使用該Experience Platform節段中的科目。 隨後，只有同步至Marketo Engage之Experience Platform區段帳戶中的人員，才會納入人員會籍計數及觸發事件。
 
 ## 存取和瀏覽帳戶清單
 
