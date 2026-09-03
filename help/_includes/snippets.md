@@ -1,9 +1,9 @@
 ---
 title: 程式碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2423'
 ht-degree: 2%
 
 ---
@@ -213,9 +213,9 @@ HTML元件的![對齊樣式](../assets/content-design-shared/content-components-
 
   ![字型檢色器](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## 內容 — 影像選取範圍 — Marketo DAM {#me-dam}
+## 內容 — 影像選擇 — 內部DAM {#internal-dam}
 
-選擇此型別以瀏覽並從Journey Optimizer B2B edition資料庫或連線的Market Engage執行個體選取影像資產。
+選擇此型別以瀏覽並從Journey Optimizer B2B edition資料庫中選取影像資產。
 
 ![瀏覽可用的影像資產](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

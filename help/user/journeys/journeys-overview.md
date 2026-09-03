@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1312
-ht-degree: 46%
+source-wordcount: 1308
+ht-degree: 45%
 
 ---
 
@@ -172,7 +172,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 1. 選擇重複的「**[!UICONTROL 類型]**」：
 
-   * **[!UICONTROL 部分內容重複]** - 使用此類型複製歷程中所有內容，但不包括任何已建立的電子郵件或 SMS 訊息。 參照 Marketo Engage 電子郵件或 SMS 訊息的節點完好無損。
+   * **[!UICONTROL 部分內容重複]** - 使用此類型複製歷程中所有內容，但不包括任何已建立的電子郵件或 SMS 訊息。 參考SMS訊息的節點完整無損。
 
    * **[!UICONTROL 複製但不含詳細資料]** — 使用此型別僅複製節點結構和路徑。 所有節點設定和路徑條件皆未定義（預設），因此您可以對不同對象、動作和路徑分段設定再次使用基本流程。 所有&#x200B;_等待_&#x200B;節點的預設值都是五天。
 

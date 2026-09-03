@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -162,7 +162,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 針對歷程目的地啟用 | 使用新的「_針對目的地啟用_」公司帳戶動作，來直接針對公司進行啟用，而非個人。 （僅限此發行版本的LinkedIn公司使用。） [了解更多](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| 功能 | 針對歷程目的地啟用 | 使用新的「_針對目的地啟用_」公司帳戶動作，來直接針對公司進行啟用，而非個人。 （僅限此發行版本的LinkedIn公司使用。） [了解更多](../journeys/action-nodes.md#activate-deactivate-destination) |
 | 功能 | 品牌主題 | 透過品牌主題，非技術使用者現在可以藉由在標準範本上方新增自訂樣式，建立符合特定品牌和設計語言的可重複使用內容。 [了解更多](../content/brand-themes.md) |
 | 功能 | 電子郵件範本 - 將影像轉換為 HTML | 您現在可以使用儲存為 JPG 或 PNG 影像檔案的設計檔案，並自動產生電子郵件範本。 [了解更多](../content/email-template-image-convert.md) |
 | 功能 | 人物誌對應 | 將帳戶成員和已建立的人物誌透過屬性對應進行連結。 [了解更多](../admin/persona-mapping.md) |
@@ -280,7 +280,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | ---- | ---- | ----------- |
 | 功能 | 帳戶清單 | 現在您可以建立靜態或動態帳戶清單，根據您定義的標準 (例如產業、地點或公司規模) 選定已命名帳戶。 <a href="../accounts/account-lists.md">了解更多</a> |
 | 功能 | 帳戶清單歷程協調 | 使用歷程動作節點來新增和移除靜態帳戶清單的帳戶。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">了解更多</a> |
-| 增強功能 | 在 Marketo Engage 中篩選歷程會籍 | 使用 Adobe Journey Optimizer B2B Edition 帳戶清單作為歷程客群，然後使用 Marketo Engage 智慧清單中的「_帳戶清單成員_」篩選器。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">了解更多</a> |
+| 增強功能 | 在 Marketo Engage 中篩選歷程會籍 | 使用 Adobe Journey Optimizer B2B Edition 帳戶清單作為歷程客群，然後使用 Marketo Engage 智慧清單中的「_帳戶清單成員_」篩選器。 |
 | 功能 | 閒置狀態篩選器 | 根據 Marketo Engage 行銷活動和方案 (包括電子郵件閒置狀態、有趣時刻、資料值變更以及造訪過的網頁) 中的閒置狀態來協調歷程。 |
 | 增強功能 | 造訪過的網頁篩選器 | 根據所造訪過與 Marketo Engage 行銷活動和方案相關之網頁的活動來協調歷程。 |
 | 增強功能 | 電子郵件清單 | 檢視使用中和草稿狀態的電子郵件全域清單，以便在相關帳戶歷程中搜尋、檢閱與更新這些電子郵件。 <a href="../content/emails-list.md">了解更多</a> |

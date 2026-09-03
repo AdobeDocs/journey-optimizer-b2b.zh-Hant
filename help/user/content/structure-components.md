@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 1625
+source-wordcount: 1624
 ht-degree: 6%
 
 ---
@@ -135,21 +135,21 @@ ht-degree: 6%
 
 選擇[資產來源型別](./assets-overview.md)並選取影像檔：
 
-+++[!UICONTROL Marketo Engage Assets]
++++[!UICONTROL 選取資產]
 
-{{me-dam}}
-
-+++
-
-+++[!UICONTROL Experience Manager Assets]
-
-{{aem-assets-dam}}
+{{internal-dam}}
 
 +++
 
 +++[!UICONTROL 匯入媒體]
 
 {{image-upload}}
+
++++
+
++++[!UICONTROL Experience Manager Assets]
+
+{{aem-assets-dam}}
 
 +++
 

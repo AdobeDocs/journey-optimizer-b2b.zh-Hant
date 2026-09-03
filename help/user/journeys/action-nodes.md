@@ -17,16 +17,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 2319
+source-wordcount: 2193
 ht-degree: 3%
 
 ---
 
 # 採取動作
 
-若要執行動作，例如傳送電子郵件、變更分數或指派給購買群組，您可以在歷程中新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點。 動作通常是您因某種觸發器（例如事件或之前的動作）而想要發生的動作。
+若要執行動作，例如傳送電子郵件、變更分數或指派給購買群組，請在您的歷程中新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點。 動作通常是您因某種觸發器（例如事件或之前的動作）而想要發生的動作。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看概觀影片](#overview-video)
 
@@ -137,12 +137,6 @@ ht-degree: 3%
 | | [!UICONTROL 新增至Marketo清單] | <li>帳戶歷程 <li>人員歷程 | <li>外部Marketo連線的名稱 <li>清單名稱 |
 | | [!UICONTROL 從Marketo清單移除] | <li>帳戶歷程 <li>人員歷程 | <li>外部Marketo連線的名稱 <li>清單名稱 |
 
->[!NOTE]
->
->2025.10版已棄用Marketo Engage中的&#x200B;_[!UICONTROL 變更人員分割]_&#x200B;和&#x200B;_[!UICONTROL 變更分數]_&#x200B;動作，Journey Optimizer B2B edition中已不再提供。<br/>
->
->2025.10版已棄用&#x200B;_[!UICONTROL 變更資料值]_&#x200B;動作。 在目前的Journey Optimizer B2B edition版本中，已以&#x200B;_[!UICONTROL 更新人員設定檔]_&#x200B;取代。
-
 ### 新增以人物為基礎的動作
 
 1. 導覽至歷程圖。
@@ -226,14 +220,6 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 +++
 
-+++[!UICONTROL 變更分數]
-
-使用此動作來變更Marketo Engage中的人員分數。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
-
-![採取動作 — 變更分數](./assets/node-action-change-score.png){width="300"}
-
-+++
-
 +++[!UICONTROL 個人有趣的時刻]
 
 使用此動作記錄人們有趣的時刻。 選擇型別（「電子郵件」、「里程碑」或「Web」）並新增說明（選用）。
@@ -254,7 +240,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 使用此動作，根據選取的解決方案興趣，從[購買群組](../buying-groups/buying-groups-overview.md)移除人員設定檔。
 
-![採取動作 — 新增至購買群組](./assets/node-action-remove-from-buying-group.png){width="300"}
+![採取動作 — 從購買群組中移除](./assets/node-action-remove-from-buying-group.png){width="300"}
 
 +++
 
@@ -270,9 +256,9 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 +++[!UICONTROL 傳送電子郵件]
 
-使用此動作傳送電子郵件。 在您[建立節點的電子郵件](../content/add-email.md#add-an-email-action-node-in-a-journey)之後，您可以在電子郵件設計空間設計、個人化和預覽電子郵件訊息（請參閱[電子郵件編寫](../content/email-authoring.md)）。 您也可以從Marketo Engage[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}傳送電子郵件。 選取Marketo Engage工作區，然後選取要傳送的電子郵件。
+使用此動作傳送電子郵件。 在您[建立節點的電子郵件](../content/add-email.md#send-email-node)之後，您可以在電子郵件設計空間設計、個人化和預覽電子郵件訊息（請參閱[電子郵件編寫](../content/email-authoring.md)）。
 
-![採取動作 — 傳送電子郵件](./assets/node-action-send-email-from-marketo.png){width="300"}
+![採取動作 — 傳送電子郵件](./assets/node-action-send-email.png){width="300"}
 
 若是個人歷程，請使用[傳送時間最佳化](../content/email-send-time-optimization.md)，預測每個設定檔最有可能參與的時間，以個人化電子郵件傳遞時間。
 
@@ -308,7 +294,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 >
 >_[!UICONTROL 更新人員設定檔]_&#x200B;動作會取代目前Journey Optimizer B2B edition版本中的&#x200B;_[!UICONTROL 變更資料值]_&#x200B;動作。<br/>
 >
->管理員可以更新&#x200B;_[!UICONTROL XDM設定]_ > [!UICONTROL 標準類別]中的欄位，以設定XDM個別設定檔的可用屬性。 如需詳細資訊，請參閱[標準結構描述](../admin/xdm-field-management.md#standard-schemas)。
+>管理員可以更新&#x200B;_[!UICONTROL XDM設定]_ > _[!UICONTROL 標準類別]_&#x200B;中的欄位，以設定XDM個別設定檔的可用屬性。 如需詳細資訊，請參閱[標準結構描述](../admin/xdm-field-management.md#standard-schemas)。
 
 +++
 
@@ -318,7 +304,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 >[!NOTE]
 >
->Marketo Engage動作需要與一個或多個外部Marketo Engage執行個體進行已設定的整合。 如需此設定的詳細資訊，請參閱&#x200B;[_啟用Marketo Engage連線以支援動作_](../admin/marketo-actions-connect.md)。
+>Marketo Engage動作需要與一個或多個外部Marketo Engage執行個體進行已設定的整合。 若要尋找此設定的詳細資訊，請參閱&#x200B;[_啟用Marketo Engage連線以支援動作_](../admin/marketo-actions-connect.md)。
 
 例如，在Marketo Engage中，針對屬於Journey Optimizer B2B edition購買群組的人員，隱藏促銷活動。 在這種情況下，您可以在Marketo Engage中建立符合解決方案利益的靜態清單。 接著，在購買群組的分割路徑上，使用歷程節點的&#x200B;_新增至Marketo清單_&#x200B;動作。 此動作會將購買群組成員新增至已連線Marketo Engage執行個體中的特定靜態清單。 然後，在Marketo Engage中將以解決方案興趣為主的靜態清單用於智慧清單篩選器。
 
