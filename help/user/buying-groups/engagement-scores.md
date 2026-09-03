@@ -4,23 +4,17 @@ description: 在Journey Optimizer B2B edition中使用加權活動、角色型�
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T21:43:47.624Z
 TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
-ht-degree: 31%
+source-wordcount: 1229
+ht-degree: 30%
 
 ---
 
@@ -43,7 +37,7 @@ ht-degree: 31%
 
 * **個人參與分數** — 個人參與分數是以個別購買群組成員的活動為基礎。
 
-  每個購買群組成員的個人參與分數會顯示在購買群組詳細資訊頁面[_[!UICONTROL 成員&#x200B;]_&#x200B;標籤](./buying-group-details.md#buying-group-members)中。 這些分數也會顯示在頁面和儀表板中，其中包含最常參與的成員和重疊的聯絡人資訊。
+  每個購買群組成員的個人參與分數會顯示在購買群組詳細資訊頁面[_[!UICONTROL 成員&#x200B;]_標籤](./buying-group-details.md#buying-group-members)中。 這些分數也會顯示在頁面和儀表板中，其中包含最常參與的成員和重疊的聯絡人資訊。
 
   ![最常參與購買群組成員](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -116,10 +110,6 @@ ht-degree: 31%
 | [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
 -->
 
->[!NOTE]
->
->參與分數活動會記錄在個人的Marketo Engage活動記錄中。 您可以在連線的Marketo Engage執行個體中存取此記錄檔。 如需詳細資訊，請參閱Marketo Engage檔案中的[尋找人員](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}的活動記錄。
-
 ## 角色範本加權 {#engagement-score-weighting}
 
 >[!CONTEXTUALHELP]
@@ -131,7 +121,7 @@ ht-degree: 31%
 
 ![為角色範本中每個角色設定權重](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-每個權重層級會轉譯為一個值，用於計算參與度分數：
+每個加權層級都會對應到一個值，用於計算參與度分數：
 
 * [!UICONTROL 不重要] = 20
 * [!UICONTROL 輕微] = 40

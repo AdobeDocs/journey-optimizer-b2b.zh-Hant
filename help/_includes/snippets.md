@@ -1,10 +1,10 @@
 ---
 title: 程式碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 2%
+source-wordcount: '2318'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->為您的Journey Optimizer B2B edition執行個體設定意圖資料時，即會包含該資料。 它還需要一個或多個已發佈的歷程&#x200B;**或**&#x200B;建立的購買群組。 如需有關意圖偵測模型以及如何提交關鍵字、產品和類別的詳細資訊，請參閱[意圖資料](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)。
+>為您的Journey Optimizer B2B edition執行個體設定意圖資料時，即會包含該資料。 它還需要一個或多個已發佈的歷程&#x200B;**或**&#x200B;建立的購買群組。 如需有關意圖偵測模型以及如何提交關鍵字、產品和類別的詳細資訊，請參閱[意圖資料](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)。
 
 ## AEM Assets授權注意事項 {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。 確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 整合僅限於來自&#x200B;_傳遞層_&#x200B;的存放庫。 如果您使用&#x200B;_作者階層_&#x200B;且想要轉換它，請連絡Adobe Experience Manager支援。<br/>
+>AEM Assets as a Cloud Service授權和Dynamic Media授權是整合的先決條件。 確定已啟用[Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。 整合僅限於來自&#x200B;_傳遞層_&#x200B;的存放庫。 如果您使用&#x200B;_作者階層_&#x200B;且想要轉換它，請連絡Adobe Experience Manager支援。<br/>
 >根據您的合約和設定，在設計視覺內容時，可以直接從Adobe Experience Manager Assets B2B edition存取Adobe Journey Optimizer as a Cloud Service 。
 
 ## 內容製作 — 元件 — 結構步驟 {#structures-step}
@@ -231,7 +231,7 @@ HTML元件的![對齊樣式](../assets/content-design-shared/content-components-
 
 ## 內容 — 影像選取範圍 — AEM Assets {#aem-assets-dam}
 
-選擇此型別以瀏覽並從[設定的Experience Manage Assets存放庫](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories)中選取影像資產。
+選擇此型別以瀏覽並從[設定的Experience Manage Assets存放庫](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories)中選取影像資產。
 
 在&#x200B;_[!UICONTROL 選取Assets]_&#x200B;對話方塊中，使用可用的工具選擇影像，以找出您需要的資產，然後按一下&#x200B;**[!UICONTROL 選取]**：
 
@@ -264,16 +264,3 @@ HTML元件的![對齊樣式](../assets/content-design-shared/content-components-
 所選影像的檔案名稱會顯示在對話方塊中。 資產檔案名稱必須是唯一的（跨資料夾），如果已存在同名的檔案，則會顯示訊息。 名稱最多可包含100個字元，且不能包含特殊字元（例如`;`、`:`、`\`和`|`）。
 
 按一下&#x200B;**[!UICONTROL 匯入]**。
-
-## 參與分數活動 — Marketo {#engagement-activities-me}
-
-| 活動名稱 | 說明 | 每日最大頻率計數 | 預設模型活動權重 |
-| --- | --- | --- | --- |
-| [!UICONTROL 出席活動] | 成員參加一項活動 | 20 | 60 |
-| [!UICONTROL 電子郵件已點按] | 成員點按電子郵件中的連結 | 20 | 30 |
-| [!UICONTROL 電子郵件已開啟] | 成員開啟電子郵件 | 20 | 30 |
-| [!UICONTROL 表單已填寫] | 成員在網頁上填寫並提交表單 | 20 | 40 |
-| [!UICONTROL 精彩時刻] | 成員有一個精彩時刻 | 20 | 60 |
-| [!UICONTROL 連結點選次數] | 成員點按網頁上的連結 | 20 | 40 |
-| [!UICONTROL 頁面檢視次數] | 成員檢視網頁 | 20 | 40 |
-| [!UICONTROL 登入事件] | 為事件註冊的成員 | 20 | 60 |

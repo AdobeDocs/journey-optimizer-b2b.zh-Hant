@@ -4,21 +4,15 @@ description: 使用加權活動建立自訂參與分數模型，以在 [!DNL Jou
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1257
 ht-degree: 0%
 
 ---
@@ -58,10 +52,6 @@ ht-degree: 0%
 系統會建立名為&#x200B;_活動加權模型1_&#x200B;的初始參與分數模型。 參與活動是根據標準和自訂Experience Platform事件。 依預設，所有活動的權重為0。
 
 ![Experience Platform事件的預設參與分數加權模型](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
-
-<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
-
-<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 當您啟動自訂模型時，使用中的模型會變更為&#x200B;_已封存_&#x200B;狀態。 如果您決定恢復為預設參與分數模型，您可以複製原始預設模型，然後啟動它，或將其用作另一個自訂模型的起點。
 
@@ -114,7 +104,7 @@ ht-degree: 0%
 
 1. 若要移除加權範圍，請按一下加權範圍列的&#x200B;_刪除_ （![刪除圖示](../assets/do-not-localize/icon-delete-outline.svg) ）圖示。
 
-1. 完成變更後，按一下[儲存]。**&#x200B;**
+1. 完成變更後，按一下[儲存]。****
 
 ### 變更活動加權
 
@@ -138,14 +128,6 @@ Experience Platform事件的預設模型包含Experience Platform追蹤活動。
 </td>
 </tbody>
 </table>
-
-+++
-
-+++標準架構的活動
-
-標準架構的預設模型包含具有相關預設權重的[!DNL Marketo Engage]個追蹤活動。 複製此模型時，您可以視需要變更加權。 您無法變更最大每日頻率。
-
-{{engagement-activities-me}}
 
 +++
 
