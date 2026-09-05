@@ -16,9 +16,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
+source-git-commit: 6af5c69aac417f557472bdb80df9de7460e65f16
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: 692
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 ## 隱私權
 
-有各種法規適用於持有上述地區或國家（歐盟、加州、泰國、巴西、紐西蘭）資料主體資料的[!DNL Journey Optimizer B2B Edition]客戶。 本頁上的資訊不是法律建議，也不保證您遵守適用法律。
+各種法規適用於在歐盟、加州、泰國、巴西和紐西蘭等地區為資料主體持有資料的[!DNL Journey Optimizer B2B Edition]使用者。 本頁提供的資訊不是法律建議，也不保證您遵守適用法律。
 
 ### GDPR
 
 一般資料保護規範(GDPR)是歐盟(EU)的隱私權法律，其可為歐盟國家協調並現代化[資料保護要求](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"}。
 
-[!DNL Journey Optimizer B2B Edition]使用Privacy Service和Marketo Engage隱私權代理人服務所提供的現有Marketo GDPR控管功能。
+[!DNL Journey Optimizer B2B Edition]使用Privacy Service所提供的現有Experience Platform GDPR控管功能。 如需有關提交及管理存取和刪除要求的資訊，請參閱&#x200B;[_隱私權管理_](./privacy-management.md)。
 
 ### CNIL
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 CNIL提供三個月的時間，從建議之日起公司通知電子郵件收件者是否有追蹤畫素、其目的，以及收件者是否有權選擇退出。 在此轉換期間，Marketo Engage使用者應通知其收件者畫素追蹤的相關資訊，並視需要提供選擇退出。 預計CNIL將在2026年7月14日之後開始執行活動。
 
-隨著CNIL和其他監管機構釐清追蹤畫素和相關問題的指引，Adobe將繼續監控更新，並通知您技術能力正在發生變化。
+由於CNIL和其他監管機構會釐清追蹤畫素和相關問題的指引，Adobe會監控更新，並通知您技術功能的變更。
 
-[!DNL Journey Optimizer B2B Edition]提供協助您在電子郵件層級管理開啟追蹤的控制項。 根據適用的CNIL指引和其他法律，使用者有責任決定自己的合規義務。 如需使用這些功能管理電子郵件開啟追蹤的詳細資訊，請參閱&#x200B;[_管理電子郵件追蹤_](../content/email-tracking-manage.md)。
+[!DNL Journey Optimizer B2B Edition]提供協助您在電子郵件層級管理開啟追蹤的控制項。 根據適用的CNIL指引和其他法律，使用者有責任決定自己的合規義務。 如需使用這些功能管理電子郵件開啟追蹤的相關資訊，請參閱&#x200B;[_管理電子郵件追蹤_](../content/email-tracking-manage.md)。
 
 ## 角色型存取控制(RBAC)
 
@@ -53,7 +53,7 @@ CNIL提供三個月的時間，從建議之日起公司通知電子郵件收件�
 
 ## 資料加密
 
-**_靜態資料加密_** — 從Adobe Experience Platform傳輸到Journey Optimizer B2B edition的所有帳戶和人員設定檔資料都已加密，以維持Experience Platform的現有合規性。 源自Journey Optimizer B2B edition的所有實體（例如歷程和購買群組）也經過加密。
+**_靜態資料加密_** — 從Adobe Experience Platform傳輸到Journey Optimizer B2B edition的所有帳戶和人員設定檔資料都會經過加密，以維持Experience Platform的現有合規性。 源自Journey Optimizer B2B edition的所有實體（例如歷程和購買群組）也經過加密。
 
 **_傳輸中資料的加密_** （透過公用網路） — 所有Journey Optimizer B2B edition API和實體都使用TLS 1.2進行傳輸中加密。
 
@@ -67,7 +67,7 @@ Journey Optimizer B2B edition會讀取儲存在Adobe Experience Platform XDM設�
 
 ## 沙箱已重設
 
-沙箱重設為&#x200B;**目前不支援**&#x200B;用於Adobe Journey Optimizer B2B edition。 重設或刪除對應至Journey Optimizer B2B edition的沙箱可能會導致永久資料遺失，並需要布建新的執行個體。
+沙箱重設為&#x200B;**目前不支援**&#x200B;用於Adobe Journey Optimizer B2B edition。 重設或刪除對應至[!DNL Journey Optimizer B2B Edition]的沙箱可能會導致永久資料遺失，並需要布建新的執行個體。
 
 ## 尚未提供
 

@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: d8425054daea287d21419911158908035c1314f6
 workflow-type: tm+mt
-source-wordcount: 5633
+source-wordcount: 5637
 ht-degree: 61%
 
 ---
@@ -44,8 +44,8 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | C2PA中繼資料 | 使用產生式AI工具產生或編輯的影像現在會自動使用C2PA中繼資料簽署，協助您符合內容透明度和AI揭露要求。 [了解更多](../content/c2pa-metadata.md) |
 | 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 |
 | 增強功能 | 監聽事件觸發器和篩選器 — 帳戶歷程 | 帳戶歷程現在支援&#x200B;_接聽事件_&#x200B;節點中的多個觸發器和篩選器。 |
-| 增強功能 | 外部分割路徑節點 — 個人歷程 | 個人歷程現在支援&#x200B;_外部分割路徑_&#x200B;節點。 |
-| 增強功能 | 外部動作節點 — 個人歷程 | 個人歷程現在支援&#x200B;_外部動作_&#x200B;節點。 |
+| 增強功能 | 外部分割路徑節點 — 個人歷程 | 個人歷程現在支援&#x200B;_外部分割路徑_&#x200B;節點。 [了解更多](../journeys/external-nodes.md#external-action) |
+| 增強功能 | 外部動作節點 — 個人歷程 | 個人歷程現在支援&#x200B;_外部動作_&#x200B;節點。 [了解更多](../journeys/external-nodes.md#external-split-paths) |
 | 增強功能 | AEP關聯式資料集 | 新的關聯式資料集現在會和現有資料集一起出現在您的AEP沙箱中。 |
 | 增強功能 | 產品許可權 — WhatsApp頻道 | 產品管理員現在可以為&#x200B;_[!UICONTROL B2B通道設定]_&#x200B;設定`Manage B2B WhatsApp Settings`和`Manage B2B WhatsApp Presets`許可權。 |
 

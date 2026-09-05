@@ -1,6 +1,6 @@
 ---
 title: 外部動作設定
-description: 瞭解開發人員、管理員和行銷人員如何共同實施、設定和使用外部動作，將Journey Optimizer B2B edition與帳戶歷程中的外部服務連結。
+description: 瞭解開發人員、管理員和行銷人員如何共同實施、設定和使用外部動作，將Journey Optimizer B2B edition與歷程中的外部服務連結。
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -14,25 +14,21 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
+source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1278
 ht-degree: 1%
 
 ---
 
 # 外部動作設定
 
-外部動作可讓Journey Optimizer B2B edition中的帳戶歷程直接從歷程畫布連線外部系統。 當帳戶對象到達外部動作節點時，系統會非同步呼叫已設定的外部服務，傳遞帳戶、人員或兩者的對象屬性資料。 外部服務使用回呼處理資料及回應，傳回可用於引導歷程執行的對象資料及中繼資料。
+外部動作允許[!DNL Journey Optimizer B2B Edition]中的帳戶和個人歷程直接從歷程畫布連線到外部系統。 當對象到達外部動作節點時，系統會非同步呼叫已設定的外部服務，傳遞對象屬性資料。 外部服務使用回呼處理資料及回應，傳回可用於引導歷程執行的對象資料及中繼資料。
 
 此功能支援兩種歷程節點型別：
 
-* **外部動作** — 呼叫外部服務並沿著單一傳出路徑繼續。 適合&#x200B;_引發並忘記_&#x200B;整合，例如更新CRM記錄或觸發下游通知。
-* **外部分割路徑** — 呼叫外部服務並評估回應，以沿著數個已定義的路徑之一路由帳戶。
-
->[!NOTE]
->
->僅帳戶歷程支援外部動作服務。 這些節點型別不適用於個人歷程。
+* **外部動作** — 呼叫外部服務並沿著單一傳出路徑繼續。 適用於非同步整合，例如更新CRM記錄或觸發下游通知。
+* **外部分割路徑** — 呼叫外部服務並評估回應，以沿著數個已定義的路徑之一路由帳戶或人員。
 
 ## 實施概述
 
@@ -42,7 +38,7 @@ ht-degree: 1%
 | ---- | ---- | ---- |
 | 1 | Developer | [實作並發佈外部服務](#implement-service) |
 | 2 | 管理員 | [在Journey Optimizer B2B edition中設定動作](#configure-action) |
-| 3 | 行銷人員 | [將外部節點新增至帳戶歷程](#add-journey-node) |
+| 3 | 行銷人員 | [新增外部節點至歷程](#add-journey-node) |
 
 ## 實作外部服務 {#implement-service}
 
@@ -100,7 +96,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**。
 
-1. 設定&#x200B;**[!UICONTROL 組態]**&#x200B;屬性以定義動作與外部服務交換資料的方式。
+1. 若要定義動作如何與外部服務交換資料，請設定&#x200B;**[!UICONTROL 組態]**&#x200B;屬性。
 
    >[!NOTE]
    >
@@ -108,8 +104,8 @@ ht-degree: 1%
 
    * **[!UICONTROL 動作型別]** （_靜態_） — 支援的歷程節點型別：
 
-      * [!UICONTROL 外部動作] (`enableSplitPath` = false)
-      * [!UICONTROL 外部動作分割路徑] (`enableSplitPath` = true)
+     * [!UICONTROL 外部動作] (`enableSplitPath` = false)
+     * [!UICONTROL 外部動作分割路徑] (`enableSplitPath` = true)
 
      建立動作設定後，您無法變更動作型別。
 
@@ -117,11 +113,11 @@ ht-degree: 1%
 
    * **[!UICONTROL 歷程內容]** （_靜態_） — 要求中傳送的對象資料範圍(`supportedEntityType`)：
 
-      * [!UICONTROL 帳戶] — 僅傳送帳戶
+     * [!UICONTROL 帳戶] — 僅傳送帳戶
 
-      * [!UICONTROL 人員] — 僅傳送人員
+     * [!UICONTROL 人員] — 僅傳送人員
 
-      * [!UICONTROL 帳戶中的人員] — 傳送帳戶和與帳戶相關的人員
+     * [!UICONTROL 帳戶中的人員] — 傳送帳戶和與帳戶相關的人員
 
    * **[!UICONTROL 傳出欄位]** — 將表格中的每個欄位對應到[XDM欄位](../admin/xdm-field-management.md)。 這些欄位會在要求內文中傳送給外部服務。 服務定義屬性： `invocationPayloadDef.accountFields`， `invocationPayloadDef.fields`。
 
@@ -139,7 +135,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;_上一箭號_&#x200B;以返回清單並將動作保持在&#x200B;_草稿_&#x200B;狀態。
 
-   或者，按一下[啟動]&#x200B;**&#x200B;**&#x200B;將動作組態變更為[啟動]__&#x200B;狀態。 設定的外部動作必須處於作用中狀態，才能用於帳戶歷程。
+   或者，按一下[啟動]&#x200B;**&#x200B;**&#x200B;將動作組態變更為[啟動]__&#x200B;狀態。 設定的外部動作必須處於作用中狀態，才能用於歷程。
 
 ### 疑難排解 {#troubleshooting}
 
@@ -149,7 +145,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->下列許多錯誤需要您與建立並發佈公開顯示Web服務的開發人員合作，才能解決。
+>下列許多錯誤需要您與建立並發佈公開顯示之Web服務的開發人員合作，才能解決。
 
 #### 驗證錯誤詳細資料
 
@@ -182,4 +178,4 @@ This error appears below the URL field (not in the alert banner) and means there
 
 ## 將外部節點新增至歷程 {#add-journey-node}
 
-動作啟動後，行銷人員可以將&#x200B;_[!UICONTROL 外部動作]_&#x200B;或&#x200B;_[!UICONTROL 外部分割路徑]_&#x200B;節點新增至任何帳戶歷程。 如需如何在帳戶歷程畫布中新增及使用這些節點的詳細資訊，請參閱[外部節點](../journeys/external-nodes.md)。
+動作啟動後，行銷人員可以將&#x200B;_[!UICONTROL 外部動作]_&#x200B;或&#x200B;_[!UICONTROL 外部分割路徑]_&#x200B;節點新增到任何帳戶或人員歷程。 如需如何在歷程畫布中新增及使用這些節點的詳細資訊，請參閱[外部節點](../journeys/external-nodes.md)。
