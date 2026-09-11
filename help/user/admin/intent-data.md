@@ -4,10 +4,16 @@ description: 使用關鍵字對應設定意圖資料，以預測客戶興趣和�
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
 source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
@@ -77,7 +83,7 @@ ht-degree: 1%
 
 ## 核准或拒絕類別
 
-檢閱類別清單，然後按一下&#x200B;**[!UICONTROL 核准]**&#x200B;以啟用關鍵字，以用於智慧型儀表板、帳戶詳細資訊頁面、購買群組詳細資訊頁面和人員詳細資訊頁面。 按一下[檢視全部]****&#x200B;以顯示每個產品的完整清單，或按一下[下載]****&#x200B;以Excel檔案檢視完整清單。
+檢閱類別清單，然後按一下&#x200B;**[!UICONTROL 核准]**&#x200B;以啟用關鍵字，以用於智慧型儀表板、帳戶詳細資訊頁面、購買群組詳細資訊頁面和人員詳細資訊頁面。 按一下[檢視全部]&#x200B;**&#x200B;**&#x200B;以顯示每個產品的完整清單，或按一下[下載]&#x200B;**&#x200B;**&#x200B;以Excel檔案檢視完整清單。
 
 如果您對清單不滿意，可以按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以移除類別。 接著，您可以調整試算表檔案，再開始上傳程式以定義該類別。
 
