@@ -1,5 +1,5 @@
 ---
-title: 意圖資料
+title: 意圖資料設定
 description: 使用關鍵字對應設定意圖資料，以預測客戶興趣和在Journey Optimizer B2B edition中針對帳戶式行銷購買訊號。
 feature: Setup, Intent, Account Insights
 roles: Admin
@@ -16,23 +16,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 578
 ht-degree: 1%
 
 ---
 
-# 意圖資料
+# 意圖資料設定
 
-在Journey Optimizer B2B edition中，意圖偵測模型會根據潛在客戶活動，以足夠高的信賴度預測感興趣的解決方案/產品。 它也會運用其他帳戶共同成員的活動，以及標籤的內容。 個人的意圖可解譯為對產品感興趣的可能性。
+在[!DNL Adobe Journey Optimizer B2B Edition]中，意圖偵測模型會根據潛在客戶活動，以足夠高的信賴度預測感興趣的解決方案/產品。 它也會運用其他帳戶共同成員的活動，以及標籤的內容。 個人的意圖可解譯為對產品感興趣的可能性。
 
-* 意圖層級 — 可用於已知銷售機會、帳戶和購買群組層級。
-* 意圖訊號型別 — 關鍵字、產品和解決方案
+如需意圖分數計算的詳細資訊，請參閱&#x200B;[_意圖分數_](../ai-coworker/intent-scores.md)。
 
 意圖資料用於&#x200B;[_智慧型儀表板_](../dashboards/intelligent-dashboard.md)、[_帳戶詳細資料_&#x200B;頁面](../accounts/account-details.md)、[_購買群組詳細資料_&#x200B;頁面](../buying-groups/buying-group-details.md)和&#x200B;[_個人詳細資料_&#x200B;頁面](../accounts/person-details.md)。
-
-![意圖資料視覺效果](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## 準備您的意圖對應資料
 

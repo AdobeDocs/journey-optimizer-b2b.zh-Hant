@@ -21,7 +21,7 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
+source-git-commit: 7b5a3fdf94725b7cf3c7f4da8ff5d8cce115a3d7
 workflow-type: tm+mt
 source-wordcount: 1385
 ht-degree: 8%
@@ -48,7 +48,7 @@ Adobe Journey Optimizer B2B edition中的聊天介面是由與Adobe Experience P
 
 ## 銷售限定詞
 
-Sales Qualifier是AI驅動的應用程式，可搭配Journey Optimizer B2B edition使用。 它會實作Account Qualification Agent，並旨在簡化業務開發代表(BDR)的工作流程。 Sales Qualifier可跨管道自動執行潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
+Sales Qualifier是AI驅動的應用程式，可搭配Journey Optimizer B2B edition使用。 它會實作Account Qualification Agent，並旨在簡化業務開發代表(BDR)的工作流程。 Sales Qualifier可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
 
 如需詳細資訊，請參閱[Sales Qualifier檔案](https://experienceleague.adobe.com/zh-hant/docs/sales-qualifier/using/home){target="_blank"}。
 

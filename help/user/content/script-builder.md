@@ -19,10 +19,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0004f8fba0c3d4ae89063418e4d3ef8fea22b0c3
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: 1074
-ht-degree: 2%
+source-wordcount: 1077
+ht-degree: 3%
 
 ---
 
@@ -44,9 +44,9 @@ _指令碼產生器_&#x200B;是AI支援的助理，可在[!DNL Adobe Journey Opt
 
 >[!IMPORTANT]
 >
->使用者對Script Builder的存取權是透過[!DNL Journey Optimizer B2B Edition]中其他產生AI功能所使用的相同許可權所控制。 如需授與功能許可權的資訊，請參閱[啟用AI助理存取權](../ai-assistant/enable-ai-assistant-access.md)。
+>使用者對Script Builder的存取權是透過[!DNL Journey Optimizer B2B Edition]中其他產生AI功能所使用的相同許可權所控制。 如需授與功能許可權的資訊，請參閱[啟用AI助理存取權](../ai-coworker/enable-ai-assistant-access.md)。
 
-使用指令碼產生器之前，請先檢閱[!DNL Journey Optimizer B2B Edition]中適用於產生AI功能的[指引和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 [在使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
+使用指令碼產生器之前，請先檢閱[!DNL Journey Optimizer B2B Edition]中適用於產生AI功能的[指引和限制](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations)。 [在使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
 
 熟悉[Handlebars範本化語言](https://handlebarsjs.com/guide/){target="_blank"}、[個人化語法](./personalization-syntax.md)，以及[!DNL Journey Optimizer B2B Edition]支援的[協助程式功能](./personalization-helper-functions.md)。 指令碼產生器會產生有效的Handlebars，但瞭解語法有助於您放心地檢閱和編輯輸出。
 

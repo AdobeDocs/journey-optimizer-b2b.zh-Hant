@@ -15,7 +15,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 415
 ht-degree: 83%
@@ -48,7 +48,7 @@ Journey Optimizer B2B Edition 具有兩種主要使用者人物誌：_&#x200B;**
 
 _[!UICONTROL 最近存取]_&#x200B;區段列出行銷人員或管理員最近存取的資產清單。 使用此清單可直接前往您最近處理的資產，不需要導覽一系列的資產頁面及搜尋。
 
-使用者亦可透過此頁面存取 [AI 助理](./ai-assistant/ai-assistant-overview.md)，並根據需求快速取得關於任何特定問題或主題的資訊。<!-- and to obtain specific recommendations for their challenges or objectives-->
+使用者亦可透過此頁面存取 [AI 助理](./ai-coworker/ai-assistant-overview.md)，並根據需求快速取得關於任何特定問題或主題的資訊。<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

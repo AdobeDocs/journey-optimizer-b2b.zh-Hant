@@ -21,7 +21,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: eb57eab88e264ec8ebd0975cced6c4241fcce23b
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 3582
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 指引和限制
 
-開始使用此功能之前，請先檢閱[准則和限制](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)。 [在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 如需詳細資訊，請聯絡您的 Adobe 代表。
+開始使用此功能之前，請先檢閱[准則和限制](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations)。 [在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}套用至Firefly產生的資產，以提高透明度。
 
@@ -62,7 +62,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 ![提示欄位](./assets/gen-ai-prompt.png){width="320"}
 
-如需建立有效提示的詳細資訊，請參閱&#x200B;_[提示最佳實務](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_。
+如需建立有效提示的詳細資訊，請參閱&#x200B;_[提示最佳實務](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_。
 
 >[!BEGINSHADEBOX]
 
@@ -119,7 +119,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
 ### 參考內容
 
-上傳參考內容資產以產生準確、符合品牌的內容。 否則，產生的內容會根據公開可用的資訊。 參考內容可作為內容產生和影像建議的來源。 如需准則與最佳實務，請參閱&#x200B;_[最佳化的參考內容](../ai-assistant/generative-ai-content.md#reference-content)_。
+上傳參考內容資產以產生準確、符合品牌的內容。 否則，產生的內容會根據公開可用的資訊。 參考內容可作為內容產生和影像建議的來源。 如需准則與最佳實務，請參閱&#x200B;_[最佳化的參考內容](../ai-coworker/generative-ai-content.md#reference-content)_。
 
 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;設定中，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何包含您要用於其他內容的資產。
 
@@ -273,7 +273,7 @@ Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/w
 
    >[!TIP]
    >
-   >如果您不熟悉如何提示產生的內容，請檢閱&#x200B;_[提示最佳實務](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_。
+   >如果您不熟悉如何提示產生的內容，請檢閱&#x200B;_[提示最佳實務](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_。
 
 1. 若要量身打造產生的內容，請完成內容指引設定：
 

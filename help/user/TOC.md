@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 86%
 
 ---
@@ -28,14 +28,22 @@ ht-degree: 86%
   + [使用者上線](./start/get-started.md)
   + [登入和首頁](home-page.md)
 + AI功能 {#ai-assistant}
-  + [概觀](./ai-assistant/ai-assistant-overview.md)
-  + [啟用 AI 助理存取權](./ai-assistant/enable-ai-assistant-access.md)
-  + [問題指引](./ai-assistant/question-guidance.md)
-  + [聊天介面](./ai-assistant/use-ai-assistant.md)
-  + [製作內容的生成式 AI](./ai-assistant/generative-ai-content.md)
+  + [概觀](./ai-coworker/ai-assistant-overview.md)
+  + [啟用 AI 助理存取權](./ai-coworker/enable-ai-assistant-access.md)
+  + [問題指引](./ai-coworker/question-guidance.md)
+  + [聊天介面](./ai-coworker/use-ai-assistant.md)
+  + [製作內容的生成式 AI](./ai-coworker/generative-ai-content.md)
+  + [意圖分數](./ai-coworker/intent-scores.md)
   + 專員 {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
     + [Journey Agent B2B](./agents/journey-agent.md)
++ 智慧型儀表板 {#dashboards}
+  + [見解儀表板](./dashboards/intelligent-dashboard.md)
+  + [參與儀表板](./dashboards/engagement-dashboard.md)
+  + [網頁參與儀表板](./dashboards/web-engagement-dashboard.md)
+  + [以電子郵件傳送效能報表](./dashboards/email-performance-dashboard.md)
+  + [購買群組儀表板](./dashboards/buying-groups-dashboard.md)
+  + [歷程儀表板](./dashboards/journeys-dashboard.md)
 + 歷程管理 {#journeys}
   + [帳戶和個人歷程](./journeys/journeys-overview.md)
   + [建立並發佈歷程](./journeys/create-publish-journey.md)
@@ -153,13 +161,6 @@ ht-degree: 86%
     + [個人化語法](./content/personalization-syntax.md)
     + [協助程式函式清單](./content/personalization-helper-functions.md)
     + [指令碼產生器(Beta)](./content/script-builder.md)
-+ 智慧型儀表板 {#dashboards}
-  + [見解儀表板](./dashboards/intelligent-dashboard.md)
-  + [參與儀表板](./dashboards/engagement-dashboard.md)
-  + [網頁參與儀表板](./dashboards/web-engagement-dashboard.md)
-  + [以電子郵件傳送效能報表](./dashboards/email-performance-dashboard.md)
-  + [購買群組儀表板](./dashboards/buying-groups-dashboard.md)
-  + [歷程儀表板](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
   + [治理](./admin/governance.md)
   + [隱私權管理](./admin/privacy-management.md)
