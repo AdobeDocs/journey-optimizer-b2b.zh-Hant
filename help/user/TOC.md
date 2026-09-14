@@ -1,13 +1,11 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 86%
-
+source-wordcount: '448'
+ht-degree: 84%
 ---
-
 
 # Journey Optimizer B2B Edition 使用手冊 {#user}
 
@@ -32,7 +30,6 @@ ht-degree: 86%
   + [啟用 AI 助理存取權](./ai-coworker/enable-ai-assistant-access.md)
   + [問題指引](./ai-coworker/question-guidance.md)
   + [聊天介面](./ai-coworker/use-ai-assistant.md)
-  + [製作內容的生成式 AI](./ai-coworker/generative-ai-content.md)
   + [意圖分數](./ai-coworker/intent-scores.md)
   + 專員 {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
@@ -67,7 +64,7 @@ ht-degree: 86%
     + [新增電子郵件](./content/add-email.md)
     + [傳送時間最佳化](./content/email-send-time-optimization.md)
     + [電子郵件製作](./content/email-authoring.md)
-    + [電子郵件編寫的 AI 助理](./content/ai-assistant-emails.md)
+    + [產生電子郵件內容](./content/generate-content-emails.md)
     + [GenStudio 工作流程](./content/genstudio-email-workflow.md)
     + [電子郵件設計的深色模式](./content/email-dark-mode.md)
     + [控管型範本](./content/email-authoring-governance.md)
@@ -143,7 +140,7 @@ ht-degree: 86%
     + [概觀](./content/landing-pages.md)
     + [建立並發佈](./content/landing-pages-create-publish.md)
     + [登陸頁面設計](./content/landing-page-design.md)
-    + [登陸頁面內容的AI助理](./content/ai-assistant-landing-pages.md)
+    + [產生登入頁面內容](./content/generate-content-landing-pages.md)
   + 內容設計工具 {#content-design}
     + [結構元件](./content/structure-components.md)
     + [內容元件](./content/content-components.md)
@@ -153,6 +150,7 @@ ht-degree: 86%
     + [管理和建立](./content/brands-manage-create.md)
     + [Generative AI模型](./content/generative-ai-models.md)
   + [品牌主題](./content/brand-themes.md)
+  + [製作內容的生成式 AI](./content/generative-ai-content.md)
   + [內容評估](./content/content-evaluation.md)
   + [條件式內容](./content/conditional-content.md)
   + [內容協助工具](./content/accessible-content.md)

@@ -8,24 +8,28 @@ level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2070
-ht-degree: 7%
-
+source-wordcount: '2039'
+ht-degree: 4%
 ---
-
 # 建立並管理您的品牌 {#brand-library}
 
 定義品牌以提供建立視覺和語言識別的規則和標準詳細集合。 這些指引提供跨所有行銷和通訊平台維持一致品牌代表性的參考。 運用定義清晰的品牌指引，組織可確保所有內容建立的努力都與策略目標和整體品牌認同一致。 這種一致性不僅可提升品牌認知度和信任度，也有助於在所有接觸點提供更具凝聚力和影響力的客戶體驗。
@@ -38,7 +42,7 @@ ht-degree: 7%
 >
 ><br>
 >
->您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
 >
 ><br>
 >
@@ -68,7 +72,7 @@ ht-degree: 7%
 
 ### 預設品牌
 
-您可以指定預設品牌，以便在內容建立期間產生內容並計算一致性分數時自動套用。 只能預設已發佈（_即時_）品牌。
+若要在內容建立期間產生內容並計算一致性分數時自動套用品牌，請指定預設品牌。 只能預設已發佈（_即時_）品牌。
 
 在品牌資料庫中，預設品牌卡會顯示旗標。
 
@@ -93,7 +97,7 @@ ht-degree: 7%
 
 1. 輸入您品牌的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 拖放或選取您的檔案，以上傳您的品牌指引，並自動擷取相關的品牌資訊。
+1. 拖放或選取您的檔案，以上傳您的品牌指導方針並自動擷取相關的品牌資訊。
 
    ![定義新品牌](./assets/brands-create-new.png){width="500"}
 
@@ -111,7 +115,7 @@ ht-degree: 7%
 
 ### 調整並更新品牌指引
 
-1. 瀏覽不同的標籤，視需要調整並定義更詳細的資訊。
+1. 若要視需要調整及定義更詳細的資訊，請瀏覽不同的標籤。
 
    * [!UICONTROL 概觀]
 
@@ -163,11 +167,11 @@ ht-degree: 7%
 
 1. 定義好所有專案後，按一下&#x200B;**[!UICONTROL 儲存]**。
 
-   您可以繼續變更草稿品牌，直到決定準備好發佈為止。
+   您可以繼續變更草稿品牌。 繼續直到您決定它可發佈為止。
 
 ### 發佈品牌
 
-當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] **&#x200B;**，讓您的品牌指引可用於內容對齊與產生。
+當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] ****，讓您的品牌指引可用於內容對齊與產生。
 
 已發佈的品牌可從AI [品牌一致性分數](./content-evaluation.md#brand-alignment-score)和[內容產生工具](../ai-coworker/generative-ai-content.md)中的&#x200B;**[!UICONTROL 品牌]**&#x200B;選項存取。
 
@@ -241,9 +245,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="寫作風格一致性分數"
->abstract="「寫作風格」部分會定義語言、格式及結構的標準，以確保內容清晰且一致。 一致性分數從高至低評分，會顯示您的內容對這些準則的遵循程度，並醒目提示需要改善的區域。"
+>abstract="「書寫樣式」區段定義語言、格式和結構的標準。 一致性分數會顯示您的內容遵循這些指引的程度，並標示出需要改善的領域。"
 
-_[!UICONTROL 撰寫樣式]_&#x200B;定義概述撰寫內容的標準，並詳細說明應如何使用語言、格式和結構來維持所有資料的清晰度、一致性和一致性。
+_[!UICONTROL 撰寫樣式]_&#x200B;定義概述撰寫內容的標準，並詳述如何使用語言、格式和結構來維持所有資料的清晰度、一致性和一致性。
 
 選取&#x200B;**[!UICONTROL 寫入樣式]**&#x200B;索引標籤，並檢閱每個類別。
 
@@ -285,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="視覺內容一致性分數"
->abstract="視覺內容一致性分數表示您的內容與設定之品牌準則的符合程度。 從高至低的評分可協助您一目了然地評估一致性。 探索不同的類別可找出需要改善的區域，並找出可能不符合品牌的元素。"
+>abstract="視覺內容一致性分數表示您的內容與設定之品牌準則的符合程度。 它有助於您評估一致性並找出需要改進的領域。"
 
 _[!UICONTROL 視覺內容]_&#x200B;定義概述影像和設計標準，並詳細說明維持統一一致的品牌外觀所需的規格。
 
@@ -326,7 +330,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    此動作會建立品牌的草稿復本。
 
-1. 瀏覽不同的標籤，視需要更新品牌資訊。
+1. 瀏覽不同的標籤，並視需要更新品牌資訊。
 
    * 概觀
 
@@ -336,4 +340,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [視覺內容](#visual-content)
 
-1. 使用草稿更新時，請按一下[儲存]。**&#x200B;**，然後在準備取代&#x200B;_[即時]_&#x200B;版本時，按一下[發佈]。**&#x200B;**
+1. 使用草稿更新時，請按一下[儲存]。****，然後在準備取代&#x200B;_[即時]_&#x200B;版本時，按一下[發佈]。****

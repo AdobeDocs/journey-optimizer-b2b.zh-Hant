@@ -1,36 +1,41 @@
 ---
 title: 電子郵件訊息製作
-description: 使用視覺化設計工具、HTML匯入或範本建立電子郵件 — 使用Journey Optimizer B2B edition中的AI助理內容產生、自訂CSS和個人化。
+description: 使用視覺化設計工具、HTML匯入或範本建立電子郵件 — 在Journey Optimizer B2B edition中使用內容產生、自訂CSS和個人化。
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1380
+source-wordcount: '1371'
 ht-degree: 2%
-
 ---
-
 # 電子郵件訊息製作
 
 在您[新增電子郵件資產至歷程動作節點](./add-email.md)後，您可以定義電子郵件訊息的內容。
 
 按一下右側面板上&#x200B;_[!UICONTROL 詳細資料]_&#x200B;索引標籤中的&#x200B;**[!UICONTROL 編輯電子郵件內容]**。
 
-![按一下[編輯電子郵件內容] &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![按一下[編輯電子郵件內容] ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 此動作會啟動電子郵件設計工具，您可在其中從下列選項中選擇要如何設計電子郵件：
 
@@ -44,7 +49,7 @@ ht-degree: 2%
 
 >[!TIP]
 >
->使用由generative AI提供技術支援的Adobe Journey Optimizer B2B edition中的AI助理以改善您的內容。 AI Assistant可以產生整個電子郵件和目標文字內容，並提供影像建議，引起觀眾的共鳴，進而協助您最佳化傳送的影響。 [了解更多](./ai-assistant-emails.md)
+>使用內容產生工具來改善您的內容。 這些工具可產生整個電子郵件和目標文字內容，並提供與對象相關的影像建議，以協助您最佳化傳送的影響。 [了解更多](./generate-content-emails.md)
 
 ## 從頭開始設計您的電子郵件 {#design-from-scratch}
 
@@ -72,7 +77,7 @@ ht-degree: 2%
 >You cannot revert back to the visual design space for this email after switching to the code editor. 
 -->
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容
 
@@ -106,7 +111,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容[&#128279;](./template-content-governance.md)的範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ![存取內文樣式](./assets/email-body-styles.png){width="800" zoomable="yes"}
 
