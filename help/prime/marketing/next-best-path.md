@@ -6,23 +6,29 @@ autotag-review: '2026-06-12T23:02:18.769Z'
 TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+    internal-label: Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1528'
 ht-degree: 1%
-
 ---
-
 # 下一個最佳路徑節點
 
 在Journey Optimizer B2B Prime中，*下一個最佳路徑*&#x200B;節點會將AI驅動的分割路徑決策直接帶入歷程畫布。 您不是在[分割路徑](./split-merge-paths-nodes.md)節點上設定篩選條件，而是以自然語言描述您的意圖，讓系統決定每個人的最相關路徑。
@@ -84,9 +90,9 @@ AI會在路由決定的底下，為每個設定檔建構推斷的圖層。 它�
 
      **三路徑分割的提示範例：**
 
-      * *路徑1 — 人力資源主管：*&#x200B;識別人力資源主管角色中最可能參與人才管理和員工經驗內容的人員。
-      * *路徑2 — 技術評估人員：*&#x200B;識別最有可能參與產品架構、整合及實作內容的技術利害關係人。
-      * *路徑3 — 業務決策者：*&#x200B;識別最有可能參與ROI、業務成果和案例研究內容的業務利害關係人。
+     * *路徑1 — 人力資源主管：*&#x200B;識別人力資源主管角色中最可能參與人才管理和員工經驗內容的人員。
+     * *路徑2 — 技術評估人員：*&#x200B;識別最有可能參與產品架構、整合及實作內容的技術利害關係人。
+     * *路徑3 — 業務決策者：*&#x200B;識別最有可能參與ROI、業務成果和案例研究內容的業務利害關係人。
 
 1. 如有需要，請重新排序路徑，以設定比對的優先順序。
 
