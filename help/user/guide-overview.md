@@ -5,16 +5,16 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 autotag-review: 2026-03-27T22:18:45.397Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1163
-ht-degree: 37%
-
+source-wordcount: '1162'
+ht-degree: 32%
 ---
-
 # Adobe Journey Optimizer B2B Edition 文件
 
 [!DNL Adobe Journey Optimizer B2B Edition]是首創的應用程式，可讓行銷和銷售團隊在整個客戶生命週期中協調以帳戶為基礎的體驗，並讓購買群組符合特定產品的資格。 它使用AI來與目標帳戶中的購買群組互動並取得資格，協助您的團隊產生更高品質的管道，設計更好的贏取、擴充和保留策略。 它也會啟用銷售和行銷團隊之間的共用深入分析。
@@ -185,7 +185,7 @@ Learn how to author and manage content for personalized customer experiences orc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="歷程內容"><br/>
-      <strong>歷程內容</strong><br/><a href="./content/add-email.md">電子郵件管道</a><br/><a href="./content/ai-assistant-emails.md">電子郵件的 AI 助理</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio 電子郵件體驗</a><br/><a href="./content/sales-alert-email.md">銷售警報電子郵件</a><br/><a href="./content/sms-authoring.md">簡訊管道</a>
+      <strong>歷程內容</strong><br/><a href="./content/add-email.md">電子郵件頻道</a><br/><a href="./content/generate-content-emails.md">產生電子郵件內容</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio電子郵件體驗</a><br/><a href="./content/sales-alert-email.md">銷售警示電子郵件</a><br/><a href="./content/sms-authoring.md">簡訊頻道</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="內容管理"><br/>
