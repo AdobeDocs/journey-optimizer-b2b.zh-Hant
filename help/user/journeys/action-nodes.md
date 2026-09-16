@@ -6,24 +6,28 @@ role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+    internal-label: Journey Actions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2184
+source-wordcount: '2176'
 ht-degree: 3%
-
 ---
-
 # 採取動作
 
 若要執行動作，例如傳送電子郵件、變更分數或指派給購買群組，請在您的歷程中新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點。 動作通常是您因某種觸發器（例如事件或之前的動作）而想要發生的動作。
@@ -45,7 +49,6 @@ ht-degree: 3%
 | 從目的地[!UICONTROL 停用] | 選取現有的虛擬對象<br/>選取目的地 |
 | [!UICONTROL 從歷程移除帳戶] | 選取即時帳戶歷程 |
 | [!UICONTROL 從帳戶清單移除] | 選取即時靜態帳戶清單 |
-| [!UICONTROL 傳送銷售警示] | 選取感興趣的解決方案<br/>傳送電子郵件至 |
 | [!UICONTROL 更新帳戶設定檔] | 選取屬性<br/>新值 |
 | [!UICONTROL 更新購買群組階段] | 選取方案興趣<br/>選取購買群組階段 |
 | [!UICONTROL 更新購買群組狀態] | 選取方案興趣<br/>狀態（必要，最多50個字元） |
@@ -86,7 +89,7 @@ ht-degree: 3%
 
 新增啟動至目的地節點(_T):_
 
-1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;**上的**&#x200B;動作設定為&#x200B;**[!UICONTROL 啟用到目的地]**。
+1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;]**上的**[!UICONTROL &#x200B;動作設定為&#x200B;**[!UICONTROL 啟用到目的地]**。
 
 1. 按一下&#x200B;**[!UICONTROL 選取目的地]**。
 
@@ -102,7 +105,7 @@ ht-degree: 3%
 
 新增從目的地節點&#x200B;:_停用的(_T)
 
-1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;**上的**&#x200B;動作設定為&#x200B;**[!UICONTROL 從目的地]**&#x200B;停用。
+1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;]**上的**[!UICONTROL &#x200B;動作設定為&#x200B;**[!UICONTROL 從目的地]**&#x200B;停用。
 
    ![歷程節點 — 對帳戶採取動作 — 從目的地功能表停用](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
 
@@ -175,7 +178,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 選取此以人物為基礎的動作時，您可以建立新的外部對象，或從現有外部對象清單中選取。
 
 * 針對現有對象，您可以選擇僅在[!DNL Journey Optimizer B2B Edition]中建立的外部客戶對象。
-* 當您建立對象並將其用於此歷程動作時，請務必連線到目的地。 如需詳細資訊，請參閱[!DNL Experience Platform]檔案中的[建立新的目的地連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}和[啟用總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}。
+* 當您建立對象並將其用於此歷程動作時，請務必連線到目的地。 如需詳細資訊，請參閱[!DNL Experience Platform]檔案中的[建立新的目的地連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}和[啟用總覽](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}。
 
 ![影片](../../assets/do-not-localize/icon-video.svg){width="30"} [觀看付費媒體協調流程的影片概觀](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -309,7 +312,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 +++[!UICONTROL 新增至Marketo要求行銷活動]
 
-使用此動作將人員設定檔新增至連線之Marketo Engage執行個體中的[請求行銷活動](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}。
+使用此動作將人員設定檔新增至連線之Marketo Engage執行個體中的[請求行銷活動](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}。
 
 首先，選取連線的Marketo Engage執行個體。 接著，選取要求促銷活動名稱。
 
@@ -319,7 +322,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 +++[!UICONTROL 新增至Marketo清單]
 
-使用此動作將人員新增至連線的Marketo Engage執行個體中的[靜態清單](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}。
+使用此動作將人員新增至連線的Marketo Engage執行個體中的[靜態清單](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}。
 
 首先，選取連線的Marketo Engage執行個體。 接著，選取清單名稱。
 
@@ -329,7 +332,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 +++[!UICONTROL 從Marketo清單移除]
 
-使用此動作從Marketo Engage中的[靜態清單](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}移除人員。
+使用此動作從Marketo Engage中的[靜態清單](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}移除人員。
 
 首先，選取連線的Marketo Engage執行個體。 接著，選取清單名稱。
 
@@ -339,4 +342,4 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443256/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
