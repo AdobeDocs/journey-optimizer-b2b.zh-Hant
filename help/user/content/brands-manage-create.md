@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 4%
@@ -173,7 +173,7 @@ ht-degree: 4%
 
 當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] **&#x200B;**，讓您的品牌指引可用於內容對齊與產生。
 
-已發佈的品牌可從AI [品牌一致性分數](./content-evaluation.md#brand-alignment-score)和[內容產生工具](../ai-coworker/generative-ai-content.md)中的&#x200B;**[!UICONTROL 品牌]**&#x200B;選項存取。
+已發佈的品牌可從AI [品牌一致性分數](./content-evaluation.md#brand-alignment-score)和[內容產生工具](./generative-ai-content.md)中的&#x200B;**[!UICONTROL 品牌]**&#x200B;選項存取。
 
 內容的![品牌選項](./assets/brand-menu-content-ai-tools.png){width="300"}
 
