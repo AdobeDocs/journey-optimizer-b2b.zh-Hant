@@ -1,36 +1,43 @@
 ---
 title: 單頁應用程式
-description: 為單頁應用程式(SPA)建立網站體驗 — 在Journey Optimizer B2B edition中設定檢視追蹤、處理動態內容並管理使用者端導覽。
+description: 為單頁應用程式(SPA)建立網站體驗 — 在Journey Optimizer B2B Edition中設定檢視追蹤、處理動態內容並管理使用者端導覽。
 feature: Channels, Personalization
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
+badge: label="有限可用性" type="Informative"
 exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 846
-ht-degree: 2%
-
+source-wordcount: '838'
+ht-degree: 1%
 ---
-
 # 單頁應用程式
 
-單頁應用程式(SPA)對網頁個人化提出獨特挑戰，因為它們會動態更新頁面內容，而不會重新載入完整頁面。 Journey Optimizer B2B edition提供專門工具，讓您有效處理SPA個人化。
+單頁應用程式(SPA)對網頁個人化提出獨特挑戰，因為它們會動態更新頁面內容，而不會重新載入完整頁面。 Journey Optimizer B2B Edition提供專門工具，讓您有效處理SPA個人化。
 
 ## 瞭解SPA
 
@@ -43,7 +50,7 @@ ht-degree: 2%
 
 ## 設定SPA支援
 
-為了有效個人化SPA，您需要設定檢視追蹤，以便Journey Optimizer B2B edition能夠識別使用者何時在虛擬檢視之間導覽。
+為了有效個人化SPA，您需要設定檢視追蹤，以便Journey Optimizer B2B Edition能夠識別使用者何時在虛擬檢視之間導覽。
 
 ### 設定檢視宣告
 
@@ -121,7 +128,7 @@ SPA通常會在初始頁面轉譯後動態載入內容。 使用這些技巧以�
 
 ### SPA架構
 
-Journey Optimizer B2B edition Web體驗搭配常用的SPA架構運作：
+Journey Optimizer B2B Edition Web體驗適用於常用的SPA架構：
 
 | 框架 | 考量事項 |
 | --------- | -------------- |
@@ -179,27 +186,27 @@ SPA通常會產生動態類別名稱或ID （尤其是使用CSS-in-JS解決方�
 
 * **修改未出現** — 如果修改未出現在您的SPA上：
 
-   1. **檢查檢視追蹤** — 確認`sendEvent`呼叫包含正確的檢視名稱。
+  1. **檢查檢視追蹤** — 確認`sendEvent`呼叫包含正確的檢視名稱。
 
-   1. **驗證元素是否存在** — 套用修改時，請確定目標元素位於DOM中。
+  1. **驗證元素是否存在** — 套用修改時，請確定目標元素位於DOM中。
 
-   1. **檢閱選取器** — 確認CSS選取器符合實際的DOM結構。
+  1. **檢閱選取器** — 確認CSS選取器符合實際的DOM結構。
 
-   1. **檢查主控台** — 尋找可能阻止修改的JavaScript錯誤。
+  1. **檢查主控台** — 尋找可能阻止修改的JavaScript錯誤。
 
 * **短暫出現然後消失的修改** — 此問題通常會在SPA重新呈現並取代修改的元素時發生：
 
-   1. 請使用在轉譯器上保持穩定的更特定CSS選取器。
+  1. 請使用在轉譯器上保持穩定的更特定CSS選取器。
 
-   1. 啟用變異觀察者，以在重新建立元素時重新套用修改。
+  1. 啟用變異觀察者，以在重新建立元素時重新套用修改。
 
-   1. 與您的開發團隊合作，將穩定屬性新增至目標元素。
+  1. 與您的開發團隊合作，將穩定屬性新增至目標元素。
 
 * **重複修改** — 如果修改出現多次：
 
-   1. 核取每個檢視轉變僅引發一次檢視追蹤事件。
+  1. 核取每個檢視轉變僅引發一次檢視追蹤事件。
 
-   1. 確認修改已限定特定檢視的範圍，而非全域套用。
+  1. 確認修改已限定特定檢視的範圍，而非全域套用。
 
 ## 相關主題
 

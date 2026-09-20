@@ -1,34 +1,42 @@
 ---
 title: 網站體驗設計
-description: 使用視覺化編輯器和非視覺化編輯器設計網頁體驗 — 新增修改、管理內容更新、啟用點選追蹤並個人化Journey Optimizer B2B edition中的內容。
+description: 使用視覺化編輯器和非視覺化編輯器設計網頁體驗 — 新增修改、管理內容更新、啟用點選追蹤並個人化Journey Optimizer B2B Edition中的內容。
 feature: Content Design Tools, Channels
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
+badge: label="有限可用性" type="Informative"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
 autotag-review: '2026-05-27T16:20:57.090Z'
 TQID: 'https://experienceleague.adobe.com/VduQltglsVryZl5TEFtWVASl-C8IQX9B7CNNQdIkXnA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Web experience
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 2339
+source-wordcount: '2317'
 ht-degree: 4%
-
 ---
-
 # 網站體驗設計
 
 在您[建立網頁體驗](./web-experiences.md#create-a-web-experience)之後，請使用內容設計空間來定義您要套用至網頁的修改。
@@ -41,23 +49,24 @@ ht-degree: 4%
 
 * 產品管理員已設定一或多個網路通道，以定義要納入網路體驗的URL （頁面）。 如需詳細資訊，請參閱[網路通道設定](../admin/configure-channels-web.md)。
 
-* 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 需要Adobe Experience Platform Web SDK 2.16版或更高版本。
+* 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 需要Adobe Experience Platform Web SDK 2.16版或更高版本。
 
 * 您擁有必要的[許可權](../admin/user-management.md#b2b-product-permissions)，才能在歷程中建立和管理網頁體驗：
-   * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 管理行銷活動]_ — 需要新增或更新Web個人化動作節點。
-   * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 檢視行銷活動]_ — 需要檢視Web個人化動作節點的詳細資料。
+  * _[!UICONTROL 作者B2B Web體驗]_
+  * _[!UICONTROL 管理B2B個人歷程]_
+  * _[!UICONTROL 管理B2B帳戶歷程]_
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->在設計網頁體驗之前，請確定您已為網頁瀏覽器安裝Adobe Experience Cloud Visual Editing Helper瀏覽器擴充功能。 若要在Journey Optimizer B2B edition網頁體驗設計空間以可靠的方式開啟、編寫及預覽網頁，則必須使用此擴充功能。<br/>
+>在設計網頁體驗之前，請確定您已為網頁瀏覽器安裝Adobe Experience Cloud Visual Editing Helper瀏覽器擴充功能。 若要在Journey Optimizer B2B Edition網頁體驗設計空間中以可靠的方式開啟、編寫及預覽網頁，則必須使用此擴充功能。<br/>
 >
->Google Chrome和Microsoft Edge是目前唯一支援在Journey Optimizer B2B edition中擴充及編寫網頁體驗的瀏覽器。 如需詳細資訊，請參閱[安裝Visual Editing Helper擴充功能](./web-experiences.md#install-the-visual-editing-helper-extension)。
+>Google Chrome和Microsoft Edge是目前唯一支援Journey Optimizer B2B Edition網頁體驗延伸與編寫的瀏覽器。 如需詳細資訊，請參閱[安裝Visual Editing Helper擴充功能](./web-experiences.md#install-the-visual-editing-helper-extension)。
 
 ## 網站體驗編輯器
 
-Journey Optimizer B2B edition提供兩種型別的編輯器，可用於設計Web修改：
+Journey Optimizer B2B Edition為設計Web修改提供兩種型別的編輯器：
 
 | 編輯者 | 說明 | 最適合 |
 | ------ | ----------- | -------- |
@@ -103,7 +112,7 @@ Journey Optimizer B2B edition提供兩種型別的編輯器，可用於設計Web
 
    * 從頁面中選取任何現有元素，並[為網頁體驗](#modify-elements)修改它。
 
-   * [為元素新增點選追蹤](#click-tracking-for-web-experiences)，以測量參與度並收集深入分析。
+   * [為元素新增點選追蹤](#web-click-tracking)，以測量參與度並收集深入分析。
 
 1. 重複步驟2以載入您想要納入網頁體驗的其他頁面。 重複步驟3以定義頁面修改。
 
@@ -131,7 +140,7 @@ Journey Optimizer B2B edition提供兩種型別的編輯器，可用於設計Web
 
 針對選取的元素，右側面板中的屬性會變更，以反映可用的樣式和動作。 按一下面板頂端的動作圖示，即可複製、按一下追蹤、刪除或隱藏選取的元素。
 
-![按一下所選元素的動作圖示](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
+![按一下所選專案的動作圖示](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
 
 +++文字元素
 
@@ -171,7 +180,7 @@ Journey Optimizer B2B edition提供兩種型別的編輯器，可用於設計Web
 
 +++
 
-+++ 容器元素
++++容器元素
 
 1. 在頁面上選取容器元素。
 
@@ -196,8 +205,8 @@ Journey Optimizer B2B edition提供兩種型別的編輯器，可用於設計Web
 
 按一下顯示的按鈕之一來放置元件：
 
-* ***[!UICONTROL 插入在]**&#x200B;之前 — 將元件插入在選取的元素之前。
-* ***[!UICONTROL 插入在]**&#x200B;之後 — 在選取的元素之後插入元件。
+* **[!UICONTROL 插入在]**&#x200B;之前 — 將元件插入在選取的元素之前。
+* **[!UICONTROL 插入在]**&#x200B;之後 — 在選取的元素之後插入元件。
 
 若要取消選取要插入的元件型別，請按一下頁面頂端所顯示的內容藍色橫幅中的&#x200B;**[!UICONTROL ESC]**。
 
@@ -213,7 +222,7 @@ Journey Optimizer B2B edition提供兩種型別的編輯器，可用於設計Web
 
 1. 定義您要進行的第一個修改。
 
-   左側面板會顯示現有修改的清單（如果有的話）。 按一下[新增]&#x200B;**&#x200B;**&#x200B;以定義新的修改。 如果未定義任何修改，面板會預設為&#x200B;_[!UICONTROL 新增修改]_&#x200B;選項。
+   左側面板會顯示現有修改的清單（如果有的話）。 按一下[新增]****&#x200B;以定義新的修改。 如果未定義任何修改，面板會預設為&#x200B;_[!UICONTROL 新增修改]_&#x200B;選項。
 
    * 選擇&#x200B;**[!UICONTROL 修改型別]**：
 
@@ -224,11 +233,11 @@ Journey Optimizer B2B edition提供兩種型別的編輯器，可用於設計Web
 
    * 根據型別設定修改引數：
 
-      * **[!UICONTROL CSS選擇器]** — 輸入有效的CSS選擇器以鎖定特定元素。
-      * **[!UICONTROL 動作型別]** — 選擇要執行的動作（編輯、隱藏、刪除、插入、取代）。
-      * **[!UICONTROL 內容]** — 提供要套用的內容或樣式。
+     * **[!UICONTROL CSS選擇器]** — 輸入有效的CSS選擇器以鎖定特定元素。
+     * **[!UICONTROL 動作型別]** — 選擇要執行的動作（編輯、隱藏、刪除、插入、取代）。
+     * **[!UICONTROL 內容]** — 提供要套用的內容或樣式。
 
-1. 按一下[儲存]以套用修改。**&#x200B;**
+1. 按一下[儲存]以套用修改。****
 
 ### CSS選擇器修改
 
@@ -286,7 +295,7 @@ CSS選取器修改可讓您使用標準CSS選取器語法精確地鎖定元素�
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_experience_modifications"
 >title="輕鬆管理所有變更"
->abstract="使用此窗格，您可以瀏覽及管理網頁定義的所有調整和新增。"
+>abstract="使用此窗格，您可以瀏覽及管理為網頁定義的所有調整和新增。"
 
 您建立的所有修改都會受到追蹤，並可從視覺編輯器和非視覺編輯器的&#x200B;**[!UICONTROL 修改]**&#x200B;面板進行管理。 按一下左側工具列中的&#x200B;_[!UICONTROL 修改]_ <!-- ( ![Modifications icon](../assets/do-not-localize/icon-web-exp-modifications.svg) ) -->圖示以檢視所有修改。
 
@@ -306,7 +315,7 @@ CSS選取器修改可讓您使用標準CSS選取器語法精確地鎖定元素�
 
 1. 視需要更新修改屬性。
 
-1. 按一下[儲存]儲存變更。**&#x200B;**
+1. 按一下[儲存]儲存變更。****
 
 ### 刪除修改
 

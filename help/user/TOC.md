@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition 文件
 user-guide-description: 了解 Adobe Journey Optimizer B2B Edition，以及如何利用其內建的生成式 AI 和領先業界的自動化來協調帳戶和購買群組歷程。
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 84%
+source-wordcount: '443'
+ht-degree: 83%
 ---
 
 # Journey Optimizer B2B Edition 使用手冊 {#user}
@@ -70,7 +70,7 @@ ht-degree: 84%
     + [控管型範本](./content/email-authoring-governance.md)
     + [電子郵件重複資料刪除](./content/email-deduplication.md)
     + [電子郵件追蹤](./content/email-tracking-manage.md)
-  + 網路頻道(Beta) {#web-channel}
+  + 網頁管道 {#web-channel}
     + [概觀](./content/web-experiences.md)
     + [網站體驗設計](./content/web-experience-design.md)
     + [單頁應用程式](./content/web-single-page-applications.md)
@@ -172,6 +172,6 @@ ht-degree: 84%
     + [電子郵件組態](./admin/configure-channels-emails.md)
     + [簡訊設定](./admin/configure-channels-sms.md)
     + [WhatsApp設定](./admin/configure-channels-whatsapp.md)
-    + [Web頻道設定(Beta)](./admin/configure-channels-web.md)
+    + [Web頻道設定](./admin/configure-channels-web.md)
     + [登陸頁面設定](./admin/configure-channels-landing-pages.md)
     + [Forms設定](./admin/configure-channels-forms.md)

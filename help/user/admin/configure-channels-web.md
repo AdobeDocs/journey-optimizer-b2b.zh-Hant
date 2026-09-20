@@ -1,29 +1,33 @@
 ---
 title: Web頻道設定
-description: 瞭解如何設定Web通道設定，以定義Journey Optimizer B2B edition中內容傳遞的Web屬性和頁面比對規則。
+description: 瞭解如何設定Web通道設定，以定義Journey Optimizer B2B Edition中內容傳遞的Web屬性和頁面比對規則。
 feature: Setup, Channels
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
+badge: label="有限可用性" type="Informative"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 1a11805d02adb0084cc7ac377782632c940df584
 workflow-type: tm+mt
-source-wordcount: 1077
-ht-degree: 2%
-
+source-wordcount: '1049'
+ht-degree: 1%
 ---
-
 # Web頻道設定
 
 Web設定是由傳送內容的URL識別的Web屬性。 它可以比對單一頁面URL或多個頁面，讓網頁體驗可以跨一或多個網頁進行修改。 行銷人員需要這些設定，才能[在歷程中新增Web個人化動作節點](../content/web-experiences.md#create-a-web-experience)，以及[為行銷活動設計體驗修改](../content/web-experience-design.md)。
@@ -32,12 +36,11 @@ Web設定是由傳送內容的URL識別的Web屬性。 它可以比對單一頁�
 
 **先決條件**
 
-若要使用網路管道，您的網站必須實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
+若要使用網路管道，您的網站必須實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
 
-Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../admin/user-management.md#b2b-product-permissions)：
+Journey Optimizer B2B Edition中的Web頻道設定需要下列[許可權](../admin/user-management.md#b2b-product-permissions)：
 
-* _[!UICONTROL 頻道設定]_ > _[!UICONTROL 管理訊息預設集]_ — 建立、更新及刪除Web頻道設定所需。
-* _[!UICONTROL 頻道設定]_ > _[!UICONTROL 檢視訊息預設集]_ — 檢視Web頻道設定所需。
+* _[!UICONTROL 管理B2B通道設定]_
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +48,7 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
 1. 在左側導覽列中，移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**。
 
-1. 在導覽面板中的&#x200B;_[!UICONTROL Web]_&#x200B;下，選取&#x200B;**[!UICONTROL 頻道設定]**。
+1. 在導覽面板的&#x200B;_[!UICONTROL 一般設定]_&#x200B;下，選取&#x200B;**[!UICONTROL 頻道設定]**。
 
    ![存取Web Channel設定](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
@@ -63,7 +66,7 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
      ![選取單頁Web Channel設定的頁面URL](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則[&#128279;](#build-a-rule)的頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
+   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則](#build-a-rule)的[頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以儲存變更。
 
@@ -73,7 +76,7 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
 ## 頁面比對規則 {#pages-matching-rule}
 
-建立Web組態時，您可以建置符合規則&#x200B;_的_&#x200B;頁面，以鎖定多個符合相同規則的URL。 這些規則可讓您將相同的內容變更套用至多個頁面。
+建立Web組態時，您可以建置符合規則&#x200B;]_的_[!UICONTROL &#x200B;頁面，以鎖定多個符合相同規則的URL。 這些規則可讓您將相同的內容變更套用至多個頁面。
 
 例如，將變更套用至整個網站的主圖橫幅，或新增顯示在所有產品頁面上的最上方影像。
 
@@ -138,7 +141,7 @@ Journey Optimizer B2B edition中的Web頻道設定需要下列[許可權](../adm
 
 1. 按一下&#x200B;_更多功能表_&#x200B;圖示(**...**) 為變體選擇&#x200B;**[!UICONTROL 複製]**。
 
-   ![按一下[更多nenu]圖示以複製現有的Web Channel設定](./assets/config-web-channels-more-menu.png){width="450"}
+   ![按一下[更多]功能表圖示以複製現有的Web Channel設定](./assets/config-web-channels-more-menu.png){width="350"}
 
    此動作會建立重複的Web Channel，並在名稱后面附加`_Copy_nnn`。
 
