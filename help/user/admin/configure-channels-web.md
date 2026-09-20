@@ -66,7 +66,7 @@ Journey Optimizer B2B Edition中的Web頻道設定需要下列[許可權](../adm
 
      ![選取單頁Web Channel設定的頁面URL](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則](#build-a-rule)的[頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
+   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則[&#128279;](#build-a-rule)的頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以儲存變更。
 
@@ -76,7 +76,7 @@ Journey Optimizer B2B Edition中的Web頻道設定需要下列[許可權](../adm
 
 ## 頁面比對規則 {#pages-matching-rule}
 
-建立Web組態時，您可以建置符合規則&#x200B;]_的_[!UICONTROL &#x200B;頁面，以鎖定多個符合相同規則的URL。 這些規則可讓您將相同的內容變更套用至多個頁面。
+建立Web組態時，您可以建置符合規則&#x200B;_的_&#x200B;頁面，以鎖定多個符合相同規則的URL。 這些規則可讓您將相同的內容變更套用至多個頁面。
 
 例如，將變更套用至整個網站的主圖橫幅，或新增顯示在所有產品頁面上的最上方影像。
 
