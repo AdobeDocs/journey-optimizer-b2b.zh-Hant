@@ -28,7 +28,7 @@ TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G
 source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
-ht-degree: 4%
+ht-degree: 6%
 ---
 # 建立並管理您的品牌 {#brand-library}
 
@@ -171,7 +171,7 @@ ht-degree: 4%
 
 ### 發佈品牌
 
-當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] **&#x200B;**，讓您的品牌指引可用於內容對齊與產生。
+當您的品牌包含完整的定義集並符合您的需求時，請按一下[發佈] ****，讓您的品牌指引可用於內容對齊與產生。
 
 已發佈的品牌可從AI [品牌一致性分數](./content-evaluation.md#brand-alignment-score)和[內容產生工具](./generative-ai-content.md)中的&#x200B;**[!UICONTROL 品牌]**&#x200B;選項存取。
 
@@ -245,7 +245,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="寫作風格一致性分數"
->abstract="「書寫樣式」區段定義語言、格式和結構的標準。 一致性分數會顯示您的內容遵循這些指引的程度，並標示出需要改善的領域。"
+>abstract="「寫作風格」區段會定義語言、格式及結構的標準。 一致性分數會顯示您的內容對這些準則的遵循程度，並醒目標示需要改善的區域。"
 
 _[!UICONTROL 撰寫樣式]_&#x200B;定義概述撰寫內容的標準，並詳述如何使用語言、格式和結構來維持所有資料的清晰度、一致性和一致性。
 
@@ -289,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="視覺內容一致性分數"
->abstract="視覺內容一致性分數表示您的內容與設定之品牌準則的符合程度。 它有助於您評估一致性並找出需要改進的領域。"
+>abstract="視覺內容一致性分數表示您的內容與設定之品牌準則的符合程度。 它有助於您評估一致性並找出需要改進的區域。"
 
 _[!UICONTROL 視覺內容]_&#x200B;定義概述影像和設計標準，並詳細說明維持統一一致的品牌外觀所需的規格。
 
@@ -340,4 +340,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [視覺內容](#visual-content)
 
-1. 使用草稿更新時，請按一下[儲存]。**&#x200B;**，然後在準備取代&#x200B;_[即時]_&#x200B;版本時，按一下[發佈]。**&#x200B;**
+1. 使用草稿更新時，請按一下[儲存]。****，然後在準備取代&#x200B;_[即時]_&#x200B;版本時，按一下[發佈]。****
