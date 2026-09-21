@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
 workflow-type: tm+mt
-source-wordcount: '5637'
+source-wordcount: '5645'
 ht-degree: 61%
 ---
 # Journey Optimizer B2B Edition 發行說明
@@ -48,7 +48,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | _變體分割路徑_&#x200B;歷程節點 | （先前稱為帳戶歷程的Beta）行銷人員現在可以根據定義的百分比，將帳戶或人員指派至不同的歷程路徑，藉此測試帳戶或人員歷程中的變數。 [了解更多](../journeys/variant-split-paths-nodes.md) |
 | 功能 | C2PA中繼資料 | 使用產生式AI工具產生或編輯的影像現在會自動使用C2PA中繼資料簽署，協助您符合內容透明度和AI揭露要求。 [了解更多](../content/c2pa-metadata.md) |
 | 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 |
-| 增強功能 | 監聽事件觸發器和篩選器 — 帳戶歷程 | 帳戶歷程現在支援&#x200B;_接聽事件_&#x200B;節點中的多個觸發器和篩選器。 |
+| 增強功能 | 監聽事件觸發器和篩選器 — 帳戶歷程 | 對於帳戶歷程，現在可以使用&#x200B;_接聽具有_&#x200B;人員&#x200B;_事件型別的事件_&#x200B;節點中的多個觸發器和篩選器支援。 [了解更多](../journeys/listen-for-event-nodes.md) |
 | 增強功能 | 外部分割路徑節點 — 個人歷程 | 個人歷程現在支援&#x200B;_外部分割路徑_&#x200B;節點。 [了解更多](../journeys/external-nodes.md#external-action) |
 | 增強功能 | 外部動作節點 — 個人歷程 | 個人歷程現在支援&#x200B;_外部動作_&#x200B;節點。 [了解更多](../journeys/external-nodes.md#external-split-paths) |
 | 增強功能 | AEP關聯式資料集 | 新的關聯式資料集現在會和現有資料集一起出現在您的AEP沙箱中。 |
@@ -81,12 +81,12 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 登陸頁面 | Journey Optimizer B2B edition中有登陸頁面可支援歷程和程式&#x200B;_（原為Beta程式功能）_。 <ul><li>管理員可以設定登陸頁面子網域和預設集，以啟用登陸頁面發佈。 [了解更多](../admin/configure-channels-landing-pages.md)</li><li>行銷人員可以建立、設計和發佈登入頁面，以透過個人化的網頁內容支援其歷程。 [了解更多](../content/landing-pages.md)</li></ul> |
-| 功能 | 表單 | Journey Optimizer B2B edition現在支援可重複使用的表單元件，以便從登陸頁面&#x200B;_（先前為Beta程式功能）_&#x200B;提交資料。 <ul><li>管理員可使用不同的資料集和串流連線組合，設定多個表單預設集。 [了解更多](../admin/configure-channels-forms.md)</li><li>行銷人員現在可以定義可重複使用的表單元件，以擷取網頁訪客的資訊。 [了解更多](../content/forms.md)</li></ul> |
+| 功能 | 登陸頁面 | Journey Optimizer B2B Edition中有登陸頁面可支援歷程和程式&#x200B;_（原為Beta程式功能）_。 <ul><li>管理員可以設定登陸頁面子網域和預設集，以啟用登陸頁面發佈。 [了解更多](../admin/configure-channels-landing-pages.md)</li><li>行銷人員可以建立、設計和發佈登入頁面，以透過個人化的網頁內容支援其歷程。 [了解更多](../content/landing-pages.md)</li></ul> |
+| 功能 | 表單 | Journey Optimizer B2B Edition現在支援可重複使用的表單元件，以啟用從登陸頁面&#x200B;_（先前為Beta程式功能）_&#x200B;提交資料的功能。 <ul><li>管理員可使用不同的資料集和串流連線組合，設定多個表單預設集。 [了解更多](../admin/configure-channels-forms.md)</li><li>行銷人員現在可以定義可重複使用的表單元件，以擷取網頁訪客的資訊。 [了解更多](../content/forms.md)</li></ul> |
 | 功能 | 帳戶清單篩選器的成員 | 使用帳戶清單成員資格作為帳戶歷程中的協調點。 行銷人員可以建立帳戶封鎖清單、優先順序清單或其對象的任何其他型別的子集，並根據其成員資格在歷程中提供帳戶獨特的體驗。 |
 | 功能 | 體驗事件歷史記錄篩選 | 此功能可讓B2B歷程協調使用歷史參與度，推動受眾成員的行為型決策。 [了解更多](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | 功能 | 下一步最佳路徑歷程節點 | 您可以最佳化人員歷程的分割路徑決策，精簡在歷程啟動之前或執行階段中對象在路徑間的路由方式。 [了解更多](../journeys/next-best-path-node.md) |
-| 功能 | 電子郵件效能儀表板 | 「電子郵件效能」儀表板可讓行銷人員在Adobe Journey Optimizer B2B edition中統一檢視所有歷程的電子郵件活動。 [了解更多](../dashboards/email-performance-dashboard.md) |
+| 功能 | 電子郵件效能儀表板 | 電子郵件效能儀表板為行銷人員提供了在Adobe Journey Optimizer B2B Edition中所有歷程的電子郵件活動的統一檢視。 [了解更多](../dashboards/email-performance-dashboard.md) |
 | 增強功能 | Audience Agent B2B技能 | 更新Audience Agent B2B技能，包括AI支援的購買群組範本建立。 使用第一方意圖和角色對應來產生購買群組範本、檢閱AI建議的角色對角色對角色對角色對應，以及在發佈範本之前以自然語言調整範本。 [了解更多](../agents/audience-agent-b2b.md) |
 | 增強功能 | 歷程概觀儀表板 — 個人歷程 | 個人歷程(Beta)現在包含&#x200B;_[!UICONTROL 概觀]_&#x200B;索引標籤，其中包含與帳戶歷程相同的分析，包括歷程完成率分佈、依參與型別的歷程，以及鑽研和匯出動作。 [了解更多](../dashboards/journeys-dashboard.md) |
 | 增強功能 | 支援AEP關聯式資料集 | 新的關聯式資料集現在會和現有資料集一起出現在您的AEP沙箱中。 |
@@ -141,7 +141,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B edition中定義品牌，為創意團隊建立任何視覺或書面內容時提供可使用的真實來源。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 [了解更多](../content/brands-overview.md) |
+| 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B Edition中定義品牌，為創意團隊建立任何視覺或書面內容時提供可使用的真實來源。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 [了解更多](../content/brands-overview.md) |
 | 功能 | 用於產生電子郵件內容的品牌 | 您可以定義品牌指引，並使用此資訊產生電子郵件內容。 透過此功能，電子郵件內容會符合您特定品牌的文字撰寫指南、樣式和語調。 [了解更多](../content/generate-content-emails.md) |
 | 增強功能 | 歷程&#x200B;_等待_&#x200B;節點 — 進階設定 | 對於歷程中的&#x200B;_等待_&#x200B;節點，行銷人員現在可以指定退出日期和時間，並選取時區。 此增強功能可讓您更妥善地控制歷程協調和行銷活動時間。 [了解更多](../journeys/wait-nodes.md#advanced-wait-settings) |
 | 增強功能 | 購買群組成員篩選器 — 已移除 | 針對由人員&#x200B;_節點分割的_&#x200B;路徑，_[!UICONTROL 購買群組成員]_&#x200B;篩選器現在包含&#x200B;_已移除_&#x200B;限制。 選取時，篩選器可包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;_的_&#x200B;成員篩選器中使用此新限制。 |
@@ -153,13 +153,13 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 ## 代理式 AI 功能 {#rel-agents}
 
-下列代理程式AI功能現在可在聊天介面中用於Journey Optimizer B2B edition：
+下列代理程式AI功能現在可在聊天介面中用於Journey Optimizer B2B Edition：
 
 | 代理 | 更新 | 說明 |
 | ----- | ------ | ----------- |
 | 歷程建置代理 | 新增和更新 | 歷程建置代理會即時分析、構想並共同建立歷程，讓行銷人員可更快速地啟動、提高參與度並推動更高的轉換率。 [了解更多](../agents/journey-agent.md) |
 | Audience 代理 | 新版 | Audience 代理會使用結構化和非結構化資料，進行自動識別並建置購買群組。 此功能可協助行銷人員更快速且更準確地鎖定合適的人員。 [了解更多](../agents/audience-agent-b2b.md) |
-| 銷售限定詞 | 新版 | Sales Qualifier是Adobe Journey Optimizer B2B edition的AI驅動附加應用程式，其中包含Account Qualification Agent，旨在簡化業務開發代表(BDR)的工作流程。 它可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/sales-qualifier/using/home){target="_blank"} |
+| 銷售限定詞 | 新版 | Sales Qualifier是Adobe Journey Optimizer B2B Edition的AI驅動附加應用程式，其中包含Account Qualification Agent，旨在簡化業務開發代表(BDR)的工作流程。 它可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 發行說明 {#rel-2025-10}
 
@@ -185,11 +185,11 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 ### 更新的架構
 
-透過更新的架構，Journey Optimizer B2B edition和Marketo Engage已不再是位於相同的系統和資料存放區。 Journey Optimizer B2B edition會從Adobe Experience Platform接收資料。 但是仍要仰賴 Marketo Engage 的權限和部分設定功能來進行系統佈建和設定。
+透過更新的架構，Journey Optimizer B2B Edition和Marketo Engage已不再是位於相同的系統和資料存放區。 Journey Optimizer B2B Edition會從Adobe Experience Platform接收資料。 但是仍要仰賴 Marketo Engage 的權限和部分設定功能來進行系統佈建和設定。
 
 >[!NOTE]
 >
->舊版發行說明將此部署稱為&#x200B;*簡化架構*。 該模式現在是預設的Journey Optimizer B2B edition實施。
+>舊版發行說明將此部署稱為&#x200B;*簡化架構*。 該模式現在是預設的Journey Optimizer B2B Edition實施。
 
 此實作提供多項優點：
 
@@ -210,7 +210,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 多個Marketo Engage啟用 | 設定與遠端Marketo Engage執行個體的連線，並使用這些連線來設定歷程的Marketo Engage動作。 這些動作（例如從清單新增/移除人員，或將人員新增至請求促銷活動）適用於指定的Marketo Engage執行個體。 [了解更多](../admin/marketo-actions-connect.md) |
 | 功能 | 電子郵件疲勞重複資料刪除 | 您現在可以啟用電子郵件重複資料刪除，來確保不會在歷程中將相同的電子郵件多次傳送至相同地址。 重複地址會被封鎖，直到該電子郵件地址的第一個記錄完成歷程為止。  [了解更多](../content/email-deduplication.md) |
 | 增強功能 | 參與分數加權 — AEP事件 | 參與分數加權現在可以包含任何標準或自訂Experience Platform事件，並根據您的需求加權。 [了解更多](../admin/engagement-score-weighting.md) |
-| 增強功能 | 通訊限制 | 系統現在會遵守Marketo Engage和Journey Optimizer B2B edition的通訊限制。 [了解更多](../admin/configure-channels-emails.md#communication-limits) |
+| 增強功能 | 通訊限制 | 系統現在會遵守Marketo Engage和Journey Optimizer B2B Edition的通訊限制。 [了解更多](../admin/configure-channels-emails.md#communication-limits) |
 
 ## 2025.9 發行說明 {#rel-2025-9}
 
@@ -220,7 +220,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 電子郵件內容協同作業 | 行銷團隊現在可以在電子郵件資產的情境下，與其他Journey Optimizer B2B edition使用者進行註解及共同作業。 他們可以標籤團隊成員，以接收包含評論詳細資訊的電子郵件通知。 通知亦可採用即時簡短通知的形式。 [了解更多](../content/email-collaboration-tools.md) |
+| 功能 | 電子郵件內容協同作業 | 行銷團隊現在可以在電子郵件資產的情境下，與其他Journey Optimizer B2B Edition使用者進行註解及共同作業。 他們可以標籤團隊成員，以接收包含評論詳細資訊的電子郵件通知。 通知亦可採用即時簡短通知的形式。 [了解更多](../content/email-collaboration-tools.md) |
 | 功能 | 電子郵件設計的深色模式 | 電子郵件設計空間現在提供切換成&#x200B;_深色模式_&#x200B;的功能。 在深色模式下，您可以預覽電子郵件內容，並針對在深色模式下檢視電子郵件的收件者，定義要特別對其顯示的自訂設定。 [了解更多](../content/email-dark-mode.md) |
 | 增強功能 | 歷程 - 依特定角色中的人數分割路徑 | 使用「依帳戶分割路徑」節點，根據帳戶中擁有一個或多個購買群組角色的人數來鎖定帳戶。 在此路徑中，您可以根據角色深度評估購買群組對銷售警報和其他參與度的準備情況。 [了解更多](../journeys/split-merge-paths-nodes.md#buying-group-filtering-accounts) |
 | 增強功能 | 歷程 - 事件的人員篩選器 | 使用人員篩選器來監聽人員事件。 這些篩選器可以鎖定相符購買群組中的特定角色。 [了解更多](../journeys/listen-for-event-nodes.md#filters-people-event) |

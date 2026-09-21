@@ -1,38 +1,46 @@
 ---
 title: 網站體驗
-description: 建立、設計和發佈帳戶歷程的個人化Web體驗 — 在Journey Optimizer B2B edition中為網站訪客提供目標內容修改。
+description: 建立、設計和發佈帳戶歷程的個人化Web體驗 — 在Journey Optimizer B2B Edition中為網站訪客提供目標內容修改。
 feature: Content, Channels
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
+badge: label="有限可用性" type="Informative"
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
 autotag-review: '2026-05-27T16:20:23.362Z'
 TQID: 'https://experienceleague.adobe.com/iT1EdQiozvA7stSut7isr7ofdeLN5PKLUz-9q5OyPWs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Web experience
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 1544
+source-wordcount: '1503'
 ht-degree: 3%
-
 ---
-
 # 網站體驗
 
-Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站上建立個人化體驗，協助您以有意義的方式與客戶連結。 此功能提供一組彈性的工具，可用來增強與量身打造內容的互動，並順暢地與其他管道（例如電子郵件和簡訊）整合。
+Adobe Journey Optimizer B2B Edition中的Web頻道可讓您直接在您的網站上建立個人化體驗，協助您以有意義的方式與客戶連結。 此功能提供一組彈性的工具，可用來增強與量身打造內容的互動，並順暢地與其他管道（例如電子郵件和簡訊）整合。
 
 網頁體驗可讓您：
 
@@ -52,15 +60,15 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 * 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
 
 * 您擁有必要的[許可權](../admin/user-management.md#b2b-product-permissions)，才能在歷程中建立和管理網頁體驗：
-  * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 管理行銷活動]_ — 需要新增或更新Web個人化動作節點。
-  * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 檢視行銷活動]_ — 需要檢視Web個人化動作節點的詳細資料。
-  * _[!UICONTROL 行銷活動]_ > _[!UICONTROL 核准並發佈行銷活動]_ — 必須發佈具有一或多個Web個人化動作節點的歷程。
+  * _[!UICONTROL 作者B2B Web體驗]_
+  * _[!UICONTROL 管理B2B個人歷程]_
+  * _[!UICONTROL 管理B2B帳戶歷程]_
 
-* 您已為網頁瀏覽器安裝Adobe Experience Cloud [Visual Editing Helper瀏覽器擴充功能](#install-the-visual-editing-helper-extension)。 您必須使用此擴充功能，才能在Journey Optimizer B2B edition內容設計空間中，以可靠的方式開啟、編寫及預覽網頁。
+* 您已為網頁瀏覽器安裝Adobe Experience Cloud [Visual Editing Helper瀏覽器擴充功能](#install-the-visual-editing-helper-extension)。 您必須使用此擴充功能，才能在Journey Optimizer B2B Edition內容設計空間中以可靠的方式開啟、編寫及預覽網頁。
 
   >[!NOTE]
   >
-  >Google Chrome和Microsoft Edge是目前唯一支援在Journey Optimizer B2B edition中編寫網頁的瀏覽器。
+  >Google Chrome和Microsoft Edge是目前唯一支援在Journey Optimizer B2B Edition中編寫網頁的瀏覽器。
 
 >[!ENDSHADEBOX]
 
@@ -84,11 +92,11 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
    ![Google Chrome工具列中的Adobe Experience Cloud Visual Editing Helper擴充功能圖示](./assets/web-experience-google-chrome-adobe-visual-editing-extension-icon.png){width="450"}
 
-現在當網站在Journey Optimizer B2B edition網頁體驗視覺編輯器中開啟時，[!DNL Adobe Experience Cloud Visual Editing Helper]會自動啟用。 擴充功能沒有任何條件設定，且會自動處理所有設定，包括SameSite Cookie設定。
+現在當網站在Journey Optimizer B2B Edition網頁體驗視覺編輯器中開啟時，[!DNL Adobe Experience Cloud Visual Editing Helper]會自動啟用。 擴充功能沒有任何條件設定，且會自動處理所有設定，包括SameSite Cookie設定。
 
 >[!NOTE]
 >
->由於下列其中一個原因，某些網站可能無法可靠地在Journey Optimizer B2B edition網頁編輯器中開啟：
+>由於下列其中一個原因，某些網站可能無法可靠地在Journey Optimizer B2B Edition網頁編輯器中開啟：
 >
 >* 網站的安全性原則過於嚴格。
 >* 網站架設在 iFrame 中。
@@ -117,8 +125,6 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
    >名稱和說明欄位支援字母、數字和特殊字元。 保留的字元(`\ / : * ? " < > |`)是&#x200B;**_不允許_**。
 
    ![建立網站體驗對話方塊](./assets/web-experience-create-dialog.png){width="400"}
-
-<!-- What is this for? 1. Properties? -->
 
 1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;索引標籤中，輸入網頁體驗的說明。
 
@@ -172,7 +178,7 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
 在處理A中，使用內容編輯器為一半目標人口編寫網頁體驗。
 
-在處理B中，選取目標母體另一半的&#x200B;_[!UICONTROL 重新導向至URL]_&#x200B;選項。 輸入具有您在Journey Optimizer B2B edition外部所編寫替代設計的頁面URL。
+在處理B中，選取目標母體另一半的&#x200B;_[!UICONTROL 重新導向至URL]_&#x200B;選項。 輸入您於Journey Optimizer B2B Edition外部編寫之替代設計的頁面URL。
 
 ![設定訪客重新導向，將訪客重新導向至特定URL](./assets/web-experience-journey-node-content-visitor-redirection.png){width="500" zoomable="yes"}
 
@@ -180,7 +186,7 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 >
 >選取此選項後，網站預覽不會顯示，且&#x200B;_[!UICONTROL 視覺化編輯器]_&#x200B;切換功能已停用。
 
-當您的Web促銷活動上線時，您可以追蹤您在Journey Optimizer B2B edition中定義的Web體驗，針對使用重新導向至替代頁面的Web體驗執行情形。
+當您的Web促銷活動上線時，您可以針對使用重新導向至替代頁面的Web體驗，追蹤您在Journey Optimizer B2B Edition中定義的Web體驗的執行方式。
 
 ## 測試網路體驗
 
@@ -206,7 +212,7 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
 若要啟用Web體驗傳送，必須定義下列設定：
 
-* 在Adobe Experience Platform資料收集中，確定您已定義資料流。 確認已在Adobe Journey Optimizer服務下啟用Adobe Experience Platform B2B edition選項。
+* 在Adobe Experience Platform資料收集中，確定您已定義資料流。 確認已在Adobe Experience Platform服務下啟用Adobe Journey Optimizer B2B Edition選項。
 
   此設定可確保Adobe Experience Platform Edge可正確處理傳入事件。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)
 
@@ -214,10 +220,10 @@ Adobe Journey Optimizer B2B edition中的Web頻道可讓您直接在您的網站
 
   在Experience Platform的「客戶>設定檔>合併原則」功能表下，選取原則。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B edition傳入頻道使用此合併原則，在邊緣正確地啟用和發佈傳入網路體驗。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B Edition傳入頻道使用此合併原則，在邊緣正確地啟用和發佈傳入網路體驗。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 疑難排解
 
-您可以使用Adobe Experience Platform Assurance中的Edge Delivery檢視，針對Journey Optimizer B2B edition Web體驗的傳送進行疑難排解。 此外掛程式可讓您詳細檢查要求呼叫、驗證預期的邊緣呼叫，以及檢查設定檔資料。 此設定檔資料包含身分對應、區段會籍和同意設定。 您也可以檢閱要求的合格及不合格活動。
+您可以使用Adobe Experience Platform Assurance中的Edge Delivery檢視，針對Journey Optimizer B2B Edition Web體驗的傳送進行疑難排解。 此外掛程式可讓您詳細檢查要求呼叫、驗證預期的邊緣呼叫，以及檢查設定檔資料。 此設定檔資料包含身分對應、區段會籍和同意設定。 您也可以檢閱要求的合格及不合格活動。
 
 如需Assurance中Edge Delivery檢視的詳細資訊，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery)。
