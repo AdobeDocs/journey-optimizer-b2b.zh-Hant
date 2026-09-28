@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
+source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
 workflow-type: tm+mt
-source-wordcount: '5645'
+source-wordcount: '5708'
 ht-degree: 61%
 ---
 # Journey Optimizer B2B Edition 發行說明
@@ -37,6 +37,21 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 請檢視此[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，以了解有關權益、效能護欄及限制的資訊。
 
+## 2026.9版發行說明 {#rel-2026-9}
+
+**部署日期**：2026年9月25日
+
+| 類型 | 項目 | 說明 |
+| ---- | ---- | ----------- |
+| 功能 | 人員清單 | 現在提供靜態和動態人員清單，讓您可依定義的條件（例如人口統計屬性和體驗事件歷史記錄）鎖定設定檔。 |
+| 功能 | 服務健康情況儀表板 | 透過收整合功/錯誤量度並提供儀表板讓管理員監視服務效能，來追蹤外部動作的運作狀況。 |
+| 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 |
+
+>[!NOTE]
+>
+>這些版本變更從2026年9月25日開始部署，並分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
+
+
 ## 2026.8發行說明 {#rel-2026-8}
 
 **部署日期**：2026年8月14日
@@ -44,10 +59,8 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 個人歷程 | （舊稱Beta，為全面可用而提早部署）您現在可以建立歷程，利用Experience Platform受眾和資料策劃以潛在客戶為基礎的行銷。 [了解更多](../journeys/journeys-overview.md) |
-| 功能 | 人員清單 | 現在提供靜態和動態人員清單，讓您可依定義的條件（例如人口統計屬性和體驗事件歷史記錄）鎖定設定檔。 |
 | 功能 | _變體分割路徑_&#x200B;歷程節點 | （先前稱為帳戶歷程的Beta）行銷人員現在可以根據定義的百分比，將帳戶或人員指派至不同的歷程路徑，藉此測試帳戶或人員歷程中的變數。 [了解更多](../journeys/variant-split-paths-nodes.md) |
-| 功能 | C2PA中繼資料 | 使用產生式AI工具產生或編輯的影像現在會自動使用C2PA中繼資料簽署，協助您符合內容透明度和AI揭露要求。 [了解更多](../content/c2pa-metadata.md) |
-| 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 |
+| 功能 | C2PA 中繼資料 | 使用產生式AI工具產生或編輯的影像現在會自動使用C2PA中繼資料簽署，協助您符合內容透明度和AI揭露要求。 [了解更多](../content/c2pa-metadata.md) |
 | 增強功能 | 監聽事件觸發器和篩選器 — 帳戶歷程 | 對於帳戶歷程，現在可以使用&#x200B;_接聽具有_&#x200B;人員&#x200B;_事件型別的事件_&#x200B;節點中的多個觸發器和篩選器支援。 [了解更多](../journeys/listen-for-event-nodes.md) |
 | 增強功能 | 外部分割路徑節點 — 個人歷程 | 個人歷程現在支援&#x200B;_外部分割路徑_&#x200B;節點。 [了解更多](../journeys/external-nodes.md#external-action) |
 | 增強功能 | 外部動作節點 — 個人歷程 | 個人歷程現在支援&#x200B;_外部動作_&#x200B;節點。 [了解更多](../journeys/external-nodes.md#external-split-paths) |
@@ -144,7 +157,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B Edition中定義品牌，為創意團隊建立任何視覺或書面內容時提供可使用的真實來源。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 [了解更多](../content/brands-overview.md) |
 | 功能 | 用於產生電子郵件內容的品牌 | 您可以定義品牌指引，並使用此資訊產生電子郵件內容。 透過此功能，電子郵件內容會符合您特定品牌的文字撰寫指南、樣式和語調。 [了解更多](../content/generate-content-emails.md) |
 | 增強功能 | 歷程&#x200B;_等待_&#x200B;節點 — 進階設定 | 對於歷程中的&#x200B;_等待_&#x200B;節點，行銷人員現在可以指定退出日期和時間，並選取時區。 此增強功能可讓您更妥善地控制歷程協調和行銷活動時間。 [了解更多](../journeys/wait-nodes.md#advanced-wait-settings) |
-| 增強功能 | 購買群組成員篩選器 — 已移除 | 針對由人員&#x200B;_節點分割的_&#x200B;路徑，_[!UICONTROL 購買群組成員]_&#x200B;篩選器現在包含&#x200B;_已移除_&#x200B;限制。 選取時，篩選器可包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;_的_&#x200B;成員篩選器中使用此新限制。 |
+| 增強功能 | 購買群組成員篩選器 — 已移除 | 針對由人員&#x200B;_節點分割的_&#x200B;路徑，_[!UICONTROL 購買群組成員]_&#x200B;篩選器現在包含&#x200B;_已移除_&#x200B;限制。 選取時，篩選器可包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;]_的_[!UICONTROL &#x200B;成員篩選器中使用此新限制。 |
 | 增強功能 | 電子郵件設計 — 多級專案符號 | 電子郵件內容設計空間工具現在支援子專案符號（專案符號層級）。 |
 
 >[!NOTE]
