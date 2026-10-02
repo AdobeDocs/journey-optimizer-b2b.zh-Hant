@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
+source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
 workflow-type: tm+mt
-source-wordcount: '5708'
-ht-degree: 61%
+source-wordcount: '5744'
+ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition 發行說明
 
@@ -45,6 +45,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | ---- | ---- | ----------- |
 | 功能 | 人員清單 | 現在提供靜態和動態人員清單，讓您可依定義的條件（例如人口統計屬性和體驗事件歷史記錄）鎖定設定檔。 |
 | 功能 | 服務健康情況儀表板 | 透過收整合功/錯誤量度並提供儀表板讓管理員監視服務效能，來追蹤外部動作的運作狀況。 |
+| 增強功能 | 設定檔對象篩選的成員 | 此篩選器現在可用於人員歷程分割路徑條件、帳戶歷程人員分割路徑條件，以及根據受眾成員資格來包含或排除設定檔的人員清單。 |
 | 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 |
 
 >[!NOTE]
