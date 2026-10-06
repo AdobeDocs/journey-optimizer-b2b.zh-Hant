@@ -3,7 +3,6 @@ title: 個人受眾節點
 description: 使用區段或事件型對象設定人員對象節點，以定義Journey Optimizer B2B Edition中鎖定協調流程的人員歷程入口點。
 feature: Audiences
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -26,10 +25,10 @@ topic_v2:
     internal-label: Customer journeys
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 8e9c973d83ff0a6332af73f6cb95d251089e0775
+source-git-commit: 5e05bba998a9c322487bd68b41e0539074a7000d
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 1%
+source-wordcount: '641'
+ht-degree: 0%
 ---
 # 個人受眾歷程節點
 
@@ -39,7 +38,7 @@ _個人對象_&#x200B;節點會指定哪些人員設定檔進入歷程。 當您
 
 * **設定檔對象** — 使用CDP中定義的區段對象。 符合對象資格的所有設定檔都會新增為歷程的成員。 區段的新資格設定檔會在每日[設定檔擷取](#profile-ingestion)任務期間新增到歷程中。 如果設定檔不再符合區段的資格，就會&#x200B;**_不_**&#x200B;從歷程中移除。
 
-* **事件對象** — 使用合格事件來定義對象。 這些事件是在節點設定中定義，且必須使用在管理設定[&#128279;](../admin/configure-aep-events.md)中設定的XDM事件。 事件型對象會籍支援最多10個事件。 在設定檔採取的第一個相符事件之後，設定檔會立即符合歷程的資格。
+* **事件對象** — 使用合格事件來定義對象。 這些事件是在節點設定中定義，且必須使用在管理設定](../admin/configure-aep-events.md)中設定的[XDM事件。 事件型對象會籍支援最多10個事件。 在設定檔採取的第一個相符事件之後，設定檔會立即符合歷程的資格。
 
 ## 輪廓攝取
 
