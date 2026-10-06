@@ -1,31 +1,36 @@
 ---
 title: 個人受眾節點
-description: 使用區段或事件型對象設定個人對象節點，以定義Journey Optimizer B2B edition中鎖定協調的個人歷程進入點。
+description: 使用區段或事件型對象設定人員對象節點，以定義Journey Optimizer B2B Edition中鎖定協調流程的人員歷程入口點。
 feature: Audiences
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 8e9c973d83ff0a6332af73f6cb95d251089e0775
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '651'
 ht-degree: 1%
-
 ---
-
 # 個人受眾歷程節點
 
 _個人對象_&#x200B;節點會指定哪些人員設定檔進入歷程。 當您[建立個人歷程](./create-publish-journey.md#create-a-journey)時，歷程一律以定義其輸入的個人對象節點開始。 個人受眾節點可以有兩種受眾輸入型別之一：CDP區段或事件型會籍。 區段和事件型對象定義無法結合。
@@ -34,15 +39,11 @@ _個人對象_&#x200B;節點會指定哪些人員設定檔進入歷程。 當您
 
 * **設定檔對象** — 使用CDP中定義的區段對象。 符合對象資格的所有設定檔都會新增為歷程的成員。 區段的新資格設定檔會在每日[設定檔擷取](#profile-ingestion)任務期間新增到歷程中。 如果設定檔不再符合區段的資格，就會&#x200B;**_不_**&#x200B;從歷程中移除。
 
-* **事件對象** — 使用合格事件來定義對象。 這些事件是在節點設定中定義，且必須使用在管理設定[&#128279;](../admin/configure-aep-events.md)中設定的XDM事件。 事件型對象會籍支援最多10個事件。 在設定檔採取的第一個相符事件之後，設定檔會立即符合歷程的資格。
-
-  >[!NOTE]
-  >
-  >事件不能與設定檔屬性結合以縮小對象定義。 已規劃在未來版本中改善以解決此限制。
+* **事件對象** — 使用合格事件來定義對象。 這些事件是在節點設定中定義，且必須使用在管理設定](../admin/configure-aep-events.md)中設定的[XDM事件。 事件型對象會籍支援最多10個事件。 在設定檔採取的第一個相符事件之後，設定檔會立即符合歷程的資格。
 
 ## 輪廓攝取
 
-在Journey Optimizer B2B edition中，每晚的對象擷取工作會將設定檔與Experience Platform同步。 事件型個人歷程可讓不在由Journey Optimizer B2B edition使用的對象中的設定檔符合資格，但除非這些設定檔加入個人歷程、帳戶歷程或購買群組使用的對象，否則它們仍會過時。 如果擷取設定檔並稍後新增至對象，則會執行設定檔拼接，且設定檔會維持與Experience Platform同步。 已計畫在未來版本中改善此設定檔資料同步。
+在Journey Optimizer B2B Edition中，每晚的對象擷取任務會將設定檔與Experience Platform同步。 事件型個人歷程可讓不在由Journey Optimizer B2B Edition使用的受眾中的設定檔符合資格，但除非這些設定檔加入個人歷程、帳戶歷程或購買群組使用的受眾，否則它們仍會過時。 如果擷取設定檔並稍後新增至對象，則會執行設定檔拼接，且設定檔會維持與Experience Platform同步。 已計畫在未來版本中改善此設定檔資料同步。
 
 事件型人員歷程擷取的新建立設定檔可能會缺少擷取時更新的設定檔資訊。 例如，如果設定檔是透過表單填寫事件建立，則歷程擷取時，提交的資料可能不會同步至設定檔。 結果可能是個人化的不完整資料（例如電子郵件內容）。 已規劃在未來版本中改善此設定檔事件資料同步。
 
@@ -50,7 +51,7 @@ _個人對象_&#x200B;節點會指定哪些人員設定檔進入歷程。 當您
 
 >[!IMPORTANT]
 >
->在目前的Beta版計畫中，人員歷程的理想用途是僅限定您在帳戶歷程和購買群組定義中也會鎖定的設定檔。 此使用方式可確保完整設定檔保持與Experience Platform同步。
+>個人歷程的理想用途是僅限定您在帳戶歷程及購買群組定義中也會鎖定的設定檔。 此使用方式可確保完整設定檔保持與Experience Platform同步。
 
 ## 設定個人對象節點的對象
 
