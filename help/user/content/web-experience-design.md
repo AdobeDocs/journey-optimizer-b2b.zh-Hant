@@ -53,7 +53,7 @@ ht-degree: 4%
 
 * 產品管理員已設定一或多個網路通道，以定義要納入網路體驗的URL （頁面）。 如需詳細資訊，請參閱[網路通道設定](../admin/configure-channels-web.md)。
 
-* 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 需要Adobe Experience Platform Web SDK 2.16版或更高版本。
+* 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 需要Adobe Experience Platform Web SDK 2.16版或更高版本。
 
 * 您擁有必要的[許可權](../admin/user-management.md#b2b-product-permissions)，才能在歷程中建立和管理網頁體驗：
   * _[!UICONTROL 作者B2B Web體驗]_

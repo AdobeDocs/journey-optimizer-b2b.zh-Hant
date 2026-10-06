@@ -46,7 +46,7 @@ Adobe Experience Manager Cloud Manager已組織成多個方案，每個方案都
 
 ## 先決條件
 
-* 在AEM Headless Developer Console上針對所需的環境產生服務認證（[深入瞭解](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
+* 在AEM Headless Developer Console上針對所需的環境產生服務認證（[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
 * 取得連線所需的憑證。 最佳做法是確保憑證在到期前至少還有六個月。 憑證每365天過期一次。
 * Adobe Journey Optimizer B2B Edition支援一次存取一個數位資產管理來源。 切換之前，請確定Adobe Experience Manager中提供了所需的資產。
 

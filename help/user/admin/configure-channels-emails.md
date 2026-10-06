@@ -74,11 +74,11 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 
 ![存取品牌化網域設定](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-此設定會為連線的Marketo Engage執行個體中的一或多個工作區定義您的主要網域。 新電子郵件會使用此網域作為預設值，但行銷人員可以[根據每封電子郵件](../content/add-email.md#define-the-email-settings)覆寫它。 如需定義預設品牌定義域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
+此設定會為連線的Marketo Engage執行個體中的一或多個工作區定義您的主要網域。 新電子郵件會使用此網域作為預設值，但行銷人員可以[根據每封電子郵件](../content/add-email.md#define-the-email-settings)覆寫它。 如需定義預設品牌定義域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
 
 >[!NOTE]
 >
->如果您正在行銷多個品牌，且希望每個品牌都有自己的品牌追蹤連結，您可以新增額外的品牌網域。 如需新增多個品牌化網域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
+>如果您正在行銷多個品牌，且希望每個品牌都有自己的品牌追蹤連結，您可以新增額外的品牌網域。 如需新增多個品牌化網域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
 
 ### [!UICONTROL 自訂標頭選項] {#custom-header-options}
 
@@ -107,7 +107,7 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 
 例如，已定義每天五封電子郵件的限制，系統會隱藏第六封電子郵件，以確保一位聯絡人不會在一天內收到第六封電子郵件。 藉由Journey Optimizer B2B edition和Marketo Engage之間的共用通訊限制，可在同一位置定義通訊限制規則。 無論來自Journey Optimizer B2B edition或Marketo Engage的傳送動作為何，都會隱藏第六封電子郵件。
 
-所有Marketo Engage生產執行個體預設都有定義的通訊限制（如需詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}）。 您可以對 Journey Optimizer B2B Edition 和您的生產 Marketo Engage 執行個體使用個別的通訊限制。 若要使用共用通訊限制，請在Journey Optimizer B2B edition中定義規則，並將這些限制的共用延伸至Marketo Munchkin程式碼。
+所有Marketo Engage生產執行個體預設都有定義的通訊限制（如需詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}）。 您可以對 Journey Optimizer B2B Edition 和您的生產 Marketo Engage 執行個體使用個別的通訊限制。 若要使用共用通訊限制，請在Journey Optimizer B2B edition中定義規則，並將這些限制的共用延伸至Marketo Munchkin程式碼。
 
 >[!IMPORTANT]
 >
@@ -226,4 +226,4 @@ Marketo Engage使用兩種方法來確認機器人活動：
 >
 >若要在Adobe Marketo Engage中存取及編輯這些設定，您必須擁有產品管理員許可權。
 
-如需設定機器人活動選項的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
+如需設定機器人活動選項的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
