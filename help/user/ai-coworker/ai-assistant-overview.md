@@ -38,7 +38,7 @@ ht-degree: 8%
 ---
 # Journey Optimizer B2B Edition中的AI功能
 
-Adobe Journey Optimizer B2B Edition中的聊天介面是由與Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中的[AI助理相同的技術基礎所提供。 這是一種對話式體驗，可用來加速Journey Optimizer B2B Edition的工作流程。 您可以使用聊天介面進一步瞭解產品功能、疑難排解問題，或搜尋資訊並找到Journey Optimizer B2B Edition的營運深入分析。 您也可以使用此介面來叫用[Journey Agent](../agents/journey-agent.md)和[Audience Agent](../agents/audience-agent-b2b.md)。
+Adobe Journey Optimizer B2B Edition中的聊天介面是由與Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中的AI助理相同的技術基礎所提供。 這是一種對話式體驗，可用來加速Journey Optimizer B2B Edition的工作流程。 您可以使用聊天介面進一步瞭解產品功能、疑難排解問題，或搜尋資訊並找到Journey Optimizer B2B Edition的營運深入分析。 您也可以使用此介面來叫用[Journey Agent](../agents/journey-agent.md)和[Audience Agent](../agents/audience-agent-b2b.md)。
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ Sales Qualifier是AI驅動的應用程式，可與Journey Optimizer B2B Edition�
 
 ## Journey Optimizer B2B Edition中的AI助理功能
 
-為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料&#x200B;_**知識圖表**_&#x200B;的內部表示法，可提供特定答案的概念、資料和中繼資料的完整集合。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
+為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料&#x200B;_&#x200B;**知識圖表**&#x200B;_&#x200B;的內部表示法，可提供特定答案的概念、資料和中繼資料的完整集合。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
 
 * Adobe Experience League檔案。
 * 運算成品，例如結構描述、欄位、對象和歷程。

@@ -86,7 +86,7 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
 
 -->
 
-1. 按一下[下一步]****，然後按一下[儲存]****。
+1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
 
 ## 定義其他網域
 
@@ -122,7 +122,7 @@ Marketo Engage中的品牌化網域是自訂子網域（例如`links.yourcompany
     ![New Branding Domain dialog with workspace selection for applying the primary domain](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
 -->
 
-1. 按一下[下一步]****，然後按一下[儲存]****。
+1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
 
 ## 編輯現有品牌領域的SSL
 

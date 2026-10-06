@@ -166,7 +166,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 1. 選取&#x200B;**[!UICONTROL 實體]** > **[!UICONTROL 帳戶]**/**[!UICONTROL 連絡人]**/**[!UICONTROL 潛在客戶]** > **[!UICONTROL 欄位]**。
 1. 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;並設定新欄位。
 
-   連絡人實體](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}的![新欄位
+   連絡人實體![&#128279;](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}的新欄位
 
 1. 儲存欄位設定。
 1. 從&#x200B;_[!UICONTROL 解決方案]_&#x200B;索引標籤，選取&#x200B;**[!UICONTROL 網頁資源]**。
@@ -220,7 +220,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
    ![新增表單屬性](./assets/crm-linking-dynamics-url-form-properties.png){width="500" zoomable="yes"}
 
-1. 找到資源，選取該資源，然後按一下[新增]。****
+1. 找到資源，選取該資源，然後按一下[新增]。**&#x200B;**
 
    ![新增Web資源](./assets/crm-linking-dynamics-url-form-field-libraries.png){width="500" zoomable="yes"}
 
@@ -315,7 +315,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
 1. 按一下&#x200B;**[!UICONTROL 新增]**。
 
-1. 找到您建立的JScript Web資源(`new_getFormContext`)，選取它，然後按一下[新增]。****
+1. 找到您建立的JScript Web資源(`new_getFormContext`)，選取它，然後按一下[新增]。**&#x200B;**
 
    ![新增Web資源](./assets/crm-linking-dynamics-web-resources-add-form-property.png){width="500" zoomable="yes"}
 

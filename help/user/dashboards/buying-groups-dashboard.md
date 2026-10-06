@@ -90,7 +90,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ![依屬性篩選顯示的資料](./assets/buying-group-overview-filters.png){width="500"}
 
-選取您想要用來篩選資料的每個屬性值，並按一下[套用]。****
+選取您想要用來篩選資料的每個屬性值，並按一下[套用]。**&#x200B;**
 
 ## 與資料互動
 

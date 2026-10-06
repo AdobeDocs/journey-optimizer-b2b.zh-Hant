@@ -48,7 +48,7 @@ ht-degree: 10%
 1. 在歷程中，行銷人員會以兩種方式之一使用已設定的事件：
 
    * 新增&#x200B;_接聽事件_&#x200B;節點，[選取體驗事件](../journeys/listen-for-event-nodes.md#experience-events-account-people)以根據歷程期間的即時事件活動觸發歷程進展。
-   * 新增&#x200B;_依人員_&#x200B;節點分割的路徑，並在&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;資料夾的事件](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上設定[篩選的路徑。
+   * 新增&#x200B;_依人員_&#x200B;節點分割的路徑，並在&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;資料夾的事件[&#128279;](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上設定篩選的路徑。
 
 >[!BEGINSHADEBOX]
 

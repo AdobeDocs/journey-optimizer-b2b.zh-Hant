@@ -91,7 +91,7 @@ ht-degree: 0%
 
 1. 輸入欄位名稱和顯示名稱、設定型別、將其指派給欄位群組，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-1. 按一下[儲存]儲存結構描述變更。****
+1. 按一下[儲存]儲存結構描述變更。**&#x200B;**
 
    ![將emailTracking欄位新增至AEP結構描述同意欄位群組](./assets/email-tracking-xdm-field-aep-schema.png){width="800" zoomable="yes"}
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 ### 設定追蹤和非追蹤電子郵件變體 {#configure-tracking-and-non-tracking-email-variants}
 
-將[_[!UICONTROL 傳送電子郵件&#x200B;]_動作節點](./add-email.md)新增至每個路徑，讓每個人都能收到符合其追蹤偏好設定的電子郵件變體。
+將[_[!UICONTROL 傳送電子郵件&#x200B;]_&#x200B;動作節點](./add-email.md)新增至每個路徑，讓每個人都能收到符合其追蹤偏好設定的電子郵件變體。
 
 1. 在啟用追蹤的路徑上，新增&#x200B;**[!UICONTROL 傳送電子郵件]**&#x200B;動作，然後照常選取或建立電子郵件，保留&#x200B;**[!UICONTROL 停用開啟追蹤]**&#x200B;在電子郵件屬性中清除。
 

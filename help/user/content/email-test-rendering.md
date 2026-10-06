@@ -39,7 +39,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->這項整合僅適用於擁有Litmus Enterprise帳戶的Journey Optimizer B2B Edition使用者。 如需詳細資訊，請參閱Litmus網站](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}上的[解決方案頁面。
+>這項整合僅適用於擁有Litmus Enterprise帳戶的Journey Optimizer B2B Edition使用者。 如需詳細資訊，請參閱Litmus網站[&#128279;](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}上的解決方案頁面。
 
 1. 當您的電子郵件設計完成並準備好進行測試時，請在電子郵件設計空間按一下&#x200B;**[!UICONTROL 模擬內容]**。
 
