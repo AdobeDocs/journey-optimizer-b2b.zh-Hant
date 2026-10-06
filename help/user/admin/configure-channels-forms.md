@@ -7,22 +7,31 @@ autotag-review: '2026-05-27T16:06:59.553Z'
 TQID: 'https://experienceleague.adobe.com/GFW5SZ5Z-phoEIE6jTVD7EgwcT1Vx647mjoLXJejbFg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 542
-ht-degree: 3%
-
+source-wordcount: '542'
+ht-degree: 4%
 ---
-
 # Forms設定
 
 產品管理員必須先建立一或多個專用預設集，行銷人員才能[建立並發佈表單](../content/forms.md)以用於其登陸頁面。 每個預設集都會定義用來傳送表單提交資料的連線端點，以及用來儲存所擷取資料的資料集。
@@ -33,14 +42,14 @@ ht-degree: 3%
 
 ## 先決條件
 
-若要使用網路表單，您必須在Adobe Experience Platform中定義一或多個&#x200B;_&#x200B;**HTTP API串流連線**&#x200B;_。 請確定您要使用的每個連線都符合下列需求：
+若要使用網路表單，您必須在Adobe Experience Platform中定義一或多個&#x200B;_**HTTP API串流連線**_。 請確定您要使用的每個連線都符合下列需求：
 
 * 資料型別必須設定為XDM （非原始資料）
 * 必須停用驗證（未驗證的連線）
 
 如需建立串流來源連線的詳細資訊，請參閱&#x200B;[_Experience Platform檔案_](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http)。
 
-Journey Optimizer B2B edition中的Forms管道設定需要下列[許可權](../admin/user-management.md#b2b-product-permissions)：
+Journey Optimizer B2B Edition中的Forms管道設定需要下列[許可權](../admin/user-management.md#b2b-product-permissions)：
 
 * _[!UICONTROL B2B頻道設定]_ > _[!UICONTROL 檢視Forms預設集]_ — 檢視表單預設集設定所需。
 * _[!UICONTROL B2B頻道設定]_ > _[!UICONTROL 管理Forms預設集]_ — 建立、更新和刪除表單預設集設定為必要。
@@ -58,9 +67,9 @@ Journey Optimizer B2B edition中的Forms管道設定需要下列[許可權](../a
 
 * 每個串流連線都會自動產生資源，例如：
 
-   * _Source連線_ — 資料來源。
-   * _目標連線_ — 資料儲存或使用的位置。
-   * _Source流程_ — 將資料從來源連線移入Experience Platform的管道。 它會處理對應、轉換和驗證。
+  * _Source連線_ — 資料來源。
+  * _目標連線_ — 資料儲存或使用的位置。
+  * _Source流程_ — 將資料從來源連線移入Experience Platform的管道。 它會處理對應、轉換和驗證。
 
 ## 建立表單預設集
 

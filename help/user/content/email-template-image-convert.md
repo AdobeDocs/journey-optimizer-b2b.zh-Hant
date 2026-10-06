@@ -1,27 +1,32 @@
 ---
 title: 將影像轉換為電子郵件範本
-description: 使用Journey Optimizer B2B edition將影像檔案轉換為HTML電子郵件範本。 上傳PNG/JPEG檔案並自動產生可重複使用的電子郵件內容。
+description: 使用Journey Optimizer B2B Edition將影像檔案轉換為HTML電子郵件範本。 上傳PNG/JPEG檔案並自動產生可重複使用的電子郵件內容。
 feature: Email Authoring, Content
 exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
+autotag-review: 2026-03-30T22:06:11.745Z
+TQID: 'https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:06:11.745Z
-TQID: https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # 將影像轉換為電子郵件範本
 
 建立和更新電子郵件範本是行銷內容supply chain中的基本元件，但由於HTML的手動編碼，這些工作通常需要相當的時間和資源。 傳統上，行銷團隊會仰賴代理商或IT團隊開發這些範本。 新的電子郵件範本影像 — HTML工具可讓行銷人員將設計檔案轉換為HTML程式碼範本，藉此簡化此程式。 轉換後的HTML已準備好在電子郵件設計空間中進行進一步編輯。 此工具支援JPEG和PNG檔案型別，並具備拖放介面。
@@ -32,7 +37,7 @@ ht-degree: 0%
 
 **使用品牌主題**
 
-如果您的組織在Journey Optimizer B2B edition中定義了[品牌主題](./brand-themes.md)，您可以選取品牌主題作為輸入，以便產生的輸出HTML會根據品牌主題引數來設定樣式。 使用此輸入，樣式如背景顏色、按鈕顏色、字型、行距、邊界、邊框間距等將套用至產生的範本。  使用品牌主題有助於消除樣式和格式化的額外設計工作，並產生能以最少編輯次數使用的範本。
+如果您的組織在Journey Optimizer B2B Edition中定義了[品牌主題](./brand-themes.md)，您可以選取品牌主題作為輸入，以便產生的輸出HTML會根據品牌主題引數來設定樣式。 使用此輸入，樣式如背景顏色、按鈕顏色、字型、行距、邊界、邊框間距等將套用至產生的範本。  使用品牌主題有助於消除樣式和格式化的額外設計工作，並產生能以最少編輯次數使用的範本。
 
 >[!ENDSHADEBOX]
 

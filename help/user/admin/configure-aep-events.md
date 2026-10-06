@@ -5,45 +5,50 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+autotag-review: 2026-03-27T22:58:08.848Z
+TQID: 'https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:58:08.848Z
-TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1632
+source-wordcount: '1632'
 ht-degree: 10%
-
 ---
-
 # 選取體驗事件和欄位
 
-管理員可以在體驗事件聯合結構描述中，選取特定的Adobe Experience Platform (AEP) [體驗事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相關欄位。 選取後，使用者可以設定決策規則來監聽這些Experience事件，以根據近乎即時的事件資料啟用動態且鎖定的行銷活動動作。
+管理員可以在體驗事件聯合結構描述中，選取特定的Adobe Experience Platform (AEP) [體驗事件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相關欄位。 選取後，使用者可以設定決策規則來監聽這些Experience事件，以根據近乎即時的事件資料啟用動態且鎖定的行銷活動動作。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->在Journey Optimizer B2B edition中使用體驗事件和欄位需要已啟用設定檔的體驗事件結構。 如需詳細資訊，請參閱Experience Platform教學課程中的[啟用即時客戶設定檔](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
+>在Journey Optimizer B2B Edition中使用體驗事件和欄位需要啟用設定檔的體驗事件結構。 如需詳細資訊，請參閱Experience Platform教學課程中的[啟用即時客戶設定檔](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
 
 在歷程中使用AEP體驗事件有兩個步驟：
 
-1. 管理員[在AEP B2B edition設定中新增Journey Optimizer體驗事件和欄位](#add-an-event)。
+1. 管理員[在Journey Optimizer B2B Edition設定中新增AEP Experience事件和欄位](#add-an-event)。
 
 1. 在歷程中，行銷人員會以兩種方式之一使用已設定的事件：
 
    * 新增&#x200B;_接聽事件_&#x200B;節點，[選取體驗事件](../journeys/listen-for-event-nodes.md#experience-events-account-people)以根據歷程期間的即時事件活動觸發歷程進展。
-   * 新增&#x200B;_依人員_&#x200B;節點分割的路徑，並在&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;資料夾的事件[&#128279;](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上設定篩選的路徑。
+   * 新增&#x200B;_依人員_&#x200B;節點分割的路徑，並在&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;資料夾的事件](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)上設定[篩選的路徑。
 
 >[!BEGINSHADEBOX]
 
@@ -55,7 +60,7 @@ ht-degree: 10%
 
 * 歷程可以聆聽使用Experience Platform串流功能（例如Web SDK或HTTP API）擷取的體驗事件。
 
-* 當事件存在於Journey Optimizer B2B edition資料庫中時，歷史體驗事件資料會開始累計個人資料。 對於首次設定事件型別時已存在的人員，回填會在設定時開始。 對於新的人員，累積會在第一次新增人員時開始（無法回溯取得其先前的歷史記錄）。
+* 當事件存在於Journey Optimizer B2B Edition資料庫中時，歷史體驗事件資料會開始累積個人資料。 對於首次設定事件型別時已存在的人員，回填會在設定時開始。 對於新的人員，累積會在第一次新增人員時開始（無法回溯取得其先前的歷史記錄）。
 
 * 目前累計的事件歷程記錄沒有刪除機制。 長期保留原則可能會有所變更。
 
@@ -153,7 +158,7 @@ _[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件
 
 ## 事件和欄位 {#events-and-fields}
 
-針對[!DNL Journey Optimizer B2B Edition]，某些人員層級活動會擷取為[!DNL Experience Platform]個體驗事件。 這些事件儲存在使用XDM體驗事件結構描述並包含歷程特定欄位群組的系統資料集中。 您可以在[!UICONTROL Journey Optimizer B2B edition]中使用這些事件，就像任何其他體驗事件一樣。
+針對[!DNL Journey Optimizer B2B Edition]，某些人員層級活動會擷取為[!DNL Experience Platform]個體驗事件。 這些事件儲存在使用XDM體驗事件結構描述並包含歷程特定欄位群組的系統資料集中。 您可以在[!UICONTROL Journey Optimizer B2B Edition]中使用這些事件，就像任何其他體驗事件一樣。
 
 每個事件會顯示定義的一組欄位，可用於歷程&#x200B;_接聽事件_&#x200B;節點（根據事件進行決策）。 若要決定要在這些歷程節點中使用的事件和欄位，請檢閱可用的事件型別及其欄位：
 
@@ -491,5 +496,5 @@ _[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448694/?captions=chi_hant&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

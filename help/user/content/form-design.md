@@ -1,6 +1,6 @@
 ---
 title: 表單設計
-description: 在Journey Optimizer B2B edition中，針對商業資料收集設計具有欄位型別、驗證、樣式和XDM結構描述屬性的表單。
+description: 使用Journey Optimizer B2B Edition中用於商業資料收集的欄位型別、驗證、樣式和XDM結構描述屬性來設計表單。
 feature: Forms, Content Design Tools
 role: User
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
@@ -8,32 +8,42 @@ autotag-review: '2026-05-27T16:10:55.800Z'
 TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Web experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2190'
 ht-degree: 1%
-
 ---
-
 # 表單設計
 
 在您[建立表單](./forms.md#create-forms)之後，視覺化設計空間會開啟具有預設基本表單定義的草稿。 在右側的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，按一下&#x200B;**[!UICONTROL 編輯表單]**，並使用視覺化設計空間來定義表單樣式和欄位元件。
 
 ![表單設計空間](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-依預設，_&#x200B;**提交**&#x200B;_&#x200B;按鈕（頁尾欄位）是表單的一部分，無法移除。 您可以選取表單中的按鈕/頁尾元件以[變更按鈕](#submit-button)的文字和樣式。
+依預設，_**提交**_&#x200B;按鈕（頁尾欄位）是表單的一部分，無法移除。 您可以選取表單中的按鈕/頁尾元件以[變更按鈕](#submit-button)的文字和樣式。
 
 ## 欄位
 
@@ -75,7 +85,7 @@ ht-degree: 1%
    | ---------- | ----- |
    | **[!UICONTROL 核取方塊]** | 使用此型別，讓訪客可以選取&#x200B;_true_ （已核取）或&#x200B;_false_ （未核取）值。 |
    | **[!UICONTROL 核取方塊群組]** | 使用此型別，讓訪客可以為多個專案選取&#x200B;_true_ （已核取）或&#x200B;_false_ （未核取）值。 |
-   | **[!UICONTROL 貨幣]** | 使用此型別可允許代表為Journey Optimizer B2B edition執行個體選取的預設貨幣型別的浮點數欄位。 |
+   | **[!UICONTROL 貨幣]** | 使用此型別可允許代表Journey Optimizer B2B Edition執行個體所選預設貨幣型別的浮點欄位。 |
    | **[!UICONTROL 日期]** | 使用此型別將輸入限製為日期格式，並在欄位中提供行事曆選擇器。 |
    | **[!UICONTROL 雙倍]** | 儲存為IEEE 64位元（8位元組）浮點數的雙（雙精確度浮點）變數。 |
    | **[!UICONTROL 電子郵件]** | 使用此型別將輸入限製為電子郵件地址格式。 |

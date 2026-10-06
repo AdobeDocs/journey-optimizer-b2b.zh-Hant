@@ -1,33 +1,45 @@
 ---
 title: 內容個人化
-description: 在Journey Optimizer B2B edition中使用帳戶、人員和系統權杖，個人化B2B電子郵件。 瞭解如何使用個人化編輯器和語法。
+description: 使用Journey Optimizer B2B Edition中的帳戶、人員和系統權杖，個人化B2B電子郵件。 瞭解如何使用個人化編輯器和語法。
 feature: Personalization, Content Design Tools, Email Authoring
 topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: 運算式，編輯器，開始，個人化
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
+autotag-review: 2026-03-30T21:59:25.221Z
+TQID: 'https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjXb7YE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-autotag-review: 2026-03-30T21:59:25.221Z
-TQID: https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjXb7YE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: '751'
 ht-degree: 7%
-
 ---
-
 # 內容個人化 {#add-personalization}
 
 >[!CONTEXTUALHELP]
@@ -39,7 +51,7 @@ ht-degree: 7%
 
 使用&#x200B;_個人化編輯器_，您可以選取、排列、自訂及驗證所有資料，為您的內容建立自訂的個人化。 使用各種工具（例如協助程式功能）來量身打造訊息。 編輯器使用以&#x200B;_Handlebars_&#x200B;為基礎的內嵌個人化語法，其中運算式是以雙大括弧`{{}}`括住的內容所建構。
 
-處理訊息時，Journey Optimizer B2B edition會以Adobe Experience Platform資料集和本機系統值中包含的資料取代運算式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`會動態變成`Hello John Doe`。
+處理訊息時，Journey Optimizer B2B Edition會以Adobe Experience Platform資料集和本機系統值中包含的資料取代運算式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`會動態變成`Hello John Doe`。
 
 使用此語法，您可以跨多個欄位個人化訊息，包括電子郵件主旨列、訊息本文和寄件者資訊。
 
@@ -53,11 +65,11 @@ ht-degree: 7%
 
 * **系統權杖** — 這些權杖是以系統欄位值為基礎，例如&#x200B;_date_、_time_&#x200B;和&#x200B;_取消訂閱連結_。
 
-* **我的權杖** （為歷程定義時） — 為電子郵件所在的歷程[&#128279;](./personalization-my-tokens.md)定義的自訂權杖。
+* **我的權杖** （為歷程定義時） — 為電子郵件所在的歷程](./personalization-my-tokens.md)定義的[自訂權杖。
 
 >[!NOTE]
 >
->在[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中進一步瞭解XDM結構描述。
+>在[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中進一步瞭解XDM結構描述。
 
 ## 個人化編輯器
 
@@ -81,13 +93,13 @@ ht-degree: 7%
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->
 
-您也可以定義預設後援文字字串，當字串型別的設定檔屬性為空白時就會顯示。 按一下屬性的&#x200B;_更多功能表_ ( **...** )圖示，然後選取&#x200B;**[!UICONTROL 插入後援文字]**。 輸入設定檔的屬性值為空時所應顯示的文字，然後按一下[新增]。**&#x200B;**
+您也可以定義預設後援文字字串，當字串型別的設定檔屬性為空白時就會顯示。 按一下屬性的&#x200B;_更多功能表_ ( **...** )圖示，然後選取&#x200B;**[!UICONTROL 插入後援文字]**。 輸入設定檔的屬性值為空時所應顯示的文字，然後按一下[新增]。****
 
 最佳實務是在將運算式插入內容之前先驗證該運算式。 按一下編輯器底部的&#x200B;**[!UICONTROL 驗證]**，檢查您的語法並確保沒有錯誤。
 
 ![Personalization編輯器驗證碼](./assets/personalization-editor-validated.png){width="500"}
 
-當運算式完成且沒有錯誤時，請按一下[儲存]。**&#x200B;**
+當運算式完成且沒有錯誤時，請按一下[儲存]。****
 
 ### 自訂資料集
 

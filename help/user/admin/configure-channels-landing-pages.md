@@ -1,6 +1,6 @@
 ---
 title: 登陸頁面設定
-description: 設定登陸頁面子網域和預設集，讓行銷人員能夠在Journey Optimizer B2B edition中發佈登陸頁面。
+description: 設定登陸頁面子網域和預設集，讓行銷人員能夠在Journey Optimizer B2B Edition中發佈登陸頁面。
 feature: Setup, Landing Pages, Content
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
@@ -9,22 +9,33 @@ autotag-review: '2026-05-27T16:08:42.537Z'
 TQID: 'https://experienceleague.adobe.com/yYJUH3-uiNxk-lT4S6hpuMmntMg267ezc-gbsegu7vI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+    internal-label: Content structure
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: '1034'
 ht-degree: 21%
-
 ---
-
 # 登陸頁面設定
 
 管理員應確保為製作和發佈這些頁面的行銷人員設定登陸頁面。 有兩種設定型別需要用來打造能有效反映品牌並追蹤參與度的登入頁面：

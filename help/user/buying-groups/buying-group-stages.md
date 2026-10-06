@@ -1,29 +1,36 @@
 ---
 title: 購買群組階段
-description: 建立具有進入、成功和失敗階段的自訂購買群組階段模型，以追蹤進度並觸發Journey Optimizer B2B edition中的帳戶歷程動作。
+description: 建立具有進入、成功和失敗階段的自訂購買群組階段模型，以追蹤進度並觸發Journey Optimizer B2B Edition中的帳戶歷程動作。
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+autotag-review: 2026-03-30T21:47:43.205Z
+TQID: 'https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
-autotag-review: 2026-03-30T21:47:43.205Z
-TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Automated decisioning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2326
+source-wordcount: '2326'
 ht-degree: 2%
-
 ---
-
 # 購買群組階段
 
 購買群組階段的設計目的，是為了追蹤購買群組將機會轉換為客戶時的進度。 使用此功能來追蹤購買群組進度，並識別購買群組的下一個最佳動作。
@@ -42,7 +49,7 @@ ht-degree: 2%
 * 定義轉換流程
 * 指定專案階段和目的地階段
 
-僅支援一個模型；若要規劃最佳模型，請先與行銷和銷售團隊合作，再在Journey Optimizer B2B edition中建立和發佈模型。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+僅支援一個模型；若要規劃最佳模型，請先與行銷和銷售團隊合作，再在Journey Optimizer B2B Edition中建立和發佈模型。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 當您建立購買群組階段模型時，模型會自動顯示為&#x200B;_草稿_&#x200B;狀態，且無法刪除或重新命名。 當您定義階段並設定階段之間的轉換流程時，它會保持此狀態。 當模型處於已發佈（_即時_）狀態時，無法變更。
 
@@ -84,9 +91,9 @@ ht-degree: 2%
 
    重複此步驟，直到您具備模型所需的階段為止。
 
-   為模型![&#128279;](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定義的階段
+   為模型](assets/stages-model-stages-added.png){width="700" zoomable="yes"}定義的![階段
 
-1. 在您滿意已定義的階段後，請按一下[儲存]。**&#x200B;**
+1. 在您滿意已定義的階段後，請按一下[儲存]。****
 
    >[!IMPORTANT]
    >
@@ -104,7 +111,7 @@ ht-degree: 2%
 
    此動作會開啟&#x200B;_[!UICONTROL 編輯階段規則]_&#x200B;對話方塊，您可以在其中定義流程的邏輯。
 
-   當您設定選項時，有一些內建的護欄和傳訊功能，可協助您避免流程中出現邏輯錯誤。 您可以按一下[取消]__&#x200B;關閉對話方塊並返回[階段]_索引標籤頁，而不進行任何變更。_
+   當您設定選項時，有一些內建的護欄和傳訊功能，可協助您避免流程中出現邏輯錯誤。 您可以按一下[取消]__&#x200B;關閉對話方塊並返回[階段]]_索引標籤頁，而不進行任何變更。_[!UICONTROL 
 
 1. 在&#x200B;_[!UICONTROL 選取階段]_&#x200B;區段中，指定流程的開始和結束階段：
 
@@ -159,7 +166,7 @@ ht-degree: 2%
 
    * 捲動至底部，然後按一下&#x200B;**[!UICONTROL 新增階段]**，視需要為模型定義新的階段。
 
-1. 在您滿意已定義的階段後，請按一下[儲存]。**&#x200B;**
+1. 在您滿意已定義的階段後，請按一下[儲存]。****
 
    您也可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;關閉對話方塊，並返回模型詳細資訊頁面，而不做任何變更。
 
@@ -171,7 +178,7 @@ ht-degree: 2%
 
    請參閱[設定工作流程和轉換規則](#configure-the-workflow-and-transition-rules)，以取得有關這些選項以及它們如何影響模型流程的詳細資訊。
 
-1. 當您對已定義的轉換規則感到滿意時，請按一下[儲存]。**&#x200B;**
+1. 當您對已定義的轉換規則感到滿意時，請按一下[儲存]。****
 
    您也可以按一下&#x200B;_[!UICONTROL 取消]_&#x200B;關閉對話方塊，並返回模型詳細資訊頁面，而不做任何變更。
 
@@ -292,7 +299,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 在右側的節點屬性中，選擇&#x200B;**[!UICONTROL 人員]**&#x200B;進行分割。
 
-   保留用於條件&#x200B;_的_&#x200B;屬性的預設值&#x200B;**[!UICONTROL 僅保留為]**&#x200B;人員屬性。
+   保留用於條件&#x200B;]_的_[!UICONTROL &#x200B;屬性的預設值&#x200B;**[!UICONTROL 僅保留為]**&#x200B;人員屬性。
 
 1. 若要定義適用於&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下&#x200B;**[!UICONTROL 套用條件]**。
 
@@ -336,7 +343,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 若要更新購買群組階段，請定義動作。
 
-   * 若要在帳戶&#x200B;**上執行**&#x200B;動作，請選取&#x200B;**[!UICONTROL 更新購買群組階段]**。
+   * 若要在帳戶&#x200B;]**上執行**[!UICONTROL &#x200B;動作，請選取&#x200B;**[!UICONTROL 更新購買群組階段]**。
 
    * 針對&#x200B;**[!UICONTROL 選取方案興趣]**，選取與購買群組階段模型相關聯的方案。
 
@@ -380,4 +387,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3448705/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

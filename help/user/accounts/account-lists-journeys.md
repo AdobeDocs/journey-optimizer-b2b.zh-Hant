@@ -1,26 +1,33 @@
 ---
 title: 在歷程中使用帳戶清單
-description: 在Journey Orchestration中使用帳戶清單，並在Journey Optimizer B2B edition中動態新增/移除帳戶。
+description: 在journey orchestration中使用帳戶清單，並在Journey Optimizer B2B Edition中動態新增/移除帳戶。
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
+autotag-review: 2026-03-27T22:29:03.719Z
+TQID: 'https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e935834c-48b7-43d8-b754-a815196a1b05
+    internal-label: Account lists
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-27T22:29:03.719Z
-TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 417
+source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 # 在歷程中使用帳戶清單
 
 您有多種方式可以將即時（已發佈）帳戶清單合併到帳戶歷程中。
@@ -35,7 +42,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 新增帳戶清單]**。
 
-1. 選取帳戶清單的核取方塊，然後按一下[儲存]。**&#x200B;**
+1. 選取帳戶清單的核取方塊，然後按一下[儲存]。****
 
    ![選取帳戶對象節點的帳戶清單選項](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
 
@@ -51,9 +58,9 @@ ht-degree: 0%
 >
 >如果節點執行時帳戶已在清單中，則會忽略動作。
 
-1. 選取&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;上的_&#x200B;動作選項。
+1. 選取&#x200B;]_**[!UICONTROL 帳戶]**上的_[!UICONTROL &#x200B;動作選項。
 
-1. 若為帳戶&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至帳戶清單]**。
+1. 若為帳戶&#x200B;]_上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至帳戶清單]**。
 
    ![選取[新增至帳戶清單]](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
@@ -73,9 +80,9 @@ ht-degree: 0%
 >
 >如果帳戶不在排定移除的清單中，則會忽略動作。
 
-1. 選取&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;上的_&#x200B;動作選項。
+1. 選取&#x200B;]_**[!UICONTROL 帳戶]**上的_[!UICONTROL &#x200B;動作選項。
 
-1. 若為帳戶&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 從帳戶清單移除]**。
+1. 若為帳戶&#x200B;]_上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 從帳戶清單移除]**。
 
    ![選取[從帳戶清單移除]](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 

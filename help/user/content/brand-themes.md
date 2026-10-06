@@ -1,32 +1,44 @@
 ---
 title: 對電子郵件內容使用品牌主題
-description: 建立電子郵件和範本的自訂品牌主題 — 在Journey Optimizer B2B edition中定義色彩、字型、間距和按鈕，以實現一致設計。
+description: 建立電子郵件和範本的自訂品牌主題 — 在Journey Optimizer B2B Edition中定義色彩、字型、間距和按鈕，以達成一致設計。
 feature: Email Authoring, Brand Identity, Content Design Tools
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，可重複使用，品牌一致性，電子郵件設計
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
+autotag-review: 2026-03-30T21:49:24.359Z
+TQID: 'https://experienceleague.adobe.com/d3dPmwhMxG9ARxbIzw-lHl1vHbPB1xHazCLEVZbTJAY'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-autotag-review: 2026-03-30T21:49:24.359Z
-TQID: https://experienceleague.adobe.com/d3dPmwhMxG9ARxbIzw-lHl1vHbPB1xHazCLEVZbTJAY
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Content and assets
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 3111
-ht-degree: 3%
-
+source-wordcount: '3088'
+ht-degree: 2%
 ---
-
 # 在電子郵件內容中使用品牌主題 {#email-brand-themes}
 
 >[!CONTEXTUALHELP]
@@ -93,7 +105,7 @@ ht-degree: 3%
 
    當您定義新的主題設定時，畫布上的視覺元素會變更。 如果結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-1. 當您的佈景主題定義完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的佈景主題定義完成時，請按一下[儲存]。****
 
 1. 按一下&#x200B;**[!UICONTROL 關閉]**&#x200B;返回&#x200B;_[!UICONTROL 建立主題]_&#x200B;頁面，然後按&#x200B;**[!UICONTROL 取消]**&#x200B;返回設計頁面。
 
@@ -261,7 +273,7 @@ ht-degree: 3%
 
 顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右面板底部的&#x200B;_復原_ （ ![復原圖示](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ）圖示。 按一下「_重做_」（「![重做」圖示](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）圖示以重新套用變更。
 
-當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >
@@ -295,7 +307,7 @@ ht-degree: 3%
 
    顯示的視覺元素會隨著您變更設定而變更。 如果畫布上的結果不是您想要的結果，您可以按一下右邊欄底部的&#x200B;_還原_&#x200B;圖示。 按一下&#x200B;_重做_&#x200B;圖示以重新套用變更。
 
-1. 當您的主題變更完成時，請按一下[儲存]。**&#x200B;**
+1. 當您的主題變更完成時，請按一下[儲存]。****
 
 >[!NOTE]
 >

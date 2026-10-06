@@ -19,9 +19,13 @@ feature_v2:
     internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
     internal-label: Email channel
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,7 +34,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ec55e33d1db9aa7ecf488e2898564f89df702789
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 0%
@@ -85,7 +91,7 @@ ht-degree: 0%
 
 1. 輸入欄位名稱和顯示名稱、設定型別、將其指派給欄位群組，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-1. 按一下[儲存]儲存結構描述變更。**&#x200B;**
+1. 按一下[儲存]儲存結構描述變更。****
 
    ![將emailTracking欄位新增至AEP結構描述同意欄位群組](./assets/email-tracking-xdm-field-aep-schema.png){width="800" zoomable="yes"}
 
@@ -113,7 +119,7 @@ ht-degree: 0%
 
 ### 設定追蹤和非追蹤電子郵件變體 {#configure-tracking-and-non-tracking-email-variants}
 
-將[_[!UICONTROL 傳送電子郵件&#x200B;]_&#x200B;動作節點](./add-email.md)新增至每個路徑，讓每個人都能收到符合其追蹤偏好設定的電子郵件變體。
+將[_[!UICONTROL 傳送電子郵件&#x200B;]_動作節點](./add-email.md)新增至每個路徑，讓每個人都能收到符合其追蹤偏好設定的電子郵件變體。
 
 1. 在啟用追蹤的路徑上，新增&#x200B;**[!UICONTROL 傳送電子郵件]**&#x200B;動作，然後照常選取或建立電子郵件，保留&#x200B;**[!UICONTROL 停用開啟追蹤]**&#x200B;在電子郵件屬性中清除。
 

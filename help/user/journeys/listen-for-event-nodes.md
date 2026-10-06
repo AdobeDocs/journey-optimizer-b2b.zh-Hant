@@ -4,12 +4,17 @@ description: 設定帳戶和人員觸發器的事件節點 — 在Journey Optimi
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+autotag-review: 2026-03-30T23:08:46.228Z
+TQID: 'https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
     internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,9 +24,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: 2026-03-30T23:08:46.228Z
-TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 8295db0f508acc0b28feabdf95f1ccb71f2afc12
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 5%
@@ -196,7 +199,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 若為個人歷程，您可以使用B2B個人資料屬性中的變更來觸發&#x200B;_接聽事件_&#x200B;節點。
 
-1. 從&#x200B;**2&rbrace;觸發器&#x200B;_清單，將[!UICONTROL 人員設定檔變更]**&#x200B;拖放至事件相符產生器空間。_
+1. 從**2}觸發器&#x200B;]_清單，將[!UICONTROL 人員設定檔變更]**拖放至事件相符產生器空間。_[!UICONTROL 
 
 1. 按一下&#x200B;**[!UICONTROL 新增限制]**，然後選取您要用於事件觸發器的屬性變更。
 
@@ -218,7 +221,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 >[!PREREQUISITES]
 >
->管理員會設定[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。
+>管理員會設定[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。
 >
 >若要讓體驗事件可用於歷程，產品管理員必須先在[!DNL Journey Optimizer B2B Edition]中[新增感興趣的事件型別和欄位](../admin/configure-aep-events.md#add-an-event)。
 
@@ -250,7 +253,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 ## 事件篩選器 {#filters-people-event}
 
-當您在帳戶歷程[&#128279;](#people-events)中定義[個人事件，或在個人歷程](#person-journeys)中定義個人事件時，您可以包含篩選功能，以根據各種條件限制相符的事件觸發器：
+當您在帳戶歷程](#people-events)中定義[個人事件，或在個人歷程](#person-journeys)中定義[個人事件時，您可以包含篩選功能，以根據各種條件限制相符的事件觸發器：
 
 | 篩選器 | 說明 |
 | ------------ | ----------- |
@@ -317,5 +320,5 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?captions=chi_hant&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

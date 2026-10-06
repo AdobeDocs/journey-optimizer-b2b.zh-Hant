@@ -1,6 +1,6 @@
 ---
 title: 產生登陸頁面內容
-description: 產生登入頁面內容 — 在Journey Optimizer B2B edition中使用您的參考資產和購買群組角色鎖定目標建立頁面文字和影像。
+description: 產生登入頁面內容 — 在Journey Optimizer B2B Edition中使用您的參考資產和購買群組角色目標定位建立頁面文字和影像。
 feature: Generative AI, Landing Pages, Content
 topic: Artificial Intelligence
 role: User
@@ -25,6 +25,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
@@ -32,7 +34,7 @@ topic_v2:
     internal-label: Accessibility
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
     internal-label: Content production
-source-git-commit: d8451ab306de70decd11909676d6d9aaf667d466
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2599'
 ht-degree: 0%
@@ -55,7 +57,7 @@ ht-degree: 0%
 
 開始使用此功能之前，請先檢閱[准則和限制](./generative-ai-content.md#general-guidelines-and-limitations)。 [在[!DNL Journey Optimizer B2B Edition]中使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-為了提高generative AI的透明度，Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/tw/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}套用至Firefly產生的資產。
+為了提高generative AI的透明度，Adobe在下載或匯出時將[內容認證](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}套用至Firefly產生的資產。
 
 下列限制和准則適用於[!DNL Journey Optimizer B2B Edition]中登入頁面所使用的內容產生功能：
 
@@ -163,7 +165,7 @@ ht-degree: 0%
 
 1. (Beta)選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;來定義您的[可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;來定義您的[可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中，輸入要產生的專案說明。
 
@@ -179,7 +181,7 @@ ht-degree: 0%
    * [**[!UICONTROL 影像設定]**](#image-settings) — 如果您想要在產生的內容中包含影像，請啟用影像產生並提供指引。
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供作為內容產生來源的內容資產。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
 1. 在「產生內容」面板中向下捲動，並瀏覽產生的變數來決定最適合的變數。
 
@@ -207,7 +209,7 @@ ht-degree: 0%
 
 1. (Beta)選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中，輸入要產生的專案說明。
 
@@ -219,7 +221,7 @@ ht-degree: 0%
 
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供做為內容產生來源的內容資產。
 
-1. 當您的提示和設定就緒時，請按一下[產生]。**&#x200B;**
+1. 當您的提示和設定就緒時，請按一下[產生]。****
 
 1. 在「產生內容」面板中向下捲動，並瀏覽產生的變數來決定哪一個最適合。
 
@@ -247,7 +249,7 @@ ht-degree: 0%
 
 1. (Beta)選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。
 
-   如果沒有已發佈的品牌，請按一下[建立品牌] **&#x200B;**&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
+   如果沒有已發佈的品牌，請按一下[建立品牌] ****&#x200B;以[定義可重複使用的品牌准則](./brands-overview.md)。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中輸入您想要的描述。
 
@@ -259,7 +261,7 @@ ht-degree: 0%
 
    * [**[!UICONTROL 參考內容]**](#reference-content) — 提供做為內容產生來源的內容資產。
 
-1. 當您對提示和設定感到滿意時，請按一下[產生]。**&#x200B;**
+1. 當您對提示和設定感到滿意時，請按一下[產生]。****
 
    「產生內容」會處理請求，並根據提示和其他輸入產生最適合的影像。
 
@@ -271,13 +273,13 @@ ht-degree: 0%
 
    此對話方塊提供額外的空間來比較變化、調整影像和參考內容設定（如果需要），以及重新產生變化。
 
-   您可以選取變數並按一下&#x200B;**[!UICONTROL 產生類似專案]**&#x200B;以產生與所選變數類似的其他影像。 或者，按一下[在Adobe Express中編輯] **&#x200B;**，自行變更影像。 如需使用Adobe Express調整影像的詳細資訊，請參閱[Adobe Express中的快速動作](./image-edit-adobe-express.md#quick-actions-in-adobe-express)。
+   您可以選取變數並按一下&#x200B;**[!UICONTROL 產生類似專案]**&#x200B;以產生與所選變數類似的其他影像。 或者，按一下[在Adobe Express中編輯] ****，自行變更影像。 如需使用Adobe Express調整影像的詳細資訊，請參閱[Adobe Express中的快速動作](./image-edit-adobe-express.md#quick-actions-in-adobe-express)。
 
    ![產生文字變化與細分選項的內容預覽](./assets/email-designer-generate-content-image-refine.png){width="700" zoomable="yes"}
 
    您也可以[針對產生的變化，提交意見反應](#submit-variation-feedback)。
 
-1. 反白顯示您想要的影像，然後按一下「選取&#x200B;**&#x200B;**」以選取的專案取代影像或預留位置，並返回登陸頁面設計空間。
+1. 反白顯示您想要的影像，然後按一下「選取&#x200B;****」以選取的專案取代影像或預留位置，並返回登陸頁面設計空間。
 
    您可以使用畫布上的編輯和格式化工具來更改影像，以及右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;選項。
 

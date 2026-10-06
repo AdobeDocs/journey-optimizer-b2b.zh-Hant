@@ -1,32 +1,40 @@
 ---
 title: 角色對應
-description: 瞭解如何為B2B行銷設定角色對應。 在Journey Optimizer B2B edition中對應人員屬性以建立角色範本，並最佳化購買群組目標定位。
+description: 瞭解如何為B2B行銷設定角色對應。 在Journey Optimizer B2B Edition中對應人員屬性以建立角色範本，並最佳化購買群組目標定位。
 feature: Setup, Buying Groups
 role: Admin
 exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
+autotag-review: 2026-03-27T22:59:15.291Z
+TQID: 'https://experienceleague.adobe.com/4cluYiSNQFIHT8sx2CuKMonlohM1qmQsAeCdxz5Hu0U'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:59:15.291Z
-TQID: https://experienceleague.adobe.com/4cluYiSNQFIHT8sx2CuKMonlohM1qmQsAeCdxz5Hu0U
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 914
+source-wordcount: '914'
 ht-degree: 2%
-
 ---
-
 # 人物誌對應
 
-角色是以帳戶為基礎的行銷(ABM)方法中的關鍵面向，角色可協助行銷人員根據目標帳戶中個人的特定需求、偏好和痛點調整策略。 行銷人員可以為每個角色建立詳細的設定檔，包括其背景、責任、痛點和偏好的通訊管道。 透過這些定義，管理員可以根據Journey Optimizer B2B edition中的人員屬性來設定角色，讓角色範本可以使用簡化且一致的角色條件來擷取這些角色。
+角色是以帳戶為基礎的行銷(ABM)方法中的關鍵面向，角色可協助行銷人員根據目標帳戶中個人的特定需求、偏好和痛點調整策略。 行銷人員可以為每個角色建立詳細的設定檔，包括其背景、責任、痛點和偏好的通訊管道。 透過這些定義，管理員可以根據Journey Optimizer B2B Edition中的人員屬性來設定角色，讓角色範本可以使用簡化且一致的角色條件來擷取這些角色。
 
 <!--
  Currently there is no insight into what persona goes into what role. With buying group agent, when asked questions about, what should be the size of the buying group, what persona should be in that buying group, what role do they play, etc, then agent will analyze all the data, (opportunity data, engagement data, sales conversation, etc) and informs the user that the buying group needs 7 persona, e.g.CMO, VP of marketing, marketing leader, Marketing ops, etc.

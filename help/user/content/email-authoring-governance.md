@@ -1,27 +1,32 @@
 ---
 title: 從控管範本作者
-description: 從包含鎖定內容的控管範本製作電子郵件 — 識別可編輯區域，並在Journey Optimizer B2B edition的控管限制內運作。
+description: 從包含鎖定內容的控管範本製作電子郵件 — 識別可編輯區域，並在Journey Optimizer B2B Edition中的控管限制內運作。
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
+autotag-review: 2026-03-30T22:35:16.900Z
+TQID: 'https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:35:16.900Z
-TQID: https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 273
+source-wordcount: '273'
 ht-degree: 1%
-
 ---
-
 # 從控管範本中作者
 
 內容設計工具可以在建立電子郵件範本時啟用[治理（_內容鎖定_）](./template-content-governance.md)。 治理功能可讓他們指定在帳戶歷程中使用時無法變更的設計部分。 當您[選取已儲存的範本](./email-authoring.md#select-a-template)來製作電子郵件時，視覺設計空間會載入範本，以便您能將其用作電子郵件的基礎。

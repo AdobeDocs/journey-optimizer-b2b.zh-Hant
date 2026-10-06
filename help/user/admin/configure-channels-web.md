@@ -5,6 +5,8 @@ feature: Setup, Channels
 role: Admin
 badge: label="有限可用性" type="Informative"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
+autotag-review: 2026-03-27T23:15:46.632Z
+TQID: 'https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -13,6 +15,11 @@ feature_v2:
     internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -21,9 +28,7 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-autotag-review: 2026-03-27T23:15:46.632Z
-TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 1a11805d02adb0084cc7ac377782632c940df584
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -36,7 +41,7 @@ Web設定是由傳送內容的URL識別的Web屬性。 它可以比對單一頁�
 
 **先決條件**
 
-若要使用網路管道，您的網站必須實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
+若要使用網路管道，您的網站必須實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
 
 Journey Optimizer B2B Edition中的Web頻道設定需要下列[許可權](../admin/user-management.md#b2b-product-permissions)：
 
@@ -66,7 +71,7 @@ Journey Optimizer B2B Edition中的Web頻道設定需要下列[許可權](../adm
 
      ![選取單頁Web Channel設定的頁面URL](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則[&#128279;](#build-a-rule)的頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
+   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置符合規則](#build-a-rule)的[頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以儲存變更。
 
@@ -76,7 +81,7 @@ Journey Optimizer B2B Edition中的Web頻道設定需要下列[許可權](../adm
 
 ## 頁面比對規則 {#pages-matching-rule}
 
-建立Web組態時，您可以建置符合規則&#x200B;_的_&#x200B;頁面，以鎖定多個符合相同規則的URL。 這些規則可讓您將相同的內容變更套用至多個頁面。
+建立Web組態時，您可以建置符合規則&#x200B;]_的_[!UICONTROL &#x200B;頁面，以鎖定多個符合相同規則的URL。 這些規則可讓您將相同的內容變更套用至多個頁面。
 
 例如，將變更套用至整個網站的主圖橫幅，或新增顯示在所有產品頁面上的最上方影像。
 

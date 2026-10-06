@@ -1,29 +1,37 @@
 ---
 title: In-CRM Insights
-description: 直接在CRM中存取Journey Optimizer B2B edition購買群組。 銷售團隊成員可以使用In-CRM Insights檢視參與資料並識別銷售機會。
+description: 直接在CRM中存取Journey Optimizer B2B Edition購買群組。 銷售團隊成員可以使用In-CRM Insights檢視參與資料並識別銷售機會。
 feature: Sales Insights, Buying Groups
 role: User
 exl-id: c55a1fce-2ddc-481b-9f60-5e67a4bf9633
+autotag-review: 2026-03-30T21:40:22.011Z
+TQID: 'https://experienceleague.adobe.com/HfypAUMJxZyWaQlkknyxUn63x5uVqcfJU-pzXcDWYBs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-30T21:40:22.011Z
-TQID: https://experienceleague.adobe.com/HfypAUMJxZyWaQlkknyxUn63x5uVqcfJU-pzXcDWYBs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '483'
 ht-degree: 1%
-
 ---
-
 # In-CRM Insights
 
 [!DNL In-CRM Insights]是整合至Salesforce和Microsoft Dynamics 365的網頁型應用程式，可讓您直接在您的CRM中存取[!DNL Journey Optimizer B2B Edition]個購買群組。 這項服務將銷售資料來源彙整在一起，可讓您更輕鬆地找出提升參與度和銷售潛力的機會。
@@ -44,8 +52,8 @@ ht-degree: 1%
 
 如果您想要將使用者限製為僅[!DNL In-CRM Insights]：
 
-1. 建立[自訂角色](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)，並為其指派&#x200B;**Sales Insights：檢視Sales Insights**&#x200B;許可權。
-1. 建立新的[使用者群組](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
+1. 建立[自訂角色](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)，並為其指派&#x200B;**Sales Insights：檢視Sales Insights**&#x200B;許可權。
+1. 建立新的[使用者群組](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)。
 1. 將Experience Platform產品設定檔新增至群組。
 
 ### 安裝套件
@@ -60,10 +68,10 @@ ht-degree: 1%
 
    ![安裝In-CRM Insights套件](assets/incrm-install-sf.png){width=500}
 
-1. 在對話方塊中核准協力廠商存取權，然後按一下[繼續]。**&#x200B;**
+1. 在對話方塊中核准協力廠商存取權，然後按一下[繼續]。****
 1. 安裝完成時，按一下&#x200B;**[!UICONTROL 完成]**。
 
-   它現在列在&#x200B;**已安裝的套件**&#x200B;頁面上，而&#x200B;**Journey Optimizer B2B edition**&#x200B;列在App啟動器中。
+   它現在列在&#x200B;**已安裝的套件**&#x200B;頁面上，而&#x200B;**Journey Optimizer B2B Edition**&#x200B;列在App啟動器中。
 
    ![在Salesforce中設定的In-CRM Insights](assets/in-crm-install-sf-done.png){width=800 zoomable="yes"}
 
@@ -73,10 +81,10 @@ ht-degree: 1%
 1. 移至[Power Apps入口網站](https://make.powerapps.com/){target=_blank}。
 1. 登入後，請選取封裝的環境，然後從左側功能表導覽至&#x200B;**[!UICONTROL 解決方案]**。
 1. 按一下&#x200B;**[!UICONTROL 匯入方案]**。
-1. 瀏覽並上傳安裝程式套件，然後按一下[下一步] **&#x200B;**。
+1. 瀏覽並上傳安裝程式套件，然後按一下[下一步] ****。
 1. 驗證封裝詳細資料，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 1. 在&#x200B;_環境變數_&#x200B;下，確認值已設定為`prod` （不要變更值），然後按一下&#x200B;**[!UICONTROL 匯入]**。
-1. 安裝完成時，左側導覽列中會顯示&#x200B;**[!UICONTROL Journey Optimizer B2B edition]** > **[!UICONTROL 購買群組]**。
+1. 安裝完成時，左側導覽列會顯示&#x200B;**[!UICONTROL Journey Optimizer B2B Edition]** > **[!UICONTROL 購買群組]**。
 
    在Microsoft Dynamics中可以使用![In-CRM Insights](assets/incrm-ms-install-done.png){width=800 zoomable="yes"}
 
@@ -84,4 +92,4 @@ ht-degree: 1%
 
 依照提示登入您的Adobe帳戶。 您的購買群組已載入並可供檢視。
 
-選取購買群組後，您可以瀏覽[群組詳細資料](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 這與Journey Optimizer B2B edition中顯示的資料和深入分析相同，但資料透過[!DNL In-CRM Insights]唯讀。
+選取購買群組後，您可以瀏覽[群組詳細資料](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)。 這與Journey Optimizer B2B Edition中顯示的資料和深入分析相同，但資料透過[!DNL In-CRM Insights]唯讀。

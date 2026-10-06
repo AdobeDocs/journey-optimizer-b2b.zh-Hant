@@ -4,26 +4,36 @@ description: 設定電子郵件傳遞設定、通訊限制和驗證通訊協定�
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+autotag-review: 2026-03-27T22:54:31.660Z
+TQID: 'https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:54:31.660Z
-TQID: https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1787
+source-wordcount: '1787'
 ht-degree: 97%
-
 ---
-
 # 電子郵件通道設定
 
 Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和事件追蹤功能。 管理員應確保有傳送和追蹤設定，以啟用行銷人員的管道傳送。 如需有關透過Marketo Engage傳送電子郵件及追蹤所需通訊協定的資訊，請參閱[追蹤及電子郵件傳送通訊協定](../start/email-protocols.md)。
@@ -44,7 +54,7 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 
 ### [!UICONTROL 電子郵件標頭引數] {#email-header}
 
-電子郵件標頭引數會定義下列專案的預設值：
+電子郵件標頭參數會定義下列專案的預設值：
 
 * **[!UICONTROL 寄件者電子郵件]** — 列在電子郵件標頭的&#x200B;_寄件者_&#x200B;欄位中的電子郵件地址。
 
@@ -64,11 +74,11 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 
 ![存取品牌化網域設定](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-此設定會為連線的Marketo Engage執行個體中的一或多個工作區定義您的主要網域。 新電子郵件會使用此網域作為預設值，但行銷人員可以[根據每封電子郵件](../content/add-email.md#define-the-email-settings)覆寫它。 如需定義預設品牌定義域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
+此設定會為連線的Marketo Engage執行個體中的一或多個工作區定義您的主要網域。 新電子郵件會使用此網域作為預設值，但行銷人員可以[根據每封電子郵件](../content/add-email.md#define-the-email-settings)覆寫它。 如需定義預設品牌定義域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}。
 
 >[!NOTE]
 >
->如果您正在行銷多個品牌，且希望每個品牌都有自己的品牌追蹤連結，您可以新增額外的品牌領域名稱。 如需新增多個品牌化網域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
+>如果您正在行銷多個品牌，且希望每個品牌都有自己的品牌追蹤連結，您可以新增額外的品牌網域。 如需新增多個品牌化網域的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}。
 
 ### [!UICONTROL 自訂標頭選項] {#custom-header-options}
 
@@ -80,11 +90,11 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 
 ## 通訊限制
 
-通訊限制可控制連絡人從您的組織收到的電子郵件數量。 您設定的上限會在Journey Optimizer B2B edition和連線的Marketo Engage執行個體之間共用。 設定這些限制可確保某個潛在客戶在指定時間內不會收到超過最大數量的電子郵件。
+通訊限制可控制連絡人從您的組織收到的電子郵件數量。 您設定的上限會在Journey Optimizer B2B edition和連線的Marketo Engage執行個體之間共用。 設定這些限制可確保某個銷售線索在指定時間內不會收到超過最大數量的電子郵件。
 
 >[!AVAILABILITY]
 >
->請聯絡Adobe支援或開啟支援票證，以啟用Journey Optimizer B2B edition與一或多個Marketo Engage執行個體之間的通訊限制共用。
+>請聯絡 Adobe 支援或開啟支援票證，以啟用 Journey Optimizer B2B Edition 與一或多個 Marketo Engage 執行個體之間的通訊限制共用。
 
 >[!BEGINSHADEBOX]
 
@@ -97,7 +107,7 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 
 例如，已定義每天五封電子郵件的限制，系統會隱藏第六封電子郵件，以確保一位聯絡人不會在一天內收到第六封電子郵件。 藉由Journey Optimizer B2B edition和Marketo Engage之間的共用通訊限制，可在同一位置定義通訊限制規則。 無論來自Journey Optimizer B2B edition或Marketo Engage的傳送動作為何，都會隱藏第六封電子郵件。
 
-所有Marketo Engage生產執行個體預設都有定義的通訊限制（如需詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}）。 您可以對Journey Optimizer B2B edition和您的生產Marketo Engage執行個體使用個別的通訊限制。 若要使用共用通訊限制，請在Journey Optimizer B2B edition中定義規則，並將這些限制的共用延伸至Marketo Munchkin程式碼。
+所有Marketo Engage生產執行個體預設都有定義的通訊限制（如需詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}）。 您可以對 Journey Optimizer B2B Edition 和您的生產 Marketo Engage 執行個體使用個別的通訊限制。 若要使用共用通訊限制，請在Journey Optimizer B2B edition中定義規則，並將這些限制的共用延伸至Marketo Munchkin程式碼。
 
 >[!IMPORTANT]
 >
@@ -123,7 +133,7 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 
 1. 根據您想要為限制定義時間週期的方式，選擇&#x200B;**[!UICONTROL 重設上限頻率]**&#x200B;值。
 
-   您可以選擇每小時&#x200B;_[!UICONTROL 、_[!UICONTROL &#x200B;每日&#x200B;]_、_[!UICONTROL &#x200B;每週&#x200B;]_&#x200B;或_[!UICONTROL &#x200B;每月&#x200B;]_。]_
+   您可以選擇每小時&#x200B;_[!UICONTROL 、_[!UICONTROL &#x200B;每日&#x200B;]_、_[!UICONTROL &#x200B;每週&#x200B;]_或_[!UICONTROL &#x200B;每月&#x200B;]_。]_
 
    ![存取通訊限制設定](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
 
@@ -179,15 +189,15 @@ Adobe Journey Optimizer B2B edition可運用Marketo Engage中的管道功能和�
 
 ### DKIM設定
 
-DKIM是一種驗證通訊協定，電子郵件接收者使用它來驗證電子郵件訊息的寄件者。 這通常可以改善電子郵件傳送至收件匣的能力，因為接收者可以確信郵件並非偽造。
+DKIM是一種驗證通訊協定，電子郵件接收者使用它來驗證電子郵件訊息的寄件者。 這通常可以改善電子郵件傳送至收件匣的傳遞能力，因為接收者可以確信郵件並非偽造。
 
-當您的DNS記錄中有公開金鑰，且在連線的Marketo Engage執行個體中啟用了傳送網域時，自訂DKIM簽署將用於外寄訊息。 自訂DKIM簽署包含加密的數位簽名，以及傳送的每封電子郵件。 然後，接收者就可以在您傳送網域的DNS中查詢&#x200B;_公開金鑰_，以解密數位簽章。 如果電子郵件中的金鑰與DNS記錄中的金鑰相對應，則接收郵件伺服器更有可能接受透過Marketo Engage傳送的電子郵件。
+當您的DNS記錄中有公開金鑰，且在連線的Marketo Engage執行個體中啟用了傳送網域時，自訂DKIM簽署將用於外寄訊息。 自訂 DKIM 簽署在傳送的每封電子郵件中都包含加密的數位簽名。 然後，接收者就可以在您傳送網域的DNS中查詢&#x200B;_公開金鑰_，以解密數位簽章。 如果電子郵件中的金鑰與DNS記錄中的金鑰相對應，則接收郵件伺服器更有可能接受透過Marketo Engage傳送的電子郵件。
 
 如需針對電子郵件傳遞設定自訂DKIM簽章的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}。
 
 ## 機器人活動
 
-電子郵件機器人活動可能會讓您的電子郵件開啟膨脹，並按一下資料。
+電子郵件機器人活動可能會錯誤地誇大您的電子郵件開啟和點按資料。
 
 Marketo Engage使用兩種方法來確認機器人活動：
 
@@ -195,12 +205,12 @@ Marketo Engage使用兩種方法來確認機器人活動：
 
 * **符合近似程度模式** — 當兩個或多個活動同時發生（在一秒內）時，會將它們識別為機器人。 此方法會考量下列屬性以進行比較：
 
-   * 銷售機會ID （應相同）
-   * 電子郵件資產（應相同）
-   * 連結點選或電子郵件開啟
-   * 時間差異（應小於1秒）
+  * 銷售機會ID （應相同）
+  * 電子郵件資產（應相同）
+  * 連結點擊或電子郵件開啟
+  * 時間差異（應小於1秒）
 
-對於電子郵件連結點選和電子郵件開啟活動，新屬性會填入以下值：
+對於電子郵件連結點擊和電子郵件開啟活動，新屬性會填入以下值：
 
 * 識別為機器人的活動將&#x200B;_機器人活動_&#x200B;設為`True`，並將&#x200B;_機器人活動模式_&#x200B;設為識別的模式/方法。
 * 識別為不是機器人的活動將&#x200B;_機器人活動_&#x200B;設為`False`，將&#x200B;_機器人活動模式_&#x200B;設為`N/A`。
@@ -216,4 +226,4 @@ Marketo Engage使用兩種方法來確認機器人活動：
 >
 >若要在Adobe Marketo Engage中存取及編輯這些設定，您必須擁有產品管理員許可權。
 
-如需設定機器人活動選項的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。
+如需設定機器人活動選項的詳細資訊，請參閱[Marketo Engage檔案](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}。

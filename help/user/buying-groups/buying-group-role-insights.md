@@ -1,29 +1,38 @@
 ---
 title: 角色分析控制面板
-description: 瞭解「角色分析」儀表板，其可追蹤Journey Optimizer B2B edition中跨購買群組的角色贏取和參與。
+description: 瞭解「角色分析」儀表板，其可追蹤Journey Optimizer B2B Edition中各個購買群組的角色贏取和參與情形。
 feature: Buying Groups, Dashboards, Engagement
 role: User
 exl-id: 045a217f-a905-4286-804b-2717bb1d5e5d
+autotag-review: 2026-03-30T21:42:19.942Z
+TQID: 'https://experienceleague.adobe.com/xRMS6mwKZiighUHay7kxg5-m6o9Fr8Ohuk94weyLrmI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+subfeature_v2:
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-30T21:42:19.942Z
-TQID: https://experienceleague.adobe.com/xRMS6mwKZiighUHay7kxg5-m6o9Fr8Ohuk94weyLrmI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '622'
 ht-degree: 1%
-
 ---
-
 # 角色分析控制面板
 
 「角色深入分析」儀表板可讓您檢視購買群組角色在一段時間內的演變和參與程度。 它可協助行銷人員瞭解角色贏取趨勢、參與模式，以及最近的行銷活動如何促進購買群組內不同角色的參與。
@@ -50,7 +59,7 @@ ht-degree: 1%
 
 角色深入分析的![篩選器對話方塊](./assets/roles-insights-filter-dialog.png){width="400"}
 
-針對每個屬性，選取您要用來篩選資料的值，然後按一下[套用]。**&#x200B;**
+針對每個屬性，選取您要用來篩選資料的值，然後按一下[套用]。****
 
 ## [!UICONTROL 一段時間內的角色贏取]
 
@@ -97,7 +106,7 @@ ht-degree: 1%
 
 ### [!UICONTROL 鑽研]
 
-若要依角色&#x200B;_進行_&#x200B;參與，請選擇&#x200B;**[!UICONTROL 鑽研]**，依角色和解決方案興趣深入分析參與。
+若要依角色&#x200B;]_進行_[!UICONTROL &#x200B;參與，請選擇&#x200B;**[!UICONTROL 鑽研]**，依角色和解決方案興趣深入分析參與。
 
 套用至控制面板的全域篩選器會移轉過來。 按一下左上方的&#x200B;_篩選器_ （![篩選器圖示](../assets/do-not-localize/icon-filter.svg)）圖示至[變更鑽研檢視的屬性篩選器](#filter-the-data)。
 

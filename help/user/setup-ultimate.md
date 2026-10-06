@@ -1,36 +1,49 @@
 ---
 title: 設定檢查清單
-description: 設定Journey Optimizer B2B edition。 設定XDM結構描述、電子郵件/簡訊頻道、Marketo Engage歷程動作和使用者。
+description: 設定Journey Optimizer B2B Edition。 設定XDM結構描述、電子郵件/簡訊頻道、Marketo Engage歷程動作和使用者。
 feature: Setup, Administration
 role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
+autotag-review: '2026-03-27T22:15:07.682Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 847
+source-wordcount: '847'
 ht-degree: 73%
-
 ---
-
 # 設定檢查清單
 
-Adobe Journey Optimizer B2B edition是以Adobe Experience Platform為建置基礎。 透過此實作，Journey Optimizer B2B edition和Marketo Engage並非位於相同系統或相同資料存放區。 Journey Optimizer B2B edition會從Experience Platform接收資料。 但是，它繼續仰賴Marketo Engage許可權和部分後端功能（例如電子郵件傳送）來布建和設定系統。
+Adobe Journey Optimizer B2B Edition是以Adobe Experience Platform為基礎。 透過此實作，Journey Optimizer B2B Edition和Marketo Engage並非位於相同系統或相同資料存放區。 Journey Optimizer B2B Edition會從Experience Platform接收資料。 但是，它繼續仰賴Marketo Engage許可權和部分後端功能（例如電子郵件傳送）來布建和設定系統。
 
 <!-- 
 >>[!NOTE]
@@ -38,7 +51,7 @@ Adobe Journey Optimizer B2B edition是以Adobe Experience Platform為建置基�
 >Earlier documentation referred to this deployment as the *simplified architecture*. That model is now the Journey Optimizer B2B Edition Ultimate implementation. 
 -->
 
-此實施是啟用Journey Optimizer B2B edition功能的基礎：
+此實施是啟用Journey Optimizer B2B Edition功能的基礎：
 
 * **統一並擴充您的資料：**&#x200B;系統支援複雜的資料模型，包括自訂物件、購買群組和帳戶事件。
 
@@ -50,7 +63,7 @@ Adobe Journey Optimizer B2B edition是以Adobe Experience Platform為建置基�
 
 使用下列准則進行設定。
 
-使用此檢查清單來完成Journey Optimizer B2B edition設定。
+使用此檢查清單來完成Journey Optimizer B2B Edition設定。
 
 ## &#x200B;1. 產生B2B名稱空間和結構描述
 
@@ -282,7 +295,7 @@ Adobe Journey Optimizer B2B edition是以Adobe Experience Platform為建置基�
 <td><a href="./admin/configure-channels-sms.md">了解更多</a></td>
 </tr>
 <tr>
-<td colspan="2">Journey Optimizer B2B edition的<strong>登陸頁面</strong>管道設定。</td>
+<td colspan="2">Journey Optimizer B2B Edition的<strong>登陸頁面</strong>管道設定。</td>
 <td></td>
 </tr>
 <tr>
@@ -297,7 +310,7 @@ Adobe Journey Optimizer B2B edition是以Adobe Experience Platform為建置基�
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
 <td>設定您的企業網站以支援Adobe Experience Platform Web SDK。</td>
-<td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview">了解更多</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">了解更多</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="核取方塊"/></td>
@@ -314,7 +327,7 @@ Adobe Journey Optimizer B2B edition是以Adobe Experience Platform為建置基�
 
 ## &#x200B;5. 連線Marketo Engage執行個體以支援歷程動作（選用）
 
-如果您打算透過Marketo Engage中的行銷活動和方案補充Journey Optimizer B2B edition功能，請設定Marketo Engage動作支援。 這些動作可讓您的行銷團隊在Journey Optimizer B2B edition中協調其&#x200B;_以帳戶為基礎的_&#x200B;行銷，並在Marketo Engage中協調&#x200B;_以銷售機會為基礎的_&#x200B;行銷工作。
+如果您打算透過Marketo Engage中的行銷活動和方案補充Journey Optimizer B2B edition功能，請設定Marketo Engage動作支援。 這些動作可讓您的行銷團隊在Journey Optimizer B2B Edition中協調其&#x200B;_以帳戶為基礎的_&#x200B;行銷，並在Marketo Engage中協調&#x200B;_以銷售機會為基礎的_&#x200B;行銷工作。
 
 <table>
 <thead>

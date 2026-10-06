@@ -1,30 +1,38 @@
 ---
 title: 個人詳細資訊
-description: 透過AI產生的摘要、參與分數、活動追蹤和意圖偵測，在Journey Optimizer B2B edition中檢視購買群組的個人見解。
+description: 透過AI產生的摘要、參與分數、活動追蹤和意圖偵測來檢視人員深入分析，以便在Journey Optimizer B2B Edition中購買群組成員。
 feature: Account Insights
 role: User
 exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+autotag-review: 2026-03-27T22:21:27.328Z
+TQID: 'https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:21:27.328Z
-TQID: https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 6%
-
 ---
-
 # 人員詳細資料
 
-當您在Journey Optimizer B2B edition中的任何地方按一下人員名稱時，都會顯示人員詳細資訊頁面。 此頁面包含與帳戶或購買群組相關之個人的實用資訊，包括醒目提示和意圖資料的產生AI摘要（如果已設定）。<!-- There are also [actions](#person-actions) that you can execute for the person. -->
+當您從Journey Optimizer B2B Edition中的任何位置按一下人員名稱時，都會顯示人員詳細資訊頁面。 此頁面包含與帳戶或購買群組相關之個人的實用資訊，包括醒目提示和意圖資料的產生AI摘要（如果已設定）。<!-- There are also [actions](#person-actions) that you can execute for the person. -->
 
 ![個人詳細資料頁面](./assets/person-details-page.png){width="800" zoomable="yes"}
 
@@ -65,7 +73,7 @@ ht-degree: 6%
 
 ## 意圖資料
 
-在Journey Optimizer B2B edition中，意圖偵測模型會根據使用者的活動，以足夠高的信賴度預測感興趣的解決方案/產品。 它也會運用其他帳戶共同成員的活動，以及標籤的內容。 個人的意圖可解譯為對產品感興趣的可能性。
+在Journey Optimizer B2B Edition中，意圖偵測模型會根據使用者的活動，以足夠高的信賴度預測感興趣的解決方案/產品。 它也會運用其他帳戶共同成員的活動，以及標籤的內容。 個人的意圖可解譯為對產品感興趣的可能性。
 
 {{intent-data-note}}
 

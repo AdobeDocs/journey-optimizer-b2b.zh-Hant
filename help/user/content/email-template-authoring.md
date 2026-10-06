@@ -1,29 +1,38 @@
 ---
 title: 電子郵件範本製作
-description: 使用Journey Optimizer B2B edition中的視覺設計工具、自訂CSS、片段及帳戶歷程的個人化，製作可重複使用的電子郵件範本。
+description: 使用Journey Optimizer B2B Edition中的視覺設計工具、自訂CSS、片段及帳戶歷程的個人化，製作可重複使用的電子郵件範本。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
 autotag-review: 2026-03-30T22:30:02.360Z
+TQID: 'https://experienceleague.adobe.com/Z8Qz12J8H5p5QsGz5VI0TeKCvLkvbu9gjDE1xEB9VdQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-TQID: https://experienceleague.adobe.com/Z8Qz12J8H5p5QsGz5VI0TeKCvLkvbu9gjDE1xEB9VdQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 547
-ht-degree: 2%
-
+source-wordcount: '547'
+ht-degree: 3%
 ---
-
 # 電子郵件範本編寫
 
 在您[建立電子郵件範本](./email-templates.md#create-an-email-template)之後，請使用視覺化設計空間來編寫電子郵件範本中的結構和內容元件。
@@ -83,8 +92,8 @@ ht-degree: 2%
 * 透過預設縮放選項放大/縮小內容。
 
 * 切換在案頭、行動裝置或純文字/純文字間檢視內容。
-   * 按一下&#x200B;_眼睛_&#x200B;圖示，即可跨裝置預覽內容。
-   * 選取其中一個現成可用的裝置，或輸入自訂維度以預覽內容。
+  * 按一下&#x200B;_眼睛_&#x200B;圖示，即可跨裝置預覽內容。
+  * 選取其中一個現成可用的裝置，或輸入自訂維度以預覽內容。
 
 ### 更多選項
 

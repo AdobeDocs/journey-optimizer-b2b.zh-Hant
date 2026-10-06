@@ -1,30 +1,38 @@
 ---
 title: 帳戶詳細資料
-description: 在Journey Optimizer B2B edition中使用AI產生的摘要、意圖偵測、聯絡人涵蓋範圍分析和電子郵件通訊來檢視帳戶深入分析。
+description: 在Journey Optimizer B2B Edition中使用AI產生的摘要、意圖偵測、聯絡人涵蓋範圍分析和電子郵件通訊來檢視帳戶深入分析。
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+autotag-review: 2026-03-27T22:20:55.565Z
+TQID: 'https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:20:55.565Z
-TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 640
+source-wordcount: '640'
 ht-degree: 6%
-
 ---
-
 # 帳戶詳細資料
 
-當您在Journey Optimizer B2B edition的任何位置按一下帳戶名稱時，都會顯示&#x200B;_帳戶詳細資料_&#x200B;頁面。 此頁面提供有關帳戶的資訊，包括產生式AI摘要。 您也可以針對與帳戶關聯的連絡人執行[動作](#send-email)。
+當您在Journey Optimizer B2B Edition中的任何位置按一下帳戶名稱時，都會顯示&#x200B;_帳戶詳細資料_&#x200B;頁面。 此頁面提供有關帳戶的資訊，包括產生式AI摘要。 您也可以針對與帳戶關聯的連絡人執行[動作](#send-email)。
 
 ![存取帳戶詳細資料](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -49,7 +57,7 @@ ht-degree: 6%
 
 ### 意圖資料
 
-在Journey Optimizer B2B edition中，意圖偵測模型會根據帳戶聯絡活動，以足夠高的信賴度預測感興趣的解決方案/產品。 帳戶聯絡人的意圖可解譯為對產品感興趣的可能性。
+在Journey Optimizer B2B Edition中，意圖偵測模型會根據帳戶聯絡活動，以足夠高的信賴度預測感興趣的解決方案/產品。 帳戶聯絡人的意圖可解譯為對產品感興趣的可能性。
 
 {{intent-data-note}}
 

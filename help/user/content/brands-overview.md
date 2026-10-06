@@ -1,31 +1,39 @@
 ---
 title: 使用品牌來產生內容並維持一致性
-description: 定義品牌准則，以建立一致的內容 — 在Journey Optimizer B2B edition中維持視覺識別、訊息一致性和真實的聲音。
+description: 定義品牌准則，以建立一致的內容 — 在Journey Optimizer B2B Edition中維持視覺識別、訊息一致性和真實的聲音。
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+autotag-review: 2026-03-30T21:50:39.165Z
+TQID: 'https://experienceleague.adobe.com/NdhUbWDeiDqGc7jq8gFG6GAueMnkYnGAJdbizdgKb1g'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-autotag-review: 2026-03-30T21:50:39.165Z
-TQID: https://experienceleague.adobe.com/NdhUbWDeiDqGc7jq8gFG6GAueMnkYnGAJdbizdgKb1g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content strategy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '868'
 ht-degree: 12%
-
 ---
-
 # 使用品牌來產生內容並維持一致性 {#brands}
 
 >[!CONTEXTUALHELP]
@@ -60,9 +68,9 @@ ht-degree: 12%
 >
 >此功能目前以公開測試版的形式提供。
 >
->您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B Edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-已定義的品牌可為您的創意團隊提供當他們建立任何視覺或書面內容時使用的&#x200B;_真實來源_。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 若要在Journey Optimizer B2B edition中啟用品牌內內容建立，請完成下列工作：
+已定義的品牌可為您的創意團隊提供當他們建立任何視覺或書面內容時使用的&#x200B;_真實來源_。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 若要在Journey Optimizer B2B Edition中啟用品牌內內容建立，請完成下列工作：
 
 1. 準備您的品牌定義。
 
@@ -72,7 +80,7 @@ ht-degree: 12%
 
 1. 在一個或多個PDF檔案中組合此資訊。
 
-1. 使用PDF檔案在Journey Optimizer B2B edition中[建立品牌](./brands-manage-create.md#create-and-define-a-brand)。
+1. 使用PDF檔案在Journey Optimizer B2B Edition中[建立品牌](./brands-manage-create.md#create-and-define-a-brand)。
 
 1. 當它可以使用時，[發佈品牌](./brands-manage-create.md#publish-the-brand)。
 
@@ -99,7 +107,7 @@ ht-degree: 12%
 
    ![為品牌存取新增AI助理許可權](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
    已指派給該角色的任何使用者的許可權都會自動更新。
 
@@ -109,6 +117,6 @@ ht-degree: 12%
 
      如果尚未建立使用者，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}。
 
-   * 按一下[儲存]以套用變更。**&#x200B;**
+   * 按一下[儲存]以套用變更。****
 
 >[!ENDSHADEBOX]

@@ -1,28 +1,34 @@
 ---
 title: 建立及發佈歷程
-description: 在視覺畫布中建立帳戶和個人歷程、新增動作和事件節點、設定排程，以及在Journey Optimizer B2B edition中發佈即時協調。
+description: 在視覺畫布中建立帳戶和個人歷程、新增動作和事件節點、設定排程，以及在Journey Optimizer B2B Edition中發佈即時協調。
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+autotag-review: 2026-03-30T23:14:46.843Z
+TQID: 'https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:14:46.843Z
-TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 6%
-
 ---
-
 # 建置並發佈歷程
 
 若要開始使用歷程，請建立歷程，然後在歷程地圖中建構節點和歷程流程。
@@ -111,7 +117,7 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域
 
 1. 在右側的節點屬性中，選取&#x200B;**[!UICONTROL 帳戶]**。
 
-1. 若要新增更多路徑，請按一下[新增路徑]。**&#x200B;**
+1. 若要新增更多路徑，請按一下[新增路徑]。****
 
    當在歷程中建立每個路徑時，屬性中都會顯示新路徑卡。
 
@@ -179,4 +185,4 @@ _歷程地圖_&#x200B;是歷程工作區的中央區域。 您可以在此區域
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443230/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

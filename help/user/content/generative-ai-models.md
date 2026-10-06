@@ -10,24 +10,33 @@ autotag-review: '2026-05-27T16:14:57.623Z'
 TQID: 'https://experienceleague.adobe.com/LCYTDtFTLBqRjafMWrRZI6TWfJFxRDhxWGdgBBTHYDk'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 subfeature_v2:
   - id: a509712a-4df0-4095-9c79-78116d8e3311
+    internal-label: Brand Themes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Artificial intelligence
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 0%
-
 ---
-
 # 品牌調整的創作AI模型
 
 使用內建模型、自訂Firefly模型和協力廠商影像產生提供者來擴展您的AI影像建立功能，以符合您的特定需求並改善品牌一致性：
@@ -36,11 +45,11 @@ ht-degree: 0%
 - 由Gemini 2.5 Flash支援的&#x200B;**[!UICONTROL 合作夥伴機型]**&#x200B;針對特定使用案例提供特殊功能。
 - **[!UICONTROL 自訂模型]**&#x200B;是在您自己的資產上訓練並由您的組織新增的品牌特定模型。
 
-在[Adobe Firefly檔案](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}中瞭解自訂模型。
+在[Adobe Firefly檔案](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}中瞭解自訂模型。
 
 行銷人員在為其電子郵件或登陸頁面內容產生影像時，可以選取任何已啟用的產生模型。
 
-## 管理產生模型
+## 管理生成式模型
 
 您可以從中央位置檢視所有可用的模型、篩選和搜尋以尋找特定模型，以及設定品牌的模型設定。
 
@@ -86,7 +95,7 @@ ht-degree: 0%
 
 1. 輸入&#x200B;**[!UICONTROL 模型識別碼]**。
 
-   若要尋找您的模型ID，請存取Firefly網站並導覽至您訓練的模型。 發佈模型後，可在模型的「管理」區段中取得唯一識別碼。 如需詳細資訊，請參閱[Firefly自訂模型檔案](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}。
+   若要尋找您的模型ID，請存取Firefly網站並導覽至您訓練的模型。 發佈模型後，可在模型的「管理」區段中取得唯一識別碼。 如需詳細資訊，請參閱[Firefly自訂模型檔案](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}。
 
 1. 選擇性地輸入&#x200B;**[!UICONTROL 描述]**&#x200B;以協助識別模型及其預期用途。
 
@@ -94,7 +103,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 測試連線]**&#x200B;以驗證模型組態。
 
-1. 當連線測試成功時，按一下[儲存]儲存模型組態。**&#x200B;**
+1. 當連線測試成功時，按一下[儲存]儲存模型組態。****
 
    儲存模型會將其新增至產生模型清單，您可在此處啟用它以供行銷人員使用。 您也可以隨時停用或刪除它。
 

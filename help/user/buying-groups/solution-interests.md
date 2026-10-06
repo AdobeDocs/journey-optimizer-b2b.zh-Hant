@@ -1,26 +1,33 @@
 ---
 title: 解決方案興趣
-description: 在Journey Optimizer B2B edition中建立目標產品的解決方案興趣、使用角色範本自動建立購買群組，以及管理階段進展。
+description: 在目標產品中建立解決方案興趣、使用角色範本自動建立購買群組，以及在Journey Optimizer B2B Edition中管理階段進展。
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
+autotag-review: 2026-03-30T21:38:19.586Z
+TQID: 'https://experienceleague.adobe.com/X7Tk6XZ3--VpI2DG2GOcF9WZHuXNhdczD-tj4TD0NLA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-autotag-review: 2026-03-30T21:38:19.586Z
-TQID: https://experienceleague.adobe.com/X7Tk6XZ3--VpI2DG2GOcF9WZHuXNhdczD-tj4TD0NLA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 4%
-
 ---
-
 # 解決方案興趣
 
 建立購買群組之前，您應該先瞭解銷售對象以及要鎖定對象。 您的行銷和銷售策略應該保持一致，以便您可以為購買群組新增解決方案興趣。
@@ -59,7 +66,7 @@ ht-degree: 4%
 
 1. 選擇&#x200B;**[!UICONTROL 角色範本]** （必要）。
 
-   按一下&#x200B;**[!UICONTROL 選取角色範本]**，然後從對話方塊的清單中選擇即時角色範本。 您只能將一個即時角色範本與解決方案興趣建立關聯。 按一下[儲存]&#x200B;**[!UICONTROL 返回[建立方案興趣]]_頁面，其中顯示選取的角色範本。**&#x200B;_
+   按一下&#x200B;**[!UICONTROL 選取角色範本]**，然後從對話方塊的清單中選擇即時角色範本。 您只能將一個即時角色範本與解決方案興趣建立關聯。 按一下[儲存]**[!UICONTROL 返回[建立方案興趣]]_頁面，其中顯示選取的角色範本。]**_[!UICONTROL 
 
    ![新增角色範本至方案興趣](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
@@ -114,4 +121,4 @@ ht-degree: 4%
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3450124/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

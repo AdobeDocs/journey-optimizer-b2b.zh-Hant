@@ -1,30 +1,37 @@
 ---
 title: 智慧儀表板
-description: 存取AI支援的深入分析，瞭解如何在Journey Optimizer B2B edition中使用參與量度、意圖偵測和預測性分析來購買群組和帳戶。
+description: 存取AI支援的深入分析，以透過Journey Optimizer B2B Edition中的參與量度、意圖偵測和預測性分析來購買群組和帳戶。
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
+autotag-review: 2026-03-30T22:43:58.948Z
+TQID: 'https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T22:43:58.948Z
-TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1682
+source-wordcount: '1682'
 ht-degree: 16%
-
 ---
-
 # 智慧儀表板
 
 智慧型儀表板提供[購買群組](../buying-groups/buying-groups-overview.md)和帳戶量度的完整檢視，協助您更有效地監控和策略化行銷工作。
@@ -40,7 +47,7 @@ ht-degree: 16%
 
 {{intent-data-note}}
 
-若要利用Intelligent Dashboard提供的資訊和深入分析，您的Journey Optimizer B2B edition執行個體必須具備必要的專案：
+若要使用Intelligent Dashboard提供的資訊和深入分析，您的Journey Optimizer B2B Edition執行個體必須具備必要的專案：
 
 | 類型 | 需求 |
 | ---- | ----------- |
@@ -167,7 +174,7 @@ _[!UICONTROL 購買群組階段]_&#x200B;圖表提供跨不同階段的購買群
 
 >[!NOTE]
 >
->帳戶激增資料僅包含Journey Optimizer B2B edition透過帳戶歷程或購買群組擷取的帳戶。
+>帳戶激增資料僅包含Journey Optimizer B2B Edition透過帳戶歷程或購買群組擷取的帳戶。
 
 ![帳戶突增資料視覺效果](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -211,7 +218,7 @@ _[!UICONTROL 帳戶醒目提示]_&#x200B;區段已組織為兩列，以顯示貴
 
 >[!NOTE]
 >
->帳戶醒目提示資料僅包含Journey Optimizer B2B edition透過帳戶歷程或購買群組擷取的帳戶。
+>帳戶醒目提示資料僅包含Journey Optimizer B2B Edition透過帳戶歷程或購買群組擷取的帳戶。
 
 ![帳戶重點](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -261,7 +268,7 @@ _[!UICONTROL 連絡人涵蓋範圍]_&#x200B;區段會顯示與解決方案相關
 
 >[!NOTE]
 >
->連絡人涵蓋範圍資料是根據在Journey Optimizer B2B edition例項中建立的購買群組。
+>連絡人涵蓋範圍資料是根據在Journey Optimizer B2B Edition例項中建立的購買群組。
 
 ![帳戶突增資料視覺效果](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -293,7 +300,7 @@ _[!UICONTROL 連絡人重疊]_&#x200B;區段會顯示連絡人清單，這些連
 
 >[!NOTE]
 >
->聯絡人重疊資料是根據在Journey Optimizer B2B edition例項中建立的購買群組。
+>聯絡人重疊資料是根據在Journey Optimizer B2B Edition例項中建立的購買群組。
 
 ![連絡人重疊資料表](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 

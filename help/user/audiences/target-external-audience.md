@@ -1,33 +1,44 @@
 ---
 title: '[!DNL Adobe Target]個外部對象'
-description: 透過帳戶歷程啟用外部對象至 [!DNL Adobe Target] 。 個人化B2B網頁體驗並維護跨平台的一致性。
+description: 透過帳戶歷程啟用外部對象至[!DNL Adobe Target]。 個人化B2B網頁體驗並維護跨平台的一致性。
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
+autotag-review: 2026-03-30T19:48:50.374Z
+TQID: 'https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-03-30T19:48:50.374Z
-TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Web experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 715
+source-wordcount: '716'
 ht-degree: 3%
-
 ---
-
 # [!DNL Adobe Target]個外部對象
 
 您可以透過帳戶歷程在[!DNL Adobe Target]中啟用及個人化外部對象的體驗。 使用此整合來達成進階和量身打造的個人化，以提升參與度，並維持[!DNL Target]和[!DNL Journey Optimizer B2B Edition]的跨平台一致性。 這種一致性確保團隊在整個B2B購買者歷程中，針對購買群組調整並個人化網路管道。
@@ -45,9 +56,9 @@ ht-degree: 3%
 >
 >當具有人員設定檔的合格帳戶到達已發佈歷程中的&#x200B;_新增到外部客戶對象_&#x200B;節點時，這些設定檔可能需要48小時才能填入外部對象中。
 
-1. 在歷程畫布中選取&#x200B;_採取動作_&#x200B;節點，選擇&#x200B;_&#x200B;**[!UICONTROL 人員]**&#x200B;上的_&#x200B;動作選項。
+1. 在歷程畫布中選取&#x200B;_採取動作_&#x200B;節點，選擇&#x200B;]_**[!UICONTROL 人員]**上的_[!UICONTROL &#x200B;動作選項。
 
-1. 若要對人員&#x200B;_執行_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至外部客戶對象]**。
+1. 若要對人員&#x200B;]_執行_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至外部客戶對象]**。
 
    ![歷程節點 — 對人員採取動作 — 新增到外部客戶對象](./assets/node-add-external-audience.png){width="550" zoomable="yes"}
 
@@ -124,4 +135,4 @@ ht-degree: 3%
 
    ![Experience Platform — 目的地 — 啟用目的地 — 檢閱](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-啟用後，您可以在[Adobe Target Audiences](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到對象，並在Adobe Target活動中使用。
+啟用後，您可以在[Adobe Target Audiences](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}中看到對象，並在Adobe Target活動中使用。

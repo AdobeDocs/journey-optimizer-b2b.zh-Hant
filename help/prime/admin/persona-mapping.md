@@ -2,13 +2,14 @@
 title: 角色對應
 description: 瞭解如何在Journey Optimizer B2B Prime中設定角色對應。 對應人員屬性以定義角色，並在人員清單和個人歷程中使用衍生角色篩選。
 badge: label="GA" type="informative" tooltip="此功能在GA之前無法使用"
-source-git-commit: d88ebb07186f488541138da23a276429b1f1994b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 1%
-
 ---
-
 # 人物誌對應
 
 <!-- not available until GA -->

@@ -1,29 +1,38 @@
 ---
 title: 電子郵件範本
-description: 從頭開始建立可重複使用的電子郵件範本、HTML匯入或現有設計 — 在Journey Optimizer B2B edition中管理帳戶歷程的範本。
+description: 從頭開始建立可重複使用的電子郵件範本、HTML匯入或現有設計 — 在Journey Optimizer B2B Edition中管理帳戶歷程的範本。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
+autotag-review: 2026-03-30T22:17:40.055Z
+TQID: 'https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:17:40.055Z
-TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: '1522'
 ht-degree: 0%
-
 ---
-
 # 電子郵件範本
 
 若要加速並改善設計流程，您可以建立獨立的電子郵件範本，以在[!DNL Adobe Journey Optimizer B2B Edition]帳戶歷程中重複使用您的自訂內容。 透過範本，您的內容導向團隊成員可以在歷程之外處理電子郵件內容。 行銷策略師隨後可重複使用這些獨立範本，並在其歷程中加以調整。 例如，一個團隊成員只管理內容，無權存取帳戶歷程。 但是，他們可以建立電子郵件範本，行銷人員可以選取作為電子郵件通訊的起點，並根據歷程的需求進行自訂。
@@ -96,7 +105,7 @@ _[!UICONTROL 設計您的範本]_&#x200B;頁面會開啟，並提供多個建立
 
 ### 匯入HTML
 
-Adobe Journey Optimizer B2B edition可讓您匯入現有的HTML內容，以設計您的電子郵件範本。
+Adobe Journey Optimizer B2B Edition可讓您匯入現有的HTML內容，以設計您的電子郵件範本。
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -134,7 +143,7 @@ Adobe Journey Optimizer B2B edition可讓您匯入現有的HTML內容，以設�
 
 ![按一下[使用者]索引標籤以檢查範本使用情形](./assets/template-details-used-by.png){width="400"}
 
-Journey Optimizer B2B edition中的電子郵件會在歷程中內嵌及編寫，因此使用範本之電子郵件的父歷程會顯示在參考中。
+Journey Optimizer B2B Edition中的電子郵件內嵌於歷程中並加以撰寫，因此使用範本之電子郵件的父歷程會顯示在參考資料中。
 
 * 按一下連結會前往使用電子郵件範本的對應歷程電子郵件。
 

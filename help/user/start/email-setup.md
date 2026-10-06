@@ -4,31 +4,42 @@ description: 設定Journey Optimizer B2B電子郵件傳送的Marketo Engage選�
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1321
+source-wordcount: '1321'
 ht-degree: 70%
-
 ---
-
 # 電子郵件設定
 
 若要支援附加的Marketo Engage例項所提供的電子郵件傳遞基礎結構，請設定下列電子郵件選項。 Marketo Engage產品管理員可以瀏覽至Marketo Engage執行個體中的&#x200B;**[!UICONTROL 管理員]**&#x200B;區域並選取&#x200B;**[!UICONTROL 電子郵件]**，以設定這些設定。
@@ -43,7 +54,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->這項變更僅適用於您建立的電子郵件，不適用於其他Marketo Engage或Journey Optimizer B2B edition使用者。
+>這項變更僅適用於您建立的電子郵件，不適用於其他Marketo Engage或Journey Optimizer B2B Edition使用者。
 
 1. 移至附加的Marketo Engage執行個體中的&#x200B;**[!UICONTROL 管理員]**&#x200B;區域，並選取&#x200B;**[!UICONTROL 電子郵件]**。
 
@@ -137,7 +148,7 @@ To view this email as a web page, go to the following address:
 
 [[!DNL Apache Velocity]](https://velocity.apache.org/)是建置在[!DNL Java]上的語言，專為範本化和指令碼HTML內容而設計。 Marketo Engage電子郵件基礎結構透過指令碼權杖支援其在電子郵件內容中的使用，該權杖可提供對儲存在自訂物件中之資料的存取權。
 
-您可以參照直接連線到潛在客戶或連絡人的父項和子項自訂物件，但不能參照第三級自訂物件。 對於每個自訂物件，每個人員/連絡人的10個最近更新記錄可在執行階段使用，並依照最近更新（在`0`）到最舊更新（在`9`）的順序排列。
+您可以參照直接連線到銷售線索或連絡人的父項和子項自訂物件，但不能參照第三級自訂物件。 對於每個自訂物件，每個人員/連絡人的10個最近更新記錄可在執行階段使用，並依照最近更新（在`0`）到最舊更新（在`9`）的順序排列。
 
 若要變更限制(_T):_
 
@@ -176,13 +187,13 @@ To view this email as a web page, go to the following address:
 
 電子郵件機器人活動(也稱為非人類互動(NHI))可能會誇大您的電子郵件&#x200B;_開啟_&#x200B;和&#x200B;_點按_&#x200B;資料，扭曲您的參與量度，並觸發事件型歷程進度。 使用電子郵件機器人篩選來維持點選參與量度和深入分析的完整性。 識別疑似機器人活動的方法有兩種：
 
-* _&#x200B;**[!UICONTROL 與IAB機器人清單相符]**&#x200B;_ — 與[Interactive Advertising Bureau機器人清單](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} （使用者代理程式/IP位址）上的任何專案相符的活動會標示為機器人。
-* _&#x200B;**[!UICONTROL 符合近似程度模式]**&#x200B;_ — 將同時發生的兩個或多個活動（在一秒以內）識別為機器人。 比較期間考慮的屬性包括：
-   * 銷售機會ID （應相同）
-   * 電子郵件資產（應相同）
-   * 連結點選或電子郵件開啟
+* _**[!UICONTROL 與IAB機器人清單相符]**_ — 與[Interactive Advertising Bureau機器人清單](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} （使用者代理程式/IP位址）上的任何專案相符的活動會標示為機器人。
+* _**[!UICONTROL 符合近似程度模式]**_ — 將同時發生的兩個或多個活動（在一秒以內）識別為機器人。 比較期間考慮的屬性包括：
+  * 銷售機會ID （應相同）
+  * 電子郵件資產（應相同）
+  * 連結點選或電子郵件開啟
 
-對於電子郵件連結點選和電子郵件開啟活動，屬性會填入下列值：
+對於電子郵件連結點擊和電子郵件開啟活動，屬性會填入下列值：
 
 * 識別為機器人的活動 — _機器人活動_ = `true`和&#x200B;_機器人活動模式_ =識別的模式/方法
 * 識別為非機器人的活動 — _機器人活動_ = `false`和&#x200B;_機器人活動模式_ = `n/a`

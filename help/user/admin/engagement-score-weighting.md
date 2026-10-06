@@ -1,28 +1,37 @@
 ---
 title: 設定參與分數加權
-description: 使用加權活動建立自訂參與分數模型，以在 [!DNL Journey Optimizer B2B Edition]中精確測量購買群組參與和意圖。
+description: 使用加權活動建立自訂參與分數模型，以在[!DNL Journey Optimizer B2B Edition]中準確測量購買群組參與和意圖。
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
+autotag-review: 2026-03-27T23:14:34.224Z
+TQID: 'https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-27T23:14:34.224Z
-TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1257
+source-wordcount: '1257'
 ht-degree: 0%
-
 ---
-
 # 設定自訂參與分數加權
 
 [購買群組參與分數](../buying-groups/engagement-scores.md)會藉由評估為購買群組成員所記錄的各種活動來反映參與程度。 透過自訂分數加權，行銷營運團隊可靈活定義自己的模型以加權活動。 自訂評分模型藉由優先處理在銷售程式中最準確地代表購買意圖的行為，而更準確地反映您的管道。
@@ -110,7 +119,7 @@ ht-degree: 0%
 
 1. 若要移除加權範圍，請按一下加權範圍列的&#x200B;_刪除_ （![刪除圖示](../assets/do-not-localize/icon-delete-outline.svg) ）圖示。
 
-1. 完成變更後，按一下[儲存]。**&#x200B;**
+1. 完成變更後，按一下[儲存]。****
 
 ### 變更活動加權
 

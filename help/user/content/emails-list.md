@@ -1,36 +1,42 @@
 ---
 title: 電子郵件
-description: 使用搜尋、篩選器和大量動作管理您的電子郵件庫 — 在Journey Optimizer B2B edition中編輯內容、設定，以及在歷程外部測試電子郵件。
+description: 使用搜尋、篩選器和大量動作管理您的電子郵件庫 — 在Journey Optimizer B2B Edition中編輯內容、設定，以及在歷程外部測試電子郵件。
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
+autotag-review: 2026-03-30T22:28:57.542Z
+TQID: 'https://experienceleague.adobe.com/mx0dF-BCApRTQ4KnMr-KnXHq27tWZa2oh-l9qFRLqlI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-autotag-review: 2026-03-30T22:28:57.542Z
-TQID: https://experienceleague.adobe.com/mx0dF-BCApRTQ4KnMr-KnXHq27tWZa2oh-l9qFRLqlI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Email marketing
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # 電子郵件
 
 當您[建立電子郵件](./add-email.md)時，您將其新增到歷程節點的內容中。 當您想要使用歷程地圖以外的電子郵件內容時，請使用&#x200B;_[!UICONTROL 電子郵件]_&#x200B;清單來尋找及更新電子郵件。 您可以檢閱電子郵件或更新設定和內容。
 
 ## 存取和管理電子郵件
 
-若要存取Adobe Journey Optimizer B2B edition中的電子郵件，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 電子郵件]**。 此動作會開啟一個清單頁面，其中包含為表格中列出的執行個體建立的所有電子郵件。
+若要存取Adobe Journey Optimizer B2B Edition中的電子郵件，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 電子郵件]**。 此動作會開啟一個清單頁面，其中包含為表格中列出的執行個體建立的所有電子郵件。
 
 表格預設會依&#x200B;_[!UICONTROL 已修改]_&#x200B;欄排序，最近更新的電子郵件會顯示在頂端。 按一下欄標題，在升序和降序之間變更。
 

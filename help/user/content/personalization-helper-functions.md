@@ -1,6 +1,6 @@
 ---
 title: 協助程式功能
-description: Journey Optimizer B2B edition中個人化協助程式功能的參考指南。 其中包含字串、日期、數學等的語法和範例。
+description: Journey Optimizer B2B Edition中個人化協助程式功能的參考指南。 其中包含字串、日期、數學等的語法和範例。
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -11,26 +11,35 @@ autotag-review: '2026-05-27T16:17:26.324Z'
 TQID: 'https://experienceleague.adobe.com/T4rBlUSxIJylMD4PGmAFG3qXJRVBBLEtzPE5WCWx8NA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 4937
+source-wordcount: '4937'
 ht-degree: 6%
-
 ---
-
 # 協助程式功能
 
 使用個人化編輯器中的協助程式功能，透過操控資料、執行計算和格式化內容，以精確且有效率的方式定義個人化內容體驗。 探索並實驗這些功能、操作員和協助人員，瞭解他們如何合作，以幫助您製作量身打造的資料導向歷程。
@@ -339,7 +348,7 @@ ht-degree: 6%
 
 **範例**
 
-下列作業會傳回價格最高的前五個訂單中的第一個。 有關`topN`函式的詳細資訊可在陣列[&#128279;](#first-n)區段的第一個`n`中找到。
+下列作業會傳回價格最高的前五個訂單中的第一個。 有關`topN`函式的詳細資訊可在陣列](#first-n)區段的[第一個`n`中找到。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}

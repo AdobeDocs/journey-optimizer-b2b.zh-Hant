@@ -1,26 +1,34 @@
 ---
 title: 外部動作設定
-description: 瞭解開發人員、管理員和行銷人員如何共同實施、設定和使用外部動作，將Journey Optimizer B2B edition與歷程中的外部服務連結。
+description: 瞭解開發人員、管理員和行銷人員如何共同實施、設定和使用將Journey Optimizer B2B Edition與歷程中的外部服務連結的外部動作。
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1278
+source-wordcount: '1278'
 ht-degree: 1%
-
 ---
-
 # 外部動作設定
 
 外部動作允許[!DNL Journey Optimizer B2B Edition]中的帳戶和個人歷程直接從歷程畫布連線到外部系統。 當對象到達外部動作節點時，系統會非同步呼叫已設定的外部服務，傳遞對象屬性資料。 外部服務使用回呼處理資料及回應，傳回可用於引導歷程執行的對象資料及中繼資料。
@@ -37,16 +45,16 @@ ht-degree: 1%
 | | 角色 | 任務 |
 | ---- | ---- | ---- |
 | 1 | Developer | [實作並發佈外部服務](#implement-service) |
-| 2 | 管理員 | [在Journey Optimizer B2B edition中設定動作](#configure-action) |
+| 2 | 管理員 | [在Journey Optimizer B2B Edition中設定動作](#configure-action) |
 | 3 | 行銷人員 | [新增外部節點至歷程](#add-journey-node) |
 
 ## 實作外部服務 {#implement-service}
 
-開發人員必須建立並發佈符合[Adobe Journey Optimizer B2B edition外部動作服務提供者介面](https://developer.adobe.com/journey-optimizer-b2b-apis/)的公開顯示網頁服務。
+開發人員必須建立並發佈符合[Adobe Journey Optimizer B2B Edition外部動作服務提供者介面](https://developer.adobe.com/journey-optimizer-b2b-apis/)的公開顯示網頁服務。
 
 >[!NOTE]
 >
->回呼函式需要持有人權杖。 請在Adobe Developer Console[&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中為您的IMS組織設定OAuth伺服器對伺服器認證，以擷取此專案。
+>回呼函式需要持有人權杖。 請在Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中為您的IMS組織設定[OAuth伺服器對伺服器認證，以擷取此專案。
 
 服務上線後，將OpenAPI規格的URL和驗證認證提供給負責設定動作的產品管理員。
 
@@ -135,7 +143,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;_上一箭號_&#x200B;以返回清單並將動作保持在&#x200B;_草稿_&#x200B;狀態。
 
-   或者，按一下[啟動]&#x200B;**&#x200B;**&#x200B;將動作組態變更為[啟動]__&#x200B;狀態。 設定的外部動作必須處於作用中狀態，才能用於歷程。
+   或者，按一下[啟動]****&#x200B;將動作組態變更為[啟動]__&#x200B;狀態。 設定的外部動作必須處於作用中狀態，才能用於歷程。
 
 ### 疑難排解 {#troubleshooting}
 
@@ -158,7 +166,7 @@ ht-degree: 1%
 | `The entity type value is invalid` | 實體型別的Adobe特定`x-`擴充功能具有無法辨識的值 | 將實體型別更正為支援的值。 如需有效選項，請參閱[開發人員檔案](https://developer.adobe.com/journey-optimizer-b2b-apis/)。 |
 | `The provided document is not a valid OpenAPI specification` | 規格無法進行結構剖析。 | 根據OpenAPI 3.0結構描述驗證您的規格並修正任何問題。 |
 | `Required OpenAPI field is missing` | 缺少標準OpenAPI必要欄位（例如`info`或`paths`）。 | 新增缺少的欄位。 |
-| `Required endpoint is missing from the specification` | 未在您的規格中定義Adobe Journey Optimizer B2B edition所需的端點。 | 新增必要的端點。 請參閱需要端點的[開發人員檔案](https://developer.adobe.com/journey-optimizer-b2b-apis/)。 |
+| `Required endpoint is missing from the specification` | 您的規格中未定義Adobe Journey Optimizer B2B Edition所需的端點。 | 新增必要的端點。 請參閱需要端點的[開發人員檔案](https://developer.adobe.com/journey-optimizer-b2b-apis/)。 |
 | `Required extension field is missing` | 您的規格中沒有必要的Adobe `x-`擴充功能欄位。 | 依照檔案中的說明，新增缺少的擴充功能欄位。 |
 | `Security schemes are missing from the specification` | 您的規格未在`components`下定義`securitySchemes`。 | 至少定義一個安全性配置。 |
 | `Multiple authentication types are not supported` | 您的規格定義了多個驗證配置。 | 更新您的規格以使用單一驗證型別。 |
