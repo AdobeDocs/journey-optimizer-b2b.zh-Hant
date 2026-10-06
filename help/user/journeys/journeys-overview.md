@@ -212,4 +212,4 @@ Journey Optimizer B2B Edition支援兩種歷程型別：
 
 ## 帳戶歷程概觀影片 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443218/?captions=chi_hant&learn=on)
