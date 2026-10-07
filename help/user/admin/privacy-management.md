@@ -1,23 +1,30 @@
 ---
 title: 隱私權管理
-description: 瞭解如何在Journey Optimizer B2B edition中遵守GDPR、CCPA和其他隱私權法規，並使用Adobe Privacy Service提交請求。
+description: 瞭解如何在Journey Optimizer B2B Edition中遵守GDPR、CCPA和其他隱私權法規，並使用Adobe Privacy Service提交請求。
 feature: Setup, Permissions
 role: Admin
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: '634'
 ht-degree: 5%
-
 ---
-
 
 # 隱私權管理 {#privacy-management}
 
@@ -85,7 +92,7 @@ ht-degree: 5%
 
 1. 針對&#x200B;**[!UICONTROL 產品]**，請選取&#x200B;**[!UICONTROL Marketo]**。
 
-   ![為Marketo Engage和Journey Optimizer B2B edition建立GDPR存取隱私權請求](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
+   ![為Marketo Engage和Journey Optimizer B2B Edition建立GDPR存取隱私權請求](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
 
    此選取範圍包含來自[!DNL Journey Optimizer B2B Edition]和您的[!DNL Marketo Engage]執行個體的資料。
 

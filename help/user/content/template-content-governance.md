@@ -1,29 +1,38 @@
 ---
 title: 範本內容控管
-description: 鎖定電子郵件範本元件以符合品牌規範 — 在Journey Optimizer B2B edition中設定治理模式、控制內容編輯並管理帳戶歷程作者的許可權。
+description: 鎖定電子郵件範本元件以符合品牌規範 — 設定治理模式、控制內容編輯，以及管理Journey Optimizer B2B Edition中帳戶歷程作者的許可權。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
+autotag-review: 2026-03-30T22:19:13.043Z
+TQID: 'https://experienceleague.adobe.com/8k34X0qVeMfWmSayzayqkDPmiAyC5V-gFIyVjMFhXO8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-autotag-review: 2026-03-30T22:19:13.043Z
-TQID: https://experienceleague.adobe.com/8k34X0qVeMfWmSayzayqkDPmiAyC5V-gFIyVjMFhXO8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content strategy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: '765'
 ht-degree: 0%
-
 ---
-
 # 範本內容控管
 
 在許多行銷組織中，都有設計電子郵件行銷活動的內容專業人員。 指定的設計可作為整個組織自訂帳戶歷程的基礎。 為確保遵循核准的內容設計，您可以使用內容控管功能來鎖定範本元件。 在電子郵件範本中啟動內容鎖定後，行銷人員可以僅變更允許的元素，以使其與內容策略保持一致。

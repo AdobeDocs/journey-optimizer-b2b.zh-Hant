@@ -1,33 +1,39 @@
 ---
 title: 歷程管理
-description: 透過歷程簡化需求產生 — 在Journey Optimizer B2B edition中建立、發佈、管理跨電子郵件、SMS和事件的購買群組參與。
+description: 透過歷程簡化需求產生 — 在Journey Optimizer B2B Edition中建立、發佈、管理跨電子郵件、簡訊和事件的購買群組參與。
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
+autotag-review: 2026-03-30T23:09:32.398Z
+TQID: 'https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:09:32.398Z
-TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1308
+source-wordcount: '1308'
 ht-degree: 45%
-
 ---
-
 # 歷程管理
 
-在Journey Optimizer B2B edition中，歷程是自動化的、多步驟的帳戶和基於銷售機會的行銷計畫，可協調跨管道的個人化體驗，以回應參與、業務活動或排程的行銷活動。 定義包括電子郵件、簡訊等在內的銷售導向參與度，以協調每個購買群組成員的傳入行銷與傳出銷售活動。
+在Journey Optimizer B2B Edition中，歷程是自動化的、多步驟的帳戶和基於銷售機會的行銷計畫，可協調跨管道的個人化體驗，以回應參與、業務事件或排程的行銷活動。 定義包括電子郵件、簡訊等在內的銷售導向參與度，以協調每個購買群組成員的傳入行銷與傳出銷售活動。
 
-Journey Optimizer B2B edition支援兩種歷程型別：
+Journey Optimizer B2B Edition支援兩種歷程型別：
 
 * **帳戶歷程** — 簡化需求產生和購買群組資格，並針對您的收購、向上銷售/交叉銷售和保留計畫推動更多合格需求。 透過涵蓋電子郵件、簡訊、活動等管道的自動化參與機制，為每個購買群組和購買群組成員量身打造歷程。
 
@@ -116,7 +122,7 @@ Journey Optimizer B2B edition支援兩種歷程型別：
 
 ## 歷程動作
 
-歷程清單頁面包含Journey Optimizer B2B edition執行個體中的所有帳戶或個人歷程。 您可以從清單頁面套用許多動作至歷程。
+歷程清單頁面包含Journey Optimizer B2B Edition執行個體中的所有帳戶或個人歷程。 您可以從清單頁面套用許多動作至歷程。
 
 ### 中止歷程
 

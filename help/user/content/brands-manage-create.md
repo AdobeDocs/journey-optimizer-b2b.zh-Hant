@@ -1,11 +1,13 @@
 ---
 title: 建立品牌以產生內容並維持一致性
-description: 透過從檔案自動擷取或手動輸入來建立和管理品牌方針 — 在Journey Optimizer B2B edition中為一致的內容設定預設品牌。
+description: 透過從檔案自動擷取或手動輸入來建立和管理品牌方針 — 在Journey Optimizer B2B Edition中為一致的內容設定預設品牌。
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+autotag-review: 2026-03-30T21:55:06.504Z
+TQID: 'https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -14,18 +16,20 @@ feature_v2:
     internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
     internal-label: Content strategy
-autotag-review: 2026-03-30T21:55:06.504Z
-TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 6%
@@ -34,7 +38,7 @@ ht-degree: 6%
 
 定義品牌以提供建立視覺和語言識別的規則和標準詳細集合。 這些指引提供跨所有行銷和通訊平台維持一致品牌代表性的參考。 運用定義清晰的品牌指引，組織可確保所有內容建立的努力都與策略目標和整體品牌認同一致。 這種一致性不僅可提升品牌認知度和信任度，也有助於在所有接觸點提供更具凝聚力和影響力的客戶體驗。
 
-在Journey Optimizer B2B edition中，您可以手動定義並組織您的品牌定義和資產，或上傳品牌指引檔案以自動擷取資訊和視覺資產。
+在Journey Optimizer B2B Edition中，您可以手動定義並組織您的品牌定義和資產，或上傳品牌指引檔案以自動擷取資訊和視覺資產。
 
 >[!AVAILABILITY]
 >
@@ -42,7 +46,7 @@ ht-degree: 6%
 >
 ><br>
 >
->您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先取得[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer B2B Edition中使用AI支援的功能。 如需詳細資訊，請聯絡您的 Adobe 代表。
 >
 ><br>
 >
@@ -50,7 +54,7 @@ ht-degree: 6%
 
 ## 存取您的品牌資料庫
 
-若要存取Adobe Journey Optimizer B2B edition中的品牌套件，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 品牌]**。 此動作會開啟一個頁面，其中建立的品牌會顯示為卡片。
+若要存取Adobe Journey Optimizer B2B Edition中的品牌套件，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 品牌]**。 此動作會開啟一個頁面，其中建立的品牌會顯示為卡片。
 
 ![存取品牌庫](./assets/brands-library.png){width="800" zoomable="yes"}
 

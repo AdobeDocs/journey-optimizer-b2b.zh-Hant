@@ -1,6 +1,6 @@
 ---
 title: 產生登陸頁面內容
-description: 產生登入頁面內容 — 在Journey Optimizer B2B edition中使用您的參考資產和購買群組角色鎖定目標建立頁面文字和影像。
+description: 產生登入頁面內容 — 在Journey Optimizer B2B Edition中使用您的參考資產和購買群組角色目標定位建立頁面文字和影像。
 feature: Generative AI, Landing Pages, Content
 topic: Artificial Intelligence
 role: User
@@ -25,6 +25,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
@@ -32,7 +34,7 @@ topic_v2:
     internal-label: Accessibility
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
     internal-label: Content production
-source-git-commit: d8451ab306de70decd11909676d6d9aaf667d466
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2599'
 ht-degree: 0%

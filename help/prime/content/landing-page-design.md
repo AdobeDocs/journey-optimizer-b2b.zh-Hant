@@ -8,22 +8,29 @@ autotag-review: '2026-07-08T20:36:05.221Z'
 TQID: 'https://experienceleague.adobe.com/M8OA0CPihuuX5h9J-ZrGJOPHkHLwatX5VhBa8co4r4Y'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '568'
 ht-degree: 2%
-
 ---
-
 # 登陸頁面設計
 
 在您[建立登入頁面](./landing-pages-create-publish.md#create-landing-page)之後，請使用視覺設計空間來編寫頁面中的結構和內容元件。
@@ -93,8 +100,8 @@ ht-degree: 2%
 * 透過預設縮放選項放大/縮小內容。
 
 * 切換在案頭、行動裝置或純文字/純文字間檢視內容。
-   * 按一下&#x200B;_檢視_&#x200B;圖示，即可跨裝置預覽內容。
-   * 選取其中一個現成可用的裝置，或輸入自訂維度以預覽內容。
+  * 按一下&#x200B;_檢視_&#x200B;圖示，即可跨裝置預覽內容。
+  * 選取其中一個現成可用的裝置，或輸入自訂維度以預覽內容。
 
 ### 更多選項 {#more-options}
 

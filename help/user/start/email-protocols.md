@@ -4,27 +4,37 @@ description: 設定電子郵件傳遞通訊協定：設定 DNS、SPF、DKIM、DM
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
+autotag-review: 2026-03-30T23:06:01.153Z
+TQID: 'https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T23:06:01.153Z
-TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 79%
-
 ---
-
 # 電子郵件追蹤和傳遞的設定
 
 Adobe Journey Optimizer B2B edition利用附加的Marketo Engage例項中的電子郵件通道功能和事件追蹤。 有些組織會使用限制性的防火牆或Proxy伺服器設定。 為確保電子郵件傳送對這些組織如預期般運作，系統管理員必須將特定網域和IP位址範圍新增到允許清單。
@@ -222,11 +232,11 @@ DMARC 有兩種比對類型：
 
 >[!BEGINSHADEBOX]
 
-**將專用IP移轉至Journey Optimizer B2B edition**
+**將專用IP移轉至Journey Optimizer B2B Edition**
 
 如果您有專用IP，則必須在與現有Journey Optimizer執行個體相同的區域中建立新的Marketo Engage B2B edition執行個體。 如果新執行個體在不同區域，則無法共用現有IP。 如果區域相符，請開啟具有[Adobe支援](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support){target="_blank"}的票證，並要求將您現有的IP和繫結群組與新的執行個體共用。 提供您的Marketo Engage首碼(Munchkin ID)和新的Journey Optimizer B2B edition首碼(Munchkin ID)。
 
-透過此請求，Adobe會複製與您現有Marketo Engage執行個體相同的IP、繫結群組和已設定的Return-Path網域。 在Marketo Engage和Journey Optimizer B2B edition執行個體之間共用IP時，兩個執行個體會同時使用它們。
+透過此請求，Adobe會複製與您現有Marketo Engage執行個體相同的IP、繫結群組和已設定的Return-Path網域。 在Marketo Engage和Journey Optimizer B2B Edition執行個體之間共用IP時，兩個執行個體會同時使用它們。
 
 >[!ENDSHADEBOX]
 

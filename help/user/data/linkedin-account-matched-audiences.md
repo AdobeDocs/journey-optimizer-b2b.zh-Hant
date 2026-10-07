@@ -4,35 +4,43 @@ description: 瞭解如何連線LinkedIn帳戶並為帳戶成員啟用資料流�
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
+autotag-review: 2026-03-30T22:49:08.608Z
+TQID: 'https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T22:49:08.608Z
-TQID: https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: '997'
 ht-degree: 14%
-
 ---
-
 # LinkedIn帳戶比對的對象
 
 [!DNL Journey Optimizer B2B Edition]可透過帳戶相符對象產生LinkedIn廣告對象，設計旨在協助您在購買群組中填入空角色。 透過定義一組購買群組篩選器，您可以維護 LinkedIn 配對客群，以針對符合您的購買群組參數的潛在客戶。 您也可以從&#x200B;_採取動作_&#x200B;節點的帳戶歷程啟用對象。
 
 此功能善用 Experience Platform 目標來管理整合的某些部分。 資料流上限為10個。
 
-在從Journey Optimizer B2B edition起始資料流之前，您必須至少有一個[（公司） LinkedIn相符對象目的地聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的執行個體，而且已在Experience Platform應用程式中設定LinkedIn促銷活動管理員帳戶。
+在從Journey Optimizer B2B Edition起始資料流之前，您必須至少有一個[（公司） LinkedIn相符對象目的地聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}的執行個體，而且已在Experience Platform應用程式中設定LinkedIn促銷活動管理員帳戶。
 
 ## 設定新的 LinkedIn 帳戶連結 {#linkedin-destination-setup}
 
@@ -69,7 +77,7 @@ ht-degree: 14%
 
 ## 更新帳戶詳細資料
 
-在Journey Optimizer B2B edition中，購買群組可以看到LinkedIn帳戶的名稱和說明。 最佳實務是更新這些資訊，以便與購買群組合作的行銷人員可輕鬆識別這些資訊。 您可以在Experience Platform或Journey Optimizer B2B edition UI中變更帳戶詳細資料。
+在Journey Optimizer B2B Edition中，購買群組可以看到LinkedIn帳戶的名稱和說明。 最佳實務是更新這些資訊，以便與購買群組合作的行銷人員可輕鬆識別這些資訊。 您可以在Experience Platform或Journey Optimizer B2B Edition UI中變更帳戶詳細資料。
 
 1. 前往左側導覽中的&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 目的地]**，然後選取&#x200B;**[!UICONTROL 帳戶]**&#x200B;標籤。
 
@@ -87,7 +95,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->如果您已有10個資料流，則無法建立另一個資料流。 如果您已達到最大數量，請先刪除Experience Platform中的一個專案，然後再在Journey Optimizer B2B edition中建立新專案。
+>如果您已有10個資料流，則無法建立另一個資料流。 如果您已達到最大數量，請先刪除Experience Platform中的一個專案，然後再在Journey Optimizer B2B Edition中建立新專案。
 
 1. 在 Journey Optimizer B2B Edition，前往左側導覽中的「**[!UICONTROL 帳戶]** > **[!UICONTROL 購買群組]**」。
 

@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1634
+source-wordcount: '1657'
 ht-degree: 6%
-
 ---
-
 # 結構元件 {#structure-components}
 
 >[!CONTEXTUALHELP]
@@ -53,14 +59,14 @@ ht-degree: 6%
 
 | 圖示 | 元件 | 說明 |
 | ----- | ----------- | ----------- |
-| ![1:1欄圖示](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1欄] | 填滿空格寬度的單一欄容器。 |
-| ![1:2欄圖示](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2資料行剩餘] | 使用1:2比率填滿空間寬度的雙欄容器。 第一（左）欄佔據三分之一的寬度，第二（右）欄佔據其餘的三分之二。 |
-| ![1:3欄圖示](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3資料行剩餘] | 使用1:3比率填滿空間寬度的雙欄容器。 第一（左）欄佔據四分之一的寬度，第二（右）欄佔據其餘四分之三。 |
-| ![2:1欄圖示](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1資料行靠右] | 使用2:1比率填滿空間寬度的雙欄容器。 第一（左）欄佔據寬度的三分之二，第二（右）欄佔據其餘的三分之一。 |
-| ![2:2欄圖示](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2欄] | 使用2:2比率填滿空間寬度的雙欄容器。 左欄和右欄的寬度相等。 |
-| ![3:1欄圖示](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1欄位在右側] | 使用3:1比率填滿空間寬度的雙欄容器。 第一（左）欄佔據寬度的四分之三(75%)，第二（右）欄佔據剩餘的四分之一(25%)。 |
-| ![3:3欄圖示](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3欄] | 使用3:3比率填滿空間寬度的三欄容器。 三欄的寬度相等。 |
-| ![4:4欄圖示](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4欄] | 使用4:4比率填滿空間寬度的四欄容器。 所有四欄的寬度相等。 |
+| ![1:1欄圖示](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1資料行] | 填滿空格寬度的單一欄容器。 |
+| ![1:2欄圖示](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2資料行左側] | 一種兩欄式容器，使用1:2的比率來填滿空間的寬度。 第一（左）欄佔據三分之一的寬度，第二（右）欄佔據其餘的三分之二。 |
+| ![1:3資料行圖示](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3資料行靠左] | 一種兩欄式容器，使用1:3的比率來填滿空間的寬度。 第一（左）欄佔據四分之一的寬度，第二（右）欄佔據其餘四分之三。 |
+| ![2:1欄圖示](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1資料行靠右] | 一種兩欄式容器，使用2:1的比率來填滿空間的寬度。 第一（左）欄佔據寬度的三分之二，第二（右）欄佔據其餘的三分之一。 |
+| ![2:2欄圖示](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2資料行] | 一種兩欄式容器，使用2:2的比率來填滿空間的寬度。 左欄和右欄的寬度相等。 |
+| ![3:1欄圖示](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1資料行靠右] | 兩欄式容器，使用3:1的比率來填滿空間的寬度。 第一（左）欄佔據寬度的四分之三(75%)，第二（右）欄佔據剩餘的四分之一(25%)。 |
+| ![3:3資料行圖示](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3資料行] | 三欄式容器，使用3:3的比率來填滿空間的寬度。 三欄的寬度相等。 |
+| ![4:4欄圖示](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4資料行] | 四欄式容器，使用4:4的比率來填滿空間的寬度。 所有四欄的寬度相等。 |
 | ![n:n欄圖示](../../user/assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n欄] | 可自訂的欄結構，會根據您定義的欄填滿空間。 您可以設定欄數（介於2到10之間），並個別設定每欄的寬度。 [了解更多](#change-nn-columns) |
 
 ## 新增結構元件 {#add-structure-components}

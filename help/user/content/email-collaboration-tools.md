@@ -1,31 +1,37 @@
 ---
 title: 傳送Collaboration工具電子郵件
-description: 在Journey Optimizer B2B edition中共同使用電子郵件。 新增評論、邀請稽核者、解決意見反應，並簡化團隊的稽核工作流程。
+description: 在Journey Optimizer B2B Edition中共同使用電子郵件。 新增評論、邀請稽核者、解決意見反應，並簡化團隊的稽核工作流程。
 feature: Email Authoring, Content
 role: User
 exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+autotag-review: 2026-03-30T22:09:19.178Z
+TQID: 'https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: 2026-03-30T22:09:19.178Z
-TQID: https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 4%
-
 ---
-
 # 電子郵件共同作業工具
 
-[電子郵件設計空間](./email-authoring.md)包括用於發表評論和解決問題的共同作業工具，以便行銷團隊能夠直接在[!DNL Journey Optimizer B2B Edition]內順暢地檢閱、討論及完成電子郵件資產。 使用者無須透過外部工具 (如聊天室、電子郵件對話串或試算表) 共用草稿，而是在電子郵件設計空間內進行註解、提出編輯建議和解決意見回饋提出的問題。 使用這些工具簡化工作流程、減少錯誤，並確保利害關係人在帳戶歷程中啟動電子郵件行銷活動之前保持一致：
+[電子郵件設計空間](./email-authoring.md)包括用於發表評論和解決問題的共同作業工具，以便行銷團隊能夠直接在[!DNL Journey Optimizer B2B Edition]內順暢地檢閱、討論及完成電子郵件資產。 使用者無須透過外部工具 (如聊天室、電子郵件對話串或試算表) 共用草稿，而是可在電子郵件設計空間內留下註解、提出編輯建議並解決意見回饋。 使用這些工具簡化工作流程、減少錯誤，並確保利害關係人在帳戶歷程中啟動電子郵件行銷活動之前保持一致：
 
 * **_集中式意見反應_** — 在一個地方收集和追蹤所有意見反應。
 

@@ -1,31 +1,42 @@
 ---
 title: 使用者存取與許可權
-description: 使用Adobe Admin Console管理使用者存取權：建立Journey Optimizer B2B edition的使用者群組、指派產品設定檔，以及設定角色型許可權。
+description: 使用Adobe Admin Console管理使用者存取權：建立Journey Optimizer B2B Edition的使用者群組、指派產品設定檔，以及設定角色型許可權。
 feature: Setup, Permissions
 roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
+autotag-review: 2026-03-27T22:47:43.575Z
+TQID: 'https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:47:43.575Z
-TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 171518509dc161d236663cde399b3fcc02408f18
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2348
+source-wordcount: '2348'
 ht-degree: 77%
-
 ---
-
 # 使用者存取和許可權
 
-布建完成並繫結沙箱後，請使用下列步驟為團隊和使用者提供對Adobe Journey Optimizer B2B edition的存取權。
+布建完成並繫結沙箱後，請使用以下步驟為團隊和使用者提供對Adobe Journey Optimizer B2B Edition的存取權。
 
 1. [在Admin Console中建立Marketo Engage產品設定檔](#marketo-engage-profile) （僅限新的Marketo Engage執行個體）。
 1. 在Admin Console中[新增使用者群組](#add-user-group)。
@@ -98,7 +109,7 @@ ht-degree: 77%
 
 >[!TIP]
 >
->將現有Journey Optimizer B2B edition使用者新增至Marketo Engage時，您可以略過建立使用者群組，並將Marketo Engage產品設定檔新增至現有使用者群組。
+>將現有Journey Optimizer B2B Edition使用者新增至Marketo Engage時，您可以略過建立使用者群組，並將Marketo Engage產品設定檔新增至現有使用者群組。
 
 如需有關如何使用使用者群組來管理許可權的詳細資訊，請參閱Admin Console檔案中的[管理使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html){target="_blank"}。
 
@@ -163,7 +174,7 @@ ht-degree: 77%
 
 ## 編輯產品許可權的角色 {#edit-roles-for-product-permissions}
 
-許可權是統一許可權，可讓您定義指派給產品設定檔的授權。 每個許可權都會分組在功能底下，例如歷程或購買群組，代表Journey Optimizer B2B edition中的功能。
+許可權是統一許可權，可讓您定義指派給產品設定檔的授權。 每個許可權都會分組在功能底下，例如歷程或購買群組，代表Journey Optimizer B2B Edition中的功能。
 
 Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 許可權也可讓您管理與特定角色相關聯的沙箱和使用者。
 
@@ -335,4 +346,4 @@ Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以�
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-您的自訂角色已設定，且指派群組中的使用者現在可以存取您選取的Journey Optimizer B2B edition功能。
+您的自訂角色已設定，且指派群組中的使用者現在可以存取您選取的Journey Optimizer B2B Edition功能。

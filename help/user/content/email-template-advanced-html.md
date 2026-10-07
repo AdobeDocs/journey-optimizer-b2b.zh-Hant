@@ -1,28 +1,35 @@
 ---
 title: 電子郵件範本設計的進階HTML模式
-description: 使用進階HTML模式，直接在Journey Optimizer B2B edition的電子郵件設計空間中檢視及編輯電子郵件範本內容的原始HTML來源。
+description: 使用進階HTML模式，直接在Journey Optimizer B2B Edition的電子郵件設計空間中檢視和編輯電子郵件範本內容的原始HTML來源。
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+    internal-label: Experienced
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 0%
-
 ---
-
 # 適用於電子郵件範本設計的進階HTML模式
 
 _進階HTML模式_&#x200B;提供檢視，讓經驗豐富的使用者直接檢視及編輯電子郵件範本內容的原始原始程式碼。 如果您想要將複雜的運算式（例如條件式邏輯）直接插入來源中，這個模式是理想的選擇。 在超越視覺設計工具所公開範圍的結構調整上，它也很有用。

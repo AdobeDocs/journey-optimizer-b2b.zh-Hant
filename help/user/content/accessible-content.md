@@ -1,35 +1,46 @@
 ---
 title: 設計無障礙內容
-description: 瞭解如何在Journey Optimizer B2B edition中為您的電子郵件和登入頁面設計無障礙內容
+description: 瞭解如何在Journey Optimizer B2B Edition中為您的電子郵件和登入頁面設計無障礙內容
 feature: Email Authoring, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
+autotag-review: '2026-03-30T22:11:25.228Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-autotag-review: '2026-03-30T22:11:25.228Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+    internal-label: Accessibility
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1751'
 ht-degree: 1%
-
 ---
-
 # 設計無障礙內容 {#accessible-content}
 
 [歐洲無障礙法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一項指令，旨在透過消除因各成員國的不同國家規則所造成的障礙，來增強無障礙產品和服務的內部市場。
@@ -62,8 +73,8 @@ ht-degree: 1%
 
 ### 顏色對比
 
-* 維持文字與背景之間的對比率至少為4.5:1。
-* 對於大型文字（≥24px或粗體18px），請確定至少3:1對比度。
+* 文字和背景之間的對比率至少維持在4.5:1。
+* 對於大型文字（≥24px或粗體18px），請確定至少3:1的對比。
 * 避免白色背景上的淺灰色或淡色文字。
 * 請勿僅仰賴顏色來傳達意義，而是要使用底線、圖示等。
 
@@ -304,27 +315,27 @@ HTML屬性可協助輔助技術解譯內容中的結構、語言和關係。 以
 對於登陸頁面，提供鍵盤導覽和焦點支援可讓無法使用滑鼠的人存取內容並與內容互動。 它也能讓所有使用者以清晰一致的方式瀏覽資訊，進而改善整體可用性。
 
 * 鍵盤導覽與焦點
-   * 確定所有互動式元素（例如按鈕、核取方塊和連結）都有`tabindex="0"`，以便它們包含在自然索引標籤順序中。
-   * 允許使用Tab鍵和方向鍵(↑ ↓ ← →)導覽，這應該會明顯反白標示重點元素。
+  * 確定所有互動式元素（例如按鈕、核取方塊和連結）都有`tabindex="0"`，以便它們包含在自然索引標籤順序中。
+  * 允許使用Tab鍵和方向鍵(↑ ↓ ← →)導覽，這應該會明顯反白標示重點元素。
 * 自訂焦點樣式
-   * 套用清晰且可區分的樣式，以聚焦於可操作的元素：
-     +++範例(CSS)
+  * 套用清晰且可區分的樣式，以聚焦於可操作的元素：
+    +++範例(CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     background-color: #20CEFF;   /* Optional background */ 
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    background-color: #20CEFF;   /* Optional background */ 
+    }
+    ```
 
-     +++
+    +++
 
-   * 確保焦點指標符合WCAG 2.2焦點外觀標準，包括：
-      * 最小區域：2個CSS畫素粗輪廓。
-      * 對比率：焦點狀態和非焦點狀態之間的對比≥3:1。
+  * 確保焦點指標符合WCAG 2.2焦點外觀標準，包括：
+    * 最小區域：2個CSS畫素粗輪廓。
+    * 對比率：焦點狀態與未焦點狀態之間的對比。
 
 * 鍵盤啟動支援
-   * 確認核取方塊和按鈕會回應Enter和Space鍵。
-   * 僅使用鍵盤驗證互動：
-      * Enter或Space應該切換核取方塊。
-      * 按Enter或Space鍵應該會觸發按鈕。
+  * 確認核取方塊和按鈕會回應Enter和Space鍵。
+  * 僅使用鍵盤驗證互動：
+    * Enter或Space應該切換核取方塊。
+    * 按Enter或Space鍵應該會觸發按鈕。

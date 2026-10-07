@@ -1,34 +1,42 @@
 ---
 title: 啟動Marketo Engage以支援歷程動作
-description: 啟用Marketo Engage連線以支援歷程動作，讓行銷人員能夠協調Marketo Engage與Journey Optimizer B2B edition之間的行銷活動。
+description: 啟用Marketo Engage連線以支援歷程動作，讓行銷人員能夠協調Marketo Engage與Journey Optimizer B2B Edition之間的行銷活動。
 feature: Setup, Integrations
 role: Admin
 exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
+autotag-review: 2026-03-27T22:48:47.183Z
+TQID: 'https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:48:47.183Z
-TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: '540'
 ht-degree: 71%
-
 ---
-
 # 啟用Marketo Engage連線以支援動作
 
 Marketo Engage動作是&#x200B;_以人物為基礎的_&#x200B;動作，可讓您在Journey Optimizer B2B edition與Marketo Engage中的&#x200B;_潛在客戶為基礎的_&#x200B;行銷工作之間，協調您的&#x200B;_以帳戶為基礎的_&#x200B;行銷協調。 使用這些動作來編排靜態清單成員資格，並將人員放入行銷活動。
 
-若要使用Marketo Engage歷程動作，管理員必須先在Marketo Engage中建立[自訂服務](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}，此服務提供驗證所需的認證。 接著，Journey Optimizer B2B edition的產品管理員會使用這些憑證來建立與Marketo Engage的連線。 接著Journey Optimizer B2B edition使用者可以參考連線，以設定個人和帳戶歷程中的Marketo Engage動作：
+若要使用Marketo Engage歷程動作，管理員必須先在Marketo Engage中建立[自訂服務](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/rest/custom-services){target="_blank"}，此服務提供驗證所需的認證。 接著，Journey Optimizer B2B edition的產品管理員會使用這些憑證來建立與Marketo Engage的連線。 接著Journey Optimizer B2B Edition使用者可以參考連線，在個人和帳戶歷程中設定Marketo Engage動作：
 
 * [!UICONTROL 新增至Marketo清單]
 * [!UICONTROL 從Marketo清單移除]
@@ -46,7 +54,7 @@ Marketo Engage動作是&#x200B;_以人物為基礎的_&#x200B;動作，可讓您
 ### 建立Marketo Engage自訂服務
 
 1. 以系統管理員身分登入Marketo Engage，並[建立自訂服務](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}。
-1. 複製下列值以用於Journey Optimizer B2B edition連線：
+1. 複製下列值以用於Journey Optimizer B2B Edition連線：
 
    * Munchkin ID
    * 用戶端 ID
@@ -72,7 +80,7 @@ Marketo Engage動作是&#x200B;_以人物為基礎的_&#x200B;動作，可讓您
 
    >[!NOTE]
    >
-   >除非發生錯誤，否則不論相符專案為何，人員/潛在客戶都會繼續經過歷程。 不存在相符的記錄時，歷程動作不會在Marketo Engage中建立新的個人記錄。
+   >除非發生錯誤，否則不論配對為何，人員/銷售線索都會繼續經過歷程。 不存在相符的記錄時，歷程動作不會在Marketo Engage中建立新的個人記錄。
 
 1. 輸入在外部Munchkin例項中建立之服務的Marketo Engage ID、使用者端ID和使用者端密碼。
 1. 按一下&#x200B;**[!UICONTROL 連線至Marketo]**。

@@ -8,30 +8,42 @@ autotag-review: '2026-06-05T16:42:46.785Z'
 TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1165
+source-wordcount: '1165'
 ht-degree: 0%
-
 ---
-
 # Journey Agent B2B
 
-Journey Agent B2B是Adobe Journey Optimizer B2B edition中的AI支援助理，可協助您透過自然語言設計、執行、最佳化和監視B2B歷程。 它結合自動化、資料導向式建議和即時可觀察性，減少建立和管理客戶歷程所需的時間和複雜性。
+Journey Agent B2B是Adobe Journey Optimizer B2B Edition中的AI支援助理，可協助您透過自然語言設計、執行、最佳化和監視B2B歷程。 它結合自動化、資料導向式建議和即時可觀察性，減少建立和管理客戶歷程所需的時間和複雜性。
 
 ![Journey Agent B2B提示](./assets/journey-agent-prompt.png)
 
@@ -99,7 +111,7 @@ Journey Build技能可以透過對話體驗（而不是傳統的使用者介面�
 
 歷程可觀察性技能可讓您詢問有關帳戶和人員如何在B2B歷程中移動的自然語言問題，而不需挖掘歷程地圖、日誌或儀表板。 它涵蓋兩個主要領域：歷程進展和資料同步可觀察性。
 
-您可以在Journey Optimizer B2B edition中的兩個位置存取它：
+您可以在Journey Optimizer B2B Edition中的兩個位置存取它：
 
 * **歷程地圖的右邊欄小幫手** — 直接從歷程地圖詢問歷程特定問題。 歷程名稱會自動插入內容。
 

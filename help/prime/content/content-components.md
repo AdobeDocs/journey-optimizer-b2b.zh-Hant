@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T21:52:30.119Z'
 TQID: 'https://experienceleague.adobe.com/HlZVkbD1SkW94xTSLv-rMoKYWG6E79wBGfIH3oGQTNI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: '2840'
 ht-degree: 7%
-
 ---
-
 # 內容元件 {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -457,11 +463,11 @@ ht-degree: 7%
 
 * **[!UICONTROL 寬度]** — 使用切換功能以畫素或百分比設定寬度。
 
-   * 若為百分比寬度，請使用滑桿來設定百分比值。 百分比會根據包含區塊的內容方塊來決定元素大小，其中不包含邊框間距和邊框。 例如，值50會將元素寬度設定為其所包含區塊內容寬度的50%。
+  * 若為百分比寬度，請使用滑桿來設定百分比值。 百分比會根據包含區塊的內容方塊來決定元素大小，其中不包含邊框間距和邊框。 例如，值50會將元素寬度設定為其所包含區塊內容寬度的50%。
 
   ![定義分隔線元件](../../user/content/assets/component-divider-line-options.png){width="250"}的線條樣式
 
-   * 針對以畫素為基礎的寬度，按一下向上和向下箭頭圖示，以增加或減少畫素數量。 空白值(Auto)是預設值，會根據元素內容調整元素寬度。
+  * 針對以畫素為基礎的寬度，按一下向上和向下箭頭圖示，以增加或減少畫素數量。 空白值(Auto)是預設值，會根據元素內容調整元素寬度。
 
 * **[!UICONTROL 樣式]** — 從標準CSS `line-style`值清單中選擇一個值，例如&#x200B;_實線_、_點線_&#x200B;和&#x200B;_虛線_。
 
@@ -573,9 +579,9 @@ ht-degree: 7%
 
   有多種工具可協助您找到所需的資產：
 
-   * 按一下左上方的&#x200B;_篩選器_&#x200B;圖示，以根據您的條件篩選顯示的專案。
+  * 按一下左上方的&#x200B;_篩選器_&#x200B;圖示，以根據您的條件篩選顯示的專案。
 
-   * 在&#x200B;_搜尋_&#x200B;欄位中輸入文字，以篩選顯示的專案以符合資產名稱。
+  * 在&#x200B;_搜尋_&#x200B;欄位中輸入文字，以篩選顯示的專案以符合資產名稱。
 
 * **[!UICONTROL 匯入媒體]** — 選擇此型別以從您的系統選取檔案，並將其匯入[!DNL Journey Optimizer B2B Prime]資產庫。
 

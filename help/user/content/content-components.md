@@ -1,29 +1,35 @@
 ---
 title: 內容元件
-description: 在Journey Optimizer B2B edition中新增按鈕、文字、影像、表單和容器等內容元件，以設計電子郵件、登入頁面和片段。
+description: 在Journey Optimizer B2B Edition中新增按鈕、文字、影像、表單和容器等內容元件，以設計電子郵件、登入頁面和片段。
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+autotag-review: 2026-03-30T22:16:05.946Z
+TQID: 'https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-autotag-review: 2026-03-30T22:16:05.946Z
-TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+    internal-label: Experience design
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2658
+source-wordcount: '2658'
 ht-degree: 8%
-
 ---
-
 # 內容元件 {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -742,7 +748,7 @@ ht-degree: 8%
 
    * **[!UICONTROL 停留在頁面]** — 選擇此選項可在提交表單時讓訪客停留在相同頁面。
 
-   * **[!UICONTROL 登陸頁面]** — 選擇此選項可選取任何Journey Optimizer B2B edition登陸頁面作為後續追蹤。
+   * **[!UICONTROL 登陸頁面]** — 選擇此選項以選取任何Journey Optimizer B2B Edition登陸頁面作為後續追蹤。
 
    * **[!UICONTROL 外部URL]** — 選擇此選項可指定任何URL作為後續頁面。 訪客提交表單後，瀏覽器會載入指定的URL。
 

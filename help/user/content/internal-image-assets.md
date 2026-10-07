@@ -1,33 +1,39 @@
 ---
 title: 使用內部影像Assets
-description: 瀏覽、管理和使用Journey Optimizer B2B edition資產 — 組織資料夾、編輯影像和建立帳戶歷程的內容。
+description: 瀏覽、管理和使用Journey Optimizer B2B Edition資產 — 組織資料夾、編輯影像和建立帳戶歷程的內容。
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+autotag-review: 2026-03-30T22:14:12.746Z
+TQID: 'https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:14:12.746Z
-TQID: https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1765
+source-wordcount: '1765'
 ht-degree: 1%
-
 ---
-
 # 使用內部影像資產
 
 內部影像資產存放庫是預設影像資產來源，您可以輕鬆管理和使用可用資產，以設計支援帳戶歷程的內容。
 
-Journey Optimizer B2B edition提供完整的資產管理功能。 這些函式包括：
+Journey Optimizer B2B Edition提供完整的資產管理功能。 這些函式包括：
 
 * [取代](#replace-assets)
 * [刪除](#delete-assets)
@@ -36,7 +42,7 @@ Journey Optimizer B2B edition提供完整的資產管理功能。 這些函式�
 
 ## 瀏覽及存取資產
 
-若要存取Journey Optimizer B2B edition中的內部資產，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL Assets]**。 此動作會開啟一個清單頁面，其中列出所有資產。
+若要存取Journey Optimizer B2B Edition中的內部資產，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL Assets]**。 此動作會開啟一個清單頁面，其中列出所有資產。
 
 ![瀏覽影像資產](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -58,13 +64,13 @@ Journey Optimizer B2B edition提供完整的資產管理功能。 這些函式�
 
 ## 檢視參考使用的資產
 
-在資產詳細資訊頁面中，按一下&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤，以檢視Journey Optimizer B2B edition、電子郵件、電子郵件範本和片段中目前使用資產的詳細資訊。
+在資產詳細資訊頁面中，按一下&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤以檢視Journey Optimizer B2B Edition、電子郵件、電子郵件範本和片段中目前使用資產的詳細資訊。
 
 >[!IMPORTANT]
 >
 >無法刪除任何電子郵件、電子郵件範本或片段&#x200B;**中目前&#x200B;_使用中_的任何資產**。
 
-面板依類別顯示參考： _電子郵件_、_電子郵件範本_&#x200B;或&#x200B;_片段_。 Journey Optimizer B2B edition中的電子郵件會在歷程中內嵌及編寫，因此使用資產的電子郵件的父歷程會顯示在參考中。
+面板依類別顯示參考： _電子郵件_、_電子郵件範本_&#x200B;或&#x200B;_片段_。 Journey Optimizer B2B Edition中的電子郵件內嵌於歷程中並加以撰寫，因此使用資產的電子郵件上層歷程會顯示在參考資料中。
 
 按一下連結，系統會將您導向使用資產的相應電子郵件、電子郵件範本或片段。
 
@@ -72,7 +78,7 @@ Journey Optimizer B2B edition提供完整的資產管理功能。 這些函式�
 
 ## 新增資產
 
-從&#x200B;_Assets_&#x200B;清單頁面，您可以將影像資產新增至Journey Optimizer B2B edition資產存放庫。
+從&#x200B;_Assets_&#x200B;清單頁面，您可以將影像資產新增至Journey Optimizer B2B Edition資產存放庫。
 
 1. 按一下右上方的&#x200B;**[!UICONTROL 新增Assets]**。
 
@@ -112,7 +118,7 @@ Journey Optimizer B2B edition提供完整的資產管理功能。 這些函式�
 
 ## 取代資產
 
-使用下列其中一種方法來取代位於&#x200B;_[!UICONTROL Journey Optimizer B2B edition]_&#x200B;資產存放庫中的資產：
+使用下列其中一種方法來取代位於&#x200B;_[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;資產存放庫中的資產：
 
 * 前往資產詳細資料，按一下&#x200B;**[!UICONTROL ...在右上角顯示[更多]**]，然後從選項中選擇[取代]。**&#x200B;**
 
@@ -142,7 +148,7 @@ Journey Optimizer B2B edition提供完整的資產管理功能。 這些函式�
 
 ![選取的資產](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-您可以對位於&#x200B;_[!UICONTROL Journey Optimizer B2B edition]_&#x200B;資產存放庫中的所選資產採取下列大量動作：
+您可以對位於&#x200B;_[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;資產存放庫中的所選資產採取下列大量動作：
 
 +++移動資產
 
@@ -280,8 +286,8 @@ Assets可用於您團隊的電子郵件、電子郵件範本，或來自視覺�
 
   有多種工具可協助您找到所需的資產：
 
-   * 按一下左上方的&#x200B;_篩選器_&#x200B;圖示，以根據您的條件篩選顯示的專案。
+  * 按一下左上方的&#x200B;_篩選器_&#x200B;圖示，以根據您的條件篩選顯示的專案。
 
-   * 在&#x200B;_搜尋_&#x200B;欄位中輸入文字，以篩選顯示的專案以符合資產名稱。
+  * 在&#x200B;_搜尋_&#x200B;欄位中輸入文字，以篩選顯示的專案以符合資產名稱。
 
   ![使用篩選和搜尋欄位來尋找您需要的資產](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}

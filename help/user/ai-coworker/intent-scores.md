@@ -1,35 +1,47 @@
 ---
 title: 意圖分數
-description: 瞭解Journey Optimizer B2B edition如何根據個人參與和內容相關性計算意圖分數，以及如何將分數彙總至帳戶。
+description: 瞭解Journey Optimizer B2B Edition如何根據個人參與和內容相關性計算意圖分數，以及如何將分數彙總至帳戶。
 feature: Dashboards, Intent, Intelligent Insights
 role: User
 autotag-review: '2026-09-11T14:56:32.307Z'
 TQID: 'https://experienceleague.adobe.com/ajtUdNKafSoE1BC08imOpyflpDeAsXaQ3tdlbeYT6NU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
 subfeature_v2:
   - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
+    internal-label: Person insights
+  - id: e8c5d7c8-2857-453e-9943-8237af218e97
+    internal-label: Intent data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
+    internal-label: Machine learning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 
 # 意圖分數 {#intent-scores}
 
-意圖分數可測量個人或帳戶對關鍵字、產品或產品類別的興趣。 Adobe Journey Optimizer B2B edition使用測量意義相似性的機器學習來計算分數，而非手動規則或定點系統。 每個分數會從0標準化為1，數字愈高表示愈有意圖。
+意圖分數可測量個人或帳戶對關鍵字、產品或產品類別的興趣。 Adobe Journey Optimizer B2B Edition會使用機器學習來計算分數，這種機器學習會測量意義上的相似度，而非手動規則或定點系統。 每個分數會從0標準化為1，數字愈高表示愈有意圖。
 
 內容關聯性大約每12小時重新整理一次，而意圖分數每天都會重新計算。 分數從關鍵字彙總到產品，以及從人員彙總到帳戶。 意向分數會出現在整個[智慧型儀表板](../dashboards/intelligent-dashboard.md)以及[帳戶詳細資料](../accounts/account-details.md)、[_購買群組詳細資料_&#x200B;頁面](../buying-groups/buying-group-details.md)和[個人詳細資料](../accounts/person-details.md)頁面上。
 
@@ -55,7 +67,7 @@ ht-degree: 0%
 
 ### 內容關聯性 {#content-relevance}
 
-Journey Optimizer B2B edition將內容和分類法翻譯成其意義的數學表示，然後使用相似度模型來測量它們對齊的程度。 接近符合關鍵字或產品的內容會獲得高的關聯性分數。 不相關的內容會獲得低分。
+Journey Optimizer B2B Edition將內容和分類法轉譯為其意義的數學表示，然後使用相似度模型來測量它們對齊的程度。 接近符合關鍵字或產品的內容會獲得高的關聯性分數。 不相關的內容會獲得低分。
 
 相似性模型已使用一般語言預先訓練，因此不需要客戶特定的訓練即可開始。
 
@@ -75,7 +87,7 @@ Journey Optimizer B2B edition將內容和分類法翻譯成其意義的數學表
 
 ### 內容擷取 {#content-extraction}
 
-在對內容進行相關性評分之前，Journey Optimizer B2B edition會先擷取並讀取其文字。
+在對內容進行相關性評分之前，Journey Optimizer B2B Edition會先擷取並讀取其文字。
 
 * 系統會針對每個新內容擷取基礎文字，不論其位於網頁或電子郵件中。
 * 有些活動型別（例如表單填寫）已具有自己的描述性內容，並略過此步驟。

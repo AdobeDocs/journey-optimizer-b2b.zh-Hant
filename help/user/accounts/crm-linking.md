@@ -5,31 +5,39 @@ feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+autotag-review: 2026-03-27T22:24:19.286Z
+TQID: 'https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: addf009e-030a-4310-8534-776a3e62ed48
-autotag-review: 2026-03-27T22:24:19.286Z
-TQID: https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Customer lifecycle
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: '1470'
 ht-degree: 2%
-
 ---
-
 # 從 CRM 內存取詳細資料頁面
 
-Adobe Journey Optimizer B2B edition可讓銷售與帳戶團隊成員直接從其客戶關係管理(CRM)工具（例如Salesforce或Microsoft Dynamics）存取帳戶與購買群組資訊的詳細頁面。 透過這項整合，銷售代表可快速存取即時帳戶並購買群組深入分析，例如參與記錄、意圖訊號和AI產生的推薦。 這項能力讓銷售團隊能夠更快地進行外聯、更明智地安排優先順序，並且更好地與行銷保持一致。
+Adobe Journey Optimizer B2B Edition可讓銷售與帳戶團隊成員直接從其客戶關係管理(CRM)工具（例如Salesforce或Microsoft Dynamics）存取帳戶與購買群組資訊的詳細頁面。 透過這項整合，銷售代表可快速存取即時帳戶並購買群組深入分析，例如參與記錄、意圖訊號和AI產生的推薦。 這項能力讓銷售團隊能夠更快地進行外聯、更明智地安排優先順序，並且更好地與行銷保持一致。
 
-若要讓銷售和帳戶團隊成員能夠從CRM檢視Journey Optimizer B2B edition中的[帳戶詳細資料](account-details.md)和[個人詳細資料](person-details.md)頁面，Salesforce或Dynamics管理員可以從帳戶、連絡人或潛在客戶檢視新增連結。
+若要讓銷售和帳戶團隊成員能夠從CRM檢視Journey Optimizer B2B Edition中的[帳戶詳細資料](account-details.md)和[個人詳細資料](person-details.md)頁面，Salesforce或Dynamics管理員可以從帳戶、連絡人或潛在客戶檢視新增連結。
 
 當銷售團隊成員使用來自CRM執行個體的連結時，沙箱應該是&#x200B;_Prod_，並且IMS組織會根據以下順序邏輯來決定：
 
@@ -39,7 +47,7 @@ Adobe Journey Optimizer B2B edition可讓銷售與帳戶團隊成員直接從其
 
 ## Salesforce連結
 
-具有&#x200B;_自訂應用程式_&#x200B;許可權的Salesforce管理員可以在帳戶、連絡人或潛在客戶配置中設定連結。 設定的連結可讓銷售使用者存取Adobe Journey Optimizer B2B edition中對應的帳戶詳細資料或人員詳細資料頁面。
+具有&#x200B;_自訂應用程式_&#x200B;許可權的Salesforce管理員可以在帳戶、連絡人或潛在客戶配置中設定連結。 設定的連結可讓銷售使用者存取Adobe Journey Optimizer B2B Edition中對應的帳戶詳細資料或人員詳細資料頁面。
 
 在Salesforce中，新增自訂連結作為按鈕、超連結或連結圖示，並根據您團隊的偏好設定自訂。
 
@@ -47,7 +55,7 @@ Adobe Journey Optimizer B2B edition可讓銷售與帳戶團隊成員直接從其
 
 如需有關在Salesforce中新增自訂連結的詳細資訊，請參閱Salesforce檔案中的[定義自訂按鈕和連結](https://help.salesforce.com/s/articleView?id=platform.defining_custom_links.htm&type=5)。
 
-當您定義連結的目標URL時，可以使用帳戶、聯絡人或銷售機會版面配置，並將其連結至Journey Optimizer B2B edition中對應的詳細資訊頁面：
+當您定義連結的目標URL時，可以使用帳戶、聯絡人或銷售機會版面配置，並將其連結至Journey Optimizer B2B Edition中對應的詳細資訊頁面：
 
 * **帳戶** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[18-character ID of account]`
 
@@ -130,7 +138,7 @@ Adobe Journey Optimizer B2B edition可讓銷售與帳戶團隊成員直接從其
 
 ## Microsoft Dynamics連結
 
-Dynamics開發人員可以擴充「帳戶」、「連絡人」或「銷售機會」實體，以新增連結欄位。 設定的連結可讓銷售使用者存取Adobe Journey Optimizer B2B edition中對應的帳戶詳細資料或人員詳細資料頁面。
+Dynamics開發人員可以擴充「帳戶」、「連絡人」或「銷售機會」實體，以新增連結欄位。 設定的連結可讓銷售使用者存取Adobe Journey Optimizer B2B Edition中對應的帳戶詳細資料或人員詳細資料頁面。
 
 將自訂連結新增為按鈕、超連結或連結圖示連結，並根據您團隊的偏好設定加以自訂。
 
@@ -138,7 +146,7 @@ Dynamics中的![自訂連結](./assets/crm-linking-dynamics-account-examples.png
 
 使用Power Apps來自訂Microsoft模型驅動的應用程式，例如Dynamics元件。 如需使用Power Apps在Dynamics中新增自訂連結的詳細資訊，請參閱[PowerApps檔案](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-web-resources)。
 
-當您定義連結的目標URL時，可以使用帳戶、聯絡人或潛在客戶檢視，並將其連結至Journey Optimizer B2B edition中對應的詳細資訊頁面：
+當您定義連結的目標URL時，可以使用帳戶、聯絡人或潛在客戶檢視，並將其連結至Journey Optimizer B2B Edition中對應的詳細資訊頁面：
 
 * **帳戶** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[Account ID]`
 

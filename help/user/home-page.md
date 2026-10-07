@@ -4,24 +4,29 @@ description: 存取 Journey Optimizer B2B Edition 和導覽個人化首頁：透
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
+autotag-review: 2026-03-27T22:19:43.813Z
+TQID: 'https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+  - id: c94c7410-5385-5f5d-84b7-99639323828e
+    internal-label: Home Page
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:19:43.813Z
-TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '415'
 ht-degree: 83%
-
 ---
-
 # 登入和首頁
 
 您可以使用 Adobe Journey Optimizer B2B Edition 內建的生成式 AI 和領先業界的自動化功能，協調帳戶和購買群組歷程，以便利用符合行銷資格的購買群組，將特定產品的需求最大化。

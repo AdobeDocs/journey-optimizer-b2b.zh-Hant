@@ -1,9 +1,10 @@
 ---
 title: 採取動作
-description: 設定帳戶和人員動作的動作節點 — 傳送電子郵件、更新購買群組、變更分數，以及在Journey Optimizer B2B edition中與Marketo Engage整合。
+description: 設定帳戶和人員動作的動作節點 — 傳送電子郵件、更新購買群組、變更分數，以及在Journey Optimizer B2B Edition中與Marketo Engage整合。
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -13,6 +14,8 @@ feature_v2:
 subfeature_v2:
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
     internal-label: Journey Actions
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,8 +25,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2176'
 ht-degree: 3%
@@ -55,7 +57,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->2025.10版已棄用&#x200B;_[!UICONTROL 帳戶變更資料值]_&#x200B;動作。 _[!UICONTROL 更新帳戶設定檔]_&#x200B;會在Journey Optimizer B2B edition中取代此動作。<br/>
+>2025.10版已棄用&#x200B;_[!UICONTROL 帳戶變更資料值]_&#x200B;動作。 _[!UICONTROL 更新帳戶設定檔]_&#x200B;取代了Journey Optimizer B2B Edition中的此動作。<br/>
 >
 >管理員可以更新&#x200B;_[!UICONTROL XDM設定]_ > _[!UICONTROL 標準類別]_&#x200B;中的欄位，以設定XDM商業帳戶的可用屬性。 如需詳細資訊，請參閱[標準結構描述](../admin/xdm-field-management.md#standard-schemas)。
 
@@ -200,7 +202,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
    >[!NOTE]
    >
-   >從Journey Optimizer B2B edition建立新的外部客戶對象時，會內建一個虛擬記錄(`test@email.com`)。 將第一個實際設定檔新增至歷程的外部對象時，就會覆寫此記錄。
+   >從Journey Optimizer B2B Edition建立新的外部客戶對象時，會內建一個虛擬記錄(`test@email.com`)。 將第一個實際設定檔新增至歷程的外部對象時，就會覆寫此記錄。
 
 使用現有的對象(_T):_
 
@@ -294,7 +296,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 >[!NOTE]
 >
->_[!UICONTROL 更新人員設定檔]_&#x200B;動作會取代目前Journey Optimizer B2B edition版本中的&#x200B;_[!UICONTROL 變更資料值]_&#x200B;動作。<br/>
+>_[!UICONTROL 更新人員設定檔]_&#x200B;動作會取代目前Journey Optimizer B2B Edition版本中的&#x200B;_[!UICONTROL 變更資料值]_&#x200B;動作。<br/>
 >
 >管理員可以更新&#x200B;_[!UICONTROL XDM設定]_ > _[!UICONTROL 標準類別]_&#x200B;中的欄位，以設定XDM個別設定檔的可用屬性。 如需詳細資訊，請參閱[標準結構描述](../admin/xdm-field-management.md#standard-schemas)。
 
@@ -308,7 +310,7 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 >
 >Marketo Engage動作需要與一個或多個外部Marketo Engage執行個體進行已設定的整合。 若要尋找此設定的詳細資訊，請參閱&#x200B;[_啟用Marketo Engage連線以支援動作_](../admin/marketo-actions-connect.md)。
 
-例如，在Marketo Engage中，針對屬於Journey Optimizer B2B edition購買群組的人員，隱藏促銷活動。 在這種情況下，您可以在Marketo Engage中建立符合解決方案利益的靜態清單。 接著，在購買群組的分割路徑上，使用歷程節點的&#x200B;_新增至Marketo清單_&#x200B;動作。 此動作會將購買群組成員新增至已連線Marketo Engage執行個體中的特定靜態清單。 然後，在Marketo Engage中將以解決方案興趣為主的靜態清單用於智慧清單篩選器。
+例如，針對屬於Journey Optimizer B2B Edition中購買群組的人員，在Marketo Engage中隱藏促銷活動。 在這種情況下，您可以在Marketo Engage中建立符合解決方案利益的靜態清單。 接著，在購買群組的分割路徑上，使用歷程節點的&#x200B;_新增至Marketo清單_&#x200B;動作。 此動作會將購買群組成員新增至已連線Marketo Engage執行個體中的特定靜態清單。 然後，在Marketo Engage中將以解決方案興趣為主的靜態清單用於智慧清單篩選器。
 
 +++[!UICONTROL 新增至Marketo要求行銷活動]
 

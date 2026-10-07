@@ -1,5 +1,5 @@
 ---
-title: Journey Optimizer B2B edition中的AI功能
+title: Journey Optimizer B2B Edition中的AI功能
 description: 透過 AI 助理加快工作流程：取得 Journey Optimizer B2B Edition 的產品知識、疑難排解說明和運作洞察。
 feature: AI Assistant
 role: User, Admin
@@ -9,32 +9,40 @@ autotag-review: '2026-06-05T16:05:30.499Z'
 TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+    internal-label: Operational Insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7b5a3fdf94725b7cf3c7f4da8ff5d8cce115a3d7
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1385
+source-wordcount: '1385'
 ht-degree: 8%
-
 ---
+# Journey Optimizer B2B Edition中的AI功能
 
-# Journey Optimizer B2B edition中的AI功能
-
-Adobe Journey Optimizer B2B edition中的聊天介面是由與Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中的AI助理相同的技術基礎所提供。 這是一種對話式體驗，可用來加速Journey Optimizer B2B edition的工作流程。 您可以使用聊天介面進一步瞭解產品功能、疑難排解問題，或搜尋資訊並找到Journey Optimizer B2B edition的營運深入分析。 您也可以使用此介面來叫用[Journey Agent](../agents/journey-agent.md)和[Audience Agent](../agents/audience-agent-b2b.md)。
+Adobe Journey Optimizer B2B Edition中的聊天介面是由與Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}中的AI助理相同的技術基礎所提供。 這是一種對話式體驗，可用來加速Journey Optimizer B2B Edition的工作流程。 您可以使用聊天介面進一步瞭解產品功能、疑難排解問題，或搜尋資訊並找到Journey Optimizer B2B Edition的營運深入分析。 您也可以使用此介面來叫用[Journey Agent](../agents/journey-agent.md)和[Audience Agent](../agents/audience-agent-b2b.md)。
 
 >[!IMPORTANT]
 >
->您必須先與[使用者准則](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}達成協定，才能在Journey Optimizer B2B edition中使用AI小幫手。 此合約也包含公開測試版合約，以便於您在其他AI Assistant功能推出時使用這些功能。
+>您必須先與[使用者准則](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}達成協定，才能在Journey Optimizer B2B Edition中使用AI小幫手。 此合約也包含公開測試版合約，以便於您在其他AI Assistant功能推出時使用這些功能。
 
 +++檢視使用者合約介面
 
@@ -48,13 +56,13 @@ Adobe Journey Optimizer B2B edition中的聊天介面是由與Adobe Experience P
 
 ## 銷售限定詞
 
-Sales Qualifier是AI驅動的應用程式，可搭配Journey Optimizer B2B edition使用。 它會實作Account Qualification Agent，並旨在簡化業務開發代表(BDR)的工作流程。 Sales Qualifier可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
+Sales Qualifier是AI驅動的應用程式，可與Journey Optimizer B2B Edition搭配使用。 它會實作Account Qualification Agent，並旨在簡化業務開發代表(BDR)的工作流程。 Sales Qualifier可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
 
 如需詳細資訊，請參閱[Sales Qualifier檔案](https://experienceleague.adobe.com/zh-hant/docs/sales-qualifier/using/home){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
-## Journey Optimizer B2B edition中的AI助理功能
+## Journey Optimizer B2B Edition中的AI助理功能
 
 為了針對您提交的問題制定回應，AI Assistant會查詢資料庫，並將資料庫中的資料轉譯成人類看得懂的答案。 此回應是基礎資料&#x200B;_&#x200B;**知識圖表**&#x200B;_&#x200B;的內部表示法，可提供特定答案的概念、資料和中繼資料的完整集合。 「知識圖形」由每次提交查詢時所參考的子圖形組成：
 
@@ -65,7 +73,7 @@ Sales Qualifier是AI驅動的應用程式，可搭配Journey Optimizer B2B editi
 
 ### 產品知識
 
-產品知識是指以Adobe Experience League上的Journey Optimizer B2B edition檔案為根據的概念和主題。 產品知識問題可進一步指定到下列子群組中：
+產品知識是指以Adobe Experience League上的Journey Optimizer B2B Edition檔案為基礎的概念和主題。 產品知識問題可進一步指定到下列子群組中：
 
 | 產品知識 | 範例 |
 | --- | --- |
@@ -86,7 +94,7 @@ _營運深入分析_&#x200B;參考由AI助理產生的中繼資料物件（屬�
 | 網域 | 支援的中繼資料 | 不支援的中繼資料 |
 | --- | --- | --- |
 | 屬性/欄位 | <li>屬性名稱搜尋 <li>屬性 — 結構描述關係 <li>屬性 — 資料集關係 <li>屬性 — 對象關係 <li>屬性 — 目的地關係 | <li>屬性類別 <li>稽核 <li>淘汰狀態 <li>標籤 <li>儲存在屬性中的值 |
-| 帳戶對象&#x200B;<br><br>**_附註:_**&#x200B;在Journey Optimizer B2B edition內容中，AI助理只能回答帳戶對象的對象問題。 在Experience Platform內容中，AI助理只能回答個人受眾的問題。 | <li>客群計數 <li>對象型別（串流或批次） <li>建立/修改日期 <li>啟用狀態 <li>成員計數 <li>複製對象 <li>名稱和ID搜尋 | <li>客群重疊 <li>客群啟用 <li>稽核 <li>建立/修改 <li>標籤 <li>成員資格趨勢 |
+| 帳戶對象&#x200B;<br><br>**_附註:_**&#x200B;在Journey Optimizer B2B Edition內容中，AI助理只能回答帳戶對象的對象問題。 在Experience Platform內容中，AI助理只能回答個人受眾的問題。 | <li>客群計數 <li>對象型別（串流或批次） <li>建立/修改日期 <li>啟用狀態 <li>成員計數 <li>複製對象 <li>名稱和ID搜尋 | <li>客群重疊 <li>客群啟用 <li>稽核 <li>建立/修改 <li>標籤 <li>成員資格趨勢 |
 | 資料流 | <li>資料流計數 <li>資料流程狀態 <li>資料流 — 資料集關係 <li>資料流 — 來源關係 | <li>建立/修改 <li>資料流 — 批次關係 <li>擷取設定檔計數 |
 | 資料集 | <li>資料集計數 <li>設定檔啟用狀態 <li>建立/修改日期 <li>資料集 — 結構描述關係 <li>資料集 — 對象關係 <li>資料集 — 屬性關係 <li>資料集 — 資料流關係 <li>名稱搜尋 <li>名稱和ID搜尋 | <li>稽核 <li>建立者 <li>資料集 — 批次關係 <li>資料集建立/修改 <li>資料集大小 <li>設定檔數 <li>列數 <li>值搜尋 |
 | 目的地 | <li>設定的目的地計數 <li>目的地 — 對象關係 <li>目的地屬性關係 | <li>帳戶設定 <li>帳戶認證資訊 <li>啟用的不重複設定檔 |
@@ -104,13 +112,13 @@ _營運深入分析_&#x200B;參考由AI助理產生的中繼資料物件（屬�
 
 目前，AI助理的範圍如下：
 
-* **產品知識**： AI助理可以回答Real-Time Customer Data Platform和Adobe Journey Optimizer B2B edition的產品知識問題。
+* **產品知識**： AI助理可以回答Real-Time Customer Data Platform和Adobe Journey Optimizer B2B Edition的產品知識問題。
 
 * **營運分析**：您可以詢問AI助理員問題，以獲得下列資料物件的營運分析：屬性、帳戶對象、資料流、資料集、目的地、帳戶歷程、結構描述、來源、購買群組範本和解決方案興趣。
 
 ### 隱私權、安全性和治理
 
-Journey Optimizer B2B edition中的AI助理會優先處理隱私權、安全性和治理。 檢閱下列資訊，瞭解您可以期望從AI Assistant獲得的以客戶信任為中心的功能：
+Journey Optimizer B2B Edition中的AI助理會優先處理隱私權、安全性和治理。 檢閱下列資訊，瞭解您可以期望從AI Assistant獲得的以客戶信任為中心的功能：
 
 * AI助理目前不使用個人資料，即使用於培訓目的亦然。
 
@@ -130,7 +138,7 @@ Journey Optimizer B2B edition中的AI助理會優先處理隱私權、安全性�
 
 ### 常見問題
 
-以下是有關Journey Optimizer B2B edition中AI Assistant常見問題的回答清單。
+以下是有關Journey Optimizer B2B Edition中AI助理常見問題的回答清單。
 
 **是否即時提供AI助理的資訊？**
 
