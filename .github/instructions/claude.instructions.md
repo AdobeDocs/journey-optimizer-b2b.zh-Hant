@@ -745,7 +745,7 @@ hide: yes
 - 不可本地化的影像會移至`do-not-localize/`子資料夾。
 - TOC檔案(`TOC.md`)定義左側導覽結構。 新增或移除頁面時進行更新。
 - 針對此存放庫中的檔案之間的互動參照，使用根相對連結(`/help/...`)。
-- 對於此存放庫外部檔案的連結，請使用絕對`https://experienceleague.adobe.com/...` URL。
+- 對於此存放庫外部檔案的連結，請使用絕對`https://experienceleague.adobe.com/zh-hant...` URL。
 - 分支命名：沒有使用者名稱首碼。 使用Jira票證號碼和標題封包概要（例如，`PLAT-12345-Update-Guardrail-Limits`）。 使用相同格式為分支和PR標題命名。
 - 分散式元件（標題、包圍型程式碼區塊、清單）必須用空白行包圍。
 - 每個檔案只能有一個H1 (`#`)。 frontmatter之後的第一行必須是H1。
@@ -832,7 +832,7 @@ hide: yes
 - **本地化標籤參考**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Experience League Markdown語法**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Markdown速查表**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **發行說明樣式參考**： https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
+- **發行說明樣式參考**： https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/latest
 
 **本機複製：**
 - **編寫指南存放庫：**&#x200B;使用Adobe Experience League編寫指南或其公開檔案的可用結帳。
