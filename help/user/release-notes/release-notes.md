@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
+source-git-commit: 61cb7f99bf1f1649bf1a8569a506c248146a522e
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5717'
 ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition 發行說明
@@ -43,15 +43,18 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 人員清單 | 現在提供靜態和動態人員清單，讓您可依定義的條件（例如人口統計屬性和體驗事件歷史記錄）鎖定設定檔。 |
 | 功能 | 服務健康情況儀表板 | 透過收整合功/錯誤量度並提供儀表板讓管理員監視服務效能，來追蹤外部動作的運作狀況。 |
+| 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 [了解更多](../journeys/journey-re-entry.md) |
 | 增強功能 | 設定檔對象篩選的成員 | 此篩選器現在可用於人員歷程分割路徑條件、帳戶歷程人員分割路徑條件，以及根據受眾成員資格來包含或排除設定檔的人員清單。 |
-| 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 |
 
 >[!NOTE]
 >
 >這些版本變更從2026年9月25日開始部署，並分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
 
+<!--
+Delayed to Oct
+| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
+-->
 
 ## 2026.8發行說明 {#rel-2026-8}
 
