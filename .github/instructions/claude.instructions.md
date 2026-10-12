@@ -1,8 +1,8 @@
 ---
 applyTo: "**/*.md"
-source-git-commit: 0f90b37c1ed8e4da0840f64179a0e99e0fe786d7
+source-git-commit: d36cfd513df3d363a7bd74b5e09b774426e50b9b
 workflow-type: tm+mt
-source-wordcount: '5174'
+source-wordcount: '5166'
 ht-degree: 1%
 ---
 
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 您正在協助Adobe Experience League公開檔案存放庫(`journey-optimizer-b2b.en`)的技術撰寫人員。 您草稿、編輯或檢閱的每個內容片段都必須遵循以下所有規則。 若對術語有疑問，請使用Confluence MCP工具(`mcp__adobe-wiki-confluence`)查詢參考的Wiki。
 
-&#x200B;---
+---
 
 ## &#x200B;1. 語調、語調和風格
 
@@ -71,7 +71,7 @@ AI助理和搜尋工具越來越多地在產生的答案中顯示Experience Leag
 - 納入同義字或首次使用的替代辭彙(例如「ECID (Experience Cloud ID)」)以改進各種查詢片語的擷取。
 - 確保中繼資料欄位（標題、說明、功能標籤）完整且準確。
 
-&#x200B;---
+---
 
 ## &#x200B;2. Adobe Markdown語法(Experience League)
 
@@ -106,7 +106,7 @@ description: Learn how to... or Learn about... (150-160 chars, sentence case).
 - 以「瞭解如何……」開始任務說明 或命令式動詞。
 - 請勿以產品名稱開頭。 以SEO的動詞作為開頭。
 - 請勿逐字複製第一段落（不同目的）。
-- 如果中繼資料欄位以`[!DNL]`或&grave;&grave;標籤開頭，請將整個欄位值括在引號中，否則驗證會失敗。
+- 如果中繼資料欄位以`[!DNL]`或``標籤開頭，請將整個欄位值括在引號中，否則驗證會失敗。
 
 ### 標題
 
@@ -364,7 +364,7 @@ Multiple paragraphs of preview content here.
 - 避免檔案名稱與JavaScript/CSS衝突： `metadata.md`， `search.md`。
 - 資產檔案名稱：偏好使用小寫；允許使用大寫字母和底線，但不建議使用。
 
-&#x200B;---
+---
 
 ## &#x200B;3. 本地化標籤（嚴重）
 
@@ -400,7 +400,7 @@ Multiple paragraphs of preview content here.
 **格式：**
 - 步驟和導覽中的粗體： `Select **[!UICONTROL Destinations]** from the left navigation.`
 - 為了清楚起見，概念文字（非步驟）中可以接受斜體。
-- 在HTML資料表中：使用`<span class="uicontrol">term</span>`而非&grave;&grave;。
+- 在HTML資料表中：使用`<span class="uicontrol">term</span>`而非``。
 - 在連結文字中：移除標籤括弧。
 
 **大小寫：**&#x200B;完全符合介面。
@@ -411,12 +411,12 @@ Multiple paragraphs of preview content here.
 - 程式碼區塊或首字母縮略詞
 - 圖示說明。 使用圖示的暫留/工具提示名稱（如果可用）；不要標籤一般說明，如「鉛筆圖示」
 
-### `[!DONOTLOCALIZE]`：排除整個區段
+### `[!DNL]`：排除整個區段
 
 在所有地區設定中，必須保留英文的內容換行：
 
 ```markdown
->[!DONOTLOCALIZE]
+>[!DNL]
 >
 >Content that must not be translated.
 ```
@@ -429,9 +429,9 @@ Multiple paragraphs of preview content here.
 
 **無法用於：**&#x200B;程式碼區塊（縮寫）。
 
-**中繼資料規則：**&#x200B;如果中繼資料欄位（標題或說明）以`[!DNL]`或&grave;&grave;標籤開頭，請以引號括住整個欄位值，否則驗證會失敗。
+**中繼資料規則：**&#x200B;如果中繼資料欄位（標題或說明）以`[!DNL]`或``標籤開頭，請以引號括住整個欄位值，否則驗證會失敗。
 
-&#x200B;---
+---
 
 ## &#x200B;4. 資訊結構和內容型別
 
@@ -505,7 +505,7 @@ hide: yes
 
 這會從外部和內部搜尋中排除頁面。 設定`hide: yes`會自動設定`index: no`。 當您想要在導覽和搜尋中隱藏頁面時，除了使用`{hide-from-toc}`之外，也使用此選項。
 
-&#x200B;---
+---
 
 ## &#x200B;5. 術語與品牌
 
@@ -529,9 +529,8 @@ hide: yes
 | 即時客戶輪廓 | 即時客戶設定檔、整合設定檔 |
 | Adobe Journey Optimizer | AJO |
 | Adobe Journey Optimizer B2B Edition | AJO B2B |
-| Adobe Journey Optimizer B2B Prime | AJO B2B Prime |
 | Adobe Marketo Optimizer | AMO |
-| Adobe Marketo Engage | Marketo （可用作形容詞） |
+| Adobe Marketo Engage | Marketo （無法當作形容詞使用） |
 | Adobe Customer Journey Analytics | CJA |
 | Customer Journey Analytics （次要） | — |
 | Adobe Real-Time CDP Collaboration | RTCDP Collaboration， RTCDP Collab， Collab |
@@ -603,7 +602,7 @@ hide: yes
 | 步調 | 非使用者導向廣告詞語 |
 | 管道 | 內部Adobe基礎架構辭彙 |
 
-&#x200B;---
+---
 
 ## &#x200B;6. 內含語言與協助工具
 
@@ -694,7 +693,7 @@ hide: yes
 - 在所有影片中加入有意義的註解。
 - 可能的話，連結至書面指示：「如需書面指示，請參閱[連結]。」
 
-&#x200B;---
+---
 
 ## &#x200B;7. 拼字與標點符號
 
@@ -724,7 +723,7 @@ hide: yes
 - 冒號：用來引入清單。 完整句子後面跟著冒號後的第一個字詞使用大寫（或該字是專有名詞）。
 - 沒有分號。 請改用句點和新句子。
 
-&#x200B;---
+---
 
 ## &#x200B;8. SEO與可尋找性
 
@@ -736,7 +735,7 @@ hide: yes
 - 說明中繼資料：使用自然語言搭配關鍵字。 請勿塞入隨機關鍵字。 Google可能會降級關鍵字填充的內容。
 - 保持中繼資料欄位（標題、說明、功能標籤）完整且準確 — 探索介面在讀取頁面內容之前，會使用中繼資料來篩選及排名結果。
 
-&#x200B;---
+---
 
 ## &#x200B;9. 檔案與存放庫慣例
 
@@ -745,12 +744,12 @@ hide: yes
 - 不可本地化的影像會移至`do-not-localize/`子資料夾。
 - TOC檔案(`TOC.md`)定義左側導覽結構。 新增或移除頁面時進行更新。
 - 針對此存放庫中的檔案之間的互動參照，使用根相對連結(`/help/...`)。
-- 對於此存放庫外部檔案的連結，請使用絕對`https://experienceleague.adobe.com/zh-hant...` URL。
+- 對於此存放庫外部檔案的連結，請使用絕對`https://experienceleague.adobe.com/...` URL。
 - 分支命名：沒有使用者名稱首碼。 使用Jira票證號碼和標題封包概要（例如，`PLAT-12345-Update-Guardrail-Limits`）。 使用相同格式為分支和PR標題命名。
 - 分散式元件（標題、包圍型程式碼區塊、清單）必須用空白行包圍。
 - 每個檔案只能有一個H1 (`#`)。 frontmatter之後的第一行必須是H1。
 
-&#x200B;---
+---
 
 ## &#x200B;10. 檢閱檢查清單
 
@@ -781,7 +780,7 @@ hide: yes
 - [ ]在產品名稱前沒有「the」（例如，不是「Adobe Experience Platform」）
 
 **本地化標籤**
-- [ 所有UI元素名稱上的] &grave;&grave;；步驟中以粗體顯示
+- [ 所有UI元素名稱上的] ``；步驟中以粗體顯示
 - [ 所有產品和協力廠商名稱上的] `[!DNL]`
 - [ ]已標籤的布林運運算元： `[!DNL AND]`，`[!DNL OR]`
 - [ ]程式碼區塊中沒有標籤
@@ -811,7 +810,7 @@ hide: yes
 - [ ]檔案名稱為帶有連字型大小的小寫；描述性Slug （不是空的`overview.md`）
 - [ `assets/`中的]個影像；`do-not-localize/`中的非本地化影像
 
-&#x200B;---
+---
 
 ## &#x200B;11. 外部參考
 
@@ -832,7 +831,7 @@ hide: yes
 - **本地化標籤參考**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Experience League Markdown語法**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Markdown速查表**： https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **發行說明樣式參考**： https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/latest
+- **發行說明樣式參考**： https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
 
 **本機複製：**
 - **編寫指南存放庫：**&#x200B;使用Adobe Experience League編寫指南或其公開檔案的可用結帳。
