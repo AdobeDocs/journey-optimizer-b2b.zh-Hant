@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2381'
+ht-degree: 76%
 ---
 # 使用者存取和許可權
 
@@ -85,7 +85,7 @@ ht-degree: 77%
 
 新增使用者至Marketo Engage產品設定檔時，他們隨後會新增至Marketo Engage訂閱預設工作區中的&#x200B;_標準使用者_&#x200B;角色。 此角色會授予他們該工作區中Marketo Engage的所有標準許可權。 目前，所有Journey Optimizer B2B edition使用者都必須是Marketo Engage使用者。 Marketo Engage管理員可以更新&#x200B;_標準使用者_&#x200B;角色的許可權，或將使用者移至其他具有更嚴格許可權的Marketo Engage使用者角色，以限制存取權。
 
-如需有關在Marketo Engage中管理這些許可權的詳細資訊，請參閱Marketo Engage檔案中的[管理使用者角色和許可權](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
+如需有關在Marketo Engage中管理這些許可權的詳細資訊，請參閱Marketo Engage檔案中的[管理使用者角色和許可權](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ ht-degree: 77%
 
 1. 輸入產品設定檔名稱，例如&#x200B;_B2B使用者_。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[下一步]****，然後按一下[儲存]****。
 
 ## 為設定檔新增使用者群組 {#add-user-group}
 
@@ -178,7 +178,7 @@ ht-degree: 77%
 
 Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 許可權也可讓您管理與特定角色相關聯的沙箱和使用者。
 
-如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 ### B2B產品許可權 {#b2b-product-permissions}
 
@@ -192,8 +192,12 @@ Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以�
 | B2B購買群組 | 設定、管理和檢視B2B購買群組的許可權。 這些許可權包括解決方案興趣、角色範本和購買群組狀態。 | <li>管理B2B購買群組 <li>管理B2B解決方案興趣 <li>管理B2B角色範本 <li>管理B2B階段 <li>檢視B2B購買群組 |
 | B2B通道設定 | 設定、管理和檢視B2B管道設定的許可權。 這些許可權包括通訊限制、API憑證和安全性設定的設定。 | <li>管理B2B管道設定 <li>檢視B2B電子郵件設定 <li>管理B2B電子郵件設定 <li>管理B2B WhatsApp預設集 <li>管理B2B登陸頁面設定 <li>檢視B2B Forms預設集 <li>管理B2B Forms預設集 <li>發佈B2B Forms預設集 <li>作者B2B Web體驗 <li>管理B2B WhatsApp設定 |
 | B2B儀表板 | 設定和檢視B2B儀表板的許可權。 這些許可權包括帳戶參與度、購買群組階段、激增帳戶和聯絡人涵蓋範圍。 | <li>檢視B2B參與儀表板 |
-| B2B歷程 | 設定、管理、檢視和發佈B2B歷程的許可權。 這些許可權包括帳戶和人員動作、事件接聽程式以及分割路徑。 | <li>管理B2B帳戶歷程 <li>管理B2B個人歷程 |
+| B2B歷程 | 設定、管理、檢視和發佈B2B歷程的許可權。 這些許可權包括帳戶和人員動作、事件接聽程式以及分割路徑。 | <li>管理B2B帳戶歷程 <li>管理B2B個人歷程 <li>檢視B2B個人歷程 <li>發佈B2B個人歷程 |
 | Journey Optimizer規則 | 存取及設定頻率規則（通訊限制）。 這些許可權應該僅限於產品管理員。 | <li>檢影片率規則 <li>管理頻率規則 |
+
+>[!NOTE]
+>
+>所有B2B個人歷程許可權目前都會授予個人歷程的讀取、寫入和發佈存取權。 此已知差距將在未來版本中解決。
 
 ### B2B內建角色 {#b2b-built-in-roles}
 
