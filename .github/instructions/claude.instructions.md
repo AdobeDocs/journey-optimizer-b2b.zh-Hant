@@ -1,8 +1,8 @@
 ---
 applyTo: "**/*.md"
-source-git-commit: 0f90b37c1ed8e4da0840f64179a0e99e0fe786d7
+source-git-commit: d36cfd513df3d363a7bd74b5e09b774426e50b9b
 workflow-type: tm+mt
-source-wordcount: '5174'
+source-wordcount: '5166'
 ht-degree: 1%
 ---
 
@@ -411,12 +411,12 @@ Multiple paragraphs of preview content here.
 - 程式碼區塊或首字母縮略詞
 - 圖示說明。 使用圖示的暫留/工具提示名稱（如果可用）；不要標籤一般說明，如「鉛筆圖示」
 
-### `[!DONOTLOCALIZE]`：排除整個區段
+### `[!DNL]`：排除整個區段
 
 在所有地區設定中，必須保留英文的內容換行：
 
 ```markdown
->[!DONOTLOCALIZE]
+>[!DNL]
 >
 >Content that must not be translated.
 ```
@@ -529,9 +529,8 @@ hide: yes
 | 即時客戶輪廓 | 即時客戶設定檔、整合設定檔 |
 | Adobe Journey Optimizer | AJO |
 | Adobe Journey Optimizer B2B Edition | AJO B2B |
-| Adobe Journey Optimizer B2B Prime | AJO B2B Prime |
 | Adobe Marketo Optimizer | AMO |
-| Adobe Marketo Engage | Marketo （可用作形容詞） |
+| Adobe Marketo Engage | Marketo （無法當作形容詞使用） |
 | Adobe Customer Journey Analytics | CJA |
 | Customer Journey Analytics （次要） | — |
 | Adobe Real-Time CDP Collaboration | RTCDP Collaboration， RTCDP Collab， Collab |
