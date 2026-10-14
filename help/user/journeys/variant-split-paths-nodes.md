@@ -1,6 +1,6 @@
 ---
 title: 變體拆分路徑
-description: 瞭解如何在Journey Optimizer B2B edition中使用變異式分割路徑節點，以使用百分比型配置將帳戶或人員分配至多個歷程路徑。
+description: 瞭解如何在Journey Optimizer B2B Edition中使用變體分割路徑節點，以百分比為基礎的分配，將帳戶或人員分配至多個歷程路徑。
 feature: Account Journeys, Person Journeys
 solution: Journey Optimizer B2B Edition
 role: User
@@ -8,29 +8,29 @@ autotag-review: '2026-08-17T19:14:54.674Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: d130cb9de068b22be540a1fe9a6dc9fcaaad127e
+    internal-label: Experienced
+source-git-commit: c0d976241c5074deaca28d82e71b30718f6cd0c7
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: '1981'
 ht-degree: 1%
-
 ---
-
 # 變體分割路徑
 
 使用&#x200B;_變體分割路徑_&#x200B;節點，根據您定義的百分比配置，將帳戶或人員分配至兩個或多個歷程路徑。 如果您想要跨對象區段測試不同訊息、時間或參與策略，而不套用條件規則，此節點就十分實用。
-
->[!AVAILABILITY]
->
->帳戶和人員歷程的&#x200B;_變體分割路徑_&#x200B;節點可作為有限可用性功能供選取的客戶使用。 若要取得存取權，請聯絡您的Adobe代表。
 
 ## 依歷程型別比較 {#journey-type-comparison}
 
@@ -190,7 +190,7 @@ _[分割路徑](./split-merge-paths-nodes.md)_&#x200B;和&#x200B;_變體分割�
 
    ![變體分割路徑節點 — 當總計不等於100%時發生驗證錯誤](./assets/node-variant-split-paths-validation-error.png){width="500" zoomable="yes"}
 
-   若要將百分比平均分配到所有路徑，請按一下[平均分配] **&#x200B;**。 系統會計算相等的份額並調整任何舍入，以確保總計等於100%。
+   若要將百分比平均分配到所有路徑，請按一下[平均分配] ****。 系統會計算相等的份額並調整任何舍入，以確保總計等於100%。
 
 1. 若要定義其他路徑，請按一下每個路徑的&#x200B;**[!UICONTROL 新增路徑]**。
 
