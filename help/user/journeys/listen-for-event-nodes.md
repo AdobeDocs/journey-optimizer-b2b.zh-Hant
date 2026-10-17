@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 5%
+source-wordcount: '2144'
+ht-degree: 4%
 ---
 # 監聽事件
 
@@ -79,7 +79,7 @@ ht-degree: 5%
 
 ### 帳戶歷程的人員事件 {#people-events}
 
-在帳戶歷程中，當您想要根據人員（潛在客戶）活動觸發的事件，在歷程中向前移動帳戶時，您可以根據人員來監聽事件。 您也可以根據事件歷史記錄和人員屬性來篩選事件。
+在帳戶歷程中，當您想要根據人員（潛在客戶）活動觸發的事件，在歷程中推進帳戶時，您可以根據人員來監聽事件。 您也可以根據事件歷史記錄和人員屬性來篩選事件。
 
 >[!TIP]
 >
@@ -97,7 +97,7 @@ ht-degree: 5%
 
 ### 帳戶事件 {#account-events}
 
-在帳戶歷程中，當您想要根據帳戶活動所觸發的事件，在歷程中向前移動帳戶時，您可以根據帳戶來監聽事件。
+在帳戶歷程中，當您想要根據帳戶活動觸發的事件在歷程中推進帳戶時，可以根據帳戶來監聽事件。
 
 | 事件 | 限制 |
 | ----- | ----------- |
@@ -199,7 +199,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 若為個人歷程，您可以使用B2B個人資料屬性中的變更來觸發&#x200B;_接聽事件_&#x200B;節點。
 
-1. 從&#x200B;**2&rbrace;觸發器&#x200B;_清單，將[!UICONTROL 人員設定檔變更]**&#x200B;拖放至事件相符產生器空間。_
+1. 從**2}觸發器&#x200B;]_清單，將[!UICONTROL 人員設定檔變更]**拖放至事件相符產生器空間。_[!UICONTROL 
 
 1. 按一下&#x200B;**[!UICONTROL 新增限制]**，然後選取您要用於事件觸發器的屬性變更。
 
@@ -221,7 +221,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 >[!PREREQUISITES]
 >
->管理員會設定[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。
+>管理員會設定[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。
 >
 >若要讓體驗事件可用於歷程，產品管理員必須先在[!DNL Journey Optimizer B2B Edition]中[新增感興趣的事件型別和欄位](../admin/configure-aep-events.md#add-an-event)。
 
@@ -253,14 +253,15 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 ## 事件篩選器 {#filters-people-event}
 
-當您在帳戶歷程[&#128279;](#people-events)中定義[個人事件，或在個人歷程](#person-journeys)中定義個人事件時，您可以包含篩選功能，以根據各種條件限制相符的事件觸發器：
+當您在帳戶歷程](#people-events)中定義[個人事件，或在個人歷程](#person-journeys)中定義[個人事件時，您可以包含篩選功能，以根據各種條件限制相符的事件觸發器：
 
 | 篩選器 | 說明 |
 | ------------ | ----------- |
 | [!UICONTROL 事件歷史記錄] | 管理員設定的Experience事件。 請參閱&#x200B;_[選取體驗事件和欄位](../admin/configure-aep-events.md)_。 |
 | [!UICONTROL 個人屬性] | B2B個人設定檔中的屬性，包括： <li>城市 <li>國家 <li>出生日期 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域<li>職稱 <li>姓氏 <li>手機號碼 <li>人員參與度分數 <li>電話號碼 <li>郵遞區號 <li>狀態 <li>已取消訂閱 <li>取消訂閱的原因 |
 | [!UICONTROL 個人屬性] | （僅限個人歷程）屬性值 |
-| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除</li><li>角色</li> |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除（預設： `false`）</li><li>角色</li> （請參閱[成員資格篩選](#membership-filtering)） |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 設定檔對象的成員] | 此人是否為一或多個[!DNL Adobe Experience Platform]設定檔對象的成員。 （請參閱[成員資格篩選](#membership-filtering)） |
 
 <!--
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
@@ -285,13 +286,58 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. 事件和篩選器定義完成時，按一下&#x200B;**[!UICONTROL 完成]**。
 
+### 成員資格篩選 {#membership-filtering}
+
+在&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;區段中，使用以下篩選器根據人員的成員資格來比對事件：
+
+* _[!UICONTROL 購買群組的成員]_ — 評估該人員是否為購買群組的成員。
+* _[!UICONTROL 個人資料對象的成員]_ — 評估該人員是否為[!DNL Adobe Experience Platform]個人資料對象的成員。
+
+若要新增成員資格篩選器，請將其從&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;資料夾拖曳至篩選器工作區，並將成員資格設為&#x200B;_true_&#x200B;以包含成員，或設為&#x200B;_false_&#x200B;以排除成員。 您可以在相同的事件定義中組合兩個篩選器，並使用&#x200B;**[!UICONTROL 篩選器邏輯]**&#x200B;來比對任何或所有篩選器。
+
+這些篩選器也可在[依人員條件分割路徑](./split-merge-paths-nodes.md#membership-filtering)中使用。
+
+![接聽事件節點 — 成員資格篩選器](./assets/node-listen-event-people-membership-filters.png){width="700" zoomable="yes"}
+
+**購買群組成員**
+
+若要比對具有特定角色的購買群組成員事件，請將成員資格設為&#x200B;_true_，並選取與一個或多個購買群組相關聯的&#x200B;_[!UICONTROL 解決方案興趣]_。
+
+新增篩選器時，系統會預設包含&#x200B;_[!UICONTROL 已移除]_&#x200B;限制，並將其設為`false`，因此篩選器僅符合目前的購買群組成員。
+
+按一下&#x200B;**[!UICONTROL 新增限制]**&#x200B;以包含其他購買群組成員資格限制：
+
+* _[!UICONTROL 購買團體階段]_
+* _[!UICONTROL 購買群組狀態]_
+* _[!UICONTROL 完整性分數]_
+* _[!UICONTROL 參與分數]_
+* _[!UICONTROL 角色]_
+
+>[!IMPORTANT]
+>
+>_[!UICONTROL 已移除]_&#x200B;限制決定是否評估已移除的購買群組成員：
+>
+>* `false` （預設） — 僅傳回目前的購買群組成員。 移除的成員不包括在內。
+>* `true` — 僅傳回已移除的購買群組成員。 不包括目前的成員。
+>* 限制已移除 — 傳回目前和已移除的購買群組成員。
+>
+>如果您移除限制，則篩選器可比對不再屬於購買群組的使用者。
+
+**個人資料對象的成員**
+
+使用&#x200B;_[!UICONTROL 設定檔對象]_&#x200B;限制來選取一或多個對象。 例如，如果您選取`integroPerson`對象，事件只會比對上次發生批次擷取時屬於該對象的人員。
+
+>[!NOTE]
+>
+>篩選器不會即時計算對象會籍。 它會根據截至上次批次對象擷取時選定對象中的成員資格來限定人員。 只能評估已擷取至[!DNL Journey Optimizer B2B Edition]的受眾。
+
 ## 將逾時新增至事件節點 {#timeouts}
 
 如有需要，請定義歷程等待事件的時間長度。 歷程會在逾時後結束，除非您定義逾時路徑，在其中新增其他節點。
 
 啟用節點屬性中的&#x200B;**[!UICONTROL 逾時]**&#x200B;選項，以指定&#x200B;_接聽事件_&#x200B;節點的逾時。
 
-1. 啟用這些選項後，請選擇&#x200B;_型別_&#x200B;並指定逾時的引數：
+1. 啟用選項後，選擇&#x200B;_型別_&#x200B;並指定逾時的引數：
 
    * **[!UICONTROL 持續時間]** — 使用此型別指定事件觸發器的時段。 如果事件沒有在該期間內觸發，則人員或帳戶沒有在歷程中繼續。
 
@@ -320,5 +366,5 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?captions=chi_hant&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

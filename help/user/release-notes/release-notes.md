@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 61cb7f99bf1f1649bf1a8569a506c248146a522e
+source-git-commit: 783fa2ddf72a910b191b2eb93c6dcd71d2cddc8c
 workflow-type: tm+mt
-source-wordcount: '5717'
+source-wordcount: '5781'
 ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition 發行說明
@@ -44,8 +44,9 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 服務健康情況儀表板 | 透過收整合功/錯誤量度並提供儀表板讓管理員監視服務效能，來追蹤外部動作的運作狀況。 |
-| 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 [了解更多](../journeys/journey-re-entry.md) |
-| 增強功能 | 設定檔對象篩選的成員 | 此篩選器現在可用於人員歷程分割路徑條件、帳戶歷程人員分割路徑條件，以及根據受眾成員資格來包含或排除設定檔的人員清單。 |
+| 增強功能 | 設定檔對象篩選的成員 | 此篩選器現在可用於人員歷程分割路徑條件、帳戶歷程人員分割路徑條件，以及&#x200B;_接聽事件_&#x200B;節點篩選器，以根據其對象成員資格包含或排除設定檔。 [了解更多](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| 增強功能 | 「購買群組成員」篩選器 — 已移除預設值 | 在&#x200B;_依人員分割路徑_&#x200B;條件及&#x200B;_接聽事件_&#x200B;節點篩選器中，現在預設會選取&#x200B;_[!UICONTROL 已移除]_&#x200B;限制，並在您新增&#x200B;_[!UICONTROL 購買群組成員]_&#x200B;篩選器時設為`false`。 除非您變更或移除限制，否則篩選器只會傳回目前的購買群組成員。 [了解更多](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 |
 
 >[!NOTE]
 >
@@ -161,7 +162,7 @@ Delayed to Oct
 | 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B Edition中定義品牌，為創意團隊建立任何視覺或書面內容時提供可使用的真實來源。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 [了解更多](../content/brands-overview.md) |
 | 功能 | 用於產生電子郵件內容的品牌 | 您可以定義品牌指引，並使用此資訊產生電子郵件內容。 透過此功能，電子郵件內容會符合您特定品牌的文字撰寫指南、樣式和語調。 [了解更多](../content/generate-content-emails.md) |
 | 增強功能 | 歷程&#x200B;_等待_&#x200B;節點 — 進階設定 | 對於歷程中的&#x200B;_等待_&#x200B;節點，行銷人員現在可以指定退出日期和時間，並選取時區。 此增強功能可讓您更妥善地控制歷程協調和行銷活動時間。 [了解更多](../journeys/wait-nodes.md#advanced-wait-settings) |
-| 增強功能 | 購買群組成員篩選器 — 已移除 | 針對由人員&#x200B;_節點分割的_&#x200B;路徑，_[!UICONTROL 購買群組成員]_&#x200B;篩選器現在包含&#x200B;_已移除_&#x200B;限制。 選取時，篩選器可包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;_的_&#x200B;成員篩選器中使用此新限制。 |
+| 增強功能 | 購買群組成員篩選器 — 已移除 | 針對由人員&#x200B;_節點分割的_&#x200B;路徑，_[!UICONTROL 購買群組成員]_&#x200B;篩選器現在包含&#x200B;_已移除_&#x200B;限制。 選取時，篩選器可包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;]_的_[!UICONTROL &#x200B;成員篩選器中使用此新限制。 |
 | 增強功能 | 電子郵件設計 — 多級專案符號 | 電子郵件內容設計空間工具現在支援子專案符號（專案符號層級）。 |
 
 >[!NOTE]
