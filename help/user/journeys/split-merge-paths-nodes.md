@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2569'
 ht-degree: 4%
 ---
 # 分割和合併路徑 {#split-paths}
@@ -159,7 +159,8 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 | [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否擁有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 （請參閱[自訂資料篩選](#custom-data-filtering)） |
 | [!UICONTROL 事件歷史記錄] | 根據在歷程進入之前發生的體驗事件分割人員。 展開資料夾以檢視[管理員> XDM事件設定](../admin/configure-aep-events.md)中設定的所有事件型別，並選取一個新增為篩選器。 限制包括來自所選事件的欄位、從人員進入歷程時回溯的回顧時間範圍，以及選擇性的最小次數。 |
 | [!UICONTROL 個人屬性] | [個人檔案](../admin/field-mapping.md#xdm-business-person-attributes)中的屬性，包括： <li>城市 <li>國家 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域 <li>職稱 <li>姓氏 <li>手機號碼 <li>人員參與度分數 <li>電話號碼 <li>郵遞區號 <li>州別 |
-| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除</li><li>角色</li> |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除（預設： `false`）</li><li>角色</li> （請參閱[成員資格篩選](#membership-filtering)） |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 設定檔對象的成員] | 此人是否為一或多個[!DNL Adobe Experience Platform]設定檔對象的成員。 （請參閱[成員資格篩選](#membership-filtering)） |
 
 ### Account-person路徑條件
 
@@ -224,15 +225,15 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 針對依人員分割的路徑，您可以根據人員進入歷程前發生的體驗事件來定義路徑。 若要檢視管理員設定的所有事件型別清單，請展開條件編輯器中的&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;資料夾。 選取事件型別，將其新增為篩選條件。
 
-事件歷程的回顧時間範圍是從人員進入歷程的那一刻開始往後測量。 例如，30天視窗會評估合格事件是否發生在歷程專案之前30天內。
+事件歷史記錄的時間範圍是從人員進入歷程的那一刻開始往後測量。 例如，30天視窗會評估合格事件是否發生在歷程專案之前30天內。
 
-您可以使用所選事件欄位專用的限制來進一步縮小篩選範圍。 選用的活動&#x200B;**限制的**&#x200B;[!UICONTROL &#x200B;最小次數&#x200B;]&#x200B;**和**&#x200B;日期都在定義的回顧期間內評估。 由於事件記錄資料是從Adobe Experience Platform同步的，因此此篩選器在最近發生的事件可供使用之前，可能會有短暫的延遲。
+您可以使用所選事件欄位專用的限制來進一步縮小篩選範圍。 選用的活動&#x200B;**限制的**&#x200B;[!UICONTROL &#x200B;最小次數&#x200B;]&#x200B;**和**&#x200B;日期都在定義的回顧期間內評估。 因為事件記錄資料是從[!DNL Adobe Experience Platform]同步的，所以在最近發生的事件可供此篩選器使用之前，可能會有短暫的延遲。
 
 >[!NOTE]
 >
 >[體驗事件和欄位設定](../admin/configure-aep-events.md)決定了[!UICONTROL 事件歷史記錄]資料夾中可用的事件。
 
-**範例：**&#x200B;若要路由在進入歷程之前點按行銷電子郵件中連結的人，請從[!UICONTROL 事件歷史記錄]資料夾中選取電子郵件點按事件，設定回溯時段以涵蓋相關時段，並視需要套用任何欄位層級限制（例如特定連結URL）。
+**範例：**&#x200B;若要路由在進入歷程之前點選行銷電子郵件中連結的人，請從[!UICONTROL 事件歷史記錄]資料夾中選取電子郵件點選事件、設定回顧視窗，並視需要套用欄位層級限制。
 
 ![依人員條件分割事件歷程記錄的路徑](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
@@ -244,13 +245,24 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 >[!ENDSHADEBOX]
 
-### 成員資格篩選
+### 成員資格篩選 {#membership-filtering}
 
-在&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;區段中，有多個篩選器可用來評估購買群組中的成員資格。
+在&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;區段中，使用以下篩選器根據個人的成員資格建立路徑：
 
-例如，如果您想要為購買群組成員且被指派特定角色的人建立路徑，請新增&#x200B;_[!UICONTROL 特殊篩選器]_ > _[!UICONTROL 購買群組成員]_&#x200B;篩選器。 針對篩選，將成員資格設為&#x200B;_true_，並選取與一個或多個購買群組相關聯的&#x200B;_[!UICONTROL 方案興趣]_。
+* _[!UICONTROL 購買群組的成員]_ — 評估該人員是否為購買群組的成員。
+* _[!UICONTROL 個人資料對象的成員]_ — 評估該人員是否為[!DNL Adobe Experience Platform]個人資料對象的成員。
 
-![依人員條件分割購買群組成員資格的路徑](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
+若要新增成員資格篩選器，請將其從&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;資料夾拖曳至條件工作區，並將成員資格設為&#x200B;_true_&#x200B;以包含成員，或設為&#x200B;_false_&#x200B;以排除成員。 您可以將兩個篩選器合併為相同路徑條件，並使用&#x200B;**[!UICONTROL 篩選器邏輯]**&#x200B;來比對任何或所有篩選器。
+
+當您[在&#x200B;_接聽事件_&#x200B;節點中為事件](./listen-for-event-nodes.md#membership-filtering)新增篩選器時，也可以使用這些篩選器。
+
+![依人員條件分割路徑，以購買群組和設定檔對象成員資格](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
+
+**購買群組成員**
+
+例如，若要為具有特定角色的購買群組成員建立路徑，請將成員資格設定為&#x200B;_true_，並選取與購買群組相關聯的&#x200B;_[!UICONTROL 解決方案興趣]_。
+
+新增篩選器時，系統會依預設包含&#x200B;_[!UICONTROL 已移除]_&#x200B;限制，並將其設為`false`，因此路徑僅包含目前的購買群組成員。
 
 按一下&#x200B;**[!UICONTROL 新增限制]**&#x200B;以包含其他購買群組成員資格限制：
 
@@ -258,12 +270,25 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 * _[!UICONTROL 購買群組狀態]_
 * _[!UICONTROL 完整性分數]_
 * _[!UICONTROL 參與分數]_
-* _[!UICONTROL 已移除]_
 * _[!UICONTROL 角色]_
 
->[!TIP]
+>[!IMPORTANT]
 >
->若要排除從購買群組移除的成員，請使用&#x200B;_[!UICONTROL Is Removed]_&#x200B;條件約束設為`false`。 您也可以將此限制設定為`true`，明確包含已移除的成員。
+>_[!UICONTROL 已移除]_&#x200B;限制決定是否評估已移除的購買群組成員：
+>
+>* `false` （預設） — 僅傳回目前的購買群組成員。 移除的成員不包括在內。
+>* `true` — 僅傳回已移除的購買群組成員。 不包括目前的成員。
+>* 限制已移除 — 傳回目前和已移除的購買群組成員。
+>
+>如果您移除限制，則路徑可以包含不再屬於購買群組的使用者。
+
+**個人資料對象的成員**
+
+使用&#x200B;_[!UICONTROL 設定檔對象]_&#x200B;限制來選取一或多個對象。 例如，如果您選取`integroPerson`對象，則路徑會符合上次批次內嵌發生時屬於該對象的所有人員的資格。
+
+>[!NOTE]
+>
+>篩選器不會即時計算對象會籍。 它會根據截至上次批次對象擷取時選定對象中的成員資格來限定人員。 只能評估已擷取至[!DNL Journey Optimizer B2B Edition]的受眾。
 
 ## 自訂資料篩選 {#custom-data-filtering}
 
@@ -287,9 +312,9 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 1. 在合併路徑節點屬性中，選取您要合併的路徑。
 
-   ![歷程節點 — 合併路徑](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
+   ![歷程節點 — 選取要合併的路徑](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
-   此時，路徑會合併，以便來自所選路徑的帳戶合併為單一路徑，繼續完成歷程。
+   路徑會合併，以便來自所選路徑的帳戶合併為單一路徑，繼續完成歷程。
 
 1. 如有需要，您可以導覽回合併路徑節點屬性，並清除您要移除之任何路徑的核取方塊，以取消合併路徑。
 
