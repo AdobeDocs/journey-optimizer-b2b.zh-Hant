@@ -199,7 +199,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 若為個人歷程，您可以使用B2B個人資料屬性中的變更來觸發&#x200B;_接聽事件_&#x200B;節點。
 
-1. 從**2}觸發器&#x200B;]_清單，將[!UICONTROL 人員設定檔變更]**拖放至事件相符產生器空間。_[!UICONTROL 
+1. 從&#x200B;**2&rbrace;觸發器&#x200B;_清單，將[!UICONTROL 人員設定檔變更]**&#x200B;拖放至事件相符產生器空間。_
 
 1. 按一下&#x200B;**[!UICONTROL 新增限制]**，然後選取您要用於事件觸發器的屬性變更。
 
@@ -253,7 +253,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 ## 事件篩選器 {#filters-people-event}
 
-當您在帳戶歷程](#people-events)中定義[個人事件，或在個人歷程](#person-journeys)中定義[個人事件時，您可以包含篩選功能，以根據各種條件限制相符的事件觸發器：
+當您在帳戶歷程[&#128279;](#people-events)中定義[個人事件，或在個人歷程](#person-journeys)中定義個人事件時，您可以包含篩選功能，以根據各種條件限制相符的事件觸發器：
 
 | 篩選器 | 說明 |
 | ------------ | ----------- |
