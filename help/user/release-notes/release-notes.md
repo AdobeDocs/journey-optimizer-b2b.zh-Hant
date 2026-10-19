@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 783fa2ddf72a910b191b2eb93c6dcd71d2cddc8c
+source-git-commit: 585e34d466ff17723a4049a0050a79d23783f2ce
 workflow-type: tm+mt
-source-wordcount: '5781'
+source-wordcount: '5784'
 ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition 發行說明
@@ -43,7 +43,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 服務健康情況儀表板 | 透過收整合功/錯誤量度並提供儀表板讓管理員監視服務效能，來追蹤外部動作的運作狀況。 |
+| 增強功能 | 外部動作健康狀態 | 管理員現在可以在控制面板上監視外部動作的效能，以顯示請求計數、錯誤計數和錯誤率。 [了解更多](../admin/configure-external-actions.md#monitor-health) |
 | 增強功能 | 設定檔對象篩選的成員 | 此篩選器現在可用於人員歷程分割路徑條件、帳戶歷程人員分割路徑條件，以及&#x200B;_接聽事件_&#x200B;節點篩選器，以根據其對象成員資格包含或排除設定檔。 [了解更多](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | 增強功能 | 「購買群組成員」篩選器 — 已移除預設值 | 在&#x200B;_依人員分割路徑_&#x200B;條件及&#x200B;_接聽事件_&#x200B;節點篩選器中，現在預設會選取&#x200B;_[!UICONTROL 已移除]_&#x200B;限制，並在您新增&#x200B;_[!UICONTROL 購買群組成員]_&#x200B;篩選器時設為`false`。 除非您變更或移除限制，否則篩選器只會傳回目前的購買群組成員。 [了解更多](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | 增強功能 | 歷程重新進入 — 個人歷程 | 對個人歷程提供重新進入歷程的支援。 |
