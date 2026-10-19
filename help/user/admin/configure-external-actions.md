@@ -1,6 +1,6 @@
 ---
 title: 外部動作設定
-description: 瞭解開發人員、管理員和行銷人員如何共同實施、設定和使用將Journey Optimizer B2B Edition與歷程中的外部服務連結的外部動作。
+description: 瞭解開發人員、管理員和行銷人員如何共同實施、設定和使用將Journey Optimizer B2B Edition與歷程中的外部服務連結的外部動作，以及管理員如何監視動作健康情況。
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: dd796abfc909ef2c60877ccf977f4b6e5755693c
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1615'
 ht-degree: 1%
 ---
 # 外部動作設定
@@ -45,7 +45,7 @@ ht-degree: 1%
 | | 角色 | 任務 |
 | ---- | ---- | ---- |
 | 1 | Developer | [實作並發佈外部服務](#implement-service) |
-| 2 | 管理員 | [在Journey Optimizer B2B Edition中設定動作](#configure-action) |
+| 2 | 管理員 | [在Journey Optimizer B2B Edition中設定動作](#configure-action)和[監視外部動作健康狀況](#monitor-external-action-health) |
 | 3 | 行銷人員 | [新增外部節點至歷程](#add-journey-node) |
 
 ## 實作外部服務 {#implement-service}
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->回呼函式需要持有人權杖。 請在Adobe Developer Console[&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中為您的IMS組織設定OAuth伺服器對伺服器認證，以擷取此專案。
+>回呼函式需要持有人權杖。 請在Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)中為您的IMS組織設定[OAuth伺服器對伺服器認證，以擷取此專案。
 
 服務上線後，將OpenAPI規格的URL和驗證認證提供給負責設定動作的產品管理員。
 
@@ -71,6 +71,8 @@ ht-degree: 1%
 1. 移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 組態]**。
 
 1. 按一下中繼面板上的&#x200B;**[!UICONTROL 外部動作]**。
+
+1. 選取「**[!UICONTROL 瀏覽]**」索引標籤。
 
    ![存取外部動作設定空間](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
@@ -143,7 +145,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;_上一箭號_&#x200B;以返回清單並將動作保持在&#x200B;_草稿_&#x200B;狀態。
 
-   或者，按一下[啟動]&#x200B;**&#x200B;**&#x200B;將動作組態變更為[啟動]__&#x200B;狀態。 設定的外部動作必須處於作用中狀態，才能用於歷程。
+   或者，按一下[啟動]****&#x200B;將動作組態變更為[啟動]__&#x200B;狀態。 設定的外部動作必須處於作用中狀態，才能用於歷程。
 
 ### 疑難排解 {#troubleshooting}
 
@@ -184,6 +186,50 @@ This error appears below the URL field (not in the alert banner) and means there
 | `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
 -->
 
+## 監視外部動作健康狀況 {#monitor-health}
+
+行銷人員在歷程中開始使用外部動作後，您可以從外部動作頁面的&#x200B;_總覽_&#x200B;索引標籤追蹤每個動作的執行方式。 用它來檢視每個動作收到多少要求、有多少要求失敗，以及哪些動作的錯誤率最高。
+
+若要檢視控制面板：
+
+1. 移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 組態]**。
+
+1. 按一下中繼面板上的&#x200B;**[!UICONTROL 外部動作]**。
+
+   系統依預設會顯示&#x200B;**[!UICONTROL 總覽]**&#x200B;標籤，其中包含過去七天的外部動作資料。
+
+1. 從日期範圍功能表中選取要複查的期間，或在日期欄位中輸入開始與結束日期。 預設範圍為過去30天。
+
+   ![外部動作健康情況儀表板顯示日期範圍篩選器、請求總數、錯誤、錯誤率和動作效能。](./assets/config-external-action-health.png){width="700" zoomable="yes"}
+
+   量度和表格會更新，僅顯示所選期間的活動。
+
+### 量度 {#metrics}
+
+_總覽_&#x200B;區段總結列出所選期間所有外部動作的效能。
+
+| 量度 | 說明 |
+| ---- | ---- |
+| [!UICONTROL 動作總數] | 報表中包含的外部動作數。 |
+| [!UICONTROL 要求總數] | 跨所有動作向外部服務提出的請求總數。 |
+| [!UICONTROL 錯誤總數] | 導致錯誤的請求總數。 |
+| [!UICONTROL 錯誤率] | 導致錯誤的請求百分比。 |
+
+### 動作績效 {#actions}
+
+_動作效能_&#x200B;表格列出所選期間的每個外部動作及其活動。
+
+| 欄 | 說明 |
+| ---- | ---- |
+| [!UICONTROL 名稱] | 外部動作的名稱。 |
+| [!UICONTROL 要求計數] | 對動作的外部服務提出的請求數。 |
+| [!UICONTROL 錯誤計數] | 導致錯誤的請求數。 |
+| [!UICONTROL 錯誤率] | 導致錯誤的請求百分比。 |
+
+使用表格來比較動作，並找出需要注意的動作。 例如，錯誤率高的動作表示外部服務、其驗證認證或其設定有問題。 請與實作服務的開發人員合作，調查原因。
+
 ## 將外部節點新增至歷程 {#add-journey-node}
 
 動作啟動後，行銷人員可以將&#x200B;_[!UICONTROL 外部動作]_&#x200B;或&#x200B;_[!UICONTROL 外部分割路徑]_&#x200B;節點新增到任何帳戶或人員歷程。 如需如何在歷程畫布中新增及使用這些節點的詳細資訊，請參閱[外部節點](../journeys/external-nodes.md)。
+
+![外部動作節點 — 選取外部服務](../journeys/assets/node-external-action-service-name.png){width="600" zoomable="yes"}
