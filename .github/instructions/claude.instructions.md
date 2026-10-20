@@ -386,7 +386,7 @@ Multiple paragraphs of preview content here.
 - 縮寫（自動保留英文）
 - 字詞已存在於「不翻譯」資料庫中
 
-**在連結文字中：**&#x200B;請移除標籤括弧以避免轉譯問題。 使用`[Adobe](https://www.adobe.com)`而非`[[!DNL Adobe]](https://www.adobe.com)`。
+**在連結文字中：**&#x200B;請移除標籤括弧以避免轉譯問題。 使用`[Adobe](https://www.adobe.com/tw)`而非`[[!DNL Adobe]](https://www.adobe.com/tw)`。
 
 ### `[!UICONTROL Label]`： UI控制項
 
