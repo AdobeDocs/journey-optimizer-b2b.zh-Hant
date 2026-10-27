@@ -28,9 +28,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '477'
 ht-degree: 0%
 ---
 # 電子郵件傳送時間最佳化
@@ -46,16 +46,16 @@ STO會使用大型語言模型來分析每個設定檔的歷史參與。 它會�
 * **歷程型別**：人員歷程
 * **頻道**：電子郵件
 * **組態**： _傳送電子郵件_&#x200B;動作節點
-* **報告**：透過歷程可觀察性技能的AI助理
+* **報告**： [!DNL Coworker]透過歷程可觀察性技能聊天
 
-  效能深入分析（例如使用情形、參與提升度，以及STO與非STO的比較）可透過AI Assistant中的自然語言查詢取得。
+  透過[!DNL Coworker]聊天中的自然語言查詢可取得效能深入分析，例如使用狀況、參與提升度，以及STO與非STO的比較。
 
 >[!BEGINSHADEBOX]
 
 已為STO規劃許多&#x200B;**_未來的增強功能_**：
 
 * 支援&#x200B;_帳戶歷程_
-* _[!UICONTROL 管理員]_&#x200B;區域中的全域STO設定
+* _[!UICONTROL 管理]_&#x200B;區域中的全域STO組態
 * 歷程層級STO啟用
 * 可設定的測試/控制拆分
 * 專用的STO報告儀表板
@@ -90,4 +90,4 @@ STO會使用大型語言模型來分析每個設定檔的歷史參與。 它會�
 
 ## STO深入分析
 
-STO深入分析是透過&#x200B;_AI小幫手_&#x200B;使用Journey Agent [_可觀察性技能_](../agents/journey-agent.md#journey-observability-skill)&#x200B;傳遞。 您可以查詢使用狀況、參與量度、測試/控制結果、節點效能和整體歷程影響。
+使用&#x200B;[_歷程可觀察性技能_](../agents/journey-agent.md#journey-observability-skills)，透過&#x200B;_[!DNL Coworker]聊天_&#x200B;傳遞STO深入分析。 您可以查詢使用狀況、參與量度、測試/控制結果、節點效能和整體歷程影響。

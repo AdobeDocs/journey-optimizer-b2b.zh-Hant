@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 585e34d466ff17723a4049a0050a79d23783f2ce
+source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
 workflow-type: tm+mt
-source-wordcount: '5784'
+source-wordcount: '5774'
 ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition 發行說明
@@ -177,7 +177,7 @@ Delayed to Oct
 | ----- | ------ | ----------- |
 | 歷程建置代理 | 新增和更新 | 歷程建置代理會即時分析、構想並共同建立歷程，讓行銷人員可更快速地啟動、提高參與度並推動更高的轉換率。 [了解更多](../agents/journey-agent.md) |
 | Audience 代理 | 新版 | Audience 代理會使用結構化和非結構化資料，進行自動識別並建置購買群組。 此功能可協助行銷人員更快速且更準確地鎖定合適的人員。 [了解更多](../agents/audience-agent-b2b.md) |
-| 銷售限定詞 | 新版 | Sales Qualifier是Adobe Journey Optimizer B2B Edition的AI驅動附加應用程式，其中包含Account Qualification Agent，旨在簡化業務開發代表(BDR)的工作流程。 它可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/sales-qualifier/using/home){target="_blank"} |
+| [!DNL Marketo Qualifier] | 新版 | [!DNL Adobe Marketo Qualifier]是與[!DNL Journey Optimizer B2B Edition]整合的AI驅動應用程式。 它會實作Account Qualification Agent，並旨在簡化業務開發代表(BDR)的工作流程。 它可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 發行說明 {#rel-2025-10}
 

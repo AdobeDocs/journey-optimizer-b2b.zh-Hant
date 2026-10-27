@@ -1,6 +1,6 @@
 ---
 title: 登入和首頁
-description: 存取 Journey Optimizer B2B Edition 和導覽個人化首頁：透過快速存取和 AI 助理，為行銷人員和管理員提供不同檢視。
+description: 存取Journey Optimizer B2B Edition並導覽個人化首頁 — 行銷人員和管理員可快速存取和[!DNL Coworker]聊天的各種檢視。
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 83%
+source-wordcount: '414'
+ht-degree: 72%
 ---
 # 登入和首頁
 
@@ -53,7 +53,7 @@ Journey Optimizer B2B Edition 具有兩種主要使用者人物誌：_&#x200B;**
 
 _[!UICONTROL 最近存取]_&#x200B;區段列出行銷人員或管理員最近存取的資產清單。 使用此清單可直接前往您最近處理的資產，不需要導覽一系列的資產頁面及搜尋。
 
-使用者亦可透過此頁面存取 [AI 助理](./ai-coworker/ai-assistant-overview.md)，並根據需求快速取得關於任何特定問題或主題的資訊。<!-- and to obtain specific recommendations for their challenges or objectives-->
+此頁面還包括存取[同事聊天](./ai-coworker/ai-overview.md)，這有助於使用者快速取得任何特定問題或所需主題的資訊。<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 
