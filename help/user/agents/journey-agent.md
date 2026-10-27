@@ -73,7 +73,7 @@ ht-degree: 0%
 
 「建立B2B歷程，邀請決策者參加最有可能開啟新管道的參與帳戶路演。」
 
-在[!DNL CX Coworker]](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}中建立B2B提示的![歷程建立技能
+在[!DNL CX Coworker]![&#128279;](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}中建立B2B提示的歷程建立技能
 
 您提供的細節越多，回覆就越好。 如果您有描述事件或您的產品等的現有行銷資料，請貼到提示中，讓[!DNL Coworker]更能瞭解目標。
 

@@ -155,7 +155,7 @@ _指令碼產生器_&#x200B;是AI支援的助理，可在[!DNL Adobe Journey Opt
 
 按一下&#x200B;**[!UICONTROL 驗證]**&#x200B;以根據[!DNL Journey Optimizer B2B Edition]結構描述檢查產生的Handlebars。 儲存時驗證會再次執行，這樣損壞的個人化就不會發佈到即時電子郵件。
 
-當您滿意結果時，請按一下[儲存]，將指令碼直接插入電子郵件中所選的位置。****
+當您滿意結果時，請按一下[儲存]，將指令碼直接插入電子郵件中所選的位置。**&#x200B;**
 
 <!--
 ### Save reusable conversion profiles {#save-reusable-conversion-profiles}

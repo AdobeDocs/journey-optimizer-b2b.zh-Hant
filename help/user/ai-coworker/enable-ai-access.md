@@ -60,4 +60,4 @@ ht-degree: 5%
 
 當使用者擁有必要的許可權時，他們可以透過選取應用程式頂端標題上的&#x200B;_[!DNL Coworker]聊天_&#x200B;圖示來存取[!DNL Coworker]聊天。
 
-應用程式標頭](./assets/coworker-icon-header.png){width="800" zoomable="yes"}中的![[!DNL Coworker]聊天圖示
+應用程式標頭![&#128279;](./assets/coworker-icon-header.png){width="800" zoomable="yes"}中的[!DNL Coworker]聊天圖示
