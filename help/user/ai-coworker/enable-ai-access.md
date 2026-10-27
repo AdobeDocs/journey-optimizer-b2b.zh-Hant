@@ -46,7 +46,7 @@ ht-degree: 5%
 >
 >如果您在許可權UI中收到訊息，通知您組織必須首先同意其他法律條款，才能存取[!DNL Coworker]聊天，請聯絡您的Adobe帳戶團隊以取得指引。
 
-使用[許可權UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}來授與或撤銷貴組織中[!DNL Coworker]聊天內容的存取權。 若要使用[!DNL Coworker]聊天，指定的使用者必須屬於設定了&#x200B;_[!UICONTROL 啟用AI小幫手]_&#x200B;和&#x200B;_[!UICONTROL 檢視操作深入分析]_&#x200B;許可權的角色。
+使用[許可權UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}來授與或撤銷貴組織中[!DNL Coworker]聊天內容的存取權。 若要使用[!DNL Coworker]聊天，指定的使用者必須屬於設定了&#x200B;_[!UICONTROL 啟用AI小幫手]_&#x200B;和&#x200B;_[!UICONTROL 檢視操作深入分析]_&#x200B;許可權的角色。
 
 身為管理員，您可以：
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 
 ![指派AI功能許可權](./assets/coworker-permissions.png){width="800" zoomable="yes"}
 
-使用許可權UI授與許可權以使用[!DNL Adobe Journey Optimizer B2B Edition]中的[!DNL Coworker]聊天。 如需在[!DNL Adobe Experience Platform]和其他[!DNL Adobe Experience Cloud]應用程式中存取[!DNL CX Coworker]的相關資訊，請參閱[CX Enterprise Coworker檔案](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview){target="_blank"}。
+使用許可權UI授與許可權以使用[!DNL Adobe Journey Optimizer B2B Edition]中的[!DNL Coworker]聊天。 如需在[!DNL Adobe Experience Platform]和其他[!DNL Adobe Experience Cloud]應用程式中存取[!DNL CX Coworker]的相關資訊，請參閱[CX Enterprise Coworker檔案](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/overview){target="_blank"}。
 
 當使用者擁有必要的許可權時，他們可以透過選取應用程式頂端標題上的&#x200B;_[!DNL Coworker]聊天_&#x200B;圖示來存取[!DNL Coworker]聊天。
 

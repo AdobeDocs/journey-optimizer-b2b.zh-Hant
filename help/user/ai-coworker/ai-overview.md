@@ -56,7 +56,7 @@ ht-degree: 7%
 
 將[!DNL CX Enterprise Coworker]應用程式介面用於產生內容以外的所有聊天工作流程。 提出產品問題、探索營運見解，並針對B2B帳戶和人員使用[歷程技能](../agents/journey-agent.md)和[對象技能](../agents/audience-agent-b2b.md)。 在[!DNL Journey Optimizer B2B Edition]內仍可產生內容。
 
-如需開啟應用程式、開始交談及使用聊天功能的說明，請參閱[CX Coworker介面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}。
+如需開啟應用程式、開始交談及使用聊天功能的說明，請參閱[CX Coworker介面指南](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/ui-guide){target="_blank"}。
 
 在提交[!DNL Coworker]聊天查詢之前，先考慮您需要的查詢型別。
 
@@ -115,4 +115,4 @@ _營運深入分析_&#x200B;是指[!DNL Coworker]針對您的中繼資料物件�
 
 * [啟用AI功能存取](./enable-ai-access.md)
 * [問題指引](./question-guidance.md)
-* [CX Coworker介面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [CX Coworker介面指南](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/ui-guide){target="_blank"}

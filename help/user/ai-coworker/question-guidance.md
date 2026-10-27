@@ -84,4 +84,4 @@ ht-degree: 1%
 
 ## 後續步驟
 
-如需在[!DNL CX Coworker]應用程式中使用聊天功能的說明，請參閱[CX Coworker介面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}。
+如需在[!DNL CX Coworker]應用程式中使用聊天功能的說明，請參閱[CX Coworker介面指南](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/ui-guide){target="_blank"}。
