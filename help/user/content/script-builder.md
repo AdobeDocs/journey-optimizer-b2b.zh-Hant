@@ -1,6 +1,6 @@
 ---
 title: 指令碼產生器
-description: 使用Script Builder （電子郵件設計空間中的AI支援助理）來產生Handlebars個人化指令碼，並在Journey Optimizer B2B edition中轉換Marketo Engage Velocity指令碼。
+description: 使用Script Builder （電子郵件設計空間中的AI支援助理）來產生Handlebars個人化指令碼，並在Journey Optimizer B2B Edition中轉換Marketo Engage Velocity指令碼。
 feature: AI Assistant, Generative AI, Personalization, Email Authoring
 role: User, Developer
 badgeBeta: label="Beta" type="informative" tooltip="此功能目前在有限測試版中提供"
@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 3%
@@ -49,7 +49,7 @@ _指令碼產生器_&#x200B;是AI支援的助理，可在[!DNL Adobe Journey Opt
 
 >[!IMPORTANT]
 >
->使用者對Script Builder的存取權是透過[!DNL Journey Optimizer B2B Edition]中其他產生AI功能所使用的相同許可權所控制。 如需授與功能許可權的資訊，請參閱[啟用AI助理存取權](../ai-coworker/enable-ai-assistant-access.md)。
+>使用者對Script Builder的存取權是透過[!DNL Journey Optimizer B2B Edition]中其他產生AI功能所使用的相同許可權所控制。 如需授與功能許可權的資訊，請參閱[啟用AI功能存取](../ai-coworker/enable-ai-access.md)。
 
 使用指令碼產生器之前，請先檢閱[!DNL Journey Optimizer B2B Edition]中適用於產生AI功能的[指引和限制](./generative-ai-content.md#general-guidelines-and-limitations)。 [在使用AI功能之前，還需要使用者同意](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
 
@@ -155,7 +155,7 @@ _指令碼產生器_&#x200B;是AI支援的助理，可在[!DNL Adobe Journey Opt
 
 按一下&#x200B;**[!UICONTROL 驗證]**&#x200B;以根據[!DNL Journey Optimizer B2B Edition]結構描述檢查產生的Handlebars。 儲存時驗證會再次執行，這樣損壞的個人化就不會發佈到即時電子郵件。
 
-當您滿意結果時，請按一下[儲存]，將指令碼直接插入電子郵件中所選的位置。**&#x200B;**
+當您滿意結果時，請按一下[儲存]，將指令碼直接插入電子郵件中所選的位置。****
 
 <!--
 ### Save reusable conversion profiles {#save-reusable-conversion-profiles}

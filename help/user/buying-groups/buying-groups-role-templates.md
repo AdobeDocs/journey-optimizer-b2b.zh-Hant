@@ -1,26 +1,28 @@
 ---
 title: 購買群組角色範本
-description: 使用條件式自動指派來建立角色範本，以識別在Journey Optimizer B2B edition中購買群組的決策者和利害關係人。
+description: 使用條件式自動指派來建立角色範本，以識別在Journey Optimizer B2B Edition中購買群組的決策者和利害關係人。
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1435'
 ht-degree: 5%
-
 ---
-
 # 購買群組角色範本
 
 在B2B市場中，通常會有多個人做出購買決定。 這些個人會根據其在組織內的角色參與決策過程。 根據每個產品供應專案型別或帳戶使用案例，建立包含一組角色定義的購買群組角色範本。
@@ -29,9 +31,9 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-## Audience Agent B2B
+## 對象技能
 
-[Audience Agent B2B](../agents/audience-agent-b2b.md)可以透過第一方意向偵測和角色對應產生購買群組角色範本。 在引導式流程中，您可以識別連結至產品的角色、檢閱AI建議的角色與角色對應，並在發佈範本之前使用自然語言調整範本。
+使用B2B帳戶和人員的[對象技能](../agents/audience-agent-b2b.md)，從第一方意向偵測和角色對應產生購買群組角色範本。 在引導式流程中，您可以識別連結至產品的角色、檢閱AI建議的角色與角色對應，並在發佈範本之前使用自然語言調整範本。
 
 **提示嘗試：**
 
@@ -39,7 +41,7 @@ ht-degree: 5%
 * 新增對應至`<persona>`的`<role>`
 * 移除`<role>` / `<persona>`
 
-![Audience Agent B2B正在建立購買群組角色範本](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+![已使用對象技能產生購買群組角色範本。](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +111,7 @@ ht-degree: 5%
 
    * 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
 
-     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單[&#128279;](./default-custom-roles.md#create-a-custom-role)中定義的任何自訂角色。
+     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單](./default-custom-roles.md#create-a-custom-role)中定義的任何[自訂角色。
 
      ![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -139,9 +141,9 @@ ht-degree: 5%
 
      在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
 
-     使用職稱![&#128279;](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的角色範本條件範例
+     使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
 
-   * 如果已設定自訂物件與XDM關聯式結構描述[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定義的人員相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
+   * 如果已設定自訂物件與XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中定義的人員[相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
 
      ![角色範本新增自訂物件條件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -223,4 +225,4 @@ ht-degree: 5%
 
 ## 概觀影片 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

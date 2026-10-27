@@ -1,6 +1,6 @@
 ---
 title: C2PA中繼資料
-description: 瞭解Adobe Journey Optimizer B2B edition如何將C2PA中繼資料自動套用至使用創作AI工具產生或編輯的影像，以及這對於您的內容有何意義。
+description: 瞭解Adobe Journey Optimizer B2B Edition如何將C2PA中繼資料自動套用至使用創作AI工具產生或編輯的影像，以及這對於您的內容有何意義。
 feature: Assets, Content
 hide: true
 role: User
@@ -8,22 +8,26 @@ autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 14e960aa56ce951f3606ffe35e0481c659021ad6
+    internal-label: User
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
-# C2PA中繼資料
+# C2PA 中繼資料
 
 行銷組織更關注內容透明度、AI揭露和防止資產竄改。 Adobe的Content Authenticity Initiative (CAI)建立符合[內容來源與真偽聯盟](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA)技術標準的工具。 _C2PA中繼資料_&#x200B;已加密、顯示篡改的資訊，可協助檢視者瞭解內容歷程，並確保品牌資產的完整性。 此資訊包括：
 
@@ -39,7 +43,7 @@ ht-degree: 0%
 
 C2PA中繼資料會隨著影像檔案持續存在。 使用產生AI產生或編輯的影像上傳至[!DNL Adobe Journey Optimizer B2B Edition]或從匯出時，會保留其C2PA中繼資料。
 
-如需跨Adobe CX Enterprise應用程式自動附加C2PA中繼資料的其他詳細資訊，請參閱CX Enterprise指南中AI的&#x200B;[_Generative AI內容透明度_](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
+如需跨Adobe CX Enterprise應用程式自動附加C2PA中繼資料的其他詳細資訊，請參閱CX Enterprise指南中AI的&#x200B;[_產生AI內容透明度_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
 
 >[!NOTE]
 >
@@ -77,7 +81,7 @@ C2PA中繼資料會隨著影像檔案持續存在。 使用產生AI產生或編�
 * 裁切產生的橫幅影像以符合網頁。 C2PA中繼資料會透過裁切保留。
 * 使用上傳的庫存像片作為電子郵件背景，並裁切以符合熒幕。 如果庫存像片不含產生的AI資訊，則不會建立C2PA中繼資料。
 
-當您調整影像檔案時（例如將其裁切成要求的尺寸），只有在來源影像已具有其C2PA中繼資料時，才會保留它。 裁切會重新建立影像畫素，通常會移除該C2PA中繼資料，因此AI Assistant會在裁切之前從來源影像讀取該畫素，然後重新建立該畫素，並將其重新附加到裁切的結果。 裁切本身不會新增創作AI動作，而是保留現有動作。
+當您調整影像檔案時（例如將其裁切成要求的尺寸），只有在來源影像已具有其C2PA中繼資料時，才會保留它。 裁切會重新建立影像畫素，通常會移除該C2PA中繼資料，因此創作AI工具會在裁切之前從來源影像讀取該畫素，然後重新建立該畫素，並將其重新附加到裁切的結果。 裁切本身不會新增創作AI動作，而是保留現有動作。
 
 ### 新增文字覆蓋
 
