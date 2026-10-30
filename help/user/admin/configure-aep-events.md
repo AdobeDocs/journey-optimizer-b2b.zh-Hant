@@ -494,4 +494,4 @@ _[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448694/?captions=chi_hant&learn=on)
