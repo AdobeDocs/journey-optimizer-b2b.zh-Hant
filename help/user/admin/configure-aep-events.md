@@ -26,17 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 10%
+source-wordcount: '1639'
+ht-degree: 12%
 ---
 # 選取體驗事件和欄位
 
 管理員可以在體驗事件聯合結構描述中，選取特定的Adobe Experience Platform (AEP) [體驗事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}及其相關欄位。 選取後，使用者可以設定決策規則來監聽這些Experience事件，以根據近乎即時的事件資料啟用動態且鎖定的行銷活動動作。
 
-<!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
-
+![影片](../../assets/do-not-localize/icon-video.svg){width="30"}[觀看概觀影片](#overview-video)
 >[!PREREQUISITES]
 >
 >在Journey Optimizer B2B Edition中使用體驗事件和欄位需要啟用設定檔的體驗事件結構。 如需詳細資訊，請參閱Experience Platform教學課程中的[啟用即時客戶設定檔](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}。
@@ -185,7 +184,7 @@ _[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件
 | 電子郵件來源執行個體ID | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
 | 電子郵件來源金鑰 | `directMarketing.emailSent.mailingKey.sourceKey` |
 | 郵寄名稱 | `directMarketing.emailSent.mailingName` |
-| 歷程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 歷程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 節點ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -213,7 +212,7 @@ _[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件
 | 郵寄來源執行個體ID | `directMarketing.mailingKey.sourceInstanceID` |
 | 郵寄來源金鑰 | `directMarketing.mailingKey.sourceKey` |
 | 郵寄名稱 | `directMarketing.mailingName` |
-| 歷程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 歷程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 節點ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -245,7 +244,7 @@ _[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件
 | 裝置型號 | `device.model` |
 | 使用者代理 | `environment.browserDetails.userAgent` |
 | 作業系統 | `environment.operatingSystem` |
-| 歷程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 歷程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 節點ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -278,7 +277,7 @@ _[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件
 | 模型 | `device.model` |
 | 使用者代理 | `environment.browserDetails.userAgent` |
 | 作業系統 | `environment.operatingSystem` |
-| 歷程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 歷程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 節點ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -309,7 +308,7 @@ _[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件
 | 電子郵件 | `directMarketing.email` |
 | 電子郵件退回代碼 | `directMarketing.emailBouncedCode` |
 | 電子郵件退回細節 | `directMarketing.emailBouncedDetails` |
-| 歷程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 歷程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 節點ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -340,7 +339,7 @@ _[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件
 | 電子郵件 | `directMarketing.email` |
 | 電子郵件退回代碼 | `directMarketing.emailBouncedCode` |
 | 電子郵件退回細節 | `directMarketing.emailBouncedDetails` |
-| 歷程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 歷程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 節點ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -368,7 +367,7 @@ _[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件
 | 郵寄來源執行個體ID | `directMarketing.mailingKey.sourceInstanceID` |
 | 郵寄來源金鑰 | `directMarketing.mailingKey.sourceKey` |
 | 郵寄名稱 | `directMarketing.mailingName` |
-| 歷程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 歷程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 節點ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -488,13 +487,11 @@ _[!UICONTROL 事件]_&#x200B;索引標籤上的清單會顯示已儲存的事件
 | 時刻說明 | `leadOperation.interestingMoment.description` |
 | 時刻來源 | `leadOperation.interestingMoment.source` |
 | 時刻型別 | `leadOperation.interestingMoment.type` |
-| 歷程ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 歷程 ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | 節點ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
-<!--
- ## Overview video
+## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3448694/?captions=chi_hant&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3448694/?captions=chi_hant&learn=on)

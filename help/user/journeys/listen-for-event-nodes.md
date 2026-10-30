@@ -24,18 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2156'
 ht-degree: 4%
 ---
 # 監聽事件
 
 若要在事件發生時將對象推進到[歷程](./journeys-overview.md)中的下一個步驟，請新增&#x200B;_接聽事件_&#x200B;節點。 根據歷程型別，您可以根據人員或帳戶事件使用此節點來觸發歷程中的下一個節點。
 
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
--->
+![影片](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;， vertical-align=&quot;middle&quot;} [觀看概觀影片](#overview-video)
 
 ## 帳戶歷程 {#account-journeys}
 
@@ -363,8 +361,6 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    如果您不想定義路徑，可以清除&#x200B;_[!UICONTROL 設定逾時路徑]_&#x200B;核取方塊。
 
-<!--
- ## Overview video
+## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?captions=chi_hant&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3443245/?captions=chi_hant&learn=on)
