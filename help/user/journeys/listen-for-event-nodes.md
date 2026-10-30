@@ -24,18 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2156'
 ht-degree: 4%
 ---
 # 監聽事件
 
 若要在事件發生時將對象推進到[歷程](./journeys-overview.md)中的下一個步驟，請新增&#x200B;_接聽事件_&#x200B;節點。 根據歷程型別，您可以根據人員或帳戶事件使用此節點來觸發歷程中的下一個節點。
 
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
--->
+![影片](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;， vertical-align=&quot;middle&quot;} [觀看概觀影片](#overview-video)
 
 ## 帳戶歷程 {#account-journeys}
 
@@ -199,7 +197,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 若為個人歷程，您可以使用B2B個人資料屬性中的變更來觸發&#x200B;_接聽事件_&#x200B;節點。
 
-1. 從&#x200B;**2&rbrace;觸發器&#x200B;_清單，將[!UICONTROL 人員設定檔變更]**&#x200B;拖放至事件相符產生器空間。_
+1. 從**2}觸發器&#x200B;]_清單，將[!UICONTROL 人員設定檔變更]**拖放至事件相符產生器空間。_[!UICONTROL 
 
 1. 按一下&#x200B;**[!UICONTROL 新增限制]**，然後選取您要用於事件觸發器的屬性變更。
 
@@ -221,7 +219,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 >[!PREREQUISITES]
 >
->管理員會設定[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。
+>管理員會設定[Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}，讓行銷人員建立對事件近乎即時反應的帳戶和人員歷程。
 >
 >若要讓體驗事件可用於歷程，產品管理員必須先在[!DNL Journey Optimizer B2B Edition]中[新增感興趣的事件型別和欄位](../admin/configure-aep-events.md#add-an-event)。
 
@@ -253,7 +251,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 ## 事件篩選器 {#filters-people-event}
 
-當您在帳戶歷程[&#128279;](#people-events)中定義[個人事件，或在個人歷程](#person-journeys)中定義個人事件時，您可以包含篩選功能，以根據各種條件限制相符的事件觸發器：
+當您在帳戶歷程](#people-events)中定義[個人事件，或在個人歷程](#person-journeys)中定義[個人事件時，您可以包含篩選功能，以根據各種條件限制相符的事件觸發器：
 
 | 篩選器 | 說明 |
 | ------------ | ----------- |
@@ -363,8 +361,6 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    如果您不想定義路徑，可以清除&#x200B;_[!UICONTROL 設定逾時路徑]_&#x200B;核取方塊。
 
-<!--
- ## Overview video
+## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3443245/?captions=chi_hant&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
