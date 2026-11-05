@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
+source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
 workflow-type: tm+mt
-source-wordcount: '5774'
-ht-degree: 60%
+source-wordcount: '5888'
+ht-degree: 58%
 ---
 # Journey Optimizer B2B Edition 發行說明
 
@@ -36,6 +36,20 @@ Adobe Journey Optimizer B2B Edition 持續提供新功能、增強現有功能�
 Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方式建置，並繼承其最新的創新功能和改進項目。 若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/latest){target="_blank"}。
 
 請檢視此[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}，以了解有關權益、效能護欄及限制的資訊。
+
+## 2026.10版本注意事項 {#rel-2026-10}
+
+**部署日期**：2026年11月6日
+
+| 類型 | 項目 | 說明 |
+| ---- | ---- | ----------- |
+| 功能 | 人員清單 | 使用靜態和動態人員清單，依您定義的條件（例如人口統計屬性和體驗事件歷史記錄）來鎖定設定檔。 |
+| 功能 | 歷程節點標籤 | 將標籤新增至歷程節點，以在歷程畫布上識別它們。 |
+| 增強功能 | 人員清單篩選器成員 | 使用&#x200B;_[!UICONTROL 人員清單成員]_&#x200B;篩選器，根據其人員清單成員資格來包含或排除設定檔。 |
+| 增強功能 | 人員清單歷程動作 | 透過帳戶和人員歷程，將人員新增至靜態人員清單或從靜態人員清單移除人員。 |
+
+>[!NOTE]
+>這些版本變更從2026年11月6日開始，分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
 
 ## 2026.9版發行說明 {#rel-2026-9}
 
@@ -50,12 +64,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 >[!NOTE]
 >
->這些版本變更從2026年9月25日開始部署，並分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
-
-<!--
-Delayed to Oct
-| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
--->
+>這些版本變更從2026年9月25日開始，分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
 
 ## 2026.8發行說明 {#rel-2026-8}
 
@@ -74,7 +83,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->這些版本變更從2026年8月14日開始部署，並分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
+>針對這些版本變更的部署從2026年8月14日開始，分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
 
 ## 2026.6版本注意事項 {#rel-2026-6}
 
@@ -89,13 +98,11 @@ Delayed to Oct
 
 >[!NOTE]
 >
->這些版本變更從2026年7月10日開始部署，並分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
+>這些版本變更從2026年7月10日開始，分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
 
 ## 2026.5版本注意事項 {#rel-2026-5}
 
 **部署日期**： 2026年5月22日
-
-<!-- Learn more links omitted for 2026.5 items until updated feature documentation is published. -->
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
@@ -111,12 +118,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->這些版本變更從2026年5月22日開始部署，並分階段推出每個功能和增強功能。 功能及增強功能的發行日期隨時可能變動。
-
-<!--
- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
--->
+>這些版本變更從2026年5月22日開始，分階段推出每個功能和增強功能。 功能及增強功能的發行日期隨時可能變動。
 
 ## 2026.3發行說明 {#rel-2026-3}
 
@@ -135,7 +137,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->這些版本變更從2026年3月27日開始部署，並分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
+>這些版本變更從2026年3月27日開始，分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
 
 
 ## 2026.2版本注意事項 {#rel-2026-2}
@@ -151,7 +153,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->這些版本變更從2026年2月20日開始部署，並分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
+>這些版本變更從2026年2月20日開始，分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
 
 ## 2026.1版本注意事項 {#rel-2026-1}
 
@@ -167,7 +169,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->這些版本變更從2026年2月3日開始部署，並分階段推出每個功能。 功能及增強功能的發行日期可能隨時變更。
+>這些版本變更從2026年2月3日開始，分階段推出每個功能。 功能及增強功能的發行日期可能隨時變更。
 
 ## 代理式 AI 功能 {#rel-agents}
 
@@ -199,7 +201,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->這些發布變更將於 2025 年 10 月 31 日開始部署，且每個功能將分階段推出。 功能及增強功能的發行日期可能隨時變更。
+>這些版本變更從2025年10月31日開始，並分階段推出每個功能。 功能及增強功能的發行日期可能隨時變更。
 
 ### 更新的架構
 
@@ -213,7 +215,7 @@ Delayed to Oct
 
 * **輕鬆統一和擴充您的資料**：更新後的平台支援複雜的資料模型，包括自訂物件、購買群組及帳戶事件。
 * **連接多個 Adobe Marketo Engage 實例**：在一個位置管理並統一來自多個 Adobe Marketo Engage 環境的資料。
-* **確保資料安全**：進階的隱私和安全性功能有助於保護您的客戶資訊。
+* **保護您的資料**：進階的隱私和安全性功能有助於保護您的客戶資訊。
 * **專為長期擴充性所設計**：此更新可讓您的組織準備好持續改善與創新。
 
 >[!NOTE]
@@ -245,7 +247,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->這些發布變更將於 2025 年 9 月 30 日開始部署，每個功能將分階段推出。 功能及增強功能的發行日期隨時可能變動。
+>這些版本變更從2025年9月30日開始，分階段推出每個功能。 功能及增強功能的發行日期隨時可能變動。
 
 ## 2025.8 發行說明 {#rel-2025-8}
 
