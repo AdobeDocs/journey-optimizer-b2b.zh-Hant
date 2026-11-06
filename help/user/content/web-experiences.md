@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0d7af9ad43f2fce159de48c01d7e1c6c6ae234af
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1414'
 ht-degree: 3%
 ---
 # 網站體驗
@@ -192,17 +192,19 @@ Adobe Journey Optimizer B2B Edition中的Web頻道可讓您直接在您的網站
 
 當您的Web促銷活動上線時，您可以針對使用重新導向至替代頁面的Web體驗，追蹤您在Journey Optimizer B2B Edition中定義的Web體驗的執行方式。
 
-## 測試網路體驗
+<!--
+## Test the web experience
 
-網頁體驗的內容設計完成後，您可以使用&#x200B;_模擬內容_&#x200B;功能來預覽網頁修改。 如果您已插入個人化內容，您可以使用測試設定檔資料來檢查內容的呈現方式。 可從網頁體驗或內容視覺設計編輯器的&#x200B;_[!UICONTROL 內容]_&#x200B;標籤取得模擬工具。
+After the content design is complete for the web experience, you can use the _Simulate content_ feature to preview your web page modifications. If you inserted personalized content, you can use test profile data to check how the content is rendered. The simulation tools are available from the _[!UICONTROL Content]_ tab for the web experience, or the content visual design editor.
 
-1. 按一下右上方的&#x200B;**[!UICONTROL 模擬內容]**。
+1. Click **[!UICONTROL Simulate content]** at the top right.
 
-1. 選取測試設定檔。
+1. Select a test profile.
 
-1. 若要使用測試設定檔資料檢查網頁，請新增測試設定檔。
+1. To check your web page using the test profile data, add a test profile.
 
-<!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
+This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out
+-->
 
 ## 啟用您的網站體驗
 
