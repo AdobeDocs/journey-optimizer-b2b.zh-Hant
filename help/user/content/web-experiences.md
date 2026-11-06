@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0d7af9ad43f2fce159de48c01d7e1c6c6ae234af
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1414'
 ht-degree: 3%
 ---
 # 網站體驗
@@ -61,7 +61,7 @@ Adobe Journey Optimizer B2B Edition中的Web頻道可讓您直接在您的網站
 
 * 產品管理員已設定一或多個網路通道，以定義要納入網路體驗的URL （頁面）。 如需詳細資訊，請參閱[網路通道設定](../admin/configure-channels-web.md)。
 
-* 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
+* 您的網站已實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`)，以識別訪客並傳送內容。 請確定Adobe Experience Platform Web SDK的版本是2.16或更高版本。
 
 * 您擁有必要的[許可權](../admin/user-management.md#b2b-product-permissions)，才能在歷程中建立和管理網頁體驗：
   * _[!UICONTROL 作者B2B Web體驗]_
@@ -84,7 +84,7 @@ Adobe Journey Optimizer B2B Edition中的Web頻道可讓您直接在您的網站
 
    如果您正在使用[!DNL Microsoft Edge]，請選取&#x200B;_允許副檔名_ （從上方橫幅上的其他存放區）。 啟用此選項可讓您將擴充功能從[!DNL Chrome Web Store]新增至[!DNL Microsoft Edge]。
 
-1. 搜尋並導覽至&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;瀏覽器延伸模組。
+1. 搜尋並導覽至&#x200B;_[!DNL Adobe Experience Cloud Visual Editing Helper]_瀏覽器延伸模組。
 
    ![適用於Google Chrome的Adobe Experience Cloud Visual Editing Helper擴充功能](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -110,9 +110,9 @@ Adobe Journey Optimizer B2B Edition中的Web頻道可讓您直接在您的網站
 
 當您[新增&#x200B;_[!UICONTROL 採取動作]_&#x200B;節點](../journeys/action-nodes.md)並執行下列動作時，您可以在歷程中設定Web體驗：
 
-1. 針對&#x200B;_目標上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
+1. 針對&#x200B;]_目標上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 人員]**。
 
-1. 若要對人員&#x200B;_執行_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 個人化網頁體驗]**。
+1. 若要對人員&#x200B;]_執行_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 個人化網頁體驗]**。
 
    ![採取動作 — 個人化網頁體驗](./assets/web-experience-add-journey-node.png){width="500"}
 
@@ -138,7 +138,7 @@ Adobe Journey Optimizer B2B Edition中的Web頻道可讓您直接在您的網站
 
    ![選取的Web Channel設定](./assets/web-experience-journey-node-actions-tab.png){width="700" zoomable="yes"}
 
-1. 若要定義網頁修改，請按一下[編輯內容]。**&#x200B;**
+1. 若要定義網頁修改，請按一下[編輯內容]。****
 
    編輯器會在&#x200B;_[!UICONTROL 內容]_&#x200B;標籤中開啟，您可以在其中定義網頁體驗的修改。 如需使用設計工具新增網頁體驗內容修改的詳細資訊，請參閱[網頁體驗設計](./web-experience-design.md)。
 
@@ -159,7 +159,7 @@ Adobe Journey Optimizer B2B Edition中的Web頻道可讓您直接在您的網站
 
 1. 開啟歷程並選取&#x200B;**[!UICONTROL 個人化Web體驗]**&#x200B;動作節點。
 
-1. 若要變更Web Channel設定或內容，請按一下[編輯網頁體驗]。**&#x200B;**
+1. 若要變更Web Channel設定或內容，請按一下[編輯網頁體驗]。****
 
 1. 選取&#x200B;**[!UICONTROL 動作]**&#x200B;標籤，並視需要變更Web組態。
 
@@ -192,17 +192,19 @@ Adobe Journey Optimizer B2B Edition中的Web頻道可讓您直接在您的網站
 
 當您的Web促銷活動上線時，您可以針對使用重新導向至替代頁面的Web體驗，追蹤您在Journey Optimizer B2B Edition中定義的Web體驗的執行方式。
 
-## 測試網路體驗
+<!--
+## Test the web experience
 
-網頁體驗的內容設計完成後，您可以使用&#x200B;_模擬內容_&#x200B;功能來預覽網頁修改。 如果您已插入個人化內容，您可以使用測試設定檔資料來檢查內容的呈現方式。 可從網頁體驗或內容視覺設計編輯器的&#x200B;_[!UICONTROL 內容]_&#x200B;標籤取得模擬工具。
+After the content design is complete for the web experience, you can use the _Simulate content_ feature to preview your web page modifications. If you inserted personalized content, you can use test profile data to check how the content is rendered. The simulation tools are available from the _[!UICONTROL Content]_ tab for the web experience, or the content visual design editor.
 
-1. 按一下右上方的&#x200B;**[!UICONTROL 模擬內容]**。
+1. Click **[!UICONTROL Simulate content]** at the top right.
 
-1. 選取測試設定檔。
+1. Select a test profile.
 
-1. 若要使用測試設定檔資料檢查網頁，請新增測試設定檔。
+1. To check your web page using the test profile data, add a test profile.
 
-<!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
+This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out
+-->
 
 ## 啟用您的網站體驗
 
@@ -218,13 +220,13 @@ Adobe Journey Optimizer B2B Edition中的Web頻道可讓您直接在您的網站
 
 * 在Adobe Experience Platform資料收集中，確定您已定義資料流。 確認已在Adobe Experience Platform服務下啟用Adobe Journey Optimizer B2B Edition選項。
 
-  此設定可確保Adobe Experience Platform Edge可正確處理傳入事件。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)
+  此設定可確保Adobe Experience Platform Edge可正確處理傳入事件。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * 在Adobe Experience Platform中，請確定您有一個啟用&#x200B;_[!UICONTROL Active-On-Edge合併原則]_&#x200B;選項的合併原則。
 
-  在Experience Platform的「客戶>設定檔>合併原則」功能表下，選取原則。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  在Experience Platform的「客戶>設定檔>合併原則」功能表下，選取原則。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B Edition傳入頻道使用此合併原則，在邊緣正確地啟用和發佈傳入網路體驗。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B Edition傳入頻道使用此合併原則，在邊緣正確地啟用和發佈傳入網路體驗。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### 疑難排解
 
