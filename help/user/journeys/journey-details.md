@@ -1,7 +1,7 @@
 ---
-title: 歷程詳細資料
-description: 在Journey Optimizer B2B Edition中使用完成率、參與量度、電子郵件/簡訊分析和AI深入分析來監控帳戶歷程績效。
-feature: Dashboards, Account Journeys
+title: 歷程詳細資訊
+description: 在Adobe Journey Optimizer B2B Edition中監視帳戶和人員歷程績效。 檢閱每個歷程的完成、參與和管道量度。
+feature: Dashboards, Account Journeys, Person Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
 autotag-review: 2026-03-30T23:21:08.953Z
@@ -19,51 +19,63 @@ feature_v2:
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
     internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c053f91ea231cd8517e2329b7170aa08c33dc24
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '843'
 ht-degree: 0%
 ---
 # 歷程詳細資訊
 
-當您按一下使用中帳戶歷程的名稱時，會顯示歷程詳細資料。 _[!UICONTROL 總覽]_&#x200B;索引標籤提供有關歷程的有用資訊，包括產生式AI摘要。
+在[!DNL Adobe Journey Optimizer B2B Edition]中，開啟已發佈的帳戶或個人歷程，並選取&#x200B;**[!UICONTROL 概觀]**&#x200B;索引標籤。 檢閱所選歷程的進度、參與和管道效能。
 
-此儀表板提供所選帳戶歷程的完整概觀，使用圓形和折線圖詳細說明帳戶進度，該圖表會分類和量化完成、進行中的活動以及一段時間內的中止。 它透過關鍵傳送和參與量度，協助行銷團隊評估電子郵件和簡訊管道的有效性。 如需所有歷程彙總的電子郵件量度，請參閱[電子郵件效能報表](../dashboards/email-performance-dashboard.md)。
+帳戶歷程會報告帳戶的進度。 個人歷程會報告個人的進度。 可用的Widget和量度標籤會因歷程型別而異。 選取控制面板詳細資訊的對應標籤。
 
-此概覽適用於已發佈的帳戶歷程，資料大約需要四個小時才能開始填入圖表和表格。
+若要彙總歷程的電子郵件量度，請使用[電子郵件效能報表](../dashboards/email-performance-dashboard.md)。
 
-![存取使用中歷程詳細資料](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB 帳戶歷程]
+
+帳戶歷程儀表板會顯示帳戶進度、參與度、管道效能和產生式AI摘要。 資料大約需要四個小時才能開始填入圖表和表格。
+
+![顯示進度、參與和頻道效能的帳戶歷程概觀標籤。](./assets/journey-detail-overview-account.png){width="700" zoomable="yes"}
 
 ## 歷程完成
 
 本節介紹兩個完成量度：
 
-* **[!UICONTROL 歷程狀態]** — 此圓形圖提供歷程狀態的劃分，方法是將帳戶分類為&#x200B;_已完成_、_進行中_&#x200B;和&#x200B;_已中止_。 每個區段在圖表的外邊緣會加上對應的百分比與科目編號標籤。
-* **[!UICONTROL 一段時間的歷程完成]** — 此折線圖追蹤一段時間內完成其歷程的帳戶數。 水平軸對應時間軸，而垂直軸則量化帳戶，提供直接的完成趨勢檢視。
+* **[!UICONTROL 歷程中的帳戶狀態]**：顯示帳戶總數和歷程狀態的劃分，包括&#x200B;_已完成_、_進行中_&#x200B;和&#x200B;_已中止_。 每個區段會顯示狀態、百分比及科目計數。
+* **[!UICONTROL 一段時間內完成的帳戶]**：顯示一段時間內完成歷程的帳戶數。 水平軸顯示日期，垂直軸顯示帳戶計數。
+
+>[!NOTE]
+>
+>在帳戶歷程中，歷程&#x200B;**圖表中的**&#x200B;帳戶狀態包含經過歷程的帳戶，即使這些帳戶隨後被刪除。 **[!UICONTROL 鑽研]**&#x200B;會排除已刪除的帳戶，因此它顯示的記錄會比圖表少。 這是預期中的差異。 刪除帳戶不會變更歷史歷程狀態計數。
 
 ## 歷程參與
 
 本節介紹兩個參與量度：
 
 * **[!UICONTROL 帳戶參與率]** — 此圓形圖表會將歷程中的帳戶分割為&#x200B;_已參與_&#x200B;和&#x200B;_未參與_&#x200B;類別。 中央圖顯示總計數。 此視覺效果可讓您快速瞭解整體帳戶參與情形。
-* **參與的人員** — 此視覺效果會顯示歷程中符合&#x200B;_參與資格_&#x200B;的人員總數。
+* **[!UICONTROL 參與者的參與]**：顯示歷程中參與活動的人數。 此值會計入人員，而非參與活動。
 
 ## 歷程績效
 
 本節提供兩個重要的量度：
 
 * **[!UICONTROL 歷程完成率]** — 已成功完成其歷程的帳戶百分比。
-* **[!UICONTROL 歷程持續時間]** — 帳戶完成歷程所花費的平均時間長度。
+* **[!UICONTROL 平均歷程完成時間]**：帳戶完成歷程所花費的平均時間（以天為單位）。
 
-## 電子郵件和簡訊效能
+## 管道績效 {#email-and-sms-performance}
 
-效能表提供電子郵件和簡訊通道有效性的詳細資訊。 每個表格都會顯示傳送率和點進率等量度，協助您評估每個通訊接觸點的影響。 下表僅顯示此歷程的電子郵件和簡訊量度。 對於所有歷程的相同電子郵件量度，請使用[電子郵件效能報表](../dashboards/email-performance-dashboard.md)。
+儀表板包含所選帳戶歷程的&#x200B;**[!UICONTROL 電子郵件效能]**、**[!UICONTROL 簡訊效能]**&#x200B;和&#x200B;**[!UICONTROL WhatsApp效能]**&#x200B;表格。 使用可用的傳送和參與量度來評估每個通訊接觸點。
 
 **[!UICONTROL 電子郵件效能]**&#x200B;資料表資料行：
 
@@ -83,13 +95,13 @@ ht-degree: 0%
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
 -->
 
-## 增強互動
+## 其他動作
 
-使用動作圖示(**...**)與資料互動 圖表的右上角。
+使用圖表或資料表的&#x200B;**...**&#x200B;功能表存取其可用的動作。
 
 ### 鑽研
 
-對於&#x200B;_[!UICONTROL 歷程狀態]_&#x200B;圖表，請選擇&#x200B;**[!UICONTROL 鑽研]**&#x200B;以深入分析個別帳戶狀態。
+對於歷程&#x200B;**圖表中的**&#x200B;帳戶狀態，請選擇&#x200B;**[!UICONTROL 鑽研]**&#x200B;以深入分析個別帳戶狀態。
 
 ![圖形資料的鑽研](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
@@ -102,4 +114,46 @@ The applied global filters are carried over to the view and displayed at the top
 
 ![檢視延伸資料](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
 
-若要下載資料，請按一下資料表格右上角的&#x200B;**[!UICONTROL 下載CSV]**。 若要返回&#x200B;_總覽_&#x200B;儀表板，請按一下&#x200B;**[!UICONTROL 關閉]**。
+若要下載資料，請選取&#x200B;**[!UICONTROL 下載CSV]**。 若要返回&#x200B;_[!UICONTROL 總覽]_&#x200B;儀表板，請選取&#x200B;**[!UICONTROL 關閉]**。
+
+>[!TAB 個人歷程]
+
+人員歷程儀表板會顯示所選歷程中人員的完成、參與和電子郵件效能。
+
+![個人歷程概觀索引標籤，顯示進度、參與度和電子郵件效能。](./assets/journey-detail-overview-person.png){width="700" zoomable="yes"}
+
+## 歷程完成 {#person-journey-completion}
+
+請使用下列圖表來檢閱歷程中人員的狀態和完成趨勢：
+
+* **[!UICONTROL 歷程中的人員狀態]**：顯示人員總數以及依歷程狀態的劃分。 每個區段都會顯示狀態、百分比和人員計數。
+* **[!UICONTROL 一段時間內完成的人數]**：顯示一段時間內完成歷程的人數。 **[!UICONTROL 增量完成]**&#x200B;序列顯示每個時間間隔的完成。 **[!UICONTROL 累計已完成]**&#x200B;序列顯示執行中的完成總數。
+
+>[!NOTE]
+>
+>在個人歷程中，歷程中&#x200B;**圖表中的**&#x200B;人員狀態包含瀏覽過該歷程的人員，即使他們後來被刪除。 **[!UICONTROL 鑽研]**&#x200B;會排除已刪除的人員，因此它顯示的記錄會比圖表少。 這是預期中的差異。 刪除人員不會變更歷史歷程狀態計數。
+
+對於歷程圖表中的&#x200B;_人員狀態，請按一下_&#x200B;更多_ ( **...** )圖示，並選取&#x200B;**[!UICONTROL 鑽研]**&#x200B;以檢閱個別人員狀態。
+
+## 歷程參與 {#person-journey-engagement}
+
+**[!UICONTROL 參與者的參與度]** Widget會顯示歷程中具有參與活動的人數。 此值會計入人員，而非參與活動。
+
+## 歷程績效 {#person-journey-performance}
+
+請使用下列測量結果來複查完成效能：
+
+* **[!UICONTROL 歷程完成率]**：完成歷程的人員的百分比。
+* **[!UICONTROL 平均歷程完成時間]**：使用者完成歷程所花費的平均時間（以天為單位）。
+
+## 電子郵件績效 {#person-journey-email-performance}
+
+**[!UICONTROL 電子郵件效能]**&#x200B;表格顯示所選人員歷程中每個電子郵件資產的計數，而非費率：
+
+* **[!UICONTROL 資產名稱]**：電子郵件資產的名稱
+* **[!UICONTROL 已傳送]**：已傳送的電子郵件數目
+* **[!UICONTROL 已傳遞]**：已傳遞的電子郵件數目
+* **[!UICONTROL 已開啟]**：已開啟的電子郵件數目
+* **[!UICONTROL 已點按]**：已點按的電子郵件數
+
+>[!ENDTABS]
