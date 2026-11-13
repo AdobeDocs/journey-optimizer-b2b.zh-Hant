@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 827c313f032d482ac2b0a5fa8f41d6506e67b9cb
+source-git-commit: 25cbdfb352740385181a68f96b0b2e6ebc3313e7
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '730'
 ht-degree: 0%
 ---
 # 資料可用性和同步時間 {#data-availability}
@@ -85,6 +85,14 @@ ht-degree: 0%
 
 * **[!DNL Experience Platform]到[!DNL Journey Optimizer B2B Edition]** — 近乎即時同步資料，最多可能需要30分鐘。
 * **[!DNL Journey Optimizer B2B Edition]到[!DNL Experience Platform]** — 以微批次同步資料，最多可能需要4小時。
+
+## 設定檔身分變更 {#profile-identity-changes}
+
+在[!DNL Adobe Experience Platform]中變更設定檔的`identityMap`可能會中斷其與[!DNL Journey Optimizer B2B Edition]中現有人員記錄的關聯。 先前的個人記錄標籤為已刪除，且不再進行歷程或購買群組處理。
+
+設定檔必須再次符合啟用至[!DNL Journey Optimizer B2B Edition]的對象的資格，才能再次內嵌。 如果擷取的記錄具有不同的人員ID，則會將其視為新的人員。 如果該人進入歷程，他們會從頭開始，而不是繼續上一個記錄的進度。
+
+歷程記錄狀態計數仍包含已刪除的人員記錄。 不過，**[!UICONTROL 鑽研]**&#x200B;會排除刪除的記錄，所以其記錄計數可以低於圖表計數。 如需詳細資訊，請檢閱[個人歷程完成報告](../journeys/journey-details.md#person-journey-completion)。
 
 ## 活動事件和歷程動作 {#activity-and-actions}
 
