@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 78d7701e30628aad4b732b2d0858953ba09e26f5
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 7%
@@ -84,7 +84,7 @@ ht-degree: 7%
 
 1. 按一下右上方的&#x200B;**[!UICONTROL 傳送校樣]**。
 
-   ![按一下[傳送校樣]](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![按一下[傳送校樣]](assets/email-simulate-content-preview-send-proof.png){width="600"}
 
 1. 在&#x200B;_傳送校樣_&#x200B;頁面中，輸入第一個收件者的電子郵件地址。
 
