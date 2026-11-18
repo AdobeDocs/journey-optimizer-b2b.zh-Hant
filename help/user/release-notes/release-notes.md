@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5899'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Journey Optimizer B2B Edition 發行說明
@@ -44,7 +44,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 人員清單 | 使用靜態和動態人員清單，依您定義的條件（例如人口統計屬性和體驗事件歷史記錄）來鎖定設定檔。 [了解更多](../audiences/people-lists.md) |
-| 功能 | 歷程節點標籤 | 將標籤新增至歷程節點，以在歷程畫布上識別它們。 |
+| 功能 | 歷程節點標籤 | 將標籤新增至歷程節點，以在歷程畫布上識別它們。 [了解更多](../journeys/create-publish-journey.md#label-a-node)。 |
 | 增強功能 | 個人清單篩選器的成員 | 使用&#x200B;_[!UICONTROL 人員清單成員]_&#x200B;篩選器，根據其靜態或動態人員清單成員資格來包含或排除設定檔。 [了解更多](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | 增強功能 | 人員清單歷程動作 | 透過帳戶和人員歷程，將人員新增至靜態人員清單或從靜態人員清單移除人員。 [了解更多](../journeys/action-nodes.md#people-actions) |
 
@@ -164,7 +164,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 功能 | 品牌套件 | (Beta)在Journey Optimizer B2B Edition中定義品牌，為創意團隊建立任何視覺或書面內容時提供可使用的真實來源。 編譯這些准則並共用品牌資產時，任何團隊成員或共同作業人員都可以為您的產品建立品牌上內容。 [了解更多](../content/brands-overview.md) |
 | 功能 | 用於產生電子郵件內容的品牌 | 您可以定義品牌指引，並使用此資訊產生電子郵件內容。 透過此功能，電子郵件內容會符合您特定品牌的文字撰寫指南、樣式和語調。 [了解更多](../content/generate-content-emails.md) |
 | 增強功能 | 歷程&#x200B;_等待_&#x200B;節點 — 進階設定 | 對於歷程中的&#x200B;_等待_&#x200B;節點，行銷人員現在可以指定退出日期和時間，並選取時區。 此增強功能可讓您更妥善地控制歷程協調和行銷活動時間。 [了解更多](../journeys/wait-nodes.md#advanced-wait-settings) |
-| 增強功能 | 購買群組成員篩選器 — 已移除 | 針對由人員&#x200B;_節點分割的_&#x200B;路徑，_[!UICONTROL 購買群組成員]_&#x200B;篩選器現在包含&#x200B;_已移除_&#x200B;限制。 選取時，篩選器可包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;_的_&#x200B;成員篩選器中使用此新限制。 |
+| 增強功能 | 購買群組成員篩選器 — 已移除 | 針對由人員&#x200B;_節點分割的_&#x200B;路徑，_[!UICONTROL 購買群組成員]_&#x200B;篩選器現在包含&#x200B;_已移除_&#x200B;限制。 選取時，篩選器可包含已移除的購買群組成員，或將其排除。 Marketo Engage智慧清單也支援此功能，您可以在購買群組&#x200B;]_的_[!UICONTROL &#x200B;成員篩選器中使用此新限制。 |
 | 增強功能 | 電子郵件設計 — 多級專案符號 | 電子郵件內容設計空間工具現在支援子專案符號（專案符號層級）。 |
 
 >[!NOTE]
