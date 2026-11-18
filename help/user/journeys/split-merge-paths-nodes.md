@@ -349,4 +349,4 @@ _（僅限個人歷程）_
 
 ## 概觀影片 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443267/?captions=chi_hant&learn=on)
