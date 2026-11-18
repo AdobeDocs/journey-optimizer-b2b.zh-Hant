@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 4%
+source-wordcount: '3118'
+ht-degree: 3%
 ---
 # 分割和合併路徑 {#split-paths}
 
@@ -50,7 +50,7 @@ _分割路徑_&#x200B;節點會根據&#x200B;**__**&#x200B;帳戶或人員篩選
 
 依帳戶分割路徑可包含帳戶和人員動作與事件。 這些路徑可以進一步分割。
 
-_&#x200B;**依帳戶節點分割路徑的運作方式**&#x200B;_
+_**依帳戶節點分割路徑的運作方式**_
 
 * 您新增的每個路徑都包含一個能夠向每個邊緣新增節點的結束節點。
 * 可巢狀方式依帳戶節點分割（您可以重複依帳戶分割路徑）。
@@ -65,10 +65,11 @@ _&#x200B;**依帳戶節點分割路徑的運作方式**&#x200B;_
 | 路徑條件 | 說明 |
 | --------------- | ----------- |
 | [!UICONTROL 帳戶屬性] | 帳戶設定檔中的屬性，包括： <li>年收入 <li>城市 <li>國家 <li>員工規模 <li>行業 <li>名稱 <li>SIC 代碼 <li>狀態 |
-| [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此帳戶有或沒有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 （請參閱[自訂資料篩選](#custom-data-filtering)。） |
+| [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此帳戶有或沒有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 （請參閱&#x200B;[_自訂資料篩選_](#custom-data-filtering)。） |
 | [!UICONTROL 特殊篩選器] > [!UICONTROL 帳戶已符合購買群組] | 此帳戶符合一或多個購買群組。 您可以針對符合的購買群組，針對下列一或多個限制進行評估： <li>解決方案興趣 <li>購買群組階段 <li>購買群組狀態 <li>參與分數 <li>完整度分數 <li> 購買群組角色中的人員數 |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 帳戶清單的帳戶成員] | 帳戶是否為一或多個選取帳戶清單的成員。 （請參閱&#x200B;[_分割路徑節點 — 帳戶清單_](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)&#x200B;的帳戶成員） |
 
-### 依帳戶節點新增分割路徑
+### 依帳戶節點新增分割路徑 {#add-a-split-path-by-account-node}
 
 1. 導覽至歷程圖。
 
@@ -92,7 +93,7 @@ _&#x200B;**依帳戶節點分割路徑的運作方式**&#x200B;_
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 若要新增更多路徑，請按一下[新增路徑] **&#x200B;**，並重複先前步驟以新增適用於此路徑的條件。
+1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複先前步驟以新增適用於此路徑的條件。
 
    您也可以根據這些條件來標示每個路徑，或使用預設標籤。
 
@@ -136,13 +137,19 @@ _&#x200B;**依帳戶節點分割路徑的運作方式**&#x200B;_
 
 若要更新已識別帳戶的購買群組或階段狀態，請在路徑中新增動作節點。
 
+### 帳戶清單篩選 {#account-list-filtering}
+
+使用&#x200B;_[!UICONTROL 特殊篩選器]_ > _[!UICONTROL 帳戶清單的帳戶成員]_&#x200B;篩選器，根據帳戶在[帳戶清單](../accounts/account-lists.md)中的成員資格來定義帳戶的路徑。 將成員資格設為&#x200B;_true_&#x200B;以在清單中包含帳戶，或設為&#x200B;_false_&#x200B;以排除帳戶，並選取一或多個帳戶清單。 例如，若要將封鎖清單中的帳戶排除在路徑之外，請新增篩選器、將成員資格設為&#x200B;_false_，然後選取您的封鎖清單。
+
+如需相關步驟，請參閱[分割路徑節點 — 帳戶清單](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)的帳戶成員。
+
 ## 依人員分割路徑
 
 _（帳戶和人員歷程）_
 
 依人員路徑分割只能包含人員動作。 這些路徑無法再次分割並自動聯結。
 
-_&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
+_**依人員節點分割路徑的運作方式**_
 
 * 在&#x200B;_群組節點_&#x200B;分割合併組合中，依人員節點進行分割。 分割路徑會自動合併，以便所有人員能夠前進到下一個步驟，而不會失去其帳戶內容。
 * 依人員節點分割無法巢狀（您無法在此群組節點內的路徑中為人員新增分割路徑）。
@@ -159,14 +166,18 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 | [!UICONTROL 自訂物件] >有`<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta功能"}此人是否擁有關聯式結構描述記錄。 也可以根據[XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中設定的任何選取的自訂物件條件進行評估。 （請參閱[自訂資料篩選](#custom-data-filtering)） |
 | [!UICONTROL 事件歷史記錄] | 根據在歷程進入之前發生的體驗事件分割人員。 展開資料夾以檢視[管理員> XDM事件設定](../admin/configure-aep-events.md)中設定的所有事件型別，並選取一個新增為篩選器。 限制包括來自所選事件的欄位、從人員進入歷程時回溯的回顧時間範圍，以及選擇性的最小次數。 |
 | [!UICONTROL 個人屬性] | [個人檔案](../admin/field-mapping.md#xdm-business-person-attributes)中的屬性，包括： <li>城市 <li>國家 <li>電子郵件地址 <li>電子郵件無效 <li>電子郵件中止 <li>名字 <li>推斷的州別區域 <li>職稱 <li>姓氏 <li>手機號碼 <li>人員參與度分數 <li>電話號碼 <li>郵遞區號 <li>州別 |
-| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除（預設： `false`）</li><li>角色</li> （請參閱[成員資格篩選](#membership-filtering)） |
-| [!UICONTROL 特殊篩選器] > [!UICONTROL 設定檔對象的成員] | 此人是否為一或多個[!DNL Adobe Experience Platform]設定檔對象的成員。 （請參閱[成員資格篩選](#membership-filtering)） |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 購買團體成員] | 該人員是或不是根據下列一或多個條件評估的購買群組成員： <li>解決方案興趣</li><li>購買群組狀態</li><li>完整度分數</li><li>參與分數</li><li>已移除（預設： `false`）</li><li>角色</li> （請參閱&#x200B;[_成員資格篩選_](#membership-filtering)） |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 設定檔對象的成員] | 此人是否為一或多個[!DNL Adobe Experience Platform]設定檔對象的成員。 （請參閱&#x200B;[_成員資格篩選_](#membership-filtering)） |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 帳戶動態清單的人員成員] | （僅限個人歷程）個人的帳戶是否為一或多個動態帳戶清單的成員。 （請參閱帳戶清單&#x200B;_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)的[_&#x200B;個人成員） |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 帳戶靜態清單的人員成員] | （僅限個人歷程）個人的帳戶是否為一或多個靜態帳戶清單的成員。 （請參閱帳戶清單&#x200B;_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)的[_&#x200B;個人成員） |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 人員動態清單的人員成員] | 人員是否為一或多個動態人員清單的成員。 （請參閱&#x200B;[_成員資格篩選_](#membership-filtering)） |
+| [!UICONTROL 特殊篩選器] > [!UICONTROL 人員靜態清單的人員] | 此人是否是一或多個靜態人員清單的成員。 （請參閱&#x200B;[_成員資格篩選_](#membership-filtering)） |
 
 ### Account-person路徑條件
 
 | 路徑條件 | 說明 |
 | --------------- | ----------- |
-| 帳戶中的角色 | 此人是否在帳戶中被指派角色。 選擇性限制： <li>角色名稱 |
+| 帳戶]中的[!UICONTROL 角色 | 此人是否在帳戶中被指派角色。 選擇性限制： <li>角色名稱 |
 
 ### 依人員節點新增分割路徑 {#add-a-split-path-by-people-node}
 
@@ -182,7 +193,7 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 1. 在右側的節點屬性中，選擇&#x200B;**[!UICONTROL 人員]**&#x200B;進行分割。
 
-1. （僅限帳戶歷程）設定用於條件&#x200B;**的**&#x200B;屬性。
+1. （僅限帳戶歷程）設定用於條件&#x200B;]**的**[!UICONTROL &#x200B;屬性。
 
    * 選擇&#x200B;**[!UICONTROL 僅人員屬性]**&#x200B;以使用與人員設定檔相關的條件。
    * 選擇&#x200B;**[!UICONTROL 僅限帳號 — 個人屬性]**&#x200B;以使用帳號中與個人角色成員資格相關的條件。
@@ -203,7 +214,7 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 若要新增更多路徑，請按一下[新增路徑] **&#x200B;**，並重複先前步驟以新增適用於此路徑的條件。
+1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複先前步驟以新增適用於此路徑的條件。
 
    您也可以根據這些條件來標示每個路徑，或使用預設標籤。
 
@@ -227,7 +238,7 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 事件歷史記錄的時間範圍是從人員進入歷程的那一刻開始往後測量。 例如，30天視窗會評估合格事件是否發生在歷程專案之前30天內。
 
-您可以使用所選事件欄位專用的限制來進一步縮小篩選範圍。 選用的活動&#x200B;**限制的**&#x200B;[!UICONTROL &#x200B;最小次數&#x200B;]&#x200B;**和**&#x200B;日期都在定義的回顧期間內評估。 因為事件記錄資料是從[!DNL Adobe Experience Platform]同步的，所以在最近發生的事件可供此篩選器使用之前，可能會有短暫的延遲。
+您可以使用所選事件欄位專用的限制來進一步縮小篩選範圍。 選用的活動&#x200B;]**限制的**[!UICONTROL &#x200B;最小次數&#x200B;]**和**[!UICONTROL &#x200B;日期都在定義的回顧期間內評估。 因為事件記錄資料是從[!DNL Adobe Experience Platform]同步的，所以在最近發生的事件可供此篩選器使用之前，可能會有短暫的延遲。
 
 >[!NOTE]
 >
@@ -239,7 +250,7 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 >[!BEGINSHADEBOX 「非使用中篩選」]
 
-針對每個&#x200B;_[!UICONTROL 事件歷史記錄]_&#x200B;篩選器，您可以啟用&#x200B;**[!UICONTROL 切換到非使用狀態篩選器]**&#x200B;選項。 此選項會將篩選器變更為缺少該活動型別的評估。 若要建立&#x200B;_&#x200B;**未**&#x200B;_&#x200B;開啟電子郵件之人員的路徑，請新增&#x200B;_[!UICONTROL 已開啟的直銷電子郵件]_&#x200B;篩選器。 啟用非使用狀態選項並指定電子郵件。
+針對每個&#x200B;_[!UICONTROL 事件歷史記錄]_&#x200B;篩選器，您可以啟用&#x200B;**[!UICONTROL 切換到非使用狀態篩選器]**&#x200B;選項。 此選項會將篩選器變更為缺少該活動型別的評估。 若要建立&#x200B;_**未**_&#x200B;開啟電子郵件之人員的路徑，請新增&#x200B;_[!UICONTROL 已開啟的直銷電子郵件]_&#x200B;篩選器。 啟用非使用狀態選項並指定電子郵件。
 
 ![依未使用人員狀況分割路徑](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -251,10 +262,14 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 * _[!UICONTROL 購買群組的成員]_ — 評估該人員是否為購買群組的成員。
 * _[!UICONTROL 個人資料對象的成員]_ — 評估該人員是否為[!DNL Adobe Experience Platform]個人資料對象的成員。
+* _[!UICONTROL 帳戶動態清單的個人成員]_ - （僅限個人歷程）評估該個人的帳戶是否為動態帳戶清單的成員。 （請參閱[在歷程中使用帳戶清單](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)）
+* _[!UICONTROL 帳戶靜態清單的個人成員]_ - （僅限個人歷程）評估該個人的帳戶是否為靜態帳戶清單的成員。 （請參閱[在歷程中使用帳戶清單](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)）
+* _[!UICONTROL 人員動態清單的成員]_ — 評估該人員是否為動態人員清單的成員。
+* _[!UICONTROL 人員靜態清單的成員]_ — 評估該人員是否為靜態人員清單的成員。
 
-若要新增成員資格篩選器，請將其從&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;資料夾拖曳至條件工作區，並將成員資格設為&#x200B;_true_&#x200B;以包含成員，或設為&#x200B;_false_&#x200B;以排除成員。 您可以將兩個篩選器合併為相同路徑條件，並使用&#x200B;**[!UICONTROL 篩選器邏輯]**&#x200B;來比對任何或所有篩選器。
+若要新增成員資格篩選器，請將其從&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;資料夾拖曳至條件工作區，並完成符合定義以包含或排除成員。 根據篩選條件，您選取&#x200B;_true_&#x200B;或&#x200B;_false_，或選擇&#x200B;_是_&#x200B;或&#x200B;_不是_。 您可以在相同的路徑條件中組合這些篩選器，並使用&#x200B;**[!UICONTROL 篩選器邏輯]**&#x200B;來比對任何或所有篩選器。
 
-當您[在&#x200B;_接聽事件_&#x200B;節點中為事件](./listen-for-event-nodes.md#membership-filtering)新增篩選器時，也可以使用這些篩選器。
+當您在&#x200B;_接聽事件_&#x200B;節點中[新增事件](./listen-for-event-nodes.md#membership-filtering)的篩選器時，_[!UICONTROL 購買群組成員]_&#x200B;和&#x200B;_[!UICONTROL 設定檔對象成員]_&#x200B;也可使用。
 
 ![依人員條件分割路徑，以購買群組和設定檔對象成員資格](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
 
@@ -290,13 +305,27 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 >
 >篩選器不會即時計算對象會籍。 它會根據截至上次批次對象擷取時選定對象中的成員資格來限定人員。 只能評估已擷取至[!DNL Journey Optimizer B2B Edition]的受眾。
 
+**帳戶清單的成員**
+
+_（僅限個人歷程）_
+
+使用帳戶靜態清單的&#x200B;_[!UICONTROL 個人成員]_&#x200B;和帳戶動態清單的&#x200B;_[!UICONTROL 個人成員]_&#x200B;篩選器，根據人員的帳戶是否為[帳戶清單](../accounts/account-lists.md)的成員來路由人員。 將運運算元設為&#x200B;_是_&#x200B;以包含帳戶在清單中的人員，或設為&#x200B;_不是_&#x200B;以排除這些人員，並選取一或多個帳戶清單。 例如，若要將封鎖名單帳戶中的人員排除在Nurture路徑之外，請新增&#x200B;_[!UICONTROL 帳戶靜態清單的人員成員]_&#x200B;篩選器，將運運算元設定為&#x200B;_不是_，然後選取您的封鎖清單。
+
+如需相關步驟，請參閱[分割路徑節點 — 帳戶清單的人員成員](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)。
+
+**人員清單成員**
+
+使用&#x200B;_[!UICONTROL Person Member of People靜態清單]_&#x200B;和&#x200B;_[!UICONTROL Person Member of People動態清單]_&#x200B;篩選器，根據[People清單](../audiences/people-lists.md)的成員資格來路由人員。 將運運算元設為&#x200B;_是_&#x200B;以包含清單成員，或&#x200B;_不是_&#x200B;以排除這些成員，並選取一或多個清單。 例如，若要讓員工和合作夥伴不進入Nurture路徑，請新增&#x200B;_[!UICONTROL 人員靜態清單的「人員」成員]_&#x200B;篩選器，將運運算元設定為&#x200B;_不是_，然後選取您的排除清單。
+
+如需相關步驟，請參閱[依人員清單成員資格分割路徑](../audiences/people-lists-journeys.md#split-paths-by-list-membership)。
+
 ## 自訂資料篩選 {#custom-data-filtering}
 
 [!BADGE Beta]{type=Informative tooltip="Beta功能"}
 
 您可以使用關聯式結構描述（以模型為基礎的類別），依帳戶或人員分割路徑。 自訂物件是在&#x200B;_關聯式結構描述_&#x200B;中定義，產品管理員可以在[!DNL Journey Optimizer B2B Edition]中[設定關聯式結構描述欄位](../admin/xdm-field-management.md#relational-schemas)。 條件編輯器中可使用選取的結構描述欄位，用於&#x200B;_依帳戶分割路徑_&#x200B;和&#x200B;_依人員分割路徑_&#x200B;節點。
 
-若要依帳戶&#x200B;**分割**&#x200B;[!UICONTROL &#x200B;路徑或依人員&#x200B;]&#x200B;**分割**&#x200B;路徑，請展開&#x200B;_[!UICONTROL 自訂物件]_。 新增條件並將值設定為`true`或`false`。 按一下&#x200B;**[!UICONTROL 新增限制]**&#x200B;以使用欄位值進行篩選。
+若要依帳戶&#x200B;]**分割**[!UICONTROL &#x200B;路徑或依人員&#x200B;]**分割**[!UICONTROL &#x200B;路徑，請展開&#x200B;_[!UICONTROL 自訂物件]_。 新增條件並將值設定為`true`或`false`。 按一下&#x200B;**[!UICONTROL 新增限制]**&#x200B;以使用欄位值進行篩選。
 
 ![關聯式結構描述自訂物件的帳戶條件範例](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
 
@@ -320,4 +349,4 @@ _&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 ## 概觀影片 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443267/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
