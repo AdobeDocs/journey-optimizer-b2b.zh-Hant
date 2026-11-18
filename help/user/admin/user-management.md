@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
+source-git-commit: 734966636b6d2addf014905431fa755f6fe92ee6
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 76%
+source-wordcount: '2420'
+ht-degree: 75%
 ---
 # 使用者存取和許可權
 
@@ -193,6 +193,7 @@ Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以�
 | B2B通道設定 | 設定、管理和檢視B2B管道設定的許可權。 這些許可權包括通訊限制、API憑證和安全性設定的設定。 | <li>管理B2B管道設定 <li>檢視B2B電子郵件設定 <li>管理B2B電子郵件設定 <li>管理B2B WhatsApp預設集 <li>管理B2B登陸頁面設定 <li>檢視B2B Forms預設集 <li>管理B2B Forms預設集 <li>發佈B2B Forms預設集 <li>作者B2B Web體驗 <li>管理B2B WhatsApp設定 |
 | B2B儀表板 | 設定和檢視B2B儀表板的許可權。 這些許可權包括帳戶參與度、購買群組階段、激增帳戶和聯絡人涵蓋範圍。 | <li>檢視B2B參與儀表板 |
 | B2B歷程 | 設定、管理、檢視和發佈B2B歷程的許可權。 這些許可權包括帳戶和人員動作、事件接聽程式以及分割路徑。 | <li>管理B2B帳戶歷程 <li>管理B2B個人歷程 <li>檢視B2B個人歷程 <li>發佈B2B個人歷程 |
+| B2B個人清單 | 管理和檢視B2B人員清單的許可權。 這些許可權包括建立、編輯和刪除靜態和動態人員清單，以及在靜態清單中新增和移除人員。 | <li>管理B2B個人清單 <li>檢視B2B人員清單 |
 | Journey Optimizer規則 | 存取及設定頻率規則（通訊限制）。 這些許可權應該僅限於產品管理員。 | <li>檢影片率規則 <li>管理頻率規則 |
 
 >[!NOTE]

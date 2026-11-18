@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '914'
 ht-degree: 0%
 ---
 # 在歷程中使用帳戶清單
@@ -36,15 +36,15 @@ ht-degree: 0%
 
 所有帳戶歷程都以&#x200B;[_帳戶對象_&#x200B;節點](../journeys/account-audience-nodes.md)開始。 當您設定此節點使用帳戶清單時，成員帳戶會在歷程上線（發佈）時移動歷程。
 
-1. 選取起始&#x200B;_帳戶對象_&#x200B;節點的&#x200B;**[!UICONTROL 帳戶清單]**&#x200B;選項。
+1. 針對起始&#x200B;_帳戶對象_&#x200B;節點Select **[!UICONTROL 帳戶清單]**&#x200B;選項。
 
-   ![選取帳戶對象節點的帳戶清單選項](../journeys/assets/node-audience-account-list.png){width="500"}
+   帳戶對象節點的![Select帳戶清單選項](../journeys/assets/node-audience-account-list.png){width="500"}
 
 1. 按一下&#x200B;**[!UICONTROL 新增帳戶清單]**。
 
-1. 選取帳戶清單的核取方塊，然後按一下[儲存]。**&#x200B;**
+1. Select帳戶清單的核取方塊，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-   ![選取帳戶對象節點的帳戶清單選項](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
+   帳戶對象節點的![Select帳戶清單選項](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
 
 ## 採取動作節點 — 新增至帳戶
 
@@ -58,15 +58,15 @@ ht-degree: 0%
 >
 >如果節點執行時帳戶已在清單中，則會忽略動作。
 
-1. 選取&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;上的_&#x200B;動作選項。
+1. 在&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;選項上Select_&#x200B;動作。
 
 1. 若為帳戶&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至帳戶清單]**。
 
-   ![選取[新增至帳戶清單]](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
+   ![Select新增至帳戶清單](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
-1. 若為&#x200B;**[!UICONTROL 選取即時靜態帳戶清單]**，請選擇您要新增帳戶的帳戶清單。
+1. 針對&#x200B;**[!UICONTROL Select即時靜態帳戶清單]**，選擇您要新增帳戶的帳戶清單。
 
-   ![選取[新增至帳戶清單]](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
+   ![Select新增至帳戶清單](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
 
 ## 採取動作節點 — 從帳戶移除
 
@@ -80,12 +80,79 @@ ht-degree: 0%
 >
 >如果帳戶不在排定移除的清單中，則會忽略動作。
 
-1. 選取&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;上的_&#x200B;動作選項。
+1. 在&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;選項上Select_&#x200B;動作。
 
 1. 若為帳戶&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 從帳戶清單移除]**。
 
-   ![選取[從帳戶清單移除]](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
+   ![Select從帳戶清單移除](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
-1. 若為&#x200B;**[!UICONTROL 選取即時靜態帳戶清單]**，請選擇您要移除帳戶的帳戶清單。
+1. 針對&#x200B;**[!UICONTROL Select即時靜態帳戶清單]**，選擇您要移除帳戶的帳戶清單。
 
-   ![選取[從帳戶清單移除]](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
+   ![Select從帳戶清單移除](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
+
+## 分割路徑節點 — 帳戶清單的帳戶成員 {#split-paths-account-member-of-account-list}
+
+**_僅限帳戶歷程_**
+
+在依帳戶分割的&#x200B;[_分割路徑_&#x200B;節點](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node)中，使用&#x200B;_[!UICONTROL 帳戶清單的帳戶成員]_&#x200B;篩選器。 帳戶是否為一或多個選取帳戶清單的成員。 若要在清單中包含帳戶，請將成員資格設為`true`，或將其設為`false`以排除這些帳戶。
+
+若要排除封鎖清單上的帳戶，請新增&#x200B;_[!UICONTROL 帳戶清單的帳戶成員]_&#x200B;篩選器，將成員資格設定為`false`，然後選取清單。
+
+1. 導覽至歷程圖。
+
+1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 分割路徑]**。
+
+1. 在右側的節點屬性中，選擇&#x200B;**[!UICONTROL 帳戶]**&#x200B;進行分割。
+
+1. 若要定義&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下[套用條件]。**&#x200B;**
+
+1. 定義帳戶清單篩選器。
+
+   * 在條件編輯器中，展開&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;資料夾，並將&#x200B;**[!UICONTROL 帳戶清單的帳戶成員]**&#x200B;篩選器拖曳到條件工作區。
+
+   * 若要在清單中包含帳戶，請將成員資格設為`true`，或將其設為`false`以排除這些帳戶。
+
+   * Select一或多個帳戶清單。
+
+   ![使用帳戶清單篩選器的帳戶成員分割路徑條件編輯器](./assets/account-lists-journeys-split-path-account-filter.png){width="700" zoomable="yes"}
+
+   您可以將帳戶清單成員資格篩選器與其他帳戶篩選器結合，並選擇符合所有條件或任何條件。 在上方套用&#x200B;**[!UICONTROL 篩選邏輯]**，以精簡條件。
+
+1. 按一下「**[!UICONTROL 完成]**」。
+
+繼續設定分割路徑節點，如[依帳戶節點新增分割路徑](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node)中所述。
+
+## 分割路徑節點 — 帳戶清單的人員成員 {#split-paths-member-of-account-list}
+
+**_個人歷程僅限_**
+
+在人員歷程的&#x200B;[_分割路徑_&#x200B;節點](../journeys/split-merge-paths-nodes.md)中使用帳戶清單成員資格篩選器，以根據人員的帳戶是否為帳戶清單的成員來路由人員。 有兩個篩選器可供使用：
+
+| 篩選 | 說明 |
+| ------ | ----------- |
+| [!UICONTROL 帳戶動態清單的個人成員] | 此人的帳戶是否為一或多個動態帳戶清單的成員。 |
+| [!UICONTROL 帳戶靜態清單的成員] | 此人的帳戶是否為一或多個靜態帳戶清單的成員。 |
+
+若要從Nurture路徑排除已封鎖帳戶中的人員，請新增&#x200B;_[!UICONTROL 帳戶靜態清單的「人員」成員]_&#x200B;篩選器，將運運算元設定為`is not`，然後選取清單。
+
+1. 導覽至歷程圖。
+
+1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 分割路徑]**。
+
+1. 若要定義&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下[套用條件]。**&#x200B;**
+
+1. 定義帳戶清單篩選器
+
+   * 在條件編輯器中，展開&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;資料夾，並將&#x200B;**[!UICONTROL 帳戶動態清單的「人員」成員]**&#x200B;或&#x200B;**[!UICONTROL 帳戶靜態清單的「人員」成員]**&#x200B;篩選器拖曳到條件工作區。
+
+   * 若要包含帳戶在清單中的人員，請將運運算元設為`is`，或將其設為`is not`以排除這些人員。
+
+   * Select一或多個帳戶清單。
+
+     ![使用帳戶清單篩選器的個人成員分割路徑條件編輯器](./assets/account-lists-journeys-split-path-person-member-account-filter.png){width="700" zoomable="yes"}
+
+   您可以將帳戶清單成員資格篩選器與其他人員篩選器結合，並選擇符合所有條件或任何條件。 在上方套用&#x200B;**[!UICONTROL 篩選邏輯]**，以精簡條件。
+
+1. 按一下「**[!UICONTROL 完成]**」。
+
+繼續設定分割路徑節點，如[依人員新增分割路徑](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node)中所述。

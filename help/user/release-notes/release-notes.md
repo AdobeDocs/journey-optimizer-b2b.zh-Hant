@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
+source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5899'
 ht-degree: 58%
 ---
 # Journey Optimizer B2B Edition 發行說明
@@ -43,10 +43,10 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
-| 功能 | 人員清單 | 使用靜態和動態人員清單，依您定義的條件（例如人口統計屬性和體驗事件歷史記錄）來鎖定設定檔。 |
+| 功能 | 人員清單 | 使用靜態和動態人員清單，依您定義的條件（例如人口統計屬性和體驗事件歷史記錄）來鎖定設定檔。 [了解更多](../audiences/people-lists.md) |
 | 功能 | 歷程節點標籤 | 將標籤新增至歷程節點，以在歷程畫布上識別它們。 |
-| 增強功能 | 人員清單篩選器成員 | 使用&#x200B;_[!UICONTROL 人員清單成員]_&#x200B;篩選器，根據其人員清單成員資格來包含或排除設定檔。 |
-| 增強功能 | 人員清單歷程動作 | 透過帳戶和人員歷程，將人員新增至靜態人員清單或從靜態人員清單移除人員。 |
+| 增強功能 | 個人清單篩選器的成員 | 使用&#x200B;_[!UICONTROL 人員清單成員]_&#x200B;篩選器，根據其靜態或動態人員清單成員資格來包含或排除設定檔。 [了解更多](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| 增強功能 | 人員清單歷程動作 | 透過帳戶和人員歷程，將人員新增至靜態人員清單或從靜態人員清單移除人員。 [了解更多](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >這些版本變更從2026年11月6日開始，分階段推出每個功能和增強功能。 功能及增強功能的發行日期可能隨時變更。
@@ -108,7 +108,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | ---- | ---- | ----------- |
 | 功能 | 登陸頁面 | Journey Optimizer B2B Edition中有登陸頁面可支援歷程和程式&#x200B;_（原為Beta程式功能）_。 <ul><li>管理員可以設定登陸頁面子網域和預設集，以啟用登陸頁面發佈。 [了解更多](../admin/configure-channels-landing-pages.md)</li><li>行銷人員可以建立、設計和發佈登入頁面，以透過個人化的網頁內容支援其歷程。 [了解更多](../content/landing-pages.md)</li></ul> |
 | 功能 | 表單 | Journey Optimizer B2B Edition現在支援可重複使用的表單元件，以啟用從登陸頁面&#x200B;_（先前為Beta程式功能）_&#x200B;提交資料的功能。 <ul><li>管理員可使用不同的資料集和串流連線組合，設定多個表單預設集。 [了解更多](../admin/configure-channels-forms.md)</li><li>行銷人員現在可以定義可重複使用的表單元件，以擷取網頁訪客的資訊。 [了解更多](../content/forms.md)</li></ul> |
-| 功能 | 帳戶清單篩選器的成員 | 使用帳戶清單成員資格作為帳戶歷程中的協調點。 行銷人員可以建立帳戶封鎖清單、優先順序清單或其對象的任何其他型別的子集，並根據其成員資格在歷程中提供帳戶獨特的體驗。 |
+| 功能 | 帳戶清單篩選器的成員 | 使用帳戶清單成員資格作為帳戶歷程中的協調點。 行銷人員可以建立帳戶封鎖清單、優先順序清單或其對象的任何其他型別的子集，並根據其成員資格在歷程中提供帳戶獨特的體驗。 [了解更多](../accounts/account-lists-journeys.md#split-paths-member-of-account-list) |
 | 功能 | 體驗事件歷史記錄篩選 | 此功能可讓B2B歷程協調使用歷史參與度，推動受眾成員的行為型決策。 [了解更多](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | 功能 | 下一步最佳路徑歷程節點 | 您可以最佳化人員歷程的分割路徑決策，精簡在歷程啟動之前或執行階段中對象在路徑間的路由方式。 [了解更多](../journeys/next-best-path-node.md) |
 | 功能 | 電子郵件效能儀表板 | 電子郵件效能儀表板為行銷人員提供了在Adobe Journey Optimizer B2B Edition中所有歷程的電子郵件活動的統一檢視。 [了解更多](../dashboards/email-performance-dashboard.md) |

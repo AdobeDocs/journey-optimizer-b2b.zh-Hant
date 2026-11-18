@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2358'
 ht-degree: 3%
 ---
 # 採取動作
@@ -46,12 +46,12 @@ ht-degree: 3%
 | ------ | ----------- |
 | [!UICONTROL 帳戶有趣的時刻] | 型別（電子郵件、里程碑或網頁）<br/>說明（選擇性） |
 | [!UICONTROL 啟用到目的地] | 選取目的地 |
-| [!UICONTROL 新增帳戶至（其他）歷程] | 選取即時帳戶歷程 |
+| [!UICONTROL 新增帳戶至（其他）歷程] | Select即時帳戶歷程 |
 | [!UICONTROL 新增至帳戶清單] | 選取上線的靜態帳戶清單 |
-| 從目的地[!UICONTROL 停用] | 選取現有的虛擬對象<br/>選取目的地 |
-| [!UICONTROL 從歷程移除帳戶] | 選取即時帳戶歷程 |
-| [!UICONTROL 從帳戶清單移除] | 選取即時靜態帳戶清單 |
-| [!UICONTROL 更新帳戶設定檔] | 選取屬性<br/>新值 |
+| 從目的地[!UICONTROL 停用] | Select現有的虛擬對象<br/>Select目的地 |
+| [!UICONTROL 從歷程移除帳戶] | Select即時帳戶歷程 |
+| [!UICONTROL 從帳戶清單移除] | Select即時靜態帳戶清單 |
+| [!UICONTROL 更新帳戶設定檔] | Select屬性<br/>新值 |
 | [!UICONTROL 更新購買群組階段] | 選取方案興趣<br/>選取購買群組階段 |
 | [!UICONTROL 更新購買群組狀態] | 選取方案興趣<br/>狀態（必要，最多50個字元） |
 
@@ -93,7 +93,7 @@ ht-degree: 3%
 
 1. 在歷程畫布中選取&#x200B;_執行動作_&#x200B;節點後，將帳戶&#x200B;**上的**&#x200B;動作設定為&#x200B;**[!UICONTROL 啟用到目的地]**。
 
-1. 按一下&#x200B;**[!UICONTROL 選取目的地]**。
+1. 按一下&#x200B;**[!UICONTROL Select目的地]**。
 
    ![歷程節點 — 對帳戶採取動作 — 啟用到目的地](./assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
 
@@ -111,9 +111,9 @@ ht-degree: 3%
 
    ![歷程節點 — 對帳戶採取動作 — 從目的地功能表停用](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
 
-1. 在「**[!UICONTROL 虛擬對象]**」下，按一下「**[!UICONTROL 選取現有的虛擬對象]**」，然後選擇您要從目的地移除其帳戶的虛擬對象。
+1. 在&#x200B;**[!UICONTROL 虛擬對象]**&#x200B;底下，按一下&#x200B;**[!UICONTROL Select現有的虛擬對象]**，然後選擇您要從目的地移除其帳戶的虛擬對象。
 
-1. 在「**[!UICONTROL 從目的地]**&#x200B;停用」下，按一下「**[!UICONTROL 選取目的地]**」，然後選擇要移除帳戶的目的地。
+1. 在「**[!UICONTROL 從目的地]**&#x200B;停用」底下，按一下「**[!UICONTROL Select目的地]**」，然後選擇要從中移除帳戶的目的地。
 
    在您設定&#x200B;_從目的地_&#x200B;節點停用後，它會顯示選取的虛擬對象和目的地。
 
@@ -129,10 +129,13 @@ ht-degree: 3%
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 將人員新增至（其他）歷程] | <li>帳戶歷程（對人員的動作） <li>人員歷程 | <li>選取上線的人員歷程 |
 | | [!UICONTROL 新增至外部客戶對象] | <li>帳戶歷程 <li>人員歷程 | <li>選取外部客戶客群 |
+| | [!UICONTROL 新增至人員清單] | <li>帳戶歷程（對人員的動作） <li>人員歷程 | <li>Select靜態人員清單 |
 | | [!UICONTROL 指派給購買群組] | <li>帳戶歷程 | <li>選取解決方案興趣 <li>選取角色 |
 | | [!UICONTROL 個人有趣的時刻] | <li>帳戶歷程 <li>人員歷程 | <li>類型 <li>說明 |
 | | [!UICONTROL 個人化網頁體驗] (Beta) | <li>帳戶歷程 | <li>建立/編輯網站體驗 |
 | | [!UICONTROL 從購買群組中移除] | <li>帳戶歷程 | <li>選取解決方案興趣 |
+| | [!UICONTROL 從人員清單移除] | <li>帳戶歷程（對人員的動作） <li>人員歷程 | <li>Select靜態人員清單 |
+| | [!UICONTROL 從歷程移除人員] | <li>人員歷程 | <li>選取人員歷程 |
 | | [!UICONTROL 傳送電子郵件] | <li>帳戶歷程 <li>人員歷程 | <li>建立電子郵件 <li>傳送時間最佳化（選用，僅限個人歷程） |
 | | [!UICONTROL 傳送簡訊] | <li>帳戶歷程 | <li>建立簡訊 |
 | | [!UICONTROL 傳送WhatsApp] | <li>帳戶歷程 | <li>建立WhatsApp訊息 |
@@ -216,6 +219,16 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 +++
 
++++[!UICONTROL 新增至人員清單]
+
+使用此動作將人員新增至靜態[人員清單](../audiences/people-lists.md)。 當人員到達動作節點時，系統會將他們新增為所選清單的成員。 如果人員已是成員，該動作會遭忽略。
+
+按一下&#x200B;**[!UICONTROL Select]**&#x200B;以選擇靜態人員清單，或按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以建立新的靜態人員清單。 如需詳細資訊，請參閱[在歷程中使用人員清單](../audiences/people-lists-journeys.md)。
+
+![採取動作 — 新增至人員清單](./assets/node-action-add-to-people-list.png){width="300"}
+
++++
+
 +++[!UICONTROL 指派給購買群組]
 
 使用此動作，根據選取的解決方案興趣和角色，將人員設定檔新增至[購買群組](../buying-groups/buying-groups-overview.md)。
@@ -248,11 +261,21 @@ Journey Optimizer B2B以人物為基礎的動作，專門設計用於透過已�
 
 +++
 
++++[!UICONTROL 從人員清單移除]
+
+使用此動作從靜態[人員清單](../audiences/people-lists.md)移除人員。 當人員到達動作節點時，系統會將他們從選取的清單中移除。 如果人員不是成員，該動作會被忽略。
+
+按一下&#x200B;**[!UICONTROL Select]**&#x200B;以選擇靜態人員清單。 如需詳細資訊，請參閱[在歷程中使用人員清單](../audiences/people-lists-journeys.md)。
+
+![採取動作 — 從人員清單移除](./assets/node-action-remove-from-people-list.png){width="300"}
+
++++
+
 +++[!UICONTROL 從歷程移除人員]
 
 使用此動作從個人歷程中移除個人設定檔。 當人員進入動作節點時，系統會將其移除，作為指定人員歷程的對象成員。
 
-使用&#x200B;**[!UICONTROL 選取個人歷程]**&#x200B;選取器來指定要移除個人設定檔的個人歷程。 您可以在欄位中輸入文字以篩選清單。
+使用&#x200B;**[!UICONTROL Select個人歷程]**&#x200B;選擇器來指定您要移除個人設定檔的個人歷程。 您可以在欄位中輸入文字以篩選清單。
 
 ![採取動作 — 將人員從歷程移除](./assets/node-action-remove-from-person-journey.png){width="300"}
 
