@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 執行動作]**。
 
-1. （僅限帳戶歷程）Select ]_**[!UICONTROL 人員]**選項上的_[!UICONTROL &#x200B;動作。
+1. （僅限帳戶歷程）Select _&#x200B;**[!UICONTROL 人員]**&#x200B;選項上的_&#x200B;動作。
 
 1. 若要對人員執行&#x200B;_[!UICONTROL 動作]_，請選擇&#x200B;**[!UICONTROL 新增至人員清單]**。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 執行動作]**。
 
-1. （僅限帳戶歷程）Select ]_**[!UICONTROL 人員]**選項上的_[!UICONTROL &#x200B;動作。
+1. （僅限帳戶歷程）Select _&#x200B;**[!UICONTROL 人員]**&#x200B;選項上的_&#x200B;動作。
 
 1. 若要對人員執行&#x200B;_[!UICONTROL 動作]_，請選擇&#x200B;**[!UICONTROL 從人員清單移除]**。
 
@@ -111,11 +111,11 @@ ht-degree: 0%
 
    * 在右側的節點屬性中，選擇&#x200B;**[!UICONTROL 人員]**&#x200B;進行分割。
 
-   * 將用於條件&#x200B;]**的**[!UICONTROL &#x200B;屬性設定為僅限&#x200B;**[!UICONTROL 人員屬性]**。
+   * 將用於條件&#x200B;**的**&#x200B;屬性設定為僅限&#x200B;**[!UICONTROL 人員屬性]**。
 
    ![帳戶歷程 — 分割路徑節點 — 人員屬性](../journeys/assets/node-split-path-account-journey-people-attributes.png){width="300" zoomable="no"}
 
-1. 若要定義&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下[套用條件]。****
+1. 若要定義&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下[套用條件]。**&#x200B;**
 
 1. 在條件編輯器中，展開&#x200B;_[!UICONTROL 特殊篩選器]_&#x200B;資料夾，並將&#x200B;**[!UICONTROL 人員動態清單的人員成員]**&#x200B;或&#x200B;**[!UICONTROL 人員靜態清單的人員成員]**&#x200B;篩選器拖曳到條件工作區。
 

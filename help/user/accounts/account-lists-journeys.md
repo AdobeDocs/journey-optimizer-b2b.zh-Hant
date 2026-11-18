@@ -58,9 +58,9 @@ ht-degree: 0%
 >
 >如果節點執行時帳戶已在清單中，則會忽略動作。
 
-1. 在&#x200B;]_**[!UICONTROL 帳戶]**選項上Select_[!UICONTROL &#x200B;動作。
+1. 在&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;選項上Select_&#x200B;動作。
 
-1. 若為帳戶&#x200B;]_上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至帳戶清單]**。
+1. 若為帳戶&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 新增至帳戶清單]**。
 
    ![Select新增至帳戶清單](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 >
 >如果帳戶不在排定移除的清單中，則會忽略動作。
 
-1. 在&#x200B;]_**[!UICONTROL 帳戶]**選項上Select_[!UICONTROL &#x200B;動作。
+1. 在&#x200B;_&#x200B;**[!UICONTROL 帳戶]**&#x200B;選項上Select_&#x200B;動作。
 
-1. 若為帳戶&#x200B;]_上的_[!UICONTROL &#x200B;動作，請選擇&#x200B;**[!UICONTROL 從帳戶清單移除]**。
+1. 若為帳戶&#x200B;_上的_&#x200B;動作，請選擇&#x200B;**[!UICONTROL 從帳戶清單移除]**。
 
    ![Select從帳戶清單移除](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 在右側的節點屬性中，選擇&#x200B;**[!UICONTROL 帳戶]**&#x200B;進行分割。
 
-1. 若要定義&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下[套用條件]。****
+1. 若要定義&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下[套用條件]。**&#x200B;**
 
 1. 定義帳戶清單篩選器。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 1. 按一下路徑上的加號( **+** )圖示，然後選擇&#x200B;**[!UICONTROL 分割路徑]**。
 
-1. 若要定義&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下[套用條件]。****
+1. 若要定義&#x200B;_[!UICONTROL 路徑1]_&#x200B;的條件，請按一下[套用條件]。**&#x200B;**
 
 1. 定義帳戶清單篩選器
 
