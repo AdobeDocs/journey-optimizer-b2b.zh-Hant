@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5899'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Journey Optimizer B2B Edition 發行說明
@@ -44,7 +44,7 @@ Journey Optimizer B2B Edition 在 [!DNL Adobe Experience Platform] 以原生方�
 | 類型 | 項目 | 說明 |
 | ---- | ---- | ----------- |
 | 功能 | 人員清單 | 使用靜態和動態人員清單，依您定義的條件（例如人口統計屬性和體驗事件歷史記錄）來鎖定設定檔。 [了解更多](../audiences/people-lists.md) |
-| 功能 | 歷程節點標籤 | 將標籤新增至歷程節點，以在歷程畫布上識別它們。 |
+| 功能 | 歷程節點標籤 | 將標籤新增至歷程節點，以在歷程畫布上識別它們。 [了解更多](../journeys/create-publish-journey.md#label-a-node)。 |
 | 增強功能 | 個人清單篩選器的成員 | 使用&#x200B;_[!UICONTROL 人員清單成員]_&#x200B;篩選器，根據其靜態或動態人員清單成員資格來包含或排除設定檔。 [了解更多](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | 增強功能 | 人員清單歷程動作 | 透過帳戶和人員歷程，將人員新增至靜態人員清單或從靜態人員清單移除人員。 [了解更多](../journeys/action-nodes.md#people-actions) |
 
