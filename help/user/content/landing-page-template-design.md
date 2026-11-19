@@ -31,14 +31,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 7%
 ---
 # 設計登陸頁面範本
 
-在您[建立登入頁面範本](./landing-page-templates.md#create-a-landing-page-template)之後，請使用視覺設計空間來編寫頁面範本中的結構和內容元件。
+在您[建立登入頁面範本](./landing-page-templates.md#create-a-landing-page-template)之後，請使用視覺化設計空間來定義頁面範本的版面配置和內容。
+
+## 新增模組
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 新增結構和內容 {#structure-content-landing-page}
 

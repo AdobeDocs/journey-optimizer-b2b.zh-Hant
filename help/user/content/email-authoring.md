@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1373'
 ht-degree: 2%
 ---
 # 電子郵件訊息製作
@@ -102,6 +102,10 @@ ht-degree: 2%
 >[!NOTE]
 >
 > 儲存的範本可以將治理（內容鎖定）設定套用到一個或多個元件。 當您[從受控制的範本](./email-authoring-governance.md)撰寫電子郵件時，視覺化設計空間會提供鎖定元件的相關准則。
+
+## 新增模組
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 新增結構和內容 {#structure-content}
 
