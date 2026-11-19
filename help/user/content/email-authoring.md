@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1373'
 ht-degree: 2%
 ---
 # 電子郵件訊息製作
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 按一下右側面板上&#x200B;_[!UICONTROL 詳細資料]_&#x200B;索引標籤中的&#x200B;**[!UICONTROL 編輯電子郵件內容]**。
 
-![按一下[編輯電子郵件內容] &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![按一下[編輯電子郵件內容] ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 此動作會啟動電子郵件設計工具，您可在其中從下列選項中選擇要如何設計電子郵件：
 
@@ -81,7 +81,7 @@ ht-degree: 2%
 >You cannot revert back to the visual design space for this email after switching to the code editor. 
 -->
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容
 
@@ -103,6 +103,10 @@ ht-degree: 2%
 >
 > 儲存的範本可以將治理（內容鎖定）設定套用到一個或多個元件。 當您[從受控制的範本](./email-authoring-governance.md)撰寫電子郵件時，視覺化設計空間會提供鎖定元件的相關准則。
 
+## 新增模組
+
+{{$include /help/_includes/content-design-modules.md}}
+
 ## 新增結構和內容 {#structure-content}
 
 {{$include /help/_includes/content-design-components.md}}
@@ -115,7 +119,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容[&#128279;](./template-content-governance.md)的範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ![存取內文樣式](./assets/email-body-styles.png){width="800" zoomable="yes"}
 

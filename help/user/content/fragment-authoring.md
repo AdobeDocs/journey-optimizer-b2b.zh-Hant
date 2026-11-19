@@ -30,14 +30,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 6%
 ---
 # 片段編寫
 
-在您[建立片段](./fragments.md#create-fragments)後，請使用視覺設計空間來編寫片段中的結構和內容元件。
+在您[建立片段](./fragments.md#create-fragments)之後，請使用視覺設計空間來定義片段的版面配置和內容。
+
+## 新增模組
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 新增結構和內容 {#design-fragment}
 

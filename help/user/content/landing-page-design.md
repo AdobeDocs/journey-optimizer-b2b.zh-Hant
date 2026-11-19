@@ -32,14 +32,18 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '412'
 ht-degree: 3%
 ---
 # 登陸頁面設計
 
-在您[建立登入頁面](./landing-pages-create-publish.md#create-landing-page)之後，請使用視覺設計空間來編寫頁面中的結構和內容元件。
+在您[建立登入頁面](./landing-pages-create-publish.md#create-landing-page)之後，請使用視覺化設計空間來定義頁面的版面配置和內容。
+
+## 新增模組
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 新增結構和內容 {#structure-content-landing-page}
 
@@ -89,7 +93,7 @@ ht-degree: 3%
 
 ### 儲存您的工作
 
-隨時按一下「儲存」**&#x200B;**&#x200B;以儲存草稿登陸頁面。
+隨時按一下「儲存」****&#x200B;以儲存草稿登陸頁面。
 
 您可以繼續編輯草稿頁面。 當您準備好顯示頁面，並可在電子郵件或簡訊訊息中供連結使用時，即可發佈頁面。
 
