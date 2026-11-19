@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 262e06bce2cf9698731eda2cb0a3436c5080fddf
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 26%
+source-wordcount: '1103'
+ht-degree: 23%
 ---
 # Adobe Journey Optimizer B2B Edition 文件
 
@@ -27,6 +27,18 @@ ht-degree: 26%
 
 >[!BEGINTABS]
 
+>[!TAB 人員清單]
+
+建立可重複使用的靜態和動態人物清單，使用人口統計屬性和體驗事件歷史記錄來定位設定檔。 使用清單成員資格，以經由帳戶和個人歷程路由人員。 使用歷程動作在靜態清單中新增或移除人員。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/audiences/people-lists.md" tooltip="瞭解人員清單"}
+
+>[!TAB 歷程節點標籤]
+
+將顯示標籤新增至帳戶和人員歷程中的節點，以區分類似步驟並釐清其在歷程畫布上的用途。
+
+[!BADGE 了解更多]{type=Informative url="/help/user/journeys/create-publish-journey.md#label-a-node" tooltip="瞭解歷程節點標籤"}
+
 >[!TAB 個人歷程]
 
 透過個人歷程協調銷售機會型行銷，使用[!DNL Adobe Experience Platform]對象和資料與個人互動。 個人歷程現在支援&#x200B;_接聽事件_、外部動作和外部分割路徑節點，以及歷程重新進入。 將它們與帳戶歷程和購買群組搭配使用，以協調完整的購買歷程。
@@ -38,18 +50,6 @@ ht-degree: 26%
 根據您定義的百分比，將帳戶或人員指派至不同歷程路徑，以測試帳戶或人員歷程中的變數。 在個人歷程中，指派是決定性的，因此每個人都永遠遵循相同的路徑，這支援受控實驗。
 
 [!BADGE 了解更多]{type=Informative url="/help/user/journeys/variant-split-paths-nodes.md" tooltip="瞭解變體分割路徑"}
-
->[!TAB WhatsApp頻道]
-
-當開發人員和產品管理員設定與Meta Business Manager帳戶的整合時，行銷人員可以使用Meta Cloud API在帳戶歷程中將WhatsApp訊息作為內容管道納入。 WhatsApp加入電子郵件和簡訊，作為直接傳送歷程內容給帳戶成員的可用管道。
-
-[!BADGE 了解更多]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="瞭解WhatsApp頻道"}
-
->[!TAB 產生AI模型]
-
-為電子郵件內容產生影像時，電子郵件設計人員現在可以從標準[!DNL Firefly]模型、根據品牌特定資產訓練的自訂[!DNL Firefly]模型和核准的第三方影像模型中選擇。 從一般內容需求到品牌或專業化的使用案例，此選擇可讓團隊控制哪些型號適合其特定設計案例。
-
-[!BADGE 了解更多]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="瞭解產生AI模型選擇"}
 
 >[!TAB 傳送時間最佳化]
 
@@ -85,8 +85,9 @@ ht-degree: 26%
 
 檢閱管理員和行銷人員的[!DNL Journey Optimizer B2B Edition]入門指南。
 
-[管理員](./setup-ultimate.md)
-[位使用者](./start/get-started.md)
+[管理員檢查清單](./setup-ultimate.md)
+
+[使用者入門](./start/get-started.md)
 :::
 
 :::
@@ -122,6 +123,8 @@ ht-degree: 26%
 設計、協調、管理和最佳化個人化帳戶與個人歷程。
 
 [探索歷程](./journeys/journeys-overview.md)
+[在歷程中使用帳戶清單](./accounts/account-lists-journeys.md)
+[在歷程中使用人員清單](./audiences/people-lists-journeys.md)
 :::
 
 :::
@@ -132,6 +135,7 @@ ht-degree: 26%
 針對有效鎖定目標而建立、管理和最佳化購買群組的詳細指引。
 
 [瞭解購買群組](./buying-groups/buying-groups-overview.md)
+[建立購買群組](./buying-groups/buying-groups-create.md)
 :::
 
 ::::
@@ -167,8 +171,8 @@ Learn how to author and manage content for personalized customer experiences orc
       <strong>購買群組</strong><br/><a href="./buying-groups/buying-groups-overview.md">購買群組概觀</a><br/><a href="./buying-groups/buying-groups-role-templates.md">角色範本</a><br/><a href="./buying-groups/solution-interests.md">解決方案興趣</a><br/><a href="./buying-groups/buying-groups-create.md">建立購買群組</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="帳戶歷程"><br/>
-      <strong>帳戶歷程</strong><br/><a href="./journeys/journeys-overview.md">歷程概觀</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">建立帳戶歷程</a><br/><a href="./journeys/journey-nodes.md">歷程節點</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="歷程"><br/>
+      <strong>歷程</strong><br/><a href="./journeys/journeys-overview.md">歷程概觀</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">建立帳戶或個人歷程</a><br/><a href="./journeys/journey-nodes.md">歷程節點</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -184,8 +188,7 @@ Learn how to author and manage content for personalized customer experiences orc
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="洞察和儀表板"><br/>
       <strong>分析</strong><br/><a href="./dashboards/intelligent-dashboard.md">智慧型儀表板</a><br/><a href="./dashboards/engagement-dashboard.md">參與儀表板</a><br/><a href="./dashboards/buying-groups-dashboard.md">購買群組儀表板</a><br/><a href="./dashboards/journeys-dashboard.md">歷程儀表板</a><br/><a href="./buying-groups/incrm-insights.md">In-CRM Insights</a>
     </td>
-
-</tr>
+   </tr>
 </table>
 
 >[!BEGINSHADEBOX]
