@@ -23,9 +23,9 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
 autotag-review: '2026-09-29T00:00:00.000Z'
-source-git-commit: 801025ee02617d56fc8ab933b59385bca38f5097
+source-git-commit: ddeb4c1a777efa3449470a32784065a14eb6e7d1
 workflow-type: tm+mt
-source-wordcount: '4845'
+source-wordcount: '4862'
 ht-degree: 6%
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 6%
 
 +++實體關係圖
 
-已匯出至[!DNL Adobe Experience Platform]![&#128279;](./assets/ajo-b2b-data-model.svg)的資料集的實體關係圖
+已匯出至[!DNL Adobe Experience Platform]](./assets/ajo-b2b-data-model.svg)的資料集的![實體關係圖
 
 +++
 
@@ -388,6 +388,12 @@ ht-degree: 6%
 
 ### 電子郵件取消訂閱(`directMarketing.emailUnsubscribed`)
 
+電子郵件取消訂閱事件源自[!DNL Adobe Marketo Engage]，已匯入[!DNL Journey Optimizer B2B Edition]。
+
+>[!NOTE]
+>
+>對於此事件，`_experience.journeyOrchestration.stepEvents.journeyID`和`_experience.journeyOrchestration.stepEvents.nodeID`永遠是空的。
+
 | 欄位名稱 | 關係 | 它告訴您的內容 |
 |------------|-------------|-------------|
 | `_id` | 記錄ID | 活動識別碼。 |
@@ -404,8 +410,8 @@ ht-degree: 6%
 | `directMarketing.mailingKey.sourceKey` |  | 完整的電子郵件內容識別碼。 |
 | `directMarketing.mailingName` |  | 郵寄名稱。 |
 | `directMarketing.email` |  | 電子郵件地址。 |
-| `_experience.journeyOrchestration.stepEvents.journeyID` | 符合`AJOB2B-1_5_4-person_journey` (`_id`) | 歷程ID （若已歸因）。 |
-| `_experience.journeyOrchestration.stepEvents.nodeID` | 符合`AJOB2B-1_5_4-person_journey_node` (`_id`) | 歷程節點ID （如果已歸因）。 |
+| `_experience.journeyOrchestration.stepEvents.journeyID` |  | 電子郵件取消訂閱事件一律留空。 |
+| `_experience.journeyOrchestration.stepEvents.nodeID` |  | 電子郵件取消訂閱事件一律留空。 |
 
 ### 電子郵件已開啟(`directMarketing.emailOpened`)
 
