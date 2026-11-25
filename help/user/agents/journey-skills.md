@@ -50,7 +50,7 @@ ht-degree: 0%
 * [歷程建立指引](#journey-creation-skills)：建立之前請先準備簡報並檢閱草稿。
 * [歷程可觀察性指引](#journey-observability-skills)：詢問有關帳戶和人員如何移動使用中歷程的問題。
 
-如需開啟應用程式和開始交談的指示，請使用[同事介面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}。
+如需開啟應用程式和開始交談的指示，請使用[同事介面指南](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/ui-guide){target="_blank"}。
 
 ## 歷程建立技能 {#journey-creation-skills}
 

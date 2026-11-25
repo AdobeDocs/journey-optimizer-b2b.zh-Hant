@@ -58,7 +58,7 @@ ht-degree: 7%
 
 如需支援的歷程工作、核准要求及範例工作流程，請參閱[Adobe Journey Optimizer B2B Edition中的同事](../agents/coworker-overview.md)。
 
-如需開啟應用程式、開始交談及使用聊天功能的說明，請參閱[CX Coworker介面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}。
+如需開啟應用程式、開始交談及使用聊天功能的說明，請參閱[CX Coworker介面指南](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/ui-guide){target="_blank"}。
 
 在提交[!DNL Coworker]聊天查詢之前，先考慮您需要的查詢型別。
 
@@ -117,4 +117,4 @@ _營運深入分析_&#x200B;是指[!DNL Coworker]針對您的中繼資料物件�
 
 * [啟用AI功能存取](./enable-ai-access.md)
 * [問題指引](./question-guidance.md)
-* [CX Coworker介面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [CX Coworker介面指南](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/ui-guide){target="_blank"}
