@@ -57,7 +57,7 @@ ht-degree: 1%
 
 按一下應用程式頂端的&#x200B;_詢問[!DNL Coworker]_ （ ![詢問[!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ）圖示以開啟[!DNL Coworker]應用程式。 在聊天介面中輸入您的自然語言提示。
 
-[!DNL CX Coworker]](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}中的![對象提示
+[!DNL CX Coworker]![&#128279;](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}中的對象提示
 
 ## 對象技能焦點領域
 
