@@ -18,7 +18,7 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 5%
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 對象技能
 
-使用B2B帳戶和人員的[對象技能](../agents/audience-agent-b2b.md)，從第一方意向偵測和角色對應產生購買群組角色範本。 在引導式流程中，您可以識別連結至產品的角色、檢閱AI建議的角色與角色對應，並在發佈範本之前使用自然語言調整範本。
+使用B2B帳戶和人員的[對象技能](../agents/audience-skills-b2b.md)，從第一方意向偵測和角色對應產生購買群組角色範本。 在引導式流程中，您可以識別連結至產品的角色、檢閱AI建議的角色與角色對應，並在發佈範本之前使用自然語言調整範本。
 
 **提示嘗試：**
 
@@ -111,7 +111,7 @@ ht-degree: 5%
 
    * 從清單中選擇&#x200B;**[!UICONTROL 購買群組角色]**。
 
-     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單[&#128279;](./default-custom-roles.md#create-a-custom-role)中定義的任何自訂角色。
+     有六個預設角色： `Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`和`Other`。 此清單也包含在&#x200B;_角色_&#x200B;清單](./default-custom-roles.md#create-a-custom-role)中定義的任何[自訂角色。
 
      ![購買群組角色清單](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -121,9 +121,9 @@ ht-degree: 5%
 
      例如，具有Vital、Important和Normal角色的角色範本會轉換為100、80和60/240。
 
-   * **[!UICONTROL 新增自動指派的條件]** — 選取此核取方塊可新增條件，以便將成員自動指派給符合條件的購買群組。 如果未選取核取方塊，則不需要新增條件。
+   * **[!UICONTROL 新增自動指派的條件]** -Select此核取方塊可新增條件，讓符合條件的購買群組自動指派成員。 如果未選取核取方塊，則不需要新增條件。
 
-   * **[!UICONTROL 完整性分數所需]** — 如果您希望計算完整性分數需要角色，請選取此核取方塊。
+   * **[!UICONTROL 完整性分數必須有]** — 如果您希望計算完整性分數需要角色，請針對該角色Select此核取方塊。
 
 #### 新增自動指派條件
 
@@ -141,9 +141,9 @@ ht-degree: 5%
 
      在下列範例中，職稱屬性用於識別決策者的相符專案。 任何以`Director`或`Sr Director`開頭的標題值，都會將條件的評估為true。
 
-     使用職稱![&#128279;](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的角色範本條件範例
+     使用職稱](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}的![角色範本條件範例
 
-   * 如果已設定自訂物件與XDM關聯式結構描述[&#128279;](../admin/xdm-field-management.md#relational-schemas)中定義的人員相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
+   * 如果已設定自訂物件與XDM關聯式結構描述](../admin/xdm-field-management.md#relational-schemas)中定義的人員[相關，請展開&#x200B;**[!UICONTROL 自訂物件]**&#x200B;清單以在角色條件中使用它們。
 
      ![角色範本新增自訂物件條件](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -213,7 +213,7 @@ ht-degree: 5%
 
 如果角色範本處於&#x200B;_草稿_&#x200B;狀態，您可以將其刪除。
 
-1. 從清單中選取角色範本以開啟它。
+1. 從清單中Select角色範本以開啟它。
 
 1. 按一下右上方的&#x200B;**[!UICONTROL 刪除]**。
 
@@ -225,4 +225,4 @@ ht-degree: 5%
 
 ## 概觀影片 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453312/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

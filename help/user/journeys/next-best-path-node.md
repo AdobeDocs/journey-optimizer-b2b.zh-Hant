@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 8d51e62165a40322efc45af87bbdfcd56e8eefb9
+source-git-commit: 876251dd1b69fc768c790daf0b9b1482015d69af
 workflow-type: tm+mt
 source-wordcount: '1911'
 ht-degree: 0%
@@ -331,4 +331,4 @@ _識別會計季度最後30天評估階段活動激增的帳戶。_
 * 每個路徑指派的信賴度分數
 * 路徑層級和設定檔層級推理，包含個別設定檔的可展開細節
 
-即時結果也適用於Journey Console，並可透過[!DNL Coworker]聊天中的[Journey Observability skills](../agents/journey-agent.md#journey-observability-skills)取得。
+即時結果也適用於Journey Console，並可透過[!DNL Coworker]聊天中的[Journey Observability skills](../agents/journey-skills.md#journey-observability-skills)取得。
